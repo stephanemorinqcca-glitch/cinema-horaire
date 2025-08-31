@@ -4,7 +4,7 @@
         {
             "titre": "HEURE DE DISPARITION",
             "horaire": [
-                "2025-08-29T18:55:00"
+                "2025-08-29 | 18:55"
             ],
             "classification": "13+",
             "duree": "2h08",
@@ -17,7 +17,7 @@
         {
             "titre": "L'AGENT FAIT LA FARCE",
             "horaire": [
-                "2025-08-29T19:15:00"
+                "2025-08-29 | 19:15"
             ],
             "classification": "G",
             "duree": "1h25",
@@ -29,7 +29,7 @@
         {
             "titre": "LES MÉCHANTS II",
             "horaire": [
-                "2025-08-29T19:05:00"
+                "2025-08-29 | 19:05"
             ],
             "classification": "G",
             "duree": "1h44",
