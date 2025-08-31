@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programme des séances</title>
+  <style>
+    /* Reset basique */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      padding: 1em;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 2em;
+    }
+
+    /* Grille responsive */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5em;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Carte film */
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-content h2 {
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+      color: #2c3e50;
+      text-transform: uppercase;
+    }
+
+    .meta {
+      font-size: 0.85em;
+      color: #777;
+      margin-bottom: 0.8em;
+    }
+
+    .description {
+      flex: 1;
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-bottom: 1em;
+    }
+
+    .horaires {
+      font-size: 0.9em;
+    }
+
+    .horaires strong {
+      display: block;
+      margin-bottom: 0.4em;
+    }
+
+    .horaires ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .horaires li {
+      background: #f8f8f8;
+      margin-bottom: 0.4em;
+      padding: 0.5em;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PROGRAMME DES SÉANCES</h1>
+  <div id="grid" class="grid">
+    <!-- Les cartes films seront injectées ici -->
+  </div>
+
+  <script>
+    /**
+     * Charge films.json, génère les cartes et les insère dans la grille.
+     * Le JSON doit être placé à la racine sous films.json.
+     */
+    async function loadFilms() {
+      try {
+        const res = await fetch('films.json');
+        if (!res.ok) throw new Error('Impossible de charger films.json');
+        const data = await res.json();
+
+        const grid = document.getElementById('grid');
+        grid.innerHTML = ''; // reset
+
+        data.films.forEach(film => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <img src="${film.poster}" alt="Affiche ${film.title}">
+            <div class="card-content">
+              <h2>${film.title}</h2>
+              <div class="meta">
+                ${film.rating} | ${film.duration} | ${film.genres.join(', ')}
+              </div>
+              <div class="description">${film.description}</div>
+              <div class="horaires">
+                <strong>Horaires :</strong>
+                <ul></ul>
+              </div>
+            </div>
+          `;
+
+          const ul = card.querySelector('.horaires ul');
+          Object.entries(film.sessions).forEach(([dateStr, times]) => {
+            const d     = new Date(dateStr);
+            const opts  = { weekday: 'long', day: 'numeric', month: 'long' };
+            let label   = d.toLocaleDateString('fr-FR', opts);
+            label       = label.charAt(0).toUpperCase() + label.slice(1);
+
+            const li = document.createElement('li');
+            // on affiche "Jour — hh:mm, hh:mm DLX" par exemple
+            li.innerHTML = `<strong>${label}</strong> — ${times.join(', ')}`;
+            ul.appendChild(li);
+          });
+
+          grid.appendChild(card);
+        });
+      } catch (err) {
+        console.error(err);
+        document.getElementById('grid').innerHTML =
+          '<p>Erreur de chargement des données. Réessayez plus tard.</p>';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadFilms();                        // chargement initial
+      setInterval(loadFilms, 5 * 60 * 1000);  // rafraîchissement toutes les 5 minutes
+    });
+  </script>
+
+</body>
+</html>
