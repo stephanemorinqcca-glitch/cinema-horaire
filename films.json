@@ -1,0 +1,42 @@
+{
+    "cinema": "Cinéma Centre-Ville",
+    "films": [
+        {
+            "titre": "HEURE DE DISPARITION",
+            "horaire": [
+                "2025-08-29T18:55:00"
+            ],
+            "classification": "13+",
+            "duree": "2h08",
+            "genre": [
+                "Horreur",
+                "Suspense fantastique"
+            ],
+            "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002207"
+        },
+        {
+            "titre": "L'AGENT FAIT LA FARCE",
+            "horaire": [
+                "2025-08-29T19:15:00"
+            ],
+            "classification": "G",
+            "duree": "1h25",
+            "genre": [
+                "Comédie policière"
+            ],
+            "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002231"
+        },
+        {
+            "titre": "LES MÉCHANTS II",
+            "horaire": [
+                "2025-08-29T19:05:00"
+            ],
+            "classification": "G",
+            "duree": "1h44",
+            "genre": [
+                "Animation"
+            ],
+            "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002143"
+        }
+    ]
+}
