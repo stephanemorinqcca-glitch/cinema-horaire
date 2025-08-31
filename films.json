@@ -1,0 +1,29 @@
+{
+  "cinema": "Cinéma Centre-Ville",
+  "films": [
+    {
+      "titre": "Heure de Disparition",
+      "horaire": ["2025-08-29T18:55:00"],
+      "classification": "13+",
+      "duree": "2h08",
+      "genre": ["Horreur", "Suspense fantastique"],
+      "poster": "https://example.com/posters/heure-de-disparition.jpg"
+    },
+    {
+      "titre": "L'Agent Fait la Farce",
+      "horaire": ["2025-08-29T19:15:00"],
+      "classification": "G",
+      "duree": "1h25",
+      "genre": ["Comédie policière"],
+      "poster": "https://example.com/posters/agent-fait-la-farce.jpg"
+    },
+    {
+      "titre": "Les Méchants II",
+      "horaire": ["2025-08-29T19:05:00"],
+      "classification": "G",
+      "duree": "1h44",
+      "genre": ["Animation"],
+      "poster": "https://example.com/posters/les-mechants-2.jpg"
+    }
+  ]
+}
