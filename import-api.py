@@ -23,7 +23,7 @@
 
   <script>
     // Remplace par ton vrai siteToken
-    const token = 'jjwk2hm92x8zmdt4ys4sr1vvp0';
+    const token = 'shrfm72nvm2zmr7xpsteck6b64';
 
     async function fetchSessions(startDate, endDate) {
       const url = new URL('https://api.us.veezi.com/v1/sessions');
