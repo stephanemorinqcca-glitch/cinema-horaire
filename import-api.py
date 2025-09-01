@@ -1,109 +1,62 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <title>Exporter films.json depuis Veezi</title>
-</head>
-<body>
-  <h1>Exporter la liste des films</h1>
+#!/usr/bin/env python3
+# import-api.py
 
-  <p>
-    <label>Date de début :
-      <input id="startDate" type="date" />
-    </label>
-  </p>
+import requests
+import json
+import sys
+from datetime import datetime, timedelta
 
-  <p>
-    <label>Date de fin :
-      <input id="endDate" type="date" value="2100-01-01" />
-    </label>
-  </p>
+# 1. Configuration
+TOKEN = "jjwk2hm92x8zmdt4ys4sr1vvp0"
+API_URL = "https://api.us.veezi.com/v1/sessions"
 
-  <button id="exportBtn">Exporter films.json</button>
+# Arguments optionnels : dates de début et fin
+start_date = sys.argv[1] if len(sys.argv) > 1 else datetime.today().strftime("%Y-%m-%d")
+end_date = sys.argv[2] if len(sys.argv) > 2 else (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
 
-  <script>
-    // Remplace par ton vrai siteToken
-    const token = 'shrfm72nvm2zmr7xpsteck6b64';
+# 2. Récupération des séances
+params = {
+    "startDate": start_date,
+    "endDate": end_date,
+    "cinemaId": "0",
+    "includeFilms": "true"
+}
+headers = {"VeeziAccessToken": TOKEN}
 
-    async function fetchSessions(startDate, endDate) {
-      const url = new URL('https://api.us.veezi.com/v1/sessions');
-      const params = {
-        startDate,
-        endDate,
-        cinemaId: '0',
-        includeFilms: 'true'
-      };
-      Object.entries(params).forEach(([k, v]) =>
-        url.searchParams.append(k, v)
-      );
+resp = requests.get(API_URL, params=params, headers=headers)
+resp.raise_for_status()
+sessions = resp.json()
 
-      const resp = await fetch(url.toString(), {
-        headers: { 'VeeziAccessToken': token }
-      });
-      if (!resp.ok) {
-        const txt = await resp.text();
-        throw new Error(`Erreur ${resp.status} : ${txt}`);
-      }
-      return resp.json();
-    }
-
-    function transform(sessions) {
-      const byFilm = {};
-      sessions.forEach(s => {
-        const d = new Date(s.showtime);
-        const dateStr = d.toLocaleString('fr-FR', {
-          year: 'numeric',
-          month: '2-digit',
-          day: '2-digit',
-          hour: '2-digit',
-          minute: '2-digit'
-        });
-
-        if (!byFilm[s.filmId]) {
-          byFilm[s.filmId] = {
-            titre: s.filmTitle,
-            classification: s.rating,
-            duree: s.duration,
-            genre: s.genres,
-            poster: s.filmImageUrl,
-            horaire: []
-          };
+# 3. Transformation des données
+films_map = {}
+for s in sessions:
+    fid = s["filmId"]
+    # Initialisation du film
+    if fid not in films_map:
+        films_map[fid] = {
+            "titre":          s["filmTitle"],
+            "classification": s["rating"],
+            "duree":          s["duration"],
+            "genre":          s["genres"],
+            "poster":         s.get("filmImageUrl"),
+            "horaire":        []
         }
-        byFilm[s.filmId].horaire.push(dateStr);
-      });
+    # Ajout de l’horaire formaté
+    dt = datetime.fromisoformat(s["showtime"])
+    films_map[fid]["horaire"].append(dt.strftime("%d/%m/%Y %H:%M"))
 
-      return {
-        cinema: 'Cinéma Centre-Ville',
-        films: Object.values(byFilm).map(f => ({
-          ...f,
-          horaire: f.horaire.sort()
-        }))
-      };
-    }
+# Trie des horaires et mise en forme finale
+output = {
+    "cinema": "Cinéma Centre-Ville",
+    "last_updated": datetime.utcnow().isoformat() + "Z",
+    "films": [
+        { **film, "horaire": sorted(film["horaire"]) }
+        for film in films_map.values()
+    ]
+}
 
-    function downloadJSON(data) {
-      const blob = new Blob(
-        [JSON.stringify(data, null, 2)],
-        { type: 'application/json' }
-      );
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'films.json';
-      a.click();
-    }
+# 4. Écriture dans films.json
+with open("films.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
 
-    document.getElementById('exportBtn').onclick = async () => {
-      try {
-        const start = document.getElementById('startDate').value
-          || new Date().toISOString().slice(0, 10);
-        const end = document.getElementById('endDate').value;
-        const sessions = await fetchSessions(start, end);
-        const data = transform(sessions);
-        downloadJSON(data);
-      } catch (e) {
-        alert(e.message);
-      }
-    };
-  </script>
-</body>
-</html>
+print(f"✅ films.json généré ({len(output['films'])} films, plages {start_date} → {end_date})")
