@@ -6,7 +6,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/1 * * * *'  # optionnel : toutes les 5 minutes
+    - cron: '*/15 * * * *'  # optionnel : toutes les 15 minutes
 
 jobs:
   build:
