@@ -1,62 +1,109 @@
 #!/usr/bin/env python3
-# import-api.py
-
-import requests
-import json
+# soap_to_films.py
 import sys
+import json
+import requests
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 # 1. Configuration
-TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
-API_URL = "https://api.us.veezi.com/v1/sessions"
+TOKEN       = "n8gzfgxf2kzmba12gtkav92g24"
+SOAP_URL    = "https://my.useast.veezi.com/WSVistaProjection/Service.svc"
+OUTPUT_FILE = "films.json"
 
-# Arguments optionnels : dates de début et fin
-start_date = sys.argv[1] if len(sys.argv) > 1 else datetime.today().strftime("%Y-%m-%d")
-end_date = sys.argv[2] if len(sys.argv) > 2 else (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
+# 2. Fonction SOAP GetSchedule
+def get_schedule_xml(start_date: str, end_date: str) -> bytes:
+    envelope = f"""<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetSchedule xmlns="http://www.veezi.com/WSVistaProjection">
+      <siteToken>{TOKEN}</siteToken>
+      <startDate>{start_date}</startDate>
+      <endDate>{end_date}</endDate>
+    </GetSchedule>
+  </soap:Body>
+</soap:Envelope>"""
+    headers = {
+        "Content-Type": "text/xml; charset=utf-8",
+        "SOAPAction": "http://www.veezi.com/WSVistaProjection/IService/GetSchedule"
+    }
+    resp = requests.post(SOAP_URL, data=envelope, headers=headers)
+    resp.raise_for_status()
+    return resp.content
 
-# 2. Récupération des séances
-params = {
-    "startDate": start_date,
-    "endDate": end_date,
-    "cinemaId": "0",
-    "includeFilms": "true"
-}
-headers = {"VeeziAccessToken": TOKEN}
+# 3. Parser XML en données Python
+def parse_schedule(xml_bytes: bytes) -> dict:
+    # Namespace SOAP + service
+    ns = {
+        "soap": "http://schemas.xmlsoap.org/soap/envelope/",
+        "v":    "http://www.veezi.com/WSVistaProjection"
+    }
+    root = ET.fromstring(xml_bytes)
+    # Descendre jusqu'à GetScheduleResult → Schedule → Session
+    sessions = root.find(".//v:GetScheduleResult/v:Schedule", ns)
+    films_map = {}
 
-resp = requests.get(API_URL, params=params, headers=headers)
-resp.raise_for_status()
-sessions = resp.json()
+    for s in sessions.findall("v:Session", ns):
+        fid       = s.findtext("v:FilmId",       default="", namespaces=ns)
+        title     = s.findtext("v:FilmTitle",    default="", namespaces=ns)
+        rating    = s.findtext("v:Rating",       default="", namespaces=ns)
+        duration  = s.findtext("v:Duration",     default="", namespaces=ns)
+        poster    = s.findtext("v:FilmImageUrl", default="", namespaces=ns)
+        # Genres multiples
+        genres_el = s.find("v:Genres", ns)
+        genres    = [g.text or "" for g in genres_el.findall("v:Genre", ns)] if genres_el is not None else []
 
-# 3. Transformation des données
-films_map = {}
-for s in sessions:
-    fid = s["filmId"]
-    # Initialisation du film
-    if fid not in films_map:
-        films_map[fid] = {
-            "titre":          s["filmTitle"],
-            "classification": s["rating"],
-            "duree":          s["duration"],
-            "genre":          s["genres"],
-            "poster":         s.get("filmImageUrl"),
-            "horaire":        []
-        }
-    # Ajout de l’horaire formaté
-    dt = datetime.fromisoformat(s["showtime"])
-    films_map[fid]["horaire"].append(dt.strftime("%d/%m/%Y %H:%M"))
+        # ShowTime en ISO → format FR
+        raw_dt = s.findtext("v:ShowTime", default="", namespaces=ns)
+        try:
+            dt        = datetime.fromisoformat(raw_dt)
+            horaire   = dt.strftime("%d/%m/%Y %H:%M")
+        except Exception:
+            horaire   = raw_dt
 
-# Trie des horaires et mise en forme finale
-output = {
-    "cinema": "Cinéma Centre-Ville",
-    "last_updated": datetime.utcnow().isoformat() + "Z",
-    "films": [
-        { **film, "horaire": sorted(film["horaire"]) }
-        for film in films_map.values()
-    ]
-}
+        # Regrouper par film
+        if fid not in films_map:
+            films_map[fid] = {
+                "titre":          title,
+                "classification": rating,
+                "duree":          duration,
+                "genre":          genres,
+                "poster":         poster,
+                "horaire":        []
+            }
+        films_map[fid]["horaire"].append(horaire)
 
-# 4. Écriture dans films.json
-with open("films.json", "w", encoding="utf-8") as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
+    return films_map
 
-print(f"✅ films.json généré ({len(output['films'])} films, plages {start_date} → {end_date})")
+# 4. Génération de films.json
+def build_and_save_json(films_map: dict):
+    output = {
+        "cinema":      "Cinéma Centre-Ville",
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "films":       []
+    }
+    for film in films_map.values():
+        film["horaire"] = sorted(film["horaire"])
+        output["films"].append(film)
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+# 5. Point d’entrée
+def main():
+    # Dates en args ou par défaut : aujourd’hui → +30 jours
+    today = datetime.today().strftime("%Y-%m-%d")
+    start = sys.argv[1] if len(sys.argv)>1 else today
+    default_end = (datetime.today() + timedelta(days=30)).strftime("%Y-%m-%d")
+    end   = sys.argv[2] if len(sys.argv)>2 else default_end
+
+    print(f"↻ Récupération des séances du {start} au {end}…")
+    xml_bytes   = get_schedule_xml(start, end)
+    films_map   = parse_schedule(xml_bytes)
+    build_and_save_json(films_map)
+    print(f"✅ {len(films_map)} films exportés dans {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    main()
