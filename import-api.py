@@ -7,7 +7,7 @@ import sys
 from datetime import datetime, timedelta
 
 # 1. Configuration
-TOKEN = "jjwk2hm92x8zmdt4ys4sr1vvp0"
+TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 API_URL = "https://api.us.veezi.com/v1/sessions"
 
 # Arguments optionnels : dates de début et fin
