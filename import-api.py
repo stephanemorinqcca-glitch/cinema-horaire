@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 # 1. Configuration
-TOKEN       = "n8gzfgxf2kzmba12gtkav92g24"
+TOKEN       = "shrfm72nvm2zmr7xpsteck6b64"
 SOAP_URL    = "https://my.useast.veezi.com/WSVistaProjection/Service.svc"
 OUTPUT_FILE = "films.json"
 
