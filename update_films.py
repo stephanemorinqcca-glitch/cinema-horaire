@@ -17,7 +17,6 @@ def fetch_sessions():
         "VeeziAccessToken": SITE_TOKEN
     }
 
-    
     params = {
     "startDate": date.today().isoformat(),
     "endDate": "2100-01-01",
