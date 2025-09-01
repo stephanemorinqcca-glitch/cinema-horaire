@@ -26,7 +26,14 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-
+       
+       - name: Download page for debug
+       run: |
+         curl -sL https://stephanemorinqcca-glitch.github.io/cinema-horaire/ > page.html
+         echo "==== Début page.html ===="
+         head -n50 page.html
+         echo "==== Fin page.html ===="
+         
       - name: Run update_films.py
         run: python update_films.py
 
