@@ -19,7 +19,7 @@ def fetch_sessions():
     params = {
         "startDate": date.today().isoformat(),
         "endDate": "2100-01-01",
-        "cinemaId": "0",
+        "cinemaId": "1",
         "includeFilms": "true"
     }
     try:
