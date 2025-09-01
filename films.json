@@ -30,7 +30,7 @@
     },
     {
       "title": "Les Méchants II",
-      "poster": "affiche-mechants2.jpg",
+      "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002143",
       "rating": "G",
       "duration": "1h44",
       "genres": ["Animation"],
@@ -44,7 +44,7 @@
     },
     {
       "title": "Les Rose",
-      "poster": "affiche-les-rose.jpg",
+      "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002241",
       "rating": "13+",
       "duration": "1h45",
       "genres": ["Comédie noire"],
@@ -58,7 +58,7 @@
     },
     {
       "title": "Monde Jurassique : Renaissance",
-      "poster": "affiche-jurassique.jpg",
+      "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002191",
       "rating": "G",
       "duration": "2h13",
       "genres": ["Aventures fantastiques"],
@@ -72,7 +72,7 @@
     },
     {
       "title": "Pris au piège",
-      "poster": "affiche-pris-piege.jpg",
+      "poster": "https://ticketing.useast.veezi.com/Media/Poster?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0&code=0000002266",
       "rating": "13+",
       "duration": "1h47",
       "genres": ["Violence", "Langage vulgaire", "Gangsters"],
