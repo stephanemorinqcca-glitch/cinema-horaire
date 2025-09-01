@@ -8,46 +8,52 @@ import requests
 import json
 from datetime import date
 import arrow
+import os
 
-API_URL    = "https://api.us.veezi.com/v1/sessions"
-SITE_TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
+# 1. Corrige l'endpoint selon ta région Veezi
+#    - US East    : https://api.useast.veezi.com/v1/sessions
+#    - Europe     : https://api.eu.veezi.com/v1/sessions
+#    - US West    : https://api.uswest.veezi.com/v1/sessions
+API_URL = os.getenv("VEEZI_API_URL",
+    "https://api.useast.veezi.com/v1/sessions"
+)
+SITE_TOKEN = os.getenv("VEEZI_TOKEN", "shrfm72nvm2zmr7xpsteck6b64")
 
 def fetch_sessions():
     headers = {
         "VeeziAccessToken": SITE_TOKEN
     }
-    # Pagination : pageSize maximale et numéro de page
     params = {
-        "startDate":  date.today().isoformat(),
-        "endDate":    "2100-01-01",
+        "startDate":    date.today().isoformat(),
+        "endDate":      "2100-01-01",
         "includeFilms": "true",
-        "pageSize":   500,
-        "pageNumber": 1
+        "pageSize":     500,
+        "pageNumber":   1
     }
 
     all_sessions = []
     while True:
         try:
-            resp = requests.get(API_URL, headers=headers, params=params)
+            resp = requests.get(API_URL, headers=headers, params=params, timeout=10)
             resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"Erreur réseau / HTTP : {e}")
+        except requests.HTTPError as http_err:
+            print(f"Erreur HTTP : {http_err} → {resp.url}")
+            break
+        except requests.RequestException as req_err:
+            print(f"Erreur réseau : {req_err}")
             break
 
-        # DEBUG → URL complète et code HTTP
         print(f"→ GET {resp.url} | status {resp.status_code}")
 
-        # Parser le JSON et debugger
-        if "application/json" in resp.headers.get("Content-Type", ""):
-            page_data = resp.json()
-            count = len(page_data) if isinstance(page_data, list) else 0
-            print(f"→ page {params['pageNumber']} : {count} séances récupérées")
-        else:
-            print("La réponse n'est pas en JSON. Contenu reçu :")
-            print(resp.text[:500])
+        # On s’assure d’un JSON en retour
+        if "application/json" not in resp.headers.get("Content-Type", ""):
+            print("Réponse non JSON, contenu partiel :\n", resp.text[:200])
             break
 
-        # Si plus de données, on les accumule, sinon on sort
+        page_data = resp.json()
+        count = len(page_data) if isinstance(page_data, list) else 0
+        print(f"→ page {params['pageNumber']}: {count} séances récupérées")
+
         if not page_data:
             break
 
@@ -58,43 +64,39 @@ def fetch_sessions():
     return all_sessions
 
 def transform_data(sessions):
-    films_dict = {}
-
-    for session in sessions:
-        film_id      = session.get("filmId")
-        title        = session.get("filmTitle")
-        showtime_iso = session.get("showtime")
-        classification = session.get("rating", "")
-        duration     = session.get("duration", "")
-        genres       = session.get("genres", [])
-        poster       = session.get("filmImageUrl", "")
+    films = {}
+    for sess in sessions:
+        fid     = sess.get("filmId")
+        title   = sess.get("filmTitle")
+        iso     = sess.get("showtime")
+        rating  = sess.get("rating", "")
+        duration= sess.get("duration", "")
+        genres  = sess.get("genres", [])
+        poster  = sess.get("filmImageUrl", "")
 
         try:
-            dt = arrow.get(showtime_iso)
-            showtime_str = dt.format("YYYY-MM-DD HH:mm")
+            dt = arrow.get(iso)
+            horaire = dt.format("YYYY-MM-DD HH:mm")
         except Exception as e:
-            print(f"Erreur de parsing pour {showtime_iso} → {e}")
+            print(f"Parse error pour '{iso}': {e}")
             continue
 
-        if film_id not in films_dict:
-            films_dict[film_id] = {
-                "titre":         title,
-                "horaire":       [],
-                "classification": classification,
-                "duree":         duration,
-                "genre":         genres,
-                "poster":        poster
+        if fid not in films:
+            films[fid] = {
+                "titre":          title,
+                "horaire":        [],
+                "classification": rating,
+                "duree":          duration,
+                "genre":          genres,
+                "poster":         poster
             }
+        films[fid]["horaire"].append(horaire)
 
-        films_dict[film_id]["horaire"].append(showtime_str)
-
-    # Trier les horaires par film
-    for film in films_dict.values():
+    for film in films.values():
         film["horaire"].sort()
-
     return {
         "cinema": "Cinéma Centre-Ville",
-        "films":  list(films_dict.values())
+        "films":  list(films.values())
     }
 
 def main():
@@ -102,10 +104,9 @@ def main():
     data     = transform_data(sessions)
 
     with open("films1.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-    now_str = arrow.now().format("YYYY-MM-DD HH:mm:ss")
-    print(f"Fichier films1.json mis à jour à {now_str}")
+    print("films1.json mis à jour !")
 
 if __name__ == "__main__":
     main()
