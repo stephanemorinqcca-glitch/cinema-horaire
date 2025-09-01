@@ -152,7 +152,7 @@
 
             const li = document.createElement('li');
             // on affiche "Jour — hh:mm, hh:mm DLX" par exemple
-            li.innerHTML = `<strong>${label}</strong> — ${times.join(', ')}`;
+            li.innerHTML = `<strong>${label}</strong> ${times.join(', ')}`;
             ul.appendChild(li);
           });
 
