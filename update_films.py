@@ -4,12 +4,24 @@ from datetime import datetime
 from dateutil.parser import parse
 
 API_URL = "https://api.us.veezi.com/v1/session"
+SITE_TOKEN = "jjwk2hm92x8zmdt4ys4sr1vvp0"
 
 def fetch_sessions():
+    headers = {
+        "VeeziAccessToken": SITE_TOKEN
+    }
+
     try:
-        response = requests.get(API_URL)
+        response = requests.get(API_URL, headers=headers)
         response.raise_for_status()
-        return response.json()
+
+        if "application/json" in response.headers.get("Content-Type", ""):
+            return response.json()
+        else:
+            print("La réponse n'est pas en JSON. Contenu reçu :")
+            print(response.text[:500])
+            return []
+
     except requests.RequestException as e:
         print(f"Erreur réseau : {e}")
         return []
@@ -25,7 +37,6 @@ def transform_data(sessions):
         genres = session.get("genres", [])
         poster = session.get("filmImageUrl", "")
 
-        # Tentative de parsing de l'horaire
         try:
             showtime_dt = parse(showtime)
             showtime_str = showtime_dt.strftime("%Y-%m-%d %H:%M")
@@ -45,7 +56,6 @@ def transform_data(sessions):
 
         films_dict[film_id]["horaire"].append(showtime_str)
 
-    # Tri des horaires pour chaque film
     for film in films_dict.values():
         film["horaire"].sort()
 
