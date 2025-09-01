@@ -1,12 +1,11 @@
 name: Update films.json
-
 permissions:
   contents: write
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'  # optionnel : toutes les 15 minutes
+    - cron: '*/15 * * * *'
 
 jobs:
   build:
@@ -15,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          persist-credentials: true  # permet de push via GITHUB_TOKEN
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -26,14 +25,14 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-       
-       - name: Download page for debug
-       run: |
-         curl -sL https://stephanemorinqcca-glitch.github.io/cinema-horaire/ > page.html
-         echo "==== Début page.html ===="
-         head -n50 page.html
-         echo "==== Fin page.html ===="
-         
+
+      - name: Download page for debug
+        run: |
+          curl -sL https://stephanemorinqcca-glitch.github.io/cinema-horaire/ > page.html
+          echo "==== Début page.html ===="
+          head -n50 page.html
+          echo "==== Fin page.html ===="
+
       - name: Run update_films.py
         run: python update_films.py
 
@@ -42,6 +41,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add films.json
-          # n’aura un commit que si films.json a changé
           git diff --quiet --cached || git commit -m "chore: mise à jour de films.json"
           git push
