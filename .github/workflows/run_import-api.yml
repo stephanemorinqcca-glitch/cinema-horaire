@@ -1,5 +1,5 @@
 # .github/workflows/run_import-api.yml
-name: Run update_films.py
+name: Run import-api.py
 
 on:
   workflow_dispatch:
