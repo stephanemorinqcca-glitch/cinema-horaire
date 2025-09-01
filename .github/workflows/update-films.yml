@@ -30,3 +30,4 @@ jobs:
           git add films.json
           git commit -m 'Mise à jour automatique des horaires'
           git push
+          
