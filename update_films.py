@@ -1,6 +1,11 @@
 import subprocess
 import sys
 
+import os
+TOKEN = os.getenv("VEEZI_ACCESS_TOKEN")
+if not TOKEN:
+    raise RuntimeError("Il manque la variable d'environnement VEEZI_ACCESS_TOKEN")
+
 # Installer les dépendances automatiquement
 subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
@@ -17,11 +22,10 @@ import os
 API_URL = os.getenv("VEEZI_API_URL",
     "https://api.useast.veezi.com/v1/sessions"
 )
-SITE_TOKEN = os.getenv("VEEZI_TOKEN", "shrfm72nvm2zmr7xpsteck6b64")
 
 def fetch_sessions():
     headers = {
-        "VeeziAccessToken": SITE_TOKEN
+        "VeeziAccessToken": TOKEN
     }
     params = {
         "startDate":    date.today().isoformat(),
