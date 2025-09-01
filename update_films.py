@@ -82,11 +82,11 @@ def transform_data(sessions):
 def main():
     sessions = fetch_sessions()
     data     = transform_data(sessions)
-    with open("films.json", "w", encoding="utf-8") as f:
+    with open("films1.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     now_str = arrow.now().format("YYYY-MM-DD HH:mm:ss")
-    print(f"Fichier films.json mis à jour à {now_str}")
+    print(f"Fichier films1.json mis à jour à {now_str}")
 
 if __name__ == "__main__":
     main()
