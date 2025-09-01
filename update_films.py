@@ -11,7 +11,7 @@ import arrow
 import os
 
 # 1. Corrige l'endpoint selon ta région Veezi
-#    - US East    : https://api.useast.veezi.com/v1/sessions
+#    - US East    : https://api.useast.veezi.com/sessions
 #    - Europe     : https://api.eu.veezi.com/v1/sessions
 #    - US West    : https://api.uswest.veezi.com/v1/sessions
 API_URL = os.getenv("VEEZI_API_URL",
