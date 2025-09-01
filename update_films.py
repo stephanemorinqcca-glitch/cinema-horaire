@@ -15,7 +15,7 @@ import os
 #    - Europe     : https://api.eu.veezi.com/v1/sessions
 #    - US West    : https://api.uswest.veezi.com/v1/sessions
 API_URL = os.getenv("VEEZI_API_URL",
-    "https://api.us.veezi.com/v1/sessions"
+    "https://api.useast.veezi.com/v1/sessions"
 )
 SITE_TOKEN = os.getenv("VEEZI_TOKEN", "shrfm72nvm2zmr7xpsteck6b64")
 
