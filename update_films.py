@@ -24,8 +24,13 @@ def fetch_sessions():
     try:
         response = requests.get(API_URL, headers=headers, params=params)
         response.raise_for_status()
+        # DEBUG → affiche l’URL complète et le code HTTP
+        print(f"→ GET {response.url}  | status {response.status_code}")
         if "application/json" in response.headers.get("Content-Type", ""):
-            return response.json()
+            # DEBUG → nombre d'éléments renvoyés
+           print("→ JSON récupéré:", 
+           isinstance(data, list) and f"{len(data)} sessions" or type(data))
+           return response.json()
         else:
             print("La réponse n'est pas en JSON. Contenu reçu :")
             print(response.text[:500])
