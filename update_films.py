@@ -36,8 +36,11 @@ def fetch_sessions():
         try:
             resp = requests.get(API_URL, headers=headers, params=params, timeout=10)
             print(resp.status_code, resp.headers.get("content-type"))
+            if resp.status_code != 200:
+                print("Réponse brute:", resp.text)
+                resp.raise_for_status()
+            data = resp.json()
             print(resp.json())
-            resp.raise_for_status()
         except requests.HTTPError as http_err:
             print(f"Erreur HTTP : {http_err} → {resp.url}")
             break
