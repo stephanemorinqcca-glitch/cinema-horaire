@@ -9,7 +9,7 @@ import json
 from datetime import datetime, date
 import arrow
 
-API_URL = "https://api.useast.veezi.com/v1/sessions"
+API_URL = "https://api.us.veezi.com/v1/sessions"
 SITE_TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 
 def fetch_sessions():
