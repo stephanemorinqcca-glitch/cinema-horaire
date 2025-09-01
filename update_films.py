@@ -9,7 +9,6 @@ import sys
 # Installer les dépendances automatiquement
 subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
-
 API_URL = "https://api.us.veezi.com/v1/sessions"
 SITE_TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 
