@@ -17,10 +17,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Installer les dépendances
-        run: |
-          pip install requests python-dateutil
-
       - name: Exécuter le script
         run: python update_films.py
 
