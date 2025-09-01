@@ -15,7 +15,7 @@ import os
 #    - Europe     : https://api.eu.veezi.com/v1/sessions
 #    - US West    : https://api.uswest.veezi.com/v1/sessions
 API_URL = os.getenv("VEEZI_API_URL",
-    "https://api.us.veezi.com/sessions"
+    "https://api.us.veezi.com/v1/sessions"
 )
 SITE_TOKEN = os.getenv("VEEZI_TOKEN", "shrfm72nvm2zmr7xpsteck6b64")
 
@@ -35,6 +35,8 @@ def fetch_sessions():
     while True:
         try:
             resp = requests.get(API_URL, headers=headers, params=params, timeout=10)
+            print(resp.status_code, resp.headers.get("content-type"))
+            print(resp.json())
             resp.raise_for_status()
         except requests.HTTPError as http_err:
             print(f"Erreur HTTP : {http_err} → {resp.url}")
