@@ -4,7 +4,7 @@ from datetime import datetime
 from dateutil.parser import parse
 
 API_URL = "https://api.us.veezi.com/v1/sessions"
-SITE_TOKEN = "jjwk2hm92x8zmdt4ys4sr1vvp0"
+SITE_TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 
 def fetch_sessions():
     headers = {
