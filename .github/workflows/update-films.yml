@@ -1,29 +1,37 @@
-name: Mise à jour des films
+name: Update films.json
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '*/1 * * * *'  # optionnel : toutes les 5 minutes
 
 jobs:
-  update-films:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout dépôt
+      - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true  # permet de push via GITHUB_TOKEN
 
-      - name: Installer Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Exécuter le script
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run update_films.py
         run: python update_films.py
 
-      - name: Commit et push
+      - name: Commit & push films.json
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add films.json
-          git commit -m 'Mise à jour automatique des horaires'
+          # n’aura un commit que si films.json a changé
+          git diff --quiet --cached || git commit -m "chore: mise à jour de films.json"
           git push
