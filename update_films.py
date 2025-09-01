@@ -1,15 +1,17 @@
 import requests
 import json
 from datetime import datetime
+from dateutil.parser import parse
 
 API_URL = "https://ticketing.useast.veezi.com/sessions/?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0"
 
 def fetch_sessions():
-    response = requests.get(API_URL)
-    if response.status_code == 200:
+    try:
+        response = requests.get(API_URL)
+        response.raise_for_status()
         return response.json()
-    else:
-        print(f"Erreur lors de la récupération des données : {response.status_code}")
+    except requests.RequestException as e:
+        print(f"Erreur réseau : {e}")
         return []
 
 def transform_data(sessions):
@@ -23,6 +25,14 @@ def transform_data(sessions):
         genres = session.get("genres", [])
         poster = session.get("filmImageUrl", "")
 
+        # Tentative de parsing de l'horaire
+        try:
+            showtime_dt = parse(showtime)
+            showtime_str = showtime_dt.strftime("%Y-%m-%d %H:%M")
+        except Exception as e:
+            print(f"Erreur de parsing pour l'horaire : {showtime} - {e}")
+            continue
+
         if film_id not in films_dict:
             films_dict[film_id] = {
                 "titre": title,
@@ -33,7 +43,11 @@ def transform_data(sessions):
                 "poster": poster
             }
 
-        films_dict[film_id]["horaire"].append(showtime)
+        films_dict[film_id]["horaire"].append(showtime_str)
+
+    # Tri des horaires pour chaque film
+    for film in films_dict.values():
+        film["horaire"].sort()
 
     return {
         "cinema": "Cinéma Centre-Ville",
