@@ -20,7 +20,7 @@ import os
 #    - Europe     : https://api.eu.veezi.com/v1/sessions
 #    - US West    : https://api.uswest.veezi.com/v1/sessions
 API_URL = os.getenv("VEEZI_API_URL",
-    "https://api.useast.veezi.com/v1/sessions"
+    "https://api.useast.veezi.com/api/v1/sessions"
 )
 
 def fetch_sessions():
@@ -39,10 +39,12 @@ def fetch_sessions():
     while True:
         try:
             resp = requests.get(API_URL, headers=headers, params=params, timeout=10)
-            print(resp.status_code, resp.headers.get("content-type"))
-            if resp.status_code != 200:
-                print("Réponse brute:", resp.text)
-                resp.raise_for_status()
+            print("→ URL appelée :", resp.request.url)
+            print("→ En-têtes envoyés :", resp.request.headers)
+            print("→ Code reçu :", resp.status_code)
+            print("→ Content-Type :", resp.headers.get("content-type"))
+            print("→ Corps brut :", resp.text[:200], "…")
+            resp.raise_for_status()
             data = resp.json()
             print(resp.json())
         except requests.HTTPError as http_err:
