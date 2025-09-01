@@ -8,6 +8,7 @@ on:
 jobs:
   update-films:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout dépôt
         uses: actions/checkout@v3
@@ -18,15 +19,18 @@ jobs:
           python-version: '3.x'
 
       - name: Installer les dépendances
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Exécuter le script
         run: python update_films.py
 
-      - name: Commit et push
+      - name: Vérifier les modifications
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add films.json
-          git commit -m 'Mise à jour automatique des horaires'
-          git push
+          if git diff --cached --quiet; then
+            echo "Aucune modification à committer."
+          else
+            git commit -m 'Mise à jour automatique des horaires'
+            git push
