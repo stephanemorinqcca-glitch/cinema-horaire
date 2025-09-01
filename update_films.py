@@ -17,6 +17,14 @@ def fetch_sessions():
         "VeeziAccessToken": SITE_TOKEN
     }
 
+    
+    params = {
+    "startDate": date.today().isoformat(),
+    "endDate": "2100-01-01",
+    "cinemaId": "0",
+    "includeFilms": "true"
+    }
+
     try:
         response = requests.get(API_URL, headers=headers)
         response.raise_for_status()
