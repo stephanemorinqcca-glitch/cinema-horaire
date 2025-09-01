@@ -1,0 +1,17 @@
+# .github/workflows/run_import-api.yml
+name: Run update_films.py
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Run script
+        run: python import-api.py
