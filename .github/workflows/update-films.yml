@@ -1,5 +1,8 @@
 name: Update films.json
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   schedule:
