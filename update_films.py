@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from dateutil.parser import parse
 
-API_URL = "https://ticketing.useast.veezi.com/sessions/?siteToken=jjwk2hm92x8zmdt4ys4sr1vvp0"
+API_URL = "https://api.us.veezi.com/v1/session"
 
 def fetch_sessions():
     try:
