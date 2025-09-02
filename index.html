@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Programme des séances</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  https://fonts.googleapis.com/css?family=Roboto&display=swap
   <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <style>
     body {
@@ -55,6 +55,12 @@
       color: #555;
     }
 
+    .content {
+      font-size: 0.85em;
+      margin-bottom: 1em;
+      color: #777;
+    }
+
     .seances {
       display: flex;
       flex-wrap: wrap;
@@ -91,10 +97,8 @@
 </head>
 <body>
   <header>
-    <a href="https://www.cine-flash.com/">
-      <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
-           alt="Cinéma centre-ville Laser par BARCO"
-           width="1200" height="380">
+    <atps://www.cine-flash.com/
+      https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726
     </a>
   </header>
 
@@ -122,10 +126,17 @@
             card.appendChild(synopsis);
           }
 
+          if (film.content) {
+            const content = document.createElement("div");
+            content.className = "content";
+            content.textContent = film.content;
+            card.appendChild(content);
+          }
+
           const seancesDiv = document.createElement("div");
           seancesDiv.className = "seances";
 
-          film.seances.forEach(seance => {
+          film.horaire.forEach(seance => {
             const horaireDiv = document.createElement("div");
             horaireDiv.className = "horaire";
 
