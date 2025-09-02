@@ -106,6 +106,7 @@ def transform_data(sessions):
         duration = session.get("Duration", "")
         genres = session.get("Genres", [])
         poster = session.get("FilmImageUrl", "")
+        posterthumbnail = session.get("FilmPosterThumbnailUrl", "")
         attributes = session.get("Attributes", [])
 
         try:
@@ -126,6 +127,7 @@ def transform_data(sessions):
                 "genre": film_details.get("Genre", genres),
                 "format": film_details.get("Format", ""),
                 "affiche": film_details.get("FilmPosterUrl", poster),
+                "thumbnail": film_details.get("FilmPosterThumbnailUrl", posterthumbnail),
                 "banniere": film_details.get("BackdropImageUrl", ""),
                 "bande_annonce": film_details.get("FilmTrailerUrl", ""),
                 "content": film_details.get("Content", ""),
