@@ -1,4 +1,4 @@
-import sys
+stimport sys
 import requests
 import json
 from datetime import datetime
@@ -6,9 +6,9 @@ import arrow
 
 # Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
-SESSION_API_URL = "https://api.us.veezi.com/v1/session"
-FILM_API_URL = "https://api.us.veezi.com/v4/film/"
-ATTRIBUTE_API_URL = "https://api.us.veezi.com/v1/attribute/"
+SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
+FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
+ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
 
 # 🔍 Récupère les détails d’un film
 def fetch_film_details(fid):
