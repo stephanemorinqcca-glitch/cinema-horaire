@@ -164,12 +164,27 @@
       .then(data => {
         const legendContainer = document.getElementById("legende");
         data.legende.forEach(attr => {
-          const badge = document.createElement("span");
-          badge.className.Description;
-          badge.style.color = attr.FontColor;
-          badge.style.backgroundColor = attr.BackgroundColor;
-          legendContainer.appendChild(badge);
-        });
+        const wrapper = document.createElement("div");
+        wrapper.style.display = "flex";
+        wrapper.style.alignItems = "center";
+        wrapper.style.gap = "8px";
+
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = attr.ShortName;
+        badge.style.color = attr.FontColor;
+        badge.style.backgroundColor = attr.BackgroundColor;
+
+        const description = document.createElement("span");
+        description.style.fontSize = "0.85em";
+        description.style.color = "#ccc";
+        description.textContent = attr.Description;
+
+        wrapper.appendChild(badge);
+        wrapper.appendChild(description);
+        legendContainer.appendChild(wrapper);
+      });
+
 
         const container = document.getElementById("films");
         data.films.forEach(film => {
