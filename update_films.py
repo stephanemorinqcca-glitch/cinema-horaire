@@ -58,9 +58,13 @@ def fetch_sessions():
 def transform_data(sessions):
     films_dict = {}
     for session in sessions:
+        showtime = session.get("showtime")
+        if not showtime:
+            print("Erreur de format de date pour None: Cannot parse argument of type None.")
+            continue
+
         film_id = session.get("filmId")
         title = session.get("filmTitle")
-        showtime = session.get("showtime")
         rating = session.get("rating", "")
         duration = session.get("duration", "")
         genres = session.get("genres", [])
