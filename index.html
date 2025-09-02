@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1200">
   <title>Programme des séances</title>
- <link href="https://fonts.googleapis.com/css2to&display=swap
-  <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheetontent="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
@@ -134,13 +133,15 @@
   </style>
 </head>
 <body>
- <header>
+  <header>
     <a href="https://www.cine-flash.com/">
       <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
            alt="Cinéma centre-ville Laser par BARCO"
            width="1200" height="380">
     </a>
   </header>
+
+  <div class="date" id="date"></div>
 
   <div class="legende" id="legende"></div>
 
@@ -149,7 +150,6 @@
   <div class="grid" id="films"></div>
 
   <script>
-    // 📅 Affiche la date au format "Mardi 2, Septembre"
     const jours = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
     const mois = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
     const aujourdHui = new Date();
@@ -158,9 +158,8 @@
     const moisNom = mois[aujourdHui.getMonth()];
     document.getElementById("date").textContent = `${jourNom} ${jourNum}, ${moisNom}`;
 
-    // 🎬 Charge et affiche les films depuis films.json
     fetch("films.json")
-     then(response => response.json())
+      .then(response => response.json())
       .then(data => {
         const legendContainer = document.getElementById("legende");
         data.legende.forEach(attr => {
@@ -232,8 +231,8 @@
             horaireDiv.className = "horaire";
 
             const parts = seance.horaire.split(" ");
-            const heure = parts[0];
-            const attributs = parts.slice(1).sort();
+            const heure = parts[1];
+            const attributs = parts.slice(2).sort();
 
             horaireDiv.textContent = heure;
 
