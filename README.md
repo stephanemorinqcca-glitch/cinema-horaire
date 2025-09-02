@@ -18,4 +18,4 @@ Ce projet affiche les horaires des films pour le Cinéma Centre-Ville.
 
 ## Automatisation
 
-Le fichier `update-films.yml` exécute le script toutes les 5 minutes pour mettre à jour `films.json`.
+Le fichier `update-films.yml` exécute le script toutes les 5 minutes pour mettre à jour `films.json` avec VEEZI REST API
