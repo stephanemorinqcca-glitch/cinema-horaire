@@ -2,19 +2,19 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=1200">
   <title>Programme des séances</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&
   <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <style>
     body {
       font-family: Roboto, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
+      background-color: #000;
+      color: #fff;
       padding: 1em;
     }
 
-     h1 {
+    h1 {
       text-align: center;
       margin-bottom: 1em;
       font-size: 2em;
@@ -29,7 +29,7 @@
 
     hr {
       border: none;
-      border-top: 2px solid #ccc;
+      border-top: 2px solid #444;
       margin: 1em 0;
     }
 
@@ -50,25 +50,38 @@
     }
 
     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      display: flex;
+      flex-direction: column;
       gap: 1.5em;
       max-width: 1200px;
       margin: 0 auto;
     }
 
     .card {
-      background: #fff;
+      background: #111;
       border-radius: 8px;
       overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
       padding: 1em;
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .poster {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1em;
     }
 
     .title {
-      font-size: 1.2em;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 0.3em;
+    }
+
+    .rating {
       font-weight: bold;
       margin-bottom: 0.5em;
     }
@@ -76,13 +89,13 @@
     .synopsis {
       font-size: 0.95em;
       margin-bottom: 1em;
-      color: #555;
+      color: #ccc;
     }
 
     .content {
       font-size: 0.85em;
       margin-bottom: 1em;
-      color: #777;
+      color: #00bfff;
     }
 
     .seances {
@@ -95,7 +108,7 @@
       padding: 6px 10px;
       border-radius: 4px;
       background-color: #eee;
-      color: #333;
+      color: #000;
       font-weight: normal;
       display: inline-block;
     }
@@ -115,27 +128,20 @@
 </head>
 <body>
   <header>
-    <a href="https://www.cine-flash.com/">
+    https://www.cine-flash.com/
       <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
-           alt="Cinéma centre-ville Laser par BARCO"
-           width="1200" height="380">
-    </a>
-  </header>
-
-  <hr>
+           althr>
 
   <div class="legende" id="legende"></div>
 
   <hr>
 
- <!-- <h1>🎬 Programme des séances</h1> -->
   <div class="grid" id="films"></div>
 
   <script>
     fetch("films.json")
       .then(response => response.json())
       .then(data => {
-        // Affichage de la légende
         const legendContainer = document.getElementById("legende");
         data.legende.forEach(attr => {
           const badge = document.createElement("span");
@@ -147,16 +153,30 @@
           legendContainer.appendChild(badge);
         });
 
-        // Affichage des films
         const container = document.getElementById("films");
         data.films.forEach(film => {
           const card = document.createElement("div");
           card.className = "card";
 
+          if (film.affiche) {
+            const img = document.createElement("img");
+            img.className = "poster";
+            img.src = film.affiche;
+            img.alt = `Affiche de ${film.titre}`;
+            card.appendChild(img);
+          }
+
           const title = document.createElement("div");
           title.className = "title";
           title.textContent = film.titre;
           card.appendChild(title);
+
+          if (film.rating) {
+            const rating = document.createElement("div");
+            rating.className = "rating";
+            rating.textContent = film.rating;
+            card.appendChild(rating);
+          }
 
           if (film.synopsis) {
             const synopsis = document.createElement("div");
