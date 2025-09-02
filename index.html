@@ -75,16 +75,19 @@
 
     .poster {
       width: 100%;
+      height: auto;
       max-height: 400px;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: 8px;
       margin-bottom: 1em;
-    }
+    }    
+
 
     .title {
       font-size: 1.5em;
       font-weight: bold;
       margin-bottom: 0.3em;
+      color: #000;
     }
 
     .rating {
@@ -95,7 +98,7 @@
     .synopsis {
       font-size: 0.95em;
       margin-bottom: 1em;
-      color: #ccc;
+      color: #999;
     }
 
     .content {
@@ -202,10 +205,10 @@
           title.textContent = film.titre;
           card.appendChild(title);
 
-          if (film.rating) {
+          if (film.classification) {
             const rating = document.createElement("div");
             rating.className = "rating";
-            rating.textContent = film.rating;
+            rating.textContent = `Classification : ${film.classification}`;
             card.appendChild(rating);
           }
 
