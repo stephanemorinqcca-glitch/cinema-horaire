@@ -1,26 +1,17 @@
-import subprocess
 import sys
-import os
 import requests
 import json
-from datetime import date
+from datetime import datetime
 import arrow
 
-# Installer les dépendances automatiquement (à commenter si déjà installées)
-# subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
-
 # Configuration
-TOKEN = os.getenv("VEEZI_ACCESS_TOKEN")
-API_URL = os.getenv("VEEZI_API_URL", "https://api.useast.veezi.com/api/v1/sessions")
-FILM_API = "https://api.us.veezi.com/v4/film/"
-
-if not TOKEN:
-    print("❌ Erreur : Le token Veezi n'est pas défini dans les variables d'environnement (VEEZI_ACCESS_TOKEN).")
-    sys.exit(1)
+TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
+SESSION_API_URL = "https://api.us.veezi.com/v1/session"
+FILM_API_URL = "https://api.us.veezi.com/v4/film/"
 
 # 🔍 Récupère les détails d’un film
 def fetch_film_details(fid):
-    url = f"{FILM_API}{fid}"
+    url = f"{FILM_API_URL}{fid}"
     headers = {
         "VeeziAccessToken": TOKEN,
         "Accept": "application/json",
@@ -47,32 +38,21 @@ def fetch_sessions():
         "Content-Type": "application/json"
     }
     params = {
-        "startDate": date.today().isoformat(),
-        "endDate": "2100-01-01",
-        "includeFilms": "true",
-        "pageSize": 500,
-        "pageNumber": 1
+        "startDate": datetime.today().strftime("%Y-%m-%dT00:00:00"),
+        "endDate": "2110-01-01T23:59:00"
     }
-    all_sessions = []
-    while True:
-        try:
-            resp = requests.get(API_URL, headers=headers, params=params, timeout=10)
-            if resp.status_code != 200:
-                print(f"❌ Erreur HTTP {resp.status_code} lors de la récupération des séances.")
-                break
-            try:
-                data = resp.json()
-            except json.JSONDecodeError:
-                print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
-                break
-        except requests.exceptions.RequestException as e:
-            print(f"❌ Erreur réseau : {e}")
-            break
-        if not data:
-            break
-        all_sessions.extend(data)
-        params["pageNumber"] += 1
-    return all_sessions
+    try:
+        resp = requests.get(SESSION_API_URL, headers=headers, params=params, timeout=10)
+        if resp.status_code != 200:
+            print(f"❌ Erreur HTTP {resp.status_code} lors de la récupération des séances.")
+            return []
+        return resp.json()
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Erreur réseau : {e}")
+        return []
+    except json.JSONDecodeError:
+        print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
+        return []
 
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
