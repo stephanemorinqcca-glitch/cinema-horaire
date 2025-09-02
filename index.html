@@ -7,21 +7,184 @@
 <title>Programme des séances</title>
 <link au="" centre-ville"="" chercher="" cinéma="" de="" des="" films="" heures="" href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheetontent=" séances=""/>
 <style>
-.jour-label {
-    color: #000000;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.horaire {
-    background-color: #CCCCCC;
-    color: #6F6F6F;
-    padding: 5px 10px;
-    margin-right: 10px;
-    display: inline-block;
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #000;
+      color: #fff;
+      padding: 1em;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 2em;
+    }
+
+    header img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .date {
+      text-align: center;
+      font-size: 1.5em;
+      margin: 1em 0;
+      color: #00bfff;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #444;
+      margin: 1em 0;
+    }
+
+    .legende {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 2em;
+    }
+
+    .badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+      padding: 1em;
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .poster {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 1em;
+      text-align: left;
+    }    
+
+
+    .title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 0.3em;
+      color: #000;
+    }
+
+    .rating {
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      color: #00bfff;
+    }
+
+    .synopsis {
+      font-size: 0.95em;
+      margin-bottom: 1em;
+      color: #999;
+    }
+
+    .content {
+      font-size: 0.85em;
+      margin-bottom: 1em;
+      color: #00bfff;
+    }
+
+    .horaire {
+      padding: 6px 10px;
+      border-radius: 4px;
+      background-color: #eee;
+      color: #000;
+      font-weight: normal;
+      display: inline-block;
+    }
+
+    .complet {
+      background-color: #c00;
+      color: white;
+      font-weight: bold;
+    }
+
+    .attributs {
+      font-size: 0.85em;
+      margin-left: 6px;
+      color: #666;
+    }
+
+    .seances {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .ligne-seances {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .date-label {
+  color: black !important;
+      font-weight: bold;
+      color: black;
+      background-color: transparent;
+      padding: 6px 0;
+      min-width: 160px;
+    }
+
+    .seance-bouton {
+  color: white !important;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }    
+
+    .seance-bouton:hover {
+      background-color: #0099cc;
+    }
+  
+.date-label {
+  color: black !important; color: black !important; }
+.seance-bouton {
+  color: white !important;
+    background-color: #00bfff;
+    color: white !important;
+    border: none;
+    padding: 6px 12px;
     border-radius: 4px;
-    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
 }
-</style>
+
+.jour-label { color: #000000; font-weight: bold; margin-bottom: 10px; }</style>
 <style>
 .seances {
   display: flex;
