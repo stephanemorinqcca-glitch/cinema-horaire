@@ -65,7 +65,7 @@ def fetch_sessions():
         "Content-Type": "application/json"
     }
     params = {
-        "startDate": datetime.today().strftime("%Y-%m-%dT00:00:00"),
+        "startDate": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
         "endDate": "2110-01-01T23:59:00"
     }
     try:
