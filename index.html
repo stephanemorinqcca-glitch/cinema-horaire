@@ -207,18 +207,23 @@
           title.textContent = film.titre;
           card.appendChild(title);
 
+          if (film.classification || film.content) {
+          const contentBlock = document.createElement("div");
+
           if (film.classification) {
-            const rating = document.createElement("div");
+            const rating = document.createElement("span");
             rating.className = "rating";
-            rating.textContent = `Classification : ${film.classification}`;
-            card.appendChild(rating);
+            rating.textContent = `${film.classification} `;
+            contentBlock.appendChild(rating);
           }
 
           if (film.content) {
-            const content = document.createElement("div");
+            const content = document.createElement("span");
             content.className = "content";
-            content.textContent = film.content;
-            card.appendChild(content);
+            content.textContent = ` ${film.content}`;
+            contentBlock.appendChild(content);
+          }
+            card.appendChild(contentBlock);
           }
 
           if (film.synopsis) {
