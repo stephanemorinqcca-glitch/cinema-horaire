@@ -20,7 +20,7 @@ import os
 #    - Europe     : https://api.eu.veezi.com/v1/sessions
 #    - US West    : https://api.uswest.veezi.com/v1/sessions
 API_URL = os.getenv("VEEZI_API_URL",
-    "https://api.useast.veezi.com/v1/sessions/"
+    "https://api.useast.veezi.com/api/v1/sessions"
 )
 
 def fetch_sessions():
