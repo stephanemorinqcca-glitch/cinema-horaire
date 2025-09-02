@@ -1,272 +1,94 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=1200" name="viewport"/>
-<title>Programme des séances</title>
-<link au="" centre-ville"="" chercher="" cinéma="" de="" des="" films="" heures="" href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheetontent=" séances=""/>
-<style>
-.card {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #f9f9f9;
-}
-
-.jour-label {
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 5px;
-    text-transform: capitalize;
-}
-
-.horaire {
-    display: inline-block;
-    background-color: #CCCCCC;
-    color: #6F6F6F;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-.seances {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.ligne-seances {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.date-label {
-  font-weight: bold;
-  color: black;
-  background-color: transparent;
-  padding: 6px 0;
-  min-width: 160px;
-}
-.seance-bouton {
-  background-color: #00bfff;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.2s;
-}
-.seance-bouton:hover {
-  background-color: #0099cc;
-}
-</style></head>
+  <meta charset="UTF-8">
+  <title>Films à l'affiche</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .film-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .film-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .film-card:hover {
+      transform: scale(1.02);
+    }
+    .film-card img {
+      width: 100%;
+      height: auto;
+    }
+    .film-details {
+      padding: 15px;
+    }
+    .film-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    .film-meta {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .film-schedule {
+      font-size: 13px;
+      color: #333;
+    }
+  </style>
+</head>
 <body>
-<header>
-<a href="https://www.cine-flash.com/">
-<img alt="Cinéma centre-ville Laser par BARCO" height="380" src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726" width="1200"/>
-</a>
-</header>
-<div class="date" id="date"></div>
-<div class="legende" id="legende"></div>
-<hr/>
-<div class="grid" id="films"></div>
-<script>
-    const jours = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
-    const mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
-    const aujourdHui = new Date();
-    const jourNom = jours[aujourdHui.getDay()];
-    const jourNum = aujourdHui.getDate();
-    const moisNom = mois[aujourdHui.getMonth()];
-    document.getElementById("date").textContent = `${jourNom} ${jourNum}, ${moisNom}`;
+  <h1>Films à l'affiche</h1>
+  <div class="film-container" id="filmContainer"></div>
 
-    fetch("films.json")
+  <script>
+    fetch('films.json')
       .then(response => response.json())
       .then(data => {
-        const legendContainer = document.getElementById("legende");
-        data.legende.forEach(attr => {
-          const wrapper = document.createElement("div");
-          wrapper.style.display = "flex";
-          wrapper.style.alignItems = "center";
-          wrapper.style.gap = "8px";
-
-          const badge = document.createElement("span");
-          badge.className = "badge";
-          badge.textContent = attr.ShortName;
-          badge.style.color = attr.FontColor;
-          badge.style.backgroundColor = attr.BackgroundColor;
-
-          const description = document.createElement("span");
-          description.style.fontSize = "0.85em";
-          description.style.color = "#ccc";
-          description.textContent = attr.Description;
-
-          wrapper.appendChild(badge);
-          wrapper.appendChild(description);
-          legendContainer.appendChild(wrapper);
-        });
-
-        const container = document.getElementById("films");
+        const container = document.getElementById('filmContainer');
         data.films.forEach(film => {
-          const card = document.createElement("div");
-          card.className = "card";
-
-          if (film.thumbnail) {
-            const img = document.createElement("img");
-            img.className = "poster";
-            img.src = film.thumbnail;
-            img.alt = `Affiche de ${film.titre}`;
-            card.appendChild(img);
-          }
-
-          const title = document.createElement("div");
-          title.className = "title";
-          title.textContent = film.titre;
-          card.appendChild(title);
-
-          if (film.classification || film.content) {
-          const contentBlock = document.createElement("div");
-
-          if (film.classification) {
-            const rating = document.createElement("span");
-            rating.className = "rating";
-            rating.textContent = `${film.classification} `;
-            contentBlock.appendChild(rating);
-          }
-
-          if (film.content) {
-            const content = document.createElement("span");
-            content.className = "content";
-            content.textContent = ` ${film.content}`;
-            contentBlock.appendChild(content);
-          }
-            card.appendChild(contentBlock);
-          }
-
-          if (film.synopsis) {
-            const synopsis = document.createElement("div");
-            synopsis.className = "synopsis";
-            synopsis.textContent = film.synopsis;
-            card.appendChild(synopsis);
-          }
-
-         const seancesDiv = document.createElement("div");
-         seancesDiv.className = "seances";
-
-          // Grouper les séances par date
-          const seancesParDate = {};
-
-          film.horaire.forEach(seance => {
-            const parts = seance.horaire.split(" ");
-            const dateStr = parts[0]; // format YYYY-MM-DD
-            const heure = parts[1];
-            const attributs = parts.slice(2).sort();
-
-          if (!seancesParDate[dateStr]) {
-            seancesParDate[dateStr] = [];
-          }
-
-          seancesParDate[dateStr].push({
-          heure,
-          attributs
-          });
-          });
-
-          // Afficher les séances regroupées
-          Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-          const dateObj = new Date(dateStr + 'T00:00:00');
-          const optionsJour = { weekday: 'long' };
-          const optionsJourNum = { day: 'numeric' };
-          const optionsMois = { month: 'long' };
-
-          const jour = dateObj.toLocaleDateString('fr-CA', optionsJour);
-          const jourNum = dateObj.toLocaleDateString('fr-CA', optionsJourNum);
-          const mois = dateObj.toLocaleDateString('fr-CA', optionsMois);
-
-          const jourLabel = document.createElement("div");
-          jourLabel.className = "jour-label";
-          jourLabel.textContent = `${jour.charAt(0).toUpperCase() + jour.slice(1).toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
-
-          const horairesDiv = document.createElement("div");
-          horairesDiv.className = "horaires";
-
-          seances.forEach(({ heure, attributs }) => {
-          const seanceLabel = document.createElement("span");
-          seanceLabel.className = "seance-label";
-          seanceLabel.textContent = `${heure} ${attributs.join(" ")}`;
-          horairesDiv.appendChild(seanceLabel);
-        });
-
-          const jourBlock = document.createElement("div");
-          jourBlock.className = "jour-block";
-          jourBlock.appendChild(jourLabel);
-          jourBlock.appendChild(horairesDiv);
-
-          seancesDiv.appendChild(jourBlock);
-      });
-
-          card.appendChild(seancesDiv);
+          const card = document.createElement('div');
+          card.className = 'film-card';
+          card.innerHTML = `
+            <img src="${film.thumbnail || film.affiche}" altiv class="film-details">
+              <div class="film-title">${film.titre}</div>
+              <div class="film-meta">
+                Genre: ${film.genre}<br>
+                Durée: ${film.duree} min<br>
+                Classification: ${film.classification}<br>
+                Format: ${film.format}
+              </div>
+              <div class="film-schedule">
+                <strong>Horaires:</strong><br>
+                ${film.horaire.map(h => h.horaire).join('<br>')}
+              </div>
+            </div>
+          `;
           container.appendChild(card);
         });
       })
       .catch(error => {
-        console.error("Erreur lors du chargement du fichier films.json :", error);
+        document.getElementById('filmContainer').innerHTML = '<p>Erreur de chargement des films.</p>';
+        console.error('Erreur:', error);
       });
   </script>
-<script>
-const seancesDiv = document.createElement("div");
-seancesDiv.className = "seances";
-
-// Grouper les séances par date
-const seancesParDate = {};
-
-film.horaire.forEach(seance => {
-  const parts = seance.horaire.split(" ");
-  const dateStr = parts[0];
-  const heure = parts[1];
-  const attributs = parts.slice(2).sort();
-
-  if (!seancesParDate[dateStr]) {
-    seancesParDate[dateStr] = [];
-  }
-
-  seancesParDate[dateStr].push({ heure, attributs });
-});
-
-// Afficher les journées ligne par ligne
-Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-  const dateObj = new Date(dateStr + 'T00:00:00');
-  const optionsJour = { weekday: 'long' };
-  const optionsJourNum = { day: 'numeric' };
-  const optionsMois = { month: 'long' };
-
-  const jour = dateObj.toLocaleDateString('fr-CA', optionsJour);
-  const jourNum = dateObj.toLocaleDateString('fr-CA', optionsJourNum);
-  const mois = dateObj.toLocaleDateString('fr-CA', optionsMois);
-
-  const ligneDiv = document.createElement("div");
-  ligneDiv.className = "ligne-seances";
-
-  const dateLabel = document.createElement("span");
-  dateLabel.className = "date-label";
-  dateLabel.textContent = `${jour.charAt(0).toUpperCase() + jour.slice(1)} ${jourNum}, ${mois}`;
-
-  ligneDiv.appendChild(dateLabel);
-
-  seances.forEach(({ heure, attributs }) => {
-    const bouton = document.createElement("button");
-    bouton.className = "seance-bouton";
-    bouton.textContent = ` ${heure}  ${attributs.join(" ")} `;
-    ligneDiv.appendChild(bouton);
-  });
-
-  seancesDiv.appendChild(ligneDiv);
-});
-
-// Ajouter les séances à un conteneur spécifique ou au body
-document.body.appendChild(seancesDiv);
-</script></body>
+</body>
 </html>
