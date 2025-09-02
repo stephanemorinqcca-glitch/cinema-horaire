@@ -6,8 +6,8 @@ import json
 from datetime import date
 import arrow
 
-# Installer les dépendances automatiquement
-subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+# Installer les dépendances automatiquement (à commenter si déjà installées)
+# subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
 # Configuration
 TOKEN = os.getenv("VEEZI_ACCESS_TOKEN")
@@ -15,23 +15,37 @@ API_URL = os.getenv("VEEZI_API_URL", "https://api.useast.veezi.com/api/v1/sessio
 FILM_API = "https://api.us.veezi.com/v4/film/"
 
 if not TOKEN:
-    raise RuntimeError("Il manque la variable d'environnement VEEZI_ACCESS_TOKEN")
+    print("❌ Erreur : Le token Veezi n'est pas défini dans les variables d'environnement (VEEZI_ACCESS_TOKEN).")
+    sys.exit(1)
 
 # 🔍 Récupère les détails d’un film
 def fetch_film_details(fid):
     url = f"{FILM_API}{fid}"
-    headers = {"VeeziAccessToken": TOKEN}
+    headers = {
+        "VeeziAccessToken": TOKEN,
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
     try:
         resp = requests.get(url, headers=headers, timeout=10)
-        resp.raise_for_status()
+        if resp.status_code != 200:
+            print(f"❌ Erreur HTTP {resp.status_code} pour le film {fid}")
+            return {}
         return resp.json()
-    except Exception as e:
-        print(f"Erreur pour le film {fid} : {e}")
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Erreur réseau pour le film {fid} : {e}")
+        return {}
+    except json.JSONDecodeError:
+        print(f"❌ Erreur : Réponse non JSON pour le film {fid}")
         return {}
 
 # 📅 Récupère toutes les séances
 def fetch_sessions():
-    headers = {"VeeziAccessToken": TOKEN}
+    headers = {
+        "VeeziAccessToken": TOKEN,
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
     params = {
         "startDate": date.today().isoformat(),
         "endDate": "2100-01-01",
@@ -43,10 +57,16 @@ def fetch_sessions():
     while True:
         try:
             resp = requests.get(API_URL, headers=headers, params=params, timeout=10)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.RequestException as e:
-            print(f"Erreur réseau : {e}")
+            if resp.status_code != 200:
+                print(f"❌ Erreur HTTP {resp.status_code} lors de la récupération des séances.")
+                break
+            try:
+                data = resp.json()
+            except json.JSONDecodeError:
+                print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
+                break
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Erreur réseau : {e}")
             break
         if not data:
             break
@@ -107,10 +127,17 @@ def transform_data(sessions):
 # 🚀 Point d’entrée
 def main():
     sessions = fetch_sessions()
+    if not sessions:
+        print("❌ Aucune séance récupérée.")
+        sys.exit(1)
     data = transform_data(sessions)
-    with open("films1.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print("✅ Fichier films1.json mis à jour avec attributs de séance.")
+    try:
+        with open("films1.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print("✅ Fichier films1.json mis à jour avec attributs de séance.")
+    except IOError as e:
+        print(f"❌ Erreur lors de l'écriture du fichier : {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
