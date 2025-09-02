@@ -114,10 +114,10 @@
           const card = document.createElement("div");
           card.className = "card";
 
-          if (film.affiche) {
+          if (film.thumbnail) {
             const img = document.createElement("img");
             img.className = "poster";
-            img.src = film.affiche;
+            img.src = film.thumbnail;
             img.alt = `Affiche de ${film.titre}`;
             card.appendChild(img);
           }
