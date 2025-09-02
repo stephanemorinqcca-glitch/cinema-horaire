@@ -88,19 +88,19 @@ def transform_data(sessions):
 
         if film_id not in films_dict:
             film_details = fetch_film_details(film_id)
-                films_dict[film_id] = {
-                    "id": film_id,
-                    "titre": film_details.get("Title", title),
-                    "synopsis": film_details.get("Synopsis", ""),
-                    "classification": film_details.get("Rating", rating),
-                    "duree": film_details.get("Duration", duration),
-                    "genre": film_details.get("Genre", genres),
-                    "format": film_details.get("Format", ""),
-                    "affiche": film_details.get("FilmPosterUrl", poster),
-                    "banniere": film_details.get("BackdropImageUrl", ""),
-                    "bande_annonce": film_details.get("FilmTrailerUrl", ""),
-                    "content": film_details.get("Content", ""),
-                    "horaire": []
+            films_dict[film_id] = {
+                "id": film_id,
+                "titre": film_details.get("Title", title),
+                "synopsis": film_details.get("Synopsis", ""),
+                "classification": film_details.get("Rating", rating),
+                "duree": film_details.get("Duration", duration),
+                "genre": film_details.get("Genre", genres),
+                "format": film_details.get("Format", ""),
+                "affiche": film_details.get("FilmPosterUrl", poster),
+                "banniere": film_details.get("BackdropImageUrl", ""),
+                "bande_annonce": film_details.get("FilmTrailerUrl", ""),
+                "content": film_details.get("Content", ""),
+                "horaire": []
             }
 
         films_dict[film_id]["horaire"].append({
