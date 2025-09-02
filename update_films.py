@@ -64,13 +64,13 @@ def transform_data(sessions):
             print(f"⚠️ Séance ignorée : champ 'PreShowStartTime' invalide pour filmId={session.get('FilmId')}")
         continue
 
-        film_id = session.get("filmId")
-        title = session.get("filmTitle")
-        rating = session.get("rating", "")
-        duration = session.get("duration", "")
-        genres = session.get("genres", [])
-        poster = session.get("filmImageUrl", "")
-        attributes = session.get("attributes", [])
+        film_id = session.get("Id")
+        title = session.get("Title")
+        rating = session.get("Rating", "")
+        duration = session.get("Duration", "")
+        genres = session.get("Genre", [])
+        poster = session.get("FilmPosterUrl", "")
+        attributes = session.get("Attributes", [])
 
         try:
             dt = arrow.get(showtime)
