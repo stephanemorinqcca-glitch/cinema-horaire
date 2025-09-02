@@ -8,6 +8,7 @@ import arrow
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 SESSION_API_URL = "https://api.us.veezi.com/v1/session"
 FILM_API_URL = "https://api.us.veezi.com/v4/film/"
+ATTRIBUTE_API_URL = "https://api.us.veezi.com/v1/attribute/"
 
 # 🔍 Récupère les détails d’un film
 def fetch_film_details(fid):
@@ -28,6 +29,32 @@ def fetch_film_details(fid):
         return {}
     except json.JSONDecodeError:
         print(f"❌ Erreur : Réponse non JSON pour le film {fid}")
+        return {}
+
+# 🔍 Récupère les détails d’un attribut
+def fetch_attribute_details(attr_id, cache):
+    if attr_id in cache:
+        return cache[attr_id]
+
+    url = f"{ATTRIBUTE_API_URL}{attr_id}"
+    headers = {
+        "VeeziAccessToken": TOKEN,
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code != 200:
+            print(f"❌ Erreur HTTP {resp.status_code} pour l'attribut {attr_id}")
+            return {}
+        data = resp.json()
+        cache[attr_id] = data
+        return data
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Erreur réseau pour l'attribut {attr_id} : {e}")
+        return {}
+    except json.JSONDecodeError:
+        print(f"❌ Erreur : Réponse non JSON pour l'attribut {attr_id}")
         return {}
 
 # 📅 Récupère toutes les séances
@@ -57,6 +84,7 @@ def fetch_sessions():
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
+    attribute_cache = {}
     ignored_count = 0
 
     for session in sessions:
@@ -103,9 +131,11 @@ def transform_data(sessions):
                 "horaire": []
             }
 
+        enriched_attributes = [fetch_attribute_details(attr_id, attribute_cache) for attr_id in attributes]
+        shortnames = " ".join([" " + attr.get("ShortName", "") + " " for attr in enriched_attributes if attr])
+
         films_dict[film_id]["horaire"].append({
-            "horaire": showtime_str,
-            "attributs": attributes
+            "horaire": showtime_str + shortnames.strip()
         })
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
@@ -128,7 +158,7 @@ def main():
     try:
         with open("films.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("✅ Fichier films.json mis à jour avec attributs de séance.")
+        print("✅ Fichier films.json mis à jour avec attributs fusionnés dans l’horaire.")
         print(f"Nombre de films ajoutés : {len(data['films'])}")
     except IOError as e:
         print(f"❌ Erreur lors de l'écriture du fichier : {e}")
