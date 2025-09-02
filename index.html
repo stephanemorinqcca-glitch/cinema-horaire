@@ -342,7 +342,7 @@
 
           const jourLabel = document.createElement("div");
           jourLabel.className = "jour-label";
-          jourLabel.textContent = `${jour.charAt(0).toUpperCase() + jour.slice(1)} ${jourNum}, ${mois}`;
+          jourLabel.textContent = `${jour.toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
 
           const horairesDiv = document.createElement("div");
           horairesDiv.className = "horaires";
