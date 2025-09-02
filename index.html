@@ -6,7 +6,7 @@
   <title>Programme des séances</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&
   <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
-  <style>
+   <style>
     body {
       font-family: Roboto, sans-serif;
       background-color: #000;
@@ -25,6 +25,13 @@
       margin: 0 auto;
       max-width: 100%;
       border-radius: 8px;
+    }
+
+    .date {
+      text-align: center;
+      font-size: 1.5em;
+      margin: 1em 0;
+      color: #00bfff;
     }
 
     hr {
@@ -128,9 +135,9 @@
 </head>
 <body>
   <header>
-    https://www.cine-flash.com/
-      <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
-           althr>
+    <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726r>
+
+  <div class="date" id="date"></div>
 
   <div class="legende" id="legende"></div>
 
@@ -139,15 +146,23 @@
   <div class="grid" id="films"></div>
 
   <script>
+    // 📅 Affiche la date au format "Mardi 2, Septembre"
+    const jours = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+    const mois = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
+    const aujourdHui = new Date();
+    const jourNom = jours[aujourdHui.getDay()];
+    const jourNum = aujourdHui.getDate();
+    const moisNom = mois[aujourdHui.getMonth()];
+    document.getElementById("date").textContent = `${jourNom} ${jourNum}, ${moisNom}`;
+
+    // 🎬 Charge et affiche les films depuis films.json
     fetch("films.json")
       .then(response => response.json())
       .then(data => {
         const legendContainer = document.getElementById("legende");
         data.legende.forEach(attr => {
           const badge = document.createElement("span");
-          badge.className = "badge";
-          badge.textContent = attr.ShortName;
-          badge.title = attr.Description;
+          badge.className.Description;
           badge.style.color = attr.FontColor;
           badge.style.backgroundColor = attr.BackgroundColor;
           legendContainer.appendChild(badge);
@@ -177,7 +192,7 @@
             rating.textContent = film.rating;
             card.appendChild(rating);
           }
-          
+
           if (film.content) {
             const content = document.createElement("div");
             content.className = "content";
@@ -228,4 +243,3 @@
       });
   </script>
 </body>
-</html>
