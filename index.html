@@ -233,32 +233,60 @@
             card.appendChild(synopsis);
           }
 
-          const seancesDiv = document.createElement("div");
-          seancesDiv.className = "seances";
+         const seancesDiv = document.createElement("div");
+         seancesDiv.className = "seances";
+
+          // Grouper les séances par date
+          const seancesParDate = {};
 
           film.horaire.forEach(seance => {
-            const horaireDiv = document.createElement("div");
-            horaireDiv.className = "horaire";
-
             const parts = seance.horaire.split(" ");
+            const dateStr = parts[0]; // format YYYY-MM-DD
             const heure = parts[1];
             const attributs = parts.slice(2).sort();
 
-            horaireDiv.textContent = heure;
+          if (!seancesParDate[dateStr]) {
+            seancesParDate[dateStr] = [];
+          }
 
-            if (attributs.includes("COMPLET")) {
-              horaireDiv.classList.add("complet");
-            }
-
-            if (attributs.length > 0) {
-              const attrSpan = document.createElement("span");
-              attrSpan.className = "attributs";
-              attrSpan.textContent = attributs.join(" ");
-              horaireDiv.appendChild(attrSpan);
-            }
-
-            seancesDiv.appendChild(horaireDiv);
+          seancesParDate[dateStr].push({
+          heure,
+          attributs
           });
+          });
+
+          // Afficher les séances regroupées
+          Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
+          const dateObj = new Date(dateStr);
+          const optionsJour = { weekday: 'long' };
+          const optionsJourNum = { day: 'numeric' };
+          const optionsMois = { month: 'long' };
+
+          const jour = dateObj.toLocaleDateString('fr-CA', optionsJour);
+          const jourNum = dateObj.toLocaleDateString('fr-CA', optionsJourNum);
+          const mois = dateObj.toLocaleDateString('fr-CA', optionsMois);
+
+          const jourLabel = document.createElement("div");
+          jourLabel.className = "jour-label";
+          jourLabel.textContent = `${jour.charAt(0).toUpperCase() + jour.slice(1)} ${jourNum}, ${mois}`;
+
+          const horairesDiv = document.createElement("div");
+          horairesDiv.className = "horaires";
+
+          seances.forEach(({ heure, attributs }) => {
+          const seanceLabel = document.createElement("span");
+          seanceLabel.className = "seance-label";
+          seanceLabel.textContent = `${heure} ${attributs.join(" ")}`;
+          horairesDiv.appendChild(seanceLabel);
+        });
+
+          const jourBlock = document.createElement("div");
+          jourBlock.className = "jour-block";
+          jourBlock.appendChild(jourLabel);
+          jourBlock.appendChild(horairesDiv);
+
+          seancesDiv.appendChild(jourBlock);
+      });
 
           card.appendChild(seancesDiv);
           container.appendChild(card);
