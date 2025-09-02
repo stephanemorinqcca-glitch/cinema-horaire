@@ -54,48 +54,6 @@
       ]
     },
     {
-      "id": "ST00001778",
-      "titre": "HISTOIRE DE JOUETS",
-      "synopsis": "Dans un monde où les jouets ont une vie bien à eux, un voyage fantastique et amusant est sur le point de se produire. Les jouets Woody, un cow-boy parlant, et Buzz L'Éclair, une figurine héroïque de l'espace, finissent par apprendre à mettre de côté leurs différends lorsqu'ils sont séparés de leur propriétaire. Pour survivre, ils doivent former une alliance.",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.uswest.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004915",
-      "banniere": "",
-      "bande_annonce": null,
-      "horaire": [
-        {
-          "horaire": "2025-09-12 19:15",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-13 13:05",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-13 19:15",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-14 13:05",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-14 19:15",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-17 19:15",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-18 19:15",
-          "attributs": []
-        }
-      ]
-    },
-    {
       "id": "ST00001714",
       "titre": "PRIS AU PIÈGE",
       "synopsis": "(12 ans - | DOIT ÊTRE ACCOMPAGNÉ PAR UN ADULTE)\r\n\r\nEn 1998, Hank Thompson travaille dans un bar de Manhattan et habite un petit logement du quartier défavorisé Lower East Side. En rentrant chez lui avec sa copine Yvonne, Hank tombe sur son voisin Russ, le punk anglais de la porte à côté. Ce dernier lui demande de prendre soin de son chat pendant son absence. Hank hésite, mais Yvonne accepte. Au fil des jours, Hank est témoin du passage d’individus à la fois louches et redoutables qui se mettent à fréquenter son immeuble.",
@@ -200,48 +158,6 @@
           "attributs": [
             "0000000011"
           ]
-        }
-      ]
-    },
-    {
-      "id": "ST00001718",
-      "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
-      "synopsis": null,
-      "classification": "-",
-      "duree": 123,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.uswest.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004944",
-      "banniere": "",
-      "bande_annonce": null,
-      "horaire": [
-        {
-          "horaire": "2025-09-12 18:55",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-13 12:55",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-13 18:55",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-14 12:55",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-14 18:55",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-17 19:05",
-          "attributs": []
-        },
-        {
-          "horaire": "2025-09-18 19:05",
-          "attributs": []
         }
       ]
     },
@@ -495,62 +411,6 @@
         },
         {
           "horaire": "2025-09-11 18:55",
-          "attributs": [
-            "0000000029"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ST00001720",
-      "titre": "MARCHE OU CRÈVE",
-      "synopsis": "(12 ans - | DOIT ÊTRE ACCOMPAGNÉ PAR UN ADULTE)\r\n\r\nDans un régime étatsunien totalitaire et dystopique, la population est oppressée et manque de ressources. Cinquante jeunes hommes se voient offrir de participer à une compétition permettant de gagner une somme colossale qui changerait leur vie. Il n’y aura qu’un vainqueur et les perdants seront exécutés sans pitié. Le groupe entame une marche rapide, sans répit. Sur la route, Garraty se lie d’amitié avec McVries et plusieurs de leurs compagnons.",
-      "classification": "13+",
-      "duree": 108,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.uswest.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004787",
-      "banniere": "",
-      "bande_annonce": null,
-      "horaire": [
-        {
-          "horaire": "2025-09-12 19:15",
-          "attributs": [
-            "0000000029"
-          ]
-        },
-        {
-          "horaire": "2025-09-13 13:05",
-          "attributs": [
-            "0000000029"
-          ]
-        },
-        {
-          "horaire": "2025-09-13 19:15",
-          "attributs": [
-            "0000000029"
-          ]
-        },
-        {
-          "horaire": "2025-09-14 13:05",
-          "attributs": [
-            "0000000029"
-          ]
-        },
-        {
-          "horaire": "2025-09-14 19:15",
-          "attributs": [
-            "0000000029"
-          ]
-        },
-        {
-          "horaire": "2025-09-17 19:15",
-          "attributs": [
-            "0000000029"
-          ]
-        },
-        {
-          "horaire": "2025-09-18 19:15",
           "attributs": [
             "0000000029"
           ]
