@@ -60,16 +60,22 @@ def transform_data(sessions):
     ignored_count = 0
 
     for session in sessions:
+        sales_via = session.get("SalesVia", [])
+        status = session.get("Status", "")
+        if "WWW" not in sales_via or status != "Open":
+            ignored_count += 1
+            continue
+
         showtime = session.get("PreShowStartTime")
         if not showtime or not isinstance(showtime, str) or showtime.strip() == "":
             ignored_count += 1
             continue
 
-        film_id = session.get("FilmId")  # ✅ attention à la casse
-        title = session.get("Title")     # ✅ "Title" au lieu de "filmTitle"
+        film_id = session.get("FilmId")
+        title = session.get("Title")
         rating = session.get("Rating", "")
         duration = session.get("Duration", "")
-        genres = session.get("Genres", [])  # Peut être absent
+        genres = session.get("Genres", [])
         poster = session.get("FilmImageUrl", "")
         attributes = session.get("Attributes", [])
 
@@ -110,7 +116,7 @@ def transform_data(sessions):
         "cinema": "Cinéma Centre-Ville",
         "films": list(films_dict.values())
     }
-    
+
 # 🚀 Point d’entrée
 def main():
     sessions = fetch_sessions()
