@@ -58,7 +58,7 @@
     }
 
     .card {
-      background: #111;
+      background: #fff;
       border-radius: 8px;
       overflow: hidden;
       box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
@@ -177,19 +177,19 @@
             rating.textContent = film.rating;
             card.appendChild(rating);
           }
+          
+          if (film.content) {
+            const content = document.createElement("div");
+            content.className = "content";
+            content.textContent = film.content;
+            card.appendChild(content);
+          }
 
           if (film.synopsis) {
             const synopsis = document.createElement("div");
             synopsis.className = "synopsis";
             synopsis.textContent = film.synopsis;
             card.appendChild(synopsis);
-          }
-
-          if (film.content) {
-            const content = document.createElement("div");
-            content.className = "content";
-            content.textContent = film.content;
-            card.appendChild(content);
           }
 
           const seancesDiv = document.createElement("div");
