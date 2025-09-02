@@ -316,7 +316,7 @@
 
           // Afficher les séances regroupées
           Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-          const dateObj = new Date(dateStr);
+          const dateObj = new Date(dateStr + 'T00:00:00Z');
           const optionsJour = { weekday: 'long' };
           const optionsJourNum = { day: 'numeric' };
           const optionsMois = { month: 'long' };
@@ -377,7 +377,7 @@ film.horaire.forEach(seance => {
 
 // Afficher les journées ligne par ligne
 Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-  const dateObj = new Date(dateStr);
+  const dateObj = new Date(dateStr + 'T00:00:00Z');
   const optionsJour = { weekday: 'long' };
   const optionsJourNum = { day: 'numeric' };
   const optionsMois = { month: 'long' };
