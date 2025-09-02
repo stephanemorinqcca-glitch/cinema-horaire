@@ -57,19 +57,20 @@ def fetch_sessions():
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
-    for session in sessions:
+    ignored_count = 0
 
+    for session in sessions:
         showtime = session.get("PreShowStartTime")
         if not showtime or not isinstance(showtime, str) or showtime.strip() == "":
-            print(f"⚠️ Séance ignorée : champ 'PreShowStartTime' invalide pour filmId={session.get('FilmId')}")
-        continue
+            ignored_count += 1
+            continue
 
-        film_id = session.get("Id")
-        title = session.get("Title")
+        film_id = session.get("FilmId")  # ✅ attention à la casse
+        title = session.get("Title")     # ✅ "Title" au lieu de "filmTitle"
         rating = session.get("Rating", "")
         duration = session.get("Duration", "")
-        genres = session.get("Genre", [])
-        poster = session.get("FilmPosterUrl", "")
+        genres = session.get("Genres", [])  # Peut être absent
+        poster = session.get("FilmImageUrl", "")
         attributes = session.get("Attributes", [])
 
         try:
@@ -88,7 +89,7 @@ def transform_data(sessions):
                 "classification": film_details.get("Rating", rating),
                 "duree": film_details.get("Duration", duration),
                 "genre": film_details.get("Genre", genres),
-                "format": film_details.get("PresentationType", ""),
+                "format": film_details.get("Format", ""),
                 "affiche": film_details.get("FilmPosterUrl", poster),
                 "banniere": film_details.get("BackdropImageUrl", ""),
                 "bande_annonce": film_details.get("FilmTrailerUrl", ""),
@@ -100,7 +101,8 @@ def transform_data(sessions):
             "attributs": attributes
         })
 
-    # Tri des horaires
+    print(f"⚠️ Séances ignorées : {ignored_count}")
+
     for film in films_dict.values():
         film["horaire"].sort(key=lambda h: h["horaire"])
 
@@ -108,7 +110,7 @@ def transform_data(sessions):
         "cinema": "Cinéma Centre-Ville",
         "films": list(films_dict.values())
     }
-
+    
 # 🚀 Point d’entrée
 def main():
     sessions = fetch_sessions()
