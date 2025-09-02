@@ -1,5 +1,25 @@
 {
   "cinema": "Cinéma Centre-Ville",
+  "legende": [
+    {
+      "ShortName": "DERNIÈRE",
+      "Description": "Représentation",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    },
+    {
+      "ShortName": "DLX",
+      "Description": "Salle avec sièges rocker et plus spacieux",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    },
+    {
+      "ShortName": "ATMOS®",
+      "Description": "Son ambiophonique Dolby ATMOS®",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    }
+  ],
   "films": [
     {
       "id": "ST00001656",
