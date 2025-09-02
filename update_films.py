@@ -85,6 +85,7 @@ def fetch_sessions():
 def transform_data(sessions):
     films_dict = {}
     attribute_cache = {}
+    used_attributes = {}
     ignored_count = 0
 
     for session in sessions:
@@ -132,8 +133,19 @@ def transform_data(sessions):
             }
 
         enriched_attributes = [fetch_attribute_details(attr_id, attribute_cache) for attr_id in attributes]
-        shortnames = " ".join([" " + attr.get("ShortName", "") + " " for attr in enriched_attributes if attr])
 
+        # Enregistrer les attributs pour la légende
+        for attr in enriched_attributes:
+            if attr and "Id" in attr:
+                used_attributes[attr["Id"]] = {
+                    "ShortName": attr.get("ShortName", ""),
+                    "Description": attr.get("Description", ""),
+                    "FontColor": attr.get("FontColor", "#000000"),
+                    "BackgroundColor": attr.get("BackgroundColor", "#ffffff")
+                }
+
+        # Fusionner les shortnames avec espaces
+        shortnames = " ".join([" " + attr.get("ShortName", "") + " " for attr in enriched_attributes if attr])
         films_dict[film_id]["horaire"].append({
             "horaire": showtime_str + shortnames.strip()
         })
@@ -145,6 +157,7 @@ def transform_data(sessions):
 
     return {
         "cinema": "Cinéma Centre-Ville",
+        "legende": list(used_attributes.values()),
         "films": list(films_dict.values())
     }
 
@@ -158,7 +171,7 @@ def main():
     try:
         with open("films.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("✅ Fichier films.json mis à jour avec attributs fusionnés dans l’horaire.")
+        print("✅ Fichier films.json mis à jour avec légende des attributs.")
         print(f"Nombre de films ajoutés : {len(data['films'])}")
     except IOError as e:
         print(f"❌ Erreur lors de l'écriture du fichier : {e}")
