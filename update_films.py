@@ -117,9 +117,9 @@ def main():
         sys.exit(1)
     data = transform_data(sessions)
     try:
-        with open("films1.json", "w", encoding="utf-8") as f:
+        with open("films.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("✅ Fichier films1.json mis à jour avec attributs de séance.")
+        print("✅ Fichier films.json mis à jour avec attributs de séance.")
     except IOError as e:
         print(f"❌ Erreur lors de l'écriture du fichier : {e}")
         sys.exit(1)
