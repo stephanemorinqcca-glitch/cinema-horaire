@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1200">
   <title>Programme des séances</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;
   <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
-   <style>
+  <style>
     body {
       font-family: Roboto, sans-serif;
       background-color: #000;
@@ -135,21 +135,17 @@
 </head>
 <body>
   <header>
-    <a href="https://www.cine-flash.com/">
+    <a href="https://www.c.com/
       <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
            alt="Cinéma centre-ville Laser par BARCO"
-           width="1200" height="380">
-    </a>
-  </header>
-
-  <div class="legende" id="legende"></div>
+          legende" id="legende"></div>
 
   <hr>
 
   <div class="grid" id="films"></div>
 
   <script>
-    // 📅 Affiche la date au format "Mardi 2, Septembre"
+    // 📅 Affiche la date au format "Jour x, Mois"
     const jours = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
     const mois = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
     const aujourdHui = new Date();
@@ -164,100 +160,26 @@
       .then(data => {
         const legendContainer = document.getElementById("legende");
         data.legende.forEach(attr => {
-        const wrapper = document.createElement("div");
-        wrapper.style.display = "flex";
-        wrapper.style.alignItems = "center";
-        wrapper.style.gap = "8px";
+          const wrapper = document.createElement("div");
+          wrapper.style.display = "flex";
+          wrapper.style.alignItems = "center";
+          wrapper.style.gap = "8px";
 
-        const badge = document.createElement("span");
-        badge.className = "badge";
-        badge.textContent = attr.ShortName;
-        badge.style.color = attr.FontColor;
-        badge.style.backgroundColor = attr.BackgroundColor;
+         .createElement("span");
+          badge.className = "badge";
+          badge.textContent = attr.ShortName;
+          badge.style.color = attr.FontColor;
+          badge.style.backgroundColor = attr.BackgroundColor;
 
-        const description = document.createElement("span");
-        description.style.fontSize = "0.85em";
-        description.style.color = "#ccc";
-        description.textContent = attr.Description;
+          const description = document.createElement("span");
+          description.style.fontSize = "0.85em";
+          description.style.color = "#ccc";
+          description.textContent = attr.Description;
 
-        wrapper.appendChild(badge);
-        wrapper.appendChild(description);
-        legendContainer.appendChild(wrapper);
-      });
-
+          wrapper.appendChild(badge);
+          wrapper.appendChild(description);
+          legendContainer.appendChild(wrapper);
+        });
 
         const container = document.getElementById("films");
         data.films.forEach(film => {
-          const card = document.createElement("div");
-          card.className = "card";
-
-          if (film.affiche) {
-            const img = document.createElement("img");
-            img.className = "poster";
-            img.src = film.affiche;
-            img.alt = `Affiche de ${film.titre}`;
-            card.appendChild(img);
-          }
-
-          const title = document.createElement("div");
-          title.className = "title";
-          title.textContent = film.titre;
-          card.appendChild(title);
-
-          if (film.rating) {
-            const rating = document.createElement("div");
-            rating.className = "rating";
-            rating.textContent = film.rating;
-            card.appendChild(rating);
-          }
-
-          if (film.content) {
-            const content = document.createElement("div");
-            content.className = "content";
-            content.textContent = film.content;
-            card.appendChild(content);
-          }
-
-          if (film.synopsis) {
-            const synopsis = document.createElement("div");
-            synopsis.className = "synopsis";
-            synopsis.textContent = film.synopsis;
-            card.appendChild(synopsis);
-          }
-
-          const seancesDiv = document.createElement("div");
-          seancesDiv.className = "seances";
-
-          film.horaire.forEach(seance => {
-            const horaireDiv = document.createElement("div");
-            horaireDiv.className = "horaire";
-
-            const parts = seance.horaire.split(" ");
-            const heure = parts[0];
-            const attributs = parts.slice(1).sort();
-
-            horaireDiv.textContent = heure;
-
-            if (attributs.includes("COMPLET")) {
-              horaireDiv.classList.add("complet");
-            }
-
-            if (attributs.length > 0) {
-              const attrSpan = document.createElement("span");
-              attrSpan.className = "attributs";
-              attrSpan.textContent = attributs.join(" ");
-              horaireDiv.appendChild(attrSpan);
-            }
-
-            seancesDiv.appendChild(horaireDiv);
-          });
-
-          card.appendChild(seancesDiv);
-          container.appendChild(card);
-        });
-      })
-      .catch(error => {
-        console.error("Erreur lors du chargement du fichier films.json :", error);
-      });
-  </script>
-</body>
