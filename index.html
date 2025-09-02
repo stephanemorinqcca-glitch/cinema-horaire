@@ -168,7 +168,18 @@
       background-color: #0099cc;
     }
   
-.date-label { color: black !important; }</style>
+.date-label { color: black !important; }
+.seance-bouton {
+    background-color: #00bfff;
+    color: white !important;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+</style>
 <style>
 .seances {
   display: flex;
@@ -316,7 +327,7 @@
 
           // Afficher les séances regroupées
           Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-          const dateObj = new Date(dateStr + 'T00:00:00Z');
+          const dateObj = new Date(dateStr);
           const optionsJour = { weekday: 'long' };
           const optionsJourNum = { day: 'numeric' };
           const optionsMois = { month: 'long' };
@@ -377,7 +388,7 @@ film.horaire.forEach(seance => {
 
 // Afficher les journées ligne par ligne
 Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-  const dateObj = new Date(dateStr + 'T00:00:00Z');
+  const dateObj = new Date(dateStr);
   const optionsJour = { weekday: 'long' };
   const optionsJourNum = { day: 'numeric' };
   const optionsMois = { month: 'long' };
