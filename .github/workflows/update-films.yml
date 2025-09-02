@@ -26,12 +26,10 @@ jobs:
       - name: Exécuter le script
         run: python update_films.py
 
-  
       - name: Commit et push
-      run: |
-        git config user.name "github-actions"
-        git config user.email "github-actions@github.com"
-        git add films.json
-        git diff --cached --quiet || git commit -m "🔄 Mise à jour automatique de films.json"
-        git push
-
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add films.json
+          git diff --cached --quiet || git commit -m "🔄 Mise à jour automatique de films.json"
+          git push
