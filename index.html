@@ -259,7 +259,7 @@ Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
   seances.forEach(({ heure, attributs }) => {
     const bouton = document.createElement("button");
     bouton.className = "seance-bouton";
-    bouton.textContent = `${heure} ${attributs.join(" ")}`;
+    bouton.textContent = ` ${heure}  ${attributs.join(" ")} `;
     ligneDiv.appendChild(bouton);
   });
 
