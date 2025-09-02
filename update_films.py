@@ -26,7 +26,7 @@ def fetch_film_details(fid):
         resp.raise_for_status()
         return resp.json()
     except Exception as e:
-        print(f"Erreur pour le film {fid}: {e}")
+        print(f"Erreur pour le film {fid} : {e}")
         return {}
 
 # 📅 Récupère toutes les séances
@@ -56,65 +56,57 @@ def fetch_sessions():
 
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
-    films = {}
-    for sess in sessions:
-        fid      = sess.get("filmId")
-        title    = sess.get("filmTitle")
-        iso      = sess.get("showtime")
-        rating   = sess.get("rating", "")
-        duration = sess.get("duration", "")
-        genres   = sess.get("genres", [])
-        poster   = sess.get("filmImageUrl", "")
-        attrs    = sess.get("attributes", [])
+    films_dict = {}
+    for session in sessions:
+        film_id = session.get("filmId")
+        title = session.get("filmTitle")
+        showtime = session.get("showtime")
+        rating = session.get("rating", "")
+        duration = session.get("duration", "")
+        genres = session.get("genres", [])
+        poster = session.get("filmImageUrl", "")
+        attributes = session.get("attributes", [])
 
         try:
-            dt = arrow.get(iso)
-            horaire = dt.format("YYYY-MM-DD HH:mm")
+            dt = arrow.get(showtime)
+            showtime_str = dt.format("YYYY-MM-DD HH:mm")
         except Exception as e:
-            print(f"Parse error pour '{iso}': {e}")
+            print(f"Erreur de format de date pour {showtime}: {e}")
             continue
 
-        if fid not in films:
-            film_details = fetch_film_details(fid)
-            films[fid] = {
-                "id": fid,
+        if film_id not in films_dict:
+            film_details = fetch_film_details(film_id)
+            films_dict[film_id] = {
+                "id": film_id,
                 "titre": film_details.get("Title", title),
                 "synopsis": film_details.get("Synopsis", ""),
                 "classification": film_details.get("Rating", rating),
                 "duree": film_details.get("Duration", duration),
                 "genre": film_details.get("Genre", genres),
                 "format": film_details.get("PresentationType", ""),
+                "langue": film_details.get("AudioLanguage", ""),
+                "distributeur": film_details.get("Distributor", ""),
+                "realisateur": next((p["FirstName"] + " " + p["LastName"] for p in film_details.get("People", []) if p["Role"] == "Director"), ""),
+                "acteurs": [p["FirstName"] + " " + p["LastName"] for p in film_details.get("People", []) if p["Role"] == "Actor"],
                 "affiche": film_details.get("FilmPosterUrl", poster),
                 "banniere": film_details.get("BackdropImageUrl", ""),
-                "seances": []
+                "bande_annonce": film_details.get("FilmTrailerUrl", ""),
+                "horaire": []
             }
 
-        films[fid]["seances"].append({
-            "horaire": horaire,
-            "attributs": attrs
+        films_dict[film_id]["horaire"].append({
+            "horaire": showtime_str,
+            "attributs": attributes
         })
+
+    # Tri des horaires
+    for film in films_dict.values():
+        film["horaire"].sort(key=lambda h: h["horaire"])
 
     return {
         "cinema": "Cinéma Centre-Ville",
-        "films": list(films.values())
+        "films": list(films_dict.values())
     }
-
-# 🔎 Filtre les films par date et format
-def filtrer_films(data, date_cible=None, format_cible=None):
-    resultat = []
-    for film in data["films"]:
-        seances_filtrees = []
-        for seance in film["seances"]:
-            if date_cible and not seance["horaire"].startswith(date_cible):
-                continue
-            if format_cible and format_cible not in seance.get("attributs", []):
-                continue
-            seances_filtrees.append(seance)
-        if seances_filtrees:
-            film_filtre = film.copy()
-            film_filtre["seances"] = seances_filtrees
-            resultat.append(film_filtre)
-    return {"cinema": data["cinema"], "films": resultat}
 
 # 🚀 Point d’entrée
 def main():
@@ -122,7 +114,7 @@ def main():
     data = transform_data(sessions)
     with open("films1.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print("films1.json mis à jour !")
+    print("✅ Fichier films1.json mis à jour avec attributs de séance.")
 
 if __name__ == "__main__":
     main()
