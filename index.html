@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1200">
   <title>Programme des séances</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" relscription" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
+  https://fonts.googleapis.com/css2?family=Roboto&display=swap
+  <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
@@ -140,7 +141,8 @@
            width="1200" height="380">
     </a>
   </header>
-          legende" id="legende"></div>
+
+  <div class="legende" id="legende"></div>
 
   <hr>
 
@@ -158,7 +160,7 @@
 
     // 🎬 Charge et affiche les films depuis films.json
     fetch("films.json")
-      .then(response => response.json())
+     then(response => response.json())
       .then(data => {
         const legendContainer = document.getElementById("legende");
         data.legende.forEach(attr => {
