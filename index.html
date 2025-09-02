@@ -1,36 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-<body style="background-color:black;">
-</body>
-<header>
- <style>
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   }
-</style>
- <a href=https://www.cine-flash.com/>
- <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726" alt="Cinéma centre-ville Laser par BARCO" width="1200" height="380" align="center">
- </a>
-</header>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
-  <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <title>Programme des séances</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <style>
-    /* Reset basique */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: Roboto;
-      background: #f4f4f4;
+      font-family: Roboto, sans-serif;
+      background-color: #f4f4f4;
       color: #333;
       padding: 1em;
     }
@@ -41,7 +20,6 @@
       font-size: 2em;
     }
 
-    /* Grille responsive */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -50,7 +28,6 @@
       margin: 0 auto;
     }
 
-    /* Carte film */
     .card {
       background: #fff;
       border-radius: 8px;
@@ -58,130 +35,118 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       display: flex;
       flex-direction: column;
+      padding: 1em;
     }
 
     .card img {
-      width: 75%;
-      height: 250px;
-      object-fit: contain;
-      justify-content: center;
+      width: 100%;
+      height: auto;
     }
 
-    .card-content {
-      padding: 1em;
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
-
-    .card-content h2 {
+    .title {
       font-size: 1.2em;
+      font-weight: bold;
       margin-bottom: 0.5em;
-      color: #2c3e50;
-      text-transform: uppercase;
     }
 
-    .meta {
-      font-size: 0.85em;
-      color: #777;
-      margin-bottom: 0.8em;
-    }
-
-    .description {
-      flex: 1;
-      font-size: 0.9em;
-      line-height: 1.4;
+    .synopsis {
+      font-size: 0.95em;
       margin-bottom: 1em;
+      color: #555;
     }
 
-    .horaires {
-      font-size: 0.9em;
+    .seances {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
     }
 
-    .horaires strong {
-      display: block;
-      margin-bottom: 0.4em;
-    }
-
-    .horaires ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .horaires li {
-      background: #f8f8f8;
-      margin-bottom: 0.4em;
-      padding: 0.5em;
+    .horaire {
+      padding: 6px 10px;
       border-radius: 4px;
+      background-color: #eee;
+      color: #333;
+      font-weight: normal;
+      display: inline-block;
+    }
+
+    .complet {
+      background-color: #c00;
+      color: white;
+      font-weight: bold;
+    }
+
+    .attributs {
+      font-size: 0.85em;
+      margin-left: 8px;
+      color: #ddd;
+    }
+
+    header img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
 <body>
- 
-  <!-- <h1 style="color:White;">HORAIRE</h1> -->
-  <div id="grid" class="grid">
-    <!-- Les cartes films seront injectées ici -->
-  </div>
+  <header>
+    <a href="https://www.cine-flash.com/">
+      <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
+           alt="Cinéma centre-ville Laser par BARCO"
+           width="1200" height="380">
+    </a>
+  </header>
+
+  <h1>🎬 Programme des séances</h1>
+  <div class="grid" id="films"></div>
 
   <script>
-    /**
-     * Charge films.json, génère les cartes et les insère dans la grille.
-     * Le JSON doit être placé à la racine sous films.json.
-     */
-    async function loadFilms() {
-      try {
-        const res = await fetch('films.json');
-        if (!res.ok) throw new Error('Impossible de charger films.json');
-        const data = await res.json();
-
-        const grid = document.getElementById('grid');
-        grid.innerHTML = ''; // reset
-
+    fetch("films1.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("films");
         data.films.forEach(film => {
-          const card = document.createElement('div');
-          card.className = 'card';
-          card.innerHTML = `
-            <img src="${film.poster}" alt="Affiche ${film.title}">
-            <div class="card-content">
-              <h2>${film.title}</h2>
-              <div class="meta">
-               <strong> ${film.rating} </strong> | ${film.duration} | ${film.genres.join(' | ')}
-              </div>
-              <div class="description">${film.description}</div>
-              <div class="horaires">
-                <!-- <strong>Horaires :</strong> -->
-                <ul></ul>
-              </div>
-            </div>
-          `;
+          const card = document.createElement("div");
+          card.className = "card";
 
-          const ul = card.querySelector('.horaires ul');
-          Object.entries(film.sessions).forEach(([dateStr, times]) => {
-            const d     = new Date(dateStr);
-            const opts  = { weekday: 'long', day: 'numeric', month: 'long' };
-            let label   = d.toLocaleDateString('fr-FR', opts);
-            label       = label.charAt(0).toUpperCase() + label.slice(1);
+          const title = document.createElement("div");
+          title.className = "title";
+          title.textContent = film.titre;
+          card.appendChild(title);
 
-            const li = document.createElement('li');
-            // on affiche "Jour — hh:mm, hh:mm DLX" par exemple
-            li.innerHTML = `<strong>${label}</strong> ${times.join('  |  ')}`;
-            ul.appendChild(li);
+          if (film.synopsis) {
+            const synopsis = document.createElement("div");
+            synopsis.className = "synopsis";
+            synopsis.textContent = film.synopsis;
+            card.appendChild(synopsis);
+          }
+
+          const seancesDiv = document.createElement("div");
+          seancesDiv.className = "seances";
+
+          film.seances.forEach(seance => {
+            const horaireDiv = document.createElement("div");
+            horaireDiv.className = "horaire";
+
+            if (seance.attributs.includes("COMPLET")) {
+              horaireDiv.classList.add("complet");
+            }
+
+            horaireDiv.textContent = seance.horaire;
+
+            const attrSpan = document.createElement("span");
+            attrSpan.className = "attributs";
+            attrSpan.textContent = seance.attributs.join(", ");
+
+            horaireDiv.appendChild(attrSpan);
+            seancesDiv.appendChild(horaireDiv);
           });
 
-          grid.appendChild(card);
+          card.appendChild(seancesDiv);
+          container.appendChild(card);
         });
-      } catch (err) {
-        console.error(err);
-        document.getElementById('grid').innerHTML =
-          '<p>Erreur de chargement des données. Réessayez plus tard.</p>';
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      loadFilms();                        // chargement initial
-      setInterval(loadFilms, 5 * 60 * 1000);  // rafraîchissement toutes les 5 minutes
-    });
+      });
   </script>
-
 </body>
 </html>
