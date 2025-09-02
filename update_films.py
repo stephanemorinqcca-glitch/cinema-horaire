@@ -147,7 +147,7 @@ def transform_data(sessions):
         # Fusionner les shortnames avec espaces
         shortnames = " ".join([" " + attr.get("ShortName", "") + " " for attr in enriched_attributes if attr])
         films_dict[film_id]["horaire"].append({
-            "horaire": showtime_str + shortnames.strip()
+            "horaire": showtime_str + " " + shortnames.strip()
         })
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
