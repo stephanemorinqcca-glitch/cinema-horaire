@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1200">
   <title>Programme des séances</title>
-  https://fonts.googleapis.com/css?family=Roboto
-  <meta name="description" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" relscription" content="Chercher des heures de séances de films au Cinéma Centre-Ville">
   <style>
     body {
-      font-family: Roboto, sans-serif;
+      font-family: 'Roboto', sans-serif;
       background-color: #000;
       color: #fff;
       padding: 1em;
@@ -134,17 +133,14 @@
   </style>
 </head>
 <body>
-  <header>
+ <header>
     <a href="https://www.cine-flash.com/">
       <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
            alt="Cinéma centre-ville Laser par BARCO"
            width="1200" height="380">
     </a>
   </header>
-
-  <div class="date" id="date"></div>
-
-  <div class="legende" id="legende"></div>
+          legende" id="legende"></div>
 
   <hr>
 
@@ -171,7 +167,7 @@
           wrapper.style.alignItems = "center";
           wrapper.style.gap = "8px";
 
-         .createElement("span");
+          const badge = document.createElement("span");
           badge.className = "badge";
           badge.textContent = attr.ShortName;
           badge.style.color = attr.FontColor;
