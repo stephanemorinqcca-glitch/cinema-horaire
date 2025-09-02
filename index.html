@@ -14,7 +14,7 @@
       padding: 1em;
     }
 
-    h1 {
+     h1 {
       text-align: center;
       margin-bottom: 1em;
       font-size: 2em;
@@ -22,9 +22,31 @@
 
     header img {
       display: block;
-      margin: 0 auto 1em;
+      margin: 0 auto;
       max-width: 100%;
       border-radius: 8px;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 1em 0;
+    }
+
+    .legende {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 2em;
+    }
+
+    .badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      font-weight: bold;
+      display: inline-block;
     }
 
     .grid {
@@ -93,18 +115,38 @@
 </head>
 <body>
   <header>
-    <a href="https://www.cine-flash.com/">
-      <img src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"
-           alt="Cinéma centre-ville Laser par BARCO"
-           width="1200" height="380">
+    https://www.cine-flash.com/
+      https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726
     </a>
   </header>
+
+  <hr>
+
+  <div class="legende" id="legende"></div>
+
+  <hr>
+
+  <h1>🎬 Programme des séances</h1>
+  <div class="grid" id="films"></div>
+
   <script>
     fetch("films.json")
       .then(response => response.json())
       .then(data => {
-        const container = document.getElementById("films");
+        // Affichage de la légende
+        const legendContainer = document.getElementById("legende");
+        data.legende.forEach(attr => {
+          const badge = document.createElement("span");
+          badge.className = "badge";
+          badge.textContent = attr.ShortName;
+          badge.title = attr.Description;
+          badge.style.color = attr.FontColor;
+          badge.style.backgroundColor = attr.BackgroundColor;
+          legendContainer.appendChild(badge);
+        });
 
+        // Affichage des films
+        const container = document.getElementById("films");
         data.films.forEach(film => {
           const card = document.createElement("div");
           card.className = "card";
