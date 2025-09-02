@@ -15,42 +15,31 @@
       "content": "| Durée 1h44 | Animation",
       "horaire": [
         {
-          "horaire": "2025-09-03 19:05",
-          "attributs": []
+          "horaire": "2025-09-03 19:05"
         },
         {
-          "horaire": "2025-09-04 19:05",
-          "attributs": []
+          "horaire": "2025-09-04 19:05"
         },
         {
-          "horaire": "2025-09-05 19:05",
-          "attributs": []
+          "horaire": "2025-09-05 19:05"
         },
         {
-          "horaire": "2025-09-06 13:05",
-          "attributs": []
+          "horaire": "2025-09-06 13:05"
         },
         {
-          "horaire": "2025-09-06 19:05",
-          "attributs": []
+          "horaire": "2025-09-06 19:05"
         },
         {
-          "horaire": "2025-09-07 13:05",
-          "attributs": []
+          "horaire": "2025-09-07 13:05"
         },
         {
-          "horaire": "2025-09-07 19:05",
-          "attributs": []
+          "horaire": "2025-09-07 19:05"
         },
         {
-          "horaire": "2025-09-10 19:05",
-          "attributs": []
+          "horaire": "2025-09-10 19:05"
         },
         {
-          "horaire": "2025-09-11 19:05",
-          "attributs": [
-            "0000000011"
-          ]
+          "horaire": "2025-09-11 19:05DERNIÈRE"
         }
       ]
     },
@@ -68,46 +57,31 @@
       "content": "| Durée 1h47 | Violence | Langage Vulgaire | Gangsters",
       "horaire": [
         {
-          "horaire": "2025-09-03 19:15",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-03 19:15DLX"
         },
         {
-          "horaire": "2025-09-04 19:15",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-04 19:15DLX"
         },
         {
-          "horaire": "2025-09-05 19:15",
-          "attributs": []
+          "horaire": "2025-09-05 19:15"
         },
         {
-          "horaire": "2025-09-06 13:05",
-          "attributs": []
+          "horaire": "2025-09-06 13:05"
         },
         {
-          "horaire": "2025-09-06 19:15",
-          "attributs": []
+          "horaire": "2025-09-06 19:15"
         },
         {
-          "horaire": "2025-09-07 13:05",
-          "attributs": []
+          "horaire": "2025-09-07 13:05"
         },
         {
-          "horaire": "2025-09-07 19:15",
-          "attributs": []
+          "horaire": "2025-09-07 19:15"
         },
         {
-          "horaire": "2025-09-10 19:15",
-          "attributs": []
+          "horaire": "2025-09-10 19:15"
         },
         {
-          "horaire": "2025-09-11 19:15",
-          "attributs": [
-            "0000000011"
-          ]
+          "horaire": "2025-09-11 19:15DERNIÈRE"
         }
       ]
     },
@@ -125,42 +99,31 @@
       "content": "| Durée 1h45 | Comédie noire",
       "horaire": [
         {
-          "horaire": "2025-09-03 19:05",
-          "attributs": []
+          "horaire": "2025-09-03 19:05"
         },
         {
-          "horaire": "2025-09-04 19:05",
-          "attributs": []
+          "horaire": "2025-09-04 19:05"
         },
         {
-          "horaire": "2025-09-05 19:15",
-          "attributs": []
+          "horaire": "2025-09-05 19:15"
         },
         {
-          "horaire": "2025-09-06 13:05",
-          "attributs": []
+          "horaire": "2025-09-06 13:05"
         },
         {
-          "horaire": "2025-09-06 19:15",
-          "attributs": []
+          "horaire": "2025-09-06 19:15"
         },
         {
-          "horaire": "2025-09-07 13:05",
-          "attributs": []
+          "horaire": "2025-09-07 13:05"
         },
         {
-          "horaire": "2025-09-07 19:15",
-          "attributs": []
+          "horaire": "2025-09-07 19:15"
         },
         {
-          "horaire": "2025-09-10 19:15",
-          "attributs": []
+          "horaire": "2025-09-10 19:15"
         },
         {
-          "horaire": "2025-09-11 19:15",
-          "attributs": [
-            "0000000011"
-          ]
+          "horaire": "2025-09-11 19:15DERNIÈRE"
         }
       ]
     },
@@ -178,14 +141,10 @@
       "content": "| Durée 1h25 | *Déconseillé aux jeunes enfants | Comédie policière",
       "horaire": [
         {
-          "horaire": "2025-09-03 19:15",
-          "attributs": []
+          "horaire": "2025-09-03 19:15"
         },
         {
-          "horaire": "2025-09-04 19:15",
-          "attributs": [
-            "0000000011"
-          ]
+          "horaire": "2025-09-04 19:15DERNIÈRE"
         }
       ]
     },
@@ -203,102 +162,46 @@
       "content": "| Durée 2h15 | Horreur | Suspense d'épouvante",
       "horaire": [
         {
-          "horaire": "2025-09-05 18:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-05 18:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-06 12:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-06 12:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-06 18:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-06 18:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-07 12:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-07 12:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-07 18:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-07 18:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-10 18:55",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-10 18:55DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-11 18:55",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-11 18:55DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-12 18:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-12 18:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-13 12:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-13 12:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-13 18:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-13 18:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-14 12:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-14 12:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-14 18:45",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-14 18:45DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-17 18:55",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-17 18:55DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-18 18:55",
-          "attributs": [
-            "0000000029",
-            "0000000031"
-          ]
+          "horaire": "2025-09-18 18:55DLX   ATMOS®"
         }
       ]
     },
@@ -316,42 +219,31 @@
       "content": "| Durée 2h13 | *Déconseillé aux jeunes enfants | Aventures fantastiques",
       "horaire": [
         {
-          "horaire": "2025-09-03 18:45",
-          "attributs": []
+          "horaire": "2025-09-03 18:45"
         },
         {
-          "horaire": "2025-09-04 18:45",
-          "attributs": []
+          "horaire": "2025-09-04 18:45"
         },
         {
-          "horaire": "2025-09-05 18:55",
-          "attributs": []
+          "horaire": "2025-09-05 18:55"
         },
         {
-          "horaire": "2025-09-06 12:45",
-          "attributs": []
+          "horaire": "2025-09-06 12:45"
         },
         {
-          "horaire": "2025-09-06 18:55",
-          "attributs": []
+          "horaire": "2025-09-06 18:55"
         },
         {
-          "horaire": "2025-09-07 12:45",
-          "attributs": []
+          "horaire": "2025-09-07 12:45"
         },
         {
-          "horaire": "2025-09-07 18:55",
-          "attributs": []
+          "horaire": "2025-09-07 18:55"
         },
         {
-          "horaire": "2025-09-10 18:55",
-          "attributs": []
+          "horaire": "2025-09-10 18:55"
         },
         {
-          "horaire": "2025-09-11 18:55",
-          "attributs": [
-            "0000000011"
-          ]
+          "horaire": "2025-09-11 18:55DERNIÈRE"
         }
       ]
     },
@@ -369,58 +261,31 @@
       "content": "| Durée 2h08 | Violence | Horreur | Suspense fantastique",
       "horaire": [
         {
-          "horaire": "2025-09-03 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-03 18:55DLX"
         },
         {
-          "horaire": "2025-09-04 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-04 18:55DLX"
         },
         {
-          "horaire": "2025-09-05 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-05 18:55DLX"
         },
         {
-          "horaire": "2025-09-06 12:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-06 12:55DLX"
         },
         {
-          "horaire": "2025-09-06 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-06 18:55DLX"
         },
         {
-          "horaire": "2025-09-07 12:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-07 12:55DLX"
         },
         {
-          "horaire": "2025-09-07 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-07 18:55DLX"
         },
         {
-          "horaire": "2025-09-10 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-10 18:55DLX"
         },
         {
-          "horaire": "2025-09-11 18:55",
-          "attributs": [
-            "0000000029"
-          ]
+          "horaire": "2025-09-11 18:55DLX"
         }
       ]
     }
