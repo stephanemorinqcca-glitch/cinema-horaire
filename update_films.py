@@ -1,4 +1,4 @@
-stimport sys
+import sys
 import requests
 import json
 from datetime import datetime
