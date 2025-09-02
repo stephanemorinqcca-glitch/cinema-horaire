@@ -109,12 +109,6 @@
       color: #00bfff;
     }
 
-    .seances {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
     .horaire {
       padding: 6px 10px;
       border-radius: 4px;
@@ -134,6 +128,43 @@
       font-size: 0.85em;
       margin-left: 6px;
       color: #666;
+    }
+
+    .seances {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .ligne-seances {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .date-label {
+      font-weight: bold;
+      color: black;
+      background-color: transparent;
+      padding: 6px 0;
+      min-width: 160px;
+    }
+
+    .seance-bouton {
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }    
+
+    .seance-bouton:hover {
+      background-color: #0099cc;
     }
   </style>
 </head>
