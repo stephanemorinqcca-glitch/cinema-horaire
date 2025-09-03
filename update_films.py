@@ -164,8 +164,8 @@ def transform_data(sessions):
         films_list = list(films_dict.values())
         films_list.sort(key=lambda film: film["titre"].lower())
 
-        legend_list = list(used_attributes.values())
-        legend_list.sort(key=lambda attr: attr["ShortName"].lower())
+        # legend_list = list(used_attributes.values())
+        # legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
         return {
             "cinema": "Cinéma Centre-Ville",
