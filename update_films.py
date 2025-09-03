@@ -92,6 +92,7 @@ def transform_data(sessions):
     attribute_cache = {}
     used_attributes = {}
     ignored_count = 0
+    now = arrow.now().to('local')  # ou .to('America/Toronto') si tu veux forcer la timezone
 
     #for session in sessions:
     #    sales_via = session.get("SalesVia", [])
@@ -101,24 +102,23 @@ def transform_data(sessions):
     #        continue
 
     for session in sessions:
+     showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
-        showtime = session.get("FeatureStartTime", "")
-
-        # Vérifie WWW, statut ouvert, et heure après maintenant
-        if "WWW" not in sales_via or status != "Open":
-            ignored_count += 1
-            continue
 
         try:
-            session_time = arrow.get(showtime).datetime
-            if session_time <= datetime.now():
-                ignored_count += 1
-                continue
+            session_time = arrow.get(showtime_str).to('local')
         except Exception as e:
-            print(f"Erreur de parsing de l'heure: {showtime} → {e}")
+            print(f"Erreur de parsing de l'heure: {showtime_str} → {e}")
             ignored_count += 1
             continue
+
+        # Filtrage : WWW, statut ouvert, séance dans le futur
+        if "WWW" not in sales_via or status != "Open" or session_time <= now:
+            ignored_count += 1
+            continue
+
+        # Ici, la session est valide : tu peux continuer le traitement
 
         # Ici, la session est valide : WWW, ouverte, et dans le futur
         # Tu peux continuer ton traitement
