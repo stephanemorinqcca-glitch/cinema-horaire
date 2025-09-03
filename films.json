@@ -2,6 +2,12 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
+      "ShortName": "ATMOS®",
+      "Description": "Son ambiophonique Dolby ATMOS®",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    },
+    {
       "ShortName": "DERNIÈRE",
       "Description": "Représentation",
       "FontColor": "#666666",
@@ -10,12 +16,6 @@
     {
       "ShortName": "DLX",
       "Description": "Salle avec sièges rocker et plus spacieux",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee"
-    },
-    {
-      "ShortName": "ATMOS®",
-      "Description": "Son ambiophonique Dolby ATMOS®",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee"
     }
@@ -36,13 +36,10 @@
       "content": "| Durée 2h08 | Violence | Horreur | Suspense fantastique",
       "horaire": [
         {
-          "horaire": "2025-09-03 18:55 DLX COMPLET"
+          "horaire": "2025-09-03 18:55 DLX"
         },
         {
           "horaire": "2025-09-04 18:55 DLX"
-        },
-        {
-          "horaire": "2025-09-05 18:55 DLX"
         },
         {
           "horaire": "2025-09-06 12:55 DLX"
@@ -55,6 +52,9 @@
         },
         {
           "horaire": "2025-09-07 18:55 DLX"
+        },
+        {
+          "horaire": "2025-09-05 18:55 DLX"
         },
         {
           "horaire": "2025-09-10 18:55 DLX"
@@ -101,9 +101,6 @@
       "content": "| Durée 2h15 | Horreur | Suspense d'épouvante",
       "horaire": [
         {
-          "horaire": "2025-09-05 18:45 DLX   ATMOS®"
-        },
-        {
           "horaire": "2025-09-06 12:45 DLX   ATMOS®"
         },
         {
@@ -116,6 +113,9 @@
           "horaire": "2025-09-07 18:45 DLX   ATMOS®"
         },
         {
+          "horaire": "2025-09-05 18:45 DLX   ATMOS®"
+        },
+        {
           "horaire": "2025-09-10 18:55 DLX   ATMOS®"
         },
         {
@@ -123,6 +123,12 @@
         },
         {
           "horaire": "2025-09-12 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-17 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-18 18:55 DLX   ATMOS®"
         },
         {
           "horaire": "2025-09-13 12:45 DLX   ATMOS®"
@@ -135,12 +141,6 @@
         },
         {
           "horaire": "2025-09-14 18:45 DLX   ATMOS®"
-        },
-        {
-          "horaire": "2025-09-17 18:55 DLX   ATMOS®"
-        },
-        {
-          "horaire": "2025-09-18 18:55 DLX   ATMOS®"
         }
       ]
     },
@@ -208,9 +208,6 @@
           "horaire": "2025-09-04 19:05 "
         },
         {
-          "horaire": "2025-09-05 19:15 "
-        },
-        {
           "horaire": "2025-09-06 13:05 "
         },
         {
@@ -221,6 +218,9 @@
         },
         {
           "horaire": "2025-09-07 19:15 "
+        },
+        {
+          "horaire": "2025-09-05 19:15 "
         },
         {
           "horaire": "2025-09-10 19:15 "
@@ -288,12 +288,6 @@
       "content": "| Durée 1h47 | Violence | Langage Vulgaire | Gangsters",
       "horaire": [
         {
-          "horaire": "2025-09-03 19:15 DLX"
-        },
-        {
-          "horaire": "2025-09-04 19:15 DLX"
-        },
-        {
           "horaire": "2025-09-05 19:15 "
         },
         {
@@ -313,6 +307,12 @@
         },
         {
           "horaire": "2025-09-11 19:15 DERNIÈRE"
+        },
+        {
+          "horaire": "2025-09-03 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-04 19:15 DLX"
         }
       ]
     }
