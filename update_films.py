@@ -93,13 +93,36 @@ def transform_data(sessions):
     used_attributes = {}
     ignored_count = 0
 
+    #for session in sessions:
+    #    sales_via = session.get("SalesVia", [])
+    #    status = session.get("Status", "")
+    #   if "WWW" not in sales_via or status != "Open":
+    #        ignored_count += 1
+    #        continue
+
     for session in sessions:
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
+        showtime = session.get("FeatureStartTime", "")
+
+        # Vérifie WWW, statut ouvert, et heure après maintenant
         if "WWW" not in sales_via or status != "Open":
             ignored_count += 1
             continue
 
+        try:
+            session_time = arrow.get(showtime).datetime
+            if session_time <= datetime.now():
+                ignored_count += 1
+                continue
+        except Exception as e:
+            print(f"Erreur de parsing de l'heure: {showtime} → {e}")
+            ignored_count += 1
+            continue
+
+        # Ici, la session est valide : WWW, ouverte, et dans le futur
+        # Tu peux continuer ton traitement
+    
         showtime = session.get("FeatureStartTime")
         if not showtime or not isinstance(showtime, str) or showtime.strip() == "":
             ignored_count += 1
