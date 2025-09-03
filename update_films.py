@@ -160,8 +160,14 @@ def transform_data(sessions):
     
     for film in films_dict.values():
         # film["horaire"].sort(key=lambda h: h["horaire"])
-        film["horaire"].sort(key=lambda h: arrow.get(h["horaire"][:16], "YYYY-MM-DD HH:mm"))
 
+        # Fonction pour extraire la date/heure sans les suffixes
+        def extract_datetime(horaire_str):
+            # On prend juste les 16 premiers caractères : "YYYY-MM-DD HH:mm"
+            return datetime.strptime(horaire_str[:16], "%Y-%m-%d %H:%M")
+
+        # Tri des horaires
+        film["horaire"].sort(key=lambda h: extract_datetime(h["horaire"]))
 
         films_list = list(films_dict.values())
         films_list.sort(key=lambda film: film["titre"].lower())
