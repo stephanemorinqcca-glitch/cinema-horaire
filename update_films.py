@@ -102,7 +102,7 @@ def transform_data(sessions):
     #        continue
 
     for session in sessions:
-     showtime_str = session.get("FeatureStartTime", "")
+        showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
 
