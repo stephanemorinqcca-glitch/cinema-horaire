@@ -99,7 +99,7 @@ def transform_data(sessions):
             ignored_count += 1
             continue
 
-        showtime = session.get("PreShowStartTime")
+        showtime = session.get("FeatureStartTime")
         if not showtime or not isinstance(showtime, str) or showtime.strip() == "":
             ignored_count += 1
             continue
