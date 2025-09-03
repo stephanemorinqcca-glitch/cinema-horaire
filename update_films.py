@@ -160,6 +160,8 @@ def transform_data(sessions):
     
     for film in films_dict.values():
         # film["horaire"].sort(key=lambda h: h["horaire"])
+        film["horaire"].sort(key=lambda h: arrow.get(h["horaire"][:16], "YYYY-MM-DD HH:mm"))
+
 
         films_list = list(films_dict.values())
         films_list.sort(key=lambda film: film["titre"].lower())
