@@ -157,10 +157,14 @@ def transform_data(sessions):
     for film in films_dict.values():
         film["horaire"].sort(key=lambda h: h["horaire"])
 
+
+    films_list = list(films_dict.values())
+    films_list.sort(key=lambda film: film["titre"].lower())
+
     return {
-        "cinema": "Cinéma Centre-Ville",
-        "legende": list(used_attributes.values()),
-        "films": list(films_dict.values())
+    "cinema": "Cinéma Centre-Ville",
+    "legende": list(used_attributes.values()),
+    "films": films_list
     }
 
 # 🚀 Point d’entrée
