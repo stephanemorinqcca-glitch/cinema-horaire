@@ -29,7 +29,8 @@
     const jourNom = jours[aujourdHui.getDay()];
     const jourNum = aujourdHui.getDate();
     const moisNom = mois[aujourdHui.getMonth()];
-    document.getElementById("date").textContent = `${jourNom} ${jourNum}, ${moisNom}`; -->
+    document.getElementById("date").textContent = `${jourNom} ${jourNum}, ${moisNom}`; 
+    -->
 
     fetch("films.json")
       .then(response => response.json())
