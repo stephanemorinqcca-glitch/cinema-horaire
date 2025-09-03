@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timedelta
 import arrow
 import os
+import re
 
 # Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
@@ -161,13 +162,18 @@ def transform_data(sessions):
     for film in films_dict.values():
         # film["horaire"].sort(key=lambda h: h["horaire"])
 
-        # Fonction pour extraire la date/heure sans les suffixes
-        def extract_datetime(horaire_str):
-            # On prend juste les 16 premiers caractères : "YYYY-MM-DD HH:mm"
-            return datetime.strptime(horaire_str[:16], "%Y-%m-%d %H:%M")
+        def extract_datetime_safe(horaire_str):
+            # Cherche une date/heure au début de la chaîne
+            match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
+            if match:
+                return datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
+            else:
+                # Si la date est introuvable, on met une date très éloignée pour la placer en dernier
+                return datetime.max
 
-        # Tri des horaires
-        film["horaire"].sort(key=lambda h: extract_datetime(h["horaire"]))
+        # Appliquer le tri à tous les films
+        for film in films_dict.values():
+        film["horaire"].sort(key=lambda h: extract_datetime_safe(h["horaire"]))
 
         films_list = list(films_dict.values())
         films_list.sort(key=lambda film: film["titre"].lower())
