@@ -15,7 +15,6 @@
 
 <header>
     <div class="banner-container">
-        <a>
         https://www.cine-flash.com/
             https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726
         </a>
@@ -23,7 +22,7 @@
 </header>
 
 <div class="legende" id="legende"></div>
-
+<hr/>
 <div class="grid" id="films"></div>
 <script>
       fetch("films.json")
@@ -56,7 +55,7 @@
         data.films.forEach(film => {
           const card = document.createElement("div");
           card.className = "card";
-          <hr/>
+
           if (film.thumbnail) {
             const img = document.createElement("img");
             img.className = "poster";
