@@ -23,7 +23,7 @@
 </header>
 
 <div class="legende" id="legende"></div>
-<hr/>
+
 <div class="grid" id="films"></div>
 <script>
       fetch("films.json")
@@ -56,7 +56,7 @@
         data.films.forEach(film => {
           const card = document.createElement("div");
           card.className = "card";
-
+          <hr/>
           if (film.thumbnail) {
             const img = document.createElement("img");
             img.className = "poster";
@@ -195,7 +195,7 @@ Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
 
   const dateLabel = document.createElement("span");
   dateLabel.className = "date-label";
-  dateLabel.textContent = `${jour.charAt(0).toUpperCase() + jour.slice(1)} ${jourNum}, ${mois}`;
+  dateLabel.textContent = `${jour.toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
 
   ligneDiv.appendChild(dateLabel);
 
