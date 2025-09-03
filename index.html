@@ -17,22 +17,11 @@
 <img alt="Cinéma centre-ville Laser par BARCO" height="380" src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726" width="1200"/>
 </a>
 </header>
-<!-- <div class="date" id="date"></div> -->
 <div class="legende" id="legende"></div>
 <hr/>
 <div class="grid" id="films"></div>
 <script>
-    const jours = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
-    const mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
-    <!--
-    const aujourdHui = new Date();
-    const jourNom = jours[aujourdHui.getDay()];
-    const jourNum = aujourdHui.getDate();
-    const moisNom = mois[aujourdHui.getMonth()];
-    document.getElementById("date").textContent = `${jourNom} ${jourNum}, ${moisNom}`; 
-    -->
-
-    fetch("films.json")
+      fetch("films.json")
       .then(response => response.json())
       .then(data => {
         const legendContainer = document.getElementById("legende");
