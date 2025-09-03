@@ -1,0 +1,120 @@
+html {
+	height: 100%;
+	min-height: 100%;
+	font-family: "Roboto", sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
+	background-color: #000;
+	font-size: 16px;
+}
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+main {
+	padding: 0 20px 20px 20px;
+}
+
+hr {
+	border-style: outset;
+}
+
+header {
+	display: block;
+}
+#banner {
+	width: 100%;
+}
+
+#date {
+	margin-top: 3px;
+	margin-bottom: 8px;
+}
+#legende {
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	margin-top: 8px;
+}
+@media (min-width: 900px) {
+	#legende {
+		flex-direction: row !important;
+		justify-content: space-around !important; /*space-between;*/
+	}
+}
+.badge {
+	background-color: #eee;
+	color: #666;
+	padding: 2px 5px;
+	margin-right: 5px;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	border-top: solid 1px #777;
+	margin-top: 10px;
+	padding: 10px 0;
+}
+
+.poster {
+	width: 135px;
+	padding: 5px 15px 0 0;
+}
+.poster > img {
+	width: 125px;
+}
+
+h1 {
+	margin: 0;
+}
+
+.rating {
+	font-weight: bold;
+}
+.rating,
+.content {
+	font-size: 14px;
+}
+
+.synopsis {
+	white-space: break-spaces;
+	margin: 15px 0 5px 0;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.seances {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.jour-label {
+	font-weight: bold;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.horaires {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.seance-label {
+	display: inline-block;
+	background-color: #ccc;
+	color: #666;
+	padding: 5px 10px;
+}
+.attributs-label {
+	display: inline-block;
+	white-space: break-spaces;
+	background-color: #eee;
+	color: #666;
+	padding: 5px 10px;
+}
