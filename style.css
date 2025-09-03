@@ -8,10 +8,19 @@ body {
 }
 
 .banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+    width: 100%;
+    max-width: 1200px; /* ou la largeur que tu veux */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* optionnel pour des coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* effet d’ombre léger */
 }
 
 /* Titre principal */
