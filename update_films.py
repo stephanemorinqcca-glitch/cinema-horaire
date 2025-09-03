@@ -155,20 +155,20 @@ def transform_data(sessions):
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
 
-    for film in films_dict.values():
+   for film in films_dict.values():
         film["horaire"].sort(key=lambda h: h["horaire"])
 
-        films_list = list(films_dict.values())
-        films_list.sort(key=lambda film: film["titre"].lower())
+    films_list = list(films_dict.values())
+    films_list.sort(key=lambda film: film["titre"].lower())
 
-        legend_list = list(used_attributes.values())
-        legend_list.sort(key=lambda attr: attr["ShortName"].lower())
+    legend_list = list(used_attributes.values())
+    legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
-        return {
-            "cinema": "Cinéma Centre-Ville",
-            "legende": legend_list,
-            "films": films_list
-        }
+    return {
+        "cinema": "Cinéma Centre-Ville",
+        "legende": legend_list,
+        "films": films_list
+    }
 
 # 🚀 Point d’entrée
 def main():
