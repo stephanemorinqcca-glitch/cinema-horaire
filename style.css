@@ -1,7 +1,8 @@
 /* Style général */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #000;
+    color: #fff; /* Pour que le texte reste lisible sur fond noir */
     margin: 0;
     padding: 20px;
 }
