@@ -70,7 +70,7 @@ h1 {
 	white-space: break-spaces;
 	margin: 15px 0 5px 0;
 	text-align: justify;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .rating {
@@ -106,3 +106,4 @@ h1 {
 	flex-direction: column;
 	gap: 10px;
 }
+
