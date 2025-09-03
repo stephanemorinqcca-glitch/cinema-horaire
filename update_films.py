@@ -3,6 +3,7 @@ import requests
 import json
 from datetime import datetime
 import arrow
+import os
 
 # Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
@@ -177,8 +178,15 @@ def main():
         sys.exit(1)
     data = transform_data(sessions)
     try:
-        with open("films.json", "w", encoding="utf-8") as f:
+        
+        temp_file = "films_temp.json"
+        final_file = "films.json"
+
+        with open(temp_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+
+        os.replace(temp_file, final_file)  # remplace de manière atomique
+
         print("✅ Fichier films.json mis à jour avec légende des attributs.")
         print(f"Nombre de films ajoutés : {len(data['films'])}")
     except IOError as e:
