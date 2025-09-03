@@ -119,9 +119,6 @@ def transform_data(sessions):
             continue
 
         # Ici, la session est valide : tu peux continuer le traitement
-
-        # Ici, la session est valide : WWW, ouverte, et dans le futur
-        # Tu peux continuer ton traitement
     
         showtime = session.get("FeatureStartTime")
         if not showtime or not isinstance(showtime, str) or showtime.strip() == "":
