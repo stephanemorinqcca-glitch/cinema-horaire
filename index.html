@@ -70,10 +70,10 @@
 							const contentBlock = document.createElement("div");
 
 							if (film.classification) {
-								const rating = document.createElement("span");
-								rating.className = "rating";
-								rating.textContent = `${film.classification} `;
-								contentBlock.appendChild(rating);
+    							const rating = document.createElement("span");
+    							rating.className = "rating";
+    							rating.textContent = `${film.classification.slice(0, 3)} `;
+    							contentBlock.appendChild(rating);
 							}
 
 							if (film.content) {
@@ -175,4 +175,5 @@
 		</script>
 	</body>
 </html>
+
 
