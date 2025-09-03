@@ -74,6 +74,10 @@
     							rating.className = "rating";
     							rating.textContent = `${film.classification.slice(0, 3)} `;
     							contentBlock.appendChild(rating);
+								function getClassificationImage(classification) {
+ 								 	const key = classification.trim().toUpperCase();
+  									return `film.${key}.jpg`;
+								}
 							}
 
 							if (film.content) {
@@ -175,5 +179,6 @@
 		</script>
 	</body>
 </html>
+
 
 
