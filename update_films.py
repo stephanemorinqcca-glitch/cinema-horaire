@@ -173,7 +173,7 @@ def transform_data(sessions):
 
         # Appliquer le tri à tous les films
         for film in films_dict.values():
-        film["horaire"].sort(key=lambda h: extract_datetime_safe(h["horaire"]))
+            film["horaire"].sort(key=lambda h: extract_datetime_safe(h["horaire"]))
 
         films_list = list(films_dict.values())
         films_list.sort(key=lambda film: film["titre"].lower())
