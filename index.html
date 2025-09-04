@@ -1,39 +1,29 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="data:image/x-icon;base64,AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////ASOvai8jr2p/I69qnyOvap8jr2p/I69qL////wH///8B////Af///wH///8B////Af///wH///8BI69qPyOvat8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2rfI69qP////wH///8B////Af///wH///8BI69qXyOvav8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2pf////Af///wH///8BI69qPyOvav8jr2r/I69q/yOvav9MvoX/kde0/5HXtP8wtHP/I69q/yOvav8jr2r/I69q/yOvaj////8B////ASOvat8jr2r/I69q/yOvav8jr2r/rOHH////////////dc2h/yOvav8jr2r/I69q/yOvav8jr2rf////ASOvai8jr2r/I69q/yOvav8jr2r/I69q//H69f///////////9Xw4/8jr2r/I69q/yOvav8jr2r/I69q/yOvai8jr2p/I69q/yOvav8jr2r/I69q/2fImP//////////////////////Prl8/yOvav8jr2r/I69q/yOvav8jr2p/I69qnyOvav8jr2r/I69q/yOvav+s4cf//////+P17P///////////4PSq/8jr2r/I69q/yOvav8jr2r/I69qnyOvap8jr2r/I69q/yOvav8jr2r/8fr1//////+e3L3/uubQ///////V8OP/I69q/yOvav8jr2r/I69q/yOvap8jr2p/I69q/yOvav8jr2r/Z8iY////////////Z8iY/3XNof///////////z65fP8jr2r/I69q/yOvav8jr2p/I69qLyOvav8jr2r/I69q/6zhx///////8fr1/yOvav8wtHP///////////+D0qv/I69q/yOvav8jr2r/I69qL////wEjr2rfI69q/yOvav/x+vX//////7rm0P8jr2r/I69q/7rm0P//////1fDj/yOvav8jr2r/I69q3////wH///8BI69qPyOvav8jr2r/g9Kr/5HXtP9MvoX/I69q/yOvav9MvoX/kde0/2fImP8jr2r/I69q/yOvaj////8B////Af///wEjr2pfI69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q/yOval////8B////Af///wH///8B////ASOvaj8jr2rfI69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q3yOvaj////8B////Af///wH///8B////Af///wH///8B////ASOvai8jr2p/I69qnyOvap8jr2p/I69qL////wH///8B////Af///wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//w=="
-			rel="shortcut icon"
-			type="image/x-icon"
-		/>
-		<title>Horaire des films au Cinéma centre-ville | St-Georges</title>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-		<link href="style.css" rel="stylesheet" />
-	</head>
-	<body>
-		<header>
-			<a href="https://www.cine-flash.com/">
-				<img alt="Cinéma centre-ville Laser par BARCO" id="banner" src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726" />
-			</a>
-		</header>
-		<main>
-			<div id="legende"></div>
-			<p class="textlegende">Vente de billets au cinéma seulement pour la séance en cours</p>
-			<div id="films"></div>
-		</main>
-		<script>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=1200" name="viewport"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////ASOvai8jr2p/I69qnyOvap8jr2p/I69qL////wH///8B////Af///wH///8B////Af///wH///8BI69qPyOvat8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2rfI69qP////wH///8B////Af///wH///8BI69qXyOvav8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2pf////Af///wH///8BI69qPyOvav8jr2r/I69q/yOvav9MvoX/kde0/5HXtP8wtHP/I69q/yOvav8jr2r/I69q/yOvaj////8B////ASOvat8jr2r/I69q/yOvav8jr2r/rOHH////////////dc2h/yOvav8jr2r/I69q/yOvav8jr2rf////ASOvai8jr2r/I69q/yOvav8jr2r/I69q//H69f///////////9Xw4/8jr2r/I69q/yOvav8jr2r/I69q/yOvai8jr2p/I69q/yOvav8jr2r/I69q/2fImP//////////////////////Prl8/yOvav8jr2r/I69q/yOvav8jr2p/I69qnyOvav8jr2r/I69q/yOvav+s4cf//////+P17P///////////4PSq/8jr2r/I69q/yOvav8jr2r/I69qnyOvap8jr2r/I69q/yOvav8jr2r/8fr1//////+e3L3/uubQ///////V8OP/I69q/yOvav8jr2r/I69q/yOvap8jr2p/I69q/yOvav8jr2r/Z8iY////////////Z8iY/3XNof///////////z65fP8jr2r/I69q/yOvav8jr2p/I69qLyOvav8jr2r/I69q/6zhx///////8fr1/yOvav8wtHP///////////+D0qv/I69q/yOvav8jr2r/I69qL////wEjr2rfI69q/yOvav/x+vX//////7rm0P8jr2r/I69q/7rm0P//////1fDj/yOvav8jr2r/I69q3////wH///8BI69qPyOvav8jr2r/g9Kr/5HXtP9MvoX/I69q/yOvav9MvoX/kde0/2fImP8jr2r/I69q/yOvaj////8B////Af///wEjr2pfI69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q/yOval////8B////Af///wH///8B////ASOvaj8jr2rfI69q/yOvav8jr2r/I69q/yOvav8jr2r/I69q3yOvaj////8B////Af///wH///8B////Af///wH///8B////ASOvai8jr2p/I69qnyOvap8jr2p/I69qL////wH///8B////Af///wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//w==" rel="shortcut icon" type="image/x-icon"/>
+<title>Horaire des films au Cinéma centre-ville | St-Georges</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<a href="https://www.cine-flash.com/">
+<img alt="Cinéma centre-ville Laser par BARCO" id="banner" src="https://veeziustaskscm.blob.core.windows.net/veezi-ticketing-assets/jjwk2hm92x8zmdt4ys4sr1vvp0/banner?202508291726"/>
+</a>
+</header>
+<main>
+<div id="legende"></div>
+<p class="textlegende">*Vente de billets au cinéma seulement, aucune réservation</p>
+<div id="films"></div>
+</main>
+<script>
 			// ✅ Définition unique des mots-clés
 			const motsCles = ["Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
-			const ratingDescriptions = {
-				"13+": "12 ans - | DOIT ÊTRE ACCOMPAGNÉ PAR UN ADULTE",
-				"16+": "Le film peut être vu uniquement par des personnes de 16 ans ou plus",
-				"18+": "Le film peut être vu uniquement par des personnes de 18 ans ou plus",
-				"Pour Enfants": "Le film convient aux jeunes enfants, particulièrement à ceux d’âge préscolaire.",
-				"Déconseillé aux jeunes enfants": "Le film peut être vu par des personnes de tout âge.\n Des passages peuvent perturber les enfants de moins de 8 ans.",
-			};
 
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film) {
@@ -78,7 +68,7 @@
 			}
 
 			// ✅ Chargement des données
-			fetch("films.json", { cache: "no-store" })
+			fetch("films.json")
 				.then((response) => response.json())
 				.then((data) => {
 					const legendContainer = document.getElementById("legende");
@@ -102,9 +92,6 @@
 						const card = document.createElement("div");
 						card.className = "card";
 
-						const posterClassification = document.createElement("div");
-						posterClassification.className = "poster-classification";
-
 						const poster = document.createElement("div");
 						poster.className = "poster";
 						if (film.thumbnail) {
@@ -113,14 +100,12 @@
 							img.alt = `Affiche de ${film.titre}`;
 							poster.appendChild(img);
 						}
-						posterClassification.appendChild(poster);
+						card.appendChild(poster);
 
 						const details = document.createElement("div");
 						const title = document.createElement("h1");
 						title.textContent = film.titre;
 						details.appendChild(title);
-
-						let classificationDetails = "";
 
 						if (film.classification || film.content) {
 							const contentBlock = document.createElement("div");
@@ -134,42 +119,21 @@
 								contentBlock.appendChild(rating);
 
 								cleanedContent = ` | ${cleanedContent}`;
-
-								if (ratingDescriptions[film.classification]) {
-									classificationDetails = ratingDescriptions[film.classification];
-								}
 							}
-							motsCles.forEach((motCle) => {
-								if (film.content.includes(motCle) && ratingDescriptions[motCle]) {
-									if (classificationDetails !== "") classificationDetails += "\n";
-									classificationDetails += ratingDescriptions[motCle];
-								}
-							});
 
 							const content = document.createElement("span");
 							content.className = "content";
 							content.textContent = cleanedContent;
 							contentBlock.appendChild(content);
 
-							const classification = document.createElement("div");
 							const imageFilename = generateImageFilename(film);
 							const image = document.createElement("img");
 							image.src = `classification/${imageFilename}`;
 							image.alt = "Classification visuelle";
-							classification.className = "classification";
-							classification.appendChild(image);
+							image.className = "classification-image";
 
-							posterClassification.appendChild(classification);
+							poster.appendChild(image);
 							details.appendChild(contentBlock);
-						}
-
-						card.appendChild(posterClassification);
-
-						if (classificationDetails !== "") {
-							const classificationDetailsDiv = document.createElement("div");
-							classificationDetailsDiv.className = "classification-details";
-							classificationDetailsDiv.textContent = classificationDetails;
-							details.appendChild(classificationDetailsDiv);
 						}
 
 						if (film.synopsis) {
@@ -263,7 +227,7 @@
 					console.error("Erreur lors du chargement du fichier films.json :", error);
 				});
 		</script>
-	</body>
+</body>
 </html>
 
 
