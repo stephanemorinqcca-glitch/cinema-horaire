@@ -90,7 +90,7 @@ def transform_data(sessions):
     now = arrow.now('America/Toronto')
     threshold = now.shift(minutes=+5)  # seuil = maintenant + 5 min
 
-     for session in sessions:
+    for session in sessions:
          showtime_str = session.get("FeatureStartTime", "")
          sales_via = session.get("SalesVia", [])
          status = session.get("Status", "")
