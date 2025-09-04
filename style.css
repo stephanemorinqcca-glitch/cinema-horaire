@@ -16,12 +16,6 @@ body {
 main {
 	padding: 0 20px 20px 20px;
 }
-/*@media (orientation: portrait) {
-	body {
-		width: 100%;
-		max-width: none;
-	}
-}*/
 
 hr {
 	border-style: outset;
@@ -44,6 +38,12 @@ header {
 	font-size: 14px;
 	margin-top: 8px;
 }
+@media (min-width: 900px) {
+	#legende {
+		flex-direction: row !important;
+		justify-content: space-around !important; /*space-between;*/
+	}
+}
 
 .textlegende {
     background-color: #f0f0f0;
@@ -61,56 +61,34 @@ header {
 
 .card {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	border-top: solid 1px #777;
 	margin-top: 10px;
+margin-bottom: 10px;
 	padding: 10px 0;
 }
 
-.poster-classification {
-	display: flex;
-	flex-direction: row;
-}
 .poster {
+	width: 135px;
 	padding: 5px 15px 0 0;
 }
 .poster > img {
 	width: 125px;
 }
-.classification > img {
-	margin-top: 5px;
-	height: auto;
-	border-radius: 4px;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+.classification-image {
+    display: block;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    max-width: 135px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    float: left; /* Alignement à gauche */
 }
 
 h1 {
-	margin: 10px 0 0 0;
-}
-
-@media (min-width: 900px), (orientation: landscape) {
-	#legende {
-		flex-direction: row !important;
-		justify-content: space-around !important; /*space-between;*/
-	}
-
-	.card {
-		flex-direction: row !important;
-	}
-	.poster-classification {
-		flex-direction: column !important;
-	}
-	.poster {
-		width: 135px;
-	}
-	.classification > img {
-		margin-top: 10px !important;
-		max-width: 125px;
-	}
-
-	h1 {
-		margin: 0 !important;
-	}
+	margin: 0;
 }
 
 .rating {
@@ -121,18 +99,11 @@ h1 {
 	font-size: 14px;
 }
 
-.classification-details {
-	white-space: break-spaces;
-	margin: 15px 0 5px 0;
-	font-size: 14px;
-	background-color: #eee;
-}
-
 .synopsis {
 	white-space: break-spaces;
 	margin: 15px 0 5px 0;
 	text-align: justify;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .seances {
@@ -145,6 +116,7 @@ h1 {
 	font-weight: bold;
 	color: #000;
 	margin-top: 10px;
+margin-bottom: 10px;
 	margin-bottom: 5px;
 }
 
@@ -167,4 +139,6 @@ h1 {
 	color: #666;
 	padding: 5px 10px;
 }
+
+
 
