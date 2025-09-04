@@ -114,6 +114,8 @@
 						title.textContent = film.titre;
 						details.appendChild(title);
 
+						let classificationDetails = "";
+						
 						if (film.classification || film.content) {
 							const contentBlock = document.createElement("div");
 
@@ -254,6 +256,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
