@@ -120,6 +120,14 @@ et<!DOCTYPE html>
         					});
     					}
 
+					    // Formatage de la durée pour ajouter au content après le classement
+    					if (film.duree && !isNaN(film.duree)) {
+        					const heures = Math.floor(film.duree / 60);
+        					const minutes = film.duree % 60;
+        					const dureeFormatee = `| Durée ${heures}h${minutes.toString().padStart(2, "0")} |`;
+        					cleanedContent += ` ${dureeFormatee}`;
+    					}
+								
 						// Nettoyer les espaces et les séparateurs en trop
    						film.content = cleanedContent
         					.replace(/\s*\|\s*/g, " | ") // normalise les séparateurs restants
@@ -232,6 +240,7 @@ et<!DOCTYPE html>
 		</script>
 	</body>
 </html>
+
 
 
 
