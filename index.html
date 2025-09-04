@@ -105,42 +105,38 @@
         						"Sexualité Explicite"
     						];
 
-							let cleanedContent = film.content || "";
+    						let contentOriginal = film.content || "";
+    						let contentRestant = contentOriginal;
 
-    						if (film.content) {
-        						// On parcourt les mots-clés dans l'ordre et on les ajoute s'ils sont présents
-        						motsCles.forEach(mot => {
-            					if (film.content.includes(mot)) {
-                					base += normalizeText(mot);
+						    // Supprimer les mots-clés du contenu restant
+    						motsCles.forEach(mot => {
+        						const regex = new RegExp(`\\s*\\|?\\s*${mot}\\s*\\|?\\s*`, "gi");
+        						contentRestant = contentRestant.replace(regex, " ");
+    						});
 
-            						// Supprimer le mot-clé et les | autour
-                					const regex = new RegExp(`\\s*\\|?\\s*${mot}\\s*\\|?\\s*`, "gi");
-                					cleanedContent = cleanedContent.replace(regex, " ");
-            					}
-        					});
-    					}
+    						// Nettoyer les séparateurs et espaces
+    						contentRestant = contentRestant
+        						.replace(/\s*\|\s*/g, " | ")
+        						.replace(/\s{2,}/g, " ")
+        						.trim();
 
-					    // Formatage de la durée pour ajouter au content après le classement
-    					if (film.duree && !isNaN(film.duree)) {
-        					const heures = Math.floor(film.duree / 60);
-        					const minutes = film.duree % 60;
-        					const dureeFormatee = `| Durée ${heures}h${minutes.toString().padStart(2, "0")} |`;
-        					cleanedContent += ` ${dureeFormatee}`;
-    					}
-								
-						// Nettoyer les espaces et les séparateurs en trop
-   						film.content = cleanedContent
-        					.replace(/\s*\|\s*/g, " | ") // normalise les séparateurs restants
-        					.replace(/\s{2,}/g, " ")     // supprime les doubles espaces
-        					.trim();
+    						// Formatage de la durée
+    						let dureeFormatee = "";
+    						if (film.duree && !isNaN(film.duree)) {
+        						const heures = Math.floor(film.duree / 60);
+        						const minutes = film.duree % 60;
+        						dureeFormatee = `Durée ${heures}h${minutes.toString().padStart(2, "0")}`;
+    						}
 
-						 if (cleanedContent) {
-        					const content = document.createElement("span");
-        					content.className = "content";
-        					content.textContent = ` ${cleanedContent}`; // ✅ ici on affiche le contenu nettoyé
-        					contentBlock.appendChild(content);
-    					}
-								
+    						// Construction finale
+    						const parts = [];
+    						if (film.classification) parts.push(film.classification);
+    						if (dureeFormatee) parts.push(dureeFormatee);
+    						if (contentRestant) parts.push(contentRestant);
+
+    						return parts.join(" | ");
+						}		
+		
     					const filename = base + "RGB.jpg";
     					console.log("Nom de fichier image généré :", filename);
     					return filename;
@@ -247,6 +243,7 @@
 		</script>
 	</body>
 </html>
+
 
 
 
