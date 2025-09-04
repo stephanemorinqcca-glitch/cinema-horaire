@@ -86,7 +86,6 @@ def transform_data(sessions):
     attribute_cache = {}
     used_attributes = {}
     ignored_count = 0
-    now = arrow.now().to('local')  # ou .to('America/Toronto') si tu veux forcer la timezone
 
     now = arrow.now('America/Toronto')
 
@@ -102,10 +101,11 @@ def transform_data(sessions):
         print(f"Erreur parsing heure: {showtime_str} → {e}")
         ignored_count += 1
         continue
-
-    if "WWW" not in sales_via or status != "Open" or session_time <= now:
-        ignored_count += 1
-        continue
+        
+        # Filtrage : WWW, statut ouvert, séance dans le futur
+        if "WWW" not in sales_via or status != "Open" or session_time <= now:
+            ignored_count += 1
+            continue
     
         # Ici, la session est valide : tu peux continuer le traitement
     
