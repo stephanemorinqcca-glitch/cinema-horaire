@@ -96,7 +96,7 @@ def transform_data(sessions):
          status = session.get("Status", "")
 
         try:
-        # Pas de replace(tzinfo='UTC') si l'heure est déjà locale
+            # Pas de replace(tzinfo='UTC') si l'heure est déjà locale
             session_time = arrow.get(showtime_str).to('America/Toronto')
         except Exception as e:
             print(f"Erreur parsing heure: {showtime_str} → {e}")
