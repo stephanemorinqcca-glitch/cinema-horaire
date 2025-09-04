@@ -90,18 +90,18 @@ def transform_data(sessions):
     now = arrow.now('America/Toronto')
     threshold = now.shift(minutes=+5)  # seuil = maintenant + 5 min
 
-        for session in sessions:
-            showtime_str = session.get("FeatureStartTime", "")
-            sales_via = session.get("SalesVia", [])
-            status = session.get("Status", "")
+     for session in sessions:
+         showtime_str = session.get("FeatureStartTime", "")
+         sales_via = session.get("SalesVia", [])
+         status = session.get("Status", "")
 
         try:
-            # Pas de replace(tzinfo='UTC') si l'heure est déjà locale
+        # Pas de replace(tzinfo='UTC') si l'heure est déjà locale
             session_time = arrow.get(showtime_str).to('America/Toronto')
         except Exception as e:
             print(f"Erreur parsing heure: {showtime_str} → {e}")
             ignored_count += 1
-            continue
+        continue
 
         # Filtrage : WWW, statut ouvert, séance plus tard que maintenant + 5 min
         if "WWW" not in sales_via or status != "Open" or session_time <= threshold:
