@@ -133,6 +133,13 @@ et<!DOCTYPE html>
         					.replace(/\s*\|\s*/g, " | ") // normalise les séparateurs restants
         					.replace(/\s{2,}/g, " ")     // supprime les doubles espaces
         					.trim();
+
+						 if (cleanedContent) {
+        					const content = document.createElement("span");
+        					content.className = "content";
+        					content.textContent = ` ${cleanedContent}`; // ✅ ici on affiche le contenu nettoyé
+        					contentBlock.appendChild(content);
+    					}
 								
     					const filename = base + "RGB.jpg";
     					console.log("Nom de fichier image généré :", filename);
@@ -240,6 +247,7 @@ et<!DOCTYPE html>
 		</script>
 	</body>
 </html>
+
 
 
 
