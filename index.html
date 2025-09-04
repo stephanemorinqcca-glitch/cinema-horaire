@@ -83,46 +83,42 @@
         						contentBlock.appendChild(content);
     						}
 
-    						// Génération du nom de fichier
-    						function normalizeText(text) {
-        						return text
-            						.normalize("NFD")
-            						.replace(/[\u0300-\u036f]/g, "")
-            						.replace(/\s+/g, "")
-            						.replace(/[^a-zA-Z0-9+]/g, "");
+  							// Génération du nom de fichier
+							function generateImageFilename(film) {
+    							function normalizeText(text) {
+        							return text
+            							.normalize("NFD")
+            							.replace(/[\u0300-\u036f]/g, "")
+            							.replace(/\s+/g, "")
+            							.replace(/[^a-zA-Z0-9+]/g, "");
     						}
 
-    						function generateImageFilename(film) {
-        						let base = normalizeText(film.classification || "");
+						    let base = normalizeText(film.classification || "");
 
     						const motsCles = [
         						"Déconseillé aux jeunes enfants",
         						"Erostisme",
         						"Exempte de classement",
         						"Violence",
+        						"Horreur",
         						"Langage Vulgaire",
         						"Pour Enfants",
         						"Sexualité Explicite"
     						];
 
     						if (film.content) {
-        						// Prioriser "Horreur" s'il est présent
-        						if (film.content.includes("Horreur")) {
-            					base += normalizeText("Horreur");
-        					}
-
-        					// Ajouter les autres mots-clés (sauf "Horreur")
-        					motsCles.forEach(mot => {
-            					if (mot !== "Horreur" && film.content.includes(mot)) {
+        						// On parcourt les mots-clés dans l'ordre et on les ajoute s'ils sont présents
+        						motsCles.forEach(mot => {
+            					if (film.content.includes(mot)) {
                 					base += normalizeText(mot);
             					}
         					});
-   	 					}						
+    						}
 
-    					const filename = base + "RGB.jpg";
-    					console.log("Nom de fichier image généré :", filename);
-    					return filename;
-						}	
+    						const filename = base + "RGB.jpg";
+    						console.log("Nom de fichier image généré :", filename);
+    						return filename;
+						}
 
     					// Création et insertion de l'image
     					const imageFilename = generateImageFilename(film);
@@ -225,6 +221,7 @@
 		</script>
 	</body>
 </html>
+
 
 
 
