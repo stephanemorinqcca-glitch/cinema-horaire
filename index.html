@@ -95,7 +95,6 @@
     						function generateImageFilename(film) {
         						let base = normalizeText(film.classification || "");
 
-
     						const motsCles = [
         						"Déconseillé aux jeunes enfants",
         						"Erostisme",
@@ -133,6 +132,7 @@
     					image.className = "classification-image"; // Pour styliser si besoin
 
 						poster.appendChild(image);
+						details.appendChild(contentBlock);
 						}
 
 						if (film.synopsis) {
@@ -225,6 +225,7 @@
 		</script>
 	</body>
 </html>
+
 
 
 
