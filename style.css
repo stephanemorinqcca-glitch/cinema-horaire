@@ -44,6 +44,28 @@ header {
 		justify-content: space-around !important; /*space-between;*/
 	}
 }
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .poster {
+    width: 100%;
+    padding: 0;
+  }
+
+  .poster > img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .synopsis {
+    font-size: 14px;
+  }
+}
+
 .badge {
 	background-color: #eee;
 	color: #666;
@@ -128,5 +150,6 @@ h1 {
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
