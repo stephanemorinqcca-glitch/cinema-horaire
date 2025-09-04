@@ -154,6 +154,13 @@
 							details.appendChild(contentBlock);
 						}
 
+						if (classificationDetails !== "") {
+							const classificationDetailsDiv = document.createElement("div");
+							classificationDetailsDiv.className = "classification-details";
+							classificationDetailsDiv.textContent = classificationDetails;
+							details.appendChild(classificationDetailsDiv);
+						}
+						
 						if (film.synopsis) {
 							const synopsis = document.createElement("div");
 							synopsis.className = "synopsis";
@@ -247,6 +254,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
