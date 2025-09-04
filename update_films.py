@@ -101,7 +101,7 @@ def transform_data(sessions):
         except Exception as e:
             print(f"Erreur parsing heure: {showtime_str} → {e}")
             ignored_count += 1
-        continue
+            continue
 
         # Filtrage : WWW, statut ouvert, séance plus tard que maintenant + 5 min
         if "WWW" not in sales_via or status != "Open" or session_time <= threshold:
