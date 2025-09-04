@@ -94,13 +94,13 @@ def transform_data(sessions):
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
 
-    try:
-        # Suppose que l'API renvoie UTC
-        session_time = arrow.get(showtime_str).replace(tzinfo='UTC').to('America/Toronto')
-    except Exception as e:
-        print(f"Erreur parsing heure: {showtime_str} → {e}")
-        ignored_count += 1
-        continue
+        try:
+            # Suppose que l'API renvoie UTC
+            session_time = arrow.get(showtime_str).replace(tzinfo='UTC').to('America/Toronto')
+        except Exception as e:
+            print(f"Erreur parsing heure: {showtime_str} → {e}")
+            ignored_count += 1
+            continue
         
         # Filtrage : WWW, statut ouvert, séance dans le futur
         if "WWW" not in sales_via or status != "Open" or session_time <= now:
