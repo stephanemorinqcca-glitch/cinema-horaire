@@ -95,29 +95,35 @@
     						function generateImageFilename(film) {
         						let base = normalizeText(film.classification || "");
 
-        					const motsCles = [
-            					"Déconseillé aux jeunes enfants",
-            					"Erostisme",
-            					"Exempte de classement",
-								"Violence",
-            					"Horreur",
-            					"Langage Vulgaire",
-            					"Pour Enfants",
-            					"Sexualité Explicite"
-        					];
 
-					        if (film.content) {
-            					motsCles.forEach(mot => {
-                				if (film.content.includes(mot)) {
-                    			base += normalizeText(mot);
-              	  			}
-            			});
-        				}			
+    						const motsCles = [
+        						"Déconseillé aux jeunes enfants",
+        						"Erostisme",
+        						"Exempte de classement",
+        						"Violence",
+        						"Langage Vulgaire",
+        						"Pour Enfants",
+        						"Sexualité Explicite"
+    						];
 
-        					const filename = base + "RGB.jpg";
-        					console.log("Nom de fichier image généré :", filename); // Debug
-        					return filename;
-    					}
+    						if (film.content) {
+        						// Prioriser "Horreur" s'il est présent
+        						if (film.content.includes("Horreur")) {
+            					base += normalizeText("Horreur");
+        					}
+
+        					// Ajouter les autres mots-clés (sauf "Horreur")
+        					motsCles.forEach(mot => {
+            					if (mot !== "Horreur" && film.content.includes(mot)) {
+                					base += normalizeText(mot);
+            					}
+        					});
+   	 					}						
+
+    					const filename = base + "RGB.jpg";
+    					console.log("Nom de fichier image généré :", filename);
+    					return filename;
+						}	
 
     					// Création et insertion de l'image
     					const imageFilename = generateImageFilename(film);
@@ -221,6 +227,7 @@
 		</script>
 	</body>
 </html>
+
 
 
 
