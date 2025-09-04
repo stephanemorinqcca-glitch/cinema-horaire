@@ -94,7 +94,7 @@ def transform_data(sessions):
          showtime_str = session.get("FeatureStartTime", "")
          sales_via = session.get("SalesVia", [])
          status = session.get("Status", "")
-
+        
         try:
             # Pas de replace(tzinfo='UTC') si l'heure est déjà locale
             session_time = arrow.get(showtime_str).to('America/Toronto')
