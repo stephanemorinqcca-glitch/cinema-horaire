@@ -99,6 +99,11 @@ h1 {
 	font-size: 14px;
 }
 
+.classification-details {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
 .synopsis {
 	white-space: break-spaces;
 	margin: 15px 0 5px 0;
@@ -139,6 +144,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
