@@ -56,6 +56,7 @@ header {
 	flex-direction: row;
 	border-top: solid 1px #777;
 	margin-top: 10px;
+margin-bottom: 10px;
 	padding: 10px 0;
 }
 
@@ -70,6 +71,7 @@ header {
 .classification-image {
     display: block;
     margin-top: 10px;
+margin-bottom: 10px;
     max-width: 135px;
     height: auto;
     border-radius: 4px;
@@ -106,6 +108,7 @@ h1 {
 	font-weight: bold;
 	color: #000;
 	margin-top: 10px;
+margin-bottom: 10px;
 	margin-bottom: 5px;
 }
 
@@ -129,17 +132,3 @@ h1 {
 	padding: 5px 10px;
 }
 
-
-
-.media-block {
-  width: 150px;
-  flex-shrink: 0;
-}
-.card > .media-block {
-  margin-right: 10px;
-}
-.poster > img,
-.classification-image {
-  display: block;
-  margin: 0 auto;
-}
