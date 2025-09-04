@@ -100,7 +100,7 @@ h1 {
 }
 
 .classification-details {
-  margin-top: 30px;
+  margin: 15px 0 5px 0;
   font-size: 12px;
 }
 
@@ -144,6 +144,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
