@@ -24,172 +24,156 @@
 			<div id="films"></div>
 		</main>
 		<script>
-		// ✅ Définition unique des mots-clés
-		const motsCles = [
-    		"Déconseillé aux jeunes enfants",
-    		"Erostisme",
-    		"Exempte de classement",
-    		"Violence",
-    		"Horreur",
-    		"Langage Vulgaire",
-    		"Pour Enfants",
-    		"Sexualité Explicite"
-		];
+			// ✅ Définition unique des mots-clés
+			const motsCles = ["Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
 
-		// ✅ Nettoyage du contenu
-		function cleanFilmContent(film) {
-    		let contentOriginal = film.content || "";
-    		let contentRestant = contentOriginal;
+			// ✅ Nettoyage du contenu
+			function cleanFilmContent(film) {
+				if (film.content === undefined) return "";
 
-    		// Supprimer les mots-clés du contenu restant
-    		motsCles.forEach(mot => {
-        		const regex = new RegExp(`\\s*\\|?\\s*${mot}\\s*\\|?\\s*`, "gi");
-        		contentRestant = contentRestant.replace(regex, " ");
-    		});
+				let contentArray = film.content
+					.split("|")
+					.map((champ) => champ.trim())
+					.filter((champ) => champ !== "" && !motsCles.includes(champ));
 
-    		// Nettoyer les séparateurs et espaces
-    		contentRestant = contentRestant
-        		.replace(/\s*\|\s*/g, " | ")
-        		.replace(/\s{2,}/g, " ")
-        		.trim();
+				// Formatage de la durée
+				if (film.duree && !isNaN(film.duree)) {
+					const heures = Math.floor(film.duree / 60);
+					const minutes = film.duree % 60;
+					contentArray.splice(0, 0, `Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
+				}
 
-    		// Formatage de la durée
-    		let dureeFormatee = "";
-    		if (film.duree && !isNaN(film.duree)) {
-        		const heures = Math.floor(film.duree / 60);
-        		const minutes = film.duree % 60;
-        		dureeFormatee = `Durée ${heures}h${minutes.toString().padStart(2, "0")}`;
-    		}		
-
-   			const parts = [];
-    		if (film.classification) parts.push(film.classification);
-    		if (dureeFormatee) parts.push(dureeFormatee);
-    		if (contentRestant) parts.push(contentRestant);
-
-    		return parts.join(" | ");
+				return contentArray.join(" | ");
 			}
 
 			// ✅ Génération du nom de fichier image
 			function generateImageFilename(film) {
-    			function normalizeText(text) {
-        			return text
-            			.normalize("NFD")
-            			.replace(/[\u0300-\u036f]/g, "")
-            			.replace(/\s+/g, "")
-            		.replace(/[^a-zA-Z0-9+]/g, "");
-    		}
+				function normalizeText(text) {
+					return text
+						.normalize("NFD")
+						.replace(/[\u0300-\u036f]/g, "")
+						.replace(/\s+/g, "")
+						.replace(/[^a-zA-Z0-9+]/g, "");
+				}
 
-    		let base = normalizeText(film.classification || "");
+				let base = normalizeText(film.classification || "");
 
-    		if (film.content) {
-        		motsCles.forEach(mot => {
-            		if (film.content.includes(mot)) {
-                		base += normalizeText(mot);
-            		}
-        		});
-    		}
-
-    		return base + "RGB.jpg";
-		}
-
-		// ✅ Chargement des données
-		fetch("films.json")
-    		.then((response) => response.json())
-    		.then((data) => {
-        		const legendContainer = document.getElementById("legende");
-        		data.legende.forEach((attr) => {
-            		const wrapper = document.createElement("span");
-
-            		const badge = document.createElement("span");
-            		badge.className = "badge";
-            		badge.textContent = attr.ShortName;
-
-            		const description = document.createElement("span");
-            		description.textContent = attr.Description;
-
-            		wrapper.appendChild(badge);
-            		wrapper.appendChild(description);
-            		legendContainer.appendChild(wrapper);
-        		});
-
-        	const container = document.getElementById("films");
-        	data.films.forEach((film) => {
-            	const card = document.createElement("div");
-            	card.className = "card";
-
-            	const poster = document.createElement("div");
-            	poster.className = "poster";
-            	if (film.thumbnail) {
-                	const img = document.createElement("img");
-                	img.src = film.thumbnail;
-                	img.alt = `Affiche de ${film.titre}`;
-                	poster.appendChild(img);
-            	}
-            	card.appendChild(poster);
-
-            	const details = document.createElement("div");
-            	const title = document.createElement("h1");
-            	title.textContent = film.titre;
-            	details.appendChild(title);
-
-            	if (film.classification || film.content) {
-                	const contentBlock = document.createElement("div");
-
-                	const cleanedContent = cleanFilmContent(film);
-
-                	const content = document.createElement("span");
-                	content.className = "content";
-                	content.textContent = cleanedContent;
-                	contentBlock.appendChild(content);
-
-                	const imageFilename = generateImageFilename(film);
-                	const image = document.createElement("img");
-                	image.src = `classification/${imageFilename}`;
-                	image.alt = "Classification visuelle";
-                	image.className = "classification-image";
-
-                	poster.appendChild(image);
-                	details.appendChild(contentBlock);
-           		 }
-
-            	if (film.synopsis) {
-                	const synopsis = document.createElement("div");
-                	synopsis.className = "synopsis";
-                	synopsis.textContent = film.synopsis;
-                	details.appendChild(synopsis);
-            	}
-
-            	card.appendChild(details);
-            	container.appendChild(card);
-        	});
-		});
-			
-			const seancesDiv = document.createElement("div");
-			seancesDiv.className = "seances";
-
-			// Grouper les séances par date
-			const seancesParDate = {};
-
-			film.horaire
-				.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
-				.forEach((seance) => {
-					const parts = seance.horaire.trim().split(" ");
-					const dateStr = parts[0]; // format YYYY-MM-DD
-					const heure = parts[1];
-					const attributs = parts
-						.slice(2)
-						.filter((item) => item.length > 0)
-								.sort((a, b) => (a < b ? -1 : 1));
-
-					if (!seancesParDate[dateStr]) {
-							seancesParDate[dateStr] = [];
-					}
-
-					seancesParDate[dateStr].push({
-						heure,
-						attributs,
+				if (film.content) {
+					motsCles.forEach((mot) => {
+						if (film.content.includes(mot)) {
+							base += normalizeText(mot);
+						}
 					});
-				});
+				}
+
+				return base + "RGB.jpg";
+			}
+
+			// ✅ Chargement des données
+			fetch("films.json")
+				.then((response) => response.json())
+				.then((data) => {
+					const legendContainer = document.getElementById("legende");
+					data.legende.forEach((attr) => {
+						const wrapper = document.createElement("span");
+
+						const badge = document.createElement("span");
+						badge.className = "badge";
+						badge.textContent = attr.ShortName;
+
+						const description = document.createElement("span");
+						description.textContent = attr.Description;
+
+						wrapper.appendChild(badge);
+						wrapper.appendChild(description);
+						legendContainer.appendChild(wrapper);
+					});
+
+					const container = document.getElementById("films");
+					data.films.forEach((film) => {
+						const card = document.createElement("div");
+						card.className = "card";
+
+						const poster = document.createElement("div");
+						poster.className = "poster";
+						if (film.thumbnail) {
+							const img = document.createElement("img");
+							img.src = film.thumbnail;
+							img.alt = `Affiche de ${film.titre}`;
+							poster.appendChild(img);
+						}
+						card.appendChild(poster);
+
+						const details = document.createElement("div");
+						const title = document.createElement("h1");
+						title.textContent = film.titre;
+						details.appendChild(title);
+
+						if (film.classification || film.content) {
+							const contentBlock = document.createElement("div");
+
+							let cleanedContent = cleanFilmContent(film);
+
+							if (film.classification) {
+								const rating = document.createElement("span");
+								rating.className = "rating";
+								rating.textContent = film.classification;
+								contentBlock.appendChild(rating);
+
+								cleanedContent = ` | ${cleanedContent}`;
+							}
+
+							const content = document.createElement("span");
+							content.className = "content";
+							content.textContent = cleanedContent;
+							contentBlock.appendChild(content);
+
+							const imageFilename = generateImageFilename(film);
+							const image = document.createElement("img");
+							image.src = `classification/${imageFilename}`;
+							image.alt = "Classification visuelle";
+							image.className = "classification-image";
+
+							poster.appendChild(image);
+							details.appendChild(contentBlock);
+						}
+
+						if (film.synopsis) {
+							const synopsis = document.createElement("div");
+							synopsis.className = "synopsis";
+							synopsis.textContent = film.synopsis;
+							details.appendChild(synopsis);
+						}
+
+						card.appendChild(details);
+						container.appendChild(card);
+
+						const seancesDiv = document.createElement("div");
+						seancesDiv.className = "seances";
+
+						// Grouper les séances par date
+						const seancesParDate = {};
+
+						film.horaire
+							.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
+							.forEach((seance) => {
+								const parts = seance.horaire.trim().split(" ");
+								const dateStr = parts[0]; // format YYYY-MM-DD
+								const heure = parts[1];
+								const attributs = parts
+									.slice(2)
+									.filter((item) => item.length > 0)
+									.sort((a, b) => (a < b ? -1 : 1));
+
+								if (!seancesParDate[dateStr]) {
+									seancesParDate[dateStr] = [];
+								}
+
+								seancesParDate[dateStr].push({
+									heure,
+									attributs,
+								});
+							});
 
 						// Afficher les séances regroupées
 						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
@@ -244,36 +228,6 @@
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
 				});
-			});
 		</script>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
