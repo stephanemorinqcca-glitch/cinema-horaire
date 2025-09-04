@@ -67,14 +67,8 @@ def fetch_sessions():
         "Content-Type": "application/json"
     }
 
-    # 5 Requête en date du jour et de l'heure courante + 5 minutes
-    params = {
-    "startDate": (datetime.now() + timedelta(minutes=5)).strftime("%Y-%m-%dT%H:%M:%S"),
-    "endDate": "2110-01-01T23:59:00"
-    }
-    
     try:
-        resp = requests.get(SESSION_API_URL, headers=headers, params=params, timeout=10)
+        resp = requests.get(SESSION_API_URL, headers=headers, timeout=10)
         if resp.status_code != 200:
             print(f"❌ Erreur HTTP {resp.status_code} lors de la récupération des séances.")
             return []
