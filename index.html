@@ -94,7 +94,6 @@ et<!DOCTYPE html>
     						}
 
 						    let base = normalizeText(film.classification || "");
-
     						const motsCles = [
         						"Déconseillé aux jeunes enfants",
         						"Erostisme",
@@ -105,6 +104,8 @@ et<!DOCTYPE html>
         						"Pour Enfants",
         						"Sexualité Explicite"
     						];
+
+							let cleanedContent = film.content || "";
 
     						if (film.content) {
         						// On parcourt les mots-clés dans l'ordre et on les ajoute s'ils sont présents
@@ -117,17 +118,17 @@ et<!DOCTYPE html>
                 					cleanedContent = cleanedContent.replace(regex, " ");
             					}
         					});
-    						}
+    					}
 
-							  // Nettoyer les espaces et les séparateurs en trop
-    						film.content = cleanedContent
-        						.replace(/\s*\|\s*/g, " | ") // normalise les séparateurs restants
-        						.replace(/\s{2,}/g, " ")     // supprime les doubles espaces
-        						.trim();
+						// Nettoyer les espaces et les séparateurs en trop
+   						film.content = cleanedContent
+        					.replace(/\s*\|\s*/g, " | ") // normalise les séparateurs restants
+        					.replace(/\s{2,}/g, " ")     // supprime les doubles espaces
+        					.trim();
 								
-    						const filename = base + "RGB.jpg";
-    						console.log("Nom de fichier image généré :", filename);
-    						return filename;
+    					const filename = base + "RGB.jpg";
+    					console.log("Nom de fichier image généré :", filename);
+    					return filename;
 						}
 
     					// Création et insertion de l'image
@@ -231,6 +232,7 @@ et<!DOCTYPE html>
 		</script>
 	</body>
 </html>
+
 
 
 
