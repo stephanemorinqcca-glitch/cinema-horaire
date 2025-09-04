@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+et<!DOCTYPE html>
 
 <html lang="fr">
 	<head>
@@ -111,10 +111,20 @@
         						motsCles.forEach(mot => {
             					if (film.content.includes(mot)) {
                 					base += normalizeText(mot);
+
+            						// Supprimer le mot-clé et les | autour
+                					const regex = new RegExp(`\\s*\\|?\\s*${mot}\\s*\\|?\\s*`, "gi");
+                					cleanedContent = cleanedContent.replace(regex, " ");
             					}
         					});
     						}
 
+							  // Nettoyer les espaces et les séparateurs en trop
+    						film.content = cleanedContent
+        						.replace(/\s*\|\s*/g, " | ") // normalise les séparateurs restants
+        						.replace(/\s{2,}/g, " ")     // supprime les doubles espaces
+        						.trim();
+								
     						const filename = base + "RGB.jpg";
     						console.log("Nom de fichier image généré :", filename);
     						return filename;
@@ -221,6 +231,7 @@
 		</script>
 	</body>
 </html>
+
 
 
 
