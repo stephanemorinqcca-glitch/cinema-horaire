@@ -1,0 +1,268 @@
+{
+  "cinema": "Cinéma Centre-Ville",
+  "legende": [
+    {
+      "ShortName": "ATMOS®",
+      "Description": "Son ambiophonique Dolby ATMOS®",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    },
+    {
+      "ShortName": "DERNIÈRE",
+      "Description": "Représentation",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    },
+    {
+      "ShortName": "DLX",
+      "Description": "Salle avec sièges rocker et plus spacieux",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee"
+    }
+  ],
+  "films": [
+    {
+      "id": "ST00001710",
+      "titre": "HEURE DE DISPARITION",
+      "synopsis": "En plein cœur de la nuit, les 17 enfants d’une classe de l’école primaire de Maybrook aux États-Unis se réveillent à une heure précise et s’enfuient de leurs foyers. Mus par une force inébranlable, ils sont partis à la course et personne ne sait où ils s’en sont allés. Tous ont disparu, sauf un. Alex est le seul élève restant. Paniqués et inquiets, les parents soupçonnent l’enseignante Justine Gandy d’avoir manigancé quelque chose.",
+      "classification": "13+",
+      "duree": 128,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004853",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004851",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Violence | Horreur | Suspense fantastique",
+      "horaire": [
+        {
+          "horaire": "2025-09-05 18:55 DLX"
+        },
+        {
+          "horaire": "2025-09-06 12:55 DLX"
+        },
+        {
+          "horaire": "2025-09-06 18:55 DLX"
+        },
+        {
+          "horaire": "2025-09-07 12:55 DLX"
+        },
+        {
+          "horaire": "2025-09-07 18:55 DLX"
+        },
+        {
+          "horaire": "2025-09-10 18:55 DLX"
+        },
+        {
+          "horaire": "2025-09-11 18:55 DLX"
+        }
+      ]
+    },
+    {
+      "id": "ST00001708",
+      "titre": "LA CONJURATION: DERNIERS RITES",
+      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
+      "classification": "13+",
+      "duree": 135,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Horreur | Suspense d'épouvante",
+      "horaire": [
+        {
+          "horaire": "2025-09-05 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-06 12:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-06 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-07 12:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-07 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-10 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-11 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-12 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-13 12:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-13 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-14 12:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-14 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-17 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-18 18:55 DLX   ATMOS®"
+        }
+      ]
+    },
+    {
+      "id": "ST00001656",
+      "titre": "LES MÉCHANTS II",
+      "synopsis": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu’une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d’utiliser leurs habiletés uniques pour identifier le véritable coupable.",
+      "classification": "G",
+      "duree": 104,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004829",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004827",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Animation",
+      "horaire": [
+        {
+          "horaire": "2025-09-05 19:05 "
+        },
+        {
+          "horaire": "2025-09-06 13:05 "
+        },
+        {
+          "horaire": "2025-09-06 19:05 "
+        },
+        {
+          "horaire": "2025-09-07 13:05 "
+        },
+        {
+          "horaire": "2025-09-07 19:05 "
+        },
+        {
+          "horaire": "2025-09-10 19:05 "
+        },
+        {
+          "horaire": "2025-09-11 19:05 DERNIÈRE"
+        }
+      ]
+    },
+    {
+      "id": "ST00001716",
+      "titre": "LES ROSE",
+      "synopsis": "L’architecte Theo Rose et sa femme Ivy, chef cuisinière, sont un couple exemplaire et leur quotidien est tissé de soutien mutuel et de tendresse. Lorsque la carrière du mari s’écroule à la suite d’un malheureux accident, le restaurant de sa conjointe devient extrêmement populaire. Après une période amère de sa vie professionnelle, Theo reprend son travail avec l’aide d’Ivy et dévoile son vrai talent. Une petite dispute entre les deux époux dégénère en affrontement impitoyable avec des conséquences fatales.",
+      "classification": "13+",
+      "duree": 105,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004887",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004885",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Comédie noire",
+      "horaire": [
+        {
+          "horaire": "2025-09-05 19:15 "
+        },
+        {
+          "horaire": "2025-09-06 13:05 "
+        },
+        {
+          "horaire": "2025-09-06 19:15 "
+        },
+        {
+          "horaire": "2025-09-07 13:05 "
+        },
+        {
+          "horaire": "2025-09-07 19:15 "
+        },
+        {
+          "horaire": "2025-09-10 19:15 "
+        },
+        {
+          "horaire": "2025-09-11 19:15 DERNIÈRE"
+        }
+      ]
+    },
+    {
+      "id": "ST00001680",
+      "titre": "MONDE JURASSIQUE: RENAISSANCE",
+      "synopsis": "Trente-deux ans après la réapparition des dinosaures, la planète est devenue de plus en plus inhospitalière pour ces créatures préhistoriques qui sont désormais confinées dans une zone équatoriale interdite aux visiteurs. Aux États-Unis, une entreprise pharmaceutique a découvert que la synthèse de l’ADN des bêtes possédant la plus grande longévité lui permettrait de mettre au point un médicament révolutionnaire. L’ex-militaire Zora Bennett accepte de mener une expédition clandestine, à laquelle prennent part d’anciens camarades, un paléontologue biologiste et un représentant de la compagnie. Leur mission : recueillir des échantillons sanguins des trois espèces marine, terrestre et volante les plus imposantes.",
+      "classification": "G",
+      "duree": 133,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004814",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004812",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Déconseillé aux jeunes enfants | Aventures fantastiques",
+      "horaire": [
+        {
+          "horaire": "2025-09-05 18:55 "
+        },
+        {
+          "horaire": "2025-09-06 12:45 "
+        },
+        {
+          "horaire": "2025-09-06 18:55 "
+        },
+        {
+          "horaire": "2025-09-07 12:45 "
+        },
+        {
+          "horaire": "2025-09-07 18:55 "
+        },
+        {
+          "horaire": "2025-09-10 18:55 "
+        },
+        {
+          "horaire": "2025-09-11 18:55 DERNIÈRE"
+        }
+      ]
+    },
+    {
+      "id": "ST00001714",
+      "titre": "PRIS AU PIÈGE",
+      "synopsis": "En 1998, Hank Thompson travaille dans un bar de Manhattan et habite un petit logement du quartier défavorisé Lower East Side. En rentrant chez lui avec sa copine Yvonne, Hank tombe sur son voisin Russ, le punk anglais de la porte à côté. Ce dernier lui demande de prendre soin de son chat pendant son absence. Hank hésite, mais Yvonne accepte. Au fil des jours, Hank est témoin du passage d’individus à la fois louches et redoutables qui se mettent à fréquenter son immeuble.",
+      "classification": "13+",
+      "duree": 107,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004940",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004938",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Violence | Langage Vulgaire | Gangsters",
+      "horaire": [
+        {
+          "horaire": "2025-09-05 19:15 "
+        },
+        {
+          "horaire": "2025-09-06 13:05 "
+        },
+        {
+          "horaire": "2025-09-06 19:15 "
+        },
+        {
+          "horaire": "2025-09-07 13:05 "
+        },
+        {
+          "horaire": "2025-09-07 19:15 "
+        },
+        {
+          "horaire": "2025-09-10 19:15 "
+        },
+        {
+          "horaire": "2025-09-11 19:15 DERNIÈRE"
+        }
+      ]
+    }
+  ]
+}
