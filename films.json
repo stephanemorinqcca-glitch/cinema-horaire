@@ -59,6 +59,25 @@
       ]
     },
     {
+      "id": "ST00001688",
+      "titre": "L'AGENT FAIT LA FARCE",
+      "synopsis": "Le lieutenant Frank Drebin, de la police de Los Angeles, est réprimandé après avoir causé un gâchis lors d’une intervention dans une banque où un puissant outil technologique a été dérobé. Muté aux enquêtes sur les accidents de la route, il constate le décès du conducteur d’une voiture électrique, un programmeur informatique, et conclut rapidement à un suicide. Peu de temps après, la sœur du défunt, Beth Davenport, qui soupçonne plutôt un assassinat, se présente au poste et demande à Frank de pousser plus loin ses investigations. Le détective est alors lancé sur la piste de Richard Cane, un magnat des technologies qui pourrait être lié aux deux affaires.",
+      "classification": "G",
+      "duree": 85,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004845",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004843",
+      "banniere": "",
+      "bande_annonce": null,
+      "content": "Déconseillé aux jeunes enfants | Comédie policière",
+      "horaire": [
+        {
+          "horaire": "2025-09-04 19:15 DERNIÈRE"
+        }
+      ]
+    },
+    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
@@ -131,6 +150,9 @@
       "content": "Animation",
       "horaire": [
         {
+          "horaire": "2025-09-04 19:05 "
+        },
+        {
           "horaire": "2025-09-05 19:05 "
         },
         {
@@ -167,6 +189,9 @@
       "bande_annonce": null,
       "content": "Comédie noire",
       "horaire": [
+        {
+          "horaire": "2025-09-04 19:05 "
+        },
         {
           "horaire": "2025-09-05 19:15 "
         },
@@ -241,6 +266,9 @@
       "bande_annonce": null,
       "content": "Violence | Langage Vulgaire | Gangsters",
       "horaire": [
+        {
+          "horaire": "2025-09-04 19:15 DLX"
+        },
         {
           "horaire": "2025-09-05 19:15 "
         },
