@@ -88,30 +88,25 @@ def transform_data(sessions):
     ignored_count = 0
     now = arrow.now().to('local')  # ou .to('America/Toronto') si tu veux forcer la timezone
 
-    #for session in sessions:
-    #    sales_via = session.get("SalesVia", [])
-    #    status = session.get("Status", "")
-    #   if "WWW" not in sales_via or status != "Open":
-    #        ignored_count += 1
-    #        continue
+    now = arrow.now('America/Toronto')
 
     for session in sessions:
         showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
 
-        try:
-            session_time = arrow.get(showtime_str).to('local')
-        except Exception as e:
-            print(f"Erreur de parsing de l'heure: {showtime_str} → {e}")
-            ignored_count += 1
-            continue
+    try:
+        # Suppose que l'API renvoie UTC
+        session_time = arrow.get(showtime_str).replace(tzinfo='UTC').to('America/Toronto')
+    except Exception as e:
+        print(f"Erreur parsing heure: {showtime_str} → {e}")
+        ignored_count += 1
+        continue
 
-        # Filtrage : WWW, statut ouvert, séance dans le futur
-        if "WWW" not in sales_via or status != "Open" or session_time <= now:
-            ignored_count += 1
-            continue
-
+    if "WWW" not in sales_via or status != "Open" or session_time <= now:
+        ignored_count += 1
+        continue
+    
         # Ici, la session est valide : tu peux continuer le traitement
     
         showtime = session.get("FeatureStartTime")
