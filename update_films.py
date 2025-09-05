@@ -210,7 +210,7 @@ def main():
     # Génère le nouveau contenu JSON sous forme de chaîne
     new_content = json.dumps(data, ensure_ascii=False, indent=2)
 
-    try
+    try:
         # Vérifie si le fichier existe et si le contenu est identique    
         if os.path.exists(final_file):
             with open(final_file, "r", encoding="utf-8") as f:
