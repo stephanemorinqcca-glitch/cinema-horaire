@@ -206,6 +206,7 @@ def main():
         
     data = transform_data(sessions)   
     final_file = "films.json"
+    temp_file = "films_temp.json"
 
     # Génère le nouveau contenu JSON sous forme de chaîne
     new_content = json.dumps(data, ensure_ascii=False, indent=2)
@@ -218,10 +219,13 @@ def main():
         if existing_content == new_content:
             print("ℹ️ Aucun changement détecté dans films.json.")
             return
-
+        
         # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
-        with open(final_file, "w", encoding="utf-8") as f:
+        with open(temp_file, "w", encoding="utf-8") as f:
             f.write(new_content)
+
+        # Remplace le fichier final de manière atomique
+        os.replace(temp_file, final_file)
         print("✅ Fichier films.json mis à jour.")
         print(f"Nombre de films ajoutés : {len(data['films'])}")
         
