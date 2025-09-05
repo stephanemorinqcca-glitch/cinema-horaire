@@ -217,7 +217,7 @@ def main():
         def files_are_different(temp_file, final_file):
             if not os.path.exists(file2):
                 return True
-        with open(file1, "r", encoding="utf-8") as f1, open(final_file, "r", encoding="utf-8") as f2:
+        with open(temp_file, "r", encoding="utf-8") as f1, open(final_file, "r", encoding="utf-8") as f2:
             return f1.read() != f2.read()
 
         if files_are_different(temp_file, final_file):
