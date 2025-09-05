@@ -205,32 +205,29 @@ def main():
         sys.exit(1)
     data = transform_data(sessions)
     try:
-        
-        temp_file = "films_temp.json"
-        final_file = "films.json"
+          final_file = "films.json"
 
-        # Écrire dans le fichier temporaire
-        with open(temp_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+            # Génère le nouveau contenu JSON sous forme de chaîne
+            new_content = json.dumps(data, ensure_ascii=False, indent=2)
 
-        # Vérifier si le contenu est différent
-        def files_are_different(temp_file, final_file):
-            if not os.path.exists(file2):
-                return True
-        with open(temp_file, "r", encoding="utf-8") as f1, open(final_file, "r", encoding="utf-8") as f2:
-            return f1.read() != f2.read()
+            # Vérifie si le fichier existe et si le contenu est identique
+            if os.path.exists(final_file):
+                with open(final_file, "r", encoding="utf-8") as f:
+                    existing_content = f.read()
+            if existing_content == new_content:
+                print("ℹ️ Aucun changement détecté dans films.json.")
+                return
 
-        if files_are_different(temp_file, final_file):
-            os.replace(temp_file, final_file)
-            print("✅ Fichier films.json mis à jour avec légende des attributs.")
+            # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
+        try:
+            with open(final_file, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print("✅ Fichier films.json mis à jour.")
             print(f"Nombre de films ajoutés : {len(data['films'])}")
-        else:
-            os.remove(temp_file)
-            print("ℹ️ Aucun changement détecté dans films.json.")
-
-    except IOError as e:
-        print(f"❌ Erreur lors de l'écriture du fichier : {e}")
-        sys.exit(1)
+        except IOError as e:
+            print(f"❌ Erreur lors de l'écriture du fichier : {e}")
+            sys.exit(1)
 
 if __name__ == "__main__":
     main()
+
