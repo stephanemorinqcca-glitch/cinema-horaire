@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <!-- Important: formes UNIQUEMENT remplies en noir (#000) pour un bon masque -->
+<svg width="512" height="512" viewBox="0 0 512 512"
+     xmlns="http://www.w3.org/2000/svg">
   <g fill="#000">
-    <!-- Clap de cinéma (fond) -->
-    <rect x="64" y="144" width="384" height="304" rx="24" ry="24"/>
-    <!-- Bande supérieure basculante -->
-    <path d="M80 96h352c8.8 0 16 7.2 16 16v48H64v-48c0-8.8 7.2-16 16-16z"/>
-    <!-- Chevron 1 -->
-    <path d="M112 96h64l-32 64h-64l32-64z"/>
-    <!-- Chevron 2 -->
-    <path d="M208 96h64l-32 64h-64l32-64z"/>
-    <!-- Chevron 3 -->
-    <path d="M304 96h64l-32 64h-64l32-64z"/>
-    <!-- Chevron 4 -->
-    <path d="M400 96h32c8.8 0 16 7.2 16 16v16l-16 32h-64l32-64z"/>
-    <!-- Zone “écran” allégée (découpe simple par un rectangle plus clair: on triche en ajoutant un rectangle non dessiné)
-         Pour un vrai ajourage, fournis une version “knockout” via path combinés; pour le masquage Safari, formes pleines suffisent. -->
-    <!-- Optionnel: éléments décoratifs (perforations pellicule) -->
-    <circle cx="112" cy="240" r="12"/>
-    <circle cx="112" cy="288" r="12"/>
-    <circle cx="112" cy="336" r="12"/>
-    <circle cx="400" cy="240" r="12"/>
-    <circle cx="400" cy="288" r="12"/>
-    <circle cx="400" cy="336" r="12"/>
+    <!-- Forme du ticket avec encoches -->
+    <path d="M64 160h384c8.8 0 16 7.2 16 16v32c-22 0-40 18-40 40s18 40 40 40v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16v-32c22 0 40-18 40-40s-18-40-40-40v-32c0-8.8 7.2-16 16-16z"/>
+    <!-- Triangle “lecture” centré -->
+    <path d="M220 200l100 56-100 56z"/>
   </g>
 </svg>
