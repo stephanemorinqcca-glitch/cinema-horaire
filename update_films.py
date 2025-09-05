@@ -209,13 +209,25 @@ def main():
         temp_file = "films_temp.json"
         final_file = "films.json"
 
+        # Écrire dans le fichier temporaire
         with open(temp_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
-        os.replace(temp_file, final_file)  # remplace de manière atomique
+        # Vérifier si le contenu est différent
+        def files_are_different(file1, file2):
+            if not os.path.exists(file2):
+                return True
+        with open(file1, "r", encoding="utf-8") as f1, open(file2, "r", encoding="utf-8") as f2:
+            return f1.read() != f2.read()
 
-        print("✅ Fichier films.json mis à jour avec légende des attributs.")
-        print(f"Nombre de films ajoutés : {len(data['films'])}")
+        if files_are_different(temp_file, final_file):
+            os.replace(temp_file, final_file)
+            print("✅ Fichier films.json mis à jour avec légende des attributs.")
+            print(f"Nombre de films ajoutés : {len(data['films'])}")
+        else:
+            os.remove(temp_file)
+            print("ℹ️ Aucun changement détecté dans films.json.")
+
     except IOError as e:
         print(f"❌ Erreur lors de l'écriture du fichier : {e}")
         sys.exit(1)
