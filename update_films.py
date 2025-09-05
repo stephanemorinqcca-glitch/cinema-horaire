@@ -204,29 +204,30 @@ def main():
         print("❌ Aucune séance récupérée.")
         sys.exit(1)
         
-    data = transform_data(sessions)
-    
+    data = transform_data(sessions)   
     final_file = "films.json"
 
     # Génère le nouveau contenu JSON sous forme de chaîne
     new_content = json.dumps(data, ensure_ascii=False, indent=2)
 
-    # Vérifie si le fichier existe et si le contenu est identique    
-    if os.path.exists(final_file):
-        with open(final_file, "r", encoding="utf-8") as f:
-            existing_content = f.read()
-    if existing_content == new_content:
-        print("ℹ️ Aucun changement détecté dans films.json.")
-        return
+    try
+        # Vérifie si le fichier existe et si le contenu est identique    
+        if os.path.exists(final_file):
+            with open(final_file, "r", encoding="utf-8") as f:
+                existing_content = f.read()
+        if existing_content == new_content:
+            print("ℹ️ Aucun changement détecté dans films.json.")
+            return
 
-    # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
-    with open(final_file, "w", encoding="utf-8") as f:
-        f.write(new_content)
-    print("✅ Fichier films.json mis à jour.")
-    print(f"Nombre de films ajoutés : {len(data['films'])}")
-except IOError as e:
-    print(f"❌ Erreur lors de l'écriture du fichier : {e}")
-    sys.exit(1)
+        # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
+        with open(final_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        print("✅ Fichier films.json mis à jour.")
+        print(f"Nombre de films ajoutés : {len(data['films'])}")
+        
+    except IOError as e:
+        print(f"❌ Erreur lors de l'écriture du fichier : {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
