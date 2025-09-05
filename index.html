@@ -75,7 +75,7 @@
 			}
 
 			// ✅ Chargement des données
-			fetch("films.json")
+			fetch("films.json", { cache: "no-store" })
 				.then((response) => response.json())
 				.then((data) => {
 					const legendContainer = document.getElementById("legende");
@@ -256,6 +256,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
