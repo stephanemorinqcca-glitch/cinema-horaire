@@ -88,7 +88,7 @@ def transform_data(sessions):
     ignored_count = 0
 
     now = arrow.now('America/Toronto')
-    threshold = now.shift(minutes=+5)  # seuil = maintenant + 5 min
+    threshold = now.shift(minutes=+60)  # seuil = maintenant + 5 min
 
     for session in sessions:
         showtime_str = session.get("FeatureStartTime", "")
