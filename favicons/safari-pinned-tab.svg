@@ -2,9 +2,9 @@
 <svg width="512" height="512" viewBox="0 0 512 512"
      xmlns="http://www.w3.org/2000/svg">
   <g fill="#000">
-    <!-- Forme du ticket avec encoches -->
-    <path d="M64 160h384c8.8 0 16 7.2 16 16v32c-22 0-40 18-40 40s18 40 40 40v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16v-32c22 0 40-18 40-40s-18-40-40-40v-32c0-8.8 7.2-16 16-16z"/>
-    <!-- Triangle “lecture” centré -->
-    <path d="M220 200l100 56-100 56z"/>
+    <!-- Cercle extérieur -->
+    <circle cx="256" cy="256" r="240"/>
+    <!-- Triangle lecture -->
+    <path d="M200 160 L360 256 L200 352 Z" fill="#fff"/>
   </g>
 </svg>
