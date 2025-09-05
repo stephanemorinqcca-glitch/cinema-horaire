@@ -205,20 +205,20 @@ def main():
         sys.exit(1)
     data = transform_data(sessions)
     try:
-          final_file = "films.json"
+        final_file = "films.json"
 
-            # Génère le nouveau contenu JSON sous forme de chaîne
-            new_content = json.dumps(data, ensure_ascii=False, indent=2)
+        # Génère le nouveau contenu JSON sous forme de chaîne
+        new_content = json.dumps(data, ensure_ascii=False, indent=2)
 
-            # Vérifie si le fichier existe et si le contenu est identique
-            if os.path.exists(final_file):
-                with open(final_file, "r", encoding="utf-8") as f:
-                    existing_content = f.read()
-            if existing_content == new_content:
-                print("ℹ️ Aucun changement détecté dans films.json.")
-                return
+        # Vérifie si le fichier existe et si le contenu est identique    
+        if os.path.exists(final_file):
+            with open(final_file, "r", encoding="utf-8") as f:
+                existing_content = f.read()
+        if existing_content == new_content:
+            print("ℹ️ Aucun changement détecté dans films.json.")
+            return
 
-            # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
+        # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
         try:
             with open(final_file, "w", encoding="utf-8") as f:
                 f.write(new_content)
