@@ -1,6 +1,9 @@
 {
-  "name": "Cinéma Flash",
-  "short_name": "Cinéma Flash",
+  "name": "Cinéma centre-ville",
+  "short_name": "Cinéma centre-ville",
+  "description": "Horaire Cinéma centre-ville à Saint-Georges.",
+  "lang": "fr-CA",
+  "dir": "ltr",
   "icons": [
     {
       "src": "/favicons/android-chrome-192x192.png",
@@ -29,7 +32,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
