@@ -2,10 +2,11 @@ import sys
 import requests
 import json
 from datetime import datetime, timedelta
-import arrow
 import os
 import re
 import hashlib
+import pytz
+from typing import Optional
 
 # Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
@@ -88,17 +89,20 @@ def transform_data(sessions):
     used_attributes = {}
     ignored_count = 0
 
-    now = arrow.now('America/Toronto')
-    threshold = now.shift(minutes=+7)  # seuil = maintenant + 7 min
+    # Fuseau horaire
+    tz = pytz.timezone('America/Toronto')
+    now = datetime.now(tz)
+    threshold = now + timedelta(minutes=7)
 
     for session in sessions:
         showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
 
+        # Dans la boucle des sessions
         try:
-            # Pas de replace(tzinfo='UTC') si l'heure est déjà locale
-            session_time = arrow.get(showtime_str, tzinfo='America/Toronto')
+            session_time = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
+            session_time = tz.localize(session_time)
         except Exception as e:
             print(f"Erreur parsing heure: {showtime_str} → {e}")
             ignored_count += 1
@@ -125,9 +129,10 @@ def transform_data(sessions):
         posterthumbnail = session.get("FilmPosterThumbnailUrl", "")
         attributes = session.get("Attributes", [])
 
+        # Format d'affichage
         try:
-            dt = arrow.get(showtime)
-            showtime_str = dt.format("YYYY-MM-DD HH:mm")
+            dt = datetime.strptime(showtime, "%Y-%m-%dT%H:%M:%S")
+            showtime_str = dt.strftime("%Y-%m-%d %H:%M")
         except Exception as e:
             print(f"Erreur de format de date pour {showtime}: {e}")
             continue
@@ -201,7 +206,7 @@ def transform_data(sessions):
 def compute_checksum(content: str) -> str:
     return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
-def load_previous_checksum(file_path: str) -> str | None:
+def load_previous_checksum(file_path: str) -> Optional[str]:
     if not os.path.exists(file_path):
         return None
     try:
