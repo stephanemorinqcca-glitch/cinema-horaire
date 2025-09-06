@@ -229,35 +229,42 @@ def main():
     if not sessions:
         print("❌ Aucune séance récupérée.")
         sys.exit(1)
-        
-    data = transform_data(sessions)   
+
+    data = transform_data(sessions)
     final_file = "films.json"
     temp_file = "films_temp.json"
+    checksum_file = "checksumfilms.json"
 
     # Génère le nouveau contenu JSON sous forme de chaîne
     new_content = json.dumps(data, ensure_ascii=False, indent=2)
+    new_checksum = compute_checksum(new_content)
+    old_checksum = load_previous_checksum(checksum_file)
 
     try:
-        checksum_file = "checksumfilms.json"
-        new_checksum = compute_checksum(new_content)
-        old_checksum = load_previous_checksum(checksum_file)
+        if old_checksum is None:
+            print("📁 Aucun fichier de checksum trouvé. Création de checksumfilms.json et films.json.")
+            with open(temp_file, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            os.replace(temp_file, final_file)
+            save_checksum(checksum_file, new_checksum)
+            print(f"✅ Fichier films.json créé avec {len(data['films'])} films.")
+            return
 
         if new_checksum == old_checksum:
             print("ℹ️ Aucun changement détecté (checksum identique).")
             return
 
-        # Mise à jour des fichiers
+        # Mise à jour car le contenu a changé
+        print("🔄 Changement détecté. Mise à jour de films.json.")
         with open(temp_file, "w", encoding="utf-8") as f:
             f.write(new_content)
         os.replace(temp_file, final_file)
         save_checksum(checksum_file, new_checksum)
-        print("✅ Fichier films.json mis à jour.")
-        print(f"Nombre de films ajoutés : {len(data['films'])}")
-        
+        print(f"✅ Fichier films.json mis à jour avec {len(data['films'])} films.")
+
     except IOError as e:
         print(f"❌ Erreur lors de l'écriture du fichier : {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
     main()
-
