@@ -243,12 +243,15 @@ def main():
         print("📁 Aucun fichier de checksum trouvé. Création de checksumfilms.json et films.json.")
 
     try:
-        if new_checksum == old_checksum:
+        if new_checksum == old_checksum and os.path.exists(final_file):
             print("ℹ️ Aucun changement détecté (checksum identique).")
             return
 
-        # Mise à jour car le contenu a changé
-        print("🔄 Changement détecté. Mise à jour de films.json.")
+        # Création ou mise à jour du fichier
+        if not os.path.exists(final_file):
+            print("📁 Fichier films.json absent. Création forcée.")
+
+        print("🔄 Changement détecté ou fichier manquant. Mise à jour de films.json.")
         with open(temp_file, "w", encoding="utf-8") as f:
             f.write(new_content)
         os.replace(temp_file, final_file)
