@@ -13,31 +13,6 @@ SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
 
-def compute_checksum(content: str) -> str:
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
-
-def load_previous_checksum(file_path: str) -> str | None:
-    if not os.path.exists(file_path):
-        return None
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return data.get("checksum")
-    except Exception as e:
-        print(f"⚠️ Erreur lecture checksum : {e}")
-        return None
-
-def save_checksum(file_path: str, checksum: str):
-    data = {
-        "checksum": checksum,
-        "date": datetime.now().isoformat()
-    }
-    try:
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-    except Exception as e:
-        print(f"❌ Erreur écriture checksum : {e}")
-
 # 🔍 Récupère les détails d’un film
 def fetch_film_details(fid):
     url = f"{FILM_API_URL}{fid}"
@@ -222,6 +197,27 @@ def transform_data(sessions):
             "legende": legend_list,
             "films": films_list
         }
+
+def compute_checksum(content: str) -> str:
+    return hashlib.sha256(content.encode('utf-8')).hexdigest()
+
+def load_previous_checksum(file_path: str) -> str | None:
+    if not os.path.exists(file_path):
+        return None
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("checksum")
+    except Exception as e:
+        print(f"⚠️ Erreur lecture checksum : {e}")
+        return None
+
+def save_checksum(file_path: str, checksum: str):
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump({"checksum": checksum}, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"❌ Erreur écriture checksum : {e}")
 
 # 🚀 Point d’entrée
 def main():
