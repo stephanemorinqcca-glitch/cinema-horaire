@@ -5,12 +5,38 @@ from datetime import datetime, timedelta
 import arrow
 import os
 import re
+import hashlib
 
 # Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
+
+def compute_checksum(content: str) -> str:
+    return hashlib.sha256(content.encode('utf-8')).hexdigest()
+
+def load_previous_checksum(file_path: str) -> str | None:
+    if not os.path.exists(file_path):
+        return None
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("checksum")
+    except Exception as e:
+        print(f"⚠️ Erreur lecture checksum : {e}")
+        return None
+
+def save_checksum(file_path: str, checksum: str):
+    data = {
+        "checksum": checksum,
+        "date": datetime.now().isoformat()
+    }
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"❌ Erreur écriture checksum : {e}")
 
 # 🔍 Récupère les détails d’un film
 def fetch_film_details(fid):
@@ -212,20 +238,19 @@ def main():
     new_content = json.dumps(data, ensure_ascii=False, indent=2)
 
     try:
-        # Vérifie si le fichier existe et si le contenu est identique    
-        if os.path.exists(final_file):
-            with open(final_file, "r", encoding="utf-8") as f:
-                existing_content = f.read()
-        if existing_content == new_content:
-            print("ℹ️ Aucun changement détecté dans films.json.")
+        checksum_file = "checksumfilms.json"
+        new_checksum = compute_checksum(new_content)
+        old_checksum = load_previous_checksum(checksum_file)
+
+        if new_checksum == old_checksum:
+            print("ℹ️ Aucun changement détecté (checksum identique).")
             return
-        
-        # Écrit uniquement si le contenu est différent ou si le fichier n'existe pas
+
+        # Mise à jour des fichiers
         with open(temp_file, "w", encoding="utf-8") as f:
             f.write(new_content)
-
-        # Remplace le fichier final de manière atomique
         os.replace(temp_file, final_file)
+        save_checksum(checksum_file, new_checksum)
         print("✅ Fichier films.json mis à jour.")
         print(f"Nombre de films ajoutés : {len(data['films'])}")
         
