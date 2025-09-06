@@ -231,8 +231,17 @@
 							const jourNum = dateObj.toLocaleDateString("fr-CA", optionsJourNum);
 							const mois = dateObj.toLocaleDateString("fr-CA", optionsMois);
 
+							// const jourLabel = document.createElement("div");
+							// jourLabel.className = "jour-label";
+
+							const aujourdHui = new Date().toISOString().split("T")[0]; // format YYYY-MM-DD
+
 							const jourLabel = document.createElement("div");
 							jourLabel.className = "jour-label";
+							if (dateStr === aujourdHui) {
+  								jourLabel.classList.add("aujourd-hui");
+							}
+
 							jourLabel.textContent = `${jour.toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
 
 							const horairesDiv = document.createElement("div");
@@ -276,6 +285,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
