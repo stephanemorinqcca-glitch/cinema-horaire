@@ -21,7 +21,7 @@ jobs:
           python-version: '3.10'
 
       - name: Installer les dépendances
-        run: pip install requests arrow
+        run: pip install -r requirements.txt
 
       - name: Exécuter le script
         run: python update_films.py
