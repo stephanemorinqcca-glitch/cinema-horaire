@@ -31,6 +31,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add films.json checksumfilms.json
-          git add films.json
           git diff --cached --quiet || git commit -m "🔄 Mise à jour automatique de films.json"
           git push
