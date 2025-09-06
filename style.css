@@ -136,6 +136,13 @@ margin-bottom: 10px;
   animation: pulse 1.5s ease-in-out;
 }
 
+/* Animation subtile */
+@keyframes pulse {
+  0% { background-color: #e6ffe6; }
+  50% { background-color: #d0ffd0; }
+  100% { background-color: #e6ffe6; }
+}
+
 .horaires {
 	display: flex;
 	flex-direction: row;
@@ -155,6 +162,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
