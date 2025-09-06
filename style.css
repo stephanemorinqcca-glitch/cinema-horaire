@@ -126,14 +126,14 @@ margin-bottom: 10px;
 }
 
 .jour-label.aujourd-hui {
-  background-color: #e6ffe6;      /* vert très pâle */
+  background-color: #f2fff2;      /* vert très pâle */
   border-left: 5px solid #2ecc71; /* vert vif */
   padding: 8px;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 10px;
-  animation: pulse 1.5s ease-in-out;
+  animation: pulse 1.5s ease-in-out infinite;
 }
 
 /* Animation subtile */
@@ -162,6 +162,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
