@@ -126,8 +126,8 @@ margin-bottom: 10px;
 }
 
 .jour-label.aujourd-hui {
-  background-color: #e6f0ff;
-  border-left: 5px solid #0055ff;
+  background-color: #e6ffe6;      /* vert très pâle */
+  border-left: 5px solid #2ecc71; /* vert vif type "success" */
   padding: 8px;
   font-weight: bold;
 }
@@ -151,6 +151,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
