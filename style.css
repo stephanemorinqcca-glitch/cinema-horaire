@@ -126,20 +126,22 @@ margin-bottom: 10px;
 }
 
 .jour-label.aujourd-hui {
-  background-color: #f2fff2;      /* vert très pâle */
-  border-left: 5px solid #a3d9a5; /* vert vif */
+  background-color: #f2fff2; /* vert très pâle */
   padding: 8px;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 10px;
-  animation: pulse 2s ease-in-out infinite;
+
+  border-left: 5px solid transparent;
+  border-image: linear-gradient(180deg, #a3d9a5, #6fcf97, #a3d9a5) 1;
+  animation: borderFlow 3s linear infinite;
 }
 
-@keyframes bordurePulse {
-  0%   { border-left-color: #a3d9a5; }
-  50%  { border-left-color: #6fcf97; } /* vert un peu plus vif */
-  100% { border-left-color: #a3d9a5; }
+@keyframes borderFlow {
+  0%   { border-image-source: linear-gradient(180deg, #a3d9a5, #6fcf97, #a3d9a5); }
+  50%  { border-image-source: linear-gradient(180deg, #6fcf97, #a3d9a5, #6fcf97); }
+  100% { border-image-source: linear-gradient(180deg, #a3d9a5, #6fcf97, #a3d9a5); }
 }
 
 .horaires {
@@ -161,6 +163,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
