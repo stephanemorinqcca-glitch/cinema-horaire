@@ -223,14 +223,6 @@ def transform_data(sessions):
             "films": films_list
         }
 
-def update_films_file(temp_file, final_file, checksum_file, new_content, new_checksum, film_count, message):
-    print(message)
-    with open(temp_file, "w", encoding="utf-8") as f:
-        f.write(new_content)
-    os.replace(temp_file, final_file)
-    save_checksum(checksum_file, new_checksum)
-    print(f"✅ Fichier films.json mis à jour avec {film_count} films.")
-
 # 🚀 Point d’entrée
 def main():
     sessions = fetch_sessions()
@@ -247,34 +239,22 @@ def main():
     new_content = json.dumps(data, ensure_ascii=False, indent=2)
     new_checksum = compute_checksum(new_content)
     old_checksum = load_previous_checksum(checksum_file)
+    if old_checksum is None:
+        print("📁 Aucun fichier de checksum trouvé. Création de checksumfilms.json et films.json.")
 
     try:
-        if old_checksum is None:
-            update_films_file(
-                temp_file,
-                final_file,
-                checksum_file,
-                new_content,
-                new_checksum,
-                len(data["films"]),
-                "📁 Aucun fichier de checksum trouvé. Création de checksumfilms.json et films.json."
-            )
-            return
-
         if new_checksum == old_checksum:
             print("ℹ️ Aucun changement détecté (checksum identique).")
             return
 
-        update_films_file(
-            temp_file,
-            final_file,
-            checksum_file,
-            new_content,
-            new_checksum,
-            len(data["films"]),
-            "🔄 Changement détecté. Mise à jour de films.json."
-        )
-
+        # Mise à jour car le contenu a changé
+        print("🔄 Changement détecté. Mise à jour de films.json.")
+        with open(temp_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        os.replace(temp_file, final_file)
+        save_checksum(checksum_file, new_checksum)
+        print(f"✅ Fichier films.json mis à jour avec {len(data['films'])} films.")
+    
     except IOError as e:
         print(f"❌ Erreur lors de l'écriture du fichier : {e}")
         sys.exit(1)
