@@ -126,22 +126,13 @@ margin-bottom: 10px;
 }
 
 .jour-label.aujourd-hui {
-  background-color: #f2fff2; /* vert très pâle */
+  background-color: #f9fff9;        /* vert ultra pâle, presque blanc */
+  border-left: 5px solid #14532d;   /* vert très foncé */
   padding: 8px;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 10px;
-
-  border-left: 5px solid transparent;
-  border-image: linear-gradient(180deg, #a3d9a5, #6fcf97, #a3d9a5) 1;
-  animation: borderFlow 3s linear infinite;
-}
-
-@keyframes borderFlow {
-  0%   { border-image-source: linear-gradient(180deg, #a3d9a5, #6fcf97, #a3d9a5); }
-  50%  { border-image-source: linear-gradient(180deg, #6fcf97, #a3d9a5, #6fcf97); }
-  100% { border-image-source: linear-gradient(180deg, #a3d9a5, #6fcf97, #a3d9a5); }
 }
 
 .horaires {
@@ -163,6 +154,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
