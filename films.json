@@ -22,28 +22,6 @@
   ],
   "films": [
     {
-      "id": "ST00001718",
-      "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
-      "synopsis": "Downton Abbey : La grande finale, le retour cinématographique du phénomène mondial, suit la famille Crawley et son équipe à l'aube des années 1930. Lorsque Mary se retrouve au cœur d'un scandale public et que la famille connaît des difficultés financières, toute la famille est confrontée à la menace d'une disgrâce sociale. Les Crawley doivent s'adapter au changement tandis que l'équipe se prépare à un nouveau chapitre avec la nouvelle génération qui mène Downton Abbey vers l'avenir.",
-      "classification": "G",
-      "duree": 123,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004944",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004942",
-      "banniere": "",
-      "bande_annonce": null,
-      "content": "Drame d'époque",
-      "horaire": [
-        {
-          "horaire": "2025-09-13 12:55 DLX"
-        },
-        {
-          "horaire": "2025-09-14 12:55 DLX"
-        }
-      ]
-    },
-    {
       "id": "ST00001710",
       "titre": "HEURE DE DISPARITION",
       "synopsis": "En plein cœur de la nuit, les 17 enfants d’une classe de l’école primaire de Maybrook aux États-Unis se réveillent à une heure précise et s’enfuient de leurs foyers. Mus par une force inébranlable, ils sont partis à la course et personne ne sait où ils s’en sont allés. Tous ont disparu, sauf un. Alex est le seul élève restant. Paniqués et inquiets, les parents soupçonnent l’enseignante Justine Gandy d’avoir manigancé quelque chose.",
@@ -113,7 +91,13 @@
           "horaire": "2025-09-12 18:45 DLX   ATMOS®"
         },
         {
+          "horaire": "2025-09-13 12:45 DLX"
+        },
+        {
           "horaire": "2025-09-13 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-14 12:45 DLX"
         },
         {
           "horaire": "2025-09-14 18:45 DLX   ATMOS®"
@@ -123,6 +107,27 @@
         },
         {
           "horaire": "2025-09-18 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-19 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-20 12:45 DLX"
+        },
+        {
+          "horaire": "2025-09-20 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-21 12:45 DLX"
+        },
+        {
+          "horaire": "2025-09-21 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-24 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-25 18:55 DLX   ATMOS®"
         }
       ]
     },
