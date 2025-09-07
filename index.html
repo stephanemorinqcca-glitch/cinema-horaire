@@ -136,21 +136,33 @@
   							img.style.cursor = "pointer";
 
   						// Vérifie si bande_annonce est définie et non vide
-  						if (film.bande_annonce && film.bande_annonce.trim() !== "") {
-    						const url = film.bande_annonce.trim();
+						if (film.bande_annonce && film.bande_annonce.trim() !== "") {
+  							const url = film.bande_annonce.trim();
 
-    						img.addEventListener("click", () => {
-      							if (url.includes("youtube.com/watch")) {
-        							const videoId = new URL(url).searchParams.get("v");
-        							const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+  							img.addEventListener("click", () => {
+	    						let videoId = null;
 
-        							document.getElementById("trailerFrame").src = embedUrl;
-        							document.getElementById("videoModal").style.display = "flex";
-      							} else {
-        							window.open(url, "_blank");
-      							}
-    						});
-  						}
+    							try {
+      								const urlObj = new URL(url);
+
+      								if (urlObj.hostname.includes("youtube.com") && urlObj.searchParams.get("v")) {
+        								videoId = urlObj.searchParams.get("v");
+      								} else if (urlObj.hostname.includes("youtu.be")) {
+        								videoId = urlObj.pathname.slice(1); // retire le "/" au début
+      								}
+    							} catch (e) {
+	      							console.error("URL invalide :", url);
+    							}
+
+    							if (videoId) {
+      								const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+      								document.getElementById("trailerFrame").src = embedUrl;
+      								document.getElementById("videoModal").style.display = "flex";
+    							} else {
+      								window.open(url, "_blank");
+    							}
+  							});
+						}
 				
   						poster.appendChild(img);
 						}			
@@ -315,6 +327,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
