@@ -147,23 +147,24 @@
     							try {
       								const urlObj = new URL(url);
 
-      								if (urlObj.hostname.includes("youtube.com") && urlObj.searchParams.get("v")) {
-        								videoId = urlObj.searchParams.get("v");
-      								} else if (urlObj.hostname.includes("youtu.be")) {
-        								videoId = urlObj.pathname.slice(1); // retire le "/" au début
-      								}
-    							} catch (e) {
-	      							console.error("URL invalide :", url);
-    							}
+								    if (urlObj.hostname.includes("youtube.com") && urlObj.searchParams.get("v")) {
+      									videoId = urlObj.searchParams.get("v");
+    								} else if (urlObj.hostname.includes("youtu.be")) {
+      									videoId = urlObj.pathname.slice(1);
+   			 						}					
+  								} catch (e) {
+    								console.error("URL invalide :", url);
+  								}
 
-    							if (videoId) {
-      								const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
-      								document.getElementById("trailerFrame").src = embedUrl;
-      								document.getElementById("videoModal").style.display = "flex";
-    							} else {
-      								window.open(url, "_blank");
-    							}
-  							});
+  								if (videoId) {
+    								const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    								const trailerFrame = document.getElementById("trailerFrame");
+    								trailerFrame.src = embedUrl;
+    								document.getElementById("videoModal").style.display = "flex";
+  								} else {
+    								window.open(url, "_blank");
+  								}
+							});
 						}
 				
   						poster.appendChild(img);
@@ -326,9 +327,14 @@
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
 				});
+			document.getElementById("closeModal").addEventListener("click", () => {
+				document.getElementById("videoModal").style.display = "none";
+	  			document.getElementById("trailerFrame").src = ""; // stop video
+			});
 		</script>
 </body>
 </html>
+
 
 
 
