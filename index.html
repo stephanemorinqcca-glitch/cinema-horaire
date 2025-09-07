@@ -121,12 +121,23 @@
 
 						const poster = document.createElement("div");
 						poster.className = "poster";
+
+						// Utilise film.thumbnail si disponible
 						if (film.thumbnail) {
-							const img = document.createElement("img");
-							img.src = film.thumbnail;
-							img.alt = `Affiche de ${film.titre}`;
-							poster.appendChild(img);
-						}
+  							const img = document.createElement("img");
+  							img.src = film.thumbnail;
+  							img.alt = `Affiche de ${film.titre}`;
+  							img.style.cursor = "pointer";
+
+  						// Vérifie si bande_annonce est définie et non vide
+  						if (film.bande_annonce && film.bande_annonce.trim() !== "") {
+    						img.addEventListener("click", () => {
+      							window.open(film.bande_annonce, "_blank");
+    						});
+ 		 				}						
+  						poster.appendChild(img);
+						}			
+
 						card.appendChild(poster);
 
 						const details = document.createElement("div");
@@ -287,6 +298,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
