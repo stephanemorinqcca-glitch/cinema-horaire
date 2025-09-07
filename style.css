@@ -42,6 +42,7 @@ header {
 	#legende {
 		flex-direction: row !important;
 		justify-content: space-around !important; /*space-between;*/
+		text-align: left;
 	}
 }
 
@@ -154,6 +155,7 @@ margin-bottom: 10px;
 	color: #666;
 	padding: 5px 10px;
 }
+
 
 
 
