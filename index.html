@@ -137,10 +137,21 @@
 
   						// Vérifie si bande_annonce est définie et non vide
   						if (film.bande_annonce && film.bande_annonce.trim() !== "") {
+    						const url = film.bande_annonce.trim();
+
     						img.addEventListener("click", () => {
-      							window.open(film.bande_annonce, "_blank");
+      							if (url.includes("youtube.com/watch")) {
+        							const videoId = new URL(url).searchParams.get("v");
+        							const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+
+        							document.getElementById("trailerFrame").src = embedUrl;
+        							document.getElementById("videoModal").style.display = "flex";
+      							} else {
+        							window.open(url, "_blank");
+      							}
     						});
- 		 				}						
+  						}
+				
   						poster.appendChild(img);
 						}			
 
@@ -304,6 +315,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
