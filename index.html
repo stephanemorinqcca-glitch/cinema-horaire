@@ -291,6 +291,7 @@
 							jourLabel.className = "jour-label";
 							if (dateStr === aujourdHui) {
   								jourLabel.classList.add("aujourd-hui");
+								jourBlock.classList.add("encadre-aujourd-hui"); // 👈 ajoute cette ligne
 							}
 
 							jourLabel.textContent = `${jour.toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
@@ -340,6 +341,7 @@
 		</script>
 </body>
 </html>
+
 
 
 
