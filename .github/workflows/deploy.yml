@@ -1,0 +1,19 @@
+name: Déploiement GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # ou 'master' selon ta branche par défaut
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v3
+
+      - name: Déploiement vers GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .  # Racine du projet
