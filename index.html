@@ -255,9 +255,9 @@
 						const seancesParDate = {};
 
 						film.horaire.forEach((seance) => {
-  							const parts = seance.horaire.trim().split(" ");
-  							const dateStr = parts[0]; // YYYY-MM-DD
-  							const heurePure = parts[1].trim().substring(0, 5); // HH:MM pur
+  							const parts = seance.horaire.trim().split(/\s+/); // coupe sur tout espace, y compris insécable
+  							const dateStr = parts[0];
+  							const heurePure = parts[1].substring(0, 5); // HH:MM pur
   							const attributs = parts.slice(2).filter(Boolean);
 
   							// Ignorer les jours passés
@@ -270,12 +270,11 @@
     							const currentMinute = nowToronto.getMinutes();
 
     							if (h < currentHour || (h === currentHour && m <= currentMinute)) {
-     		 					return; // séance passée
+      								return; // séance passée
     							}
   							}
 
-  							// Ajouter la séance filtrée
-  							if (!seancesParDate[dateStr]) {
+ 							if (!seancesParDate[dateStr]) {
     							seancesParDate[dateStr] = [];
   							}
   							seancesParDate[dateStr].push({ heure: heurePure, attributs });
@@ -339,6 +338,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
