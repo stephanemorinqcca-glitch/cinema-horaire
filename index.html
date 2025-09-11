@@ -254,31 +254,42 @@
 
 						const seancesParDate = {};
 
-						film.horaire.forEach((seance) => {
-  							const parts = seance.horaire.trim().split(/\s+/); // coupe sur tout espace, y compris insécable
-  							const dateStr = parts[0];
-  							const heurePure = parts[1].substring(0, 5); // HH:MM pur
-  							const attributs = parts.slice(2).filter(Boolean);
+						film.horaire
+  							.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
+  							.forEach((seance) => {
+    							// Découper sur tout type d’espace (y compris insécable)
+    							const parts = seance.horaire.trim().split(/\s+/);
+    							const dateStr = parts[0]; // YYYY-MM-DD
+    							const heurePure = parts[1].replace(/\u00A0/g, "").trim().substring(0, 5); // HH:MM pur
+    							const attributs = parts
+      								.slice(2)
+      								.filter((item) => item.length > 0)
+      								.sort((a, b) => (a < b ? -1 : 1));
 
-  							// Ignorer les jours passés
-  							if (dateStr < aujourdHuiStr) return;
+    							// Debug pour voir ce qu'on compare
+    							console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${nowToronto.getHours()}:${nowToronto.getMinutes()}`);
 
-  							// Si aujourd'hui, ignorer les horaires déjà passés
-  							if (dateStr === aujourdHuiStr) {
-    							const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
-    							const currentHour = nowToronto.getHours();
-    							const currentMinute = nowToronto.getMinutes();
+    							// 1️⃣ Ignorer les jours passés
+    							if (dateStr < aujourdHuiStr) return;
 
-    							if (h < currentHour || (h === currentHour && m <= currentMinute)) {
-      								return; // séance passée
+    							// 2️⃣ Si aujourd'hui, ignorer les horaires déjà passés
+    							if (dateStr === aujourdHuiStr) {
+      								const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
+      								const currentHour = nowToronto.getHours();
+      								const currentMinute = nowToronto.getMinutes();
+
+      								if (h < currentHour || (h === currentHour && m <= currentMinute)) {
+        								console.log(`⏩ Ignoré: ${heurePure} (passé)`);
+        								return; // séance passée
+     					 			}
     							}
-  							}
 
- 							if (!seancesParDate[dateStr]) {
-    							seancesParDate[dateStr] = [];
-  							}
-  							seancesParDate[dateStr].push({ heure: heurePure, attributs });
-						});
+    							// 3️⃣ Ajouter la séance filtrée
+    							if (!seancesParDate[dateStr]) {
+      								seancesParDate[dateStr] = [];
+    							}
+    							seancesParDate[dateStr].push({ heure: heurePure, attributs });
+  						});
 
 						// --- Affichage ---
 						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
@@ -338,6 +349,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
