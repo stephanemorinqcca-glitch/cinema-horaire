@@ -151,13 +151,13 @@
 
         						if (urlObj.hostname.includes("youtube.com") && urlObj.searchParams.get("v")) {
             						videoId = urlObj.searchParams.get("v");
-            						embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+									embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
         						} else if (urlObj.hostname.includes("youtu.be")) {
             						videoId = urlObj.pathname.slice(1);
-            						embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+            						embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
         						} else if (urlObj.hostname.includes("vimeo.com")) {
             						videoId = urlObj.pathname.split("/").pop();
-            						embedUrl = `https://player.vimeo.com/video/${videoId}?autoplay=1`;
+									embedUrl = `https://player.vimeo.com/video/${videoId}?autoplay=1&muted=1`;
         						}
     						} catch (e) {
         						console.error("URL invalide :", url);
@@ -267,10 +267,16 @@
     							if (dateStr < aujourdHuiStr) return;
 
     							// 🔹 2. Si aujourd'hui, ignorer les horaires déjà passés
-    							if (dateStr === aujourdHuiStr) {
-  				 					const seanceDateTime = new Date(`${dateStr}T${heure}:00`);
-  									// On compare en minutes depuis minuit Toronto
-  									if (seanceDateTime.getTime() < nowToronto.getTime()) return;
+								if (dateStr === aujourdHuiStr) {
+  									const [h, m] = heure.split(":").map(Number);
+  									const currentHour = nowToronto.getHours();
+  									const currentMinute = nowToronto.getMinutes();
+
+  									// Si l'heure est inférieure à l'heure actuelle
+  									// ou si c'est la même heure mais minutes <= actuelles → séance passée
+  									if (h < currentHour || (h === currentHour && m < currentMinute)) {
+    									return;
+  									}
 								}
 
     							// 🔹 3. Ajouter la séance filtrée
@@ -338,6 +344,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
