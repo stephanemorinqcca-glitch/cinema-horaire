@@ -334,34 +334,9 @@
 				document.getElementById("videoModal").style.display = "none";
 	  			document.getElementById("trailerFrame").src = ""; // stop video
 			});
-		</script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const now = new Date();
-
-  document.querySelectorAll(".film").forEach(film => {
-    const seances = film.querySelectorAll(".seance");
-    let hasValidSeance = false;
-
-    seances.forEach(seance => {
-      const dateStr = seance.getAttribute("data-date"); // format: YYYY-MM-DD
-      const heureStr = seance.getAttribute("data-heure"); // format: HH:MM
-
-      if (dateStr && heureStr) {
-        const seanceDateTime = new Date(`${dateStr}T${heureStr}`);
-        if (seanceDateTime >= now) {
-          hasValidSeance = true;
-        }
-      }
-    });
-
-    if (!hasValidSeance) {
-      film.remove(); // Supprime le film du DOM
-    }
-  });
-});
 </script></body>
 </html>
+
 
 
 
