@@ -268,9 +268,9 @@
 
     							// 🔹 2. Si aujourd'hui, ignorer les horaires déjà passés
     							if (dateStr === aujourdHuiStr) {
-      								const [h, m] = heure.split(":").map(Number);
-      								const seanceDateTime = new Date(nowToronto);
-      								seanceDateTime.setHours(h, m, 0, 0);
+      								const seanceDateTime = new Date(
+        								new Date(`${dateStr}T${heure}:00`).toLocaleString("en-CA", { timeZone: tz })
+      								);
       								if (seanceDateTime < nowToronto) return;
     							}
 
@@ -339,6 +339,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
