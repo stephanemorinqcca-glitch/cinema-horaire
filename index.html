@@ -281,7 +281,8 @@
     							seancesParDate[dateStr].push({ heure, attributs });
   							});
 
-  							// --- Ici on construit l'affichage ---
+						// --- Affichage ---
+						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
   							const dateObj = new Date(dateStr + "T00:00:00");
   							const jour = dateObj.toLocaleDateString("fr-CA", { weekday: "long" });
   							const jourNum = dateObj.toLocaleDateString("fr-CA", { day: "numeric" });
@@ -297,12 +298,13 @@
   							const horairesDiv = document.createElement("div");
   							horairesDiv.className = "horaires";
 
-  							seancesFiltrees.forEach(({ heure, attributs }) => {
-    						const seanceLabel = document.createElement("div");
-    						const horaireLabel = document.createElement("span");
-    						horaireLabel.className = "seance-label";
-    						horaireLabel.textContent = heure;
-    						seanceLabel.appendChild(horaireLabel);
+  							seances.forEach(({ heure, attributs }) => {
+    							const seanceLabel = document.createElement("div");
+
+    							const horaireLabel = document.createElement("span");
+    							horaireLabel.className = "seance-label";
+   								horaireLabel.textContent = heure;
+    							seanceLabel.appendChild(horaireLabel);
 
     						if (attributs.length > 0) {
       							const attributsLabel = document.createElement("span");
@@ -318,6 +320,7 @@
   						jourBlock.className = "jour-block";
   						jourBlock.appendChild(jourLabel);
   						jourBlock.appendChild(horairesDiv);
+
   						seancesDiv.appendChild(jourBlock);
 					});
 
@@ -336,6 +339,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
