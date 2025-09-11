@@ -353,12 +353,20 @@
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
 				});
-				document.getElementById("closeModal").addEventListener("click", () => {
-				document.getElementById("videoModal").style.display = "none";
-	  			document.getElementById("trailerFrame").src = ""; // stop video
-			});
+document.getElementById("closeModal").addEventListener("click", () => {
+    document.getElementById("videoModal").style.display = "none";
+    document.getElementById("trailerFrame").src = ""; // stop vidéo
+});
+
+document.getElementById("videoModal").addEventListener("click", (e) => {
+    if (e.target.id === "videoModal") {
+        document.getElementById("videoModal").style.display = "none";
+        document.getElementById("trailerFrame").src = "";
+    }
+});
 </script></body>
 </html>
+
 
 
 
