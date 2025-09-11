@@ -92,7 +92,7 @@ def transform_data(sessions):
     # Fuseau horaire
     tz = pytz.timezone('America/Toronto')
     now = datetime.now(tz)
-    threshold = now + timedelta(minutes=7)
+    threshold = now + timedelta(minutes=0)
 
     for session in sessions:
         showtime_str = session.get("FeatureStartTime", "")
