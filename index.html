@@ -270,60 +270,70 @@
 								});
 							});
 
-						// Afficher les séances regroupées
-						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-							const dateObj = new Date(dateStr + "T00:00:00");
-							const optionsJour = { weekday: "long" };
-							const optionsJourNum = { day: "numeric" };
-							const optionsMois = { month: "long" };
+							const tz = "America/Toronto";
+							const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
+							const nowToronto = new Date(new Date().toLocaleString("en-CA", { timeZone: tz }));
 
-							const jour = dateObj.toLocaleDateString("fr-CA", optionsJour);
-							const jourNum = dateObj.toLocaleDateString("fr-CA", optionsJourNum);
-							const mois = dateObj.toLocaleDateString("fr-CA", optionsMois);
+							Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
+  								// Si la date est passée → on saute
+  								if (dateStr < aujourdHuiStr) {
+    								return;
+  								}
 
-							// const jourLabel = document.createElement("div");
-							// jourLabel.className = "jour-label";
+  								let seancesFiltrees = seances;
 
-							const aujourdHui = new Date().toLocaleDateString('fr-CA', {
-  								timeZone: 'America/Toronto'
-							});
+  								if (dateStr === aujourdHuiStr) {
+    								// On garde seulement les séances dont l'heure est >= maintenant
+    									seancesFiltrees = seances.filter(({ heure }) => {
+      									const seanceDateTime = new Date(`${dateStr}T${heure}:00`);
+      									return seanceDateTime >= nowToronto;
+    							});
 
-							const jourLabel = document.createElement("div");
-							jourLabel.className = "jour-label";
-							if (dateStr === aujourdHui) {
-  								jourLabel.classList.add("aujourd-hui");
-							}
+    							// Si plus aucune séance aujourd'hui → on saute
+    							if (seancesFiltrees.length === 0) {
+    						  		return;
+    							}
+  							}
 
-							jourLabel.textContent = `${jour.toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
+  							// --- Ici on construit l'affichage ---
+  							const dateObj = new Date(dateStr + "T00:00:00");
+  							const jour = dateObj.toLocaleDateString("fr-CA", { weekday: "long" });
+  							const jourNum = dateObj.toLocaleDateString("fr-CA", { day: "numeric" });
+  							const mois = dateObj.toLocaleDateString("fr-CA", { month: "long" });
 
-							const horairesDiv = document.createElement("div");
-							horairesDiv.className = "horaires";
+  							const jourLabel = document.createElement("div");
+  							jourLabel.className = "jour-label";
+  							if (dateStr === aujourdHuiStr) {
+    							jourLabel.classList.add("aujourd-hui");
+  							}
+  							jourLabel.textContent = `${jour.toLowerCase()} ${jourNum}, ${mois.toLowerCase()}`;
 
-							seances.forEach(({ heure, attributs }) => {
-								const seanceLabel = document.createElement("div");
+  							const horairesDiv = document.createElement("div");
+  							horairesDiv.className = "horaires";
 
-								const horaireLabel = document.createElement("span");
-								horaireLabel.className = "seance-label";
-								horaireLabel.textContent = heure;
-								seanceLabel.appendChild(horaireLabel);
+  							seancesFiltrees.forEach(({ heure, attributs }) => {
+    						const seanceLabel = document.createElement("div");
+    						const horaireLabel = document.createElement("span");
+    						horaireLabel.className = "seance-label";
+    						horaireLabel.textContent = heure;
+    						seanceLabel.appendChild(horaireLabel);
 
-								if (attributs.length > 0) {
-									const attributsLabel = document.createElement("span");
-									attributsLabel.className = "attributs-label";
-									attributsLabel.textContent = attributs.join("   ").trim();
-									seanceLabel.appendChild(attributsLabel);
-								}
+    						if (attributs.length > 0) {
+      							const attributsLabel = document.createElement("span");
+      							attributsLabel.className = "attributs-label";
+      							attributsLabel.textContent = attributs.join(" ").trim();
+      							seanceLabel.appendChild(attributsLabel);
+    						}
 
-								horairesDiv.appendChild(seanceLabel);
-							});
+    						horairesDiv.appendChild(seanceLabel);
+  						});
 
-							const jourBlock = document.createElement("div");
-							jourBlock.className = "jour-block";
-							jourBlock.appendChild(jourLabel);
-							jourBlock.appendChild(horairesDiv);
-
-							seancesDiv.appendChild(jourBlock);
-						});
+  						const jourBlock = document.createElement("div");
+  						jourBlock.className = "jour-block";
+  						jourBlock.appendChild(jourLabel);
+  						jourBlock.appendChild(horairesDiv);
+  						seancesDiv.appendChild(jourBlock);
+					});
 
 						details.appendChild(seancesDiv);
 
@@ -334,7 +344,7 @@
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
 				});
-			document.getElementById("closeModal").addEventListener("click", () => {
+				document.getElementById("closeModal").addEventListener("click", () => {
 				document.getElementById("videoModal").style.display = "none";
 	  			document.getElementById("trailerFrame").src = ""; // stop video
 			});
@@ -366,5 +376,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script></body>
 </html>
+
 
 
