@@ -283,7 +283,8 @@
         {
           "horaire": "2025-09-25 19:15 "
         }
-      ]
+      ],
+      "last_show": 1758827700
     },
     {
       "id": "ST00001680",
@@ -340,7 +341,7 @@
       "content": "Violence | Langage Vulgaire | Gangsters",
       "horaire": [
         {
-          "horaire": "2025-09-11 3:00 DERNIÈRE"
+          "horaire": "2025-09-11 19:15 DERNIÈRE"
         }
       ]
     }
