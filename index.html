@@ -251,6 +251,7 @@
 						const tz = "America/Toronto";
 						const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
 						const nowToronto = new Date(new Date().toLocaleString("en-CA", { timeZone: tz }));
+
 						const seancesParDate = {};
 
 						film.horaire
@@ -258,35 +259,31 @@
   							.forEach((seance) => {
     							const parts = seance.horaire.trim().split(" ");
     							const dateStr = parts[0]; // YYYY-MM-DD
-    							const heure = parts[1];
+    							const heurePure = parts[1].trim().substring(0, 5); // HH:MM pur
     							const attributs = parts
       								.slice(2)
       								.filter((item) => item.length > 0)
       								.sort((a, b) => (a < b ? -1 : 1));
 
-    							// 🔹 1. Ignorer les jours passés
+    							// 1️⃣ Ignorer les jours passés
     							if (dateStr < aujourdHuiStr) return;
 
-    							// 🔹 2. Si aujourd'hui, ignorer les horaires déjà passés
-								if (dateStr === aujourdHuiStr) {
-  									// Nettoyer l'heure pour ne garder que HH:MM
-  									const heurePure = parts[1].trim().substring(0,5); // "15:25"
-  									const [h, m] = heurePure.split(":").map(Number);
-  									const currentHour = nowToronto.getHours();
-  									const currentMinute = nowToronto.getMinutes();
+    							// 2️⃣ Si aujourd'hui, ignorer les horaires déjà passés
+    							if (dateStr === aujourdHuiStr) {
+      								const [h, m] = heurePure.split(":").map(Number);
+      								const currentHour = nowToronto.getHours();
+      								const currentMinute = nowToronto.getMinutes();
 
-  									// Si l'heure est inférieure à l'heure actuelle
-  									// ou si c'est la même heure mais minutes <= actuelles → séance passée
-  									if (h < currentHour || (h === currentHour && m < currentMinute)) {
-    									return;
-  									}
-								}
+      								if (h < currentHour || (h === currentHour && m <= currentMinute)) {
+        								return; // séance passée
+      								}
+    							}
 
-    							// 🔹 3. Ajouter la séance filtrée
+    							// 3️⃣ Ajouter la séance filtrée
     							if (!seancesParDate[dateStr]) {
       								seancesParDate[dateStr] = [];
-   		 						}
-    							seancesParDate[dateStr].push({ heure, attributs });
+    							}
+    							seancesParDate[dateStr].push({ heure: heurePure, attributs });
   							});
 
 						// --- Affichage ---
@@ -347,6 +344,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
