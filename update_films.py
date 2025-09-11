@@ -82,6 +82,15 @@ def fetch_sessions():
         print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
         return []
 
+def extract_datetime_safe(horaire_str):
+# Cherche une date/heure au début de la chaîne
+    match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
+    if match:
+        return datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
+    else:
+        # Si la date est introuvable, on met une date très éloignée pour la placer en dernier
+        return datetime.max 
+
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -174,14 +183,6 @@ def transform_data(sessions):
         })
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
-    def extract_datetime_safe(horaire_str):
-    # Cherche une date/heure au début de la chaîne
-    match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
-    if match:
-        return datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
-    else:
-        # Si la date est introuvable, on met une date très éloignée pour la placer en dernier
-        return datetime.max 
         
     for film in films_dict.values():
         # film["horaire"].sort(key=lambda h: h["horaire"])
