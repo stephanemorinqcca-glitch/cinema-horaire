@@ -268,11 +268,10 @@
 
     							// 🔹 2. Si aujourd'hui, ignorer les horaires déjà passés
     							if (dateStr === aujourdHuiStr) {
-      								const seanceDateTime = new Date(
-        								new Date(`${dateStr}T${heure}:00`).toLocaleString("en-CA", { timeZone: tz })
-      								);
-      								if (seanceDateTime < nowToronto) return;
-    							}
+  				 					const seanceDateTime = new Date(`${dateStr}T${heure}:00`);
+  									// On compare en minutes depuis minuit Toronto
+  									if (seanceDateTime.getTime() < nowToronto.getTime()) return;
+								}
 
     							// 🔹 3. Ajouter la séance filtrée
     							if (!seancesParDate[dateStr]) {
@@ -339,6 +338,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
