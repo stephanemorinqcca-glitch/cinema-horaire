@@ -191,6 +191,14 @@ def transform_data(sessions):
         for film in films_dict.values():
             film["horaire"].sort(key=lambda h: extract_datetime_safe(h["horaire"]))
 
+        # Ajouter le timestamp de la dernière séance (date + heure) dans films_dict[film_id]
+        horaires_valides = [extract_datetime_safe(h["horaire"]) for h in films_dict[film_id]["horaire"]]
+        if horaires_valides:
+            derniere_seance = max(horaires_valides)
+            films_dict[film_id]["last_show"] = int(derniere_seance.timestamp())
+        else:
+            films_dict[film_id]["last_show"] = None
+
         films_list = list(films_dict.values())
         films_list.sort(key=lambda film: film["titre"].lower())
 
