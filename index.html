@@ -249,8 +249,21 @@
 
 						// Grouper les séances par date en filtrant directement
 						const tz = "America/Toronto";
+
+						// Date du jour à Toronto au format YYYY-MM-DD
 						const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
-						const nowToronto = new Date(new Date().toLocaleString("en-CA", { timeZone: tz }));
+
+						// Heure actuelle à Toronto (heures et minutes séparées)
+						const maintenant = new Date();
+						const formatter = new Intl.DateTimeFormat("fr-CA", {
+  							timeZone: tz,
+  							hour: "2-digit",
+  							minute: "2-digit",
+  							hour12: false
+						});
+						const [hourStr, minuteStr] = formatter.format(maintenant).split(":");
+						const currentHour = parseInt(hourStr, 10);
+						const currentMinute = parseInt(minuteStr, 10);
 
 						const seancesParDate = {};
 
@@ -266,8 +279,8 @@
       								.filter((item) => item.length > 0)
       								.sort((a, b) => (a < b ? -1 : 1));
 
-    							// Debug pour voir ce qu'on compare
-    							console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${nowToronto.getHours()}:${nowToronto.getMinutes()}`);
+    							// Debug pour vérifier
+    							console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${currentHour}:${currentMinute}`);
 
     							// 1️⃣ Ignorer les jours passés
     							if (dateStr < aujourdHuiStr) return;
@@ -275,15 +288,12 @@
     							// 2️⃣ Si aujourd'hui, ignorer les horaires déjà passés
     							if (dateStr === aujourdHuiStr) {
       								const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
-      								const currentHour = nowToronto.getHours();
-      								const currentMinute = nowToronto.getMinutes();
 
       								if (h < currentHour || (h === currentHour && m <= currentMinute)) {
         								console.log(`⏩ Ignoré: ${heurePure} (passé)`);
         								return; // séance passée
-     					 			}
+      								}
     							}
-
     							// 3️⃣ Ajouter la séance filtrée
     							if (!seancesParDate[dateStr]) {
       								seancesParDate[dateStr] = [];
@@ -349,6 +359,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
