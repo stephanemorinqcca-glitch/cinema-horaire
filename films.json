@@ -36,7 +36,7 @@
       "content": "Drame d'époque",
       "horaire": [
         {
-          "horaire": "2025-09-12 19:05 "
+          "horaire": "2025-09-10 19:05 "
         },
         {
           "horaire": "2025-09-13 12:55 DLX   ATMOS®"
@@ -353,7 +353,7 @@
           "horaire": "2025-09-11 19:15 DERNIÈRE"
         }
       ],
-      "last_show": 1757632500
+      "last_show": 1757630500
     }
   ]
 }
