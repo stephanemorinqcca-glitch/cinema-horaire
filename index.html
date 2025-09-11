@@ -120,6 +120,13 @@
 
 					const container = document.getElementById("films");
 					data.films.forEach((film) => {
+  						const nowToronto = new Date().toLocaleString("en-CA", { timeZone: "America/Toronto" });
+  						const nowTimestamp = new Date(nowToronto).getTime() / 1000;
+
+  						if (film.last_show === null || nowTimestamp > film.last_show) {
+    						return; // Film expiré, on ne l'affiche pas
+  						}
+						
 						const card = document.createElement("div");
 						card.className = "card";
 
@@ -361,3 +368,4 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script></body>
 </html>
+
