@@ -246,56 +246,40 @@
 						const seancesDiv = document.createElement("div");
 						seancesDiv.className = "seances";
 
-						// Grouper les séances par date
+						// Grouper les séances par date en filtrant directement
+						const tz = "America/Toronto";
+						const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
+						const nowToronto = new Date(new Date().toLocaleString("en-CA", { timeZone: tz }));
 						const seancesParDate = {};
 
 						film.horaire
-							.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
-							.forEach((seance) => {
-								const parts = seance.horaire.trim().split(" ");
-								const dateStr = parts[0]; // format YYYY-MM-DD
-								const heure = parts[1];
-								const attributs = parts
-									.slice(2)
-									.filter((item) => item.length > 0)
-									.sort((a, b) => (a < b ? -1 : 1));
+  							.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
+  							.forEach((seance) => {
+    							const parts = seance.horaire.trim().split(" ");
+    							const dateStr = parts[0]; // YYYY-MM-DD
+    							const heure = parts[1];
+    							const attributs = parts
+      								.slice(2)
+      								.filter((item) => item.length > 0)
+      								.sort((a, b) => (a < b ? -1 : 1));
 
-								if (!seancesParDate[dateStr]) {
-									seancesParDate[dateStr] = [];
-								}
+    							// 🔹 1. Ignorer les jours passés
+    							if (dateStr < aujourdHuiStr) return;
 
-								seancesParDate[dateStr].push({
-									heure,
-									attributs,
-								});
-							});
-
-							const tz = "America/Toronto";
-							const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
-							const nowToronto = new Date(new Date().toLocaleString("en-CA", { timeZone: tz }));
-
-							Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-  								// 1️⃣ Si la date est passée → on saute
-  								if (dateStr < aujourdHuiStr) {
-    								return;
- 								}
-
-  								let seancesFiltrees = seances;
-
-  								// 2️⃣ Si c'est aujourd'hui → on garde seulement les séances à venir
-  								if (dateStr === aujourdHuiStr) {
-    								seancesFiltrees = seances.filter(({ heure }) => {
+    							// 🔹 2. Si aujourd'hui, ignorer les horaires déjà passés
+    							if (dateStr === aujourdHuiStr) {
       								const [h, m] = heure.split(":").map(Number);
       								const seanceDateTime = new Date(nowToronto);
       								seanceDateTime.setHours(h, m, 0, 0);
-      								return seanceDateTime >= nowToronto;
-    							});
+      								if (seanceDateTime < nowToronto) return;
+    							}
 
-    							// Si plus aucune séance aujourd'hui → on saute
-    							if (seancesFiltrees.length === 0) {
-      								return;
-    							}				
-  							}
+    							// 🔹 3. Ajouter la séance filtrée
+    							if (!seancesParDate[dateStr]) {
+      								seancesParDate[dateStr] = [];
+   		 						}
+    							seancesParDate[dateStr].push({ heure, attributs });
+  							});
 
   							// --- Ici on construit l'affichage ---
   							const dateObj = new Date(dateStr + "T00:00:00");
@@ -378,6 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script></body>
 </html>
+
 
 
 
