@@ -255,15 +255,25 @@
 
 						// Heure actuelle à Toronto (heures et minutes séparées)
 						const maintenant = new Date();
-						const formatter = new Intl.DateTimeFormat("fr-CA", {
-  							timeZone: tz,
-  							hour: "2-digit",
-  							minute: "2-digit",
-  							hour12: false
-						});
-						const [hourStr, minuteStr] = formatter.format(maintenant).split(":");
-						const currentHour = parseInt(hourStr, 10);
-						const currentMinute = parseInt(minuteStr, 10);
+
+						const currentHour = parseInt(
+  							new Intl.DateTimeFormat("fr-CA", {
+    							timeZone: tz,
+    							hour: "2-digit",
+    							hour12: false
+  							}).format(maintenant),
+  							10
+						);
+
+						const currentMinute = parseInt(
+  							new Intl.DateTimeFormat("fr-CA", {
+    							timeZone: tz,
+    							minute: "2-digit"
+  							}).format(maintenant),
+  							10
+						);
+
+						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
 
@@ -366,6 +376,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
