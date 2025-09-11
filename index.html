@@ -269,7 +269,8 @@
 
     							// 🔹 2. Si aujourd'hui, ignorer les horaires déjà passés
 								if (dateStr === aujourdHuiStr) {
-  									const heurePure = parts[1].trim();
+  									// Nettoyer l'heure pour ne garder que HH:MM
+  									const heurePure = parts[1].trim().substring(0,5); // "15:25"
   									const [h, m] = heurePure.split(":").map(Number);
   									const currentHour = nowToronto.getHours();
   									const currentMinute = nowToronto.getMinutes();
@@ -346,6 +347,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
