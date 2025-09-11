@@ -83,13 +83,13 @@ def fetch_sessions():
         return []
 
 def extract_datetime_safe(horaire_str):
-# Cherche une date/heure au début de la chaîne
     match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
     if match:
-        return datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
+        naive_dt = datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
+        tz = pytz.timezone('America/Toronto')
+        return tz.localize(naive_dt)
     else:
-        # Si la date est introuvable, on met une date très éloignée pour la placer en dernier
-        return datetime.max 
+        return datetime.max.replace(tzinfo=pytz.UTC)
 
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
