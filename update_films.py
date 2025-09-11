@@ -196,17 +196,17 @@ def transform_data(sessions):
         else:
             film["last_show"] = None
 
-        films_list = list(films_dict.values())
-        films_list.sort(key=lambda film: film["titre"].lower())
+    films_list = list(films_dict.values())
+    films_list.sort(key=lambda film: film["titre"].lower())
 
-        legend_list = list(used_attributes.values())
-        legend_list.sort(key=lambda attr: attr["ShortName"].lower())
+    legend_list = list(used_attributes.values())
+    legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
-        return {
-            "cinema": "Cinéma Centre-Ville",
-            "legende": legend_list,
-            "films": films_list
-        }
+    return {
+        "cinema": "Cinéma Centre-Ville",
+        "legende": legend_list,
+        "films": films_list
+    }
 
 def compute_checksum(content: str) -> str:
     return hashlib.sha256(content.encode('utf-8')).hexdigest()
