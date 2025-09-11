@@ -254,37 +254,32 @@
 
 						const seancesParDate = {};
 
-						film.horaire
-  							.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
-  							.forEach((seance) => {
-    							const parts = seance.horaire.trim().split(" ");
-    							const dateStr = parts[0]; // YYYY-MM-DD
-    							const heurePure = parts[1].trim().substring(0, 5); // HH:MM pur
-    							const attributs = parts
-      								.slice(2)
-      								.filter((item) => item.length > 0)
-      								.sort((a, b) => (a < b ? -1 : 1));
+						film.horaire.forEach((seance) => {
+  							const parts = seance.horaire.trim().split(" ");
+  							const dateStr = parts[0]; // YYYY-MM-DD
+  							const heurePure = parts[1].trim().substring(0, 5); // HH:MM pur
+  							const attributs = parts.slice(2).filter(Boolean);
 
-    							// 1️⃣ Ignorer les jours passés
-    							if (dateStr < aujourdHuiStr) return;
+  							// Ignorer les jours passés
+  							if (dateStr < aujourdHuiStr) return;
 
-    							// 2️⃣ Si aujourd'hui, ignorer les horaires déjà passés
-    							if (dateStr === aujourdHuiStr) {
-      								const [h, m] = heurePure.split(":").map(Number);
-      								const currentHour = nowToronto.getHours();
-      								const currentMinute = nowToronto.getMinutes();
+  							// Si aujourd'hui, ignorer les horaires déjà passés
+  							if (dateStr === aujourdHuiStr) {
+    							const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
+    							const currentHour = nowToronto.getHours();
+    							const currentMinute = nowToronto.getMinutes();
 
-      								if (h < currentHour || (h === currentHour && m <= currentMinute)) {
-        								return; // séance passée
-      								}
+    							if (h < currentHour || (h === currentHour && m <= currentMinute)) {
+     		 					return; // séance passée
     							}
+  							}
 
-    							// 3️⃣ Ajouter la séance filtrée
-    							if (!seancesParDate[dateStr]) {
-      								seancesParDate[dateStr] = [];
-    							}
-    							seancesParDate[dateStr].push({ heure: heurePure, attributs });
-  							});
+  							// Ajouter la séance filtrée
+  							if (!seancesParDate[dateStr]) {
+    							seancesParDate[dateStr] = [];
+  							}
+  							seancesParDate[dateStr].push({ heure: heurePure, attributs });
+						});
 
 						// --- Affichage ---
 						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
@@ -344,6 +339,7 @@
 			});
 </script></body>
 </html>
+
 
 
 
