@@ -120,9 +120,7 @@
 
 					const container = document.getElementById("films");
 					data.films.forEach((film) => {
-  						const nowToronto = new Date().toLocaleString("en-CA", { timeZone: "America/Toronto" });
-  						const nowTimestamp = new Date(nowToronto).getTime() / 1000;
-
+						const nowTimestamp = Date.now() / 1000; // secondes UTC
   						if (film.last_show === null || nowTimestamp > film.last_show) {
     						return; // Film expiré, on ne l'affiche pas
   						}
@@ -368,4 +366,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script></body>
 </html>
+
 
