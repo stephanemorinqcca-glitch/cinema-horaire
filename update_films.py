@@ -202,6 +202,9 @@ def transform_data(sessions):
     legend_list = list(used_attributes.values())
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
+    for film in films_list:
+        print(f"{film['titre']} → last_show: {film['last_show']}")
+
     return {
         "cinema": "Cinéma Centre-Ville",
         "legende": legend_list,
