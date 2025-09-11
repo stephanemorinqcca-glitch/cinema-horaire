@@ -275,24 +275,26 @@
 							const nowToronto = new Date(new Date().toLocaleString("en-CA", { timeZone: tz }));
 
 							Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
-  								// Si la date est passée → on saute
+  								// 1️⃣ Si la date est passée → on saute
   								if (dateStr < aujourdHuiStr) {
     								return;
-  								}
+ 								}
 
   								let seancesFiltrees = seances;
 
+  								// 2️⃣ Si c'est aujourd'hui → on garde seulement les séances à venir
   								if (dateStr === aujourdHuiStr) {
-    								// On garde seulement les séances dont l'heure est >= maintenant
-    									seancesFiltrees = seances.filter(({ heure }) => {
-      									const seanceDateTime = new Date(`${dateStr}T${heure}:00`);
-      									return seanceDateTime >= nowToronto;
+    								seancesFiltrees = seances.filter(({ heure }) => {
+      								const [h, m] = heure.split(":").map(Number);
+      								const seanceDateTime = new Date(nowToronto);
+      								seanceDateTime.setHours(h, m, 0, 0);
+      								return seanceDateTime >= nowToronto;
     							});
 
     							// Si plus aucune séance aujourd'hui → on saute
     							if (seancesFiltrees.length === 0) {
-    						  		return;
-    							}
+      								return;
+    							}				
   							}
 
   							// --- Ici on construit l'affichage ---
@@ -376,6 +378,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script></body>
 </html>
+
 
 
 
