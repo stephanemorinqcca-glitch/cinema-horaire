@@ -273,7 +273,7 @@
   							10
 						);
 
-						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
+						// console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
 
@@ -290,7 +290,7 @@
       								.sort((a, b) => (a < b ? -1 : 1));
 
     							// Debug pour vérifier
-    							console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${currentHour}:${currentMinute}`);
+    							// console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${currentHour}:${currentMinute}`);
 
     							// 1️⃣ Ignorer les jours passés
     							if (dateStr < aujourdHuiStr) return;
@@ -300,7 +300,7 @@
       								const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
 
       								if (h < currentHour || (h === currentHour && m <= currentMinute)) {
-        								console.log(`⏩ Ignoré: ${heurePure} (passé)`);
+        								// console.log(`⏩ Ignoré: ${heurePure} (passé)`);
         								return; // séance passée
       								}
     							}
@@ -376,6 +376,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
