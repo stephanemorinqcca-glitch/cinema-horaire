@@ -305,7 +305,7 @@
     							if (dateStr === aujourdHuiStr) {
       								const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
 
-      								if (h < currentHour || (h === currentHour && m <= currentMinute)) {
+      								if (h < currentHour || (h === currentHour && m < currentMinute)) {
         								// console.log(`⏩ Ignoré: ${heurePure} (passé)`);
         								return; // séance passée
       								}
@@ -382,6 +382,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
