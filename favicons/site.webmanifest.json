@@ -39,13 +39,3 @@
   "background_color": "#ffffff",
   "theme_color": "#000000"
 }
-
-{
-  "permissions": [
-    "tabs",
-    "activeTab",
-    "storage",
-    "runtime"
-  ]
-}
-
