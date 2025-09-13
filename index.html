@@ -54,21 +54,28 @@
 <script>
 			// ✅ Définition unique des mots-clés
 			const motsCles = ["Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
-			const ratingDescriptions = {
-				"13+": "12 ans - | DOIT ÊTRE ACCOMPAGNÉ PAR UN ADULTE",
-				"16+": "Le film peut être vu uniquement par des personnes de 16 ans ou plus",
-				"18+": "Le film peut être vu uniquement par des personnes de 18 ans ou plus",
-				"Pour Enfants": "Le film convient aux jeunes enfants, particulièrement à ceux d’âge préscolaire.",
-				"Déconseillé aux jeunes enfants": "Le film peut être vu par des personnes de tout âge.\n  Des passages peuvent perturber les enfants de moins de 8 ans.",
+			const ratingDetails = {
+    			"13+": {
+        			description: "12 ans - | DOIT ÊTRE ACCOMPAGNÉ PAR UN ADULTE",
+        			color: "#FFFACD"
+    			},
+    			"16+": {
+        			description: "Le film peut être vu uniquement par des personnes de 16 ans ou plus",
+        			color: "#D6ECFF"
+    			},
+    			"18+": {
+        			description: "Le film peut être vu uniquement par des personnes de 18 ans ou plus",
+        			color: "#FFD6D6"
+    			},
+    			"Pour Enfants": {
+        			description: "Le film convient aux jeunes enfants, particulièrement à ceux d’âge préscolaire.",
+        			color: "#E3FBD9"
+    			},
+    			"Déconseillé aux jeunes enfants": {
+        			description: "Le film peut être vu par des personnes de tout âge.\n  Des passages peuvent perturber les enfants de moins de 8 ans.",
+        			color: "#E0F0FF"
+    			}
 			};
-	
-			const ratingColors = {
-    			"13+": "#FFF275", // jaune clair (image 13+)
-    			"16+": "#A3D5FF", // bleu clair (image 16+)
-    			"18+": "#FF7F7F", // rouge clair (image 18+)
-    			"Pour Enfants": "#B6EFA3", // vert clair (image G)
-    			"Déconseillé aux jeunes enfants": "#B6EFA3", // vert clair (image G)
-			};		
 	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film) {
@@ -240,26 +247,19 @@
 							poster.appendChild(image);
 							details.appendChild(contentBlock);
 						}
-
-						// if (classificationDetails !== "") {
-						//	const classificationDetailsDiv = document.createElement("div");
-						//	classificationDetailsDiv.className = "classification-details";
-						//	classificationDetailsDiv.textContent = classificationDetails;
-						//	details.appendChild(classificationDetailsDiv);
-						// }
-
+						
 						if (classificationDetails !== "") {
-    						const classificationDetailsDiv = document.createElement("div");
+						    const classificationDetailsDiv = document.createElement("div");
     						classificationDetailsDiv.className = "classification-details";
-    						classificationDetailsDiv.textContent = classificationDetails;
 
-    						// Cherche la clé correspondante dans ratingDescriptions
-    						for (const rating in ratingDescriptions) {
-        						if (classificationDetails.includes(ratingDescriptions[rating])) {
-            						classificationDetailsDiv.style.backgroundColor = ratingColors[rating];
+    						// Trouver la bonne classification
+    						for (const rating in ratingDetails) {
+        						if (classificationDetails.includes(ratingDetails[rating].description)) {
+            						classificationDetailsDiv.textContent = ratingDetails[rating].description;
+            						classificationDetailsDiv.style.backgroundColor = ratingDetails[rating].color;
             						break;
-        						}			
-    						}
+        						}
+    						}	
 
     						details.appendChild(classificationDetailsDiv);
 						}
@@ -406,6 +406,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
