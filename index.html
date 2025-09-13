@@ -207,60 +207,61 @@
 						details.appendChild(title);
 
 						let classificationDetails = "";
-						
+						let classificationColor = "";
+
 						if (film.classification || film.content) {
-							const contentBlock = document.createElement("div");
+    						const contentBlock = document.createElement("div");
 
-							let cleanedContent = cleanFilmContent(film);
+    						let cleanedContent = cleanFilmContent(film);
 
-							if (film.classification) {
-								const rating = document.createElement("span");
-								rating.className = "rating";
-								rating.textContent = film.classification;
-								contentBlock.appendChild(rating);
+    						// Ajout du rating visuel
+    						if (film.classification) {
+        						const rating = document.createElement("span");
+        						rating.className = "rating";
+        						rating.textContent = film.classification;
+        						contentBlock.appendChild(rating);
 
-								cleanedContent = ` | ${cleanedContent}`;
-								if (ratingDescriptions[film.classification]) {
-									classificationDetails = ratingDescriptions[film.classification];
-								}
-							}
-							
-							motsCles.forEach((motCle) => {
-								if (film.content.includes(motCle) && ratingDescriptions[motCle]) {
-									if (classificationDetails !== "") classificationDetails += "\n";
-									classificationDetails += ratingDescriptions[motCle];
-								}
-							});
+        						cleanedContent = ` | ${cleanedContent}`;
 
-							const content = document.createElement("span");
-							content.className = "content";
-							content.textContent = cleanedContent;
-							contentBlock.appendChild(content);
-
-							const classification = document.createElement("div");
-							const imageFilename = generateImageFilename(film);
-							const image = document.createElement("img");
-							image.src = `classification/${imageFilename}`;
-							image.alt = "Classification visuelle";
-							image.className = "classification-image";
-
-							poster.appendChild(image);
-							details.appendChild(contentBlock);
-						}
-						
-						if (classificationDetails !== "") {
-						    const classificationDetailsDiv = document.createElement("div");
-    						classificationDetailsDiv.className = "classification-details";
-
-    						// Trouver la bonne classification
-    						for (const rating in ratingDetails) {
-        						if (classificationDetails.includes(ratingDetails[rating].description)) {
-            						classificationDetailsDiv.textContent = ratingDetails[rating].description;
-            						classificationDetailsDiv.style.backgroundColor = ratingDetails[rating].color;
-            						break;
+        						if (ratingDetails[film.classification]) {
+            						classificationDetails = ratingDetails[film.classification].description;
+            						classificationColor = ratingDetails[film.classification].color;
         						}
-    						}	
+    						}
 
+    						// Vérifie les mots-clés si aucune classification trouvée
+    						if (classificationDetails === "") {
+        						motsCles.forEach((motCle) => {
+            						if (film.content.includes(motCle) && ratingDetails[motCle]) {
+                						classificationDetails = ratingDetails[motCle].description;
+                						classificationColor = ratingDetails[motCle].color;
+            						}
+        						});
+    						}
+
+    						// Ajout du contenu nettoyé
+    						const content = document.createElement("span");
+    						content.className = "content";
+    						content.textContent = cleanedContent;
+    						contentBlock.appendChild(content);
+
+    						// Ajout de l'image de classification
+    						const imageFilename = generateImageFilename(film);
+    						const image = document.createElement("img");
+    						image.src = `classification/${imageFilename}`;
+    						image.alt = "Classification visuelle";
+    						image.className = "classification-image";
+
+    						poster.appendChild(image);
+    						details.appendChild(contentBlock);
+						}
+
+						// Affichage de la description avec couleur
+						if (classificationDetails !== "") {
+    						const classificationDetailsDiv = document.createElement("div");
+    						classificationDetailsDiv.className = "classification-details";
+    						classificationDetailsDiv.textContent = classificationDetails;
+    						classificationDetailsDiv.style.backgroundColor = classificationColor;
     						details.appendChild(classificationDetailsDiv);
 						}
 						
@@ -406,6 +407,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
