@@ -241,11 +241,27 @@
 							details.appendChild(contentBlock);
 						}
 
+						// if (classificationDetails !== "") {
+						//	const classificationDetailsDiv = document.createElement("div");
+						//	classificationDetailsDiv.className = "classification-details";
+						//	classificationDetailsDiv.textContent = classificationDetails;
+						//	details.appendChild(classificationDetailsDiv);
+						// }
+
 						if (classificationDetails !== "") {
-							const classificationDetailsDiv = document.createElement("div");
-							classificationDetailsDiv.className = "classification-details";
-							classificationDetailsDiv.textContent = classificationDetails;
-							details.appendChild(classificationDetailsDiv);
+    						const classificationDetailsDiv = document.createElement("div");
+    						classificationDetailsDiv.className = "classification-details";
+    						classificationDetailsDiv.textContent = classificationDetails;
+
+    						// Cherche la clé correspondante dans ratingDescriptions
+    						for (const rating in ratingDescriptions) {
+        						if (classificationDetails.includes(ratingDescriptions[rating])) {
+            						classificationDetailsDiv.style.backgroundColor = ratingColors[rating];
+            						break;
+        						}			
+    						}
+
+    						details.appendChild(classificationDetailsDiv);
 						}
 						
 						if (film.synopsis) {
@@ -390,6 +406,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
