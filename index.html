@@ -180,7 +180,7 @@
 									}
 
     							} catch (e) {
-        							console.error("URL invalide :", url);
+        							.error("URL invalide :", url);
     							}
 
     							if (embedUrl) {
@@ -302,7 +302,7 @@
   							10
 						);
 
-						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
+						// console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
 
@@ -319,7 +319,7 @@
       								.sort((a, b) => (a < b ? -1 : 1));
 
     							// Debug pour vérifier
-    							// console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${currentHour}:${currentMinute}`);
+    							console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${currentHour}:${currentMinute}`);
 
     							// 1️⃣ Ignorer les jours passés
     							if (dateStr < aujourdHuiStr) return;
@@ -405,6 +405,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
