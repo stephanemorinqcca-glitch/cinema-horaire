@@ -103,8 +103,12 @@ h1 {
 }
 
 .classification-details {
-  margin: 15px 0 5px 0;
   font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .synopsis {
@@ -199,6 +203,7 @@ margin-bottom: 10px;
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
