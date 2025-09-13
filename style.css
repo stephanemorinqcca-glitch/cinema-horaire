@@ -107,6 +107,7 @@ h1 {
 .classification-details {
   font-size: 12px;
   padding: 5px;
+  padding-left: 1px;
   border-radius: 1px;
   color: #000;
   margin-top: 12px;
@@ -206,6 +207,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
