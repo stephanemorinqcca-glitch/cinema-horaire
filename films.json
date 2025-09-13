@@ -121,12 +121,6 @@
       "content": "Horreur | Suspense d'épouvante",
       "horaire": [
         {
-          "horaire": "2025-09-13 18:35 DLX   ATMOS®"
-        },
-        {
-          "horaire": "2025-09-13 18:35 DLX"
-        },
-        {
           "horaire": "2025-09-14 12:35 DLX"
         },
         {
@@ -181,9 +175,18 @@
       "horaire": [
         {
           "horaire": "2025-09-14 13:05 "
+        },
+        {
+          "horaire": "2025-09-19 13:05 "
+        },
+        {
+          "horaire": "2025-09-20 13:05 "
+        },
+        {
+          "horaire": "2025-09-21 13:05 "
         }
       ],
-      "last_show": 1757869500
+      "last_show": 1758474300
     },
     {
       "id": "ST00001720",
