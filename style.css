@@ -88,7 +88,6 @@ header {
 .poster > img {
   display: block;
   width: 100%;                /* 100% de 125px = 125px */
-  height: auto;
   image-rendering: auto;      /* interpolation lissée */
   -ms-interpolation-mode: bicubic; /* fallback IE */
 }
@@ -98,7 +97,6 @@ header {
   display: block;
   float: left;
   width: 125px;               /* largeur verrouillée */
-  height: auto;
   margin: 10px 10px 0 0;
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -228,6 +226,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
