@@ -264,10 +264,15 @@
 						}
 						
 						if (film.synopsis) {
-							const synopsis = document.createElement("div");
-							synopsis.className = "synopsis";
-							synopsis.textContent = film.synopsis;
-							details.appendChild(synopsis);
+    						const synopsis = document.createElement("div");
+    						synopsis.className = "synopsis";
+
+    						// Remplace les **texte** par <strong>texte</strong>
+    						const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+    						// Injecte le HTML formaté
+    						synopsis.innerHTML = formattedSynopsis;
+    						details.appendChild(synopsis);
 						}
 
 						card.appendChild(details);
@@ -405,6 +410,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
