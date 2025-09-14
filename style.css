@@ -72,24 +72,26 @@ header {
 }
 
 .poster {
-  width: 125px;               /* largeur immuable */
-  padding: 5px 15px 0 0;
+	width: 135px;               /* largeur immuable */
+  	padding: 5px 15px 0 0;
 }
 
 .poster > img {
-  width: 100%;                /* 100% de 125px = 125px */
+  	width: 125px;           
 }
 
 /* Icône de classification fixe à 125px */
 .classification-image {
-  display: block;
-  float: left;
-  width: 125px;               /* largeur verrouillée */
-  margin: 10px 10px 0 0;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  image-rendering: auto;      /* lissé pour photo/détail */
-  -ms-interpolation-mode: bicubic; /* fallback IE */
+	display: block;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    max-width: 135px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    float: left; /* Alignement à gauche */
+  	image-rendering: auto;      /* lissé pour photo/détail */
+  	-ms-interpolation-mode: bicubic; /* fallback IE */
 }
 
 h1 {
@@ -209,6 +211,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
