@@ -168,19 +168,10 @@
       "content": "Animation",
       "horaire": [
         {
-          "horaire": "2025-09-14 13:05 "
-        },
-        {
-          "horaire": "2025-09-19 13:05 "
-        },
-        {
-          "horaire": "2025-09-20 13:05 "
-        },
-        {
-          "horaire": "2025-09-21 13:05 DERNIÈRE"
+          "horaire": "2025-09-14 13:05 DERNIÈRE"
         }
       ],
-      "last_show": 1758474300
+      "last_show": 1757869500
     },
     {
       "id": "ST00001720",
