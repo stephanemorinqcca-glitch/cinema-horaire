@@ -362,23 +362,39 @@
   							const horairesDiv = document.createElement("div");
   							horairesDiv.className = "horaires";
 
-  							seances.forEach(({ heure, attributs }) => {
+							seances.forEach(({ heure, attributs }) => {
     							const seanceLabel = document.createElement("div");
 
     							const horaireLabel = document.createElement("span");
     							horaireLabel.className = "seance-label";
-   								horaireLabel.textContent = heure;
+    							horaireLabel.textContent = heure;
+
+   								// Vérifie si "COMPLET" est dans les attributs
+    							const estComplet = attributs.includes("COMPLET");
+
+    							if (estComplet) {
+        							horaireLabel.style.color = "red"; // heure en rouge
+    							}
+
     							seanceLabel.appendChild(horaireLabel);
 
-    						if (attributs.length > 0) {
-      							const attributsLabel = document.createElement("span");
-      							attributsLabel.className = "attributs-label";
-      							attributsLabel.textContent = attributs.join(" ").trim();
-      							seanceLabel.appendChild(attributsLabel);
-    						}
+    							if (attributs.length > 0) {
+        							const attributsLabel = document.createElement("span");
+        							attributsLabel.className = "attributs-label";
+        							attributsLabel.textContent = attributs.join(" ").trim();
 
-    						horairesDiv.appendChild(seanceLabel);
-  						});
+        							if (estComplet) {
+            							attributsLabel.style.backgroundColor = "red";   // fond rouge
+            							attributsLabel.style.color = "white";           // texte blanc
+            							attributsLabel.style.padding = "2px 6px";       // un peu de style
+            							attributsLabel.style.borderRadius = "4px";      // arrondi
+        							}
+
+        							seanceLabel.appendChild(attributsLabel);
+    							}		
+
+    							horairesDiv.appendChild(seanceLabel);
+							});
 
   						const jourBlock = document.createElement("div");
   						jourBlock.className = "jour-block";
@@ -410,6 +426,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
