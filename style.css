@@ -71,40 +71,44 @@ header {
 	padding: 10px 0;
 }
 
-/* Poster container */
+/* Global pour layouts prévisibles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Container poster fixe à 125px */
 .poster {
-    width: 135px;
-    padding: 5px 15px 0 0;
+  width: 125px;               /* largeur immuable */
+  padding: 5px 15px 0 0;
 }
+
+/* L’image à l’intérieur du poster s’étire pour remplir ces 125px */
 .poster > img {
-    display: block;
-    width: 100%;
-    
-    /* Default smoothing for photographs */
-    image-rendering: auto;
-    
-    /* IE fallback */
-    -ms-interpolation-mode: bicubic;
+  display: block;
+  width: 100%;                /* 100% de 125px = 125px */
+  height: auto;
+  image-rendering: auto;      /* interpolation lissée */
+  -ms-interpolation-mode: bicubic; /* fallback IE */
 }
 
-/* Classification icon */
+/* Icône de classification fixe à 125px */
 .classification-image {
-    display: block;
-    float: left;
-  	width: 135px;
-    margin: 10px 10px 10px 0;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: block;
+  float: left;
+  width: 125px;               /* largeur verrouillée */
+  height: auto;
+  margin: 10px 10px 0 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 
-    /* Smooth interpolation for detailed photos */
-    image-rendering: auto;
+  image-rendering: auto;      /* lissé pour photo/détail */
+  /* Pour pixel-art ou logos : décommenter une de ces lignes */
+  /* image-rendering: crisp-edges; */
+  /* image-rendering: pixelated; */
 
-    /* Uncomment for crisp pixel-art/logos */
-    /* image-rendering: crisp-edges; */
-    /* image-rendering: pixelated; */
-
-    /* IE interpolation fallback */
-    -ms-interpolation-mode: bicubic;
+  -ms-interpolation-mode: bicubic; /* fallback IE */
 }
 
 h1 {
@@ -224,6 +228,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
