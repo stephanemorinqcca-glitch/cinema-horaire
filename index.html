@@ -374,6 +374,10 @@
 
     							if (estComplet) {
         							horaireLabel.style.color = "red"; // heure en rouge
+        							horaireLabel.style.padding = "4px 8px";
+        							horaireLabel.style.display = "inline-block";
+        							horaireLabel.style.height = "100%";
+        							horaireLabel.style.verticalAlign = "middle";
     							}
 
     							seanceLabel.appendChild(horaireLabel);
@@ -381,13 +385,20 @@
     							if (attributs.length > 0) {
         							const attributsLabel = document.createElement("span");
         							attributsLabel.className = "attributs-label";
-        							attributsLabel.textContent = attributs.join(" ").trim();
+        							// attributsLabel.textContent = attributs.join(" ").trim();
+									attributsLabel.innerHTML = attributs
+									    .map(attr => attr === "COMPLET" ? "<strong> COMPLET </strong>" : attr)
+    									.join(" ")
+    									.trim();
 
         							if (estComplet) {
-            							attributsLabel.style.backgroundColor = "red";   // fond rouge
-            							attributsLabel.style.color = "white";           // texte blanc
-            							attributsLabel.style.padding = "2px 6px";       // un peu de style
-            							attributsLabel.style.borderRadius = "4px";      // arrondi
+         								attributsLabel.style.backgroundColor = "red";
+            							attributsLabel.style.color = "white";
+            							attributsLabel.style.padding = "4px 8px";
+            							attributsLabel.style.display = "inline-block";
+            							attributsLabel.style.verticalAlign = "middle";
+            							attributsLabel.style.borderRadius = "0"; // coins carrés
+            							attributsLabel.style.height = "100%";
         							}
 
         							seanceLabel.appendChild(attributsLabel);
@@ -426,6 +437,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
