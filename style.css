@@ -71,13 +71,6 @@ header {
 	padding: 10px 0;
 }
 
-/* Global box-sizing for predictable layouts */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 /* Poster container */
 .poster {
     width: 135px;
@@ -233,6 +226,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
