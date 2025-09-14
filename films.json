@@ -18,12 +18,6 @@
       "Description": "Salle avec sièges rocker et plus spacieux",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee"
-    },
-    {
-      "ShortName": "VFQ",
-      "Description": "Version en Français doublé au Québec",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee"
     }
   ],
   "films": [
@@ -286,7 +280,7 @@
           "horaire": "2025-10-01 19:15 "
         },
         {
-          "horaire": "2025-10-02 19:15 DERNIÈRE   VFQ  COMPLET"
+          "horaire": "2025-10-02 19:15 "
         }
       ],
       "last_show": 1759446900
