@@ -107,6 +107,7 @@ def transform_data(sessions):
         showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
+        tickets_sold_out = session.get("TicketsSoldOut", False)  # 👈 récupération du booléen
 
         # Dans la boucle des sessions
         try:
@@ -178,6 +179,11 @@ def transform_data(sessions):
 
         # Fusionner les shortnames avec espaces
         shortnames = " ".join([" " + attr.get("ShortName", "") + " " for attr in enriched_attributes if attr])
+        
+        # Ajouter "COMPLET" si la séance est sold out
+        if tickets_sold_out:
+            shortnames += " COMPLET"
+            
         films_dict[film_id]["horaire"].append({
             "horaire": showtime_str + " " + shortnames.strip()
         })
