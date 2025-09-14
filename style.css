@@ -71,13 +71,6 @@ header {
 	padding: 10px 0;
 }
 
-/* Global pour layouts prévisibles */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 /* Container poster fixe à 125px */
 .poster {
   width: 125px;               /* largeur immuable */
@@ -226,6 +219,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
