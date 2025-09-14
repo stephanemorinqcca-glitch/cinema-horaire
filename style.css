@@ -71,9 +71,16 @@ header {
 	padding: 10px 0;
 }
 
+/* Global pour des layouts prévisibles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Poster container */
 .poster {
-    width: 135px;
+    width: 300px;
     padding: 5px 15px 0 0;
 }
 .poster > img {
@@ -92,7 +99,7 @@ header {
 .classification-image {
     display: block;
     float: left;
-    width: 135px;
+  	max-width: 300px;
     height: auto;
     margin: 10px 10px 10px 0;
     border-radius: 4px;
@@ -226,6 +233,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
