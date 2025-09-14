@@ -71,23 +71,49 @@ header {
 	padding: 10px 0;
 }
 
-.poster {
-	width: 135px;
-	padding: 5px 15px 0 0;
-}
-.poster > img {
-	width: 125px;
+/* Global box-sizing for predictable layouts */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
+/* Poster container */
+.poster {
+    width: 135px;
+    padding: 5px 15px 0 0;
+}
+.poster > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+    /* Default smoothing for photographs */
+    image-rendering: auto;
+    
+    /* IE fallback */
+    -ms-interpolation-mode: bicubic;
+}
+
+/* Classification icon */
 .classification-image {
     display: block;
-    margin-top: 10px;
-	margin-bottom: 10px;
-    max-width: 135px;
+    float: left;
+    width: 135px;
     height: auto;
+    margin: 10px 10px 10px 0;
     border-radius: 4px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    float: left; /* Alignement à gauche */
+
+    /* Smooth interpolation for detailed photos */
+    image-rendering: auto;
+
+    /* Uncomment for crisp pixel-art/logos */
+    /* image-rendering: crisp-edges; */
+    /* image-rendering: pixelated; */
+
+    /* IE interpolation fallback */
+    -ms-interpolation-mode: bicubic;
 }
 
 h1 {
@@ -207,6 +233,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
