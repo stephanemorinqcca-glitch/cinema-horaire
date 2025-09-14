@@ -71,17 +71,13 @@ header {
 	padding: 10px 0;
 }
 
-/* Container poster fixe à 125px */
 .poster {
   width: 125px;               /* largeur immuable */
   padding: 5px 15px 0 0;
 }
 
-/* L’image à l’intérieur du poster s’étire pour remplir ces 125px */
 .poster > img {
-  display: block;
   width: 100%;                /* 100% de 125px = 125px */
-  image-rendering: auto;      /* interpolation lissée */
 }
 
 /* Icône de classification fixe à 125px */
@@ -93,6 +89,7 @@ header {
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   image-rendering: auto;      /* lissé pour photo/détail */
+  -ms-interpolation-mode: bicubic; /* fallback IE */
 }
 
 h1 {
@@ -212,6 +209,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
