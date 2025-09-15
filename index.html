@@ -55,7 +55,7 @@
 </main>
 <script>
 			// ✅ Définition unique des mots-clés
-			const motsCles = ["Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
+			const motsCles = ["DAJE", "Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
 			const ratingDetails = {
     			"13+": {
         			description: "12 ans et moins doit être accompagné par un adulte",
@@ -72,6 +72,10 @@
     			"Pour Enfants": {
         			description: "Le film convient aux jeunes enfants, particulièrement à ceux d’âge préscolaire.",
         			color: "#F4FFF0" // vert très très pâle
+    			},
+    			"DAJE": {
+        			description: "Le film peut être vu par des personnes de tout âge.\n  Des passages peuvent perturber les enfants de moins de 8 ans.",
+        			color: "#F4FFF0" // même vert très très pâle
     			},
     			"Déconseillé aux jeunes enfants": {
         			description: "Le film peut être vu par des personnes de tout âge.\n  Des passages peuvent perturber les enfants de moins de 8 ans.",
@@ -116,6 +120,10 @@
 							base += normalizeText(mot);
 						}
 					});
+				}
+
+				if (base === "DAJE") {
+    				base = "Deconseilleauxjeunesenfants";
 				}
 
 				return base + "RGB.jpg";
@@ -441,6 +449,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 });
 </script></body>
 </html>
+
 
 
 
