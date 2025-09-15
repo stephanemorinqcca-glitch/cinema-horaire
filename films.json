@@ -42,19 +42,19 @@
           "horaire": "2025-09-18 19:05 "
         },
         {
-          "horaire": "2025-09-19 12:35 DLX   ATMOS®"
+          "horaire": "2025-09-19 12:35 "
         },
         {
           "horaire": "2025-09-19 19:05 "
         },
         {
-          "horaire": "2025-09-20 12:35 ATMOS®   DLX"
+          "horaire": "2025-09-20 12:35 "
         },
         {
           "horaire": "2025-09-20 19:05 "
         },
         {
-          "horaire": "2025-09-21 12:35 DLX   ATMOS®"
+          "horaire": "2025-09-21 12:35 "
         },
         {
           "horaire": "2025-09-21 19:05 "
@@ -112,19 +112,19 @@
           "horaire": "2025-09-18 18:55 DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-19 12:45 DLX"
+          "horaire": "2025-09-19 12:45 DLX   ATMOS®"
         },
         {
           "horaire": "2025-09-19 18:45 DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-20 12:45 DLX"
+          "horaire": "2025-09-20 12:45 ATMOS®   DLX"
         },
         {
           "horaire": "2025-09-20 18:45 DLX   ATMOS®"
         },
         {
-          "horaire": "2025-09-21 12:45 DLX"
+          "horaire": "2025-09-21 12:45 DLX   ATMOS®"
         },
         {
           "horaire": "2025-09-21 18:45 DLX   ATMOS®"
@@ -137,6 +137,32 @@
         }
       ],
       "last_show": 1758840900
+    },
+    {
+      "id": "ST00001724",
+      "titre": "LUI",
+      "synopsis": "LUI met en vedette Tyriq Withers, ancien joueur de football américain universitaire, dans le rôle de Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
+      "classification": "13+",
+      "duree": 98,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
+      "content": "Violence | Horreur | Suspense psychologique",
+      "horaire": [
+        {
+          "horaire": "2025-09-19 13:05 DLX"
+        },
+        {
+          "horaire": "2025-09-20 13:05 DLX"
+        },
+        {
+          "horaire": "2025-09-21 13:05 DLX"
+        }
+      ],
+      "last_show": 1758474300
     },
     {
       "id": "ST00001720",
