@@ -137,6 +137,21 @@
 				return base + "RGB.jpg";
 			}
 
+			// ✅ Heure actuelle Toronto
+			function getHeureToronto() {
+  				const tz = "America/Toronto";
+  				const maintenant = new Date();
+  				return new Intl.DateTimeFormat("fr-CA", {
+    				timeZone: tz,
+    				hour: "2-digit",
+    				minute: "2-digit",
+    				hour12: false
+  				})
+    				.format(maintenant)
+    				.split(":")
+    				.map(n => Number(n));
+			}
+
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
 				.then((response) => response.json())
@@ -300,26 +315,9 @@
 
 						const seancesDiv = document.createElement("div");
 						seancesDiv.className = "seances";
-
-						// Grouper les séances par date en filtrant directement
-						const tz = "America/Toronto";
-						const maintenant = new Date();
-
-						const formatter = new Intl.DateTimeFormat("fr-CA", {
-  							timeZone: tz,
-  							hour: "2-digit",
-  							minute: "2-digit",
-  							hour12: false
-						});
-
-						const heureStr = formatter.format(maintenant);
-
-						// Assure que le format est bien HH:MM
-						const [currentHour, currentMinute] = heureStr
-  							.padStart(5, "0") // ajoute des zéros si nécessaire
-  							.split(":")
-  							.map(n => parseInt(n, 10));
-
+						
+						// ✅ Heure actuelle Toronto
+						const [currentHour, currentMinute] = getHeureToronto();
 						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
