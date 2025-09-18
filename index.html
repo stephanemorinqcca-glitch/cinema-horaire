@@ -141,9 +141,7 @@
 			function getDateHeureToronto() {
   				const tz = "America/Toronto";
   				const maintenant = new Date();
-
   				const dateStr = maintenant.toLocaleDateString("fr-CA", { timeZone: tz });
-
   				const heureStr = maintenant.toLocaleTimeString("fr-CA", {
     				timeZone: tz,
     				hour: "2-digit",
@@ -330,12 +328,9 @@
 						
 						// ✅ Date/Heure actuelle Toronto
 						const { dateStr: aujourdHuiStr, hour: currentHour, minute: currentMinute } = getDateHeureToronto();
-
-						console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
-						console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
-
-						// console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
-
+						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
+						//console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
+						
 						const seancesParDate = {};
 
 						Object.entries(film.horaire).forEach(([dateStr, seances]) => {
