@@ -34,56 +34,35 @@
       "banniere": "",
       "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
       "content": "Drame d'époque",
-      "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-19": [
-          {
-            "heure": "12:35",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-20": [
-          {
-            "heure": "12:35",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "12:35",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-18 19:05 "
+        },
+        {
+          "horaire": "2025-09-19 12:35 "
+        },
+        {
+          "horaire": "2025-09-19 19:05 "
+        },
+        {
+          "horaire": "2025-09-20 12:35 "
+        },
+        {
+          "horaire": "2025-09-20 19:05 "
+        },
+        {
+          "horaire": "2025-09-21 12:35 "
+        },
+        {
+          "horaire": "2025-09-21 19:05 "
+        },
+        {
+          "horaire": "2025-09-24 19:05 "
+        },
+        {
+          "horaire": "2025-09-25 19:05 "
+        }
+      ],
       "last_show": 1758841500
     },
     {
@@ -99,16 +78,11 @@
       "banniere": "",
       "bande_annonce": "https://youtu.be/VC4QnXdR1fk",
       "content": "Violence | Horreur | Suspense fantastique",
-      "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-18 19:05 DERNIÈRE"
+        }
+      ],
       "last_show": 1758236700
     },
     {
@@ -124,83 +98,35 @@
       "banniere": "",
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-19": [
-          {
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          },
-          {
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-20": [
-          {
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          },
-          {
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          },
-          {
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-18 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-19 12:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-19 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-20 12:45 ATMOS®   DLX"
+        },
+        {
+          "horaire": "2025-09-20 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-21 12:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-21 18:45 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-24 18:55 DLX   ATMOS®"
+        },
+        {
+          "horaire": "2025-09-25 18:55 DLX   ATMOS®"
+        }
+      ],
       "last_show": 1758840900
     },
     {
@@ -216,104 +142,53 @@
       "banniere": "",
       "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
       "content": "Violence | Horreur | Suspense psychologique",
-      "horaire": {
-        "2025-09-19": [
-          {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-20": [
-          {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-26": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-27": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-28": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-19 13:05 DLX"
+        },
+        {
+          "horaire": "2025-09-19 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-20 13:05 DLX"
+        },
+        {
+          "horaire": "2025-09-20 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-21 13:05 DLX"
+        },
+        {
+          "horaire": "2025-09-21 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-24 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-25 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-26 18:55 "
+        },
+        {
+          "horaire": "2025-09-27 13:05 "
+        },
+        {
+          "horaire": "2025-09-27 18:55 "
+        },
+        {
+          "horaire": "2025-09-28 13:05 "
+        },
+        {
+          "horaire": "2025-09-28 18:55 "
+        },
+        {
+          "horaire": "2025-10-01 18:55 "
+        },
+        {
+          "horaire": "2025-10-02 18:55 "
+        }
+      ],
       "last_show": 1759445700
     },
     {
@@ -329,60 +204,35 @@
       "banniere": "",
       "bande_annonce": "https://youtu.be/ZOzO5iQXaSY",
       "content": "Violence | Langage Vulgaire | Suspense psychologique",
-      "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-19": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-20": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-18 19:15 DLX"
+        },
+        {
+          "horaire": "2025-09-19 13:05 "
+        },
+        {
+          "horaire": "2025-09-19 19:15 "
+        },
+        {
+          "horaire": "2025-09-20 13:05 "
+        },
+        {
+          "horaire": "2025-09-20 19:15 "
+        },
+        {
+          "horaire": "2025-09-21 13:05 "
+        },
+        {
+          "horaire": "2025-09-21 19:15 "
+        },
+        {
+          "horaire": "2025-09-24 19:15 "
+        },
+        {
+          "horaire": "2025-09-25 19:15 DERNIÈRE"
+        }
+      ],
       "last_show": 1758842100
     },
     {
@@ -398,58 +248,35 @@
       "banniere": "",
       "bande_annonce": "https://youtu.be/3mH20C9kURw",
       "content": "DAJE | Aventures fantastiques",
-      "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-19": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-09-20": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-18 18:55 "
+        },
+        {
+          "horaire": "2025-09-19 12:45 "
+        },
+        {
+          "horaire": "2025-09-19 18:45 "
+        },
+        {
+          "horaire": "2025-09-20 12:45 "
+        },
+        {
+          "horaire": "2025-09-20 18:45 "
+        },
+        {
+          "horaire": "2025-09-21 12:45 "
+        },
+        {
+          "horaire": "2025-09-21 18:45 "
+        },
+        {
+          "horaire": "2025-09-24 18:55 "
+        },
+        {
+          "horaire": "2025-09-25 18:55 DERNIÈRE"
+        }
+      ],
       "last_show": 1758840900
     },
     {
@@ -465,88 +292,53 @@
       "banniere": "",
       "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
       "content": "Drame fantaisiste",
-      "horaire": {
-        "2025-09-19": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-20": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-26": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-27": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-28": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ]
-      },
+      "horaire": [
+        {
+          "horaire": "2025-09-19 13:05 "
+        },
+        {
+          "horaire": "2025-09-19 19:15 "
+        },
+        {
+          "horaire": "2025-09-20 13:05 "
+        },
+        {
+          "horaire": "2025-09-20 19:15 "
+        },
+        {
+          "horaire": "2025-09-21 13:05 "
+        },
+        {
+          "horaire": "2025-09-21 19:15 "
+        },
+        {
+          "horaire": "2025-09-24 19:15 "
+        },
+        {
+          "horaire": "2025-09-25 19:15 "
+        },
+        {
+          "horaire": "2025-09-26 19:15 "
+        },
+        {
+          "horaire": "2025-09-27 13:05 "
+        },
+        {
+          "horaire": "2025-09-27 19:15 "
+        },
+        {
+          "horaire": "2025-09-28 13:05 "
+        },
+        {
+          "horaire": "2025-09-28 19:15 "
+        },
+        {
+          "horaire": "2025-10-01 19:15 "
+        },
+        {
+          "horaire": "2025-10-02 19:15 "
+        }
+      ],
       "last_show": 1759446900
     }
   ]
