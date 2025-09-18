@@ -172,7 +172,7 @@ def transform_data(sessions):
         # Injecter "3D" si le format du film est "3D Digital"
         if films_dict[film_id].get("format", "").strip().lower() == "3d digital":
             if "3D" not in attributs:
-                attributs.insert("3D")
+                attributs.insert(0, "3D")
                 
         if tickets_sold_out:
             attributs.insert(0, "COMPLET")
