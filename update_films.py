@@ -233,26 +233,30 @@ def main():
 
     # 2️⃣ Lecture de l'ancien checksum (s'il existe)
     old_checksum = load_previous_checksum(checksum_file)
-    
+
+    # 3️⃣ Logs de debug
     print(f"Ancien checksum: {old_checksum}")
     print(f"Nouveau checksum: {new_checksum}")
     print(f"films.json existe ? {os.path.exists(final_file)}")
     print(f"checksumfilms.json existe ? {os.path.exists(checksum_file)}")
 
-    # 3️⃣ Vérification des conditions d'écriture
+    # 4️⃣ Condition d'écriture
     if (old_checksum is None) or (old_checksum != new_checksum) or not os.path.exists(final_file):
+        print("✏️  Écriture des fichiers (nouveau checksum ou fichier manquant).")
+
         # Écriture de films.json
         try:
             with open(final_file, "w", encoding="utf-8") as f:
                 f.write(content_str)
-            print(f"✅ {final_file} mis à jour.")
+            print(f"✅ {final_file} mis à jour à {os.path.abspath(final_file)}")
         except Exception as e:
             print(f"❌ Erreur écriture {final_file} : {e}")
             sys.exit(1)
 
         # Écriture du checksum
         save_checksum(checksum_file, new_checksum)
-        print(f"✅ {checksum_file} mis à jour.")
+        print(f"✅ {checksum_file} mis à jour à {os.path.abspath(checksum_file)}")
+
     else:
         print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
