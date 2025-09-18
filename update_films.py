@@ -115,7 +115,7 @@ def transform_data(sessions):
             ignored_count += 1
             continue
         
-        print(f"🕒 session_time = {session_time.isoformat()} | threshold = {threshold.isoformat()}")
+        # print(f"🕒 session_time = {session_time.isoformat()} | threshold = {threshold.isoformat()}")
         if "WWW" not in sales_via or status != "Open" or session_time <= threshold:
             ignored_count += 1
             continue
