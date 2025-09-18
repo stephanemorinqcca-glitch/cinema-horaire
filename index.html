@@ -331,40 +331,23 @@
 
 						const seancesParDate = {};
 
-						film.horaire
-  							.sort((a, b) => (a.horaire < b.horaire ? -1 : 1))
-  							.forEach((seance) => {
-    							// Découper sur tout type d’espace (y compris insécable)
-    							const parts = seance.horaire.trim().split(/\s+/);
-    							const dateStr = parts[0]; // YYYY-MM-DD
-    							const heurePure = parts[1].replace(/\u00A0/g, "").trim().substring(0, 5); // HH:MM pur
-    							const attributs = parts
-      								.slice(2)
-      								.filter((item) => item.length > 0)
-      								.sort((a, b) => (a < b ? -1 : 1));
+						Object.entries(film.horaire).forEach(([dateStr, seances]) => {
+  							// Ignorer les jours passés
+ 							if (dateStr < aujourdHuiStr) return;
 
-    							// Debug pour vérifier
-    							// console.log(`Séance: ${dateStr} ${heurePure} | Aujourd'hui: ${aujourdHuiStr} | Now Toronto: ${currentHour}:${currentMinute}`);
+  							// Filtrer les séances passées si c’est aujourd’hui
+  							const seancesFiltrees = seances.filter(({ heure }) => {
+    							if (dateStr !== aujourdHuiStr) return true;
 
-    							// 1️⃣ Ignorer les jours passés
-    							if (dateStr < aujourdHuiStr) return;
+    							const [h, m] = heure.split(":").map((n) => parseInt(n, 10));
+    							return h > currentHour || (h === currentHour && m >= currentMinute);
+  							});
 
-    							// 2️⃣ Si aujourd'hui, ignorer les horaires déjà passés
-    							if (dateStr === aujourdHuiStr) {
-      								const [h, m] = heurePure.split(":").map((n) => parseInt(n, 10));
-
-      								if (h < currentHour || (h === currentHour && m < currentMinute)) {
-        								// console.log(`⏩ Ignoré: ${heurePure} (passé)`);
-        								return; // séance passée
-      								}
-    							}
-    							// 3️⃣ Ajouter la séance filtrée
-    							if (!seancesParDate[dateStr]) {
-      								seancesParDate[dateStr] = [];
-    							}
-    							seancesParDate[dateStr].push({ heure: heurePure, attributs });
-  						});
-
+  							if (seancesFiltrees.length > 0) {
+    							seancesParDate[dateStr] = seancesFiltrees;
+  							}
+						});
+				
 						// --- Affichage ---
 						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
   							const dateObj = new Date(dateStr + "T00:00:00");
