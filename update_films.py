@@ -233,6 +233,11 @@ def main():
 
     # 2️⃣ Lecture de l'ancien checksum (s'il existe)
     old_checksum = load_previous_checksum(checksum_file)
+    
+    print(f"Ancien checksum: {old_checksum}")
+    print(f"Nouveau checksum: {new_checksum}")
+    print(f"films.json existe ? {os.path.exists(final_file)}")
+    print(f"checksumfilms.json existe ? {os.path.exists(checksum_file)}")
 
     # 3️⃣ Vérification des conditions d'écriture
     if (old_checksum is None) or (old_checksum != new_checksum) or not os.path.exists(final_file):
