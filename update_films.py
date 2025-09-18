@@ -279,3 +279,6 @@ def main():
     else:
         print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
+if __name__ == "__main__":
+    main()
+
