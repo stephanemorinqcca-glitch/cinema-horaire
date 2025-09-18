@@ -240,6 +240,7 @@ def main():
 
     final_file = "films.json"
     checksum_file = "checksumfilms.json"
+    temp_file = "films.tmp"
 
     # 1️⃣ Calcul du checksum sur la structure JSON
     content_str = json.dumps(data, ensure_ascii=False, indent=2)
@@ -260,11 +261,14 @@ def main():
 
         # Écriture de films.json
         try:
-            with open(final_file, "w", encoding="utf-8") as f:
+            with open(temp_file, "w", encoding="utf-8") as f:
                 f.write(content_str)
+            os.replace(temp_file, final_file)
             print(f"✅ {final_file} mis à jour à {os.path.abspath(final_file)}")
         except Exception as e:
             print(f"❌ Erreur écriture {final_file} : {e}")
+            if os.path.exists(temp_file):
+                os.remove(temp_file)
             sys.exit(1)
 
         # Écriture du checksum
