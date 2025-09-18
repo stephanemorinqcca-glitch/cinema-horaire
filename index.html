@@ -312,16 +312,17 @@
 						const aujourdHuiStr = maintenant.toLocaleDateString("fr-CA", options);
 
 						// Heure actuelle (HH:MM)
-						const [currentHour, currentMinute] = new Intl.DateTimeFormat("fr-CA", {
+						const heureStr = new Intl.DateTimeFormat("fr-CA", {
   							...options,
   							hour: "2-digit",
   							minute: "2-digit"
-						})
-  							.format(maintenant)
-  							.split(":")
-  							.map(n => parseInt(n, 10));
+						}).format(maintenant);
 
-						// console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
+						const [currentHour, currentMinute] = heureStr.includes(":")
+  							? heureStr.split(":").map(n => parseInt(n, 10))
+  							: [0, 0]; // fallback en cas de format inattendu
+
+						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
 
