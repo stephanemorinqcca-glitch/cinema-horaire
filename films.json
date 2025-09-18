@@ -35,12 +35,6 @@
       "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
       "content": "Drame d'époque",
       "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
         "2025-09-19": [
           {
             "heure": "12:35",
@@ -87,31 +81,6 @@
       "last_show": 1758841500
     },
     {
-      "id": "ST00001710",
-      "titre": "HEURE DE DISPARITION",
-      "synopsis": "En plein cœur de la nuit, les 17 enfants d’une classe de l’école primaire de Maybrook aux États-Unis se réveillent à une heure précise et s’enfuient de leurs foyers. Mus par une force inébranlable, ils sont partis à la course et personne ne sait où ils s’en sont allés. Tous ont disparu, sauf un. Alex est le seul élève restant. Paniqués et inquiets, les parents soupçonnent l’enseignante Justine Gandy d’avoir manigancé quelque chose.",
-      "classification": "13+",
-      "duree": 128,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004853",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004851",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/VC4QnXdR1fk",
-      "content": "Violence | Horreur | Suspense fantastique",
-      "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1758236700
-    },
-    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
@@ -125,16 +94,6 @@
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "COMPLET",
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
         "2025-09-19": [
           {
             "heure": "12:45",
@@ -331,14 +290,6 @@
       "bande_annonce": "https://youtu.be/ZOzO5iQXaSY",
       "content": "Violence | Langage Vulgaire | Suspense psychologique",
       "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
         "2025-09-19": [
           {
             "heure": "13:05",
@@ -400,12 +351,6 @@
       "bande_annonce": "https://youtu.be/3mH20C9kURw",
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
-        "2025-09-18": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
         "2025-09-19": [
           {
             "heure": "12:45",
