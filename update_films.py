@@ -235,7 +235,7 @@ def main():
     old_checksum = load_previous_checksum(checksum_file)
 
     # 3️⃣ Vérification des conditions d'écriture
-    if (old_checksum != new_checksum) or not os.path.exists(final_file) or not os.path.exists(checksum_file):
+    if (old_checksum is None) or (old_checksum != new_checksum) or not os.path.exists(final_file):
         # Écriture de films.json
         try:
             with open(final_file, "w", encoding="utf-8") as f:
