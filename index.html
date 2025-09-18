@@ -138,10 +138,12 @@
 			}
 
 			// ✅ Heure actuelle Toronto
-			function getHeureToronto() {
+			function getDateHeureToronto() {
   				const tz = "America/Toronto";
   				const maintenant = new Date();
-  				return new Intl.DateTimeFormat("fr-CA", {
+
+  				const dateStr = maintenant.toLocaleDateString("fr-CA", { timeZone: tz });
+  				const [hour, minute] = new Intl.DateTimeFormat("fr-CA", {
     				timeZone: tz,
     				hour: "2-digit",
     				minute: "2-digit",
@@ -150,6 +152,8 @@
     				.format(maintenant)
     				.split(":")
     				.map(n => Number(n));
+
+  				return { dateStr, hour, minute };
 			}
 
 			// ✅ Chargement des données
@@ -316,11 +320,13 @@
 						const seancesDiv = document.createElement("div");
 						seancesDiv.className = "seances";
 						
-						// ✅ Heure actuelle Toronto
-						const [currentHour, currentMinute] = getHeureToronto();
-						const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
+						// ✅ Date/Heure actuelle Toronto
+						const { dateStr: aujourdHuiStr, hour: currentHour, minute: currentMinute } = getDateHeureToronto();
 
-						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
+						console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
+						console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
+
+						// console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
 
