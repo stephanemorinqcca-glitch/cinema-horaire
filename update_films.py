@@ -169,9 +169,14 @@ def transform_data(sessions):
         attributs = [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr]
         attributs = sorted([a for a in attributs if a], key=str.lower)
 
+        # Injecter "3D" si le format du film est "3D Digital"
+        if films_dict[film_id].get("format", "").strip().lower() == "3d digital":
+            if "3D" not in attributs:
+                attributs.insert("3D")
+                
         if tickets_sold_out:
             attributs.insert(0, "COMPLET")
-
+        
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
             "heure": heure,
             "attributs": attributs
