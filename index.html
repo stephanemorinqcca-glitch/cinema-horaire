@@ -141,18 +141,14 @@
 			function getDateHeureToronto() {
   				const tz = "America/Toronto";
   				const maintenant = new Date();
-
   				const dateStr = maintenant.toLocaleDateString("fr-CA", { timeZone: tz });
-  				const [hour, minute] = new Intl.DateTimeFormat("fr-CA", {
+  				const heureStr = maintenant.toLocaleTimeString("fr-CA", {
     				timeZone: tz,
     				hour: "2-digit",
     				minute: "2-digit",
     				hour12: false
-  				})
-    				.format(maintenant)
-    				.split(":")
-    				.map(n => Number(n));
-
+  				});
+  				const [hour, minute] = heureStr.split(":").map(n => Number(n));
   				return { dateStr, hour, minute };
 			}
 
