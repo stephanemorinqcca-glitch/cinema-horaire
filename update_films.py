@@ -219,8 +219,18 @@ def save_checksum(file_path: str, checksum: str):
 def main():
     sessions = fetch_sessions()
     if not sessions:
-        print("❌ Aucune séance récupérée.")
-        sys.exit(1)
+        print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
+        data = {"cinema": "Cinéma Centre-Ville", "legende": [], "films": []}
+
+        # Écriture du fichier films.json vide
+        with open("films.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        # Calcul et sauvegarde du checksum
+        checksum = compute_checksum(json.dumps(data, ensure_ascii=False))
+        save_checksum("checksumfilms.json", checksum)
+
+        return  # on sort proprement de main()
 
     data = transform_data(sessions)
 
