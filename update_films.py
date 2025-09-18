@@ -225,3 +225,29 @@ def main():
     data = transform_data(sessions)
 
     final_file = "films.json"
+    checksum_file = "checksumfilms.json"
+
+    # 1️⃣ Calcul du checksum sur la structure JSON
+    content_str = json.dumps(data, ensure_ascii=False, indent=2)
+    new_checksum = compute_checksum(content_str)
+
+    # 2️⃣ Lecture de l'ancien checksum (s'il existe)
+    old_checksum = load_previous_checksum(checksum_file)
+
+    # 3️⃣ Vérification des conditions d'écriture
+    if (old_checksum != new_checksum) or not os.path.exists(final_file) or not os.path.exists(checksum_file):
+        # Écriture de films.json
+        try:
+            with open(final_file, "w", encoding="utf-8") as f:
+                f.write(content_str)
+            print(f"✅ {final_file} mis à jour.")
+        except Exception as e:
+            print(f"❌ Erreur écriture {final_file} : {e}")
+            sys.exit(1)
+
+        # Écriture du checksum
+        save_checksum(checksum_file, new_checksum)
+        print(f"✅ {checksum_file} mis à jour.")
+    else:
+        print("ℹ️ Aucun changement détecté, fichiers inchangés.")
+
