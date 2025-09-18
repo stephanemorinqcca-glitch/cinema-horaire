@@ -39,6 +39,7 @@ def fetch_film_details(fid):
 def fetch_attribute_details(attr_id, cache):
     if attr_id in cache:
         return cache[attr_id]
+
     url = f"{ATTRIBUTE_API_URL}{attr_id}"
     headers = {
         "VeeziAccessToken": TOKEN,
@@ -67,6 +68,7 @@ def fetch_sessions():
         "Accept": "application/json",
         "Content-Type": "application/json"
     }
+
     try:
         resp = requests.get(SESSION_API_URL, headers=headers, timeout=10)
         if resp.status_code != 200:
@@ -80,6 +82,15 @@ def fetch_sessions():
         print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
         return []
 
+def extract_datetime_safe(horaire_str):
+    match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
+    if match:
+        naive_dt = datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
+        tz = pytz.timezone('America/Toronto')
+        return tz.localize(naive_dt)
+    else:
+        return datetime.max.replace(tzinfo=pytz.UTC)
+
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -87,6 +98,7 @@ def transform_data(sessions):
     used_attributes = {}
     ignored_count = 0
 
+    # Fuseau horaire
     tz = pytz.timezone('America/Toronto')
     now = datetime.now(tz)
     threshold = now + timedelta(minutes=0)
@@ -95,8 +107,9 @@ def transform_data(sessions):
         showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
-        tickets_sold_out = session.get("TicketsSoldOut", False)
+        tickets_sold_out = session.get("TicketsSoldOut", False)  # 👈 récupération du booléen
 
+        # Dans la boucle des sessions
         try:
             session_time = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
             session_time = tz.localize(session_time)
@@ -105,7 +118,15 @@ def transform_data(sessions):
             ignored_count += 1
             continue
 
+        # Filtrage : WWW, statut ouvert, séance plus tard que maintenant + 5 min
         if "WWW" not in sales_via or status != "Open" or session_time <= threshold:
+            ignored_count += 1
+            continue
+
+        # Ici, la session est valide : tu peux continuer le traitement
+    
+        showtime = session.get("FeatureStartTime")
+        if not showtime or not isinstance(showtime, str) or showtime.strip() == "":
             ignored_count += 1
             continue
 
@@ -118,12 +139,12 @@ def transform_data(sessions):
         posterthumbnail = session.get("FilmPosterThumbnailUrl", "")
         attributes = session.get("Attributes", [])
 
+        # Format d'affichage
         try:
-            dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
-            jour = dt.strftime("%Y-%m-%d")
-            heure = dt.strftime("%H:%M")
+            dt = datetime.strptime(showtime, "%Y-%m-%dT%H:%M:%S")
+            showtime_str = dt.strftime("%Y-%m-%d %H:%M")
         except Exception as e:
-            print(f"Erreur de format de date pour {showtime_str}: {e}")
+            print(f"Erreur de format de date pour {showtime}: {e}")
             continue
 
         if film_id not in films_dict:
@@ -141,11 +162,12 @@ def transform_data(sessions):
                 "banniere": film_details.get("BackdropImageUrl", ""),
                 "bande_annonce": film_details.get("FilmTrailerUrl", ""),
                 "content": film_details.get("Content", ""),
-                "horaire": {}
+                "horaire": []
             }
 
         enriched_attributes = [fetch_attribute_details(attr_id, attribute_cache) for attr_id in attributes]
 
+        # Enregistrer les attributs pour la légende
         for attr in enriched_attributes:
             if attr and "Id" in attr:
                 used_attributes[attr["Id"]] = {
@@ -155,42 +177,39 @@ def transform_data(sessions):
                     "BackgroundColor": attr.get("BackgroundColor", "#ffffff")
                 }
 
-        attributs = [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr]
-        attributs = sorted([a for a in attributs if a], key=str.lower)
-
+        # Fusionner les shortnames avec espaces
+        shortnames = " ".join([" " + attr.get("ShortName", "") + " " for attr in enriched_attributes if attr])
+        
+        # Ajouter "COMPLET" si la séance est sold out
         if tickets_sold_out:
-            attributs.insert(0, "COMPLET")
-
-        films_dict[film_id]["horaire"].setdefault(jour, []).append({
-            "heure": heure,
-            "attributs": attributs
+            shortnames += " COMPLET"
+            
+        films_dict[film_id]["horaire"].append({
+            "horaire": showtime_str + " " + shortnames.strip()
         })
 
-    # Tri des jours et des heures
+    print(f"⚠️ Séances ignorées : {ignored_count}")
+        
     for film in films_dict.values():
-        film["horaire"] = dict(sorted(film["horaire"].items(), key=lambda x: x[0]))
-        for jour in film["horaire"]:
-            film["horaire"][jour].sort(key=lambda s: s["heure"])
+        # film["horaire"].sort(key=lambda h: h["horaire"])
+        film["horaire"].sort(key=lambda h: extract_datetime_safe(h["horaire"]))
 
-        toutes_les_dates = []
-        for jour, seances in film["horaire"].items():
-            for s in seances:
-                dt = datetime.strptime(f"{jour} {s['heure']}", "%Y-%m-%d %H:%M")
-                tz = pytz.timezone('America/Toronto')
-                toutes_les_dates.append(tz.localize(dt))
-        film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
+        # Ajouter le timestamp de la dernière séance (date + heure) dans films_dict[film_id]
+        horaires_valides = [extract_datetime_safe(h["horaire"]) for h in film["horaire"]]
+        if horaires_valides:
+            derniere_seance = max(horaires_valides)
+            film["last_show"] = int(derniere_seance.timestamp())
+        else:
+            film["last_show"] = None
 
     films_list = list(films_dict.values())
     films_list.sort(key=lambda film: film["titre"].lower())
 
-    #Exclure COMPLET de la légende
-    legend_list = [
-        attr for attr in used_attributes.values()
-        if attr["ShortName"].strip().upper() != "COMPLET"
-    ]
+    legend_list = list(used_attributes.values())
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
-    print(f"⚠️ Séances ignorées : {ignored_count}")
+    for film in films_list:
+        print(f"{film['titre']} → last_show: {film['last_show']}")
 
     return {
         "cinema": "Cinéma Centre-Ville",
@@ -222,63 +241,41 @@ def save_checksum(file_path: str, checksum: str):
 # 🚀 Point d’entrée
 def main():
     sessions = fetch_sessions()
-    
-    final_file = "films.json"
-    checksum_file = "checksumfilms.json"
-    temp_file = "films.tmp"
-    
     if not sessions:
-        print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
-        data = {"cinema": "Cinéma Centre-Ville", "legende": [], "films": []}
-
-        # Écriture du fichier films.json vide
-        with open(final_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-
-        # Calcul et sauvegarde du checksum
-        checksum = compute_checksum(json.dumps(data, ensure_ascii=False))
-        save_checksum(checksum_file, checksum)
-
-        return  # on sort proprement de main()
+        print("❌ Aucune séance récupérée.")
+        sys.exit(1)
 
     data = transform_data(sessions)
+    final_file = "films.json"
+    temp_file = "films_temp.json"
+    checksum_file = "checksumfilms.json"
 
-    # 1️⃣ Calcul du checksum sur la structure JSON
-    content_str = json.dumps(data, ensure_ascii=False, indent=2)
-    new_checksum = compute_checksum(content_str)
-
-    # 2️⃣ Lecture de l'ancien checksum (s'il existe)
+    # Génère le nouveau contenu JSON sous forme de chaîne
+    new_content = json.dumps(data, ensure_ascii=False, indent=2)
+    new_checksum = compute_checksum(new_content)
     old_checksum = load_previous_checksum(checksum_file)
+    if old_checksum is None:
+        print("📁 Aucun fichier de checksum trouvé. Création de checksumfilms.json et films.json.")
 
-    # 3️⃣ Logs de debug
-    print(f"Ancien checksum: {old_checksum}")
-    print(f"Nouveau checksum: {new_checksum}")
-    print(f"films.json existe ? {os.path.exists(final_file)}")
-    print(f"checksumfilms.json existe ? {os.path.exists(checksum_file)}")
+    try:
+        if new_checksum == old_checksum and os.path.exists(final_file):
+            print("ℹ️ Aucun changement détecté (checksum identique).")
+            return
 
-    # 4️⃣ Condition d'écriture
-    if (old_checksum is None) or (old_checksum != new_checksum) or not os.path.exists(final_file):
-        print("✏️  Écriture des fichiers (nouveau checksum ou fichier manquant).")
+        # Création ou mise à jour du fichier
+        if not os.path.exists(final_file):
+            print("📁 Fichier films.json absent. Création forcée.")
 
-        # Écriture de films.json
-        try:
-            with open(temp_file, "w", encoding="utf-8") as f:
-                f.write(content_str)
-            os.replace(temp_file, final_file)
-            print(f"✅ {final_file} mis à jour à {os.path.abspath(final_file)}")
-        except Exception as e:
-            print(f"❌ Erreur écriture {final_file} : {e}")
-            if os.path.exists(temp_file):
-                os.remove(temp_file)
-            sys.exit(1)
-
-        # Écriture du checksum
+        print("🔄 Changement détecté ou fichier manquant. Mise à jour de films.json.")
+        with open(temp_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        os.replace(temp_file, final_file)
         save_checksum(checksum_file, new_checksum)
-        print(f"✅ {checksum_file} mis à jour à {os.path.abspath(checksum_file)}")
-
-    else:
-        print("ℹ️ Aucun changement détecté, fichiers inchangés.")
+        print(f"✅ Fichier films.json mis à jour avec {len(data['films'])} films.")
+    
+    except IOError as e:
+        print(f"❌ Erreur lors de l'écriture du fichier : {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
-
