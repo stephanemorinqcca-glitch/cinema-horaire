@@ -183,7 +183,11 @@ def transform_data(sessions):
     films_list = list(films_dict.values())
     films_list.sort(key=lambda film: film["titre"].lower())
 
-    legend_list = list(used_attributes.values())
+    #Exclure COMPLET de la légende
+    legend_list = [
+        attr for attr in used_attributes.values()
+        if attr["ShortName"].strip().upper() != "COMPLET"
+    ]
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
