@@ -80,6 +80,16 @@ def fetch_sessions():
         print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
         return []
 
+# 📅 Récupère Date & Heure
+def extract_datetime_safe(horaire_str):
+    match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
+    if match:
+        naive_dt = datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
+        tz = pytz.timezone('America/Toronto')
+        return tz.localize(naive_dt)
+    else:
+        return datetime.max.replace(tzinfo=pytz.UTC)
+        
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
