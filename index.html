@@ -318,6 +318,8 @@
 						
 						// ✅ Heure actuelle Toronto
 						const [currentHour, currentMinute] = getHeureToronto();
+						const aujourdHuiStr = new Date().toLocaleDateString("fr-CA", { timeZone: tz });
+
 						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
 						const seancesParDate = {};
