@@ -303,24 +303,22 @@
 
 						// Grouper les séances par date en filtrant directement
 						const tz = "America/Toronto";
-
-						// Obtenir la date et l'heure actuelles à Toronto
 						const maintenant = new Date();
-						const options = { timeZone: tz, hour12: false };
 
-						// Date du jour au format YYYY-MM-DD
-						const aujourdHuiStr = maintenant.toLocaleDateString("fr-CA", options);
-
-						// Heure actuelle (HH:MM)
-						const heureStr = new Intl.DateTimeFormat("fr-CA", {
-  							...options,
+						const formatter = new Intl.DateTimeFormat("fr-CA", {
+  							timeZone: tz,
   							hour: "2-digit",
-  							minute: "2-digit"
-						}).format(maintenant);
+  							minute: "2-digit",
+  							hour12: false
+						});
 
-						const [currentHour, currentMinute] = heureStr.includes(":")
-  							? heureStr.split(":").map(n => parseInt(n, 10))
-  							: [0, 0]; // fallback en cas de format inattendu
+						const heureStr = formatter.format(maintenant);
+
+						// Assure que le format est bien HH:MM
+						const [currentHour, currentMinute] = heureStr
+  							.padStart(5, "0") // ajoute des zéros si nécessaire
+  							.split(":")
+  							.map(n => parseInt(n, 10));
 
 						console.log(`Heure actuelle à Toronto: ${currentHour}:${currentMinute}`);
 
