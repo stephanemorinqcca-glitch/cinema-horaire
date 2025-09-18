@@ -222,25 +222,26 @@ def save_checksum(file_path: str, checksum: str):
 # 🚀 Point d’entrée
 def main():
     sessions = fetch_sessions()
+    
+    final_file = "films.json"
+    checksum_file = "checksumfilms.json"
+    temp_file = "films.tmp"
+    
     if not sessions:
         print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
         data = {"cinema": "Cinéma Centre-Ville", "legende": [], "films": []}
 
         # Écriture du fichier films.json vide
-        with open("films.json", "w", encoding="utf-8") as f:
+        with open(final_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
         # Calcul et sauvegarde du checksum
         checksum = compute_checksum(json.dumps(data, ensure_ascii=False))
-        save_checksum("checksumfilms.json", checksum)
+        save_checksum(checksum_file, checksum)
 
         return  # on sort proprement de main()
 
     data = transform_data(sessions)
-
-    final_file = "films.json"
-    checksum_file = "checksumfilms.json"
-    temp_file = "films.tmp"
 
     # 1️⃣ Calcul du checksum sur la structure JSON
     content_str = json.dumps(data, ensure_ascii=False, indent=2)
