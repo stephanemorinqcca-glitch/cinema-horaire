@@ -102,18 +102,19 @@ header {
 
 .badge-soon {
   margin-top: 0px;
-  padding: 6px 14px;
-  background-color: #f5f5f5;
+  padding: 10px;
+  background-color: #f9f9f9;
   color: #b30000;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   border: 1px solid #b30000;
-  border-radius: 20px;
+  border-radius: 4px; /* ← carré, pas arrondi */
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.5px;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 100%;
+  text-align: center;
 }
 
 .badge-soon:hover {
@@ -242,6 +243,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
