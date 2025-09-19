@@ -302,11 +302,12 @@
 							const openingDate = film.OpeningDate;
 
 							if (openingDate && openingDate > aujourdHui) {
-  								const badge = document.createElement("div");
-  								badge.className = "badge-soon";
-  								badge.textContent = "🎬 Bientôt à l’affiche";
-  								badge.title = `Sortie prévue le ${openingDate}`;
-  								poster.appendChild(badge); // ← ici, dans le bloc poster
+								poster.classList.add("poster-grayscale");
+  								// const badge = document.createElement("div");
+  								// badge.className = "badge-soon";
+  								// badge.textContent = "🎬 Bientôt à l’affiche";
+  								// badge.title = `Sortie prévue le ${openingDate}`;
+  								// poster.appendChild(badge); // ← ici, dans le bloc poster
 							}
     						details.appendChild(contentBlock);
 						}
