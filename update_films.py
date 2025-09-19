@@ -118,9 +118,9 @@ def transform_data(sessions):
             ignored_count += 1
             continue
         
-        print("🕒 Session:", session_time.strftime("%d/%m/%Y %H:%M"))
-        print("    Threshold:", threshold.strftime("%d/%m/%Y %H:%M"))
-        print("    session_time < threshold:", session_time < threshold)
+        # print("🕒 Session:", session_time.strftime("%d/%m/%Y %H:%M"))
+        # print("    Threshold:", threshold.strftime("%d/%m/%Y %H:%M"))
+        # print("    session_time < threshold:", session_time < threshold)
 
         if "WWW" not in sales_via or status != "Open" or session_time < threshold:
             ignored_count += 1
