@@ -133,6 +133,7 @@
           {
             "heure": "18:45",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ]
           }
@@ -154,9 +155,68 @@
               "DLX"
             ]
           }
+        ],
+        "2025-09-26": [
+          {
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-09-27": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-09-28": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
         ]
       },
-      "last_show": 1758840900
+      "last_show": 1759445700
     },
     {
       "id": "ST00001724",
