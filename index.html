@@ -192,6 +192,16 @@
 						const card = document.createElement("div");
 						card.className = "card";
 
+						const aujourdHui = new Date().toISOString().split("T")[0];
+						const openingDate = film.OpeningDate;
+
+						if (openingDate && openingDate > aujourdHui) {
+    						const badge = document.createElement("span");
+    						badge.className = "badge-soon";
+    						badge.textContent = "🎉 Bientôt à l’affiche";
+    						card.appendChild(badge);
+						}
+
 						const poster = document.createElement("div");
 						poster.className = "poster";
 
@@ -421,16 +431,6 @@
 					});
 
 						details.appendChild(seancesDiv);
-
-						const aujourdHui = new Date().toISOString().split("T")[0];
-						const openingDate = film.OpeningDate;
-
-						if (openingDate && openingDate > aujourdHui) {
-    						const badge = document.createElement("span");
-    						badge.className = "badge-soon";
-    						badge.textContent = "🎉 Bientôt à l’affiche";
-    						card.appendChild(badge);
-						}
 
 						card.appendChild(details);
 						container.appendChild(card);
