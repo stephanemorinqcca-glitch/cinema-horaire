@@ -241,7 +241,7 @@ def main():
     
     final_file = "films.json"
     checksum_file = "checksumfilms.json"
-    temp_file = "films.tmp"
+    temp_file = "films_temp.json"
     
     if not sessions:
         print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
