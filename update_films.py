@@ -100,7 +100,9 @@ def transform_data(sessions):
     tz = pytz.timezone('America/Toronto')
     now = datetime.now(tz)
     threshold = now + timedelta(minutes=0)
-    print("Threshold time:", threshold)
+    
+    # Format : Jour/Mois/Année Heure:Minute
+    formatted_threshold = threshold.strftime("%d/%m/%Y %H:%M")
 
     for session in sessions:
         showtime_str = session.get("FeatureStartTime", "")
@@ -116,8 +118,11 @@ def transform_data(sessions):
             ignored_count += 1
             continue
         
-        # print(f"🕒 session_time = {session_time.isoformat()} | threshold = {threshold.isoformat()}")
-        if "WWW" not in sales_via or status != "Open" or session_time < threshold:
+        print("🕒 Session:", session_time.strftime("%d/%m/%Y %H:%M"))
+        print("    Threshold:", threshold.strftime("%d/%m/%Y %H:%M"))
+        print("    session_time < threshold:", session_time < threshold)
+
+        if "WWW" not in sales_via or status != "Open" or session_time < formatted_threshold:
             ignored_count += 1
             continue
 
