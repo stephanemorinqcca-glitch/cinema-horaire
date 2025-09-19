@@ -88,13 +88,6 @@
       "horaire": {
         "2025-09-19": [
           {
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          },
-          {
             "heure": "18:45",
             "attributs": [
               "ATMOS®",
@@ -403,10 +396,6 @@
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
         "2025-09-19": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
           {
             "heure": "18:45",
             "attributs": []
