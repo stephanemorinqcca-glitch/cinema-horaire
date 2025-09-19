@@ -20,7 +20,7 @@
     {
       "id": "ST00001718",
       "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
-      "OpeningDate": "2025-09-20",
+      "OpeningDate": "2025-09-12",
       "synopsis": "Au tournant des années 1930, la famille Crawley entre dans une nouvelle ère. Le divorce de lady Mary fait vivement réagir. Son nouveau statut matrimonial, inusité à cette époque, attise les rumeurs, les jugements et la réprobation générale. Au même moment, la famille d’aristocrates anglais traverse un épisode d’instabilité financière. L’avenir du vaste domaine semble indéfini depuis la mort de la comtesse douairière, la matriarche Violet Crawley.",
       "classification": "G",
       "duree": 123,
@@ -88,15 +88,6 @@
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-09-19": [
-          {
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
         "2025-09-20": [
           {
             "heure": "12:45",
@@ -390,12 +381,6 @@
       "bande_annonce": "https://youtu.be/3mH20C9kURw",
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
-        "2025-09-19": [
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
         "2025-09-20": [
           {
             "heure": "12:45",
