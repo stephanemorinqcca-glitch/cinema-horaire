@@ -209,7 +209,8 @@ def transform_data(sessions):
     #Exclure COMPLET & DERNIÈRE de la légende
     legend_list = [
         attr for attr in used_attributes.values()
-        if attr["ShortName"].strip().upper() not in ["COMPLET", "DERNIÈRE"]
+        # if attr["ShortName"].strip().upper() not in ["COMPLET", "DERNIÈRE"]
+        if attr["ShortName"].strip().upper() not in ["DERNIÈRE"]
     ]
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
