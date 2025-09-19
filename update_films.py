@@ -145,9 +145,15 @@ def transform_data(sessions):
 
         if film_id not in films_dict:
             film_details = fetch_film_details(film_id)
+
+            # Récupération et formatage de la date d'ouverture
+            raw_date_opening = film_details.get("OpeningDate", "")
+            opening_date = raw_date_opening.split("T")[0] if "T" in raw_date else raw_date
+            
             films_dict[film_id] = {
                 "id": film_id,
                 "titre": film_details.get("Title", title),
+                "OpeningDate": opening_date,
                 "synopsis": film_details.get("Synopsis", ""),
                 "classification": film_details.get("Rating", rating),
                 "duree": film_details.get("Duration", duration),
