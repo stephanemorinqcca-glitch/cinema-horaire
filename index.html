@@ -296,17 +296,17 @@
     						image.className = "classification-image";
 
     						poster.appendChild(image);
-    						details.appendChild(contentBlock);
-						}
-						// Badge “Bientôt à l’affiche”
-						const aujourdHui = new Date().toISOString().split("T")[0];
-						const openingDate = film.OpeningDate;
+							// Badge “Bientôt à l’affiche”
+							const aujourdHui = new Date().toISOString().split("T")[0];
+							const openingDate = film.OpeningDate;
 
-						if (openingDate && openingDate > aujourdHui) {
-  							const badge = document.createElement("div");
-  							badge.className = "badge-soon";
-  							badge.textContent = "🎬 Bientôt à l’affiche";
-  							card.appendChild(badge);
+							if (openingDate && openingDate > aujourdHui) {
+  								const badge = document.createElement("div");
+  								badge.className = "badge-soon";
+  								badge.textContent = "🎬 Bientôt à l’affiche";
+  								card.appendChild(badge);
+							}
+    						details.appendChild(contentBlock);
 						}
 						
 						// Affichage de la description avec couleur
