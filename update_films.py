@@ -164,6 +164,7 @@ def transform_data(sessions):
                     "Description": attr.get("Description", ""),
                     "FontColor": attr.get("FontColor", "#000000"),
                     "BackgroundColor": attr.get("BackgroundColor", "#ffffff")
+                    "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
                 }
 
         attributs = [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr]
@@ -199,7 +200,7 @@ def transform_data(sessions):
     films_list = list(films_dict.values())
     films_list.sort(key=lambda film: film["titre"].lower())
 
-    #Exclure COMPLET de la légende
+    #Exclure COMPLET & DERNIÈRE de la légende
     legend_list = [
         attr for attr in used_attributes.values()
         if attr["ShortName"].strip().upper() not in ["COMPLET", "DERNIÈRE"]
