@@ -65,6 +65,7 @@ header {
 }
 
 .card {
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	border-top: solid 1px #777;
@@ -239,6 +240,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
