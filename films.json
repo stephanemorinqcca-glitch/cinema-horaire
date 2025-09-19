@@ -405,7 +405,7 @@
       "classification": "G",
       "duree": 109,
       "genre": "Fantasy",
-      "format": "3D Digital",
+      "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
       "banniere": "",
@@ -415,111 +415,81 @@
         "2025-09-19": [
           {
             "heure": "13:05",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-20": [
           {
             "heure": "13:05",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-21": [
           {
             "heure": "13:05",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-24": [
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-25": [
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-26": [
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-27": [
           {
             "heure": "13:05",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-28": [
           {
             "heure": "13:05",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-10-01": [
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ],
         "2025-10-02": [
           {
             "heure": "19:15",
-            "attributs": [
-              "3D"
-            ]
+            "attributs": []
           }
         ]
       },
