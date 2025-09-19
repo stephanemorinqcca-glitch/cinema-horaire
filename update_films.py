@@ -122,7 +122,7 @@ def transform_data(sessions):
         print("    Threshold:", threshold.strftime("%d/%m/%Y %H:%M"))
         print("    session_time < threshold:", session_time < threshold)
 
-        if "WWW" not in sales_via or status != "Open" or session_time < formatted_threshold:
+        if "WWW" not in sales_via or status != "Open" or session_time < threshold:
             ignored_count += 1
             continue
 
