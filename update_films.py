@@ -164,7 +164,7 @@ def transform_data(sessions):
                     "ShortName": attr.get("ShortName", ""),
                     "Description": attr.get("Description", ""),
                     "FontColor": attr.get("FontColor", "#000000"),
-                    "BackgroundColor": attr.get("BackgroundColor", "#ffffff")
+                    "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
                     "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
                 }
 
