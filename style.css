@@ -77,6 +77,9 @@ header {
 .poster {
 	width: 135px;               /* largeur immuable */
   	padding: 5px 15px 0 0;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
 }
 
 .poster > img {
@@ -236,6 +239,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
