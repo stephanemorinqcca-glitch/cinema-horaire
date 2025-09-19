@@ -148,7 +148,7 @@ def transform_data(sessions):
 
             # Récupération et formatage de la date d'ouverture
             raw_date_opening = film_details.get("OpeningDate", "")
-            opening_date = raw_date_opening.split("T")[0] if "T" in raw_date else raw_date
+            opening_date = raw_date_opening.split("T")[0] if "T" in raw_date_opening else raw_date_opening
             
             films_dict[film_id] = {
                 "id": film_id,
