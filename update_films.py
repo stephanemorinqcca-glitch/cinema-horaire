@@ -206,10 +206,9 @@ def transform_data(sessions):
     films_list = list(films_dict.values())
     films_list.sort(key=lambda film: film["titre"].lower())
 
-    #Exclure COMPLET & DERNIÈRE de la légende
+    #Exclure DERNIÈRE de la légende
     legend_list = [
         attr for attr in used_attributes.values()
-        # if attr["ShortName"].strip().upper() not in ["COMPLET", "DERNIÈRE"]
         if attr["ShortName"].strip().upper() not in ["DERNIÈRE"]
     ]
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
