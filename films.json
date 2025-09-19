@@ -223,12 +223,6 @@
       "horaire": {
         "2025-09-19": [
           {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
             "heure": "19:15",
             "attributs": [
               "DLX"
@@ -335,10 +329,6 @@
       "content": "Violence | Langage Vulgaire | Suspense psychologique",
       "horaire": {
         "2025-09-19": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
           {
             "heure": "19:15",
             "attributs": []
@@ -453,10 +443,6 @@
       "content": "Drame fantaisiste",
       "horaire": {
         "2025-09-19": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
           {
             "heure": "19:15",
             "attributs": []
