@@ -225,8 +225,11 @@ h1 {
   padding: 4px 8px;
   font-weight: bold;
   border-radius: 4px;
-  margin: 0px 0;
-  background: none;
+  background-color: #eee; /* gris clair */
+  color: #000; /* texte gris foncé */
+  border-left: 6px solid #666; /* bande gauche */
+  border-right: 6px solid #666; /* bande droite */
+  white-space: nowrap; /* empêche le retour à la ligne */
 }
 
 .banner-text {
@@ -234,6 +237,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
