@@ -212,15 +212,13 @@ def transform_data(sessions):
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
 
+    # Tri des films en ordre alphabéthique et ensuite selon la date de sortie
     from datetime import date
-    aujourd_hui = date.today()
-
     def tri_film(film):
+        titre = film.get("titre", "").lower()
         opening = film.get("OpeningDate", "")
-        is_future = opening > aujourd_hui.isoformat() if opening else False
-        return (is_future, film["titre"].lower())
-
-        films_list.sort(key=tri_film)
+        return (titre, opening or "")
+    films_list.sort(key=tri_film)
 
     #Exclure DERNIÈRE de la légende
     legend_list = [
