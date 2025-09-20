@@ -362,7 +362,7 @@
   							const mois = dateObj.toLocaleDateString("fr-CA", { month: "long" });
 
   							// ✅ Injecter la bande juste avant la première journée à venir
-  							if (dateStr === film.OpeningDate) {
+							if (dateStr === film.OpeningDate && aujourdHuiStr < film.OpeningDate)
     							const bande = document.createElement("div");
     							bande.className = "jour-label bientot-affiche-banner";
     							bande.innerHTML = `
