@@ -240,10 +240,9 @@ def transform_data(sessions):
             f.get("titre", "").lower()
         ))
 
-        # 3️⃣ Concaténer les deux listes
         return films_affiche + films_avenir
 
-    # Utilisation dans transform_data()
+    # Utilisation
     films_list = list(films_dict.values())
     films_list = trier_films(films_list)
 
