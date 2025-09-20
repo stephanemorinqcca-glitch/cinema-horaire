@@ -254,14 +254,15 @@ h1 {
   background-color: #e6f2ff;      /* fond bleu pâle */
   color: #003366;                 /* texte bleu foncé */
   padding: 0.5em 1em;
-  margin: 2em 0 1em 0;
+  margin: 1em 0 1em 0;
   border-top: 3px solid #99ccff;  /* ligne au-dessus */
   border-bottom: 3px solid #99ccff; /* ligne en dessous */
-  font-size: 1.4em;               /* adapte à la taille de tes titres films */
+  font-size: 2em;               /* adapte à la taille de tes titres films */
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }
+
 
 
 
