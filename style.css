@@ -222,29 +222,19 @@ h1 {
 
 .bientot-affiche-banner {
   display: inline-block;
-  background-color: #eeeeee;           /* gris pâle comme les attributs */
-  border-left: 5px solid #cccccc;      /* gris doux */
-  border-right: 5px solid #cccccc;
   padding: 4px 8px;
   font-weight: bold;
   border-radius: 4px;
   margin: 0px 0;
-  text-align: left;
+  background: none;
 }
 
-.bientot-affiche-banner .side-bar {
-  display: inline-block;
-  width: 8px;
-  height: 24px;
-  background-color: #cccccc;           /* même gris que les heures */
-  margin: 0 6px;
-  border-radius: 4px;
-  vertical-align: middle;
-}
 .banner-text {
   display: inline-block;
   vertical-align: middle;
+  text-align: left;
 }
+
 
 
 
