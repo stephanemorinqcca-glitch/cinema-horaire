@@ -194,17 +194,6 @@
     						return; // Film expiré, on ne l'affiche pas
   						}
 
-						const isFuture = film.OpeningDate && film.OpeningDate > aujourdHui;
-
-  						// Si c'est le premier film à venir → on insère le titre de section
-  						if (isFuture && !sectionBientotAjoutee) {
-    						const titreSection = document.createElement("h2");
-    						titreSection.textContent = "🎬 BIENTÔT À L’AFFICHE 🎬";
-    						titreSection.className = "section-title";
-    						container.appendChild(titreSection);
-    						sectionBientotAjoutee = true;
-  						}
-						
 						const card = document.createElement("div");
 						card.className = "card";
 
@@ -312,19 +301,6 @@
     						image.className = "classification-image";
 							
     						poster.appendChild(image);
-							
-							// Badge “Bientôt à l’affiche”
-							// const aujourdHui = new Date().toISOString().split("T")[0];
-							// const openingDate = film.OpeningDate;
-
-							// if (openingDate && openingDate > aujourdHui) {
-								// poster.classList.add("poster-grayscale");
-  								// const badge = document.createElement("div");
-  								// badge.className = "badge-soon";
-  								// badge.textContent = "🎬 Bientôt à l’affiche";
-  								// badge.title = `Sortie prévue le ${openingDate}`;
-  								// poster.appendChild(badge); // ← ici, dans le bloc poster
-							// }
     						details.appendChild(contentBlock);
 						}
 						
@@ -358,7 +334,7 @@
 						// ✅ Date/Heure actuelle Toronto
 						const { dateStr: aujourdHuiStr, hour: currentHour, minute: currentMinute } = getDateHeureToronto();
 						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
-						//console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
+						// console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
 						
 						const seancesParDate = {};
 
