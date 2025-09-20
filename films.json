@@ -18,46 +18,56 @@
   ],
   "films": [
     {
-      "id": "ST00001722",
-      "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
+      "id": "ST00001724",
+      "titre": "LUI",
       "OpeningDate": "2025-09-19",
-      "synopsis": "David rencontre Sarah alors qu’ils sont conviés à un mariage. Une série de circonstances inusitées les obligent à faire la route ensemble, le temps d’un voyage étrange, pendant lequel ils apprennent à se connaître et explorent leurs souvenirs du passé d’une façon très singulière.",
-      "classification": "G",
-      "duree": 109,
-      "genre": "Fantasy",
+      "synopsis": "Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
+      "classification": "13+",
+      "duree": 96,
+      "genre": "Horror",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
-      "content": "Drame fantaisiste",
+      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
+      "content": "Violence | Horreur | Suspense psychologique",
       "horaire": {
         "2025-09-20": [
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-21": [
           {
             "heure": "13:05",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           },
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-24": [
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-25": [
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-26": [
@@ -68,7 +78,7 @@
         ],
         "2025-09-27": [
           {
-            "heure": "12:55",
+            "heure": "13:05",
             "attributs": []
           },
           {
@@ -78,7 +88,7 @@
         ],
         "2025-09-28": [
           {
-            "heure": "12:55",
+            "heure": "13:05",
             "attributs": []
           },
           {
@@ -152,56 +162,46 @@
       "last_show": 1758842100
     },
     {
-      "id": "ST00001724",
-      "titre": "LUI",
+      "id": "ST00001722",
+      "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
       "OpeningDate": "2025-09-19",
-      "synopsis": "Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
-      "classification": "13+",
-      "duree": 96,
-      "genre": "Horror",
+      "synopsis": "David rencontre Sarah alors qu’ils sont conviés à un mariage. Une série de circonstances inusitées les obligent à faire la route ensemble, le temps d’un voyage étrange, pendant lequel ils apprennent à se connaître et explorent leurs souvenirs du passé d’une façon très singulière.",
+      "classification": "G",
+      "duree": 109,
+      "genre": "Fantasy",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
       "banniere": "",
-      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
-      "content": "Violence | Horreur | Suspense psychologique",
+      "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
+      "content": "Drame fantaisiste",
       "horaire": {
         "2025-09-20": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-21": [
           {
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-24": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-25": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-26": [
@@ -212,7 +212,7 @@
         ],
         "2025-09-27": [
           {
-            "heure": "13:05",
+            "heure": "12:55",
             "attributs": []
           },
           {
@@ -222,7 +222,7 @@
         ],
         "2025-09-28": [
           {
-            "heure": "13:05",
+            "heure": "12:55",
             "attributs": []
           },
           {
