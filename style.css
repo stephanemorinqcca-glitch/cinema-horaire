@@ -222,13 +222,14 @@ h1 {
 
 .bientot-affiche-banner {
   display: inline-block;
+  background-color: #eeeeee;           /* gris pâle comme les attributs */
+  border-left: 5px solid #cccccc;      /* gris doux */
+  border-right: 5px solid #cccccc;
   padding: 4px 8px;
   font-weight: bold;
-  margin: 8px 0;
   border-radius: 4px;
-  background: none;
-  border: none;
-  color: inherit;
+  margin: 8px 0;
+  text-align: left;
 }
 
 .bientot-affiche-banner .side-bar {
@@ -244,6 +245,7 @@ h1 {
   display: inline-block;
   vertical-align: middle;
 }
+
 
 
 
