@@ -213,7 +213,8 @@ def transform_data(sessions):
     # films_list.sort(key=lambda film: film["titre"].lower())
 
     # Tri des films en ordre alphabéthique et ensuite selon la date de sortie
-    aujourd_hui = date.today()
+    tz = pytz.timezone("America/Toronto")
+    aujourd_hui = datetime.now(tz).date()
 
     def trier_films(films_list):
         print(f"📅 Aujourd'hui : {aujourd_hui}")
