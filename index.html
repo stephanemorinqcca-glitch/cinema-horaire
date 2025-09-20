@@ -186,7 +186,6 @@
 					// 📅 Date du jour à Toronto au format YYYY-MM-DD
 					const aujourdHui = new Date().toLocaleDateString("fr-CA", { timeZone: "America/Toronto" });
 
-					let bandeAjoutee = false;
 					const nowTimestamp = Date.now() / 1000; // secondes UTC			
 					
 					data.films.forEach((film) => {
@@ -194,19 +193,7 @@
     						return; // Film expiré, on ne l'affiche pas
   						}
 
-  						if (!bandeAjoutee && film.OpeningDate > aujourdHui) {
-    						// Injecter la bande "Bientôt à l’affiche"
-    						container.innerHTML += `
-      							<div class="bientot-affiche-banner">
-        							<span class="side-bar"></span>
-        							<span class="banner-text">Bientôt à l’affiche</span>
-        							<span class="side-bar"></span>
-      							</div>
-    						`;
-    						bandeAjoutee = true;
-  						}
-
-						const card = document.createElement("div");
+ 						const card = document.createElement("div");
 						card.className = "card";
 
 						const poster = document.createElement("div");
@@ -342,7 +329,7 @@
 
 						const seancesDiv = document.createElement("div");
 						seancesDiv.className = "seances";
-						
+
 						// ✅ Date/Heure actuelle Toronto
 						const { dateStr: aujourdHuiStr, hour: currentHour, minute: currentMinute } = getDateHeureToronto();
 						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
@@ -366,7 +353,7 @@
     							seancesParDate[dateStr] = seancesFiltrees;
   							}
 						});
-				
+						
 						// --- Affichage ---
 						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
   							const dateObj = new Date(dateStr + "T00:00:00");
@@ -374,6 +361,18 @@
   							const jourNum = dateObj.toLocaleDateString("fr-CA", { day: "numeric" });
   							const mois = dateObj.toLocaleDateString("fr-CA", { month: "long" });
 
+  							// ✅ Injecter la bande juste avant la première journée à venir
+  							if (dateStr === film.OpeningDate) {
+    							const bande = document.createElement("div");
+    							bande.className = "jour-label bientot-affiche-banner";
+    							bande.innerHTML = `
+      								<span class="side-bar"></span>
+      								<span class="banner-text">🎬 Bientôt à l’affiche</span>
+      								<span class="side-bar"></span>
+    							`;
+    							seancesDiv.appendChild(bande);
+  							}
+							
   							const jourLabel = document.createElement("div");
   							jourLabel.className = "jour-label";
   							if (dateStr === aujourdHuiStr) {
