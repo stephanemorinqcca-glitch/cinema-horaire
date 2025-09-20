@@ -82,12 +82,6 @@ header {
   	align-items: center;
 }
 
-.poster-grayscale img {
-  filter: grayscale(100%);
-  opacity: 0.9;
-  transition: filter 0.3s ease, opacity 0.3s ease;
-}
-
 .poster > img {
   	width: 125px;           
 }
@@ -225,6 +219,7 @@ h1 {
   height: 100%;
   border-radius: 8px;
 }
+
 
 
 
