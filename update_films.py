@@ -1,7 +1,7 @@
 import sys
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 import os
 import re
 import hashlib
