@@ -221,28 +221,27 @@ h1 {
 }
 
 .bientot-affiche-banner {
-  display: inline-flex;
-  align-items: center;
-  background-color: #e0e0f8; /* couleur des attributs de séances */
-  color: #333;
+  display: inline-block;
+  background-color: #eeeeee;           /* gris pâle comme les attributs */
+  border-left: 5px solid #cccccc;      /* gris doux */
+  border-right: 5px solid #cccccc;
+  padding: 4px 8px;
   font-weight: bold;
-  padding: 6px 12px;
-  margin: 8px 0; /* même marge que les blocs de journée */
-  border-radius: 6px;
-  height: 32px; /* même hauteur que les blocs de journée */
-  vertical-align: middle;
+  border-radius: 4px;
+  margin: 8px 0;
 }
 .bientot-affiche-banner .side-bar {
+  display: inline-block;
   width: 8px;
   height: 24px;
-  background-color: #c0c0ff; /* couleur des heures */
+  background-color: #cccccc;           /* même gris que les heures */
   margin: 0 6px;
   border-radius: 4px;
+  vertical-align: middle;
 }
 .banner-text {
-  flex-grow: 1;
-  text-align: center;
-  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
