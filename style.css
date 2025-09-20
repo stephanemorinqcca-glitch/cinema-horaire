@@ -230,6 +230,7 @@ h1 {
   border-radius: 4px;
   color: #000;                         /* texte noir */
   white-space: nowrap;                /* empêche le retour à la ligne */
+  margin: 10px 0 0 0;                 /* top: 10px, bottom: 0, left/right: 0 */
 }
 
 .banner-text {
@@ -237,6 +238,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
