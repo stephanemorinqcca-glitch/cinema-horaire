@@ -327,14 +327,24 @@
 						card.appendChild(details);
 						container.appendChild(card);
 
-						const seancesDiv = document.createElement("div");
-						seancesDiv.className = "seances";
-
 						// ✅ Date/Heure actuelle Toronto
 						const { dateStr: aujourdHuiStr, hour: currentHour, minute: currentMinute } = getDateHeureToronto();
 						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
 						// console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
 						
+  						// ✅ Injecter la bande juste avant la première journée à venir
+						if (aujourdHuiStr < film.OpeningDate) {
+    						const bande = document.createElement("div");
+    						bande.className = "jour-label bientot-affiche-banner";
+    						bande.innerHTML = `
+      							<span class="banner-text">Bientôt à l’affiche</span>
+    						`;
+    						seancesDiv.appendChild(bande);
+  						}	
+						
+						const seancesDiv = document.createElement("div");
+						seancesDiv.className = "seances";
+
 						const seancesParDate = {};
 
 						Object.entries(film.horaire).forEach(([dateStr, seances]) => {
@@ -361,16 +371,6 @@
   							const jourNum = dateObj.toLocaleDateString("fr-CA", { day: "numeric" });
   							const mois = dateObj.toLocaleDateString("fr-CA", { month: "long" });
 
-  							// ✅ Injecter la bande juste avant la première journée à venir
-							if (dateStr === film.OpeningDate && aujourdHuiStr < film.OpeningDate) {
-    							const bande = document.createElement("div");
-    							bande.className = "jour-label bientot-affiche-banner";
-    							bande.innerHTML = `
-      								<span class="banner-text">Bientôt à l’affiche</span>
-    							`;
-    							seancesDiv.appendChild(bande);
-  							}
-							
   							const jourLabel = document.createElement("div");
   							jourLabel.className = "jour-label";
   							if (dateStr === aujourdHuiStr) {
