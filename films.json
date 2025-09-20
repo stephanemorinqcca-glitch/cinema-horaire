@@ -480,7 +480,9 @@
         "2025-10-02": [
           {
             "heure": "19:05",
-            "attributs": []
+            "attributs": [
+              "DERNIÈRE"
+            ]
           }
         ]
       },
