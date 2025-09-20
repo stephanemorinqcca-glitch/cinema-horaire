@@ -231,12 +231,12 @@ def transform_data(sessions):
             else:
                 films_affiche.append(film)
 
-        # 1️⃣ Films à l’affiche → tri alphabétique
+        # Films à l’affiche → alphabétique
         films_affiche.sort(key=lambda f: f.get("titre", "").lower())
 
-        # 2️⃣ Films à venir → tri par date réelle, puis titre
+        # Films à venir → tri par date réelle, puis titre
         films_avenir.sort(key=lambda f: (
-            datetime.strptime(f.get("OpeningDate", "9999-12-31"), "%Y-%m-%d").date(),
+            datetime.strptime(f["OpeningDate"], "%Y-%m-%d").date(),
             f.get("titre", "").lower()
         ))
 
