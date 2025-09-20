@@ -102,14 +102,12 @@ def cle_tri_seance_aujourdhui(film):
             continue
     return (datetime.max, film["titre"].lower())
 
-def trier_films_priorite_seance_aujourdhui(films_dict):
+def trier_films_par_prochaine_seance(films_dict):
     tz = pytz.timezone("America/Toronto")
     now = datetime.now(tz)
-    today_str = now.strftime("%Y-%m-%d")
-    today_date = now.date()
+    today = now.date()
 
-    films_aujourdhui = []
-    films_autres_ouverts = []
+    films_ouverts = []
     films_a_venir = []
 
     for film in films_dict.values():
@@ -117,14 +115,13 @@ def trier_films_priorite_seance_aujourdhui(films_dict):
         try:
             opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
         except ValueError:
-            opening_date = today_date
+            opening_date = today
 
-        if opening_date > today_date:
+        if opening_date > today:
             films_a_venir.append(film)
             continue
 
         horaires = film.get("horaire", {})
-        seances_aujourdhui = horaires.get(today_str, [])
         seances_futures = []
 
         for jour_str, heures in horaires.items():
@@ -132,6 +129,7 @@ def trier_films_priorite_seance_aujourdhui(films_dict):
                 jour = datetime.strptime(jour_str, "%Y-%m-%d").date()
             except ValueError:
                 continue
+
             for h in heures:
                 try:
                     dt = tz.localize(datetime.strptime(f"{jour_str} {h['heure']}", "%Y-%m-%d %H:%M"))
@@ -140,22 +138,17 @@ def trier_films_priorite_seance_aujourdhui(films_dict):
                 except Exception:
                     continue
 
-        if seances_aujourdhui and any(
-            tz.localize(datetime.strptime(f"{today_str} {s['heure']}", "%Y-%m-%d %H:%M")) >= now
-            for s in seances_aujourdhui
-        ):
-            films_aujourdhui.append(film)
-        else:
-            films_autres_ouverts.append((min(seances_futures) if seances_futures else datetime.max, film))
+        prochaine = min(seances_futures) if seances_futures else datetime.max
+        films_ouverts.append((prochaine, film["titre"].lower(), film))
 
-    # Tri des groupes
-    films_aujourdhui.sort(key=cle_tri_seance_aujourdhui)
-    films_autres_ouverts.sort(key=lambda x: x[0])  # tri par prochaine séance
-    films_autres_ouverts = [f[1] for f in films_autres_ouverts]
+    # Tri des films ouverts par prochaine séance, puis par titre
+    films_ouverts.sort(key=lambda x: (x[0], x[1]))
+    films_ouverts = [f[2] for f in films_ouverts]
+
+    # Tri des films à venir par titre
     films_a_venir.sort(key=lambda f: f["titre"].lower())
 
-    return films_aujourdhui + films_autres_ouverts + films_a_venir
-
+    return films_ouverts + films_a_venir
 
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
@@ -280,7 +273,7 @@ def transform_data(sessions):
 
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
-    films_list = trier_films_priorite_seance_aujourdhui(films_dict)
+    films_list = trier_films_par_prochaine_seance(films_dict)
 
     #Exclure DERNIÈRE de la légende
     legend_list = [
