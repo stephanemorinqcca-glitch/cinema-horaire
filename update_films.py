@@ -215,22 +215,37 @@ def transform_data(sessions):
     # Tri des films en ordre alphabéthique et ensuite selon la date de sortie
     aujourd_hui = date.today()
 
-    def tri_film(film):
-        titre = film.get("titre", "").lower()
-        opening_str = film.get("OpeningDate", "")
-        try:
-            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
-        except ValueError:
-            opening_date = None
+    def trier_films(films_list):
+        films_affiche = []
+        films_avenir = []
 
-        is_future = opening_date and opening_date > aujourd_hui
+        for film in films_list:
+            opening_str = film.get("OpeningDate", "")
+            try:
+                opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
+            except ValueError:
+                opening_date = None
 
-        return (
-            is_future,
-            opening_date if is_future else date.min,  # date.min pour garder l'ordre
-            titre
-        )
-    films_list.sort(key=tri_film)
+            if opening_date and opening_date > aujourd_hui:
+                films_avenir.append(film)
+            else:
+                films_affiche.append(film)
+
+        # 1️⃣ Films à l’affiche → tri alphabétique
+        films_affiche.sort(key=lambda f: f.get("titre", "").lower())
+
+        # 2️⃣ Films à venir → tri par date, puis titre
+        films_avenir.sort(key=lambda f: (
+            f.get("OpeningDate", ""),
+            f.get("titre", "").lower()
+        ))
+
+        # 3️⃣ Concaténer les deux listes
+        return films_affiche + films_avenir
+
+    # Utilisation dans transform_data()
+    films_list = list(films_dict.values())
+    films_list = trier_films(films_list)
 
     #Exclure DERNIÈRE de la légende
     legend_list = [
