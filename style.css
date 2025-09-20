@@ -251,16 +251,18 @@ h1 {
 }
 
 .section-title {
-  background-color: #e6f2ff;      /* bleu pâle */
-  color: #003366;                 /* bleu foncé pour le texte */
-  padding: 0.5em 1em;              /* espace intérieur */
-  margin: 1em 0 1em 0;             /* espace autour (haut, droite, bas, gauche) */
-  border-top: 3px solid #99ccff;   /* ligne au-dessus */
-  font-size: 1.4em;
+  background-color: #e6f2ff;      /* fond bleu pâle */
+  color: #003366;                 /* texte bleu foncé */
+  padding: 0.5em 1em;
+  margin: 2em 0 1em 0;
+  border-top: 3px solid #99ccff;  /* ligne au-dessus */
+  border-bottom: 3px solid #99ccff; /* ligne en dessous */
+  font-size: 1.4em;               /* adapte à la taille de tes titres films */
   font-weight: bold;
-  text-transform: uppercase;       /* tout en majuscules */
-  text-align: center;   
+  text-transform: uppercase;
+  text-align: center;
 }
+
 
 
 
