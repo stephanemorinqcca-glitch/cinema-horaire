@@ -209,7 +209,7 @@ def transform_data(sessions):
                 toutes_les_dates.append(tz.localize(dt))
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
-    films_list = list(films_dict.values())
+    # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
 
     # Tri des films en ordre alphabéthique et ensuite selon la date de sortie
