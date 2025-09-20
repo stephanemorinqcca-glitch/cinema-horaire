@@ -155,6 +155,59 @@ def trier_films_par_horaire_et_ouverture(films_dict):
 
     return films_ouverts + films_a_venir
 
+def trier_films_par_seance(films_dict):
+    tz = pytz.timezone("America/Toronto")
+    now = datetime.now(tz)
+    today = now.date()
+
+    films_ouverts = []
+    films_a_venir = []
+
+    for film in films_dict.values():
+        opening_str = film.get("OpeningDate", "")
+        try:
+            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
+        except ValueError:
+            opening_date = today
+
+        if opening_date <= today:
+            films_ouverts.append(film)
+        else:
+            films_a_venir.append(film)
+
+    def prochaine_seance(film):
+        horaires = film.get("horaire", {})
+        seances = []
+
+        for jour_str, heures in horaires.items():
+            try:
+                jour = datetime.strptime(jour_str, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+
+            for h in heures:
+                try:
+                    dt = tz.localize(datetime.strptime(f"{jour_str} {h['heure']}", "%Y-%m-%d %H:%M"))
+                    seances.append(dt)
+                except Exception:
+                    continue
+
+        # Séparer les séances passées et futures
+        futures = [s for s in seances if s >= now]
+        passees = [s for s in seances if s < now]
+
+        if futures:
+            return min(futures)
+        elif passees:
+            # Si toutes les séances sont passées, on prend la dernière passée
+            return max(passees) + timedelta(days=1)  # Décalage pour les mettre après
+        else:
+            return datetime.max
+
+    films_ouverts.sort(key=prochaine_seance)
+    films_a_venir.sort(key=lambda f: f["titre"].lower())
+
+    return films_ouverts + films_a_venir
 
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
@@ -280,8 +333,9 @@ def transform_data(sessions):
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
     # films_list = trier_films_par_date_et_titre(films_dict)
-    films_list = trier_films_par_horaire_et_ouverture(films_dict)
-
+    # films_list = trier_films_par_horaire_et_ouverture(films_dict)
+    films_list = trier_films_par_seance(films_dict)
+   
     #Exclure DERNIÈRE de la légende
     legend_list = [
         attr for attr in used_attributes.values()
