@@ -103,7 +103,7 @@ def transform_data(sessions):
     now = datetime.now(tz).date()  # 👈 On ne garde que la date
     
     # Format : Jour/Mois/Année Heure:Minute
-    formatted_threshold = threshold.strftime("%d/%m/%Y %H:%M")
+    # formatted_threshold = threshold.strftime("%d/%m/%Y %H:%M")
 
     for session in sessions:
         showtime_str = session.get("FeatureStartTime", "")
