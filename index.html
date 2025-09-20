@@ -183,10 +183,24 @@
 					});
 
 					const container = document.getElementById("films");
+					const aujourdHui = new Date().toISOString().split("T")[0];
+					let sectionBientotAjoutee = false;
+					
 					data.films.forEach((film) => {
 						const nowTimestamp = Date.now() / 1000; // secondes UTC
   						if (film.last_show === null || nowTimestamp > film.last_show) {
     						return; // Film expiré, on ne l'affiche pas
+  						}
+
+						const isFuture = film.OpeningDate && film.OpeningDate > aujourdHui;
+
+  						// Si c'est le premier film à venir → on insère le titre de section
+  						if (isFuture && !sectionBientotAjoutee) {
+    						const titreSection = document.createElement("h2");
+    						titreSection.textContent = "🎬 BIENTÔT À L’AFFICHE";
+    						titreSection.className = "section-title";
+    						container.appendChild(titreSection);
+    						sectionBientotAjoutee = true;
   						}
 						
 						const card = document.createElement("div");
