@@ -209,8 +209,18 @@ def transform_data(sessions):
                 toutes_les_dates.append(tz.localize(dt))
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
-    films_list = list(films_dict.values())
-    films_list.sort(key=lambda film: film["titre"].lower())
+    # films_list = list(films_dict.values())
+    # films_list.sort(key=lambda film: film["titre"].lower())
+
+    from datetime import date
+    aujourd_hui = date.today()
+
+    def tri_film(film):
+        opening = film.get("OpeningDate", "")
+        is_future = opening > aujourd_hui.isoformat() if opening else False
+        return (is_future, film["titre"].lower())
+
+        films_list.sort(key=tri_film)
 
     #Exclure DERNIÈRE de la légende
     legend_list = [
