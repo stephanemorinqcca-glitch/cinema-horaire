@@ -200,12 +200,6 @@
       "horaire": {
         "2025-09-20": [
           {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
             "heure": "19:15",
             "attributs": [
               "DLX"
@@ -302,10 +296,6 @@
       "horaire": {
         "2025-09-20": [
           {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
             "heure": "19:15",
             "attributs": []
           }
@@ -401,10 +391,6 @@
       "content": "Drame fantaisiste",
       "horaire": {
         "2025-09-20": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
           {
             "heure": "19:15",
             "attributs": []
