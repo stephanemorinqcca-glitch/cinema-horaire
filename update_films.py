@@ -220,9 +220,8 @@ def transform_data(sessions):
         films_avenir = []
 
         for film in films_list:
-            opening_str = film.get("OpeningDate", "")
             try:
-                opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
+                opening_date = datetime.strptime(film.get("OpeningDate", ""), "%Y-%m-%d").date()
             except ValueError:
                 opening_date = None
 
