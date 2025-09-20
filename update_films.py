@@ -98,8 +98,9 @@ def transform_data(sessions):
     ignored_count = 0
 
     tz = pytz.timezone('America/Toronto')
-    now = datetime.now(tz)
-    threshold = now + timedelta(minutes=0)
+    # now = datetime.now(tz)
+    # threshold = now + timedelta(minutes=0)
+    now = datetime.now(tz).date()  # 👈 On ne garde que la date
     
     # Format : Jour/Mois/Année Heure:Minute
     formatted_threshold = threshold.strftime("%d/%m/%Y %H:%M")
@@ -122,7 +123,8 @@ def transform_data(sessions):
         # print("    Threshold:", threshold.strftime("%d/%m/%Y %H:%M"))
         # print("    session_time < threshold:", session_time < threshold)
 
-        if "WWW" not in sales_via or status != "Open" or session_time < threshold:
+        # 👇 Comparaison uniquement sur la date
+        if "WWW" not in sales_via or status != "Open" or session_time.date() < now:
             ignored_count += 1
             continue
 
