@@ -127,7 +127,7 @@ h1 {
 
 .synopsis {
 	white-space: break-spaces;
-	margin: 15px 0 10px 0;
+	margin: 15px 0 15px 0;
 	text-align: justify;
 	font-size: 12px;
 }
@@ -238,6 +238,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
