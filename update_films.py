@@ -209,53 +209,8 @@ def transform_data(sessions):
                 toutes_les_dates.append(tz.localize(dt))
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
-    # films_list = list(films_dict.values())
-    # films_list.sort(key=lambda film: film["titre"].lower())
-
-    # Tri des films en ordre alphabéthique et ensuite selon la date de sortie
-    tz = pytz.timezone("America/Toronto")
-    aujourd_hui = datetime.now(tz).date()
-
-    def trier_films(films_list):
-        print(f"📅 Aujourd'hui : {aujourd_hui}")
-        films_affiche = []
-        films_avenir = []
-
-        for film in films_list:
-            try:
-                opening_date = datetime.strptime(film.get("OpeningDate", ""), "%Y-%m-%d").date()
-            except ValueError:
-                opening_date = None
-
-            print(f"Film: {film.get('titre')} | Date sortie: {film.get('OpeningDate')} | Date obj: {opening_date}")
-
-            if opening_date and opening_date > aujourd_hui:
-                print("  ➡️ Classé dans: À VENIR")
-                films_avenir.append((opening_date, film))
-            else:
-                print("  ➡️ Classé dans: À L'AFFICHE")
-                films_affiche.append(film)
-
-        # 1️⃣ Films à l’affiche → alphabétique
-        films_affiche.sort(key=lambda f: f.get("titre", "").lower())
-        print("\n--- Films à l'affiche triés ---")
-        for f in films_affiche:
-            print(f"  {f.get('titre')} ({f.get('OpeningDate')})")
-
-        # 2️⃣ Films à venir → tri par date réelle, puis titre
-        films_avenir.sort(key=lambda x: (x[0], x[1].get("titre", "").lower()))
-        print("\n--- Films à venir triés ---")
-        for d, f in films_avenir:
-            print(f"  {f.get('titre')} ({f.get('OpeningDate')})")
-
-        # On reconstruit la liste finale
-        films_avenir = [f for _, f in films_avenir]
-        return films_affiche + films_avenir
-
-    # Utilisation
     films_list = list(films_dict.values())
-    films_list = trier_films(films_list)
-
+    films_list.sort(key=lambda film: film["titre"].lower())
 
     #Exclure DERNIÈRE de la légende
     legend_list = [
