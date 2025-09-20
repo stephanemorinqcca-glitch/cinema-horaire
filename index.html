@@ -332,7 +332,11 @@
 						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
 						// console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
 						
-  						// ✅ Injecter la bande juste avant la première journée à venir
+						const seancesDiv = document.createElement("div");
+						seancesDiv.className = "seances";
+						const seancesParDate = {};
+
+						// ✅ Injecter la bande juste avant la première journée à venir
 						if (aujourdHuiStr < film.OpeningDate) {
     						const bande = document.createElement("div");
     						bande.className = "jour-label bientot-affiche-banner";
@@ -342,11 +346,6 @@
     						seancesDiv.appendChild(bande);
   						}	
 						
-						const seancesDiv = document.createElement("div");
-						seancesDiv.className = "seances";
-
-						const seancesParDate = {};
-
 						Object.entries(film.horaire).forEach(([dateStr, seances]) => {
   							// Ignorer les jours passés
  							if (dateStr < aujourdHuiStr) return;
