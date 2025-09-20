@@ -117,6 +117,45 @@ def trier_films_par_date_et_titre(films_dict):
     # Combiner les deux listes
     return films_ouverts + films_a_venir
 
+def trier_films_par_horaire_et_ouverture(films_dict):
+    tz = pytz.timezone("America/Toronto")
+    today = datetime.now(tz).date()
+
+    films_ouverts = []
+    films_a_venir = []
+
+    for film in films_dict.values():
+        opening_str = film.get("OpeningDate", "")
+        try:
+            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
+        except ValueError:
+            opening_date = today
+
+        if opening_date <= today:
+            films_ouverts.append(film)
+        else:
+            films_a_venir.append(film)
+
+    # 🔁 Trier les films ouverts par leur première séance (jour + heure)
+    def premiere_projection(film):
+        horaires = film.get("horaire", {})
+        if not horaires:
+            return datetime.max
+        for jour in sorted(horaires.keys()):
+            heures = horaires[jour]
+            if heures:
+                try:
+                    return tz.localize(datetime.strptime(f"{jour} {heures[0]['heure']}", "%Y-%m-%d %H:%M"))
+                except Exception:
+                    continue
+        return datetime.max
+
+    films_ouverts.sort(key=premiere_projection)
+    films_a_venir.sort(key=lambda f: f["titre"].lower())
+
+    return films_ouverts + films_a_venir
+
+
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -240,7 +279,8 @@ def transform_data(sessions):
 
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
-    films_list = trier_films_par_date_et_titre(films_dict)
+    # films_list = trier_films_par_date_et_titre(films_dict)
+    films_list = trier_films_par_horaire_et_ouverture(films_dict)
 
     #Exclure DERNIÈRE de la légende
     legend_list = [
