@@ -18,50 +18,52 @@
   ],
   "films": [
     {
-      "id": "ST00001718",
-      "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
-      "OpeningDate": "2025-09-12",
-      "synopsis": "Au tournant des années 1930, la famille Crawley entre dans une nouvelle ère. Le divorce de lady Mary fait vivement réagir. Son nouveau statut matrimonial, inusité à cette époque, attise les rumeurs, les jugements et la réprobation générale. Au même moment, la famille d’aristocrates anglais traverse un épisode d’instabilité financière. L’avenir du vaste domaine semble indéfini depuis la mort de la comtesse douairière, la matriarche Violet Crawley.",
+      "id": "ST00001680",
+      "titre": "MONDE JURASSIQUE: RENAISSANCE",
+      "OpeningDate": "2025-07-02",
+      "synopsis": "Trente-deux ans après la réapparition des dinosaures, la planète est devenue de plus en plus inhospitalière pour ces créatures préhistoriques qui sont désormais confinées dans une zone équatoriale interdite aux visiteurs. Aux États-Unis, une entreprise pharmaceutique a découvert que la synthèse de l’ADN des bêtes possédant la plus grande longévité lui permettrait de mettre au point un médicament révolutionnaire. L’ex-militaire Zora Bennett accepte de mener une expédition clandestine, à laquelle prennent part d’anciens camarades, un paléontologue biologiste et un représentant de la compagnie. Leur mission : recueillir des échantillons sanguins des trois espèces marine, terrestre et volante les plus imposantes.",
       "classification": "G",
-      "duree": 123,
-      "genre": "Drama",
+      "duree": 133,
+      "genre": "Adventure",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004944",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004942",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004814",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004812",
       "banniere": "",
-      "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
-      "content": "Drame d'époque",
+      "bande_annonce": "https://youtu.be/3mH20C9kURw",
+      "content": "DAJE | Aventures fantastiques",
       "horaire": {
         "2025-09-20": [
           {
-            "heure": "19:05",
+            "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-09-21": [
           {
-            "heure": "12:35",
+            "heure": "12:45",
             "attributs": []
           },
           {
-            "heure": "19:05",
+            "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-09-24": [
           {
-            "heure": "19:05",
+            "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-09-25": [
           {
-            "heure": "19:05",
-            "attributs": []
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ]
           }
         ]
       },
-      "last_show": 1758841500
+      "last_show": 1758840900
     },
     {
       "id": "ST00001708",
@@ -82,6 +84,7 @@
           {
             "heure": "18:45",
             "attributs": [
+              "COMPLET",
               "ATMOS®",
               "DLX"
             ]
@@ -184,56 +187,92 @@
       "last_show": 1759445700
     },
     {
-      "id": "ST00001724",
-      "titre": "LUI",
-      "OpeningDate": "2025-09-19",
-      "synopsis": "Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
-      "classification": "13+",
-      "duree": 96,
-      "genre": "Horror",
+      "id": "ST00001718",
+      "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
+      "OpeningDate": "2025-09-12",
+      "synopsis": "Au tournant des années 1930, la famille Crawley entre dans une nouvelle ère. Le divorce de lady Mary fait vivement réagir. Son nouveau statut matrimonial, inusité à cette époque, attise les rumeurs, les jugements et la réprobation générale. Au même moment, la famille d’aristocrates anglais traverse un épisode d’instabilité financière. L’avenir du vaste domaine semble indéfini depuis la mort de la comtesse douairière, la matriarche Violet Crawley.",
+      "classification": "G",
+      "duree": 123,
+      "genre": "Drama",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004944",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004942",
       "banniere": "",
-      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
-      "content": "Violence | Horreur | Suspense psychologique",
+      "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
+      "content": "Drame d'époque",
+      "horaire": {
+        "2025-09-20": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-21": [
+          {
+            "heure": "12:35",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-24": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-25": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1758841500
+    },
+    {
+      "id": "ST00001722",
+      "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
+      "OpeningDate": "2025-09-19",
+      "synopsis": "David rencontre Sarah alors qu’ils sont conviés à un mariage. Une série de circonstances inusitées les obligent à faire la route ensemble, le temps d’un voyage étrange, pendant lequel ils apprennent à se connaître et explorent leurs souvenirs du passé d’une façon très singulière.",
+      "classification": "G",
+      "duree": 109,
+      "genre": "Fantasy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
+      "content": "Drame fantaisiste",
       "horaire": {
         "2025-09-20": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-21": [
           {
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-24": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-25": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-09-26": [
@@ -244,7 +283,7 @@
         ],
         "2025-09-27": [
           {
-            "heure": "13:05",
+            "heure": "12:55",
             "attributs": []
           },
           {
@@ -254,7 +293,7 @@
         ],
         "2025-09-28": [
           {
-            "heure": "13:05",
+            "heure": "12:55",
             "attributs": []
           },
           {
@@ -328,94 +367,56 @@
       "last_show": 1758842100
     },
     {
-      "id": "ST00001680",
-      "titre": "MONDE JURASSIQUE: RENAISSANCE",
-      "OpeningDate": "2025-07-02",
-      "synopsis": "Trente-deux ans après la réapparition des dinosaures, la planète est devenue de plus en plus inhospitalière pour ces créatures préhistoriques qui sont désormais confinées dans une zone équatoriale interdite aux visiteurs. Aux États-Unis, une entreprise pharmaceutique a découvert que la synthèse de l’ADN des bêtes possédant la plus grande longévité lui permettrait de mettre au point un médicament révolutionnaire. L’ex-militaire Zora Bennett accepte de mener une expédition clandestine, à laquelle prennent part d’anciens camarades, un paléontologue biologiste et un représentant de la compagnie. Leur mission : recueillir des échantillons sanguins des trois espèces marine, terrestre et volante les plus imposantes.",
-      "classification": "G",
-      "duree": 133,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004814",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004812",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/3mH20C9kURw",
-      "content": "DAJE | Aventures fantastiques",
-      "horaire": {
-        "2025-09-20": [
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-09-21": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1758840900
-    },
-    {
-      "id": "ST00001722",
-      "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
+      "id": "ST00001724",
+      "titre": "LUI",
       "OpeningDate": "2025-09-19",
-      "synopsis": "David rencontre Sarah alors qu’ils sont conviés à un mariage. Une série de circonstances inusitées les obligent à faire la route ensemble, le temps d’un voyage étrange, pendant lequel ils apprennent à se connaître et explorent leurs souvenirs du passé d’une façon très singulière.",
-      "classification": "G",
-      "duree": 109,
-      "genre": "Fantasy",
+      "synopsis": "Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
+      "classification": "13+",
+      "duree": 96,
+      "genre": "Horror",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
-      "content": "Drame fantaisiste",
+      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
+      "content": "Violence | Horreur | Suspense psychologique",
       "horaire": {
         "2025-09-20": [
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-21": [
           {
             "heure": "13:05",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           },
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-24": [
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-25": [
           {
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-09-26": [
@@ -426,7 +427,7 @@
         ],
         "2025-09-27": [
           {
-            "heure": "12:55",
+            "heure": "13:05",
             "attributs": []
           },
           {
@@ -436,7 +437,7 @@
         ],
         "2025-09-28": [
           {
-            "heure": "12:55",
+            "heure": "13:05",
             "attributs": []
           },
           {
