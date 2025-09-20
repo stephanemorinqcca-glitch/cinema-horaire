@@ -34,10 +34,6 @@
       "horaire": {
         "2025-09-20": [
           {
-            "heure": "16:45",
-            "attributs": []
-          },
-          {
             "heure": "19:05",
             "attributs": []
           }
@@ -66,6 +62,104 @@
         ]
       },
       "last_show": 1758841500
+    },
+    {
+      "id": "ST00001726",
+      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Le voyage en voiture de Gabby et de grand-mère Gigi prend une tournure inattendue lorsque la précieuse maison de poupée de Gabby se retrouve entre les mains de l'excentrique dame aux chats Vera. Gabby se lance dans une aventure pour réunir les chats Gabby et récupérer sa maison de poupée adorée avant qu'il ne soit trop tard.",
+      "classification": "G",
+      "duree": 88,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
+      "content": "Aventures fantaisistes",
+      "horaire": {
+        "2025-09-26": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-27": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-28": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-03": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-04": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-05": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-08": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1760051100
     },
     {
       "id": "ST00001708",
