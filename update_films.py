@@ -227,19 +227,18 @@ def transform_data(sessions):
                 opening_date = None
 
             if opening_date and opening_date > aujourd_hui:
-                films_avenir.append(film)
+                films_avenir.append((opening_date, film))
             else:
                 films_affiche.append(film)
 
-        # Films à l’affiche → alphabétique
+        # 1️⃣ Films à l’affiche → alphabétique
         films_affiche.sort(key=lambda f: f.get("titre", "").lower())
 
-        # Films à venir → tri par date réelle, puis titre
-        films_avenir.sort(key=lambda f: (
-            datetime.strptime(f["OpeningDate"], "%Y-%m-%d").date(),
-            f.get("titre", "").lower()
-        ))
+        # 2️⃣ Films à venir → tri par date réelle, puis titre
+        films_avenir.sort(key=lambda x: (x[0], x[1].get("titre", "").lower()))
 
+        # On reconstruit la liste finale
+        films_avenir = [f for _, f in films_avenir]
         return films_affiche + films_avenir
 
     # Utilisation
