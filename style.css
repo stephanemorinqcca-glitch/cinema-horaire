@@ -259,7 +259,9 @@ h1 {
   font-size: 1.4em;
   font-weight: bold;
   text-transform: uppercase;       /* tout en majuscules */
+  text-align: center;   
 }
+
 
 
 
