@@ -60,11 +60,6 @@
 		</div>
 	</div>
 </div>
-<div class="bientot-affiche-banner">
-	<span class="side-bar"></span>
-    <span class="banner-text">Bientôt à l’affiche</span>
-    <span class="side-bar"></span>
-</div>
 </main>
 <script>
 			// ✅ Définition unique des mots-clés
@@ -191,12 +186,24 @@
 					// 📅 Date du jour à Toronto au format YYYY-MM-DD
 					const aujourdHui = new Date().toLocaleDateString("fr-CA", { timeZone: "America/Toronto" });
 
-					let sectionBientotAjoutee = false;
+					let bandeAjoutee = false;
+					const nowTimestamp = Date.now() / 1000; // secondes UTC			
 					
 					data.films.forEach((film) => {
-						const nowTimestamp = Date.now() / 1000; // secondes UTC
   						if (film.last_show === null || nowTimestamp > film.last_show) {
     						return; // Film expiré, on ne l'affiche pas
+  						}
+
+  						if (!bandeAjoutee && film.OpeningDate > aujourdHui) {
+    						// Injecter la bande "Bientôt à l’affiche"
+    						container.innerHTML += `
+      							<div class="bientot-affiche-banner">
+        							<span class="side-bar"></span>
+        							<span class="banner-text">Bientôt à l’affiche</span>
+        							<span class="side-bar"></span>
+      							</div>
+    						`;
+    						bandeAjoutee = true;
   						}
 
 						const card = document.createElement("div");
