@@ -220,6 +220,31 @@ h1 {
   border-radius: 8px;
 }
 
+.bientot-affiche-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+.bientot-affiche-banner .side-bar {
+    width: 10px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.banner-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
 
 
 
