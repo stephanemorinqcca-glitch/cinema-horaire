@@ -216,20 +216,20 @@ def transform_data(sessions):
     aujourd_hui = date.today()
 
     def tri_film(film):
-        opening = film.get("OpeningDate", "")
         titre = film.get("titre", "").lower()
+        opening_str = film.get("OpeningDate", "")
+        try:
+            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
+        except ValueError:
+            opening_date = None
 
-        # Détermine si le film est à venir
-        is_future = opening > aujourd_hui.isoformat() if opening else False
+        is_future = opening_date and opening_date > aujourd_hui
 
-        # Pour les films à venir → tri par date, puis titre
-        # Pour les films à l'affiche → tri alphabétique
         return (
-            is_future,                               # False (à l'affiche) en premier, True (à venir) après
-            opening if is_future else "",            # Si à venir → tri par date
-            titre                                     # Puis tri par titre
+            is_future,
+            opening_date if is_future else date.min,  # date.min pour garder l'ordre
+            titre
         )
-
     films_list.sort(key=tri_film)
 
     #Exclure DERNIÈRE de la légende
