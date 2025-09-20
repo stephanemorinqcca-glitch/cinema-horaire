@@ -90,124 +90,17 @@ def extract_datetime_safe(horaire_str):
     else:
         return datetime.max.replace(tzinfo=pytz.UTC)
 
-def trier_films_par_date_et_titre(films_dict):
-    tz = pytz.timezone("America/Toronto")
-    today = datetime.now(tz).date()
-
-    # Séparer les films selon leur date d'ouverture
-    films_ouverts = []
-    films_a_venir = []
-
-    for film in films_dict.values():
-        opening_str = film.get("OpeningDate", "")
+def cle_tri_seance_aujourdhui(film):
+    horaires = film.get("horaire", {})
+    seances = horaires.get(today_str, [])
+    for s in seances:
         try:
-            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
-        except ValueError:
-            opening_date = today  # Si la date est invalide, on considère qu'il est ouvert
-
-        if opening_date <= today:
-            films_ouverts.append(film)
-        else:
-            films_a_venir.append(film)
-
-    # Trier chaque groupe par titre
-    films_ouverts.sort(key=lambda f: f["titre"].lower())
-    films_a_venir.sort(key=lambda f: f["titre"].lower())
-
-    # Combiner les deux listes
-    return films_ouverts + films_a_venir
-
-def trier_films_par_horaire_et_ouverture(films_dict):
-    tz = pytz.timezone("America/Toronto")
-    today = datetime.now(tz).date()
-
-    films_ouverts = []
-    films_a_venir = []
-
-    for film in films_dict.values():
-        opening_str = film.get("OpeningDate", "")
-        try:
-            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
-        except ValueError:
-            opening_date = today
-
-        if opening_date <= today:
-            films_ouverts.append(film)
-        else:
-            films_a_venir.append(film)
-
-    # 🔁 Trier les films ouverts par leur première séance (jour + heure)
-    def premiere_projection(film):
-        horaires = film.get("horaire", {})
-        if not horaires:
-            return datetime.max
-        for jour in sorted(horaires.keys()):
-            heures = horaires[jour]
-            if heures:
-                try:
-                    return tz.localize(datetime.strptime(f"{jour} {heures[0]['heure']}", "%Y-%m-%d %H:%M"))
-                except Exception:
-                    continue
-        return datetime.max
-
-    films_ouverts.sort(key=premiere_projection)
-    films_a_venir.sort(key=lambda f: f["titre"].lower())
-
-    return films_ouverts + films_a_venir
-
-def trier_films_par_seance(films_dict):
-    tz = pytz.timezone("America/Toronto")
-    now = datetime.now(tz)
-    today = now.date()
-
-    films_ouverts = []
-    films_a_venir = []
-
-    for film in films_dict.values():
-        opening_str = film.get("OpeningDate", "")
-        try:
-            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
-        except ValueError:
-            opening_date = today
-
-        if opening_date <= today:
-            films_ouverts.append(film)
-        else:
-            films_a_venir.append(film)
-
-    def prochaine_seance(film):
-        horaires = film.get("horaire", {})
-        seances = []
-
-        for jour_str, heures in horaires.items():
-            try:
-                jour = datetime.strptime(jour_str, "%Y-%m-%d").date()
-            except ValueError:
-                continue
-
-            for h in heures:
-                try:
-                    dt = tz.localize(datetime.strptime(f"{jour_str} {h['heure']}", "%Y-%m-%d %H:%M"))
-                    seances.append(dt)
-                except Exception:
-                    continue
-
-        # Séparer les séances passées et futures
-        futures = [s for s in seances if s >= now]
-        passees = [s for s in seances if s < now]
-
-        if futures:
-            return min(futures)
-        elif passees:
-            # Si toutes les séances sont passées, on prend la dernière passée
-            return max(passees) + timedelta(days=1)  # Décalage pour les mettre après
-        else:
-            return datetime.max
-
-    films_ouverts.sort(key=prochaine_seance)
-    films_a_venir.sort(key=lambda f: f["titre"].lower())
-
-    return films_ouverts + films_a_venir
+            dt = tz.localize(datetime.strptime(f"{today_str} {s['heure']}", "%Y-%m-%d %H:%M"))
+            if dt >= now:
+                return (dt, film["titre"].lower())
+        except Exception:
+            continue
+    return (datetime.max, film["titre"].lower())
 
 def trier_films_priorite_seance_aujourdhui(films_dict):
     tz = pytz.timezone("America/Toronto")
@@ -256,7 +149,7 @@ def trier_films_priorite_seance_aujourdhui(films_dict):
             films_autres_ouverts.append((min(seances_futures) if seances_futures else datetime.max, film))
 
     # Tri des groupes
-    films_aujourdhui.sort(key=lambda f: f["titre"].lower())
+    films_aujourdhui.sort(key=cle_tri_seance_aujourdhui)
     films_autres_ouverts.sort(key=lambda x: x[0])  # tri par prochaine séance
     films_autres_ouverts = [f[1] for f in films_autres_ouverts]
     films_a_venir.sort(key=lambda f: f["titre"].lower())
@@ -387,9 +280,6 @@ def transform_data(sessions):
 
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
-    # films_list = trier_films_par_date_et_titre(films_dict)
-    # films_list = trier_films_par_horaire_et_ouverture(films_dict)
-    #films_list = trier_films_par_seance(films_dict)
     films_list = trier_films_priorite_seance_aujourdhui(films_dict)
 
     #Exclure DERNIÈRE de la légende
