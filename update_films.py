@@ -209,6 +209,61 @@ def trier_films_par_seance(films_dict):
 
     return films_ouverts + films_a_venir
 
+def trier_films_priorite_seance_aujourdhui(films_dict):
+    tz = pytz.timezone("America/Toronto")
+    now = datetime.now(tz)
+    today_str = now.strftime("%Y-%m-%d")
+    today_date = now.date()
+
+    films_aujourdhui = []
+    films_autres_ouverts = []
+    films_a_venir = []
+
+    for film in films_dict.values():
+        opening_str = film.get("OpeningDate", "")
+        try:
+            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
+        except ValueError:
+            opening_date = today_date
+
+        if opening_date > today_date:
+            films_a_venir.append(film)
+            continue
+
+        horaires = film.get("horaire", {})
+        seances_aujourdhui = horaires.get(today_str, [])
+        seances_futures = []
+
+        for jour_str, heures in horaires.items():
+            try:
+                jour = datetime.strptime(jour_str, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+            for h in heures:
+                try:
+                    dt = tz.localize(datetime.strptime(f"{jour_str} {h['heure']}", "%Y-%m-%d %H:%M"))
+                    if dt >= now:
+                        seances_futures.append(dt)
+                except Exception:
+                    continue
+
+        if seances_aujourdhui and any(
+            tz.localize(datetime.strptime(f"{today_str} {s['heure']}", "%Y-%m-%d %H:%M")) >= now
+            for s in seances_aujourdhui
+        ):
+            films_aujourdhui.append(film)
+        else:
+            films_autres_ouverts.append((min(seances_futures) if seances_futures else datetime.max, film))
+
+    # Tri des groupes
+    films_aujourdhui.sort(key=lambda f: f["titre"].lower())
+    films_autres_ouverts.sort(key=lambda x: x[0])  # tri par prochaine séance
+    films_autres_ouverts = [f[1] for f in films_autres_ouverts]
+    films_a_venir.sort(key=lambda f: f["titre"].lower())
+
+    return films_aujourdhui + films_autres_ouverts + films_a_venir
+
+
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -334,8 +389,9 @@ def transform_data(sessions):
     # films_list.sort(key=lambda film: film["titre"].lower())
     # films_list = trier_films_par_date_et_titre(films_dict)
     # films_list = trier_films_par_horaire_et_ouverture(films_dict)
-    films_list = trier_films_par_seance(films_dict)
-   
+    #films_list = trier_films_par_seance(films_dict)
+    films_list = trier_films_priorite_seance_aujourdhui(films_dict)
+
     #Exclure DERNIÈRE de la légende
     legend_list = [
         attr for attr in used_attributes.values()
