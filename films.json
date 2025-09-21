@@ -18,84 +18,6 @@
   ],
   "films": [
     {
-      "id": "ST00001718",
-      "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
-      "OpeningDate": "2025-09-12",
-      "synopsis": "Au tournant des années 1930, la famille Crawley entre dans une nouvelle ère. Le divorce de lady Mary fait vivement réagir. Son nouveau statut matrimonial, inusité à cette époque, attise les rumeurs, les jugements et la réprobation générale. Au même moment, la famille d’aristocrates anglais traverse un épisode d’instabilité financière. L’avenir du vaste domaine semble indéfini depuis la mort de la comtesse douairière, la matriarche Violet Crawley.",
-      "classification": "G",
-      "duree": 123,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004944",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004942",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
-      "content": "Drame d'époque",
-      "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "12:35",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-26": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-27": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-09-28": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ]
-      },
-      "last_show": 1759445700
-    },
-    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "OpeningDate": "2025-09-05",
@@ -457,6 +379,84 @@
         ]
       },
       "last_show": 1759446300
+    },
+    {
+      "id": "ST00001718",
+      "titre": "DOWNTON ABBEY: LA GRANDE FINALE",
+      "OpeningDate": "2025-09-12",
+      "synopsis": "Au tournant des années 1930, la famille Crawley entre dans une nouvelle ère. Le divorce de lady Mary fait vivement réagir. Son nouveau statut matrimonial, inusité à cette époque, attise les rumeurs, les jugements et la réprobation générale. Au même moment, la famille d’aristocrates anglais traverse un épisode d’instabilité financière. L’avenir du vaste domaine semble indéfini depuis la mort de la comtesse douairière, la matriarche Violet Crawley.",
+      "classification": "G",
+      "duree": 123,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004944",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004942",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
+      "content": "Drame d'époque",
+      "horaire": {
+        "2025-09-21": [
+          {
+            "heure": "12:35",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-24": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-25": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-26": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-09-27": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-09-28": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1759445700
     },
     {
       "id": "ST00001726",
