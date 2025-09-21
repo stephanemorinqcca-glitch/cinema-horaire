@@ -34,13 +34,6 @@
       "horaire": {
         "2025-09-21": [
           {
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          },
-          {
             "heure": "18:45",
             "attributs": [
               "ATMOS®",
@@ -144,10 +137,6 @@
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
         "2025-09-21": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
           {
             "heure": "18:45",
             "attributs": []
@@ -345,10 +334,6 @@
       "horaire": {
         "2025-09-21": [
           {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
             "heure": "19:15",
             "attributs": []
           }
@@ -386,10 +371,6 @@
       "content": "Drame fantaisiste",
       "horaire": {
         "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
           {
             "heure": "19:15",
             "attributs": []
