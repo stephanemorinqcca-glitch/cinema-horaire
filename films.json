@@ -187,10 +187,6 @@
       "horaire": {
         "2025-09-21": [
           {
-            "heure": "12:35",
-            "attributs": []
-          },
-          {
             "heure": "19:05",
             "attributs": []
           }
@@ -266,12 +262,6 @@
       "content": "Violence | Horreur | Suspense psychologique",
       "horaire": {
         "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
           {
             "heure": "19:15",
             "attributs": [
