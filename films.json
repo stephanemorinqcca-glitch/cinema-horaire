@@ -584,9 +584,68 @@
               "DLX"
             ]
           }
+        ],
+        "2025-10-03": [
+          {
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-04": [
+          {
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-05": [
+          {
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-08": [
+          {
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE",
+              "DLX"
+            ]
+          }
         ]
       },
-      "last_show": 1759446900
+      "last_show": 1760051700
     }
   ]
 }
