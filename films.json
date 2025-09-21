@@ -242,7 +242,9 @@
         "2025-10-02": [
           {
             "heure": "18:55",
-            "attributs": []
+            "attributs": [
+              "DERNIÈRE"
+            ]
           }
         ]
       },
