@@ -18,216 +18,6 @@
   ],
   "films": [
     {
-      "id": "ST00001724",
-      "titre": "LUI",
-      "OpeningDate": "2025-09-19",
-      "synopsis": "Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
-      "classification": "13+",
-      "duree": 96,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
-      "content": "Violence | Horreur | Suspense psychologique",
-      "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-09-26": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-27": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-28": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1759446300
-    },
-    {
-      "id": "ST00001720",
-      "titre": "MARCHE OU CRÈVE",
-      "OpeningDate": "2025-09-12",
-      "synopsis": "Dans un régime étatsunien totalitaire et dystopique, la population est oppressée et manque de ressources. Cinquante jeunes hommes se voient offrir de participer à une compétition permettant de gagner une somme colossale qui changerait leur vie. Il n’y aura qu’un vainqueur et les perdants seront exécutés sans pitié. Le groupe entame une marche rapide, sans répit. Sur la route, Garraty se lie d’amitié avec McVries et plusieurs de leurs compagnons.",
-      "classification": "13+",
-      "duree": 108,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004787",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004785",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/ZOzO5iQXaSY",
-      "content": "Violence | Langage Vulgaire | Suspense psychologique",
-      "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1758842100
-    },
-    {
-      "id": "ST00001722",
-      "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
-      "OpeningDate": "2025-09-19",
-      "synopsis": "David rencontre Sarah alors qu’ils sont conviés à un mariage. Une série de circonstances inusitées les obligent à faire la route ensemble, le temps d’un voyage étrange, pendant lequel ils apprennent à se connaître et explorent leurs souvenirs du passé d’une façon très singulière.",
-      "classification": "G",
-      "duree": 109,
-      "genre": "Fantasy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
-      "content": "Drame fantaisiste",
-      "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-24": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-25": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-09-26": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-27": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-09-28": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1759446300
-    },
-    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "OpeningDate": "2025-09-05",
@@ -457,6 +247,216 @@
         ]
       },
       "last_show": 1759445700
+    },
+    {
+      "id": "ST00001724",
+      "titre": "LUI",
+      "OpeningDate": "2025-09-19",
+      "synopsis": "Cameron Cade, un quart-arrière en pleine ascension qui a consacré sa vie, et son identité, au football. La veille du Combine, le repêchage annuel du football professionnel, Cam est violemment attaqué par un admirateur déséquilibré et subit un traumatisme crânien qui pourrait bien mettre fin à sa carrière.",
+      "classification": "13+",
+      "duree": 96,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
+      "content": "Violence | Horreur | Suspense psychologique",
+      "horaire": {
+        "2025-09-21": [
+          {
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-09-24": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-09-25": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-09-26": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-27": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-28": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1759446300
+    },
+    {
+      "id": "ST00001720",
+      "titre": "MARCHE OU CRÈVE",
+      "OpeningDate": "2025-09-12",
+      "synopsis": "Dans un régime étatsunien totalitaire et dystopique, la population est oppressée et manque de ressources. Cinquante jeunes hommes se voient offrir de participer à une compétition permettant de gagner une somme colossale qui changerait leur vie. Il n’y aura qu’un vainqueur et les perdants seront exécutés sans pitié. Le groupe entame une marche rapide, sans répit. Sur la route, Garraty se lie d’amitié avec McVries et plusieurs de leurs compagnons.",
+      "classification": "13+",
+      "duree": 108,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004787",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004785",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/ZOzO5iQXaSY",
+      "content": "Violence | Langage Vulgaire | Suspense psychologique",
+      "horaire": {
+        "2025-09-21": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-24": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-25": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1758842100
+    },
+    {
+      "id": "ST00001722",
+      "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
+      "OpeningDate": "2025-09-19",
+      "synopsis": "David rencontre Sarah alors qu’ils sont conviés à un mariage. Une série de circonstances inusitées les obligent à faire la route ensemble, le temps d’un voyage étrange, pendant lequel ils apprennent à se connaître et explorent leurs souvenirs du passé d’une façon très singulière.",
+      "classification": "G",
+      "duree": 109,
+      "genre": "Fantasy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005012",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005010",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
+      "content": "Drame fantaisiste",
+      "horaire": {
+        "2025-09-21": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-24": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-25": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-09-26": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-27": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-09-28": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1759446300
     },
     {
       "id": "ST00001726",
