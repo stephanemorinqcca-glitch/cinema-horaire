@@ -14,13 +14,6 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VOA",
-      "Description": "Version Originale Anglaise",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
     }
   ],
   "films": [
@@ -500,7 +493,7 @@
       "titre": "LES INCONNUS: CHAPITRE II",
       "OpeningDate": "2025-09-26",
       "synopsis": "Dans un village, Maya et son amoureux Ryan sont attaqués sans raison apparente par trois psychopathes sanguinaires masqués. En retrouvant ses sens à l’hôpital, Maya apprend qu’elle a échappé à l’assaut, mais que Ryan est décédé de ses blessures. La chasse reprend de plus belle alors que les mystérieux tueurs qui l’ont ciblée au hasard se lancent de nouveau à ses trousses.",
-      "classification": "13+",
+      "classification": null,
       "duree": 98,
       "genre": "Suspense",
       "format": "2D Digital",
@@ -508,7 +501,7 @@
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004934",
       "banniere": "",
       "bande_annonce": "https://www.youtube.com/watch?v=nfI-eTBXaio",
-      "content": "Violence | Suspense d'épouvante",
+      "content": "Suspense d'épouvante",
       "horaire": {
         "2025-09-26": [
           {
@@ -623,67 +616,6 @@
         ]
       },
       "last_show": 1760051700
-    },
-    {
-      "id": "ST00001792",
-      "titre": "TAYLOR SWIFT: TOR PARTY OF A SHOW GIRL",
-      "OpeningDate": "2025-10-03",
-      "synopsis": "The Official Release Party of a Showgirl: Oct 3 - Oct 5 only in cinemas! You’ll get to see the exclusive world premiere of the music video for my new single “The Fate of Ophelia”, along with never before seen behind-the-scenes footage of how we made it, cut by cut explanations of what inspired this music, and the brand new lyric videos from my new album The Life of a Showgirl\r\n\r\n**Billet 25$, en vente au cinéma seulement pour la séance courante aux personnes présentes au moment de la vente.**",
-      "classification": "EC",
-      "duree": 89,
-      "genre": "Musical",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005024",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005022",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=9YOfEeMVR9k",
-      "content": "| Spectacle musical",
-      "horaire": {
-        "2025-10-03": [
-          {
-            "heure": "13:25",
-            "attributs": [
-              "VOA"
-            ]
-          },
-          {
-            "heure": "19:25",
-            "attributs": [
-              "VOA"
-            ]
-          }
-        ],
-        "2025-10-04": [
-          {
-            "heure": "13:25",
-            "attributs": [
-              "VOA"
-            ]
-          },
-          {
-            "heure": "19:25",
-            "attributs": [
-              "VOA"
-            ]
-          }
-        ],
-        "2025-10-05": [
-          {
-            "heure": "13:25",
-            "attributs": [
-              "VOA"
-            ]
-          },
-          {
-            "heure": "19:25",
-            "attributs": [
-              "DERNIÈRE",
-              "VOA"
-            ]
-          }
-        ]
-      },
-      "last_show": 1759706700
     }
   ]
 }
