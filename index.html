@@ -279,7 +279,7 @@
 						if (film.classification || film.content) {
     						const contentBlock = document.createElement("div");
 
-    						let cleanedContent = cleanFilmContent(film);
+    						let cleanedContent = cleanFilmContent(film, motsCles);
 
     						// Ajout du rating visuel
     						if (film.classification) {
