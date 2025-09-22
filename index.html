@@ -404,6 +404,9 @@
   							const synopsisContainer = document.createElement("div");
   							synopsisContainer.className = "synopsis-container";
 
+							const synopsisWrapper = document.createElement("div");
+							synopsisWrapper.className = "synopsis-wrapper";							
+
   							// Formater le synopsis avec <strong>
   							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
@@ -421,12 +424,11 @@
     							toggleIcon.innerHTML = synopsisText.classList.contains("clamp") ? "▼" : "▲";
   							});
 
-  							// ✅ Ajouter l’icône à la fin du paragraphe
-  							synopsisText.appendChild(toggleIcon);
-
   							// Assembler
-  							synopsisContainer.appendChild(synopsisText);
-  							details.appendChild(synopsisContainer);
+							synopsisWrapper.appendChild(synopsisText);
+							synopsisWrapper.appendChild(toggleIcon);
+							synopsisContainer.appendChild(synopsisWrapper);
+							details.appendChild(synopsisContainer);
 						}
 
 						card.appendChild(details);
