@@ -191,6 +191,7 @@ h1 {
 	background-color: #ccc;
 	color: #666;
 	padding: 5px 10px;
+    vertical-align: middle;	
 }
 .attributs-label {
 	display: inline-block;
@@ -263,6 +264,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
