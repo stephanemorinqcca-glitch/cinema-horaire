@@ -415,9 +415,10 @@
   							// Icône triangle ▼▲
   							const toggleIcon = document.createElement("span");
   							toggleIcon.className = "toggle-icon";
+							toggleIcon.innerHTML = "▼"; // ✅ contenu direct
   							toggleIcon.addEventListener("click", () => {
     							synopsisText.classList.toggle("clamp");
-    							toggleIcon.classList.toggle("rotate");
+    							toggleIcon.innerHTML = synopsisText.classList.contains("clamp") ? "▼" : "▲";
   							});
 
   							// ✅ Ajouter l’icône à la fin du paragraphe
