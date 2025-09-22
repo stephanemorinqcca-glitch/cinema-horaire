@@ -553,7 +553,7 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
 
 // ✅ Gère l'affichage du bouton "Ouvrir/Fermer" selon la taille de l'écran
 function handleResize() {
-    const isSmallScreen = window.innerWidth <= 400;
+    const isSmallScreen = window.innerWidth <= 600;
     document.querySelectorAll('.toggle-btn').forEach(btn => {
         btn.classList.toggle('hidden', !isSmallScreen);
     });
