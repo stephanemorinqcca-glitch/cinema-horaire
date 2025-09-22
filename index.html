@@ -183,6 +183,41 @@
   				return { dateStr, hour, minute };
 			}
 
+			function styliserAttributs(attributs, attributsCouleurs) {
+    			const fragment = document.createDocumentFragment();
+
+    			attributs.forEach(attr => {
+        			const span = document.createElement("span");
+        			span.textContent = attr;
+        			span.className = "attributs-label"; // classe CSS par défaut
+
+        			if (attr === "COMPLET") {
+            			// Style spécial pour COMPLET
+            			span.style.backgroundColor = "red";
+            			span.style.color = "white";
+            			span.style.padding = "4px 8px";
+            			span.style.marginRight = "5px";
+            			span.style.borderRadius = "0";
+            			span.style.display = "inline-block";
+            			span.style.fontWeight = "bold";
+        			} else if (attributsCouleurs[attr]) {
+            			// Style personnalisé depuis la légende
+            			const couleur = attributsCouleurs[attr];
+            			span.style.backgroundColor = couleur.BackgroundColor || "#ccc";
+            			span.style.color = couleur.FontColor || "#000";
+            			span.style.padding = "4px 8px";
+            			span.style.marginRight = "5px";
+            			span.style.borderRadius = "4px";
+            			span.style.display = "inline-block";
+        			}
+        			// Sinon, on garde le style par défaut via la classe CSS
+
+        			fragment.appendChild(span);
+    			});
+
+    			return fragment;
+			}
+	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
 				.then((response) => response.json())
@@ -211,6 +246,13 @@
     					wrapper.appendChild(badge);
     					wrapper.appendChild(description);
     					legendContainer.appendChild(wrapper);
+
+						
+					    // Enregistre la couleur pour réutilisation
+    					attributsCouleurs[attr.ShortName] = {
+        					backgroundColor: attr.BackgroundColor || defaultBackgroundColor,
+        					fontColor: attr.FontColor || defaultFontColor
+    					};
 					});
 
 					const container = document.getElementById("films");
@@ -440,27 +482,8 @@
 
     							seanceLabel.appendChild(horaireLabel);
 
-    							if (attributs.length > 0) {
-        							const attributsLabel = document.createElement("span");
-        							attributsLabel.className = "attributs-label";
-        							// attributsLabel.textContent = attributs.join(" ").trim();
-									attributsLabel.innerHTML = attributs
-									    .map(attr => attr === "COMPLET" ? "<strong>COMPLET </strong>" : attr)
-    									.join(" ")
-    									.trim();
-
-        							if (estComplet) {
-         								attributsLabel.style.backgroundColor = "red";
-            							attributsLabel.style.color = "white";
-            							attributsLabel.style.padding = "4px 8px";
-            							attributsLabel.style.display = "inline-block";
-            							attributsLabel.style.verticalAlign = "middle";
-            							attributsLabel.style.borderRadius = "0"; // coins carrés
-            							attributsLabel.style.height = "100%";
-        							}
-
-        							seanceLabel.appendChild(attributsLabel);
-    							}		
+								const attributsFragment = styliserAttributs(attributs, attributsCouleurs);
+								seanceLabel.appendChild(attributsFragment);
 
     							horairesDiv.appendChild(seanceLabel);
 							});
