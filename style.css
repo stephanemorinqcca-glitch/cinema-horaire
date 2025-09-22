@@ -60,7 +60,7 @@ p.textlegende {
     background-color: #eee;
     color: #666;
     padding: 5px 5px;
-    margin: 10px 0;
+    margin: 5px 0;
     width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
@@ -265,6 +265,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
