@@ -52,7 +52,7 @@ header {
 
 .legende-container {
     display: flex;
-    flex-direction: column; /* empile les lignes */
+    flex-wrap: wrap; /* Permet le retour à la ligne */
     gap: 5px;
 }
 
@@ -69,13 +69,12 @@ p.textlegende {
 .textlegende {
     white-space: nowrap;       /* ← empêche le retour à la ligne */
     overflow: hidden;          /* ← masque le débordement */
-    text-overflow: ellipsis;   /* ← ajoute "..." si le texte dépasse */
     font-size: 14px;
     padding: 5px 5px;
     margin: 5px 0;
-    width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
+	width: auto;
 }
 
 .badge {
@@ -265,6 +264,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
