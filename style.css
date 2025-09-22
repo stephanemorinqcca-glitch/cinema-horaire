@@ -61,7 +61,9 @@ p.textlegende {
     margin: 5px 0;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 4px;	
+    word-wrap: break-word; /* permet de couper les mots trop longs */
+    white-space: normal;   /* assure que le texte peut aller à la ligne */
 }
 
 .textlegende {
@@ -264,6 +266,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
