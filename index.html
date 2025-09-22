@@ -93,28 +93,23 @@
 	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film, motsCles = []) {
-    			// Vérification de l'objet film
     			if (!film || typeof film !== "object") {
-        			console.warn("Objet film invalide:", film);
+        			console.warn("Film invalide:", film);
         			return "";
-    			}
+    			}		
 
-    			// Sécurité sur motsCles
     			const motsInterdits = Array.isArray(motsCles) ? motsCles : [];
-
-    			// Extraction et nettoyage du champ content
     			const contenu = typeof film.content === "string" ? film.content : "";
+
     			let contentArray = contenu
-        			.split("\n") // les contenus sont séparés par des sauts de ligne
+        			.split("\n")
         			.map((champ) => champ.trim())
         			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
-    			// Formatage de la durée
     			if (typeof film.duree === "number" && !isNaN(film.duree)) {
         			const heures = Math.floor(film.duree / 60);
         			const minutes = film.duree % 60;
-        			const dureeStr = `Durée ${heures}h${minutes.toString().padStart(2, "0")}`;
-        			contentArray.unshift(dureeStr);
+        			contentArray.unshift(`Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
     			}
 
     			return contentArray.join(" | ");
