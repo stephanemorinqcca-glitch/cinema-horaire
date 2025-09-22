@@ -404,43 +404,26 @@
   							const synopsisContainer = document.createElement("div");
   							synopsisContainer.className = "synopsis-container";
 
-  							// Extraire les passages importants
-  							const importantMatches = [...film.synopsis.matchAll(/\*\*(.*?)\*\*/g)];
-  							const importantText = importantMatches.map(match => `<strong>${match[1]}</strong>`).join(' ');
-
   							// Formater le synopsis avec <strong>
   							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
-  							// Créer la version courte (4 lignes)
-  							const shortText = document.createElement("p");
-  							shortText.className = "synopsis-short";
-  							shortText.innerHTML = formattedSynopsis;
-
-  							// Créer le bloc des passages importants (hors clamp)
-  							const importantBlock = document.createElement("p");
-  							importantBlock.className = "synopsis-important";
-  							importantBlock.innerHTML = importantText;
-
-  							// Créer la version complète
-  							const fullText = document.createElement("p");
-  							fullText.className = "synopsis-full hidden";
-  							fullText.innerHTML = formattedSynopsis;
+  							// Créer le paragraphe unique
+  							const synopsisText = document.createElement("p");
+  							synopsisText.className = "synopsis-text clamp"; // clamp appliqué par défaut
+  							synopsisText.innerHTML = formattedSynopsis;
 
   							// Icône triangle ▼▲
   							const toggleIcon = document.createElement("span");
-  							toggleIcon.className = "toggle-icon hidden";
+  							toggleIcon.className = "toggle-icon";
   							toggleIcon.innerHTML = " ▼";
-  							toggleIcon.style.cursor = "pointer";
   							toggleIcon.addEventListener("click", () => {
-    							fullText.classList.toggle("hidden");
-    							toggleIcon.innerHTML = fullText.classList.contains("hidden") ? " ▼" : " ▲";
-								toggleIcon.classList.toggle("rotate");
+    							synopsisText.classList.toggle("clamp");
+    							toggleIcon.innerHTML = synopsisText.classList.contains("clamp") ? " ▼" : " ▲";
+    							toggleIcon.classList.toggle("rotate");
   							});
 
   							// Assembler
-  							synopsisContainer.appendChild(shortText);
-  							if (importantText) synopsisContainer.appendChild(importantBlock);
-  							synopsisContainer.appendChild(fullText);
+  							synopsisContainer.appendChild(synopsisText);
   							synopsisContainer.appendChild(toggleIcon);
   							details.appendChild(synopsisContainer);
 						}
@@ -568,8 +551,21 @@ function handleResize() {
   });
 }
 
-window.addEventListener('resize', handleResize);
-window.addEventListener('load', handleResize);
+function applyClamp() {
+  const isSmallScreen = window.innerWidth <= 600;
+  document.querySelectorAll('.synopsis-text').forEach(p => {
+    p.classList.toggle('clamp', isSmallScreen);
+  });
+}
+window.addEventListener('resize', () => {
+  applyClamp();
+  handleResize();
+});
+
+window.addEventListener('load', () => {
+  applyClamp();
+  handleResize();
+});
 
 </script></body>
 </html>
