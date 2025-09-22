@@ -93,7 +93,7 @@
 	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film) {
-				if (film.content === undefined) return "";
+    			if (!film || typeof film.content !== "string") return "";
 
 				let contentArray = film.content
 					.split("|")
