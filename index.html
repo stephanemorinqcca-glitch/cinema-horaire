@@ -134,6 +134,11 @@
     				base = "GDeconseilleauxjeunesenfants";
 				}
 
+    			// ✅ Ajout de la vérification pour éviter base vide
+    			if (!base) {
+        			base = "EC";
+    			}
+				
 				return base + "RGB.jpg";
 			}
 
