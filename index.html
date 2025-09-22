@@ -409,21 +409,22 @@
 
   							// Créer le paragraphe unique
   							const synopsisText = document.createElement("p");
-  							synopsisText.className = "synopsis-text clamp"; // clamp appliqué par défaut
+  							synopsisText.className = "synopsis-text clamp";
   							synopsisText.innerHTML = formattedSynopsis;
 
   							// Icône triangle ▼▲
   							const toggleIcon = document.createElement("span");
   							toggleIcon.className = "toggle-icon";
-  							toggleIcon.innerHTML = " ▼";
-							toggleIcon.addEventListener("click", () => {
-							  synopsisText.classList.toggle("clamp");
-  								toggleIcon.classList.toggle("rotate");
-							});
+  							toggleIcon.addEventListener("click", () => {
+    							synopsisText.classList.toggle("clamp");
+    							toggleIcon.classList.toggle("rotate");
+  							});
+
+  							// ✅ Ajouter l’icône à la fin du paragraphe
+  							synopsisText.appendChild(toggleIcon);
 
   							// Assembler
   							synopsisContainer.appendChild(synopsisText);
-  							synopsisContainer.appendChild(toggleIcon);
   							details.appendChild(synopsisContainer);
 						}
 
