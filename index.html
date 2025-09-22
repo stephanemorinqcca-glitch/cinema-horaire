@@ -103,24 +103,26 @@
 
     			let contentArray = [];
 
+    			// Ajout de la durée si disponible
     			const duree = Number(film.duree);
     			if (!isNaN(duree)) {
         			const heures = Math.floor(duree / 60);
         			const minutes = duree % 60;
-        			const dureeStr = `Durée ${heures}h${minutes.toString().padStart(2, "0")}`;
-        			contentArray.push(dureeStr);
+        			contentArray.push(`Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
     			}
 
+    			// Si le contenu est vide, on retourne uniquement la durée
     			if (contenu === "") {
         			return contentArray.join(" | ");
     			}
 
-    			const contenuNettoye = contenu
+    			// Garder uniquement les éléments qui ne sont pas des mots-clés
+    			const contenuFiltré = contenu
         			.split("\n")
         			.map((champ) => champ.trim())
-        			.filter((champ) => champ !== "" && !motsInterdits.some(motCle => champ.includes(motCle)));
+        			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
-    			return [...contentArray, ...contenuNettoye].join(" | ");
+    			return [...contentArray, ...contenuFiltré].join(" | ");
 			}
 
 			// ✅ Génération du nom de fichier image
