@@ -169,18 +169,18 @@ h1 {
   text-align: justify;
 }
 
+.synopsis-wrapper {
+  position: relative;
+}
+
 /* Paragraphe principal */
 .synopsis-text {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
   white-space: pre-wrap;
   text-align: justify;
   font-size: 12px;
   margin: 15px 0;
   transition: all 0.3s ease;
-  gap: 8px;
+  padding-right: 25px; /* espace réservé à droite */
 }
 
 /* Tronquage à 4 lignes */
@@ -202,14 +202,13 @@ h1 {
 
 /* Icône ▼ / ▲ positionnée en bas à droite */
 .toggle-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
   font-weight: bold;
   cursor: pointer;
-  align-self: flex-end;
-  flex-shrink: 0;
-  padding-left: 4px;
-  font-size: 12px;
-  line-height: 1;
-  transition: transform 0.3s ease;
+  background: linear-gradient(to right, transparent, #fff 60%);
 }
 
 /* Bouton alternatif (si utilisé ailleurs) */
@@ -351,6 +350,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
