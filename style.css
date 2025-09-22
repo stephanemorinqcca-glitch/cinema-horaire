@@ -136,7 +136,7 @@ p.textlegende {
 }
 
 h1 {
-	font-size: clamp(18px, 5vw, 32px); /* taille fluide entre 18px et 32px */
+	font-size: clamp(24px, 5vw, 32px); /* taille fluide entre 24px et 32px */
     margin: 0 5px 0 0; /* haut, droite, bas, gauche */
 }
 
@@ -277,6 +277,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
