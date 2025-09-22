@@ -189,6 +189,9 @@ h1 {
 }
 
 @media (min-width: 601px) {
+  .synopsis-container {
+    max-width: 100%;
+  }
   .synopsis-short {
     display: none;
   }
@@ -196,6 +199,9 @@ h1 {
     display: block !important;
   }
   .toggle-btn {
+    display: none !important;
+  }
+  .toggle-icon {
     display: none !important;
   }
 }
@@ -308,6 +314,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
