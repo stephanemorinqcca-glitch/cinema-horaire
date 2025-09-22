@@ -117,12 +117,12 @@
     			}
 
     			// Garder uniquement les éléments qui ne sont pas des mots-clés
-    			const contenuFiltré = contenu
+    			const contenuFiltre = contenu
         			.split("\n")
         			.map((champ) => champ.trim())
         			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
-    			return [...contentArray, ...contenuFiltré].join(" | ");
+    			return [...contentArray, ...contenuFiltre].join(" | ");
 			}
 
 			// ✅ Génération du nom de fichier image
