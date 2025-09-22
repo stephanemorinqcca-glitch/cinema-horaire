@@ -56,12 +56,20 @@ header {
     gap: 5px;
 }
 
+.textlegende p {
+    background-color: #eee;
+    color: #666;
+    padding: 5px;
+    margin: 0;
+}
+
 .textlegende {
     display: flex;
     align-items: center;
     flex-wrap: nowrap; /* empêche le retour à la ligne */
     font-size: 14px;
-    padding: 5px;
+    padding: 2px 0;
+	margin: 0;
 }
 
 .badge {
@@ -251,6 +259,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
