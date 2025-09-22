@@ -162,18 +162,23 @@ h1 {
   text-align: justify;
 }
 
-.synopsis-short {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  white-space: normal;
+/* Conteneur du synopsis */
+.synopsis-container {
+  max-width: 400px;
+  margin: 10px auto;
   text-align: justify;
-  font-size: 12px;
-  margin: 10px 0;
 }
 
-/* ✅ Classe dynamique pour tronquer à 4 lignes */
+/* Paragraphe principal */
+.synopsis-text {
+  white-space: pre-wrap;
+  text-align: justify;
+  font-size: 12px;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+}
+
+/* Tronquage à 4 lignes */
 .clamp {
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -181,6 +186,7 @@ h1 {
   overflow: hidden;
 }
 
+/* Passages importants (gras extraits) */
 .synopsis-important {
   font-size: 12px;
   font-weight: bold;
@@ -189,31 +195,21 @@ h1 {
   text-align: justify;
 }
 
+/* Icône ▼ / ▲ */
 .toggle-icon {
   color: #444;
   font-weight: bold;
   margin-left: 5px;
   display: inline-block;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.synopsis-container {
-  max-width: 400px;
-  margin: 10px auto;
-  text-align: justify;
+.toggle-icon.rotate {
+  transform: rotate(180deg);
 }
 
-.synopsis-container p {
-  white-space: pre-wrap;
-  text-align: justify;
-  font-size: 12px;
-  margin: 15px 0;
-}
-
-.hidden {
-  display: none;
-}
-
+/* Bouton alternatif (si utilisé ailleurs) */
 .toggle-btn {
   background-color: #444;
   color: white;
@@ -223,21 +219,24 @@ h1 {
   margin-top: 5px;
 }
 
+/* Masquage générique */
+.hidden {
+  display: none;
+}
+
+/* Comportement responsive */
 @media (min-width: 601px) {
-  .synopsis-container {
-    max-width: 100%;
+  .clamp {
+    -webkit-line-clamp: unset;
+    display: block;
+    overflow: visible;
   }
-  .synopsis-short {
-    display: none;
-  }
-  .synopsis-full {
-    display: block !important;
-  }
+  .toggle-icon,
   .toggle-btn {
     display: none !important;
   }
-  .toggle-icon {
-    display: none !important;
+  .synopsis-container {
+    max-width: 100%;
   }
 }
 
@@ -349,6 +348,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
