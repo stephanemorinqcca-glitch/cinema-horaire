@@ -198,7 +198,7 @@ h1 {
 	white-space: break-spaces;
 	background-color: #eee;
 	color: #666;
-	padding: 5px 10px;
+	padding: 5px 5px;
 	border-radius: 0; /* coins carrés */
 	vertical-align: middle;
 }
@@ -264,6 +264,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
