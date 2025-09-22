@@ -162,7 +162,7 @@ h1 {
 
 .synopsis {
     white-space: pre-wrap;
-    margin: 10px 5px 10px 0; /* haut, droite, bas, gauche */
+    margin: 0 0 0 0; /* haut, droite, bas, gauche */
     text-align: justify;
     font-size: 12px;
 }
@@ -275,6 +275,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
