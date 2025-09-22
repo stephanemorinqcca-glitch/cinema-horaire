@@ -550,6 +550,16 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
         document.getElementById("trailerFrame").src = "";
     }
 });
+
+// ✅ Gère l'affichage du bouton "Ouvrir/Fermer" selon la taille de l'écran
+function handleResize() {
+    const isSmallScreen = window.innerWidth <= 400;
+    document.querySelectorAll('.toggle-btn').forEach(btn => {
+        btn.classList.toggle('hidden', !isSmallScreen);
+    });
+}
+window.addEventListener('resize', handleResize);
+window.addEventListener('load', handleResize);
 </script></body>
 </html>
 
