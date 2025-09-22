@@ -16,13 +16,6 @@
       "ShowOnSessionsWithNoComps": false
     },
     {
-      "ShortName": "SPECTACLE",
-      "Description": "Enregistré",
-      "FontColor": "#ffffff",
-      "BackgroundColor": "#000000",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
       "ShortName": "VOA",
       "Description": "Version Originale Anglaise",
       "FontColor": "#666666",
@@ -650,14 +643,12 @@
           {
             "heure": "13:25",
             "attributs": [
-              "SPECTACLE",
               "VOA"
             ]
           },
           {
             "heure": "19:25",
             "attributs": [
-              "SPECTACLE",
               "VOA"
             ]
           }
@@ -666,14 +657,12 @@
           {
             "heure": "13:25",
             "attributs": [
-              "SPECTACLE",
               "VOA"
             ]
           },
           {
             "heure": "19:25",
             "attributs": [
-              "SPECTACLE",
               "VOA"
             ]
           }
@@ -682,8 +671,6 @@
           {
             "heure": "13:25",
             "attributs": [
-              "COMPLET",
-              "SPECTACLE",
               "VOA"
             ]
           },
@@ -691,7 +678,6 @@
             "heure": "19:25",
             "attributs": [
               "DERNIÈRE",
-              "SPECTACLE",
               "VOA"
             ]
           }
