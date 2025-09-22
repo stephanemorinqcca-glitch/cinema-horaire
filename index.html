@@ -402,10 +402,7 @@
 						
 						if (film.synopsis) {
   							const synopsisContainer = document.createElement("div");
-  							synopsisContainer.className = "synopsis-container";
-
-							const synopsisWrapper = document.createElement("div");
-							synopsisWrapper.className = "synopsis-wrapper";							
+  							synopsisContainer.className = "synopsis-container";		
 
   							// Formater le synopsis avec <strong>
   							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
@@ -425,10 +422,9 @@
   							});
 
   							// Assembler
-							synopsisWrapper.appendChild(synopsisText);
-							synopsisWrapper.appendChild(toggleIcon);
-							synopsisContainer.appendChild(synopsisWrapper);
-							details.appendChild(synopsisContainer);
+  							synopsisContainer.appendChild(synopsisText);
+  							synopsisContainer.appendChild(toggleIcon);
+  							details.appendChild(synopsisContainer);
 						}
 
 						card.appendChild(details);
