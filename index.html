@@ -226,6 +226,8 @@
 					const defaultFontColor = "#666666";
 					const defaultBackgroundColor = "#eeeeee";
 
+					onst attributsCouleurs = {}; // ← à utiliser dans styliserAttribut
+
 					data.legende.forEach((attr) => {
     					const wrapper = document.createElement("span");
     					wrapper.className = "textlegende";
@@ -247,7 +249,6 @@
     					wrapper.appendChild(description);
     					legendContainer.appendChild(wrapper);
 
-						
 					    // Enregistre la couleur pour réutilisation
     					attributsCouleurs[attr.ShortName] = {
         					backgroundColor: attr.BackgroundColor || defaultBackgroundColor,
