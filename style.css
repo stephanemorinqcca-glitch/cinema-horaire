@@ -65,6 +65,12 @@ header {
 	margin-right: 5px;
 }
 
+.description {
+    background-color: transparent;
+    color: #000;
+    margin-left: 5px;
+}
+
 .card {
 	position: relative;
 	display: flex;
@@ -239,6 +245,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
