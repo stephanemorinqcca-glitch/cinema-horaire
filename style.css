@@ -38,6 +38,14 @@ header {
 	margin: 10px 0 5px 0;
 }
 
+#films {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word; /* casse les mots trop longs */
+    word-break: break-word;    /* casse les mots si nécessaire */
+    white-space: normal;       /* permet les retours à la ligne */
+}
+
 @media (min-width: 900px) {
 	#legende {
   	  	display: flex;
@@ -266,6 +274,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
