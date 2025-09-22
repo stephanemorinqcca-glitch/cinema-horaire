@@ -201,7 +201,7 @@ h1 {
 /* Icône ▼ / ▲ positionnée en bas à droite */
 .toggle-icon {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   right: 0;
   font-size: 12px;
   font-weight: bold;
@@ -349,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
