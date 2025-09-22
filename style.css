@@ -162,11 +162,45 @@ h1 {
   text-align: justify;
 }
 
-.synopsis {
-    white-space: pre-wrap;
-    margin: 15px 0 15px 0; /* haut, droite, bas, gauche */
-    text-align: justify;
-    font-size: 12px;
+/* 
+.synopsis { 
+    white-space: pre-wrap; 
+    margin: 15px 0 15px 0;
+    /* haut, droite, bas, gauche */
+    text-align: justify; 
+    font-size: 12px; 
+} 
+*/
+
+.synopsis-container {
+  max-width: 400px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggle-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+@media (min-width: 401px) {
+  .synopsis-short {
+    display: none;
+  }
+  .synopsis-full {
+    display: block !important;
+  }
+  .toggle-btn {
+    display: none !important;
+  }
 }
 
 .seances {
@@ -277,6 +311,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
