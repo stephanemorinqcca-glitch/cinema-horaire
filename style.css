@@ -202,10 +202,17 @@ h1 {
   margin-left: 5px;
   display: inline-block;
   cursor: pointer;
+  /* ✅ Retirer cette ligne pour éviter double rotation */
+  /* transition: transform 0.3s ease; */
+}
+
+.toggle-icon::before {
+  content: "▼";
+  display: inline-block;
   transition: transform 0.3s ease;
 }
 
-.toggle-icon.rotate {
+.toggle-icon.rotate::before {
   transform: rotate(180deg);
 }
 
@@ -348,6 +355,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
