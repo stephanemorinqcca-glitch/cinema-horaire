@@ -175,6 +175,7 @@ h1 {
   text-align: justify;
   font-size: 12px;
   margin: 15px 0;
+  position: relative;
   transition: all 0.3s ease;
 }
 
@@ -197,20 +198,20 @@ h1 {
 
 /* Icône ▼ / ▲ */
 .toggle-icon {
-  float: right;
-  margin-left: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease;
+  padding: 2px 6px;
+  background: linear-gradient(to right, transparent, #fff 60%);
 }
 
 .toggle-icon::before {
   content: "▼";
   display: inline-block;
-}
-
-.toggle-icon.rotate::before {
-  transform: rotate(180deg);
+  transition: transform 0.3s ease;
 }
 
 .toggle-icon.rotate::before {
@@ -356,6 +357,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
