@@ -67,12 +67,15 @@ p.textlegende {
 }
 
 .textlegende {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap; /* empêche le retour à la ligne */
+    white-space: nowrap;       /* ← empêche le retour à la ligne */
+    overflow: hidden;          /* ← masque le débordement */
+    text-overflow: ellipsis;   /* ← ajoute "..." si le texte dépasse */
     font-size: 14px;
-    padding: 2px 0;
-	margin: 0;
+    padding: 5px 5px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 .badge {
@@ -262,6 +265,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
