@@ -191,9 +191,9 @@ h1 {
 
 /* Passages importants (gras extraits) */
 .synopsis-important {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
-  color: #000;
+  color: #222;
   margin: 5px 0;
   text-align: justify;
 }
@@ -349,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
