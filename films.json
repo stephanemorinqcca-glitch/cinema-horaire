@@ -14,6 +14,20 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "SPECTACLE",
+      "Description": "Enregistré",
+      "FontColor": "#ffffff",
+      "BackgroundColor": "#000000",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VOA",
+      "Description": "Version Originale Anglaise",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
     }
   ],
   "films": [
@@ -635,31 +649,50 @@
         "2025-10-03": [
           {
             "heure": "13:25",
-            "attributs": []
+            "attributs": [
+              "SPECTACLE",
+              "VOA"
+            ]
           },
           {
             "heure": "19:25",
-            "attributs": []
+            "attributs": [
+              "SPECTACLE",
+              "VOA"
+            ]
           }
         ],
         "2025-10-04": [
           {
             "heure": "13:25",
-            "attributs": []
+            "attributs": [
+              "SPECTACLE",
+              "VOA"
+            ]
           },
           {
             "heure": "19:25",
-            "attributs": []
+            "attributs": [
+              "SPECTACLE",
+              "VOA"
+            ]
           }
         ],
         "2025-10-05": [
           {
             "heure": "13:25",
-            "attributs": []
+            "attributs": [
+              "SPECTACLE",
+              "VOA"
+            ]
           },
           {
             "heure": "19:25",
-            "attributs": []
+            "attributs": [
+              "DERNIÈRE",
+              "SPECTACLE",
+              "VOA"
+            ]
           }
         ]
       },
