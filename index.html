@@ -405,40 +405,36 @@
   							synopsisContainer.className = "synopsis-container";
 
   							// Formater le synopsis avec <strong>
-  							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  							const formatted = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
-  							// Extraire les passages importants (en <strong>)
-  							const importantMatches = [...formattedSynopsis.matchAll(/<strong>(.*?)<\/strong>/g)];
-  							const importantText = importantMatches.map(match => `<strong>${match[1]}</strong>`).join(' ');
+  							// Séparer en phrases
+  							const sentences = formatted.split('. ');
+  							const firstPart = sentences.slice(0, 2).join('. ') + '.';
+  							const secondPart = sentences.slice(2).join('. ');
 
-  							// Extraire les deux premières phrases (hors balises HTML)
-  							const plainText = film.synopsis.replace(/\*\*(.*?)\*\*/g, "$1"); // retirer les **
- 							const shortSentences = plainText.split('. ').slice(0, 2).join('. ') + '…';
+  							// Créer les éléments
+  							const paragraph = document.createElement("p");
+  							paragraph.className = "synopsis-text";
+  							paragraph.innerHTML = firstPart;
 
-  							// Créer la version courte avec les passages importants
-  							const shortText = document.createElement("p");
-  							shortText.className = "synopsis-short";
-  							shortText.innerHTML = shortSentences + ' ' + importantText;
+  							const continuation = document.createElement("span");
+  							continuation.className = "synopsis-continuation hidden";
+  							continuation.innerHTML = ' ' + secondPart;
 
-  							// Créer la version complète
-  							const fullText = document.createElement("p");
-  							fullText.className = "synopsis-full hidden";
- 							fullText.innerHTML = formattedSynopsis;
-
-  							// Bouton ouvrir/fermer
-  							const toggleBtn = document.createElement("button");
-  							toggleBtn.className = "toggle-btn hidden";
-  							toggleBtn.textContent = "Ouvrir";
-  							toggleBtn.addEventListener("click", () => {
-    							fullText.classList.toggle("hidden");
-    							toggleBtn.textContent = fullText.classList.contains("hidden") ? "Ouvrir" : "Fermer";
+  							const toggleIcon = document.createElement("span");
+  							toggleIcon.className = "toggle-icon";
+  							toggleIcon.innerHTML = " ▼";
+  							toggleIcon.style.cursor = "pointer";
+  							toggleIcon.addEventListener("click", () => {
+    							continuation.classList.toggle("hidden");
+    							toggleIcon.innerHTML = continuation.classList.contains("hidden") ? " ▼" : " ▲";
   							});
 
-  							// Ajouter les éléments
-  							synopsisContainer.appendChild(shortText);
-  							synopsisContainer.appendChild(fullText);
-  							synopsisContainer.appendChild(toggleBtn);
- 							details.appendChild(synopsisContainer);
+  							// Assembler
+  							paragraph.appendChild(continuation);
+  							paragraph.appendChild(toggleIcon);
+  							synopsisContainer.appendChild(paragraph);
+  							details.appendChild(synopsisContainer);
 						}
 
 						card.appendChild(details);
