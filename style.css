@@ -41,8 +41,8 @@ header {
 #films {
     width: 100%;
     box-sizing: border-box;
-    overflow-wrap: break-word; /* casse les mots trop longs */
-    word-break: break-word;    /* casse les mots si nécessaire */
+    /* overflow-wrap: break-word; /* casse les mots trop longs */
+    /* word-break: break-word;    /* casse les mots si nécessaire */
     white-space: normal;       /* permet les retours à la ligne */
 }
 
@@ -157,6 +157,7 @@ h1 {
   margin-top: 12px;
   margin-bottom: 5px;
   font-weight: normal;
+  text-align: justify;
 }
 
 .synopsis {
@@ -274,6 +275,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
