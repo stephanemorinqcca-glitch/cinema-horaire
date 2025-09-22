@@ -171,11 +171,11 @@ h1 {
 
 /* Paragraphe principal */
 .synopsis-text {
+  position: relative;
   white-space: pre-wrap;
   text-align: justify;
   font-size: 12px;
   margin: 15px 0;
-  position: relative;
   transition: all 0.3s ease;
 }
 
@@ -196,16 +196,16 @@ h1 {
   text-align: justify;
 }
 
-/* Icône ▼ / ▲ */
+/* Icône ▼ / ▲ positionnée en bas à droite */
 .toggle-icon {
   position: absolute;
   bottom: 0;
   right: 0;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.3s ease;
   padding: 2px 6px;
   background: linear-gradient(to right, transparent, #fff 60%);
+  transition: transform 0.3s ease;
 }
 
 .toggle-icon::before {
@@ -357,6 +357,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
