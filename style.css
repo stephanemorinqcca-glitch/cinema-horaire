@@ -161,21 +161,18 @@ h1 {
   font-weight: normal;
   text-align: justify;
 }
-
-/* 
-.synopsis { 
-    white-space: pre-wrap; 
-    margin: 15px 0 15px 0;
-    /* haut, droite, bas, gauche */
-    text-align: justify; 
-    font-size: 12px; 
-} 
-*/
-
+ 
 .synopsis-container {
   max-width: 400px;
   margin: 10px auto;
-  font-family: sans-serif;
+  text-align: justify;
+}
+
+.synopsis-container p {
+  white-space: pre-wrap;
+  text-align: justify;
+  font-size: 12px;
+  margin: 15px 0;
 }
 
 .hidden {
@@ -311,6 +308,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
