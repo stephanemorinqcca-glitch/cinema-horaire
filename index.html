@@ -404,36 +404,43 @@
   							const synopsisContainer = document.createElement("div");
   							synopsisContainer.className = "synopsis-container";
 
+  							// Extraire les passages importants
+  							const importantMatches = [...film.synopsis.matchAll(/\*\*(.*?)\*\*/g)];
+  							const importantText = importantMatches.map(match => `<strong>${match[1]}</strong>`).join(' ');
+
   							// Formater le synopsis avec <strong>
-  							const formatted = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
-  							// Séparer en phrases
-  							const sentences = formatted.split('. ');
-  							const firstPart = sentences.slice(0, 2).join('. ') + '.';
-  							const secondPart = sentences.slice(2).join('. ');
+  							// Créer la version courte (4 lignes)
+  							const shortText = document.createElement("p");
+  							shortText.className = "synopsis-short";
+  							shortText.innerHTML = formattedSynopsis;
 
-  							// Créer les éléments
-  							const paragraph = document.createElement("p");
-  							paragraph.className = "synopsis-text";
-  							paragraph.innerHTML = firstPart;
+  							// Créer le bloc des passages importants (hors clamp)
+  							const importantBlock = document.createElement("p");
+  							importantBlock.className = "synopsis-important";
+  							importantBlock.innerHTML = importantText;
 
-  							const continuation = document.createElement("span");
-  							continuation.className = "synopsis-continuation hidden";
-  							continuation.innerHTML = ' ' + secondPart;
+  							// Créer la version complète
+  							const fullText = document.createElement("p");
+  							fullText.className = "synopsis-full hidden";
+  							fullText.innerHTML = formattedSynopsis;
 
+  							// Icône triangle ▼▲
   							const toggleIcon = document.createElement("span");
-  							toggleIcon.className = "toggle-icon";
+  							toggleIcon.className = "toggle-icon hidden";
   							toggleIcon.innerHTML = " ▼";
   							toggleIcon.style.cursor = "pointer";
   							toggleIcon.addEventListener("click", () => {
-    							continuation.classList.toggle("hidden");
-    							toggleIcon.innerHTML = continuation.classList.contains("hidden") ? " ▼" : " ▲";
+    							fullText.classList.toggle("hidden");
+    							toggleIcon.innerHTML = fullText.classList.contains("hidden") ? " ▼" : " ▲";
   							});
 
   							// Assembler
-  							paragraph.appendChild(continuation);
-  							paragraph.appendChild(toggleIcon);
-  							synopsisContainer.appendChild(paragraph);
+  							synopsisContainer.appendChild(shortText);
+  							if (importantText) synopsisContainer.appendChild(importantBlock);
+  							synopsisContainer.appendChild(fullText);
+  							synopsisContainer.appendChild(toggleIcon);
   							details.appendChild(synopsisContainer);
 						}
 
