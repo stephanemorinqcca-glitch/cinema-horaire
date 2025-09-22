@@ -35,7 +35,6 @@ header {
 
 #legende {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
     margin-top: 10px;
 }
 
@@ -263,6 +262,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
