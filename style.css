@@ -177,6 +177,7 @@ h1 {
   font-size: 12px;
   margin: 15px 0;
   transition: all 0.3s ease;
+  padding-bottom: 20px; /* ✅ espace réservé pour la flèche */
 }
 
 /* Tronquage à 4 lignes */
@@ -357,6 +358,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
