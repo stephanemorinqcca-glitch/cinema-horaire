@@ -212,16 +212,6 @@ h1 {
   transition: transform 0.3s ease;
 }
 
-.toggle-icon::before {
-  content: "▼";
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.toggle-icon.rotate::before {
-  transform: rotate(180deg);
-}
-
 /* Bouton alternatif (si utilisé ailleurs) */
 .toggle-btn {
   background-color: #444;
@@ -361,6 +351,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
