@@ -296,7 +296,7 @@
     						let cleanedContent = cleanFilmContent(film, motsCles);
 
     						// Ajout du rating visuel
-        					if (typeof film.classification === "string" && film.classification.trim() !== "" {
+							if (typeof film.classification === "string" && film.classification.trim() !== "") {
         						const rating = document.createElement("span");
         						rating.className = "rating";
         						rating.textContent = film.classification;
@@ -314,16 +314,16 @@
         						}
     						}
 
-    						// Vérifie les mots-clés si aucune classification trouvée
-    						if (classificationDetails === "") {
-        						motsCles.forEach((motCle) => {
-            						if (film.content.includes(motCle) && ratingDetails[motCle]) {
-                						classificationDetails = ratingDetails[motCle].description;
-                						classificationColor = ratingDetails[motCle].color;
-            						}
-        						});
-    						}
-
+							// Vérifie les mots-clés si aucune classification trouvée
+							if (classificationDetails === "" && typeof film.content === "string") {
+    							motsCles.forEach((motCle) => {
+        							if (film.content.includes(motCle) && ratingDetails[motCle]) {
+            							classificationDetails = ratingDetails[motCle].description;
+            							classificationColor = ratingDetails[motCle].color;
+        							}
+    							});
+							}
+							
     						// Ajout du contenu nettoyé
 							if (cleanedContent.trim() !== "") {
     							const content = document.createElement("span");
