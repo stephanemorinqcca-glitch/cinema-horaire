@@ -167,9 +167,9 @@ h1 {
   position: relative;
   width: 100%;
   max-width: 600px;
-  margin: 10px auto;
+  margin: 5px auto;
   text-align: justify;
-  padding-bottom: 25px; /* ✅ réserve de l’espace pour la flèche */
+  padding-bottom: 5px; /* ✅ réserve de l’espace pour la flèche */
 }
 
 /* Paragraphe principal */
@@ -201,8 +201,8 @@ h1 {
 /* Icône ▼ / ▲ positionnée en bas à droite */
 .toggle-icon {
   position: absolute;
-  bottom: 5px;
-  right: 10px;
+  bottom: 10px;
+  right: 0;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
@@ -349,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
