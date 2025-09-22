@@ -328,9 +328,7 @@
 							if (cleanedContent.trim() !== "") {
     							const content = document.createElement("span");
     							content.className = "content";
-    							content.textContent = cleanedContent.startsWith(" | ")
-        							? cleanedContent.slice(3)
-        							: cleanedContent;
+								content.textContent = cleanedContent;
     							contentBlock.appendChild(content);
 							}
 
