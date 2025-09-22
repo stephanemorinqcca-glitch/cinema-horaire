@@ -197,19 +197,20 @@ h1 {
 
 /* Icône ▼ / ▲ */
 .toggle-icon {
-  color: #444;
+  float: right;
+  margin-left: 10px;
   font-weight: bold;
-  margin-left: 5px;
-  display: inline-block;
   cursor: pointer;
-  /* ✅ Retirer cette ligne pour éviter double rotation */
-  /* transition: transform 0.3s ease; */
+  transition: transform 0.3s ease;
 }
 
 .toggle-icon::before {
   content: "▼";
   display: inline-block;
-  transition: transform 0.3s ease;
+}
+
+.toggle-icon.rotate::before {
+  transform: rotate(180deg);
 }
 
 .toggle-icon.rotate::before {
@@ -355,6 +356,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
