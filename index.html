@@ -93,21 +93,33 @@
 	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film) {
-    			if (!film || typeof film.content !== "string") return "";
+    			// Vérification de l'objet film
+    			if (!film || typeof film !== "object") {
+        			console.warn("Objet film invalide:", film);
+        			return "";
+    			}
 
-				let contentArray = film.content
-					.split("|")
-					.map((champ) => champ.trim())
-					.filter((champ) => champ !== "" && !motsCles.includes(champ));
+    			// Vérification du champ content
+    			const contenu = typeof film.content === "string" ? film.content : "";
+    
+    			// Sécurité sur motsCles
+    			const motsInterdits = Array.isArray(motsCles) ? motsCles : [];
 
-				// Formatage de la durée
-				if (film.duree && !isNaN(film.duree)) {
-					const heures = Math.floor(film.duree / 60);
-					const minutes = film.duree % 60;
-					contentArray.splice(0, 0, `Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
-				}
+    			// Nettoyage du contenu
+    			let contentArray = contenu
+        			.split("|")
+        			.map((champ) => champ.trim())
+        			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
-				return contentArray.join(" | ");
+    			// Formatage de la durée
+    			if (typeof film.duree === "number" && !isNaN(film.duree)) {
+        			const heures = Math.floor(film.duree / 60);
+        			const minutes = film.duree % 60;
+        			const dureeStr = `Durée ${heures}h${minutes.toString().padStart(2, "0")}`;
+        			contentArray.unshift(dureeStr);
+    			}
+
+    			return contentArray.join(" | ");
 			}
 
 			// ✅ Génération du nom de fichier image
