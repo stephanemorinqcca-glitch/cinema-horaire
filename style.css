@@ -164,6 +164,7 @@ h1 {
 
 /* Conteneur du synopsis */
 .synopsis-container {
+  width: 100%;
   max-width: 400px;
   margin: 10px auto;
   text-align: justify;
@@ -353,6 +354,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
