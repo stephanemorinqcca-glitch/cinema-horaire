@@ -202,9 +202,14 @@
             			span.style.fontWeight = "bold";
         			} else if (attributsCouleurs[attr]) {
             			// Style personnalisé depuis la légende
-            			const couleur = attributsCouleurs[attr];
-            			span.style.backgroundColor = couleur.BackgroundColor || "#eee";
-            			span.style.color = couleur.FontColor || "#666";
+						const couleur = attributsCouleurs[attr];
+						if (couleur) {
+    						span.style.backgroundColor = couleur.BackgroundColor || "#eee";
+    						span.style.color = couleur.FontColor || "#666";
+						} else {
+    						// Style par défaut si l'attribut n'est pas dans la légende
+    						span.className = "attributs-label"; // classe CSS définie dans style.css
+						}
         			}
         			// Sinon, on garde le style par défaut via la classe CSS
 
