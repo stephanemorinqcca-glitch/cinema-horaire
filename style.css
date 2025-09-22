@@ -51,8 +51,6 @@ header {
 }
 
 .textlegende {
-    background-color: #f0f0f0;
-    color: #333;
     font-size: 14px;
     padding: 5px;
 	display: inline-block;
@@ -245,6 +243,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
