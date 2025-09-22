@@ -173,6 +173,22 @@ h1 {
   margin: 10px 0;
 }
 
+.synopsis-important {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0;
+  text-align: justify;
+}
+
+.toggle-icon {
+  color: #444;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
 .synopsis-container {
   max-width: 400px;
   margin: 10px auto;
@@ -325,6 +341,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
