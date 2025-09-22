@@ -644,7 +644,7 @@
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005022",
       "banniere": "",
       "bande_annonce": "https://www.youtube.com/watch?v=9YOfEeMVR9k",
-      "content": "| SPECTACLE",
+      "content": "| Spectacle musical",
       "horaire": {
         "2025-10-03": [
           {
@@ -682,7 +682,6 @@
           {
             "heure": "13:25",
             "attributs": [
-              "COMPLET",
               "SPECTACLE",
               "VOA"
             ]
