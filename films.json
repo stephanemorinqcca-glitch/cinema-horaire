@@ -616,6 +616,54 @@
         ]
       },
       "last_show": 1760051700
+    },
+    {
+      "id": "ST00001792",
+      "titre": "TAYLOR SWIFT: TOR PARTY OF A SHOW GIRL",
+      "OpeningDate": "2025-10-03",
+      "synopsis": "The Official Release Party of a Showgirl: Oct 3 - Oct 5 only in cinemas! You’ll get to see the exclusive world premiere of the music video for my new single “The Fate of Ophelia”, along with never before seen behind-the-scenes footage of how we made it, cut by cut explanations of what inspired this music, and the brand new lyric videos from my new album The Life of a Showgirl\r\n\r\n**Billet 25$, en vente au cinéma seulement pour la séance courante aux personnes présentes au moment de la vente.**",
+      "classification": "-",
+      "duree": 89,
+      "genre": "Musical",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005024",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005022",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=9YOfEeMVR9k",
+      "content": null,
+      "horaire": {
+        "2025-10-03": [
+          {
+            "heure": "13:25",
+            "attributs": []
+          },
+          {
+            "heure": "19:25",
+            "attributs": []
+          }
+        ],
+        "2025-10-04": [
+          {
+            "heure": "13:25",
+            "attributs": []
+          },
+          {
+            "heure": "19:25",
+            "attributs": []
+          }
+        ],
+        "2025-10-05": [
+          {
+            "heure": "13:25",
+            "attributs": []
+          },
+          {
+            "heure": "19:25",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1759706700
     }
   ]
 }
