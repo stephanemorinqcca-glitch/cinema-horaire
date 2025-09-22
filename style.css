@@ -174,13 +174,13 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  position: relative;
+  flex-wrap: wrap;
   white-space: pre-wrap;
   text-align: justify;
   font-size: 12px;
   margin: 15px 0;
   transition: all 0.3s ease;
-  gap: 10px;
+  gap: 8px;
 }
 
 /* Tronquage à 4 lignes */
@@ -202,11 +202,14 @@ h1 {
 
 /* Icône ▼ / ▲ positionnée en bas à droite */
 .toggle-icon {
-  flex-shrink: 0;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.3s ease;
   align-self: flex-end;
+  flex-shrink: 0;
+  padding-left: 4px;
+  font-size: 12px;
+  line-height: 1;
+  transition: transform 0.3s ease;
 }
 
 .toggle-icon::before {
@@ -358,6 +361,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
