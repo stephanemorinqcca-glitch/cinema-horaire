@@ -189,28 +189,29 @@
 				.then((data) => {
 					const legendContainer = document.getElementById("legende");
 					const defaultFontColor = "#666666";
-        			const defaultBackgroundColor = "#eeeeee";
+					const defaultBackgroundColor = "#eeeeee";
+
 					data.legende.forEach((attr) => {
-						const wrapper = document.createElement("span");
-						wrapper.className = "textlegende"; // Applique ton style CSS
+    					const wrapper = document.createElement("span");
+    					wrapper.className = "textlegende"; // Applique ton style CSS
 
-						// Applique les couleurs personnalisées ou par défaut
-            			wrapper.style.color = attr.FontColor || defaultFontColor;
-            			// wrapper.style.backgroundColor = attr.BackgroundColor || defaultBackgroundColor;
+    					// Badge avec couleurs personnalisées
+    					const badge = document.createElement("span");
+    					badge.className = "badge";
+    					badge.textContent = attr.ShortName;
+    					badge.style.color = attr.FontColor || defaultFontColor;
+    					badge.style.backgroundColor = attr.BackgroundColor || defaultBackgroundColor;
 
-						const badge = document.createElement("span");
-						badge.className = "badge";
-						badge.textContent = attr.ShortName;
-						
-			            // Applique le background seulement au badge
-			            badge.style.backgroundColor = attr.BackgroundColor || defaultBackgroundColor;
+    					// Description en noir sans fond
+    					const description = document.createElement("span");
+    					description.textContent = attr.Description;
+    					description.style.color = "#000000";
+    					description.style.backgroundColor = "transparent";
 
-						const description = document.createElement("span");
-						description.textContent = attr.Description;
-
-						wrapper.appendChild(badge);
-						wrapper.appendChild(description);
-						legendContainer.appendChild(wrapper);
+    					// Ajout au wrapper
+    					wrapper.appendChild(badge);
+    					wrapper.appendChild(description);
+    					legendContainer.appendChild(wrapper);
 					});
 
 					const container = document.getElementById("films");
