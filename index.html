@@ -117,10 +117,13 @@
     			}
 
     			// Garder uniquement les éléments qui ne sont pas des mots-clés
-    			const contenuFiltre = contenu
-        			.split("\n")
-        			.map((champ) => champ.trim())
-        			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
+				const contenuFiltre = contenu
+    				.split("\n")
+    				.map((champ) => champ.replace(/[\u200B-\u200D\uFEFF]/g, "").trim())
+    				.filter((champ) => 
+        				champ !== "" && 
+        				!motsInterdits.some(mot => mot.toLowerCase() === champ.toLowerCase())
+    				);
 
     			return [...contentArray, ...contenuFiltre].join(" | ");
 			}
