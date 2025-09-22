@@ -50,10 +50,18 @@ header {
   	}	
 }
 
+.legende-container {
+    display: flex;
+    flex-direction: column; /* empile les lignes */
+    gap: 5px;
+}
+
 .textlegende {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* empêche le retour à la ligne */
     font-size: 14px;
     padding: 5px;
-	display: inline-block;
 }
 
 .badge {
@@ -243,6 +251,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
