@@ -96,7 +96,7 @@
     			if (!film || typeof film !== "object") {
         			console.warn("Film invalide:", film);
         			return "";
-    			}	
+    			}
 
     			const motsInterdits = Array.isArray(motsCles) ? motsCles : [];
     			const contenu = typeof film.content === "string" ? film.content.trim() : "";
@@ -111,19 +111,16 @@
         			contentArray.push(dureeStr);
     			}
 
-    			// Si le contenu est vide, on retourne uniquement la durée
-    			if (contenu === "") {
-					console.log(`Contenu vide pour le film "${film.titre}"`);
-        			return ` | ${contentArray.join(" | ")}`;
-	    		}
+    			if (contenu !== "") {
+        			const contenuNettoye = contenu
+            			.split("\n")
+            			.map((champ) => champ.trim())
+            			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
-    			// Sinon, on nettoie le contenu
-    			const contenuNettoye = contenu
-        			.split("\n")
-        			.map((champ) => champ.trim())
-					.filter((champ) => typeof champ === "string" && champ !== "" && !motsInterdits.includes(champ));
+        			contentArray.push(...contenuNettoye);
+    			}
 
-    			return ` | ${[...contenuNettoye, ...contentArray].join(" | ")}`;
+    			return contentArray.join(" | ");
 			}
 
 			// ✅ Génération du nom de fichier image
