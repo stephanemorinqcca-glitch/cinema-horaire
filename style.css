@@ -173,6 +173,14 @@ h1 {
   margin: 10px 0;
 }
 
+/* ✅ Classe dynamique pour tronquer à 4 lignes */
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .synopsis-important {
   font-size: 12px;
   font-weight: bold;
@@ -341,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
