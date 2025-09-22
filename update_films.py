@@ -275,10 +275,9 @@ def transform_data(sessions):
     # films_list.sort(key=lambda film: film["titre"].lower())
     films_list = trier_films_par_prochaine_seance(films_dict)
 
-    #Exclure DERNIÈRE de la légende
     legend_list = [
         attr for attr in used_attributes.values()
-        if attr["ShortName"].strip().upper() not in ["DERNIÈRE"]
+        if not attr.get("ShowOnSessionsWithNoComps", False)
     ]
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
