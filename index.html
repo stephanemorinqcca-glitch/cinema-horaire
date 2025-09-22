@@ -287,7 +287,11 @@
 						let classificationDetails = "";
 						let classificationColor = "";
 
-						if (film.classification || film.content) {
+						
+						if (
+    						(typeof film.classification === "string" && film.classification.trim() !== "") ||
+    						(typeof film.content === "string" && film.content.trim() !== "")
+						) {
     						const contentBlock = document.createElement("div");
 
     						let cleanedContent = cleanFilmContent(film, motsCles);
