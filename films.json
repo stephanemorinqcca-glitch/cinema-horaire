@@ -32,15 +32,6 @@
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
         "2025-09-24": [
           {
             "heure": "18:55",
@@ -136,12 +127,6 @@
       "bande_annonce": "https://youtu.be/3mH20C9kURw",
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
         "2025-09-24": [
           {
             "heure": "18:55",
@@ -174,12 +159,6 @@
       "bande_annonce": "https://youtu.be/j0E3YfMBr-c",
       "content": "Drame d'époque",
       "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
         "2025-09-24": [
           {
             "heure": "19:05",
@@ -250,14 +229,6 @@
       "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
       "content": "Violence | Horreur | Suspense psychologique",
       "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
         "2025-09-24": [
           {
             "heure": "19:15",
@@ -332,12 +303,6 @@
       "bande_annonce": "https://youtu.be/ZOzO5iQXaSY",
       "content": "Violence | Langage Vulgaire | Suspense psychologique",
       "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
         "2025-09-24": [
           {
             "heure": "19:15",
@@ -370,12 +335,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=AiiVPy93p48",
       "content": "Drame fantaisiste",
       "horaire": {
-        "2025-09-21": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
         "2025-09-24": [
           {
             "heure": "19:15",
