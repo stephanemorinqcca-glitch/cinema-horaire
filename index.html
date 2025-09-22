@@ -401,30 +401,42 @@
 						}
 						
 						if (film.synopsis) {
-  							const synopsisContainer = document.createElement("div");
-  							synopsisContainer.className = "synopsis-container";		
+							const synopsisContainer = document.createElement("div");
+							synopsisContainer.className = "synopsis-container";
 
-  							// Formater le synopsis avec <strong>
-  							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+							// Extraire les passages entre **...**
+							const importantMatches = [...film.synopsis.matchAll(/\*\*(.*?)\*\*/g)];
+							const importantText = importantMatches.map(match => match[1]).join(" — ");
 
-  							// Créer le paragraphe unique
-  							const synopsisText = document.createElement("p");
-  							synopsisText.className = "synopsis-text clamp";
-  							synopsisText.innerHTML = formattedSynopsis;
+							// Nettoyer le synopsis (retirer les **...**)
+							const cleanedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "");
 
-  							// Icône triangle ▼▲
-  							const toggleIcon = document.createElement("span");
-  							toggleIcon.className = "toggle-icon";
-							toggleIcon.innerHTML = "▼"; // ✅ contenu direct
-  							toggleIcon.addEventListener("click", () => {
-    							synopsisText.classList.toggle("clamp");
-    							toggleIcon.innerHTML = synopsisText.classList.contains("clamp") ? "▼" : "▲";
-  							});
+							// Créer le bloc important si nécessaire
+							if (importantText) {
+  								const importantBlock = document.createElement("div");
+  								importantBlock.className = "synopsis-important";
+  								importantBlock.textContent = importantText;
+  								synopsisContainer.appendChild(importantBlock);
+							}
 
-  							// Assembler
-  							synopsisContainer.appendChild(synopsisText);
-  							synopsisContainer.appendChild(toggleIcon);
-  							details.appendChild(synopsisContainer);
+							// Créer le paragraphe synopsis
+							const synopsisText = document.createElement("p");
+							synopsisText.className = "synopsis-text clamp";
+							synopsisText.textContent = cleanedSynopsis;
+
+							// Créer l’icône ▼▲
+							const toggleIcon = document.createElement("span");
+							toggleIcon.className = "toggle-icon";
+							toggleIcon.innerHTML = "▼";
+							toggleIcon.addEventListener("click", () => {
+  								synopsisText.classList.toggle("clamp");
+  								toggleIcon.innerHTML = synopsisText.classList.contains("clamp") ? "▼" : "▲";
+							});
+
+							// Assembler
+							synopsisContainer.appendChild(synopsisText);
+							synopsisContainer.appendChild(toggleIcon);
+							details.appendChild(synopsisContainer);
 						}
 
 						card.appendChild(details);
