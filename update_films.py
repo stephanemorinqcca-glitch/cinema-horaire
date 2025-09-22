@@ -320,16 +320,6 @@ def main():
     
     if not sessions:
         print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
-        data = {"cinema": "Cinéma Centre-Ville", "legende": [], "films": []}
-
-        # Écriture du fichier films.json vide
-        with open(final_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-
-        # Calcul et sauvegarde du checksum
-        checksum = compute_checksum(json.dumps(data, ensure_ascii=False))
-        save_checksum(checksum_file, checksum)
-
         return  # on sort proprement de main()
 
     data = transform_data(sessions)
