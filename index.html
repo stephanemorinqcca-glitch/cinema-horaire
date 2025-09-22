@@ -286,8 +286,7 @@
 
 						let classificationDetails = "";
 						let classificationColor = "";
-
-						
+					
 						if (
     						(typeof film.classification === "string" && film.classification.trim() !== "") ||
     						(typeof film.content === "string" && film.content.trim() !== "")
@@ -297,13 +296,17 @@
     						let cleanedContent = cleanFilmContent(film, motsCles);
 
     						// Ajout du rating visuel
-    						if (film.classification) {
+        					if (typeof film.classification === "string" && film.classification.trim() !== "" {
         						const rating = document.createElement("span");
         						rating.className = "rating";
         						rating.textContent = film.classification;
         						contentBlock.appendChild(rating);
 
-        						cleanedContent = ` | ${cleanedContent}`;
+								
+						        // Ajout du contenu nettoyé après le rating
+        						if (cleanedContent !== "") {
+            						cleanedContent = ` | ${cleanedContent}`;
+        						}
 
         						if (ratingDetails[film.classification]) {
             						classificationDetails = ratingDetails[film.classification].description;
@@ -322,10 +325,14 @@
     						}
 
     						// Ajout du contenu nettoyé
-    						const content = document.createElement("span");
-    						content.className = "content";
-    						content.textContent = cleanedContent;
-    						contentBlock.appendChild(content);
+							if (cleanedContent.trim() !== "") {
+    							const content = document.createElement("span");
+    							content.className = "content";
+    							content.textContent = cleanedContent.startsWith(" | ")
+        							? cleanedContent.slice(3)
+        							: cleanedContent;
+    							contentBlock.appendChild(content);
+							}
 
     						// Ajout de l'image de classification
     						const imageFilename = generateImageFilename(film);
