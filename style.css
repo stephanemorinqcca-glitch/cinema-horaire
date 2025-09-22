@@ -167,7 +167,7 @@ h1 {
   position: relative;
   width: 100%;
   max-width: 600px;
-  margin: 5px auto;
+  margin: 0 auto;
   text-align: justify;
   padding-bottom: 5px; /* ✅ réserve de l’espace pour la flèche */
 }
@@ -349,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
