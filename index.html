@@ -205,8 +205,8 @@
             			// Style personnalisé depuis la légende
 						const couleur = attributsCouleurs[attr];
 						if (couleur) {
-    						span.style.backgroundColor = couleur.BackgroundColor || "#eee";
-    						span.style.color = couleur.FontColor || "#666";
+    						span.style.backgroundColor = couleur.backgroundColor || "#eee";
+    						span.style.color = couleur.fontColor || "#666";
 						} else {
     						// Style par défaut si l'attribut n'est pas dans la légende
     						span.className = "attributs-label"; // classe CSS définie dans style.css
@@ -259,7 +259,7 @@
 					});
 					
 					// 🔍 Vérification dans la console
-					console.log("attributsCouleurs :", attributsCouleurs);
+					// console.log("attributsCouleurs :", attributsCouleurs);
 
 					const container = document.getElementById("films");
 					// 📅 Date du jour à Toronto au format YYYY-MM-DD
