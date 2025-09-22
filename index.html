@@ -185,6 +185,9 @@
 						const badge = document.createElement("span");
 						badge.className = "badge";
 						badge.textContent = attr.ShortName;
+						
+			            // Applique le background seulement au badge
+			            badge.style.backgroundColor = attr.BackgroundColor || defaultBackgroundColor;
 
 						const description = document.createElement("span");
 						description.textContent = attr.Description;
