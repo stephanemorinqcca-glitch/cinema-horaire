@@ -193,7 +193,7 @@
 
 					data.legende.forEach((attr) => {
     					const wrapper = document.createElement("span");
-    					wrapper.className = "textlegende"; // Applique ton style CSS
+    					wrapper.className = "textlegende";
 
     					// Badge avec couleurs personnalisées
     					const badge = document.createElement("span");
@@ -206,8 +206,6 @@
     					const description = document.createElement("span");
 						description.className = "description";
     					description.textContent = attr.Description;
-    					description.style.color = "#000000";
-    					description.style.backgroundColor = "transparent";
 
     					// Ajout au wrapper
     					wrapper.appendChild(badge);
