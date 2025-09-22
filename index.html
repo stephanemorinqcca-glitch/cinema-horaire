@@ -416,11 +416,10 @@
   							const toggleIcon = document.createElement("span");
   							toggleIcon.className = "toggle-icon";
   							toggleIcon.innerHTML = " ▼";
-  							toggleIcon.addEventListener("click", () => {
-    							synopsisText.classList.toggle("clamp");
-    							toggleIcon.innerHTML = synopsisText.classList.contains("clamp") ? " ▼" : " ▲";
-    							toggleIcon.classList.toggle("rotate");
-  							});
+							toggleIcon.addEventListener("click", () => {
+							  synopsisText.classList.toggle("clamp");
+  								toggleIcon.classList.toggle("rotate");
+							});
 
   							// Assembler
   							synopsisContainer.appendChild(synopsisText);
