@@ -56,11 +56,14 @@ header {
     gap: 5px;
 }
 
-.textlegende p {
+p.textlegende {
     background-color: #eee;
     color: #666;
-    padding: 5px;
-    margin: 0;
+    padding: 5px 5px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 .textlegende {
@@ -259,6 +262,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
