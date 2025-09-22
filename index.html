@@ -401,15 +401,44 @@
 						}
 						
 						if (film.synopsis) {
-    						const synopsis = document.createElement("div");
-    						synopsis.className = "synopsis";
+  							const synopsisContainer = document.createElement("div");
+  							synopsisContainer.className = "synopsis-container";
 
-    						// Remplace les **texte** par <strong>texte</strong>
-    						const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  							// Formater le synopsis avec <strong>
+  							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
-    						// Injecte le HTML formaté
-    						synopsis.innerHTML = formattedSynopsis;
-    						details.appendChild(synopsis);
+  							// Extraire les passages importants (en <strong>)
+  							const importantMatches = [...formattedSynopsis.matchAll(/<strong>(.*?)<\/strong>/g)];
+  							const importantText = importantMatches.map(match => `<strong>${match[1]}</strong>`).join(' ');
+
+  							// Extraire les deux premières phrases (hors balises HTML)
+  							const plainText = film.synopsis.replace(/\*\*(.*?)\*\*/g, "$1"); // retirer les **
+ 							const shortSentences = plainText.split('. ').slice(0, 2).join('. ') + '…';
+
+  							// Créer la version courte avec les passages importants
+  							const shortText = document.createElement("p");
+  							shortText.className = "synopsis-short";
+  							shortText.innerHTML = shortSentences + ' ' + importantText;
+
+  							// Créer la version complète
+  							const fullText = document.createElement("p");
+  							fullText.className = "synopsis-full hidden";
+ 							fullText.innerHTML = formattedSynopsis;
+
+  							// Bouton ouvrir/fermer
+  							const toggleBtn = document.createElement("button");
+  							toggleBtn.className = "toggle-btn hidden";
+  							toggleBtn.textContent = "Ouvrir";
+  							toggleBtn.addEventListener("click", () => {
+    							fullText.classList.toggle("hidden");
+    							toggleBtn.textContent = fullText.classList.contains("hidden") ? "Ouvrir" : "Fermer";
+  							});
+
+  							// Ajouter les éléments
+  							synopsisContainer.appendChild(shortText);
+  							synopsisContainer.appendChild(fullText);
+  							synopsisContainer.appendChild(toggleBtn);
+ 							details.appendChild(synopsisContainer);
 						}
 
 						card.appendChild(details);
