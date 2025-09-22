@@ -92,22 +92,20 @@
 			};
 	
 			// ✅ Nettoyage du contenu
-			function cleanFilmContent(film) {
+			function cleanFilmContent(film, motsCles = []) {
     			// Vérification de l'objet film
     			if (!film || typeof film !== "object") {
         			console.warn("Objet film invalide:", film);
         			return "";
     			}
 
-    			// Vérification du champ content
-    			const contenu = typeof film.content === "string" ? film.content : "";
-    
     			// Sécurité sur motsCles
     			const motsInterdits = Array.isArray(motsCles) ? motsCles : [];
 
-    			// Nettoyage du contenu
+    			// Extraction et nettoyage du champ content
+    			const contenu = typeof film.content === "string" ? film.content : "";
     			let contentArray = contenu
-        			.split("|")
+        			.split("\n") // les contenus sont séparés par des sauts de ligne
         			.map((champ) => champ.trim())
         			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
@@ -121,7 +119,7 @@
 
     			return contentArray.join(" | ");
 			}
-
+	
 			// ✅ Génération du nom de fichier image
 			function generateImageFilename(film) {
 				function normalizeText(text) {
