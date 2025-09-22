@@ -111,16 +111,16 @@
         			contentArray.push(dureeStr);
     			}
 
-    			if (contenu !== "") {
-        			const contenuNettoye = contenu
-            			.split("\n")
-            			.map((champ) => champ.trim())
-            			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
-
-        			contentArray.push(...contenuNettoye);
+    			if (contenu === "") {
+        			return contentArray.join(" | ");
     			}
 
-    			return contentArray.join(" | ");
+    			const contenuNettoye = contenu
+        			.split("\n")
+        			.map((champ) => champ.trim())
+        			.filter((champ) => champ !== "" && !motsInterdits.some(motCle => champ.includes(motCle)));
+
+    			return [...contentArray, ...contenuNettoye].join(" | ");
 			}
 
 			// ✅ Génération du nom de fichier image
