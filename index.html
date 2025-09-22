@@ -434,6 +434,7 @@
   							toggleIcon.addEventListener("click", () => {
     							fullText.classList.toggle("hidden");
     							toggleIcon.innerHTML = fullText.classList.contains("hidden") ? " ▼" : " ▲";
+								toggleIcon.classList.toggle("rotate");
   							});
 
   							// Assembler
@@ -554,15 +555,22 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
     }
 });
 
-// ✅ Gère l'affichage du bouton "Ouvrir/Fermer" selon la taille de l'écran
+// ✅ Gère l'affichage des éléments interactifs selon la taille de l'écran
 function handleResize() {
-    const isSmallScreen = window.innerWidth <= 600;
-    document.querySelectorAll('.toggle-btn').forEach(btn => {
-        btn.classList.toggle('hidden', !isSmallScreen);
-    });
+  const isSmallScreen = window.innerWidth <= 600;
+
+  document.querySelectorAll('.toggle-btn').forEach(btn => {
+    btn.classList.toggle('hidden', !isSmallScreen);
+  });
+
+  document.querySelectorAll('.toggle-icon').forEach(icon => {
+    icon.classList.toggle('hidden', !isSmallScreen);
+  });
 }
+
 window.addEventListener('resize', handleResize);
 window.addEventListener('load', handleResize);
+
 </script></body>
 </html>
 
