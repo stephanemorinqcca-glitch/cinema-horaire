@@ -161,7 +161,18 @@ h1 {
   font-weight: normal;
   text-align: justify;
 }
- 
+
+.synopsis-short {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+  text-align: justify;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
 .synopsis-container {
   max-width: 400px;
   margin: 10px auto;
@@ -314,6 +325,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
