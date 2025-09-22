@@ -92,13 +92,15 @@
 			};
 	
 			// ✅ Nettoyage du contenu
-			function cleanFilmContent(film, motsCles = []) {
+			function cleanFilmContent(film, motsCles) {
     			if (!film || typeof film !== "object") {
         			console.warn("Film invalide:", film);
         			return "";
-    			}		
+    			}
 
+    			// Sécuriser motsCles même s'il est null ou non passé
     			const motsInterdits = Array.isArray(motsCles) ? motsCles : [];
+
     			const contenu = typeof film.content === "string" ? film.content : "";
 
     			let contentArray = contenu
@@ -106,15 +108,16 @@
         			.map((champ) => champ.trim())
         			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
 
-    			if (typeof film.duree === "number" && !isNaN(film.duree)) {
-        			const heures = Math.floor(film.duree / 60);
-        			const minutes = film.duree % 60;
+    			const duree = Number(film.duree);
+    			if (!isNaN(duree)) {
+        			const heures = Math.floor(duree / 60);
+        			const minutes = duree % 60;
         			contentArray.unshift(`Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
     			}
 
     			return contentArray.join(" | ");
 			}
-	
+
 			// ✅ Génération du nom de fichier image
 			function generateImageFilename(film) {
 				function normalizeText(text) {
