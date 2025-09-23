@@ -235,31 +235,35 @@
 					const attributsCouleurs = {}; // ← à utiliser dans styliserAttribut
 
 					data.legende.forEach((attr) => {
-    					const wrapper = document.createElement("span");
-    					wrapper.className = "textlegende";
-
-    					// Badge avec couleurs personnalisées
-    					const badge = document.createElement("span");
-    					badge.className = "badge";
-    					badge.textContent = attr.ShortName;
-    					badge.style.color = attr.FontColor || defaultFontColor;
-    					badge.style.backgroundColor = attr.BackgroundColor || defaultBackgroundColor;
-
-    					// Description en noir sans fond
-    					const description = document.createElement("span");
-						description.className = "description";
-    					description.textContent = attr.Description;
-
-    					// Ajout au wrapper
-    					wrapper.appendChild(badge);
-    					wrapper.appendChild(description);
-    					legendContainer.appendChild(wrapper);
-
 					    // Enregistre la couleur pour réutilisation
     					attributsCouleurs[attr.ShortName] = {
         					backgroundColor: attr.BackgroundColor || defaultBackgroundColor,
         					fontColor: attr.FontColor || defaultFontColor
     					};
+						
+					    // Affiche uniquement si ShowOnSessionsWithNoComps est false
+					    if (attr.ShowOnSessionsWithNoComps === false) {
+
+    						const wrapper = document.createElement("span");
+    						wrapper.className = "textlegende";
+
+    						// Badge avec couleurs personnalisées
+    						const badge = document.createElement("span");
+    						badge.className = "badge";
+    						badge.textContent = attr.ShortName;
+    						badge.style.color = attr.FontColor || defaultFontColor;
+    						badge.style.backgroundColor = attr.BackgroundColor || defaultBackgroundColor;
+
+    						// Description en noir sans fond
+    						const description = document.createElement("span");
+							description.className = "description";
+    						description.textContent = attr.Description;
+
+    						// Ajout au wrapper
+    						wrapper.appendChild(badge);
+    						wrapper.appendChild(description);
+    						legendContainer.appendChild(wrapper);
+						};		
 					});
 					
 					// 🔍 Vérification dans la console
