@@ -202,9 +202,9 @@ h1 {
 /* 🔽 Icône toggle seule */
 .toggle-icon {
   cursor: pointer;
-  font-size: 1.2em;
+  display: block;
   margin-top: 0.5em;
-  display: inline-block;
+  margin-left: auto; /* pousse la flèche à droite */
   transition: transform 0.3s ease;
 }
 .toggle-icon.rotated {
@@ -349,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
