@@ -601,14 +601,14 @@ window.addEventListener('load', () => {
 });	
 
 window.addEventListener('scroll', () => {
-	const isSmallScreen = window.innerWidth <= 600;
-  	if (isSmallScreen) return; // ne ferme rien sur mobile
+  const isSmallScreen = window.innerWidth <= 600;
+  if (isSmallScreen) return; // ⛔ Ne ferme rien sur iPhone
 
-  	document.querySelectorAll('.film').forEach(film => {
-    	if (film.dataset.open === 'true') return;
-    	const synopsis = film.querySelector('.synopsis');
-    	if (synopsis) synopsis.classList.remove('open');
-  	});
+  document.querySelectorAll('.film').forEach(film => {
+    if (film.dataset.open === 'true') return;
+    const synopsis = film.querySelector('.synopsis');
+    if (synopsis) synopsis.classList.remove('open');
+  });
 });
 
 </script>
