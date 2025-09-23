@@ -170,6 +170,8 @@ h1 {
   margin: 0 auto;
   text-align: justify;
   padding-bottom: 5px; /* ✅ réserve de l’espace pour la flèche */
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 /* Paragraphe principal */
@@ -178,7 +180,7 @@ h1 {
   text-align: justify;
   font-size: 12px;
   margin: 15px 0;
-  transition: all 0.3s ease;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 /* Tronquage à 4 lignes */
@@ -208,6 +210,8 @@ h1 {
   cursor: pointer;
   background: linear-gradient(to right, transparent, #fff 60%);
   z-index: 1;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 /* Bouton alternatif (si utilisé ailleurs) */
@@ -349,6 +353,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
