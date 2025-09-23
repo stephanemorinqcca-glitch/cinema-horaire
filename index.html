@@ -405,7 +405,9 @@
   							synopsisContainer.className = "synopsis-container";
 
   							// Convertir **...** en <strong>...</strong>
-  							const formattedSynopsis = film.synopsis.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  							const formattedSynopsis = film.synopsis
+  								.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+  								.replace(/\n/g, "<br>");
 
   							// Créer le paragraphe synopsis
   							const synopsisText = document.createElement("p");
