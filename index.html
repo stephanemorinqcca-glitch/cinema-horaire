@@ -425,21 +425,17 @@
   							synopsisText.textContent = cleanedSynopsis;
 
   							// Icône toggle
-							const toggleIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-							toggleIcon.setAttribute("class", "toggle-icon");
-							toggleIcon.setAttribute("width", "16");
-							toggleIcon.setAttribute("height", "16");
-							toggleIcon.setAttribute("viewBox", "0 0 24 24");
-							toggleIcon.innerHTML = `<path d="M8 10l4 4 4-4" fill="none" stroke="#000" stroke-width="2"/>`;
+							const triangle = document.createElement("span");
+							triangle.className = "triangle-toggle";
+							triangle.setAttribute("role", "button");
+							triangle.setAttribute("aria-expanded", "false");
+							triangle.setAttribute("tabindex", "0");
 
-							toggleIcon.addEventListener("click", () => {
+							triangle.addEventListener("click", () => {
   								const isClamped = synopsisText.classList.toggle("clamp");
-  								toggleIcon.classList.toggle("rotated", !isClamped);
-  								toggleIcon.setAttribute("aria-expanded", String(!isClamped));
+  								triangle.classList.toggle("rotated", !isClamped);
+  								triangle.setAttribute("aria-expanded", String(!isClamped));
 							});
-							
-  							toggleIcon.setAttribute("role", "button");
-  							toggleIcon.setAttribute("aria-expanded", "false");
 
   							// Assembler
   							synopsisContainer.appendChild(synopsisText);
