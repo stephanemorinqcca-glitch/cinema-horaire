@@ -64,7 +64,7 @@ header {
 
 p.textlegende {
     background-color: #eee;
-    color: #666;
+    color: #000;
     padding: 5px 5px;
     margin: 5px 0;
     width: 100%;
@@ -295,6 +295,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
