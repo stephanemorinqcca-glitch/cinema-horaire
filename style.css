@@ -245,7 +245,9 @@ h1 {
     display: block;
     overflow: visible;
   }
-  .toggle-icon, .toggle-btn {
+  .toggle-icon,
+  .toggle-btn.
+  .triangle-toggle {
     display: none !important;
   }
   .synopsis-container {
@@ -376,6 +378,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
