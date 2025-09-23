@@ -9,6 +9,13 @@
       "ShowOnSessionsWithNoComps": false
     },
     {
+      "ShortName": "DERNIÈRE",
+      "Description": "Représentation",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": true
+    },
+    {
       "ShortName": "DLX",
       "Description": "Salle avec sièges rocker et plus spacieux",
       "FontColor": "#666666",
