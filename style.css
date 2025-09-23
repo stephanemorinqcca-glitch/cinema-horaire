@@ -251,6 +251,21 @@ h1 {
   }
 }
 
+.triangle-toggle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #000;
+  margin-left: auto;
+  margin-top: 0.5em;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.triangle-toggle.rotated {
+  transform: rotate(180deg);
+}
+
 .seances {
 	display: flex;
 	flex-direction: column;
@@ -359,6 +374,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
