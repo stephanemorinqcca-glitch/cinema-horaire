@@ -106,7 +106,6 @@ p.textlegende {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px 0;
-	white-space: normal;        /* permet les retours à la ligne */
 }
 
 .poster {
@@ -298,6 +297,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
