@@ -421,25 +421,11 @@
 
   							// Texte synopsis
   							const synopsisText = document.createElement("p");
-  							synopsisText.className = "synopsis-text clamp";
+  							synopsisText.className = "synopsis-text";
   							synopsisText.textContent = cleanedSynopsis;
-
-  							// Icône toggle
-							const triangle = document.createElement("span");
-							triangle.className = "triangle-toggle";
-							triangle.setAttribute("role", "button");
-							triangle.setAttribute("aria-expanded", "false");
-							triangle.setAttribute("tabindex", "0");
-
-							triangle.addEventListener("click", () => {
-  								const isClamped = synopsisText.classList.toggle("clamp");
-  								triangle.classList.toggle("rotated", !isClamped);
-  								triangle.setAttribute("aria-expanded", String(!isClamped));
-							});
 
   							// Assembler
   							synopsisContainer.appendChild(synopsisText);
-  							synopsisContainer.appendChild(triangle);
   							details.appendChild(synopsisContainer);
 						}
 
