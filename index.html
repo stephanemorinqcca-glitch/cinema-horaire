@@ -62,8 +62,6 @@
 </div>
 </main>
 <script>
-			let scrollTimeout;
-			let isInteracting = false;
 			// ✅ Définition unique des mots-clés
 			const motsCles = ["DAJE", "Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
 			const ratingDetails = {
@@ -220,33 +218,6 @@
     			});
 
     			return fragment;
-			}
-
-			function initSynopsisToggle() {
-  				document.querySelectorAll('.film').forEach(film => {
-    				const button = film.querySelector('.toggle-synopsis');
-    				const synopsis = film.querySelector('.synopsis');
-
-    				if (!button || !synopsis) {
-	      				console.warn("⛔ Élément manquant dans :", film);
-    	  				return;
-    				}
-
-    				film.dataset.open = 'false';
-
-					button.addEventListener('click', () => {
-  						isInteracting = true;
-
-  						const isOpening = !synopsis.classList.contains('open');
-  						synopsis.classList.toggle('open', isOpening);
-  						button.classList.toggle('up', isOpening);
-  						film.dataset.open = isOpening ? 'true' : 'false';
-
-  						setTimeout(() => {
-    						isInteracting = false;
-  						}, 300);
-					});
-  				});
 			}
 	
 			// ✅ Chargement des données
@@ -562,7 +533,6 @@
 						card.appendChild(details);
 						container.appendChild(card);
 					});
-					initSynopsisToggle();
 				})
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
@@ -607,20 +577,6 @@ window.addEventListener('load', () => {
   applyClamp();
   handleResize();
 });	
-
-// Gestion du scroll avec verrou
-window.addEventListener('scroll', () => {
-  if (isInteracting) return;
-
-  clearTimeout(scrollTimeout);
-  scrollTimeout = setTimeout(() => {
-    document.querySelectorAll('.film').forEach(film => {
-      if (film.dataset.open === 'true') return;
-      const synopsis = film.querySelector('.synopsis');
-      if (synopsis) synopsis.classList.remove('open');
-    });
-  }, 200);
-});
 
 </script>
 </body>
