@@ -219,6 +219,27 @@
 
     			return fragment;
 			}
+
+			function initSynopsisToggle() {
+  				document.querySelectorAll('.film').forEach(film => {
+    				const button = film.querySelector('.toggle-synopsis');
+    				const synopsis = film.querySelector('.synopsis');
+
+    				if (!button || !synopsis) {
+	      				console.warn("⛔ Élément manquant dans :", film);
+    	  				return;
+    				}
+
+    				film.dataset.open = 'false';
+
+    				button.addEventListener('click', () => {
+      					const isOpening = !synopsis.classList.contains('open');
+      					synopsis.classList.toggle('open', isOpening);
+      					button.classList.toggle('up', isOpening);
+      					film.dataset.open = isOpening ? 'true' : 'false';
+    				});
+  				});
+			}
 	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
@@ -533,6 +554,7 @@
 						card.appendChild(details);
 						container.appendChild(card);
 					});
+					initSynopsisToggle();
 				})
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
