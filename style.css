@@ -185,6 +185,7 @@ h1 {
 }
 
 .synopsis-text strong {
+  font-size: 13px;
   font-weight: bold;
   color: #222;
 }
@@ -297,6 +298,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
