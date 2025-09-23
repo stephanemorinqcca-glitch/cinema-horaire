@@ -62,6 +62,8 @@
 </div>
 </main>
 <script>
+			let scrollTimeout;
+			let isInteracting = false;
 			// ✅ Définition unique des mots-clés
 			const motsCles = ["DAJE", "Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
 			const ratingDetails = {
@@ -232,12 +234,18 @@
 
     				film.dataset.open = 'false';
 
-    				button.addEventListener('click', () => {
-      					const isOpening = !synopsis.classList.contains('open');
-      					synopsis.classList.toggle('open', isOpening);
-      					button.classList.toggle('up', isOpening);
-      					film.dataset.open = isOpening ? 'true' : 'false';
-    				});
+					button.addEventListener('click', () => {
+  						isInteracting = true;
+
+  						const isOpening = !synopsis.classList.contains('open');
+  						synopsis.classList.toggle('open', isOpening);
+  						button.classList.toggle('up', isOpening);
+  						film.dataset.open = isOpening ? 'true' : 'false';
+
+  						setTimeout(() => {
+    						isInteracting = false;
+  						}, 300);
+					});
   				});
 			}
 	
@@ -600,15 +608,18 @@ window.addEventListener('load', () => {
   handleResize();
 });	
 
+// Gestion du scroll avec verrou
 window.addEventListener('scroll', () => {
-  const isSmallScreen = window.innerWidth <= 600;
-  if (isSmallScreen) return; // ⛔ Ne ferme rien sur iPhone
+  if (isInteracting) return;
 
-  document.querySelectorAll('.film').forEach(film => {
-    if (film.dataset.open === 'true') return;
-    const synopsis = film.querySelector('.synopsis');
-    if (synopsis) synopsis.classList.remove('open');
-  });
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    document.querySelectorAll('.film').forEach(film => {
+      if (film.dataset.open === 'true') return;
+      const synopsis = film.querySelector('.synopsis');
+      if (synopsis) synopsis.classList.remove('open');
+    });
+  }, 200);
 });
 
 </script>
