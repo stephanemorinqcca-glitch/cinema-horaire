@@ -181,6 +181,16 @@ h1 {
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
+.synopsis-text.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  max-height: 6em;
+}
+.synopsis-text:not(.clamp) {
+  display: block;
+  max-height: 1000px;
+}
 
 /* 🧩 Tronquage à 4 lignes */
 .clamp {
@@ -349,6 +359,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
