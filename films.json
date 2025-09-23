@@ -11,8 +11,8 @@
     {
       "ShortName": "DERNIÈRE",
       "Description": "Représentation",
-      "FontColor": "#ffffff",
-      "BackgroundColor": "#000000",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": true
     },
     {
