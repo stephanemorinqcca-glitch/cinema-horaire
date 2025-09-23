@@ -63,7 +63,7 @@
 </main>
 <script>
 			// ✅ Définition unique des mots-clés
-			const motsCles = ["DAJE", "Déconseillé aux jeunes enfants", "Erostisme", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
+			const motsCles = ["DAJE", "Déconseillé aux jeunes enfants", "Erostisme", "EDC", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
 			const ratingDetails = {
     			"13+": {
         			description: "12 ans et moins doit être accompagné par un adulte",
@@ -148,6 +148,10 @@
 
 				if (base === "GDAJE") {
     				base = "GDeconseilleauxjeunesenfants";
+				}
+
+				if (base === "EDC") {
+    				base = "ECExemptedeclassement";
 				}
 
     			// ✅ Ajout de la vérification pour éviter base vide
