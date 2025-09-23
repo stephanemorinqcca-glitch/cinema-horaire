@@ -219,24 +219,6 @@
 
     			return fragment;
 			}
-
-			function initSynopsisToggle() {
-  				document.querySelectorAll('.film').forEach(film => {
-    				film.dataset.open = 'false';
-
-    				const button = film.querySelector('.toggle-synopsis');
-    				const synopsis = film.querySelector('.synopsis');
-
-    				if (!button || !synopsis) return;
-
-    				button.addEventListener('click', () => {
-      					const isOpening = !synopsis.classList.contains('open');
-      					synopsis.classList.toggle('open', isOpening);
-      					button.classList.toggle('up', isOpening);
-      					film.dataset.open = isOpening ? 'true' : 'false';
-    				});
-  				});
-			}
 	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
@@ -551,7 +533,6 @@
 						card.appendChild(details);
 						container.appendChild(card);
 					});
-					initSynopsisToggle();
 				})
 				.catch((error) => {
 					console.error("Erreur lors du chargement du fichier films.json :", error);
@@ -595,16 +576,7 @@ window.addEventListener('resize', () => {
 window.addEventListener('load', () => {
   applyClamp();
   handleResize();
-});
-
-window.addEventListener('scroll', () => {
-  document.querySelectorAll('.film').forEach(film => {
-    if (film.dataset.open === 'true') return;
-    const synopsis = film.querySelector('.synopsis');
-    if (synopsis) synopsis.classList.remove('open');
-  });
-});
-	
+});	
 </script></body>
 </html>
 
