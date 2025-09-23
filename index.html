@@ -577,6 +577,18 @@ window.addEventListener('load', () => {
   applyClamp();
   handleResize();
 });	
+
+window.addEventListener('scroll', () => {
+	const isSmallScreen = window.innerWidth <= 600;
+  	if (isSmallScreen) return; // ne ferme rien sur mobile
+
+  	document.querySelectorAll('.film').forEach(film => {
+    	if (film.dataset.open === 'true') return;
+    	const synopsis = film.querySelector('.synopsis');
+    	if (synopsis) synopsis.classList.remove('open');
+  	});
+});
+
 </script>
 </body>
 </html>
