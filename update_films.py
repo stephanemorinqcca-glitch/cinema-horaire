@@ -275,10 +275,8 @@ def transform_data(sessions):
     # films_list.sort(key=lambda film: film["titre"].lower())
     films_list = trier_films_par_prochaine_seance(films_dict)
 
-    legend_list = [
-        attr for attr in used_attributes.values()
-        if not attr.get("ShowOnSessionsWithNoComps", False)
-    ]
+    # Liste complète des attributs, sans filtrage
+    legend_list = list(used_attributes.values())
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
