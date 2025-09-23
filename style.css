@@ -176,6 +176,7 @@ h1 {
 
 /* 📄 Paragraphe principal */
 .synopsis-text {
+  font-size: 12px;
   max-height: 6em;
   overflow: hidden;
   transition: max-height 0.3s ease;
@@ -348,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
