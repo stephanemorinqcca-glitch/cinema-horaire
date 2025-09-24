@@ -536,35 +536,6 @@ document.getElementById("videoModal").addEventListener("click", (e) => {
     }
 });
 
-// ✅ Gère l'affichage des éléments interactifs selon la taille de l'écran
-function handleResize() {
-  const isSmallScreen = window.innerWidth <= 600;
-
-  document.querySelectorAll('.toggle-btn').forEach(btn => {
-    btn.classList.toggle('hidden', !isSmallScreen);
-  });
-
-  document.querySelectorAll('.toggle-icon').forEach(icon => {
-    icon.classList.toggle('hidden', !isSmallScreen);
-  });
-}
-
-function applyClamp() {
-  const isSmallScreen = window.innerWidth <= 600;
-  document.querySelectorAll('.synopsis-text').forEach(p => {
-    p.classList.toggle('clamp', isSmallScreen);
-  });
-}
-window.addEventListener('resize', () => {
-  applyClamp();
-  handleResize();
-});
-
-window.addEventListener('load', () => {
-  applyClamp();
-  handleResize();
-});	
-
 </script>
 </body>
 </html>
