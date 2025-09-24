@@ -207,7 +207,7 @@ h1 {
   border-right: 5px solid #8bcf9e;
   padding: 4px 8px;
   font-weight: bold;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .horaires {
@@ -295,6 +295,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
