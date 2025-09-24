@@ -106,26 +106,6 @@ p.textlegende {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px 0;
-    background-size: cover;
-    background-position: center;
-    opacity: 1;
-    overflow: hidden;
-}
-
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: inherit;
-  opacity: 0.1; /* très pâle */
-  z-index: 0;
-}
-
-.card-content {
-  position: relative;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.8); /* pour lisibilité */
-  padding: 1em;
 }
 
 .poster {
@@ -315,6 +295,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
