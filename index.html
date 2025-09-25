@@ -276,7 +276,7 @@
 					const nowTimestamp = Date.now() / 1000; // secondes UTC			
 					
 					data.films.forEach((film) => {
-  						if (film.last_show === null || nowTimestamp > film.last_show) {
+  						if (film.last_show === null || nowTimestamp >= film.last_show) {
     						return; // Film expiré, on ne l'affiche pas
   						}
 
