@@ -138,7 +138,7 @@ def trier_films_par_prochaine_seance(films_dict):
                 except Exception:
                     continue
 
-        prochaine = min(seances_futures) if seances_futures else datetime.max
+        prochaine = min(seances_futures) if seances_futures else tz.localize(datetime.max.replace(tzinfo=None))
         films_ouverts.append((prochaine, film["titre"].lower(), film))
 
     # Tri des films ouverts par prochaine séance, puis par titre
