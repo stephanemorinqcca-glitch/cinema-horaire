@@ -457,7 +457,7 @@
     							if (dateStr !== aujourdHuiStr) return true;
 
     							const [h, m] = heure.split(":").map((n) => parseInt(n, 10));
-    							return h > currentHour || (h === currentHour && m >= currentMinute);
+    							return h > currentHour || (h === currentHour && m > currentMinute);
   							});
 
   							if (seancesFiltrees.length > 0) {
