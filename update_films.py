@@ -102,7 +102,7 @@ def cle_tri_seance_aujourdhui(film):
             continue
     return (datetime.max, film["titre"].lower())
 
-def trier_films_par_seance_et_ouverture(films_dict):
+def trier_films_par_prochaine_seance(films_dict):
     tz = pytz.timezone("America/Toronto")
     now = datetime.now(tz)
     today = now.date()
@@ -111,12 +111,15 @@ def trier_films_par_seance_et_ouverture(films_dict):
     films_a_venir = []
 
     for film in films_dict.values():
-        titre = film.get("titre", "").lower()
         opening_str = film.get("OpeningDate", "")
         try:
             opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
         except ValueError:
             opening_date = today
+
+        if opening_date > today:
+            films_a_venir.append(film)
+            continue
 
         horaires = film.get("horaire", {})
         seances_futures = []
@@ -130,24 +133,20 @@ def trier_films_par_seance_et_ouverture(films_dict):
             for h in heures:
                 try:
                     dt = tz.localize(datetime.strptime(f"{jour_str} {h['heure']}", "%Y-%m-%d %H:%M"))
-                    if dt > now:
+                    if dt >= now:
                         seances_futures.append(dt)
                 except Exception:
                     continue
 
-        if opening_date > today:
-            films_a_venir.append((opening_date, titre, film))
-        else:
-            prochaine = min(seances_futures) if seances_futures else datetime.max
-            films_ouverts.append((prochaine, titre, film))
+        prochaine = min(seances_futures) if seances_futures else datetime.max
+        films_ouverts.append((prochaine, film["titre"].lower(), film))
 
     # Tri des films ouverts par prochaine séance, puis par titre
     films_ouverts.sort(key=lambda x: (x[0], x[1]))
     films_ouverts = [f[2] for f in films_ouverts]
 
-    # Tri des films à venir par date d'ouverture, puis par titre
-    films_a_venir.sort(key=lambda x: (x[0], x[1]))
-    films_a_venir = [f[2] for f in films_a_venir]
+    # Tri des films à venir par titre
+    films_a_venir.sort(key=lambda f: f["titre"].lower())
 
     return films_ouverts + films_a_venir
 
@@ -274,7 +273,7 @@ def transform_data(sessions):
 
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
-    films_list = trier_films_par_seance_et_ouverture(films_dict)
+    films_list = trier_films_par_prochaine_seance(films_dict)
 
     # Liste complète des attributs, sans filtrage
     legend_list = list(used_attributes.values())
