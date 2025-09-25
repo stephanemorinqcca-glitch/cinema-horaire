@@ -12,6 +12,8 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	background-color: #fff;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optionnel : ombre douce */
 }
 main {
 	padding: 0 20px 20px 20px;
@@ -295,6 +297,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
