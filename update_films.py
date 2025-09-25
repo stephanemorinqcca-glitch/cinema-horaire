@@ -274,7 +274,7 @@ def transform_data(sessions):
 
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
-    films_list = trier_films_par_prochaine_seance(films_dict)
+    films_list = trier_films_par_seance_et_ouverture(films_dict)
 
     # Liste complète des attributs, sans filtrage
     legend_list = list(used_attributes.values())
