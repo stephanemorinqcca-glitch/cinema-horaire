@@ -104,9 +104,67 @@
               "DLX"
             ]
           }
+        ],
+        "2025-10-03": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-04": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-05": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-08": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
         ]
       },
-      "last_show": 1759445700
+      "last_show": 1760050500
     },
     {
       "id": "ST00001718",
@@ -450,60 +508,43 @@
         "2025-10-03": [
           {
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-10-04": [
           {
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-10-05": [
           {
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           },
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-10-08": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
+            "attributs": []
           }
         ],
         "2025-10-09": [
           {
             "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX"
-            ]
+            "attributs": []
           }
         ]
       },
