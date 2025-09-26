@@ -80,28 +80,6 @@ def fetch_sessions():
         print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
         return []
 
-# 📅 Récupère Date & Heure
-def extract_datetime_safe(horaire_str):
-    match = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2})", horaire_str)
-    if match:
-        naive_dt = datetime.strptime(match.group(1), "%Y-%m-%d %H:%M")
-        tz = pytz.timezone('America/Toronto')
-        return tz.localize(naive_dt)
-    else:
-        return datetime.max.replace(tzinfo=pytz.UTC)
-
-def cle_tri_seance_aujourdhui(film):
-    horaires = film.get("horaire", {})
-    seances = horaires.get(today_str, [])
-    for s in seances:
-        try:
-            dt = tz.localize(datetime.strptime(f"{today_str} {s['heure']}", "%Y-%m-%d %H:%M"))
-            if dt >= now:
-                return (dt, film["titre"].lower())
-        except Exception:
-            continue
-    return (datetime.max, film["titre"].lower())
-
 def trier_films_par_prochaine_seance(films_dict):
     tz = pytz.timezone("America/Toronto")
     now = datetime.now(tz)
