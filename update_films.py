@@ -184,7 +184,7 @@ def transform_data(sessions):
         # print("    session_time < threshold:", session_time < threshold)
 
         # 👇 Comparaison uniquement sur la date
-        if "WWW" not in sales_via or status != "Open" or session_time.date() <= threshold:
+        if "WWW" not in sales_via or status != "Open" or session_time <= threshold:
             ignored_count += 1
             continue
 
