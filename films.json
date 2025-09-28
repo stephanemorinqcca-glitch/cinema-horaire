@@ -32,222 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001726",
-      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
-      "classification": "G",
-      "duree": 88,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
-      "content": "Aventures fantaisistes",
-      "horaire": {
-        "2025-09-28": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-03": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-04": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-05": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-08": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-09": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ]
-      },
-      "last_show": 1760051100
-    },
-    {
-      "id": "ST00001728",
-      "titre": "LES INCONNUS: CHAPITRE II",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Dans un village, Maya et son amoureux Ryan sont attaqués sans raison apparente par trois psychopathes sanguinaires masqués. En retrouvant ses sens à l’hôpital, Maya apprend qu’elle a échappé à l’assaut, mais que Ryan est décédé de ses blessures. La chasse reprend de plus belle alors que les mystérieux tueurs qui l’ont ciblée au hasard se lancent de nouveau à ses trousses.",
-      "classification": "13+",
-      "duree": 98,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004936",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004934",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=nfI-eTBXaio",
-      "content": "Violence | Suspense d'épouvante",
-      "horaire": {
-        "2025-09-28": [
-          {
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-03": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-04": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-05": [
-          {
-            "heure": "12:55",
-            "attributs": []
-          },
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-08": [
-          {
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-09": [
-          {
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1760051700
-    },
-    {
-      "id": "ST00001724",
-      "titre": "LUI",
-      "OpeningDate": "2025-09-19",
-      "synopsis": "Dès son plus jeune âge, Cameron Cade a baigné dans l’univers du football. Quart-arrière prometteur, il a mené une brillante carrière dans les rangs universitaires et pourrait, selon les observateurs, connaître la consécration dans la ligue professionnelle. Peu de temps avant le repêchage, Cameron est victime d’un traumatisme crânien, dont il garde des séquelles qui se manifestent par des visions cauchemardesques. Néanmoins, il est sélectionné par les Saviors qui l’invitent à participer à un entraînement aux côtés du vétéran Isiah White, son idole de jeunesse, en plein cœur du désert du Nouveau-Mexique. Au fil des jours, Cameron découvrira la part sombre des sacrifices à consentir pour accéder au Saint des Saints.",
-      "classification": "13+",
-      "duree": 96,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
-      "content": "Violence | Horreur | Suspense psychologique",
-      "horaire": {
-        "2025-09-28": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-01": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-02": [
-          {
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1759446300
-    },
-    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "OpeningDate": "2025-09-05",
@@ -389,6 +173,44 @@
       "last_show": 1759445700
     },
     {
+      "id": "ST00001724",
+      "titre": "LUI",
+      "OpeningDate": "2025-09-19",
+      "synopsis": "Dès son plus jeune âge, Cameron Cade a baigné dans l’univers du football. Quart-arrière prometteur, il a mené une brillante carrière dans les rangs universitaires et pourrait, selon les observateurs, connaître la consécration dans la ligue professionnelle. Peu de temps avant le repêchage, Cameron est victime d’un traumatisme crânien, dont il garde des séquelles qui se manifestent par des visions cauchemardesques. Néanmoins, il est sélectionné par les Saviors qui l’invitent à participer à un entraînement aux côtés du vétéran Isiah White, son idole de jeunesse, en plein cœur du désert du Nouveau-Mexique. Au fil des jours, Cameron découvrira la part sombre des sacrifices à consentir pour accéder au Saint des Saints.",
+      "classification": "13+",
+      "duree": 96,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004952",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004950",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/TPZN0oxxBpY",
+      "content": "Violence | Horreur | Suspense psychologique",
+      "horaire": {
+        "2025-09-28": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1759446300
+    },
+    {
       "id": "ST00001722",
       "titre": "UN BEAU GRAND VOYAGE AUDACIEUX",
       "OpeningDate": "2025-09-19",
@@ -425,6 +247,170 @@
         ]
       },
       "last_show": 1759446300
+    },
+    {
+      "id": "ST00001726",
+      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
+      "classification": "G",
+      "duree": 88,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
+      "content": "Aventures fantaisistes",
+      "horaire": {
+        "2025-09-28": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-03": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-04": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-05": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-08": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1760051100
+    },
+    {
+      "id": "ST00001728",
+      "titre": "LES INCONNUS: CHAPITRE II",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Dans un village, Maya et son amoureux Ryan sont attaqués sans raison apparente par trois psychopathes sanguinaires masqués. En retrouvant ses sens à l’hôpital, Maya apprend qu’elle a échappé à l’assaut, mais que Ryan est décédé de ses blessures. La chasse reprend de plus belle alors que les mystérieux tueurs qui l’ont ciblée au hasard se lancent de nouveau à ses trousses.",
+      "classification": "13+",
+      "duree": 98,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004936",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004934",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=nfI-eTBXaio",
+      "content": "Violence | Suspense d'épouvante",
+      "horaire": {
+        "2025-09-28": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-01": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-02": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-03": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-04": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-05": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-08": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760051700
     },
     {
       "id": "ST00001764",
