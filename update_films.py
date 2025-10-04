@@ -234,7 +234,7 @@ def transform_data(sessions):
             if "3D" not in attributs:
                 attributs.insert(0, "3D")
                 
-        if tickets_sold_out:
+        if few_tickets_left:
             attributs.insert(0, "COMPLET")
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
