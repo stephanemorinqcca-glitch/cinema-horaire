@@ -67,6 +67,13 @@
             "attributs": [
               "DLX"
             ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
           }
         ],
         "2025-10-08": [
@@ -120,12 +127,6 @@
         "2025-10-05": [
           {
             "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "18:55",
             "attributs": [
               "DLX"
             ]
