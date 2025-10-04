@@ -148,6 +148,8 @@ def transform_data(sessions):
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
         tickets_sold_out = session.get("TicketsSoldOut", False)
+        few_tickets_left = session.get("FewTicketsLeft", False)
+        show_type = session.get("ShowType", "")
 
         try:
             session_time = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
@@ -161,8 +163,13 @@ def transform_data(sessions):
         # print("    Threshold:", threshold.strftime("%d/%m/%Y %H:%M"))
         # print("    session_time < threshold:", session_time < threshold)
 
-        # 👇 Comparaison sur la date & l'heure
-        if "WWW" not in sales_via or status != "Open" or session_time <= threshold:
+        # 👇 Est-ce que l'on garde la session
+        if (
+            "WWW" not in sales_via
+            or status != "Open"
+            or show_type != "Public"
+            or session_time <= threshold
+        ):
             ignored_count += 1
             continue
 
