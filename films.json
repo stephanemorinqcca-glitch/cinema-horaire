@@ -258,7 +258,7 @@
       "id": "ST00001792",
       "titre": "TAYLOR SWIFT: TOR PARTY OF A SHOWGIRL",
       "OpeningDate": "2025-10-03",
-      "synopsis": "The Official Release Party of a Showgirl: Oct 3 - Oct 5 only in cinemas! You’ll get to see the exclusive world premiere of the music video for my new single “The Fate of Ophelia”, along with never before seen behind-the-scenes footage of how we made it, cut by cut explanations of what inspired this music, and the brand new lyric videos from my new album The Life of a Showgirl.\r\n\r\n**Billet 25$, en vente au cinéma seulement pour la séance en cours, aux personnes présentes au moment de la vente.**\r\n**Aucun laissez-passer n'est accepté.**\r\n\r\n**Ouverture 12h15 & 18h15**",
+      "synopsis": "The Official Release Party of a Showgirl: Oct 3 - Oct 5 only in cinemas! You’ll get to see the exclusive world premiere of the music video for my new single “The Fate of Ophelia”, along with never before seen behind-the-scenes footage of how we made it, cut by cut explanations of what inspired this music, and the brand new lyric videos from my new album The Life of a Showgirl.\r\n\r\n**Billet 25$, en vente au cinéma seulement pour la séance en cours, aux personnes présentes au moment de la vente.**\r\n**Aucun laissez-passer n'est accepté.**",
       "classification": "G",
       "duree": 89,
       "genre": "Musical",
@@ -432,6 +432,154 @@
         ]
       },
       "last_show": 1760051700
+    },
+    {
+      "id": "ST00001768",
+      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Après la séparation de ses parents, Margot, une préadolescente marginale, se donne comme défi de réunir sa famille. Un jour, en rentrant de l’école, elle découvre avec stupeur qu'une inconnue a emménagé chez elle et semble avoir ensorcelé son père. Margot, de plus en plus troublée par les phénomènes inexplicables entourant cette étrange belle-mère, est convaincue qu'elle a affaire à une véritable sorcière maléfique. Déterminée à sauver sa famille, Margot fait appel à Madame Dalloway, une soi-disant spécialiste de l’occulte, espérant qu’elle pourra l'aider à se débarrasser de l'intruse qui a pris sa famille en otage.\r\n\r\n**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 80,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1099415314",
+      "content": "Aventures fantastiques",
+      "horaire": {
+        "2025-10-10": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-11": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-12": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1760656500
+    },
+    {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "L'étonnante aventure d'un programme hautement sophistiqué du nom de Ares, envoyé du monde numérique au monde réel pour une mission dangereuse qui marquera la première rencontre de l'humanité avec des êtres dotés d'une intelligence artificielle.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004932",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004930",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-10": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-11": [
+          {
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-12": [
+          {
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-13": [
+          {
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-15": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-16": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760655300
     }
   ]
 }
