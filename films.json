@@ -39,111 +39,6 @@
   ],
   "films": [
     {
-      "id": "ST00001708",
-      "titre": "LA CONJURATION: DERNIERS RITES",
-      "OpeningDate": "2025-09-05",
-      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
-      "classification": "13+",
-      "duree": 135,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
-      "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-05": [
-          {
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-08": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-09": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-10": [
-          {
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-11": [
-          {
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-12": [
-          {
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-13": [
-          {
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-15": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-16": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ]
-      },
-      "last_show": 1760655300
-    },
-    {
       "id": "ST00001764",
       "titre": "LE COMBATTANT",
       "OpeningDate": "2025-10-03",
@@ -375,6 +270,102 @@
         ]
       },
       "last_show": 1760051700
+    },
+    {
+      "id": "ST00001708",
+      "titre": "LA CONJURATION: DERNIERS RITES",
+      "OpeningDate": "2025-09-05",
+      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
+      "classification": "13+",
+      "duree": 135,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
+      "content": "Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-10-08": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-10": [
+          {
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-11": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-12": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-13": [
+          {
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-15": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-16": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760655300
     },
     {
       "id": "ST00001768",
