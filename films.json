@@ -23,6 +23,13 @@
       "ShowOnSessionsWithNoComps": false
     },
     {
+      "ShortName": "VFQ",
+      "Description": "Version en Français doublé au Québec",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
       "ShortName": "VOA",
       "Description": "Version Originale Anglaise",
       "FontColor": "#666666",
@@ -455,9 +462,47 @@
             "heure": "19:15",
             "attributs": []
           }
+        ],
+        "2025-10-17": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-18": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-22": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-23": [
+          {
+            "heure": "19:15",
+            "attributs": []
+          }
         ]
       },
-      "last_show": 1760656500
+      "last_show": 1761261300
     },
     {
       "id": "ST00001732",
@@ -541,9 +586,68 @@
               "DLX"
             ]
           }
+        ],
+        "2025-10-17": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-18": [
+          {
+            "heure": "12:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          },
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-19": [
+          {
+            "heure": "12:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          },
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-22": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-23": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX",
+              "VFQ"
+            ]
+          }
         ]
       },
-      "last_show": 1760655300
+      "last_show": 1761260100
     }
   ]
 }
