@@ -39,94 +39,6 @@
   ],
   "films": [
     {
-      "id": "ST00001764",
-      "titre": "LE COMBATTANT",
-      "OpeningDate": "2025-10-03",
-      "synopsis": "À la fin des années 1990, l’Américain Mike Kerr se démarque en remportant des combats d’arts martiaux mixtes dans la ligue UFC. En compétition autour du monde, il affronte les plus féroces adversaires de sa discipline sportive. Grisé par les victoires et la possibilité de gagner d’importantes sommes d’argent, Kerr maintient une diète stricte, s’entraîne régulièrement et développe une dépendance aux opiacés.",
-      "classification": "13+",
-      "duree": 123,
-      "genre": "Biography",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005020",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005018",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
-      "content": "Chronique biographique",
-      "horaire": {
-        "2025-10-05": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-08": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-09": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-10": [
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-11": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-12": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-13": [
-          {
-            "heure": "12:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-15": [
-          {
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1760655300
-    },
-    {
       "id": "ST00001792",
       "titre": "TAYLOR SWIFT: TOR PARTY OF A SHOWGIRL",
       "OpeningDate": "2025-10-03",
@@ -361,6 +273,86 @@
             "heure": "18:55",
             "attributs": [
               "DLX"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760655300
+    },
+    {
+      "id": "ST00001764",
+      "titre": "LE COMBATTANT",
+      "OpeningDate": "2025-10-03",
+      "synopsis": "À la fin des années 1990, l’Américain Mike Kerr se démarque en remportant des combats d’arts martiaux mixtes dans la ligue UFC. En compétition autour du monde, il affronte les plus féroces adversaires de sa discipline sportive. Grisé par les victoires et la possibilité de gagner d’importantes sommes d’argent, Kerr maintient une diète stricte, s’entraîne régulièrement et développe une dépendance aux opiacés.",
+      "classification": "13+",
+      "duree": 123,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005020",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005018",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
+      "content": "Chronique biographique",
+      "horaire": {
+        "2025-10-08": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-10": [
+          {
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-11": [
+          {
+            "heure": "12:45",
+            "attributs": []
+          },
+          {
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-12": [
+          {
+            "heure": "12:45",
+            "attributs": []
+          },
+          {
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "heure": "12:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
             ]
           }
         ]
