@@ -28,123 +28,9 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VOA",
-      "Description": "Version Originale Anglaise",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
     }
   ],
   "films": [
-    {
-      "id": "ST00001792",
-      "titre": "TAYLOR SWIFT: TOR PARTY OF A SHOWGIRL",
-      "OpeningDate": "2025-10-03",
-      "synopsis": "The Official Release Party of a Showgirl: Oct 3 - Oct 5 only in cinemas! You’ll get to see the exclusive world premiere of the music video for my new single “The Fate of Ophelia”, along with never before seen behind-the-scenes footage of how we made it, cut by cut explanations of what inspired this music, and the brand new lyric videos from my new album The Life of a Showgirl.\r\n\r\n**Billet 25$, en vente au cinéma seulement pour la séance en cours, aux personnes présentes au moment de la vente.**\r\n**Aucun laissez-passer n'est accepté.**",
-      "classification": "G",
-      "duree": 89,
-      "genre": "Musical",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005024",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005022",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=2h6Bh2A3uzw",
-      "content": "Spectacle musical | VOA: Version Originale Anglaise",
-      "horaire": {
-        "2025-10-05": [
-          {
-            "heure": "19:00",
-            "attributs": [
-              "DERNIÈRE",
-              "VOA"
-            ]
-          }
-        ]
-      },
-      "last_show": 1759705200
-    },
-    {
-      "id": "ST00001726",
-      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
-      "classification": "G",
-      "duree": 88,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
-      "content": "Aventures fantaisistes",
-      "horaire": {
-        "2025-10-05": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-08": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-09": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-10": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-11": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-12": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-13": [
-          {
-            "heure": "13:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-15": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "heure": "19:05",
-            "attributs": []
-          }
-        ]
-      },
-      "last_show": 1760655900
-    },
     {
       "id": "ST00001728",
       "titre": "LES INCONNUS: CHAPITRE II",
@@ -358,6 +244,80 @@
         ]
       },
       "last_show": 1760655300
+    },
+    {
+      "id": "ST00001726",
+      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
+      "classification": "G",
+      "duree": 88,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
+      "content": "Aventures fantaisistes",
+      "horaire": {
+        "2025-10-08": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-09": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-10": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-11": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-12": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "heure": "13:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "heure": "19:05",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1760655900
     },
     {
       "id": "ST00001768",
