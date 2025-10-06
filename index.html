@@ -276,7 +276,7 @@
 					const nowTimestamp = Date.now() / 1000; // secondes UTC			
 					
 					data.films.forEach((film) => {
-  						if (film.last_show === null || nowTimestamp >= film.last_show) {
+  						if (film.last_show === null || nowTimestamp > film.last_show) {
     						return; // Film expiré, on ne l'affiche pas
   						}
 
@@ -457,7 +457,7 @@
     							if (dateStr !== aujourdHuiStr) return true;
 
     							const [h, m] = heure.split(":").map((n) => parseInt(n, 10));
-    							return h > currentHour || (h === currentHour && m > currentMinute);
+    							return h > currentHour || (h === currentHour && m >= currentMinute);
   							});
 
   							if (seancesFiltrees.length > 0) {
