@@ -565,6 +565,108 @@
         ]
       },
       "last_show": 1761260100
+    },
+    {
+      "id": "ST00001766",
+      "titre": "UN VOLEUR SUR LE TOIT",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Inspiré d'une incroyable histoire vraie, Roofman raconte l’histoire de Jeffrey Manchester, un ancien Ranger de l’armée et père en difficulté qui se met à braquer des restaurants McDonald's en découpant des trous dans leurs toits, ce qui lui vaut le surnom de Roofman. Après s'être évadé de prison, il vit secrètement dans un Toys \"R\" Us pendant six mois, survivant sans être repéré tout en planifiant son prochain coup. Mais lorsqu'il tombe amoureux de Leigh, une mère divorcée attirée par son charme indéniable, sa double vie commence à se défaire, déclenchant un jeu suspense captivant, tandis que son passé le rejoint.",
+      "classification": "G",
+      "duree": 126,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
+      "content": "DAJE | Chronique biographique",
+      "horaire": {
+        "2025-10-10": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-11": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-12": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-17": [
+          {
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-18": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "heure": "12:55",
+            "attributs": []
+          },
+          {
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-22": [
+          {
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-23": [
+          {
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761260100
     }
   ]
 }
