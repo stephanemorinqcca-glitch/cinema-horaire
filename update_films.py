@@ -144,6 +144,7 @@ def transform_data(sessions):
     # formatted_threshold = threshold.strftime("%d/%m/%Y %H:%M")
 
     for session in sessions:
+        session_id = session.get("Id")
         showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
@@ -238,6 +239,7 @@ def transform_data(sessions):
             attributs.insert(0, "COMPLET")
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
+            "session_id": session_id,
             "heure": heure,
             "attributs": attributs
         })
