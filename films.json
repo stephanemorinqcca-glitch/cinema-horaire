@@ -48,6 +48,7 @@
       "horaire": {
         "2025-10-08": [
           {
+            "session_id": 30503,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -57,6 +58,7 @@
         ],
         "2025-10-09": [
           {
+            "session_id": 30509,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -66,6 +68,7 @@
         ],
         "2025-10-10": [
           {
+            "session_id": 30582,
             "heure": "18:45",
             "attributs": [
               "DLX"
@@ -74,12 +77,14 @@
         ],
         "2025-10-11": [
           {
+            "session_id": 30561,
             "heure": "12:45",
             "attributs": [
               "DLX"
             ]
           },
           {
+            "session_id": 30566,
             "heure": "18:45",
             "attributs": [
               "DLX"
@@ -88,12 +93,14 @@
         ],
         "2025-10-12": [
           {
+            "session_id": 30571,
             "heure": "12:45",
             "attributs": [
               "DLX"
             ]
           },
           {
+            "session_id": 30576,
             "heure": "18:45",
             "attributs": [
               "DLX"
@@ -102,6 +109,7 @@
         ],
         "2025-10-13": [
           {
+            "session_id": 30606,
             "heure": "12:45",
             "attributs": [
               "DLX"
@@ -110,6 +118,7 @@
         ],
         "2025-10-15": [
           {
+            "session_id": 30586,
             "heure": "18:55",
             "attributs": [
               "DLX"
@@ -118,6 +127,7 @@
         ],
         "2025-10-16": [
           {
+            "session_id": 30590,
             "heure": "18:55",
             "attributs": [
               "DERNIÈRE",
@@ -145,6 +155,7 @@
       "horaire": {
         "2025-10-08": [
           {
+            "session_id": 30507,
             "heure": "18:55",
             "attributs": [
               "DLX"
@@ -153,6 +164,7 @@
         ],
         "2025-10-09": [
           {
+            "session_id": 30513,
             "heure": "18:55",
             "attributs": [
               "DLX"
@@ -161,44 +173,52 @@
         ],
         "2025-10-10": [
           {
+            "session_id": 30614,
             "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-10-11": [
           {
+            "session_id": 30615,
             "heure": "12:45",
             "attributs": []
           },
           {
+            "session_id": 30616,
             "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-10-12": [
           {
+            "session_id": 30617,
             "heure": "12:45",
             "attributs": []
           },
           {
+            "session_id": 30618,
             "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-10-13": [
           {
+            "session_id": 30619,
             "heure": "12:45",
             "attributs": []
           }
         ],
         "2025-10-15": [
           {
+            "session_id": 30622,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-16": [
           {
+            "session_id": 30624,
             "heure": "18:55",
             "attributs": [
               "DERNIÈRE"
@@ -225,56 +245,66 @@
       "horaire": {
         "2025-10-08": [
           {
+            "session_id": 30506,
             "heure": "19:05",
             "attributs": []
           }
         ],
         "2025-10-09": [
           {
+            "session_id": 30512,
             "heure": "19:05",
             "attributs": []
           }
         ],
         "2025-10-10": [
           {
+            "session_id": 30583,
             "heure": "19:05",
             "attributs": []
           }
         ],
         "2025-10-11": [
           {
+            "session_id": 30565,
             "heure": "13:05",
             "attributs": []
           },
           {
+            "session_id": 30569,
             "heure": "19:05",
             "attributs": []
           }
         ],
         "2025-10-12": [
           {
+            "session_id": 30575,
             "heure": "13:05",
             "attributs": []
           },
           {
+            "session_id": 30579,
             "heure": "19:05",
             "attributs": []
           }
         ],
         "2025-10-13": [
           {
+            "session_id": 30609,
             "heure": "13:05",
             "attributs": []
           }
         ],
         "2025-10-15": [
           {
+            "session_id": 30587,
             "heure": "19:05",
             "attributs": []
           }
         ],
         "2025-10-16": [
           {
+            "session_id": 30591,
             "heure": "19:05",
             "attributs": []
           }
@@ -299,12 +329,14 @@
       "horaire": {
         "2025-10-08": [
           {
+            "session_id": 30505,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-09": [
           {
+            "session_id": 30511,
             "heure": "19:15",
             "attributs": [
               "DERNIÈRE"
@@ -331,82 +363,97 @@
       "horaire": {
         "2025-10-10": [
           {
+            "session_id": 30603,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-11": [
           {
+            "session_id": 30595,
             "heure": "13:05",
             "attributs": []
           },
           {
+            "session_id": 30604,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-12": [
           {
+            "session_id": 30597,
             "heure": "13:05",
             "attributs": []
           },
           {
+            "session_id": 30605,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-13": [
           {
+            "session_id": 30610,
             "heure": "13:05",
             "attributs": []
           }
         ],
         "2025-10-15": [
           {
+            "session_id": 30600,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-16": [
           {
+            "session_id": 30602,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-17": [
           {
+            "session_id": 30630,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-18": [
           {
+            "session_id": 30648,
             "heure": "13:05",
             "attributs": []
           },
           {
+            "session_id": 30654,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-19": [
           {
+            "session_id": 30660,
             "heure": "13:05",
             "attributs": []
           },
           {
+            "session_id": 30666,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-22": [
           {
+            "session_id": 30636,
             "heure": "19:15",
             "attributs": []
           }
         ],
         "2025-10-23": [
           {
+            "session_id": 30642,
             "heure": "19:15",
             "attributs": []
           }
@@ -431,6 +478,7 @@
       "horaire": {
         "2025-10-10": [
           {
+            "session_id": 30581,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -441,6 +489,7 @@
         ],
         "2025-10-11": [
           {
+            "session_id": 30562,
             "heure": "12:55",
             "attributs": [
               "ATMOS®",
@@ -449,6 +498,7 @@
             ]
           },
           {
+            "session_id": 30567,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -459,6 +509,7 @@
         ],
         "2025-10-12": [
           {
+            "session_id": 30572,
             "heure": "12:55",
             "attributs": [
               "ATMOS®",
@@ -467,6 +518,7 @@
             ]
           },
           {
+            "session_id": 30577,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -477,6 +529,7 @@
         ],
         "2025-10-13": [
           {
+            "session_id": 30607,
             "heure": "12:55",
             "attributs": [
               "ATMOS®",
@@ -487,6 +540,7 @@
         ],
         "2025-10-15": [
           {
+            "session_id": 30585,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -497,6 +551,7 @@
         ],
         "2025-10-16": [
           {
+            "session_id": 30589,
             "heure": "18:55",
             "attributs": [
               "ATMOS®",
@@ -507,6 +562,7 @@
         ],
         "2025-10-17": [
           {
+            "session_id": 30625,
             "heure": "18:55",
             "attributs": [
               "DLX",
@@ -516,6 +572,7 @@
         ],
         "2025-10-18": [
           {
+            "session_id": 30643,
             "heure": "12:55",
             "attributs": [
               "DLX",
@@ -523,6 +580,7 @@
             ]
           },
           {
+            "session_id": 30649,
             "heure": "18:55",
             "attributs": [
               "DLX",
@@ -532,6 +590,7 @@
         ],
         "2025-10-19": [
           {
+            "session_id": 30655,
             "heure": "12:55",
             "attributs": [
               "DLX",
@@ -539,6 +598,7 @@
             ]
           },
           {
+            "session_id": 30661,
             "heure": "18:55",
             "attributs": [
               "DLX",
@@ -548,6 +608,7 @@
         ],
         "2025-10-22": [
           {
+            "session_id": 30631,
             "heure": "18:55",
             "attributs": [
               "DLX",
@@ -557,6 +618,7 @@
         ],
         "2025-10-23": [
           {
+            "session_id": 30637,
             "heure": "18:55",
             "attributs": [
               "DLX",
@@ -584,82 +646,97 @@
       "horaire": {
         "2025-10-10": [
           {
+            "session_id": 30584,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-11": [
           {
+            "session_id": 30564,
             "heure": "12:55",
             "attributs": []
           },
           {
+            "session_id": 30570,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-12": [
           {
+            "session_id": 30574,
             "heure": "12:55",
             "attributs": []
           },
           {
+            "session_id": 30580,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-13": [
           {
+            "session_id": 30608,
             "heure": "12:55",
             "attributs": []
           }
         ],
         "2025-10-15": [
           {
+            "session_id": 30588,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-16": [
           {
+            "session_id": 30592,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-17": [
           {
+            "session_id": 30628,
             "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-10-18": [
           {
+            "session_id": 30646,
             "heure": "12:55",
             "attributs": []
           },
           {
+            "session_id": 30652,
             "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-10-19": [
           {
+            "session_id": 30658,
             "heure": "12:55",
             "attributs": []
           },
           {
+            "session_id": 30664,
             "heure": "18:45",
             "attributs": []
           }
         ],
         "2025-10-22": [
           {
+            "session_id": 30634,
             "heure": "18:55",
             "attributs": []
           }
         ],
         "2025-10-23": [
           {
+            "session_id": 30640,
             "heure": "18:55",
             "attributs": [
               "DERNIÈRE"
