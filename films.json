@@ -32,6 +32,33 @@
   ],
   "films": [
     {
+      "id": "ST00001728",
+      "titre": "LES INCONNUS: CHAPITRE II",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Dans un village, Maya et son amoureux Ryan sont attaqués sans raison apparente par trois psychopathes sanguinaires masqués. En retrouvant ses sens à l’hôpital, Maya apprend qu’elle a échappé à l’assaut, mais que Ryan est décédé de ses blessures. La chasse reprend de plus belle alors que les mystérieux tueurs qui l’ont ciblée au hasard se lancent de nouveau à ses trousses.",
+      "classification": "13+",
+      "duree": 98,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004936",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004934",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=nfI-eTBXaio",
+      "content": "Violence | Suspense d'épouvante",
+      "horaire": {
+        "2025-10-09": [
+          {
+            "session_id": 30511,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760051700
+    },
+    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "OpeningDate": "2025-09-05",
@@ -46,16 +73,6 @@
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-09": [
-          {
-            "session_id": 30509,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ]
-          }
-        ],
         "2025-10-10": [
           {
             "session_id": 30582,
@@ -143,15 +160,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
       "content": "Chronique biographique",
       "horaire": {
-        "2025-10-09": [
-          {
-            "session_id": 30513,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
         "2025-10-10": [
           {
             "session_id": 30614,
@@ -224,13 +232,6 @@
       "bande_annonce": "https://youtu.be/4dGzUH5siHA",
       "content": "Aventures fantaisistes",
       "horaire": {
-        "2025-10-09": [
-          {
-            "session_id": 30512,
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
         "2025-10-10": [
           {
             "session_id": 30583,
@@ -285,33 +286,6 @@
         ]
       },
       "last_show": 1760655900
-    },
-    {
-      "id": "ST00001728",
-      "titre": "LES INCONNUS: CHAPITRE II",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Dans un village, Maya et son amoureux Ryan sont attaqués sans raison apparente par trois psychopathes sanguinaires masqués. En retrouvant ses sens à l’hôpital, Maya apprend qu’elle a échappé à l’assaut, mais que Ryan est décédé de ses blessures. La chasse reprend de plus belle alors que les mystérieux tueurs qui l’ont ciblée au hasard se lancent de nouveau à ses trousses.",
-      "classification": "13+",
-      "duree": 98,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004936",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004934",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=nfI-eTBXaio",
-      "content": "Violence | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-09": [
-          {
-            "session_id": 30511,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1760051700
     },
     {
       "id": "ST00001768",
