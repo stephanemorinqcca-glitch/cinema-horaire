@@ -238,9 +238,9 @@ def transform_data(sessions):
         # if tickets_sold_out:
         #    attributs.insert(0, "COMPLET")
 
-        # Ajout de l'attribut "COMPLET" si moins de 10 places disponibles
+        # Ajout de l'attribut "COMPLET" si moins de 11 places disponibles
         # print(f"🎟️ Places disponibles pour la session {session_id} : {seats_available}")
-        if seats_available is not None and seats_available < 9:
+        if tickets_sold_out or (seats_available and seats_available < 11):
             attributs.insert(0, "COMPLET")
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
