@@ -149,8 +149,8 @@ def transform_data(sessions):
         sales_via = session.get("SalesVia", [])
         status = session.get("Status", "")
         tickets_sold_out = session.get("TicketsSoldOut", False)
-        few_tickets_left = session.get("FewTicketsLeft", False)
         show_type = session.get("ShowType", "")
+        seats_available = session.get("SeatsAvailable", None)
 
         try:
             session_time = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
@@ -235,8 +235,12 @@ def transform_data(sessions):
             if "3D" not in attributs:
                 attributs.insert(0, "3D")
                 
-        if few_tickets_left:
-            attributs.insert(0, "COMPLET")
+        # if tickets_sold_out:
+        #    attributs.insert(0, "COMPLET")
+
+        # Ajout de l'attribut "COMPLET" si moins de 10 places disponibles
+        if seats_available is not None and isinstance(seats_available, int) and seats_available < 10:
+            attributes.insert(0, "COMPLET")
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
             "session_id": session_id,
