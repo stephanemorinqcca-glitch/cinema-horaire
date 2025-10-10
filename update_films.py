@@ -240,7 +240,7 @@ def transform_data(sessions):
 
         # Ajout de l'attribut "COMPLET" si moins de 10 places disponibles
         # print(f"🎟️ Places disponibles pour la session {session_id} : {seats_available}")
-        if seats_available is not None and seats_available < 10:
+        if seats_available is not None and seats_available < 9:
             attributs.insert(0, "COMPLET")
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
