@@ -239,6 +239,7 @@ def transform_data(sessions):
         #    attributs.insert(0, "COMPLET")
 
         # Ajout de l'attribut "COMPLET" si moins de 10 places disponibles
+        print(f"🎟️ Places disponibles pour la session {session_id} : {seats_available}")
         if seats_available is not None and seats_available < 10:
             attributes.insert(0, "COMPLET")
         
