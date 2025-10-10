@@ -460,7 +460,9 @@
           {
             "session_id": 30634,
             "heure": "18:55",
-            "attributs": []
+            "attributs": [
+              "COMPLET"
+            ]
           }
         ],
         "2025-10-23": [
