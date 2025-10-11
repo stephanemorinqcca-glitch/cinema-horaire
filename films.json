@@ -32,64 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001726",
-      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
-      "classification": "G",
-      "duree": 88,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
-      "content": "Aventures fantaisistes",
-      "horaire": {
-        "2025-10-11": [
-          {
-            "session_id": 30569,
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-12": [
-          {
-            "session_id": 30575,
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "session_id": 30579,
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-13": [
-          {
-            "session_id": 30609,
-            "heure": "13:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-15": [
-          {
-            "session_id": 30587,
-            "heure": "19:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30591,
-            "heure": "19:05",
-            "attributs": []
-          }
-        ]
-      },
-      "last_show": 1760655900
-    },
-    {
       "id": "ST00001768",
       "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
       "OpeningDate": "2025-10-10",
@@ -542,6 +484,215 @@
         ]
       },
       "last_show": 1761260100
+    },
+    {
+      "id": "ST00001726",
+      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
+      "classification": "G",
+      "duree": 88,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
+      "content": "Aventures fantaisistes",
+      "horaire": {
+        "2025-10-12": [
+          {
+            "session_id": 30575,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30579,
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "session_id": 30609,
+            "heure": "13:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "session_id": 30587,
+            "heure": "19:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "session_id": 30591,
+            "heure": "19:05",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1760655900
+    },
+    {
+      "id": "ST00001734",
+      "titre": "TÉLÉPHONE NOIR  II",
+      "OpeningDate": "2025-10-17",
+      "synopsis": "Alors que Finn, maintenant 17 ans, essaie de retrouver une vie plus ou moins normale après sa captivité, Gwen, une forte tête de 15 ans, commence à recevoir des appels téléphoniques du téléphone noir dans ses rêves. Ses visions sont troublantes, ses rêves lui montrent trois garçons qui se font traquer dans un camp d’hiver appelé Alpine Lake.\r\n\r\nBien décidée à résoudre ce mystère et à mettre fin à ses tourments et à ceux de son frère, Gwen arrive à convaincre Finn de se rendre au camp pendant une tempête hivernale. Là, elle fait une découverte bouleversante, elle réalise que le destin de The Grabber et l’histoire de sa propre famille se croisent. Elle et Finn doivent affronter le tueur que la mort a rendu encore plus puissant et qui représente à leurs yeux bien plus qu’ils ne l’auraient imaginé.",
+      "classification": "EC",
+      "duree": 120,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/laLj9STwfCM",
+      "content": "Violence | Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-10-17": [
+          {
+            "session_id": 30627,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30645,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30651,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30657,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30663,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30633,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30639,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30689,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30696,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30701,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30708,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30713,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30720,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30726,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30732,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761864900
     }
   ]
 }
