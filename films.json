@@ -32,111 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001768",
-      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.\r\n\r\n**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1099415314",
-      "content": "Aventures fantastiques",
-      "horaire": {
-        "2025-10-11": [
-          {
-            "session_id": 30604,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-12": [
-          {
-            "session_id": 30597,
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "session_id": 30605,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-13": [
-          {
-            "session_id": 30610,
-            "heure": "13:05",
-            "attributs": []
-          }
-        ],
-        "2025-10-15": [
-          {
-            "session_id": 30600,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30602,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-17": [
-          {
-            "session_id": 30630,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-18": [
-          {
-            "session_id": 30648,
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "session_id": 30654,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30660,
-            "heure": "13:05",
-            "attributs": []
-          },
-          {
-            "session_id": 30666,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30636,
-            "heure": "19:15",
-            "attributs": []
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30642,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1761261300
-    },
-    {
       "id": "ST00001708",
       "titre": "LA CONJURATION: DERNIERS RITES",
       "OpeningDate": "2025-09-05",
@@ -537,12 +432,110 @@
       "last_show": 1760655900
     },
     {
+      "id": "ST00001768",
+      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.\r\n\r\n**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 80,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1099415314",
+      "content": "Aventures fantastiques",
+      "horaire": {
+        "2025-10-12": [
+          {
+            "session_id": 30597,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30605,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "session_id": 30610,
+            "heure": "13:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "session_id": 30600,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "session_id": 30602,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30630,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30648,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30654,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30660,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30666,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30636,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30642,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761261300
+    },
+    {
       "id": "ST00001734",
       "titre": "TÉLÉPHONE NOIR  II",
       "OpeningDate": "2025-10-17",
-      "synopsis": "Alors que Finn, maintenant 17 ans, essaie de retrouver une vie plus ou moins normale après sa captivité, Gwen, une forte tête de 15 ans, commence à recevoir des appels téléphoniques du téléphone noir dans ses rêves. Ses visions sont troublantes, ses rêves lui montrent trois garçons qui se font traquer dans un camp d’hiver appelé Alpine Lake.\r\n\r\nBien décidée à résoudre ce mystère et à mettre fin à ses tourments et à ceux de son frère, Gwen arrive à convaincre Finn de se rendre au camp pendant une tempête hivernale. Là, elle fait une découverte bouleversante, elle réalise que le destin de The Grabber et l’histoire de sa propre famille se croisent. Elle et Finn doivent affronter le tueur que la mort a rendu encore plus puissant et qui représente à leurs yeux bien plus qu’ils ne l’auraient imaginé.",
-      "classification": "EC",
-      "duree": 120,
+      "synopsis": "Alors que Finn, maintenant 17 ans, essaie de retrouver une vie plus ou moins normale après sa captivité, Gwen, une forte tête de 15 ans, commence à recevoir des appels téléphoniques du téléphone noir dans ses rêves. Ses visions sont troublantes, ses rêves lui montrent trois garçons qui se font traquer dans un camp d’hiver appelé Alpine Lake. Bien décidée à résoudre ce mystère et à mettre fin à ses tourments et à ceux de son frère, Gwen arrive à convaincre Finn de se rendre au camp pendant une tempête hivernale. Là, elle fait une découverte bouleversante, elle réalise que le destin de The Grabber et l’histoire de sa propre famille se croisent. Elle et Finn doivent affronter le tueur que la mort a rendu encore plus puissant et qui représente à leurs yeux bien plus qu’ils ne l’auraient imaginé.",
+      "classification": "13+",
+      "duree": 114,
       "genre": "Horror",
       "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
