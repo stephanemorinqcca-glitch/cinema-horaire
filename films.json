@@ -32,128 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001708",
-      "titre": "LA CONJURATION: DERNIERS RITES",
-      "OpeningDate": "2025-09-05",
-      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
-      "classification": "13+",
-      "duree": 135,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
-      "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-11": [
-          {
-            "session_id": 30566,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-12": [
-          {
-            "session_id": 30574,
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "session_id": 30576,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-13": [
-          {
-            "session_id": 30608,
-            "heure": "12:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-15": [
-          {
-            "session_id": 30588,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30592,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ]
-      },
-      "last_show": 1760655300
-    },
-    {
-      "id": "ST00001764",
-      "titre": "LE COMBATTANT",
-      "OpeningDate": "2025-10-03",
-      "synopsis": "À la fin des années 1990, l’Américain Mike Kerr se démarque en remportant des combats d’arts martiaux mixtes dans la ligue UFC. En compétition autour du monde, il affronte les plus féroces adversaires de sa discipline sportive. Grisé par les victoires et la possibilité de gagner d’importantes sommes d’argent, Kerr maintient une diète stricte, s’entraîne régulièrement et développe une dépendance aux opiacés.",
-      "classification": "13+",
-      "duree": 123,
-      "genre": "Biography",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005020",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005018",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
-      "content": "Chronique biographique",
-      "horaire": {
-        "2025-10-11": [
-          {
-            "session_id": 30616,
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-12": [
-          {
-            "session_id": 30617,
-            "heure": "12:45",
-            "attributs": []
-          },
-          {
-            "session_id": 30618,
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-13": [
-          {
-            "session_id": 30619,
-            "heure": "12:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-15": [
-          {
-            "session_id": 30622,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30624,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1760655300
-    },
-    {
       "id": "ST00001732",
       "titre": "TRON: ARES",
       "OpeningDate": "2025-10-10",
@@ -576,6 +454,112 @@
         ]
       },
       "last_show": 1761261300
+    },
+    {
+      "id": "ST00001708",
+      "titre": "LA CONJURATION: DERNIERS RITES",
+      "OpeningDate": "2025-09-05",
+      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
+      "classification": "13+",
+      "duree": 135,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
+      "content": "Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-10-12": [
+          {
+            "session_id": 30574,
+            "heure": "12:45",
+            "attributs": []
+          },
+          {
+            "session_id": 30576,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-13": [
+          {
+            "session_id": 30608,
+            "heure": "12:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "session_id": 30588,
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "session_id": 30592,
+            "heure": "18:55",
+            "attributs": []
+          }
+        ]
+      },
+      "last_show": 1760655300
+    },
+    {
+      "id": "ST00001764",
+      "titre": "LE COMBATTANT",
+      "OpeningDate": "2025-10-03",
+      "synopsis": "À la fin des années 1990, l’Américain Mike Kerr se démarque en remportant des combats d’arts martiaux mixtes dans la ligue UFC. En compétition autour du monde, il affronte les plus féroces adversaires de sa discipline sportive. Grisé par les victoires et la possibilité de gagner d’importantes sommes d’argent, Kerr maintient une diète stricte, s’entraîne régulièrement et développe une dépendance aux opiacés.",
+      "classification": "13+",
+      "duree": 123,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005020",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005018",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
+      "content": "Chronique biographique",
+      "horaire": {
+        "2025-10-12": [
+          {
+            "session_id": 30617,
+            "heure": "12:45",
+            "attributs": []
+          },
+          {
+            "session_id": 30618,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-13": [
+          {
+            "session_id": 30619,
+            "heure": "12:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-15": [
+          {
+            "session_id": 30622,
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-16": [
+          {
+            "session_id": 30624,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760655300
     }
   ]
 }
