@@ -569,7 +569,9 @@
           {
             "session_id": 30642,
             "heure": "19:15",
-            "attributs": []
+            "attributs": [
+              "DERNIÈRE"
+            ]
           }
         ]
       },
