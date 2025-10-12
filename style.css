@@ -195,7 +195,7 @@ h1 {
 }
 
 .jour-label {
-	/* font-weight: bold; */
+	font-weight: bold;
 	color: #000;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -296,6 +296,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
