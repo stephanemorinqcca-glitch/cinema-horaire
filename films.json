@@ -32,240 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "L'étonnante aventure d'un programme hautement sophistiqué du nom de Ares, envoyé du monde numérique au monde réel pour une mission dangereuse qui marquera la première rencontre de l'humanité avec des êtres dotés d'une intelligence artificielle.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-12": [
-          {
-            "session_id": 30577,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX",
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-13": [
-          {
-            "session_id": 30607,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX",
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-15": [
-          {
-            "session_id": 30585,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX",
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30589,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX",
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-17": [
-          {
-            "session_id": 30628,
-            "heure": "18:45",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-18": [
-          {
-            "session_id": 30646,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ]
-          },
-          {
-            "session_id": 30652,
-            "heure": "18:45",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30658,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ]
-          },
-          {
-            "session_id": 30664,
-            "heure": "18:45",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ]
-      },
-      "last_show": 1761260100
-    },
-    {
-      "id": "ST00001766",
-      "titre": "UN VOLEUR SUR LE TOIT",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Inspiré d'une incroyable histoire vraie, Roofman raconte l’histoire de Jeffrey Manchester, un ancien Ranger de l’armée et père en difficulté qui se met à braquer des restaurants McDonald's en découpant des trous dans leurs toits, ce qui lui vaut le surnom de Roofman. Après s'être évadé de prison, il vit secrètement dans un Toys \"R\" Us pendant six mois, survivant sans être repéré tout en planifiant son prochain coup. Mais lorsqu'il tombe amoureux de Leigh, une mère divorcée attirée par son charme indéniable, sa double vie commence à se défaire, déclenchant un jeu suspense captivant, tandis que son passé le rejoint.",
-      "classification": "G",
-      "duree": 126,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
-      "content": "DAJE | Chronique biographique",
-      "horaire": {
-        "2025-10-12": [
-          {
-            "session_id": 30576,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-13": [
-          {
-            "session_id": 30606,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-15": [
-          {
-            "session_id": 30586,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30590,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-17": [
-          {
-            "session_id": 30625,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-18": [
-          {
-            "session_id": 30643,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "session_id": 30649,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30655,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "session_id": 30661,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30631,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30637,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ]
-      },
-      "last_show": 1761260100
-    },
-    {
       "id": "ST00001726",
       "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
       "OpeningDate": "2025-09-26",
@@ -481,6 +247,220 @@
         ]
       },
       "last_show": 1760655300
+    },
+    {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "L'étonnante aventure d'un programme hautement sophistiqué du nom de Ares, envoyé du monde numérique au monde réel pour une mission dangereuse qui marquera la première rencontre de l'humanité avec des êtres dotés d'une intelligence artificielle.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-13": [
+          {
+            "session_id": 30607,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-15": [
+          {
+            "session_id": 30585,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-16": [
+          {
+            "session_id": 30589,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30628,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30646,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ]
+          },
+          {
+            "session_id": 30652,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30658,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ]
+          },
+          {
+            "session_id": 30664,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30634,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30640,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761260100
+    },
+    {
+      "id": "ST00001766",
+      "titre": "UN VOLEUR SUR LE TOIT",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Inspiré d'une incroyable histoire vraie, Roofman raconte l’histoire de Jeffrey Manchester, un ancien Ranger de l’armée et père en difficulté qui se met à braquer des restaurants McDonald's en découpant des trous dans leurs toits, ce qui lui vaut le surnom de Roofman. Après s'être évadé de prison, il vit secrètement dans un Toys \"R\" Us pendant six mois, survivant sans être repéré tout en planifiant son prochain coup. Mais lorsqu'il tombe amoureux de Leigh, une mère divorcée attirée par son charme indéniable, sa double vie commence à se défaire, déclenchant un jeu suspense captivant, tandis que son passé le rejoint.",
+      "classification": "G",
+      "duree": 126,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
+      "content": "DAJE | Chronique biographique",
+      "horaire": {
+        "2025-10-13": [
+          {
+            "session_id": 30606,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-15": [
+          {
+            "session_id": 30586,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-16": [
+          {
+            "session_id": 30590,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30625,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30643,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30649,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30655,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30661,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30631,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30637,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761260100
     },
     {
       "id": "ST00001734",
