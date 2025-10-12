@@ -205,66 +205,60 @@
         ],
         "2025-10-17": [
           {
-            "session_id": 30625,
-            "heure": "18:55",
+            "session_id": 30628,
+            "heure": "18:45",
             "attributs": [
-              "DLX",
               "VFQ"
             ]
           }
         ],
         "2025-10-18": [
           {
-            "session_id": 30643,
+            "session_id": 30646,
             "heure": "12:55",
             "attributs": [
-              "DLX",
               "VFQ"
             ]
           },
           {
-            "session_id": 30649,
-            "heure": "18:55",
+            "session_id": 30652,
+            "heure": "18:45",
             "attributs": [
-              "DLX",
               "VFQ"
             ]
           }
         ],
         "2025-10-19": [
           {
-            "session_id": 30655,
+            "session_id": 30658,
             "heure": "12:55",
             "attributs": [
-              "DLX",
               "VFQ"
             ]
           },
           {
-            "session_id": 30661,
-            "heure": "18:55",
+            "session_id": 30664,
+            "heure": "18:45",
             "attributs": [
-              "DLX",
               "VFQ"
             ]
           }
         ],
         "2025-10-22": [
           {
-            "session_id": 30631,
+            "session_id": 30634,
             "heure": "18:55",
             "attributs": [
-              "DLX",
               "VFQ"
             ]
           }
         ],
         "2025-10-23": [
           {
-            "session_id": 30637,
+            "session_id": 30640,
             "heure": "18:55",
             "attributs": [
-              "DLX",
+              "DERNIÈRE",
               "VFQ"
             ]
           }
@@ -332,48 +326,60 @@
         ],
         "2025-10-17": [
           {
-            "session_id": 30628,
+            "session_id": 30625,
             "heure": "18:45",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-10-18": [
           {
-            "session_id": 30646,
+            "session_id": 30643,
             "heure": "12:55",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           },
           {
-            "session_id": 30652,
+            "session_id": 30649,
             "heure": "18:45",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-10-19": [
           {
-            "session_id": 30658,
+            "session_id": 30655,
             "heure": "12:55",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           },
           {
-            "session_id": 30664,
+            "session_id": 30661,
             "heure": "18:45",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-10-22": [
           {
-            "session_id": 30634,
+            "session_id": 30631,
             "heure": "18:55",
-            "attributs": []
+            "attributs": [
+              "DLX"
+            ]
           }
         ],
         "2025-10-23": [
           {
-            "session_id": 30640,
+            "session_id": 30637,
             "heure": "18:55",
             "attributs": [
-              "DERNIÈRE"
+              "DLX"
             ]
           }
         ]
