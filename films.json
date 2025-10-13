@@ -162,7 +162,7 @@
         "2025-10-17": [
           {
             "session_id": 30628,
-            "heure": "18:45",
+            "heure": "18:55",
             "attributs": [
               "VFQ"
             ]
@@ -178,7 +178,7 @@
           },
           {
             "session_id": 30652,
-            "heure": "18:45",
+            "heure": "18:55",
             "attributs": [
               "VFQ"
             ]
@@ -194,7 +194,7 @@
           },
           {
             "session_id": 30664,
-            "heure": "18:45",
+            "heure": "18:55",
             "attributs": [
               "VFQ"
             ]
@@ -203,7 +203,7 @@
         "2025-10-22": [
           {
             "session_id": 30634,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "VFQ"
             ]
@@ -212,14 +212,14 @@
         "2025-10-23": [
           {
             "session_id": 30640,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "VFQ"
             ]
           }
         ]
       },
-      "last_show": 1761260100
+      "last_show": 1761260700
     },
     {
       "id": "ST00001766",
@@ -466,7 +466,7 @@
         "2025-10-17": [
           {
             "session_id": 30627,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -484,7 +484,7 @@
           },
           {
             "session_id": 30651,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -502,7 +502,7 @@
           },
           {
             "session_id": 30663,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -512,7 +512,7 @@
         "2025-10-22": [
           {
             "session_id": 30633,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -522,7 +522,7 @@
         "2025-10-23": [
           {
             "session_id": 30639,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -586,7 +586,7 @@
         "2025-10-29": [
           {
             "session_id": 30726,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -596,7 +596,7 @@
         "2025-10-30": [
           {
             "session_id": 30732,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "ATMOS®",
               "DLX"
@@ -604,7 +604,7 @@
           }
         ]
       },
-      "last_show": 1761864900
+      "last_show": 1761865500
     }
   ]
 }
