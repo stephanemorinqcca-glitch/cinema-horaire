@@ -336,7 +336,7 @@ h1 {
   border-radius: 4px;
   color: #000;                         /* texte noir */
   white-space: nowrap;                /* empêche le retour à la ligne */
-  margin: 0px 0 0 0;                 /* top: 10px, bottom: 0, left/right: 0 */
+  margin: 5px 0 0 0;                 /* top: 5px, bottom: 0, left/right: 0 */
   max-width: max-content;  
 }
 
@@ -345,6 +345,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
