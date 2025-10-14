@@ -189,6 +189,14 @@ h1 {
   color: #222;
 }
 
+/* Texte mis en évidence extrait de **...** */
+.synopsis-highlight {
+  font-weight: bold;
+  font-size: 13px;
+  color: #222;
+  margin-bottom: 4px;
+}
+
 /* Par défaut : cacher la flèche sur les grands écrans */
 .toggle-arrow {
   line-height: 1;
@@ -337,6 +345,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
