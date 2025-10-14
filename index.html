@@ -452,6 +452,10 @@
   							// Nettoyer les sauts de ligne
   							cleanedSynopsis = cleanedSynopsis.replace(/\n/g, "<br>");
 
+							// Estimer le nombre de lignes
+  							const lineCount = (originalText.match(/\n/g) || []).length + 1;
+  							const shouldTruncate = lineCount >= 8;
+
   							// Ajouter les highlights avant
   							highlightsBefore.forEach(el => synopsisContainer.appendChild(el));
 
@@ -460,17 +464,24 @@
   							synopsisText.className = "synopsis-text";
   							synopsisText.innerHTML = cleanedSynopsis;
   							synopsisContainer.appendChild(synopsisText);
+							
+							if (shouldTruncate) {
+    							synopsisContainer.classList.add("truncated");
 
-  							// Ajouter la flèche
-  							const toggleArrow = document.createElement("span");
-  							toggleArrow.className = "toggle-arrow";
-  							toggleArrow.innerHTML = "&#x25BC;";
-							// toggleArrow.innerHTML = "&#x02C5;";
-  							toggleArrow.addEventListener("click", function () {
-    							synopsisContainer.classList.toggle("expanded");
-    							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
-  								});
-  							synopsisContainer.appendChild(toggleArrow);
+  								// Ajouter la flèche
+  								const toggleArrow = document.createElement("span");
+  								toggleArrow.className = "toggle-arrow";
+  								toggleArrow.innerHTML = "&#x25BC;";
+								// toggleArrow.innerHTML = "&#x02C5;";
+  								toggleArrow.addEventListener("click", function () {
+	    							synopsisContainer.classList.toggle("expanded");
+    								toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
+  									});
+  								synopsisContainer.appendChild(toggleArrow);
+								
+						  	} else {
+    							synopsisContainer.classList.add("full");
+  							}
 
   							// Ajouter les highlights après
   							highlightsAfter.forEach(el => synopsisContainer.appendChild(el));
