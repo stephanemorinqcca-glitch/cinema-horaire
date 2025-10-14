@@ -452,6 +452,7 @@
 								cleanedSynopsis = cleanedSynopsis
   									.replace(/^(<br\s*\/?>|\n)+/gi, "")   // début
   									.replace(/(<br\s*\/?>|\n)+$/gi, "");  // fin
+  									.replace(/(<br\s*\/?>\s*){2,}/gi, "<br>"); // doublons internes
   							});
 
   							// Nettoyer les sauts de ligne
