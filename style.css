@@ -199,7 +199,7 @@ h1 {
 
 /* Par défaut : cacher la flèche sur les grands écrans */
 .toggle-arrow {
-  line-height: 1;
+  /* line-height: 1; */
   display: none;
 }
 
@@ -345,6 +345,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
