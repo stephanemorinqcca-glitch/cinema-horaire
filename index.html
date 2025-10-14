@@ -479,6 +479,8 @@
     							synopsisContainer.classList.add("truncated");
 
   								// Ajouter la flèche
+								const toggleArrow = document.createElement("span");
+								toggleArrow.className = "toggle-arrow";
 								toggleArrow.innerHTML = downArrowSVG;
 								toggleArrow.addEventListener("click", function () {
   									synopsisContainer.classList.toggle("expanded");
