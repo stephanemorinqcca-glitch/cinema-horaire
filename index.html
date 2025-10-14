@@ -424,17 +424,13 @@
   							// Trouver tous les passages entre **...**
   							const highlightMatches = [...originalText.matchAll(/\*\*(.*?)\*\*/g)];
 
-  							// Nettoyer le synopsis : retirer les **...**
-  							const cleanedSynopsis = originalText
-    							.replace(/\*\*(.*?)\*\*/g, "")
-    							.replace(/\n/g, "<br>");
+  							// Créer une copie du texte sans les **...**
+  							let cleanedSynopsis = originalText;
 
-  							// Créer le paragraphe tronqué
-  							const synopsisText = document.createElement("p");
-  								synopsisText.className = "synopsis-text";
-  								synopsisText.innerHTML = cleanedSynopsis;
+  							// On stocke les éléments à afficher avant et après
+  							const highlightsBefore = [];
+  							const highlightsAfter = [];
 
-  							// Ajouter les highlights AVANT ou APRÈS selon leur position
   							highlightMatches.forEach(match => {
     							const text = match[1];
     							const index = match.index;
@@ -444,15 +440,29 @@
     							highlight.innerHTML = `<strong>${text}</strong>`;
 
     							if (index < originalText.length / 2) {
-      								// Si le texte est dans la première moitié → avant
-      								synopsisContainer.appendChild(highlight);
+	      							highlightsBefore.push(highlight);
     							} else {
-      								// Sinon → après
-      								synopsisText.after(highlight);
+	      							highlightsAfter.push(highlight);
     							}
+
+    							// Supprimer ce passage du texte nettoyé
+    							cleanedSynopsis = cleanedSynopsis.replace(match[0], "");
   							});
 
+  							// Nettoyer les sauts de ligne
+  							cleanedSynopsis = cleanedSynopsis.replace(/\n/g, "<br>");
+
+  							// Ajouter les highlights avant
+  							highlightsBefore.forEach(el => synopsisContainer.appendChild(el));
+
+  							// Créer le paragraphe tronqué
+  							const synopsisText = document.createElement("p");
+  							synopsisText.className = "synopsis-text";
+  							synopsisText.innerHTML = cleanedSynopsis;
   							synopsisContainer.appendChild(synopsisText);
+
+  							// Ajouter les highlights après
+  							highlightsAfter.forEach(el => synopsisContainer.appendChild(el));
 
   							// Ajouter la flèche
   							const toggleArrow = document.createElement("span");
@@ -461,7 +471,7 @@
   							toggleArrow.addEventListener("click", function () {
     							synopsisContainer.classList.toggle("expanded");
     							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
-  							});
+  								});
   							synopsisContainer.appendChild(toggleArrow);
 
   							details.appendChild(synopsisContainer);
