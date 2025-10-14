@@ -180,6 +180,7 @@ h1 {
   text-align: justify;
   overflow: visible;
   max-height: none;
+  margin-bottom: 0px;
 }
 
 .synopsis-text strong {
@@ -233,7 +234,7 @@ h1 {
     font-size: 1.2em;
     user-select: none;
     color: black;
-    margin-top: 2px; /* réduit l'espace vertical */
+    margin-top: 0px; /* réduit l'espace vertical */
   }
 }
 
@@ -345,6 +346,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
