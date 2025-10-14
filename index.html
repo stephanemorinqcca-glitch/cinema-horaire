@@ -414,32 +414,44 @@
     						classificationDetailsDiv.style.backgroundColor = classificationColor;
     						details.appendChild(classificationDetailsDiv);
 						}
-						
+
 						if (film.synopsis) {
   							const synopsisContainer = document.createElement("div");
-  							synopsisContainer.className = "synopsis";
+  							synopsisContainer.className = "synopsis-container synopsis";
+
+  							const originalText = film.synopsis;
 
   							// Trouver tous les passages entre **...**
-  							const highlightMatches = [...film.synopsis.matchAll(/\*\*(.*?)\*\*/g)];
-  							const highlightedTexts = highlightMatches.map(match => match[1]);
+  							const highlightMatches = [...originalText.matchAll(/\*\*(.*?)\*\*/g)];
 
-  							// Nettoyer le synopsis : retirer tous les **...**
-  							const cleanedSynopsis = film.synopsis
-    							.replace(/\*\*(.*?)\*\*/g, "") // retirer les **...**
+  							// Nettoyer le synopsis : retirer les **...**
+  							const cleanedSynopsis = originalText
+    							.replace(/\*\*(.*?)\*\*/g, "")
     							.replace(/\n/g, "<br>");
-
-  							// Créer les éléments pour chaque texte mis en évidence
-  							highlightedTexts.forEach(text => {
-    							const highlight = document.createElement("p");
-    							highlight.className = "synopsis-highlight";
-    							highlight.innerHTML = `<strong>${text}</strong>`;
-    							synopsisContainer.appendChild(highlight);
-  							});
 
   							// Créer le paragraphe tronqué
   							const synopsisText = document.createElement("p");
-  							synopsisText.className = "synopsis-text";
-  							synopsisText.innerHTML = cleanedSynopsis;
+  								synopsisText.className = "synopsis-text";
+  								synopsisText.innerHTML = cleanedSynopsis;
+
+  							// Ajouter les highlights AVANT ou APRÈS selon leur position
+  							highlightMatches.forEach(match => {
+    							const text = match[1];
+    							const index = match.index;
+
+    							const highlight = document.createElement("p");
+    							highlight.className = "synopsis-highlight";
+    							highlight.innerHTML = `<strong>${text}</strong>`;
+
+    							if (index < originalText.length / 2) {
+      								// Si le texte est dans la première moitié → avant
+      								synopsisContainer.appendChild(highlight);
+    							} else {
+      								// Sinon → après
+      								synopsisText.after(highlight);
+    							}
+  							});
+
   							synopsisContainer.appendChild(synopsisText);
 
   							// Ajouter la flèche
