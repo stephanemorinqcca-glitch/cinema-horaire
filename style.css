@@ -247,6 +247,13 @@ h1 {
 	/* font-weight: bold; */
     margin-top: 0px; /* réduit l'espace vertical */
   }	
+
+  .toggle-arrow svg {
+  vertical-align: middle;
+  stroke: #666;
+  width: 14px;
+  height: 14px;
+}
 }
 
 .seances {
@@ -358,6 +365,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
