@@ -207,7 +207,7 @@ h1 {
 
 /* Texte mis en évidence extrait de **...** */
 .synopsis-highlight {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 13px;
   color: #222;
   margin-bottom: 4px;
@@ -347,6 +347,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
