@@ -450,8 +450,8 @@
     							cleanedSynopsis = cleanedSynopsis.replace(match[0], "");
 								// Nettoyer les <br> ou \n en début et fin
 								cleanedSynopsis = cleanedSynopsis
-  									.replace(/^(<br\s*\/?>|\n)+/gi, "")   // début
-  									.replace(/(<br\s*\/?>|\n)+$/gi, "");  // fin
+  									.replace(/^(<br\s*\/?>|\n)+/gi, "")  // début
+  									.replace(/(<br\s*\/?>|\n)+$/gi, "")  // fin
   									.replace(/(<br\s*\/?>\s*){2,}/gi, "<br>"); // doublons internes
   							});
 
