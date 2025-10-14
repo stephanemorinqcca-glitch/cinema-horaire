@@ -231,9 +231,10 @@ h1 {
   .toggle-arrow {
     display: inline-block;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1.2em;
     user-select: none;
     color: #666;
+	font-weight: bold;
     margin-top: 0px; /* réduit l'espace vertical */
   }
 }
@@ -347,6 +348,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
