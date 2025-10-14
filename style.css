@@ -212,14 +212,21 @@ h1 {
   margin-bottom: 4px;
 }
 
-/* Flèche d’expansion */
+/* Flèche visible uniquement sur petit écran */
+@media screen and (max-width: 600px) {
+  .toggle-arrow {
+    cursor: pointer;
+    font-size: 1.2em;
+    user-select: none;
+    display: inline-block;
+    /* margin-top: 5px; */
+    color: black; /* flèche noire */
+  }
+}
+
+/* Par défaut : cacher la flèche sur les grands écrans */
 .toggle-arrow {
-  cursor: pointer;
-  font-size: 1.2em;
-  user-select: none;
-  display: inline-block;
-  margin-top: 5px;
-  color: #007BFF;
+  display: none;
 }
 
 .seances {
@@ -330,6 +337,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
