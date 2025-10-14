@@ -464,11 +464,11 @@
 							// Ajouter la flèche			
   							const toggleArrow = document.createElement("span");
 							toggleArrow.className = "toggle-arrow";
-  							toggleArrow.innerHTML = "&#x25BC;";
+  							toggleArrow.innerHTML = "...&#x25BC;...";
 							//toggleArrow.innerHTML = "&#x02C5;";
   							toggleArrow.addEventListener("click", function () {
 	    						synopsisContainer.classList.toggle("expanded");
-    							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
+    							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "...&#x25BC;...";
   							});
 								
   							synopsisContainer.appendChild(toggleArrow);
