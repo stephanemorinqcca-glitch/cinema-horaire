@@ -189,7 +189,7 @@ h1 {
   color: #222;
 }
 
-/* Troncage uniquement sur petit écran */
+/* Troncage uniquement sur petit écran 
 @media screen and (max-width: 600px) {
   .synopsis-text {
     overflow: hidden;
@@ -198,12 +198,12 @@ h1 {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     transition: all 0.3s ease;
-  }
+  } 
 
   .synopsis.expanded .synopsis-text {
     -webkit-line-clamp: unset;
   }
-}
+} */
 
 /* Texte mis en évidence extrait de **...** */
 .synopsis-highlight {
@@ -365,6 +365,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
