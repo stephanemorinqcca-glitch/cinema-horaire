@@ -224,29 +224,6 @@
     			return fragment;
 			}
 	
-			// Fonction pour créer une icône SVG
-			function createChevronIcon(direction) {
-  				const svgNS = "http://www.w3.org/2000/svg";
-  				const svg = document.createElementNS(svgNS, "svg");
-  				svg.setAttribute("width", "16");
-  				svg.setAttribute("height", "16");
-  				svg.setAttribute("fill", "currentColor");
-  				svg.setAttribute("class", `bi bi-chevron-bar-${direction}`);
-  				svg.setAttribute("viewBox", "0 0 16 16");
-
-  				const path = document.createElementNS(svgNS, "path");
-  				path.setAttribute("fill-rule", "evenodd");
-
-  				if (direction === "down") {
-    				path.setAttribute("d", "M3.646 4.146a.5.5 0 0 1 .708 0L8 7.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708M1 11.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5");
-  				} else {
-    				path.setAttribute("d", "M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708M2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4");
-  				}
-
-  				svg.appendChild(path);
-  				return svg;
-			}
-	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
 				.then((response) => response.json())
@@ -484,30 +461,15 @@
   							synopsisText.innerHTML = cleanedSynopsis;
  							synopsisContainer.appendChild(synopsisText);
 
-							// Ajouter la flèche
-							const toggleArrow = createChevronIcon("down");
-							toggleArrow.classList.add("toggle-arrow");
-
-							toggleArrow.addEventListener("click", function () {
-  								synopsisContainer.classList.toggle("expanded");
-
-							// Remplacer l'icône
-  								const newArrow = createChevronIcon(synopsisContainer.classList.contains("expanded") ? "up" : "down");
-  									toggleArrow.replaceWith(newArrow);
-  									newArrow.classList.add("toggle-arrow");
-
-  							// Réattacher l'événement
-  								newArrow.addEventListener("click", arguments.callee);
-							});
-							
-  							//const toggleArrow = document.createElement("span");
-							//toggleArrow.className = "toggle-arrow";
-  							//toggleArrow.innerHTML = "&#x25BC;";
-							// toggleArrow.innerHTML = "&#x02C5;";
-  							//toggleArrow.addEventListener("click", function () {
-	    					//	synopsisContainer.classList.toggle("expanded");
-    						//	toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
-  							//});
+							// Ajouter la flèche			
+  							const toggleArrow = document.createElement("span");
+							toggleArrow.className = "toggle-arrow";
+  							toggleArrow.innerHTML = "&#x25BC;";
+							 toggleArrow.innerHTML = "&#x02C5;";
+  							toggleArrow.addEventListener("click", function () {
+	    						synopsisContainer.classList.toggle("expanded");
+    							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
+  							});
 								
   							synopsisContainer.appendChild(toggleArrow);
 
