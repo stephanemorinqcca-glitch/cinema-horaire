@@ -233,7 +233,7 @@ h1 {
     cursor: pointer;
     font-size: 0.9em;
     user-select: none;
-    color: #666;
+    color: #eee;
     margin-top: 0px; /* réduit l'espace vertical */
   }
 }
@@ -346,6 +346,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
