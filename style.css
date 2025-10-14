@@ -189,7 +189,13 @@ h1 {
   color: #222;
 }
 
-/* Troncage uniquement sur petit écran 
+/* Par défaut : cacher la flèche sur les grands écrans */
+.toggle-arrow {
+  line-height: 1;
+  display: none;
+}
+
+/* Troncage uniquement sur petit écran */
 @media screen and (max-width: 600px) {
   .synopsis-text {
     overflow: hidden;
@@ -202,40 +208,6 @@ h1 {
 
   .synopsis.expanded .synopsis-text {
     -webkit-line-clamp: unset;
-  }
-} */
-
-/* Texte mis en évidence extrait de **...** */
-.synopsis-highlight {
-  font-weight: bold;
-  font-size: 13px;
-  color: #222;
-  margin-bottom: 4px;
-}
-
-/* Par défaut : cacher la flèche sur les grands écrans */
-.toggle-arrow {
-  line-height: 1;
-  display: none;
-}
-
-.synopsis-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 4px; /* réduit l'espace entre le texte et la flèche */
-}
-
-/* Flèche visible uniquement sur petit écran */
-@media screen and (max-width: 600px) {
-  .synopsis-container.truncated {
-    max-height: 8em;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .synopsis-container.expanded {
-    max-height: none;
   }
 	
   .toggle-arrow {
@@ -365,6 +337,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
