@@ -459,20 +459,17 @@
   							const synopsisText = document.createElement("p");
   							synopsisText.className = "synopsis-text";
   							synopsisText.innerHTML = cleanedSynopsis;
-  							synopsisContainer.appendChild(synopsisText);
-							
-							if (shouldTruncate) {
-    							synopsisContainer.classList.add("truncated");
+ 							synopsisContainer.appendChild(synopsisText);
 
-  								// Ajouter la flèche
-  								const toggleArrow = document.createElement("span");
-  								toggleArrow.className = "toggle-arrow";
-  								toggleArrow.innerHTML = "&#x25BC;";
-								// toggleArrow.innerHTML = "&#x02C5;";
-  								toggleArrow.addEventListener("click", function () {
-	    							synopsisContainer.classList.toggle("expanded");
-    								toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
-  								});
+							// Ajouter la flèche
+  							const toggleArrow = document.createElement("span");
+  							toggleArrow.className = "toggle-arrow";
+  							toggleArrow.innerHTML = "&#x25BC;";
+							// toggleArrow.innerHTML = "&#x02C5;";
+  							toggleArrow.addEventListener("click", function () {
+	    						synopsisContainer.classList.toggle("expanded");
+    							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
+  							});
 								
   							synopsisContainer.appendChild(toggleArrow);
 
