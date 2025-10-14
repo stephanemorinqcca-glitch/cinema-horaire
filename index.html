@@ -461,9 +461,6 @@
   							synopsisText.innerHTML = cleanedSynopsis;
   							synopsisContainer.appendChild(synopsisText);
 
-  							// Ajouter les highlights après
-  							highlightsAfter.forEach(el => synopsisContainer.appendChild(el));
-
   							// Ajouter la flèche
   							const toggleArrow = document.createElement("span");
   							toggleArrow.className = "toggle-arrow";
@@ -473,6 +470,9 @@
     							toggleArrow.innerHTML = synopsisContainer.classList.contains("expanded") ? "&#x25B2;" : "&#x25BC;";
   								});
   							synopsisContainer.appendChild(toggleArrow);
+
+  							// Ajouter les highlights après
+  							highlightsAfter.forEach(el => synopsisContainer.appendChild(el));
 
   							details.appendChild(synopsisContainer);
 						}
