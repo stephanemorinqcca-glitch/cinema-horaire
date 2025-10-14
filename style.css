@@ -228,16 +228,6 @@ h1 {
 
 /* Flèche visible uniquement sur petit écran */
 @media screen and (max-width: 600px) {
-  .toggle-arrow {
-    display: inline-block;
-    cursor: pointer;
-    font-size: 0.9em;
-    user-select: none;
-    color: #666;
-	/* font-weight: bold; */
-    margin-top: 0px; /* réduit l'espace vertical */
-  }
-	
   .synopsis-container.truncated {
     max-height: 8em;
     overflow: hidden;
@@ -247,6 +237,16 @@ h1 {
   .synopsis-container.expanded {
     max-height: none;
   }
+	
+  .toggle-arrow {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 0.9em;
+    user-select: none;
+    color: #666;
+	/* font-weight: bold; */
+    margin-top: 0px; /* réduit l'espace vertical */
+  }	
 }
 
 .seances {
@@ -358,6 +358,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
