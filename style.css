@@ -237,6 +237,16 @@ h1 {
 	/* font-weight: bold; */
     margin-top: 0px; /* réduit l'espace vertical */
   }
+	
+  .synopsis-container.truncated {
+    max-height: 8em;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .synopsis-container.expanded {
+    max-height: none;
+  }
 }
 
 .seances {
@@ -348,6 +358,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
