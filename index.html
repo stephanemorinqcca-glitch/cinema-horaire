@@ -448,6 +448,10 @@
 
     							// Supprimer ce passage du texte nettoyé
     							cleanedSynopsis = cleanedSynopsis.replace(match[0], "");
+								// Nettoyer les <br> ou \n en début et fin
+								cleanedSynopsis = cleanedSynopsis
+  									.replace(/^(<br\s*\/?>|\n)+/gi, "")   // début
+  									.replace(/(<br\s*\/?>|\n)+$/gi, "");  // fin
   							});
 
   							// Nettoyer les sauts de ligne
