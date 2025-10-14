@@ -197,10 +197,14 @@ h1 {
   margin-bottom: 4px;
 }
 
-/* Par défaut : cacher la flèche sur les grands écrans */
+/* Par défaut : cacher la flèche sur les grands écrans 
 .toggle-arrow {
-  /* line-height: 1; */
+  line-height: 1; 
   display: none;
+} */
+
+.toggle-arrow {
+  display: inline-block !important;
 }
 
 /* Troncage uniquement sur petit écran */
@@ -345,6 +349,7 @@ h1 {
   vertical-align: middle;
   text-align: left;
 }
+
 
 
 
