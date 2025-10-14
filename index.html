@@ -432,7 +432,8 @@
   							const highlightsAfter = [];
 
   							highlightMatches.forEach(match => {
-    							const text = match[1];
+								const text = match[1].replace(/\n/g, "<br>");
+    							// const text = match[1];
     							const index = match.index;
 
     							const highlight = document.createElement("p");
