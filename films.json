@@ -59,9 +59,46 @@
             "heure": "18:55",
             "attributs": []
           }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30629,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30653,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30665,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30635,
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30641,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
         ]
       },
-      "last_show": 1760655300
+      "last_show": 1761260100
     },
     {
       "id": "ST00001764",
@@ -319,9 +356,23 @@
             "heure": "19:05",
             "attributs": []
           }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30647,
+            "heure": "13:05",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30659,
+            "heure": "13:05",
+            "attributs": []
+          }
         ]
       },
-      "last_show": 1760655900
+      "last_show": 1760893500
     },
     {
       "id": "ST00001768",
@@ -399,6 +450,121 @@
         ]
       },
       "last_show": 1761261300
+    },
+    {
+      "id": "ST00001736",
+      "titre": "BONNE FORTUNE",
+      "OpeningDate": "2025-10-17",
+      "synopsis": "Gabriel, un ange gardien assigné à la prévention de petits accidents automobiles, souhaite avoir de plus grandes responsabilités afin d’aider les âmes perdues, comme le font ses collègues. Il est témoin des difficultés vécues par Arj, qui cumule les emplois journaliers et peine à joindre les deux bouts. À l’opposé, Jeff est un riche entrepreneur qui mène une existence oisive et luxueuse. Gabriel décide d’intervenir auprès de ces deux personnes pour redonner espoir à Arj. Son assistance n’a toutefois pas l’effet escompté.",
+      "classification": "G",
+      "duree": 97,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004964",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004962",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
+      "content": "Comédie fantaisiste",
+      "horaire": {
+        "2025-10-17": [
+          {
+            "session_id": 30679,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30680,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30681,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30682,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30683,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30685,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30687,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30693,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30699,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30705,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30711,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30717,
+            "heure": "13:05",
+            "attributs": []
+          },
+          {
+            "session_id": 30723,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30729,
+            "heure": "19:15",
+            "attributs": []
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30735,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761866100
     },
     {
       "id": "ST00001734",
