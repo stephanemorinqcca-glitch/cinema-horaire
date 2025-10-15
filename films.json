@@ -32,303 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001708",
-      "titre": "LA CONJURATION: DERNIERS RITES",
-      "OpeningDate": "2025-09-05",
-      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
-      "classification": "13+",
-      "duree": 135,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
-      "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-15": [
-          {
-            "session_id": 30588,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30592,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-17": [
-          {
-            "session_id": 30629,
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-18": [
-          {
-            "session_id": 30653,
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30665,
-            "heure": "18:45",
-            "attributs": []
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30635,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30641,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1761260100
-    },
-    {
-      "id": "ST00001764",
-      "titre": "LE COMBATTANT",
-      "OpeningDate": "2025-10-03",
-      "synopsis": "À la fin des années 1990, l’Américain Mike Kerr se démarque en remportant des combats d’arts martiaux mixtes dans la ligue UFC. En compétition autour du monde, il affronte les plus féroces adversaires de sa discipline sportive. Grisé par les victoires et la possibilité de gagner d’importantes sommes d’argent, Kerr maintient une diète stricte, s’entraîne régulièrement et développe une dépendance aux opiacés.",
-      "classification": "13+",
-      "duree": 123,
-      "genre": "Biography",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005020",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005018",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
-      "content": "Chronique biographique",
-      "horaire": {
-        "2025-10-15": [
-          {
-            "session_id": 30622,
-            "heure": "18:55",
-            "attributs": []
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30624,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ]
-          }
-        ]
-      },
-      "last_show": 1760655300
-    },
-    {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Ares n'est pas seulement le dieu grec de la guerre, c'est le nom donné à un programme sophistiqué qui est envoyé du monde virtuel au monde réel. Il ne peut survivre que 29 minutes, devant obéir aux ordres de son créateur belliqueux. Lorsque cette forme d'intelligence artificielle apprend l'existence d'un code qui pourrait le rendre permanent, il commence à remettre en question le bien-fondé de ses missions. Sa route vers l'humanité croisera celle d'Eve qui pense encore à sa soeur décédée et d'Athena, un programme chargé de le retrouver et de l'éliminer.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-15": [
-          {
-            "session_id": 30585,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX",
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30589,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX",
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-17": [
-          {
-            "session_id": 30628,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-18": [
-          {
-            "session_id": 30646,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ]
-          },
-          {
-            "session_id": 30652,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30658,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ]
-          },
-          {
-            "session_id": 30664,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ]
-          }
-        ]
-      },
-      "last_show": 1761260700
-    },
-    {
-      "id": "ST00001766",
-      "titre": "UN VOLEUR SUR LE TOIT",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "inspiré de l'histoire vraie de Jeffrey Manchester (Channing Tatum), un père en difficulté qui cambriole des restaurants McDonald's en s'introduisant par le toit. Après son évasion de prison, il se cache dans un magasin Toys \"R\" Us où il tombe amoureux d'une mère célibataire, interprétée par Kirsten Dunst. Le film se concentre sur sa tentative de construire une nouvelle vie tout en évitant son passé criminel.",
-      "classification": "G",
-      "duree": 126,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
-      "content": "DAJE | Chronique biographique",
-      "horaire": {
-        "2025-10-15": [
-          {
-            "session_id": 30586,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-16": [
-          {
-            "session_id": 30590,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-17": [
-          {
-            "session_id": 30625,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-18": [
-          {
-            "session_id": 30643,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "session_id": 30649,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30655,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ]
-          },
-          {
-            "session_id": 30661,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30631,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30637,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ]
-          }
-        ]
-      },
-      "last_show": 1761260100
-    },
-    {
       "id": "ST00001726",
       "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
       "OpeningDate": "2025-09-26",
@@ -450,6 +153,269 @@
         ]
       },
       "last_show": 1761261300
+    },
+    {
+      "id": "ST00001708",
+      "titre": "LA CONJURATION: DERNIERS RITES",
+      "OpeningDate": "2025-09-05",
+      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
+      "classification": "13+",
+      "duree": 135,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
+      "content": "Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-10-16": [
+          {
+            "session_id": 30592,
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30629,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30653,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30665,
+            "heure": "18:45",
+            "attributs": []
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30635,
+            "heure": "18:55",
+            "attributs": []
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30641,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761260100
+    },
+    {
+      "id": "ST00001764",
+      "titre": "LE COMBATTANT",
+      "OpeningDate": "2025-10-03",
+      "synopsis": "À la fin des années 1990, l’Américain Mike Kerr se démarque en remportant des combats d’arts martiaux mixtes dans la ligue UFC. En compétition autour du monde, il affronte les plus féroces adversaires de sa discipline sportive. Grisé par les victoires et la possibilité de gagner d’importantes sommes d’argent, Kerr maintient une diète stricte, s’entraîne régulièrement et développe une dépendance aux opiacés.",
+      "classification": "13+",
+      "duree": 123,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005020",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005018",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=CS8umKcLtLY",
+      "content": "Chronique biographique",
+      "horaire": {
+        "2025-10-16": [
+          {
+            "session_id": 30624,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ]
+          }
+        ]
+      },
+      "last_show": 1760655300
+    },
+    {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Ares n'est pas seulement le dieu grec de la guerre, c'est le nom donné à un programme sophistiqué qui est envoyé du monde virtuel au monde réel. Il ne peut survivre que 29 minutes, devant obéir aux ordres de son créateur belliqueux. Lorsque cette forme d'intelligence artificielle apprend l'existence d'un code qui pourrait le rendre permanent, il commence à remettre en question le bien-fondé de ses missions. Sa route vers l'humanité croisera celle d'Eve qui pense encore à sa soeur décédée et d'Athena, un programme chargé de le retrouver et de l'éliminer.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-16": [
+          {
+            "session_id": 30589,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX",
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30628,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30646,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ]
+          },
+          {
+            "session_id": 30652,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30658,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ]
+          },
+          {
+            "session_id": 30664,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30634,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30640,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761260700
+    },
+    {
+      "id": "ST00001766",
+      "titre": "UN VOLEUR SUR LE TOIT",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "inspiré de l'histoire vraie de Jeffrey Manchester (Channing Tatum), un père en difficulté qui cambriole des restaurants McDonald's en s'introduisant par le toit. Après son évasion de prison, il se cache dans un magasin Toys \"R\" Us où il tombe amoureux d'une mère célibataire, interprétée par Kirsten Dunst. Le film se concentre sur sa tentative de construire une nouvelle vie tout en évitant son passé criminel.",
+      "classification": "G",
+      "duree": 126,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
+      "content": "DAJE | Chronique biographique",
+      "horaire": {
+        "2025-10-16": [
+          {
+            "session_id": 30590,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-17": [
+          {
+            "session_id": 30625,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-18": [
+          {
+            "session_id": 30643,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30649,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30655,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ]
+          },
+          {
+            "session_id": 30661,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30631,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30637,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ]
+          }
+        ]
+      },
+      "last_show": 1761260100
     },
     {
       "id": "ST00001736",
