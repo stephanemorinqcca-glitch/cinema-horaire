@@ -542,7 +542,7 @@
   							const horairesDiv = document.createElement("div");
   							horairesDiv.className = "horaires";
 
-							seances.forEach(({ heure, attributs }) => {
+							seances.forEach(({ heure, attributs, placesDisponibles }) => {
     							const seanceLabel = document.createElement("div");
 
     							const horaireLabel = document.createElement("span");
@@ -559,6 +559,27 @@
         							horaireLabel.style.verticalAlign = "middle";
     							}
 
+ 								// Ajoute l'attribut data-places
+								horaireLabel.setAttribute("data-places", placesDisponibles);
+
+  								// Ajoute un span pour l'info bulle
+  								const infoSpan = document.createElement("span");
+  								infoSpan.className = "places-info";
+  								infoSpan.style.display = "none";
+  								infoSpan.style.marginLeft = "8px";
+  								horaireLabel.appendChild(infoSpan);
+
+  								// Événements de survol
+  								horaireLabel.addEventListener("mouseover", (e) => {
+    								const places = horaireLabel.getAttribute("data-places");
+    								infopan.textContent = `Places disponibles : ${places}`;
+    								infoSpan.style.display = "inline";
+  								});
+
+  								horaireLabel.addEventListener("mouseout", () => {
+    								infoSpan.style.display = "none";
+  								});
+								
     							seanceLabel.appendChild(horaireLabel);
 
 								const attributsFragment = styliserAttributs(attributs, attributsCouleurs);
