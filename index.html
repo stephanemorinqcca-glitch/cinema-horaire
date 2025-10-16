@@ -564,19 +564,19 @@
     							}
 
 								// Crée l'info-bulle
-								const tooltip = document.createElement("span");
-								tooltip.className = "tooltip";
-								tooltip.textContent = `${placesDisponibles} Sièges disponibles`;
-								horaireLabel.appendChild(tooltip);
+								//const tooltip = document.createElement("span");
+								//tooltip.className = "tooltip";
+								//tooltip.textContent = `${placesDisponibles} Sièges disponibles`;
+								//horaireLabel.appendChild(tooltip);
 								
 								// Sur mobile : clic pour afficher/masquer
-								if (estMobile()) {
-  									horaireLabel.addEventListener("click", () => {
-    									const visible = tooltip.style.visibility === "visible";
-    									tooltip.style.visibility = visible ? "hidden" : "visible";
-    									tooltip.style.opacity = visible ? "0" : "1";
-  									});
-								}
+								//if (estMobile()) {
+  								//	horaireLabel.addEventListener("click", () => {
+    							//		const visible = tooltip.style.visibility === "visible";
+    							//		tooltip.style.visibility = visible ? "hidden" : "visible";
+    							//		tooltip.style.opacity = visible ? "0" : "1";
+  								//	});
+								//}
 								
     							seanceLabel.appendChild(horaireLabel);
 
