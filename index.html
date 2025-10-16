@@ -579,6 +579,12 @@
   								//horaireLabel.addEventListener("mouseout", () => {
     							//	infoSpan.style.display = "none";
   								//});
+
+								// Crée l'info-bulle
+								const tooltip = document.createElement("span");
+								tooltip.className = "tooltip";
+								tooltip.textContent = `Places disponibles : ${placesDisponibles}`;
+								horaireLabel.appendChild(tooltip);
 								
     							seanceLabel.appendChild(horaireLabel);
 
