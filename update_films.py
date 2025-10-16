@@ -151,7 +151,7 @@ def transform_data(sessions):
         tickets_sold_out = session.get("TicketsSoldOut", False)
         show_type = session.get("ShowType", "")
         seats_available = session.get("SeatsAvailable", None)
-
+        
         try:
             session_time = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
             session_time = tz.localize(session_time)
@@ -246,7 +246,8 @@ def transform_data(sessions):
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
             "session_id": session_id,
             "heure": heure,
-            "attributs": attributs
+            "attributs": attributs,
+            "placesDisponibles": seats_available
         })
 
     # Tri des jours et des heures
