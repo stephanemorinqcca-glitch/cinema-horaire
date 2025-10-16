@@ -223,6 +223,10 @@
 
     			return fragment;
 			}
+
+			function estMobile() {
+  				return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+			}
 	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
@@ -585,6 +589,15 @@
 								tooltip.className = "tooltip";
 								tooltip.textContent = `Places disponibles : ${placesDisponibles}`;
 								horaireLabel.appendChild(tooltip);
+								
+								// Sur mobile : clic pour afficher/masquer
+								if (estMobile()) {
+  									horaireLabel.addEventListener("click", () => {
+    									const visible = tooltip.style.visibility === "visible";
+    									tooltip.style.visibility = visible ? "hidden" : "visible";
+    									tooltip.style.opacity = visible ? "0" : "1";
+  									});
+								}
 								
     							seanceLabel.appendChild(horaireLabel);
 
