@@ -563,41 +563,20 @@
         							horaireLabel.style.verticalAlign = "middle";
     							}
 
- 								// Ajoute l'attribut data-places
-								// horaireLabel.setAttribute("data-places", placesDisponibles);
-
-  								// Ajoute un span pour l'info bulle
-  								//const infoSpan = document.createElement("span");
-  								//infoSpan.className = "places-info";
-  								//infoSpan.style.display = "none";
-  								//infoSpan.style.marginLeft = "8px";
-  								//horaireLabel.appendChild(infoSpan);
-
-  								// Événements de survol
-  								//horaireLabel.addEventListener("mouseover", (e) => {
-    							//	const places = horaireLabel.getAttribute("data-places");
-    							//	infoSpan.textContent = `${places} Places disponibles`;
-    							//	infoSpan.style.display = "inline";
-  								//});
-
-  								//horaireLabel.addEventListener("mouseout", () => {
-    							//	infoSpan.style.display = "none";
-  								//});
-
 								// Crée l'info-bulle
-								const tooltip = document.createElement("span");
-								tooltip.className = "tooltip";
-								tooltip.textContent = `${placesDisponibles} Places disponibles`;
-								horaireLabel.appendChild(tooltip);
+								//const tooltip = document.createElement("span");
+								//tooltip.className = "tooltip";
+								//tooltip.textContent = `${placesDisponibles} Places disponibles`;
+								//horaireLabel.appendChild(tooltip);
 								
 								// Sur mobile : clic pour afficher/masquer
-								if (estMobile()) {
-  									horaireLabel.addEventListener("click", () => {
-    									const visible = tooltip.style.visibility === "visible";
-    									tooltip.style.visibility = visible ? "hidden" : "visible";
-    									tooltip.style.opacity = visible ? "0" : "1";
-  									});
-								}
+								//if (estMobile()) {
+  								//	horaireLabel.addEventListener("click", () => {
+    							//		const visible = tooltip.style.visibility === "visible";
+    							//		tooltip.style.visibility = visible ? "hidden" : "visible";
+    							//		tooltip.style.opacity = visible ? "0" : "1";
+  								//	});
+								//}
 								
     							seanceLabel.appendChild(horaireLabel);
 
