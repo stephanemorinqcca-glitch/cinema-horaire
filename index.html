@@ -560,25 +560,25 @@
     							}
 
  								// Ajoute l'attribut data-places
-								horaireLabel.setAttribute("data-places", placesDisponibles);
+								// horaireLabel.setAttribute("data-places", placesDisponibles);
 
   								// Ajoute un span pour l'info bulle
-  								const infoSpan = document.createElement("span");
-  								infoSpan.className = "places-info";
-  								infoSpan.style.display = "none";
-  								infoSpan.style.marginLeft = "8px";
-  								horaireLabel.appendChild(infoSpan);
+  								//const infoSpan = document.createElement("span");
+  								//infoSpan.className = "places-info";
+  								//infoSpan.style.display = "none";
+  								//infoSpan.style.marginLeft = "8px";
+  								//horaireLabel.appendChild(infoSpan);
 
   								// Événements de survol
-  								horaireLabel.addEventListener("mouseover", (e) => {
-    								const places = horaireLabel.getAttribute("data-places");
-    								infoSpan.textContent = `${places} Places disponibles`;
-    								infoSpan.style.display = "inline";
-  								});
+  								//horaireLabel.addEventListener("mouseover", (e) => {
+    							//	const places = horaireLabel.getAttribute("data-places");
+    							//	infoSpan.textContent = `${places} Places disponibles`;
+    							//	infoSpan.style.display = "inline";
+  								//});
 
-  								horaireLabel.addEventListener("mouseout", () => {
-    								infoSpan.style.display = "none";
-  								});
+  								//horaireLabel.addEventListener("mouseout", () => {
+    							//	infoSpan.style.display = "none";
+  								//});
 								
     							seanceLabel.appendChild(horaireLabel);
 
