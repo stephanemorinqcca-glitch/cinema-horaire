@@ -280,8 +280,14 @@ h1 {
 }*/
 
 .seance-label {
-    position: relative;
-    cursor: pointer;
+    display: inline-block;
+    background-color: #ccc;
+    color: #666;
+    padding: 5px 10px;
+    vertical-align: middle;
+    position: relative; /* nécessaire pour positionner la tooltip */
+    border-radius: 4px;
+    overflow: visible; /* s'assurer que la tooltip ne soit pas coupée */
 }
 
 .seance-label .tooltip {
@@ -300,6 +306,7 @@ h1 {
     z-index: 10;
     transition: opacity 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none; /* évite les conflits de survol */
 }
 
 .seance-label:hover .tooltip {
@@ -383,6 +390,7 @@ h1 {
   font-size: 0.9em;
   color: #666;
 }
+
 
 
 
