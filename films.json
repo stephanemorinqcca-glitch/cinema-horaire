@@ -32,6 +32,80 @@
   ],
   "films": [
     {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-18": [
+          {
+            "session_id": 30646,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30652,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30658,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30664,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30634,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30640,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "last_show": 1761260700
+    },
+    {
       "id": "ST00001734",
       "titre": "TÉLÉPHONE NOIR  II",
       "OpeningDate": "2025-10-17",
@@ -46,17 +120,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-17": [
-          {
-            "session_id": 30627,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 23
-          }
-        ],
         "2025-10-18": [
           {
             "session_id": 30645,
@@ -205,6 +268,80 @@
       "last_show": 1761865500
     },
     {
+      "id": "ST00001766",
+      "titre": "UN VOLEUR SUR LE TOIT",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
+      "classification": "G",
+      "duree": 126,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
+      "content": "DAJE | Chronique biographique",
+      "horaire": {
+        "2025-10-18": [
+          {
+            "session_id": 30643,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30649,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30655,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30661,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30631,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30637,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "last_show": 1761260100
+    },
+    {
       "id": "ST00001736",
       "titre": "BONNE FORTUNE",
       "OpeningDate": "2025-10-17",
@@ -219,14 +356,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
       "content": "Comédie fantaisiste",
       "horaire": {
-        "2025-10-17": [
-          {
-            "session_id": 30679,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 87
-          }
-        ],
         "2025-10-18": [
           {
             "session_id": 30680,
@@ -335,6 +464,40 @@
       "last_show": 1761866100
     },
     {
+      "id": "ST00001726",
+      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
+      "OpeningDate": "2025-09-26",
+      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
+      "classification": "G",
+      "duree": 88,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
+      "content": "Aventures fantaisistes",
+      "horaire": {
+        "2025-10-18": [
+          {
+            "session_id": 30647,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30659,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "last_show": 1760893500
+    },
+    {
       "id": "ST00001768",
       "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
       "OpeningDate": "2025-10-10",
@@ -349,14 +512,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-10-17": [
-          {
-            "session_id": 30630,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 44
-          }
-        ],
         "2025-10-18": [
           {
             "session_id": 30648,
@@ -403,188 +558,6 @@
         ]
       },
       "last_show": 1761261300
-    },
-    {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30646,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30652,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30658,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30664,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "last_show": 1761260700
-    },
-    {
-      "id": "ST00001766",
-      "titre": "UN VOLEUR SUR LE TOIT",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
-      "classification": "G",
-      "duree": 126,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
-      "content": "DAJE | Chronique biographique",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30643,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30649,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30655,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30661,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30631,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30637,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "last_show": 1761260100
-    },
-    {
-      "id": "ST00001726",
-      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
-      "classification": "G",
-      "duree": 88,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
-      "content": "Aventures fantaisistes",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30647,
-            "heure": "13:05",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30659,
-            "heure": "13:05",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "last_show": 1760893500
     },
     {
       "id": "ST00001708",
