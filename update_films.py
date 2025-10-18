@@ -274,17 +274,20 @@ def transform_data(sessions):
                 dt = datetime.strptime(f"{jour} {s['heure']}", "%Y-%m-%d %H:%M")
                 tz = pytz.timezone('America/Toronto')
                 toutes_les_dates.append(tz.localize(dt))
+        film["first_show"] = int(min(toutes_les_dates).timestamp()) if toutes_les_dates else None
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
-
-    films_list = list(films_dict.values())
     
     # Tri des films prochaine séance, puis par titre
     def sans_accents(texte):
         return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
-    films_list.sort(key=lambda x: (x[0], sans_accents(x[1])))
-    films_list = [f[2] for f in films_list]
 
+    films_list = list(films_dict.values())
     
+    films_list.sort(key=lambda film: (
+        film.get("first_show", 0),
+        sans_accents(film.get("titre", "").lower())
+    ))
+
     #films_list.sort(key=lambda film: film["titre"].lower())
     # Tri des films bientôt à l'affiche  
     #films_list = trier_films_par_prochaine_seance(films_dict)
