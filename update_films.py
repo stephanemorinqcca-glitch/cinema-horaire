@@ -1,6 +1,7 @@
 import sys
 import requests
 import json
+import unicodedata
 from datetime import date, datetime, timedelta
 import os
 import re
@@ -120,11 +121,19 @@ def trier_films_par_prochaine_seance(films_dict):
         films_ouverts.append((prochaine, film["titre"].lower(), film))
 
     # Tri des films ouverts par prochaine séance, puis par titre
-    films_ouverts.sort(key=lambda x: (x[0], x[1]))
+
+    def sans_accents(texte):
+        return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
+
+    films_ouverts.sort(key=lambda x: (x[0], sans_accents(x[1])))
     films_ouverts = [f[2] for f in films_ouverts]
 
+    # films_ouverts.sort(key=lambda x: (x[0], x[1]))
+    # films_ouverts = [f[2] for f in films_ouverts]
+
     # Tri des films à venir par titre
-    films_a_venir.sort(key=lambda f: f["titre"].lower())
+    films_a_venir.sort(key=lambda f: sans_accents(f["titre"]))
+    # films_a_venir.sort(key=lambda f: f["titre"].lower())
 
     return films_ouverts + films_a_venir
 
@@ -269,7 +278,7 @@ def transform_data(sessions):
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
     films_list = list(films_dict.values())
-    films_list.sort(key=lambda film: film["titre"].lower())
+    #films_list.sort(key=lambda film: film["titre"].lower())
 
     # Tri des films bientôt à l'affiche  
     films_list = trier_films_par_prochaine_seance(films_dict)
