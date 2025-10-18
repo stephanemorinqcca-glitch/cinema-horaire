@@ -142,6 +142,7 @@
             "session_id": 30637,
             "heure": "18:55",
             "attributs": [
+              "DERNIÈRE",
               "DLX"
             ],
             "placesDisponibles": 49
@@ -209,6 +210,7 @@
             "session_id": 30640,
             "heure": "19:05",
             "attributs": [
+              "DERNIÈRE",
               "VFQ"
             ],
             "placesDisponibles": 85
@@ -565,7 +567,9 @@
           {
             "session_id": 30659,
             "heure": "13:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "placesDisponibles": 177
           }
         ]
