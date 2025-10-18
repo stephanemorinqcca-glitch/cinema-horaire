@@ -250,7 +250,8 @@ def transform_data(sessions):
             "placesDisponibles": seats_available
         })
 
-    # Tri des jours et des heures
+    # Tri des films à l'affiche en ordre alphabétique puis ensuite par jours/heures
+    films_tries = sorted(films_dict.values(), key=lambda f: f["titre"])
     for film in films_dict.values():
         film["horaire"] = dict(sorted(film["horaire"].items(), key=lambda x: x[0]))
         for jour in film["horaire"]:
@@ -264,11 +265,12 @@ def transform_data(sessions):
                 toutes_les_dates.append(tz.localize(dt))
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
+    # Tri des films bientôt à l'affiche
     # films_list = list(films_dict.values())
     # films_list.sort(key=lambda film: film["titre"].lower())
     films_list = trier_films_par_prochaine_seance(films_dict)
 
-    # Liste complète des attributs, sans filtrage
+    # Tri de la légende, Liste complète des attributs, sans filtrage
     legend_list = list(used_attributes.values())
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
