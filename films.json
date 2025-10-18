@@ -50,7 +50,9 @@
           {
             "session_id": 30646,
             "heure": "12:55",
-            "attributs": [],
+            "attributs": [
+              "VFQ"
+            ],
             "placesDisponibles": 85
           },
           {
