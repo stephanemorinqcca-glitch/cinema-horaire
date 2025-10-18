@@ -121,7 +121,6 @@ def trier_films_par_prochaine_seance(films_dict):
         films_ouverts.append((prochaine, film["titre"].lower(), film))
 
     # Tri des films ouverts par prochaine séance, puis par titre
-
     def sans_accents(texte):
         return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
 
@@ -278,10 +277,17 @@ def transform_data(sessions):
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
     films_list = list(films_dict.values())
-    #films_list.sort(key=lambda film: film["titre"].lower())
+    
+    # Tri des films prochaine séance, puis par titre
+    def sans_accents(texte):
+        return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
+    films_list.sort(key=lambda x: (x[0], sans_accents(x[1])))
+    films_list = [f[2] for f in films_list]
 
+    
+    #films_list.sort(key=lambda film: film["titre"].lower())
     # Tri des films bientôt à l'affiche  
-    films_list = trier_films_par_prochaine_seance(films_dict)
+    #films_list = trier_films_par_prochaine_seance(films_dict)
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
     legend_list = list(used_attributes.values())
