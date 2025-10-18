@@ -2,6 +2,7 @@ import sys
 import requests
 import json
 import locale
+import unicodedata
 from datetime import date, datetime, timedelta
 import os
 import re
@@ -258,8 +259,17 @@ def transform_data(sessions):
         # Fallback si le locale n'est pas disponible
         locale.setlocale(locale.LC_ALL, '')
 
+    # Tri des films à l'affiche par titre en ordre alphabétique sans accent, puis par jours/heures
+    def sans_accents(texte):
+        return ''.join(
+            c for c in unicodedata.normalize('NFD', texte)
+            if unicodedata.category(c) != 'Mn'
+        ).lower()
+
+    films_tries = sorted(films_dict.values(), key=lambda f: sans_accents(f["titre"]))
+    
     # Tri des films à l'affiche par titre en ordre alphabétique, puis par jours/heures
-    films_tries = sorted(films_dict.values(), key=lambda f: locale.strxfrm(f["titre"]))
+    # films_tries = sorted(films_dict.values(), key=lambda f: locale.strxfrm(f["titre"]))
 
     # Affichage des titres triés
     print("Titres triés :")
