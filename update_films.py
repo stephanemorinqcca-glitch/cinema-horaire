@@ -81,61 +81,6 @@ def fetch_sessions():
         print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
         return []
 
-def trier_films_par_prochaine_seance(films_dict):
-    tz = pytz.timezone("America/Toronto")
-    now = datetime.now(tz)
-    today = now.date()
-
-    films_ouverts = []
-    films_a_venir = []
-
-    for film in films_dict.values():
-        opening_str = film.get("OpeningDate", "")
-        try:
-            opening_date = datetime.strptime(opening_str, "%Y-%m-%d").date()
-        except ValueError:
-            opening_date = today
-
-        if opening_date > today:
-            films_a_venir.append(film)
-            continue
-
-        horaires = film.get("horaire", {})
-        seances_futures = []
-
-        for jour_str, heures in horaires.items():
-            try:
-                jour = datetime.strptime(jour_str, "%Y-%m-%d").date()
-            except ValueError:
-                continue
-
-            for h in heures:
-                try:
-                    dt = tz.localize(datetime.strptime(f"{jour_str} {h['heure']}", "%Y-%m-%d %H:%M"))
-                    if dt >= now:
-                        seances_futures.append(dt)
-                except Exception:
-                    continue
-
-        prochaine = min(seances_futures) if seances_futures else tz.localize(datetime(2100, 1, 1, 0, 0))
-        films_ouverts.append((prochaine, film["titre"].lower(), film))
-
-    # Tri des films ouverts par prochaine séance, puis par titre
-    def sans_accents(texte):
-        return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
-
-    films_ouverts.sort(key=lambda x: (x[0], sans_accents(x[1])))
-    films_ouverts = [f[2] for f in films_ouverts]
-
-    # films_ouverts.sort(key=lambda x: (x[0], x[1]))
-    # films_ouverts = [f[2] for f in films_ouverts]
-
-    # Tri des films à venir par titre
-    films_a_venir.sort(key=lambda f: sans_accents(f["titre"]))
-    # films_a_venir.sort(key=lambda f: f["titre"].lower())
-
-    return films_ouverts + films_a_venir
-
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -287,10 +232,6 @@ def transform_data(sessions):
         film.get("first_show", 0),
         sans_accents(film.get("titre", "").lower())
     ))
-
-    #films_list.sort(key=lambda film: film["titre"].lower())
-    # Tri des films bientôt à l'affiche  
-    #films_list = trier_films_par_prochaine_seance(films_dict)
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
     legend_list = list(used_attributes.values())
