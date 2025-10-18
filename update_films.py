@@ -14,72 +14,45 @@ TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
+# 🔑 En-têtes communs
+HEADERS = {
+    "VeeziAccessToken": TOKEN,
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+}
 
-# 🔍 Récupère les détails d’un film
-def fetch_film_details(fid):
-    url = f"{FILM_API_URL}{fid}"
-    headers = {
-        "VeeziAccessToken": TOKEN,
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-    }
+# 🌐 Fonction générique
+def fetch_json(url: str, headers: dict, cache: dict = None, key: str = None):
+    """Récupère du JSON depuis une URL avec gestion d'erreurs et cache optionnel."""
+    if cache is not None and key in cache:
+        return cache[key]
     try:
         resp = requests.get(url, headers=headers, timeout=10)
-        if resp.status_code != 200:
-            print(f"❌ Erreur HTTP {resp.status_code} pour le film {fid}")
-            return {}
-        return resp.json()
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Erreur réseau pour le film {fid} : {e}")
-        return {}
-    except json.JSONDecodeError:
-        print(f"❌ Erreur : Réponse non JSON pour le film {fid}")
-        return {}
-
-# 🔍 Récupère les détails d’un attribut
-def fetch_attribute_details(attr_id, cache):
-    if attr_id in cache:
-        return cache[attr_id]
-    url = f"{ATTRIBUTE_API_URL}{attr_id}"
-    headers = {
-        "VeeziAccessToken": TOKEN,
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-    }
-    try:
-        resp = requests.get(url, headers=headers, timeout=10)
-        if resp.status_code != 200:
-            print(f"❌ Erreur HTTP {resp.status_code} pour l'attribut {attr_id}")
-            return {}
+        resp.raise_for_status()
         data = resp.json()
-        cache[attr_id] = data
+        if cache is not None and key is not None:
+            cache[key] = data
         return data
     except requests.exceptions.RequestException as e:
-        print(f"❌ Erreur réseau pour l'attribut {attr_id} : {e}")
+        print(f"❌ Erreur réseau ou HTTP pour {url} : {e}")
         return {}
     except json.JSONDecodeError:
-        print(f"❌ Erreur : Réponse non JSON pour l'attribut {attr_id}")
+        print(f"❌ Erreur : Réponse non JSON pour {url}")
         return {}
 
-# 📅 Récupère toutes les séances
+# 🎬 Détails d’un film
+def fetch_film_details(fid: str):
+    url = f"{FILM_API_URL}{fid}"
+    return fetch_json(url, headers=HEADERS)
+
+# 🏷️ Détails d’un attribut (avec cache)
+def fetch_attribute_details(aid: str, cache: dict):
+    url = f"{ATTRIBUTE_API_URL}{aid}"
+    return fetch_json(url, headers=HEADERS, cache=cache, key=aid)
+
+# 📅 Liste des séances
 def fetch_sessions():
-    headers = {
-        "VeeziAccessToken": TOKEN,
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-    }
-    try:
-        resp = requests.get(SESSION_API_URL, headers=headers, timeout=10)
-        if resp.status_code != 200:
-            print(f"❌ Erreur HTTP {resp.status_code} lors de la récupération des séances.")
-            return []
-        return resp.json()
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Erreur réseau : {e}")
-        return []
-    except json.JSONDecodeError:
-        print("❌ Erreur : La réponse des séances n'est pas au format JSON.")
-        return []
+    return fetch_json(SESSION_API_URL, headers=HEADERS) or []
 
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
