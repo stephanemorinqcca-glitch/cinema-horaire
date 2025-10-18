@@ -32,80 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30646,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30652,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30658,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30664,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "last_show": 1761260700
-    },
-    {
       "id": "ST00001734",
       "titre": "TÉLÉPHONE NOIR  II",
       "OpeningDate": "2025-10-17",
@@ -266,6 +192,80 @@
         ]
       },
       "last_show": 1761865500
+    },
+    {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-18": [
+          {
+            "session_id": 30646,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30652,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-19": [
+          {
+            "session_id": 30658,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30664,
+            "heure": "18:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30634,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30640,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "last_show": 1761260700
     },
     {
       "id": "ST00001766",
