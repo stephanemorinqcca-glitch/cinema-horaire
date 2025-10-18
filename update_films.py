@@ -235,6 +235,8 @@ def save_checksum(file_path: str, checksum: str):
     except Exception as e:
         print(f"❌ Erreur écriture checksum : {e}")   
 
+# 🚀 Point d’entrée
+def main():
    sessions = fetch_sessions()
     
     final_file = "films.json"
