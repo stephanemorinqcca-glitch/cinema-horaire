@@ -32,126 +32,6 @@
   ],
   "films": [
     {
-      "id": "ST00001708",
-      "titre": "LA CONJURATION: DERNIERS RITES",
-      "OpeningDate": "2025-09-05",
-      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
-      "classification": "13+",
-      "duree": 135,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
-      "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30653,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 148
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30665,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30635,
-            "heure": "18:55",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30641,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1760827500,
-      "last_show": 1761260100
-    },
-    {
-      "id": "ST00001766",
-      "titre": "UN VOLEUR SUR LE TOIT",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
-      "classification": "G",
-      "duree": 126,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
-      "content": "DAJE | Chronique biographique",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30649,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 26
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30655,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30661,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30631,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30637,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1760827500,
-      "last_show": 1761260100
-    },
-    {
       "id": "ST00001732",
       "titre": "TRON: ARES",
       "OpeningDate": "2025-10-10",
@@ -173,7 +53,7 @@
             "attributs": [
               "VFQ"
             ],
-            "placesDisponibles": 72
+            "placesDisponibles": 66
           }
         ],
         "2025-10-19": [
@@ -242,7 +122,7 @@
               "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 28
+            "placesDisponibles": 23
           }
         ],
         "2025-10-19": [
@@ -393,7 +273,7 @@
             "session_id": 30681,
             "heure": "19:15",
             "attributs": [],
-            "placesDisponibles": 91
+            "placesDisponibles": 89
           }
         ],
         "2025-10-19": [
@@ -510,7 +390,7 @@
             "session_id": 30654,
             "heure": "19:15",
             "attributs": [],
-            "placesDisponibles": 65
+            "placesDisponibles": 61
           }
         ],
         "2025-10-19": [
@@ -546,6 +426,63 @@
       },
       "first_show": 1760829300,
       "last_show": 1761261300
+    },
+    {
+      "id": "ST00001766",
+      "titre": "UN VOLEUR SUR LE TOIT",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
+      "classification": "G",
+      "duree": 126,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
+      "content": "DAJE | Chronique biographique",
+      "horaire": {
+        "2025-10-19": [
+          {
+            "session_id": 30655,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30661,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30631,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30637,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1760892900,
+      "last_show": 1761260100
     },
     {
       "id": "ST00001726",
@@ -599,6 +536,51 @@
       },
       "first_show": 1760893500,
       "last_show": 1761498900
+    },
+    {
+      "id": "ST00001708",
+      "titre": "LA CONJURATION: DERNIERS RITES",
+      "OpeningDate": "2025-09-05",
+      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
+      "classification": "13+",
+      "duree": 135,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
+      "content": "Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-10-19": [
+          {
+            "session_id": 30665,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-22": [
+          {
+            "session_id": 30635,
+            "heure": "18:55",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30641,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1760913900,
+      "last_show": 1761260100
     }
   ]
 }
