@@ -253,7 +253,7 @@ def transform_data(sessions):
 
     # Configuration du locale pour le tri avec les accents
     try:
-        locale.setlocale(locale.LC_ALL, 'fr_FR.UTF-8')
+        locale.setlocale(locale.LC_ALL, 'fr_CA.UTF-8')
     except locale.Error:
         # Fallback si le locale n'est pas disponible
         locale.setlocale(locale.LC_ALL, '')
