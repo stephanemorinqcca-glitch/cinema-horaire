@@ -214,62 +214,60 @@ def transform_data(sessions):
         "films": films_list
     }
 
-# 🚀 Point d’entrée
-TZ = ZoneInfo("America/Toronto")
+def compute_checksum(content: str) -> str:
+    return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
-def compute_checksum(data: dict) -> str:
-    """Calcule un hash SHA256 sur la structure JSON (hors métadonnées)."""
-    contenu = json.dumps(data, ensure_ascii=False, sort_keys=True)
-    return hashlib.sha256(contenu.encode("utf-8")).hexdigest()
-
-def load_previous_checksum(filepath: str) -> str | None:
-    """Charge le checksum déjà présent dans films.json (si dispo)."""
-    if not os.path.exists(filepath):
+def load_previous_checksum(file_path: str) -> Optional[str]:
+    if not os.path.exists(file_path):
         return None
     try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            contenu = json.load(f)
-        return contenu.get("_meta", {}).get("checksum")
-    except Exception:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("checksum")
+    except Exception as e:
+        print(f"⚠️ Erreur lecture checksum : {e}")
         return None
 
-def main():
-    sessions = fetch_sessions()
-    final_file = "films.json"
-    temp_file = "films_temp.json"
+def save_checksum(file_path: str, checksum: str):
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump({"checksum": checksum}, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"❌ Erreur écriture checksum : {e}")   
 
+   sessions = fetch_sessions()
+    
+    final_file = "films.json"
+    checksum_file = "checksumfilms.json"
+    temp_file = "films_temp.json"
+    
     if not sessions:
         print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
-        return
+        return  # on sort proprement de main()
 
-    films = transform_data(sessions)
+    data = transform_data(sessions)
 
-    # 1️⃣ Calcul du checksum sur la partie films
-    new_checksum = compute_checksum({"films": films})
+    # 1️⃣ Calcul du checksum sur la structure JSON
+    content_str = json.dumps(data, ensure_ascii=False, indent=2)
+    new_checksum = compute_checksum(content_str)
 
-    # 2️⃣ Lecture de l'ancien checksum (dans films.json si présent)
-    old_checksum = load_previous_checksum(final_file)
+    # 2️⃣ Lecture de l'ancien checksum (s'il existe)
+    old_checksum = load_previous_checksum(checksum_file)
 
     # 3️⃣ Logs de debug
     print(f"Ancien checksum: {old_checksum}")
     print(f"Nouveau checksum: {new_checksum}")
-    print(f"{final_file} existe ? {os.path.exists(final_file)}")
+    print(f"films.json existe ? {os.path.exists(final_file)}")
+    print(f"checksumfilms.json existe ? {os.path.exists(checksum_file)}")
 
     # 4️⃣ Condition d'écriture
     if (old_checksum is None) or (old_checksum != new_checksum) or not os.path.exists(final_file):
-        print("✏️  Écriture du fichier (nouveau checksum ou fichier manquant).")
+        print("✏️  Écriture des fichiers (nouveau checksum ou fichier manquant).")
 
-        sortie = {
-            "_meta": {
-                "checksum": new_checksum,
-                "derniere_mise_a_jour": datetime.now(TZ).isoformat()
-            },
-            "films": films
-        }
-
+        # Écriture de films.json
         try:
             with open(temp_file, "w", encoding="utf-8") as f:
-                json.dump(sortie, f, ensure_ascii=False, indent=2)
+                f.write(content_str)
             os.replace(temp_file, final_file)
             print(f"✅ {final_file} mis à jour à {os.path.abspath(final_file)}")
         except Exception as e:
@@ -277,8 +275,13 @@ def main():
             if os.path.exists(temp_file):
                 os.remove(temp_file)
             sys.exit(1)
+
+        # Écriture du checksum
+        save_checksum(checksum_file, new_checksum)
+        print(f"✅ {checksum_file} mis à jour à {os.path.abspath(checksum_file)}")
+
     else:
-        print("ℹ️ Aucun changement détecté, fichier inchangé.")
+        print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
 
 if __name__ == "__main__":
