@@ -1,8 +1,6 @@
 import sys
 import requests
 import json
-import locale
-import unicodedata
 from datetime import date, datetime, timedelta
 import os
 import re
@@ -252,33 +250,8 @@ def transform_data(sessions):
             "placesDisponibles": seats_available
         })
 
-    # Configuration du locale pour le tri avec les accents
-    try:
-        locale.setlocale(locale.LC_ALL, 'fr_CA.UTF-8')
-    except locale.Error:
-        # Fallback si le locale n'est pas disponible
-        locale.setlocale(locale.LC_ALL, '')
-
-    # Tri des films à l'affiche par titre en ordre alphabétique sans accent, puis par jours/heures
-    def sans_accents(texte):
-        return ''.join(
-            c for c in unicodedata.normalize('NFD', texte)
-            if unicodedata.category(c) != 'Mn'
-        ).lower()
-
-    films_tries = sorted(films_dict.values(), key=lambda f: sans_accents(f["titre"]))
-    
-    # Tri des films à l'affiche par titre en ordre alphabétique, puis par jours/heures
-    # films_tries = sorted(films_dict.values(), key=lambda f: locale.strxfrm(f["titre"]))
-
-    # Affichage des titres triés
-    print("Titres triés :")
-    for film in films_tries:
-        print(film["titre"])
-
     # Tri des films à l'affiche par jours/heures
-    # for film in films_dict.values():
-    for film in films_tries:
+    for film in films_dict.values():
         # Tri des jours (dates)
         film["horaire"] = dict(sorted(film["horaire"].items(), key=lambda x: x[0]))
 
@@ -295,9 +268,10 @@ def transform_data(sessions):
                 toutes_les_dates.append(tz.localize(dt))
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
 
-    # Tri des films bientôt à l'affiche
-    # films_list = list(films_dict.values())
-    # films_list.sort(key=lambda film: film["titre"].lower())
+    films_list = list(films_dict.values())
+    films_list.sort(key=lambda film: film["titre"].lower())
+
+    # Tri des films bientôt à l'affiche  
     films_list = trier_films_par_prochaine_seance(films_dict)
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
