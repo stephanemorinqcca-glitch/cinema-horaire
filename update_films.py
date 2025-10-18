@@ -252,7 +252,12 @@ def transform_data(sessions):
         })
 
     # Configuration du locale pour le tri avec les accents
-    locale.setlocale(locale.LC_ALL, 'fr_CA.UTF-8')
+    try:
+        locale.setlocale(locale.LC_ALL, 'fr_FR.UTF-8')
+    except locale.Error:
+        # Fallback si le locale n'est pas disponible
+        locale.setlocale(locale.LC_ALL, '')
+
     # Tri des films à l'affiche par titre en ordre alphabétique, puis par jours/heures
     films_tries = sorted(films_dict.values(), key=lambda f: locale.strxfrm(f["titre"]))
 
