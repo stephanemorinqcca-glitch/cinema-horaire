@@ -1,604 +1,610 @@
 {
-  "cinema": "Cinéma Centre-Ville",
-  "legende": [
-    {
-      "ShortName": "ATMOS®",
-      "Description": "Son ambiophonique Dolby ATMOS®",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "DERNIÈRE",
-      "Description": "Représentation",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": true
-    },
-    {
-      "ShortName": "DLX",
-      "Description": "Salle avec sièges rocker et plus spacieux",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VFQ",
-      "Description": "Version en Français doublé au Québec",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    }
-  ],
-  "films": [
-    {
-      "id": "ST00001708",
-      "titre": "LA CONJURATION: DERNIERS RITES",
-      "OpeningDate": "2025-09-05",
-      "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
-      "classification": "13+",
-      "duree": 135,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
-      "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30653,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30665,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30635,
-            "heure": "18:55",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30641,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 177
-          }
-        ]
+  "_meta": {
+    "checksum": "8ff5146006c400a40ee375ee5f202baf5f5c16dd4f1e342f44110fb40898f06f",
+    "derniere_mise_a_jour": "2025-10-18T18:25:01.922070-04:00"
+  },
+  "films": {
+    "cinema": "Cinéma Centre-Ville",
+    "legende": [
+      {
+        "ShortName": "ATMOS®",
+        "Description": "Son ambiophonique Dolby ATMOS®",
+        "FontColor": "#666666",
+        "BackgroundColor": "#eeeeee",
+        "ShowOnSessionsWithNoComps": false
       },
-      "first_show": 1760827500,
-      "last_show": 1761260100
-    },
-    {
-      "id": "ST00001766",
-      "titre": "UN VOLEUR SUR LE TOIT",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
-      "classification": "G",
-      "duree": 126,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
-      "content": "DAJE | Chronique biographique",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30649,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30655,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30661,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30631,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30637,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ]
+      {
+        "ShortName": "DERNIÈRE",
+        "Description": "Représentation",
+        "FontColor": "#666666",
+        "BackgroundColor": "#eeeeee",
+        "ShowOnSessionsWithNoComps": true
       },
-      "first_show": 1760827500,
-      "last_show": 1761260100
-    },
-    {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30652,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30658,
-            "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30664,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE",
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ]
+      {
+        "ShortName": "DLX",
+        "Description": "Salle avec sièges rocker et plus spacieux",
+        "FontColor": "#666666",
+        "BackgroundColor": "#eeeeee",
+        "ShowOnSessionsWithNoComps": false
       },
-      "first_show": 1760828100,
-      "last_show": 1761260700
-    },
-    {
-      "id": "ST00001734",
-      "titre": "TÉLÉPHONE NOIR  II",
-      "OpeningDate": "2025-10-17",
-      "synopsis": "À North Denver, quatre ans après les événements entourant l’enlèvement de Finney par un psychopathe surnommé The Grabber, l’adolescent maintenant âgé de 17 ans tente de mener une vie normale avec sa sœur cadette Gwen. Cette dernière est toutefois victime de rêves étranges dans lesquels elle reçoit des appels du téléphone noir qui sont accompagnés d’images d’enfants en détresse dans un mystérieux camp enneigé, dans les montagnes. Dans l’espoir de mettre fin à ces visions perturbantes, elle décide de se rendre sur le lieu de ses cauchemars et fait une découverte troublante qui concerne le passé de sa famille.",
-      "classification": "13+",
-      "duree": 114,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/laLj9STwfCM",
-      "content": "Violence | Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30651,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30657,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30663,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30633,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30639,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-24": [
-          {
-            "session_id": 30689,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30696,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30701,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30708,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30713,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30720,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-29": [
-          {
-            "session_id": 30726,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-30": [
-          {
-            "session_id": 30732,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ]
+      {
+        "ShortName": "VFQ",
+        "Description": "Version en Français doublé au Québec",
+        "FontColor": "#666666",
+        "BackgroundColor": "#eeeeee",
+        "ShowOnSessionsWithNoComps": false
+      }
+    ],
+    "films": [
+      {
+        "id": "ST00001708",
+        "titre": "LA CONJURATION: DERNIERS RITES",
+        "OpeningDate": "2025-09-05",
+        "synopsis": "En 1964, Lorraine et Ed Warren, enquêteurs du paranormal, font face à un être démonique qui menace la vie de leur enfant à naître. Vingt-deux ans plus tard, les Warren ont pris leur retraite, mais leur fille Judy demeure tourmentée par des visions mystérieuses et terrifiantes. En même temps, en Pennsylvanie, la famille Smurl fait l’acquisition d’un miroir ancien, sans se douter du danger qui la guette.",
+        "classification": "13+",
+        "duree": 135,
+        "genre": "Horror",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004875",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004873",
+        "banniere": "",
+        "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
+        "content": "Horreur | Suspense d'épouvante",
+        "horaire": {
+          "2025-10-18": [
+            {
+              "session_id": 30653,
+              "heure": "18:45",
+              "attributs": [],
+              "placesDisponibles": 165
+            }
+          ],
+          "2025-10-19": [
+            {
+              "session_id": 30665,
+              "heure": "18:45",
+              "attributs": [],
+              "placesDisponibles": 177
+            }
+          ],
+          "2025-10-22": [
+            {
+              "session_id": 30635,
+              "heure": "18:55",
+              "attributs": [],
+              "placesDisponibles": 177
+            }
+          ],
+          "2025-10-23": [
+            {
+              "session_id": 30641,
+              "heure": "18:55",
+              "attributs": [
+                "DERNIÈRE"
+              ],
+              "placesDisponibles": 177
+            }
+          ]
+        },
+        "first_show": 1760827500,
+        "last_show": 1761260100
       },
-      "first_show": 1760828700,
-      "last_show": 1761865500
-    },
-    {
-      "id": "ST00001736",
-      "titre": "BONNE FORTUNE",
-      "OpeningDate": "2025-10-17",
-      "synopsis": "Gabriel, un ange gardien assigné à la prévention de petits accidents automobiles, souhaite avoir de plus grandes responsabilités afin d’aider les âmes perdues, comme le font ses collègues. Il est témoin des difficultés vécues par Arj, qui cumule les emplois journaliers et peine à joindre les deux bouts. À l’opposé, Jeff est un riche entrepreneur qui mène une existence oisive et luxueuse. Gabriel décide d’intervenir auprès de ces deux personnes pour redonner espoir à Arj. Son assistance n’a toutefois pas l’effet escompté.",
-      "classification": "G",
-      "duree": 97,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004964",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004962",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
-      "content": "Comédie fantaisiste",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30681,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30682,
-            "heure": "13:05",
-            "attributs": [],
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30683,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30685,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30687,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-24": [
-          {
-            "session_id": 30693,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30699,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30705,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30711,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30717,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30723,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-29": [
-          {
-            "session_id": 30729,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-30": [
-          {
-            "session_id": 30735,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 72
-          }
-        ]
+      {
+        "id": "ST00001766",
+        "titre": "UN VOLEUR SUR LE TOIT",
+        "OpeningDate": "2025-10-10",
+        "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
+        "classification": "G",
+        "duree": 126,
+        "genre": "Drama",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
+        "banniere": "",
+        "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
+        "content": "DAJE | Chronique biographique",
+        "horaire": {
+          "2025-10-18": [
+            {
+              "session_id": 30649,
+              "heure": "18:45",
+              "attributs": [
+                "DLX"
+              ],
+              "placesDisponibles": 47
+            }
+          ],
+          "2025-10-19": [
+            {
+              "session_id": 30655,
+              "heure": "12:55",
+              "attributs": [
+                "DLX"
+              ],
+              "placesDisponibles": 49
+            },
+            {
+              "session_id": 30661,
+              "heure": "18:45",
+              "attributs": [
+                "DLX"
+              ],
+              "placesDisponibles": 49
+            }
+          ],
+          "2025-10-22": [
+            {
+              "session_id": 30631,
+              "heure": "18:55",
+              "attributs": [
+                "DLX"
+              ],
+              "placesDisponibles": 49
+            }
+          ],
+          "2025-10-23": [
+            {
+              "session_id": 30637,
+              "heure": "18:55",
+              "attributs": [
+                "DLX"
+              ],
+              "placesDisponibles": 49
+            }
+          ]
+        },
+        "first_show": 1760827500,
+        "last_show": 1761260100
       },
-      "first_show": 1760829300,
-      "last_show": 1761866100
-    },
-    {
-      "id": "ST00001768",
-      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1099415314",
-      "content": "Aventures fantastiques",
-      "horaire": {
-        "2025-10-18": [
-          {
-            "session_id": 30654,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-19": [
-          {
-            "session_id": 30660,
-            "heure": "13:05",
-            "attributs": [],
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30666,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30636,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30642,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ]
+      {
+        "id": "ST00001732",
+        "titre": "TRON: ARES",
+        "OpeningDate": "2025-10-10",
+        "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
+        "classification": "G",
+        "duree": 119,
+        "genre": "Action",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+        "banniere": "",
+        "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+        "content": "Science-fiction",
+        "horaire": {
+          "2025-10-18": [
+            {
+              "session_id": 30652,
+              "heure": "18:55",
+              "attributs": [
+                "VFQ"
+              ],
+              "placesDisponibles": 80
+            }
+          ],
+          "2025-10-19": [
+            {
+              "session_id": 30658,
+              "heure": "12:55",
+              "attributs": [
+                "VFQ"
+              ],
+              "placesDisponibles": 85
+            },
+            {
+              "session_id": 30664,
+              "heure": "18:55",
+              "attributs": [
+                "VFQ"
+              ],
+              "placesDisponibles": 85
+            }
+          ],
+          "2025-10-22": [
+            {
+              "session_id": 30634,
+              "heure": "19:05",
+              "attributs": [
+                "VFQ"
+              ],
+              "placesDisponibles": 85
+            }
+          ],
+          "2025-10-23": [
+            {
+              "session_id": 30640,
+              "heure": "19:05",
+              "attributs": [
+                "DERNIÈRE",
+                "VFQ"
+              ],
+              "placesDisponibles": 85
+            }
+          ]
+        },
+        "first_show": 1760828100,
+        "last_show": 1761260700
       },
-      "first_show": 1760829300,
-      "last_show": 1761261300
-    },
-    {
-      "id": "ST00001726",
-      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
-      "classification": "G",
-      "duree": 88,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
-      "content": "Aventures fantaisistes",
-      "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30659,
-            "heure": "13:05",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-24": [
-          {
-            "session_id": 30752,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30753,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30754,
-            "heure": "13:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 177
-          }
-        ]
+      {
+        "id": "ST00001734",
+        "titre": "TÉLÉPHONE NOIR  II",
+        "OpeningDate": "2025-10-17",
+        "synopsis": "À North Denver, quatre ans après les événements entourant l’enlèvement de Finney par un psychopathe surnommé The Grabber, l’adolescent maintenant âgé de 17 ans tente de mener une vie normale avec sa sœur cadette Gwen. Cette dernière est toutefois victime de rêves étranges dans lesquels elle reçoit des appels du téléphone noir qui sont accompagnés d’images d’enfants en détresse dans un mystérieux camp enneigé, dans les montagnes. Dans l’espoir de mettre fin à ces visions perturbantes, elle décide de se rendre sur le lieu de ses cauchemars et fait une découverte troublante qui concerne le passé de sa famille.",
+        "classification": "13+",
+        "duree": 114,
+        "genre": "Horror",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
+        "banniere": "",
+        "bande_annonce": "https://youtu.be/laLj9STwfCM",
+        "content": "Violence | Horreur | Suspense d'épouvante",
+        "horaire": {
+          "2025-10-18": [
+            {
+              "session_id": 30651,
+              "heure": "19:05",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 56
+            }
+          ],
+          "2025-10-19": [
+            {
+              "session_id": 30657,
+              "heure": "12:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            },
+            {
+              "session_id": 30663,
+              "heure": "19:05",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-22": [
+            {
+              "session_id": 30633,
+              "heure": "19:05",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-23": [
+            {
+              "session_id": 30639,
+              "heure": "19:05",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-24": [
+            {
+              "session_id": 30689,
+              "heure": "12:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            },
+            {
+              "session_id": 30696,
+              "heure": "18:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-25": [
+            {
+              "session_id": 30701,
+              "heure": "12:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            },
+            {
+              "session_id": 30708,
+              "heure": "18:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-26": [
+            {
+              "session_id": 30713,
+              "heure": "12:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            },
+            {
+              "session_id": 30720,
+              "heure": "18:55",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-29": [
+            {
+              "session_id": 30726,
+              "heure": "19:05",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ],
+          "2025-10-30": [
+            {
+              "session_id": 30732,
+              "heure": "19:05",
+              "attributs": [
+                "ATMOS®",
+                "DLX"
+              ],
+              "placesDisponibles": 75
+            }
+          ]
+        },
+        "first_show": 1760828700,
+        "last_show": 1761865500
       },
-      "first_show": 1760893500,
-      "last_show": 1761498900
-    }
-  ]
+      {
+        "id": "ST00001736",
+        "titre": "BONNE FORTUNE",
+        "OpeningDate": "2025-10-17",
+        "synopsis": "Gabriel, un ange gardien assigné à la prévention de petits accidents automobiles, souhaite avoir de plus grandes responsabilités afin d’aider les âmes perdues, comme le font ses collègues. Il est témoin des difficultés vécues par Arj, qui cumule les emplois journaliers et peine à joindre les deux bouts. À l’opposé, Jeff est un riche entrepreneur qui mène une existence oisive et luxueuse. Gabriel décide d’intervenir auprès de ces deux personnes pour redonner espoir à Arj. Son assistance n’a toutefois pas l’effet escompté.",
+        "classification": "G",
+        "duree": 97,
+        "genre": "Comedy",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004964",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004962",
+        "banniere": "",
+        "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
+        "content": "Comédie fantaisiste",
+        "horaire": {
+          "2025-10-18": [
+            {
+              "session_id": 30681,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 91
+            }
+          ],
+          "2025-10-19": [
+            {
+              "session_id": 30682,
+              "heure": "13:05",
+              "attributs": [],
+              "placesDisponibles": 91
+            },
+            {
+              "session_id": 30683,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 91
+            }
+          ],
+          "2025-10-22": [
+            {
+              "session_id": 30685,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 91
+            }
+          ],
+          "2025-10-23": [
+            {
+              "session_id": 30687,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 91
+            }
+          ],
+          "2025-10-24": [
+            {
+              "session_id": 30693,
+              "heure": "13:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            },
+            {
+              "session_id": 30699,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ],
+          "2025-10-25": [
+            {
+              "session_id": 30705,
+              "heure": "13:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            },
+            {
+              "session_id": 30711,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ],
+          "2025-10-26": [
+            {
+              "session_id": 30717,
+              "heure": "13:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            },
+            {
+              "session_id": 30723,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ],
+          "2025-10-29": [
+            {
+              "session_id": 30729,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ],
+          "2025-10-30": [
+            {
+              "session_id": 30735,
+              "heure": "19:15",
+              "attributs": [
+                "DERNIÈRE"
+              ],
+              "placesDisponibles": 72
+            }
+          ]
+        },
+        "first_show": 1760829300,
+        "last_show": 1761866100
+      },
+      {
+        "id": "ST00001768",
+        "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+        "OpeningDate": "2025-10-10",
+        "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+        "classification": "G",
+        "duree": 80,
+        "genre": "Comedy",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+        "banniere": "",
+        "bande_annonce": "https://vimeo.com/1099415314",
+        "content": "Aventures fantastiques",
+        "horaire": {
+          "2025-10-18": [
+            {
+              "session_id": 30654,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 70
+            }
+          ],
+          "2025-10-19": [
+            {
+              "session_id": 30660,
+              "heure": "13:05",
+              "attributs": [],
+              "placesDisponibles": 72
+            },
+            {
+              "session_id": 30666,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ],
+          "2025-10-22": [
+            {
+              "session_id": 30636,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ],
+          "2025-10-23": [
+            {
+              "session_id": 30642,
+              "heure": "19:15",
+              "attributs": [],
+              "placesDisponibles": 72
+            }
+          ]
+        },
+        "first_show": 1760829300,
+        "last_show": 1761261300
+      },
+      {
+        "id": "ST00001726",
+        "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
+        "OpeningDate": "2025-09-26",
+        "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
+        "classification": "G",
+        "duree": 88,
+        "genre": "Animated ",
+        "format": "2D Digital",
+        "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
+        "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
+        "banniere": "",
+        "bande_annonce": "https://youtu.be/4dGzUH5siHA",
+        "content": "Aventures fantaisistes",
+        "horaire": {
+          "2025-10-19": [
+            {
+              "session_id": 30659,
+              "heure": "13:05",
+              "attributs": [],
+              "placesDisponibles": 177
+            }
+          ],
+          "2025-10-24": [
+            {
+              "session_id": 30752,
+              "heure": "13:15",
+              "attributs": [],
+              "placesDisponibles": 177
+            }
+          ],
+          "2025-10-25": [
+            {
+              "session_id": 30753,
+              "heure": "13:15",
+              "attributs": [],
+              "placesDisponibles": 177
+            }
+          ],
+          "2025-10-26": [
+            {
+              "session_id": 30754,
+              "heure": "13:15",
+              "attributs": [
+                "DERNIÈRE"
+              ],
+              "placesDisponibles": 177
+            }
+          ]
+        },
+        "first_show": 1760893500,
+        "last_show": 1761498900
+      }
+    ]
+  }
 }
