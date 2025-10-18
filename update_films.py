@@ -261,6 +261,11 @@ def transform_data(sessions):
     # Tri des films à l'affiche par titre en ordre alphabétique, puis par jours/heures
     films_tries = sorted(films_dict.values(), key=lambda f: locale.strxfrm(f["titre"]))
 
+    # Affichage des titres triés
+    print("Titres triés :")
+    for film in films_tries:
+        print(film["titre"])
+
     # Tri des films à l'affiche par jours/heures
     # for film in films_dict.values():
     for film in films_tries:
