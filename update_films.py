@@ -237,7 +237,7 @@ def save_checksum(file_path: str, checksum: str):
 
 # 🚀 Point d’entrée
 def main():
-   sessions = fetch_sessions()
+    sessions = fetch_sessions()
     
     final_file = "films.json"
     checksum_file = "checksumfilms.json"
