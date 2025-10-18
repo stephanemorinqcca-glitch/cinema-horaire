@@ -259,10 +259,14 @@ def transform_data(sessions):
     # Tri des films à l'affiche par jours/heures
     # for film in films_dict.values():
     for film in films_tries:
+        # Tri des jours (dates)
         film["horaire"] = dict(sorted(film["horaire"].items(), key=lambda x: x[0]))
+
+        # Tri des séances par heure pour chaque jour
         for jour in film["horaire"]:
             film["horaire"][jour].sort(key=lambda s: s["heure"])
 
+        # Calcul de la dernière séance
         toutes_les_dates = []
         for jour, seances in film["horaire"].items():
             for s in seances:
