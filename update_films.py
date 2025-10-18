@@ -185,7 +185,7 @@ def transform_data(sessions):
         for jour in film["horaire"]:
             film["horaire"][jour].sort(key=lambda s: s["heure"])
 
-        # Calcul de la dernière séance
+        # Calcul de la première et dernière séance
         toutes_les_dates = []
         for jour, seances in film["horaire"].items():
             for s in seances:
