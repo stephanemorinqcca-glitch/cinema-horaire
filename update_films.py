@@ -222,7 +222,7 @@ def transform_data(sessions):
         film["first_show"] = int(min(toutes_les_dates).timestamp()) if toutes_les_dates else None
         film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
     
-    # Tri des films prochaine séance, puis par titre
+    # Tri des films prochaine séance, puis par titre (sans accent)
     def sans_accents(texte):
         return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
 
