@@ -54,7 +54,7 @@
               "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 67
+            "placesDisponibles": 62
           },
           {
             "session_id": 30651,
@@ -216,7 +216,7 @@
             "attributs": [
               "VFQ"
             ],
-            "placesDisponibles": 83
+            "placesDisponibles": 80
           },
           {
             "session_id": 30652,
@@ -522,7 +522,7 @@
             "session_id": 30648,
             "heure": "13:05",
             "attributs": [],
-            "placesDisponibles": 64
+            "placesDisponibles": 55
           },
           {
             "session_id": 30654,
