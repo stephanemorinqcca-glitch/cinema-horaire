@@ -1,6 +1,7 @@
 import sys
 import requests
 import json
+import locale
 from datetime import date, datetime, timedelta
 import os
 import re
@@ -250,8 +251,12 @@ def transform_data(sessions):
             "placesDisponibles": seats_available
         })
 
-    # Tri des films à l'affiche en ordre alphabétique puis ensuite par jours/heures
-    films_tries = sorted(films_dict.values(), key=lambda f: f["titre"])
+    # Configuration du locale pour le tri avec les accents
+    locale.setlocale(locale.LC_ALL, 'fr_CA.UTF-8')
+    # Tri des films à l'affiche par titre en ordre alphabétique, puis par jours/heures
+    films_tries = sorted(films_dict.values(), key=lambda f: locale.strxfrm(f["titre"]))
+
+    # Tri des films à l'affiche par jours/heures
     for film in films_dict.values():
         film["horaire"] = dict(sorted(film["horaire"].items(), key=lambda x: x[0]))
         for jour in film["horaire"]:
