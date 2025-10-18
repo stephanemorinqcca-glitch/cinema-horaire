@@ -9,19 +9,18 @@ import hashlib
 import pytz
 from typing import Optional
 
-# Configuration
+# 🔑 Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
-# 🔑 En-têtes communs
 HEADERS = {
     "VeeziAccessToken": TOKEN,
     "Accept": "application/json",
     "Content-Type": "application/json"
 }
 
-# 🌐 Fonction générique
+# 🌐 Fonction générique JSON
 def fetch_json(url: str, headers: dict, cache: dict = None, key: str = None):
     """Récupère du JSON depuis une URL avec gestion d'erreurs et cache optionnel."""
     if cache is not None and key in cache:
@@ -64,10 +63,6 @@ def transform_data(sessions):
     tz = pytz.timezone('America/Toronto')
     now = datetime.now(tz)
     threshold = now + timedelta(minutes=0)
-    # now = datetime.now(tz).date()  # 👈 On ne garde que la date
-    
-    # Format : Jour/Mois/Année Heure:Minute
-    # formatted_threshold = threshold.strftime("%d/%m/%Y %H:%M")
 
     for session in sessions:
         session_id = session.get("Id")
