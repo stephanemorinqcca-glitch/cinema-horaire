@@ -420,10 +420,36 @@
             "attributs": [],
             "placesDisponibles": 177
           }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30752,
+            "heure": "13:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30753,
+            "heure": "13:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30754,
+            "heure": "13:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "placesDisponibles": 91
+          }
         ]
       },
       "first_show": 1760893500,
-      "last_show": 1760893500
+      "last_show": 1761498900
     },
     {
       "id": "ST00001768",
@@ -512,10 +538,145 @@
             "attributs": [],
             "placesDisponibles": 177
           }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30802,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30803,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30804,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30805,
+            "heure": "18:55",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30806,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "placesDisponibles": 91
+          }
         ]
       },
       "first_show": 1760913900,
-      "last_show": 1761260100
+      "last_show": 1761864900
+    },
+    {
+      "id": "ST00001770",
+      "titre": "SPRINGSTEEN:  DÉLIVREZ-MOI DE NULLE PART",
+      "OpeningDate": "2025-10-24",
+      "synopsis": "Le film retrace l'élaboration de l'album « Nebraska » de Bruce Springsteen, sorti en 1982, alors qu'il était un jeune musicien sur le point de devenir une vedette mondiale, luttant pour concilier les pressions du succès et les fantômes de son passé. Enregistré sur un magnétophone à quatre pistes dans la chambre de Springsteen à New Jersey, l'album a marqué un moment essentiel de sa vie et est considéré comme l'une de ses œuvres les plus durables - un disque acoustique brut et hanté, rempli d'âmes perdues à la recherche d'une raison de croire.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005120",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005118",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
+      "content": "Drame biographique",
+      "horaire": {
+        "2025-10-24": [
+          {
+            "session_id": 30688,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30695,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30700,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30707,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30712,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30719,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30725,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30731,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1761324900,
+      "last_show": 1761864900
     }
   ]
 }
