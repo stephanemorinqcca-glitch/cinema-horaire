@@ -4,8 +4,8 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'  # Toutes les 5 minutes
+  # schedule:
+   # - cron: '*/5 * * * *'  # Toutes les 5 minutes
   workflow_dispatch:         # Permet de lancer manuellement
 
 jobs:
