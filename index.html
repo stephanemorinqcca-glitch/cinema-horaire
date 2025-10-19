@@ -499,7 +499,7 @@
 						// console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
 
 						// ✅ Vérifier si le film n'est pas encore sorti ET que la première séance est dans plus de 24h
-						if (aujourdHuiStr < film.OpeningDate && nowTimestamp < film.first_show - 86400) {
+						if (aujourdHuiStr < film.OpeningDate) {
     						const bande = document.createElement("div");
     						bande.className = "jour-label bientot-affiche-banner";
     						bande.innerHTML = `
