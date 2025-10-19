@@ -169,10 +169,83 @@
             ],
             "placesDisponibles": 75
           }
+        ],
+        "2025-10-31": [
+          {
+            "session_id": 30779,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-01": [
+          {
+            "session_id": 30757,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30763,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-02": [
+          {
+            "session_id": 30768,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30774,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-05": [
+          {
+            "session_id": 30784,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-06": [
+          {
+            "session_id": 30789,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
         ]
       },
       "first_show": 1760892900,
-      "last_show": 1761865500
+      "last_show": 1762473300
     },
     {
       "id": "ST00001732",
@@ -309,7 +382,7 @@
             "session_id": 30682,
             "heure": "13:05",
             "attributs": [],
-            "placesDisponibles": 91
+            "placesDisponibles": 72
           },
           {
             "session_id": 30683,
@@ -420,36 +493,10 @@
             "attributs": [],
             "placesDisponibles": 177
           }
-        ],
-        "2025-10-24": [
-          {
-            "session_id": 30752,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30753,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30754,
-            "heure": "13:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 91
-          }
         ]
       },
       "first_show": 1760893500,
-      "last_show": 1761498900
+      "last_show": 1760893500
     },
     {
       "id": "ST00001768",
@@ -471,7 +518,7 @@
             "session_id": 30660,
             "heure": "13:05",
             "attributs": [],
-            "placesDisponibles": 72
+            "placesDisponibles": 91
           },
           {
             "session_id": 30666,
@@ -538,52 +585,10 @@
             "attributs": [],
             "placesDisponibles": 177
           }
-        ],
-        "2025-10-24": [
-          {
-            "session_id": 30802,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30803,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30804,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-29": [
-          {
-            "session_id": 30805,
-            "heure": "18:55",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-30": [
-          {
-            "session_id": 30806,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 91
-          }
         ]
       },
       "first_show": 1760913900,
-      "last_show": 1761864900
+      "last_show": 1761260100
     },
     {
       "id": "ST00001770",
@@ -673,10 +678,205 @@
             ],
             "placesDisponibles": 49
           }
+        ],
+        "2025-10-31": [
+          {
+            "session_id": 30777,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-01": [
+          {
+            "session_id": 30756,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30762,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-02": [
+          {
+            "session_id": 30767,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30773,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-05": [
+          {
+            "session_id": 30782,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-06": [
+          {
+            "session_id": 30787,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 49
+          }
         ]
       },
       "first_show": 1761324900,
-      "last_show": 1761864900
+      "last_show": 1762473300
+    },
+    {
+      "id": "ST00001772",
+      "titre": "ON TE REGRETTE",
+      "OpeningDate": "2025-10-24",
+      "synopsis": "Adapté du best-seller de Colleen Hoover, le film présente Morgan Grant et sa fille Clara qui explorent ce qui reste après un accident dévastateur qui révèle une trahison choquante et les force à affronter des secrets de famille, à redéfinir l'amour et à se redécouvrir. ON TE REGRETTE est une histoire de croissance, de résilience et de découverte de soi au lendemain d'une tragédie.",
+      "classification": "G",
+      "duree": 116,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004911",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004909",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
+      "content": "Drame sentimental",
+      "horaire": {
+        "2025-10-24": [
+          {
+            "session_id": 30691,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 30697,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30703,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 30709,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30715,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 30721,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30727,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30733,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-10-31": [
+          {
+            "session_id": 30780,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-01": [
+          {
+            "session_id": 30758,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30764,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-02": [
+          {
+            "session_id": 30769,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30775,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-05": [
+          {
+            "session_id": 30785,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-06": [
+          {
+            "session_id": 30790,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1761325500,
+      "last_show": 1762473900
     }
   ]
 }
