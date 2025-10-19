@@ -498,8 +498,8 @@
 						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
 						// console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
 
-						// ✅ Injecter la bande juste avant la première journée à venir
-						if (aujourdHuiStr < film.OpeningDate) {
+						// ✅ Vérifier si le film n'est pas encore sorti ET que la première séance est dans plus de 24h
+						if (aujourdHuiStr < film.OpeningDate && nowTimestamp < film.first_show - 86400) {
     						const bande = document.createElement("div");
     						bande.className = "jour-label bientot-affiche-banner";
     						bande.innerHTML = `
