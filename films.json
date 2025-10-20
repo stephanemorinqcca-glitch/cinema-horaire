@@ -144,350 +144,6 @@
         ],
         "2025-10-24": [
           {
-            "session_id": 30689,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30696,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30701,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30708,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30713,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30720,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-29": [
-          {
-            "session_id": 30726,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-30": [
-          {
-            "session_id": 30732,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-10-31": [
-          {
-            "session_id": 30779,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-01": [
-          {
-            "session_id": 30757,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30763,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-02": [
-          {
-            "session_id": 30768,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30774,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-05": [
-          {
-            "session_id": 30784,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-06": [
-          {
-            "session_id": 30789,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ]
-      },
-      "first_show": 1761174300,
-      "last_show": 1762473300
-    },
-    {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE",
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1761174300,
-      "last_show": 1761260700
-    },
-    {
-      "id": "ST00001736",
-      "titre": "BONNE FORTUNE",
-      "OpeningDate": "2025-10-17",
-      "synopsis": "Gabriel, un ange gardien assigné à la prévention de petits accidents automobiles, souhaite avoir de plus grandes responsabilités afin d’aider les âmes perdues, comme le font ses collègues. Il est témoin des difficultés vécues par Arj, qui cumule les emplois journaliers et peine à joindre les deux bouts. À l’opposé, Jeff est un riche entrepreneur qui mène une existence oisive et luxueuse. Gabriel décide d’intervenir auprès de ces deux personnes pour redonner espoir à Arj. Son assistance n’a toutefois pas l’effet escompté.",
-      "classification": "G",
-      "duree": 97,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004964",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004962",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
-      "content": "Comédie fantaisiste",
-      "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30685,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30687,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-24": [
-          {
-            "session_id": 30693,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30699,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30705,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30711,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30717,
-            "heure": "13:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30723,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-29": [
-          {
-            "session_id": 30729,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-30": [
-          {
-            "session_id": 30735,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1761174900,
-      "last_show": 1761866100
-    },
-    {
-      "id": "ST00001768",
-      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1099415314",
-      "content": "Aventures fantastiques",
-      "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30636,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30642,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1761174900,
-      "last_show": 1761261300
-    },
-    {
-      "id": "ST00001770",
-      "titre": "SPRINGSTEEN:  DÉLIVREZ-MOI DE NULLE PART",
-      "OpeningDate": "2025-10-24",
-      "synopsis": "Le film retrace l'élaboration de l'album « Nebraska » de Bruce Springsteen, sorti en 1982, alors qu'il était un jeune musicien sur le point de devenir une vedette mondiale, luttant pour concilier les pressions du succès et les fantômes de son passé. Enregistré sur un magnétophone à quatre pistes dans la chambre de Springsteen à New Jersey, l'album a marqué un moment essentiel de sa vie et est considéré comme l'une de ses œuvres les plus durables - un disque acoustique brut et hanté, rempli d'âmes perdues à la recherche d'une raison de croire.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Biography",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005120",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005118",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
-      "content": "Drame biographique",
-      "horaire": {
-        "2025-10-24": [
-          {
             "session_id": 30688,
             "heure": "12:55",
             "attributs": [
@@ -624,6 +280,349 @@
               "DLX"
             ],
             "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1761174300,
+      "last_show": 1762473300
+    },
+    {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-22": [
+          {
+            "session_id": 30634,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30640,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE",
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1761174300,
+      "last_show": 1761260700
+    },
+    {
+      "id": "ST00001736",
+      "titre": "BONNE FORTUNE",
+      "OpeningDate": "2025-10-17",
+      "synopsis": "Gabriel, un ange gardien assigné à la prévention de petits accidents automobiles, souhaite avoir de plus grandes responsabilités afin d’aider les âmes perdues, comme le font ses collègues. Il est témoin des difficultés vécues par Arj, qui cumule les emplois journaliers et peine à joindre les deux bouts. À l’opposé, Jeff est un riche entrepreneur qui mène une existence oisive et luxueuse. Gabriel décide d’intervenir auprès de ces deux personnes pour redonner espoir à Arj. Son assistance n’a toutefois pas l’effet escompté.",
+      "classification": "G",
+      "duree": 97,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004964",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004962",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
+      "content": "Comédie fantaisiste",
+      "horaire": {
+        "2025-10-22": [
+          {
+            "session_id": 30685,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30687,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30693,
+            "heure": "13:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30699,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30705,
+            "heure": "13:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30711,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30717,
+            "heure": "13:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30723,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30729,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30735,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1761174900,
+      "last_show": 1761866100
+    },
+    {
+      "id": "ST00001768",
+      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 80,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1099415314",
+      "content": "Aventures fantastiques",
+      "horaire": {
+        "2025-10-22": [
+          {
+            "session_id": 30636,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30642,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1761174900,
+      "last_show": 1761261300
+    },
+    {
+      "id": "ST00001770",
+      "titre": "SPRINGSTEEN:  DÉLIVREZ-MOI DE NULLE PART",
+      "OpeningDate": "2025-10-24",
+      "synopsis": "Le film retrace l'élaboration de l'album « Nebraska » de Bruce Springsteen, sorti en 1982, alors qu'il était un jeune musicien sur le point de devenir une vedette mondiale, luttant pour concilier les pressions du succès et les fantômes de son passé. Enregistré sur un magnétophone à quatre pistes dans la chambre de Springsteen à New Jersey, l'album a marqué un moment essentiel de sa vie et est considéré comme l'une de ses œuvres les plus durables - un disque acoustique brut et hanté, rempli d'âmes perdues à la recherche d'une raison de croire.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005120",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005118",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
+      "content": "Drame biographique",
+      "horaire": {
+        "2025-10-24": [
+          {
+            "session_id": 30689,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30696,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30701,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30708,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30713,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30720,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30726,
+            "heure": "19:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30732,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-10-31": [
+          {
+            "session_id": 30779,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-01": [
+          {
+            "session_id": 30757,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30763,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-02": [
+          {
+            "session_id": 30768,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30774,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-05": [
+          {
+            "session_id": 30784,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-06": [
+          {
+            "session_id": 30789,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "placesDisponibles": 75
           }
         ]
       },
