@@ -46,14 +46,6 @@
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30665,
-            "heure": "18:45",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
         "2025-10-22": [
           {
             "session_id": 30635,
@@ -71,7 +63,7 @@
           }
         ]
       },
-      "first_show": 1760913900,
+      "first_show": 1761173700,
       "last_show": 1761260100
     },
     {
@@ -89,16 +81,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
       "content": "DAJE | Chronique biographique",
       "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30661,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
         "2025-10-22": [
           {
             "session_id": 30631,
@@ -120,58 +102,8 @@
           }
         ]
       },
-      "first_show": 1760913900,
+      "first_show": 1761173700,
       "last_show": 1761260100
-    },
-    {
-      "id": "ST00001732",
-      "titre": "TRON: ARES",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
-      "content": "Science-fiction",
-      "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30664,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-10-23": [
-          {
-            "session_id": 30640,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE",
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1760914500,
-      "last_show": 1761260700
     },
     {
       "id": "ST00001734",
@@ -188,17 +120,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30663,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
         "2025-10-22": [
           {
             "session_id": 30633,
@@ -377,8 +298,48 @@
           }
         ]
       },
-      "first_show": 1760915100,
+      "first_show": 1761174300,
       "last_show": 1762473300
+    },
+    {
+      "id": "ST00001732",
+      "titre": "TRON: ARES",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Deux entreprises rivales cherchent à développer des programmes virtuels pouvant se manifester dans le réel pour plus de 29 minutes, la durée maximale permise par la technologie actuelle. Pour dérober une information clé à son compétiteur, Julian Dillinger utilise Ares, une application d’intelligence artificielle qui peut prendre une forme humaine.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005060",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005058",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
+      "content": "Science-fiction",
+      "horaire": {
+        "2025-10-22": [
+          {
+            "session_id": 30634,
+            "heure": "19:05",
+            "attributs": [
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-23": [
+          {
+            "session_id": 30640,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE",
+              "VFQ"
+            ],
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1761174300,
+      "last_show": 1761260700
     },
     {
       "id": "ST00001736",
@@ -395,14 +356,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
       "content": "Comédie fantaisiste",
       "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30683,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
         "2025-10-22": [
           {
             "session_id": 30685,
@@ -480,7 +433,7 @@
           }
         ]
       },
-      "first_show": 1760915700,
+      "first_show": 1761174900,
       "last_show": 1761866100
     },
     {
@@ -498,14 +451,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-10-19": [
-          {
-            "session_id": 30666,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
         "2025-10-22": [
           {
             "session_id": 30636,
@@ -523,7 +468,7 @@
           }
         ]
       },
-      "first_show": 1760915700,
+      "first_show": 1761174900,
       "last_show": 1761261300
     },
     {
@@ -813,35 +758,6 @@
       },
       "first_show": 1761325500,
       "last_show": 1762473900
-    },
-    {
-      "id": "ST00001726",
-      "titre": "GABBY ET LA MAISON MAGIQUE: LE FILM",
-      "OpeningDate": "2025-09-26",
-      "synopsis": "Accompagnée de sa grand-mère Gigi, la jeune Gabby entreprend un voyage en voiture pour se rendre à Cat Francisco. Sur place, la précieuse maison de poupée de Gabby, qui lui avait été offerte quand elle était petite par Gigi, se retrouve entre les mains de Vera, une femme extravagante, passionnée des chats, qui souhaite ajouter cette pièce à sa collection. Toute la bande se lance alors à la poursuite de Vera pour récupérer la maison magique.",
-      "classification": "G",
-      "duree": 88,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004791",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004789",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/4dGzUH5siHA",
-      "content": "Aventures fantaisistes",
-      "horaire": {
-        "2025-10-26": [
-          {
-            "session_id": 30754,
-            "heure": "13:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1761498900,
-      "last_show": 1761498900
     }
   ]
 }
