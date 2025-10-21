@@ -414,7 +414,8 @@
 						if (classificationDetails !== "") {
     						const classificationDetailsDiv = document.createElement("div");
     						classificationDetailsDiv.className = "classification-details";
-    						classificationDetailsDiv.textContent = classificationDetails;
+    						// classificationDetailsDiv.textContent = classificationDetails;
+							classificationDetailsDiv.innerHTML = classificationDetails;
     						classificationDetailsDiv.style.backgroundColor = classificationColor;
     						details.appendChild(classificationDetailsDiv);
 						}
