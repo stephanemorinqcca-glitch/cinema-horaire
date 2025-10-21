@@ -58,7 +58,9 @@
           {
             "session_id": 30641,
             "heure": "18:55",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "placesDisponibles": 177
           }
         ]
@@ -100,10 +102,70 @@
             ],
             "placesDisponibles": 49
           }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30737,
+            "heure": "12:45",
+            "attributs": [],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30802,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30739,
+            "heure": "12:45",
+            "attributs": [],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30803,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30741,
+            "heure": "12:45",
+            "attributs": [],
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30804,
+            "heure": "18:45",
+            "attributs": [],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30805,
+            "heure": "18:55",
+            "attributs": [],
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30806,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "placesDisponibles": 85
+          }
         ]
       },
       "first_show": 1761173700,
-      "last_show": 1761260100
+      "last_show": 1761864900
     },
     {
       "id": "ST00001734",
@@ -144,142 +206,157 @@
         ],
         "2025-10-24": [
           {
-            "session_id": 30688,
+            "session_id": 30689,
             "heure": "12:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           },
           {
-            "session_id": 30695,
+            "session_id": 30696,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-10-25": [
           {
-            "session_id": 30700,
+            "session_id": 30701,
             "heure": "12:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           },
           {
-            "session_id": 30707,
+            "session_id": 30708,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-10-26": [
           {
-            "session_id": 30712,
+            "session_id": 30713,
             "heure": "12:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           },
           {
-            "session_id": 30719,
+            "session_id": 30720,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-10-29": [
           {
-            "session_id": 30725,
-            "heure": "18:55",
+            "session_id": 30726,
+            "heure": "19:05",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-10-30": [
           {
-            "session_id": 30731,
-            "heure": "18:55",
+            "session_id": 30732,
+            "heure": "19:05",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-10-31": [
           {
-            "session_id": 30777,
+            "session_id": 30779,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-11-01": [
           {
-            "session_id": 30756,
+            "session_id": 30757,
             "heure": "12:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           },
           {
-            "session_id": 30762,
+            "session_id": 30763,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-11-02": [
           {
-            "session_id": 30767,
+            "session_id": 30768,
             "heure": "12:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           },
           {
-            "session_id": 30773,
+            "session_id": 30774,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-11-05": [
           {
-            "session_id": 30782,
+            "session_id": 30784,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ],
         "2025-11-06": [
           {
-            "session_id": 30787,
+            "session_id": 30789,
             "heure": "18:55",
             "attributs": [
+              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 49
+            "placesDisponibles": 75
           }
         ]
       },
@@ -451,10 +528,68 @@
             "attributs": [],
             "placesDisponibles": 72
           }
+        ],
+        "2025-10-24": [
+          {
+            "session_id": 30736,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30807,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30738,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30808,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30740,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30809,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30743,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30745,
+            "heure": "19:15",
+            "attributs": [],
+            "placesDisponibles": 91
+          }
         ]
       },
       "first_show": 1761174900,
-      "last_show": 1761261300
+      "last_show": 1761866100
     },
     {
       "id": "ST00001770",
@@ -473,156 +608,142 @@
       "horaire": {
         "2025-10-24": [
           {
-            "session_id": 30689,
+            "session_id": 30688,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           },
           {
-            "session_id": 30696,
+            "session_id": 30695,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-10-25": [
           {
-            "session_id": 30701,
+            "session_id": 30700,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           },
           {
-            "session_id": 30708,
+            "session_id": 30707,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-10-26": [
           {
-            "session_id": 30713,
+            "session_id": 30712,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           },
           {
-            "session_id": 30720,
+            "session_id": 30719,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-10-29": [
           {
-            "session_id": 30726,
-            "heure": "19:05",
+            "session_id": 30725,
+            "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-10-30": [
           {
-            "session_id": 30732,
-            "heure": "19:05",
+            "session_id": 30731,
+            "heure": "18:55",
             "attributs": [
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-10-31": [
           {
-            "session_id": 30779,
+            "session_id": 30777,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-11-01": [
           {
-            "session_id": 30757,
+            "session_id": 30756,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           },
           {
-            "session_id": 30763,
+            "session_id": 30762,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-11-02": [
           {
-            "session_id": 30768,
+            "session_id": 30767,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           },
           {
-            "session_id": 30774,
+            "session_id": 30773,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-11-05": [
           {
-            "session_id": 30784,
+            "session_id": 30782,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ],
         "2025-11-06": [
           {
-            "session_id": 30789,
+            "session_id": 30787,
             "heure": "18:55",
             "attributs": [
-              "ATMOS®",
               "DLX"
             ],
-            "placesDisponibles": 75
+            "placesDisponibles": 49
           }
         ]
       },
