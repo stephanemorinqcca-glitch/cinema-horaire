@@ -379,7 +379,8 @@
     						}
 
 							// Vérifie les mots-clés si aucune classification trouvée
-							if (classificationDetails === "" && typeof film.content === "string") {
+							//if (classificationDetails === "" && typeof film.content === "string") {
+							if (typeof film.content === "string") {
     							motsCles.forEach((motCle) => {
         							if (film.content.includes(motCle) && ratingDetails[motCle]) {
             							// classificationDetails = ratingDetails[motCle].description;
