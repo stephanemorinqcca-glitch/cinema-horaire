@@ -769,7 +769,9 @@
           {
             "session_id": 30691,
             "heure": "13:05",
-            "attributs": [],
+            "attributs": [ 
+              "3D"
+            ],
             "placesDisponibles": 177
           },
           {
