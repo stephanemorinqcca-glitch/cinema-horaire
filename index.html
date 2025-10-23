@@ -108,7 +108,8 @@
     			if (!isNaN(duree)) {
         			const heures = Math.floor(duree / 60);
         			const minutes = duree % 60;
-        			contentArray.push(`Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
+        			//contentArray.push(`Durée ${heures}h${minutes.toString().padStart(2, "0")}`);
+					contentArray.push(`⏱ ${heures}h${minutes.toString().padStart(2, "0")}`);
     			}
 
     			// Si le contenu est vide, on retourne uniquement la durée
