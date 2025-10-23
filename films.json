@@ -46,14 +46,6 @@
       "bande_annonce": "https://youtu.be/b7KSHWQ79HM",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30635,
-            "heure": "18:55",
-            "attributs": [],
-            "placesDisponibles": 177
-          }
-        ],
         "2025-10-23": [
           {
             "session_id": 30641,
@@ -65,7 +57,7 @@
           }
         ]
       },
-      "first_show": 1761173700,
+      "first_show": 1761260100,
       "last_show": 1761260100
     },
     {
@@ -83,16 +75,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
       "content": "DAJE | Chronique biographique",
       "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30631,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "placesDisponibles": 49
-          }
-        ],
         "2025-10-23": [
           {
             "session_id": 30637,
@@ -164,7 +146,7 @@
           }
         ]
       },
-      "first_show": 1761173700,
+      "first_show": 1761260100,
       "last_show": 1761864900
     },
     {
@@ -182,17 +164,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30633,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "placesDisponibles": 75
-          }
-        ],
         "2025-10-23": [
           {
             "session_id": 30639,
@@ -360,7 +331,7 @@
           }
         ]
       },
-      "first_show": 1761174300,
+      "first_show": 1761260700,
       "last_show": 1762473300
     },
     {
@@ -378,16 +349,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Ix_Xly0TIzs",
       "content": "Science-fiction",
       "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30634,
-            "heure": "19:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "placesDisponibles": 85
-          }
-        ],
         "2025-10-23": [
           {
             "session_id": 30640,
@@ -400,7 +361,7 @@
           }
         ]
       },
-      "first_show": 1761174300,
+      "first_show": 1761260700,
       "last_show": 1761260700
     },
     {
@@ -418,14 +379,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
       "content": "Comédie fantaisiste",
       "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30685,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 91
-          }
-        ],
         "2025-10-23": [
           {
             "session_id": 30687,
@@ -495,7 +448,7 @@
           }
         ]
       },
-      "first_show": 1761174900,
+      "first_show": 1761261300,
       "last_show": 1761866100
     },
     {
@@ -513,14 +466,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-10-22": [
-          {
-            "session_id": 30636,
-            "heure": "19:15",
-            "attributs": [],
-            "placesDisponibles": 72
-          }
-        ],
         "2025-10-23": [
           {
             "session_id": 30642,
@@ -588,7 +533,7 @@
           }
         ]
       },
-      "first_show": 1761174900,
+      "first_show": 1761261300,
       "last_show": 1761866100
     },
     {
@@ -758,7 +703,7 @@
       "classification": "G",
       "duree": 116,
       "genre": "Drama",
-      "format": "3D Digital",
+      "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004911",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004909",
       "banniere": "",
@@ -769,9 +714,7 @@
           {
             "session_id": 30691,
             "heure": "13:05",
-            "attributs": [ 
-              "3D"
-            ],
+            "attributs": [],
             "placesDisponibles": 177
           },
           {
