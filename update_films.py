@@ -7,6 +7,7 @@ import os
 import re
 import hashlib
 import pytz
+import time
 from typing import Optional
 
 # 🔑 Configuration
@@ -255,6 +256,7 @@ def save_checksum(file_path: str, checksum: str):
 
 # 🚀 Point d’entrée
 def main():
+    start_time = time.time()
     sessions = fetch_sessions()
     
     final_file = "films.json"
@@ -303,6 +305,12 @@ def main():
     else:
         print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
+
+    end_time = time.time()
+    elapsed = end_time - start_time
+
+    # Affichage façon printf
+    print("Temps d'exécution : %.4f secondes" % elapsed)
 
 if __name__ == "__main__":
     main()
