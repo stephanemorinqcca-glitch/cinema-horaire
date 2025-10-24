@@ -51,6 +51,16 @@ def fetch_attribute_details(aid: str, cache: dict):
     url = f"{ATTRIBUTE_API_URL}{aid}"
     return fetch_json(url, headers=HEADERS, cache=cache, key=aid)
 
+# 🧾 Charge tous les attributs en une seule requête
+def fetch_all_attributes() -> dict:
+    """Charge tous les attributs et les indexe par ID."""
+    raw_data = fetch_json(ATTRIBUTE_API_URL.rstrip("/"), headers=HEADERS)
+    return {
+        attr["Id"]: attr
+        for attr in raw_data
+        if isinstance(attr, dict) and "Id" in attr
+    }
+
 # 📅 Liste des séances
 def fetch_sessions():
     return fetch_json(SESSION_API_URL, headers=HEADERS) or []
@@ -73,6 +83,8 @@ def transform_data(sessions):
 
     screens = fetch_all_screens()
     screen_map = {screen["Id"]: screen for screen in screens}
+
+    attribute_cache = fetch_all_attributes()
 
     for session in sessions:
         session_id = session.get("Id")
@@ -151,20 +163,29 @@ def transform_data(sessions):
                 "horaire": {}
             }
 
-        enriched_attributes = [fetch_attribute_details(attr_id, attribute_cache) for attr_id in attributes]
+        #enriched_attributes = [fetch_attribute_details(attr_id, attribute_cache) for attr_id in attributes]
+        enriched_attributes = [
+            attribute_cache.get(attr_id)
+            for attr_id in attributes
+            if attr_id in attribute_cache
+        ]
 
-        for attr in enriched_attributes:
-            if attr and "Id" in attr:
-                used_attributes[attr["Id"]] = {
-                    "ShortName": attr.get("ShortName", ""),
-                    "Description": attr.get("Description", ""),
-                    "FontColor": attr.get("FontColor", "#000000"),
-                    "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
-                    "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
-                }
+        #for attr in enriched_attributes:
+        #    if attr and "Id" in attr:
+        #        used_attributes[attr["Id"]] = {
+        #            "ShortName": attr.get("ShortName", ""),
+        #            "Description": attr.get("Description", ""),
+        #            "FontColor": attr.get("FontColor", "#000000"),
+        #            "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
+        #            "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
+        #        }
 
-        attributs = [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr]
-        attributs = sorted([a for a in attributs if a], key=str.lower)
+        #attributs = [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr]
+        #attributs = sorted([a for a in attributs if a], key=str.lower)
+        attributs = sorted(
+            [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr and attr.get("ShortName")],
+            key=str.lower
+        )
 
         # Injecter "3D" si le format du film est "3D Digital"
         if films_dict[film_id].get("format", "").strip().lower() == "3d digital":
@@ -216,6 +237,17 @@ def transform_data(sessions):
         film.get("first_show", 0),
         sans_accents(film.get("titre", "").lower())
     ))
+
+    used_attributes = {
+        aid: {
+             "ShortName": attr.get("ShortName", ""),
+             "Description": attr.get("Description", ""),
+             "FontColor": attr.get("FontColor", "#000000"),
+             "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
+             "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
+         }
+         for aid, attr in attribute_cache.items()
+    }
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
     legend_list = list(used_attributes.values())
