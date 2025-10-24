@@ -23,6 +23,9 @@
       "ShowOnSessionsWithNoComps": false
     }
   ],
+  "_meta": {
+    "first_show_date": null
+  },
   "films": [
     {
       "id": "ST00001766",
