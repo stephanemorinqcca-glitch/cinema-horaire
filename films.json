@@ -1,6 +1,14 @@
 {
   "cinema": "Cinéma Centre-Ville",
-  "legende": [],
+  "legende": [
+    {
+      "ShortName": "DLX",
+      "Description": "Salle avec sièges rocker et plus spacieux",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    }
+  ],
   "_meta": {
     "next_show_date": "2025-10-24",
     "next_show_time": "18:45"
