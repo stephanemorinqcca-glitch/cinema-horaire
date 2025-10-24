@@ -74,8 +74,8 @@ def transform_data(sessions):
         show_type = session.get("ShowType", "")
 
         screen_id = session.get("ScreenId", None)
-        salle = screen_id / 2 if screen_id is not None else None
-
+        salle = screen_id // 2 if isinstance(screen_id, int) else None
+        
         seats_available = session.get("SeatsAvailable", None)
         
         try:
