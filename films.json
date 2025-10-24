@@ -21,11 +21,39 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VF",
+      "Description": "Version en Français",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VFQ",
+      "Description": "Version en Français doublé au Québec",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VOA",
+      "Description": "Version Originale Anglaise",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VOSTFR",
+      "Description": "Version Originale Anglaise Sous-Titrée en Français",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
     "next_show_date": "2025-10-24",
-    "next_show_time": "12:45"
+    "next_show_time": "18:45"
   },
   "films": [
     {
@@ -45,18 +73,11 @@
       "horaire": {
         "2025-10-24": [
           {
-            "session_id": 30737,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
             "session_id": 30802,
             "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2025-10-25": [
@@ -64,15 +85,15 @@
             "session_id": 30739,
             "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
             "session_id": 30803,
             "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2025-10-26": [
@@ -80,15 +101,15 @@
             "session_id": 30741,
             "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
             "session_id": 30804,
             "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2025-10-29": [
@@ -96,8 +117,8 @@
             "session_id": 30805,
             "heure": "18:55",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2025-10-30": [
@@ -107,12 +128,12 @@
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ]
       },
-      "first_show": 1761324300,
+      "first_show": 1761345900,
       "last_show": 1761864900
     },
     {
@@ -131,15 +152,6 @@
       "content": "Drame biographique",
       "horaire": {
         "2025-10-24": [
-          {
-            "session_id": 30688,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
           {
             "session_id": 30695,
             "heure": "18:55",
@@ -286,7 +298,7 @@
           }
         ]
       },
-      "first_show": 1761324900,
+      "first_show": 1761346500,
       "last_show": 1762473300
     },
     {
@@ -305,16 +317,6 @@
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
         "2025-10-24": [
-          {
-            "session_id": 30689,
-            "heure": "12:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
           {
             "session_id": 30696,
             "heure": "18:55",
@@ -475,93 +477,8 @@
           }
         ]
       },
-      "first_show": 1761324900,
+      "first_show": 1761346500,
       "last_show": 1762473300
-    },
-    {
-      "id": "ST00001768",
-      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1099415314",
-      "content": "Aventures fantastiques",
-      "horaire": {
-        "2025-10-24": [
-          {
-            "session_id": 30736,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 30807,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-25": [
-          {
-            "session_id": 30738,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30808,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30740,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30809,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-29": [
-          {
-            "session_id": 30743,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-10-30": [
-          {
-            "session_id": 30745,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1761325500,
-      "last_show": 1761866100
     },
     {
       "id": "ST00001772",
@@ -579,13 +496,6 @@
       "content": "Drame sentimental",
       "horaire": {
         "2025-10-24": [
-          {
-            "session_id": 30691,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
           {
             "session_id": 30697,
             "heure": "19:05",
@@ -704,7 +614,7 @@
           }
         ]
       },
-      "first_show": 1761325500,
+      "first_show": 1761347100,
       "last_show": 1762473900
     },
     {
@@ -724,18 +634,11 @@
       "horaire": {
         "2025-10-24": [
           {
-            "session_id": 30693,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
             "session_id": 30699,
             "heure": "19:15",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-10-25": [
@@ -743,15 +646,15 @@
             "session_id": 30705,
             "heure": "13:15",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 30711,
             "heure": "19:15",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-10-26": [
@@ -759,15 +662,15 @@
             "session_id": 30717,
             "heure": "13:15",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 30723,
             "heure": "19:15",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-10-29": [
@@ -775,8 +678,8 @@
             "session_id": 30729,
             "heure": "19:15",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-10-30": [
@@ -786,12 +689,90 @@
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ]
       },
-      "first_show": 1761326100,
+      "first_show": 1761347700,
+      "last_show": 1761866100
+    },
+    {
+      "id": "ST00001768",
+      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 80,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1099415314",
+      "content": "Aventures fantastiques",
+      "horaire": {
+        "2025-10-24": [
+          {
+            "session_id": 30807,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-25": [
+          {
+            "session_id": 30738,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30808,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-26": [
+          {
+            "session_id": 30740,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30809,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-29": [
+          {
+            "session_id": 30743,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-10-30": [
+          {
+            "session_id": 30745,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1761347700,
       "last_show": 1761866100
     }
   ]
