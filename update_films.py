@@ -15,7 +15,7 @@ TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
-SCREEN_API_URL = "https://api.veezi.com/v1/screen/"
+SCREEN_API_URL = "https://api.useast.veezi.com/v1/screen/"
 HEADERS = {
     "VeeziAccessToken": TOKEN,
     "Accept": "application/json",
