@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-10-25",
+    "next_show_date": "2025-10-24",
     "next_show_time": "12:45"
   },
   "films": [
@@ -520,7 +520,7 @@
     {
       "id": "ST00001772",
       "titre": "ON TE REGRETTE",
-      "OpeningDate": "2025-10-25",
+      "OpeningDate": "2025-10-24",
       "synopsis": "Adapté du best-seller de Colleen Hoover, le film présente Morgan Grant et sa fille Clara qui explorent ce qui reste après un accident dévastateur qui révèle une trahison choquante et les force à affronter des secrets de famille, à redéfinir l'amour et à se redécouvrir. ON TE REGRETTE est une histoire de croissance, de résilience et de découverte de soi au lendemain d'une tragédie.",
       "classification": "G",
       "duree": 116,
@@ -532,6 +532,20 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
+        "2025-10-24": [
+          {
+            "session_id": 30691,
+            "heure": "13:05",
+            "attributs": [],
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30697,
+            "heure": "19:05",
+            "attributs": [],
+            "placesDisponibles": 177
+          }
+        ],
         "2025-10-25": [
           {
             "session_id": 30703,
