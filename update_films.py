@@ -240,18 +240,20 @@ def transform_data(sessions):
 
     used_attributes = {
         aid: {
-             "ShortName": attr.get("ShortName", ""),
-             "Description": attr.get("Description", ""),
-             "FontColor": attr.get("FontColor", "#000000"),
-             "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
-             "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
-         }
-         for aid, attr in attribute_cache.items()
+            "ShortName": attr.get("ShortName", ""),
+            "Description": attr.get("Description", ""),
+            "FontColor": attr.get("FontColor", "#000000"),
+            "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
+            "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
+        }
+        for aid, attr in attribute_cache.items()
     }
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
-    legend_list = list(used_attributes.values())
-    legend_list.sort(key=lambda attr: attr["ShortName"].lower())
+    legend_list = sorted(
+        used_attributes.values(),
+        key=lambda attr: attr["ShortName"].lower()
+    )
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
     
