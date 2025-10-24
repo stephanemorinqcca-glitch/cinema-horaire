@@ -256,7 +256,9 @@ def save_checksum(file_path: str, checksum: str):
 
 # 🚀 Point d’entrée
 def main():
+    # 🕒 Enregistre le temps de départ pour mesurer la durée d'exécution
     start_time = time.time()
+    
     sessions = fetch_sessions()
     
     final_file = "films.json"
@@ -305,12 +307,8 @@ def main():
     else:
         print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
-
-    end_time = time.time()
-    elapsed = end_time - start_time
-
-    # Affichage façon printf
-    print("Temps d'exécution : %.4f secondes" % elapsed)
+    # 🕒 Calcule et affiche le temps d'exécution écoulé
+    print("Temps d'exécution : %.4f secondes" % (time.time() - start_time))
 
 if __name__ == "__main__":
     main()
