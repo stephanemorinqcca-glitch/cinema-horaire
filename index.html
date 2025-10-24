@@ -232,7 +232,7 @@
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
 				.then((response) => response.json())
-				.then((data) => {
+				.then((data) => {			
 					const legendContainer = document.getElementById("legende");
 					const defaultFontColor = "#666666";
 					const defaultBackgroundColor = "#eeeeee";
@@ -502,8 +502,8 @@
 						// console.log(`📅 Aujourd'hui à Toronto : ${aujourdHuiStr}`);
 						// console.log(`⏰ Heure actuelle : ${currentHour}:${currentMinute}`);
 
-						// ✅ Vérifier si le film n'est pas encore sorti
-						if (aujourdHuiStr < film.OpeningDate) {
+						// ✅ Vérifier si le film n'est pas encore sorti et qu'aucun film n'est aussi avant la date de sortie
+						if (aujourdHuiStr < film.OpeningDate && data._meta?.next_show_date < film.OpeningDate) {
     						const bande = document.createElement("div");
     						bande.className = "jour-label bientot-affiche-banner";
     						bande.innerHTML = `
