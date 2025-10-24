@@ -72,6 +72,7 @@ def transform_data(sessions):
         status = session.get("Status", "")
         tickets_sold_out = session.get("TicketsSoldOut", False)
         show_type = session.get("ShowType", "")
+        salle = session.get(""ScreenId", None)
         seats_available = session.get("SeatsAvailable", None)
         
         try:
@@ -169,6 +170,7 @@ def transform_data(sessions):
             "session_id": session_id,
             "heure": heure,
             "attributs": attributs,
+            "salle": salle,
             "placesDisponibles": seats_available
         })
 
