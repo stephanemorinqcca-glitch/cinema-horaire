@@ -3,7 +3,6 @@ import requests
 import json
 import unicodedata
 from datetime import date, datetime, timedelta
-from zoneinfo import ZoneInfo
 import os
 import re
 import hashlib
