@@ -22,21 +22,6 @@ HEADERS = {
     "Content-Type": "application/json"
 }
 
-def collect_used_attributes(enriched_sessions: list) -> list:
-    """Construit la légende triée à partir des attributs réellement utilisés dans les séances."""
-    used_attributes = {}
-    for session in enriched_sessions:
-        for attr in session.get("enriched_attributes", []):
-            if attr and "Id" in attr and attr["Id"] not in used_attributes:
-                used_attributes[attr["Id"]] = {
-                    "ShortName": attr.get("ShortName", ""),
-                    "Description": attr.get("Description", ""),
-                    "FontColor": attr.get("FontColor", "#000000"),
-                    "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
-                    "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
-                }
-    return sorted(used_attributes.values(), key=lambda attr: attr["ShortName"].lower())
-
 # 🌐 Fonction générique JSON
 def fetch_json(url: str, headers: dict, cache: dict = None, key: str = None):
     """Récupère du JSON depuis une URL avec gestion d'erreurs et cache optionnel."""
@@ -241,23 +226,21 @@ def transform_data(sessions):
         sans_accents(film.get("titre", "").lower())
     ))
 
-    #for attr in enriched_attributes:
-    #    if attr and "Id" in attr and attr["Id"] not in used_attributes:
-    #        used_attributes[attr["Id"]] = {
-    #            "ShortName": attr.get("ShortName", ""),
-    #            "Description": attr.get("Description", ""),
-    #            "FontColor": attr.get("FontColor", "#000000"),
-    #            "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
-    #            "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
-    #        }
+    for attr in enriched_attributes:
+        if attr and "Id" in attr and attr["Id"] not in used_attributes:
+            used_attributes[attr["Id"]] = {
+                "ShortName": attr.get("ShortName", ""),
+                "Description": attr.get("Description", ""),
+                "FontColor": attr.get("FontColor", "#000000"),
+                "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
+                "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
+            }
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
-    legend_list = collect_used_attributes(sessions)
-
-    #legend_list = sorted(
-    #  used_attributes.values(),
-    #    key=lambda attr: attr["ShortName"].lower()
-    #)
+    legend_list = sorted(
+      used_attributes.values(),
+        key=lambda attr: attr["ShortName"].lower()
+    )
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
     
