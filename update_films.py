@@ -208,7 +208,7 @@ def transform_data(sessions):
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
 
-    #return {
+    return {
         "cinema": "Cinéma Centre-Ville",
         "legende": legend_list,
         "_meta": {
