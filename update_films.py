@@ -279,10 +279,10 @@ def main():
     old_checksum = load_previous_checksum(checksum_file)
 
     # 3️⃣ Logs de debug
-    print(f"Ancien checksum: {old_checksum}")
-    print(f"Nouveau checksum: {new_checksum}")
-    print(f"films.json existe ? {os.path.exists(final_file)}")
-    print(f"checksumfilms.json existe ? {os.path.exists(checksum_file)}")
+    #print(f"📥 Ancien checksum: {old_checksum}")
+    #print(f"📤 Nouveau checksum: {new_checksum}")
+    #print(f"films.json existe ? {os.path.exists(final_file)}")
+    #print(f"checksumfilms.json existe ? {os.path.exists(checksum_file)}")
 
     # 4️⃣ Condition d'écriture
     if (old_checksum is None) or (old_checksum != new_checksum) or not os.path.exists(final_file):
@@ -307,7 +307,7 @@ def main():
     else:
         print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
-    # 🕒 Calcule et affiche le temps d'exécution écoulé
+    # ⏱️ Calcule et affiche le temps d'exécution écoulé
     print("Temps d'exécution : %.4f secondes" % (time.time() - start_time))
 
 if __name__ == "__main__":
