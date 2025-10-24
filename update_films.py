@@ -212,8 +212,8 @@ def transform_data(sessions):
         "cinema": "Cinéma Centre-Ville",
         "legende": legend_list,
         "_meta": {
-            "next_show_date": datetime.fromtimestamp(films_list[0]["first_show"]).strftime("%Y-%m-%d") if films_list and films_list[0].get("first_show") else None,
-            "next_show_time": datetime.fromtimestamp(films_list[0]["first_show"]).strftime("%H:%M") if films_list and films_list[0].get("first_show") else None
+            "next_show_date": datetime.fromtimestamp(films_list[0]["first_show"],tz).strftime("%Y-%m-%d") if films_list and films_list[0].get("first_show") else None,
+            "next_show_time": datetime.fromtimestamp(films_list[0]["first_show"],tz).strftime("%H:%M") if films_list and films_list[0].get("first_show") else None
         },           
         "films": films_list
     }
