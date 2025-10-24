@@ -21,13 +21,6 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VFQ",
-      "Description": "Version en Français doublé au Québec",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
@@ -781,9 +774,7 @@
           {
             "session_id": 30729,
             "heure": "19:15",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           }
