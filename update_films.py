@@ -72,7 +72,7 @@ def transform_data(sessions):
     threshold = now + timedelta(minutes=0)
 
     screens = fetch_all_screens()
-    screen_map = {screens["Id"]: screen for screen in screens}
+    screen_map = {screen["Id"]: screen for screen in screens}
 
     for session in sessions:
         session_id = session.get("Id")
