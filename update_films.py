@@ -22,6 +22,18 @@ HEADERS = {
     "Content-Type": "application/json"
 }
 
+def update_used_attributes(enriched_attributes: list, used_attributes: dict) -> None:
+    """Ajoute les attributs enrichis à used_attributes s'ils ne sont pas déjà présents."""
+    for attr in enriched_attributes:
+        if attr and "Id" in attr and attr["Id"] not in used_attributes:
+            used_attributes[attr["Id"]] = {
+                "ShortName": attr.get("ShortName", ""),
+                "Description": attr.get("Description", ""),
+                "FontColor": attr.get("FontColor", "#000000"),
+                "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
+                "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
+            }
+
 # 🌐 Fonction générique JSON
 def fetch_json(url: str, headers: dict, cache: dict = None, key: str = None):
     """Récupère du JSON depuis une URL avec gestion d'erreurs et cache optionnel."""
@@ -132,12 +144,6 @@ def transform_data(sessions):
         
         attributes = session.get("Attributes", [])
 
-        enriched_attributes = [
-            attribute_cache.get(attr_id)
-            for attr_id in attributes
-            if attr_id in attribute_cache
-        ]
-
         try:
             dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
             jour = dt.strftime("%Y-%m-%d")
@@ -169,7 +175,16 @@ def transform_data(sessions):
                 "content": film_details.get("Content", ""),
                 "horaire": {}
             }
-            
+
+        # Enrichissement temporaire
+        enriched_attributes = [
+            attribute_cache.get(attr_id)
+            for attr_id in attributes
+            if attr_id in attribute_cache
+        ]
+        # Mise à jour de la légende globale
+        update_used_attributes(enriched_attributes, used_attributes)
+
         attributs = sorted(
             [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr and attr.get("ShortName")],
             key=str.lower
@@ -226,19 +241,9 @@ def transform_data(sessions):
         sans_accents(film.get("titre", "").lower())
     ))
 
-    for attr in enriched_attributes:
-        if attr and "Id" in attr and attr["Id"] not in used_attributes:
-            used_attributes[attr["Id"]] = {
-                "ShortName": attr.get("ShortName", ""),
-                "Description": attr.get("Description", ""),
-                "FontColor": attr.get("FontColor", "#000000"),
-                "BackgroundColor": attr.get("BackgroundColor", "#ffffff"),
-                "ShowOnSessionsWithNoComps": attr.get("ShowOnSessionsWithNoComps", False)
-            }
-
     # Tri de la légende, Liste complète des attributs, sans filtrage
     legend_list = sorted(
-      used_attributes.values(),
+        used_attributes.values(),
         key=lambda attr: attr["ShortName"].lower()
     )
 
