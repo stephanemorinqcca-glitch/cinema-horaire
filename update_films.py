@@ -308,7 +308,7 @@ def main():
         print("ℹ️ Aucun changement détecté, fichiers inchangés.")
 
     # ⏱️ Calcule et affiche le temps d'exécution écoulé
-    print("Temps d'exécution : %.4f secondes" % (time.time() - start_time))
+    print("⏱️Temps d'exécution : %.4f secondes" % (time.time() - start_time))
 
 if __name__ == "__main__":
     main()
