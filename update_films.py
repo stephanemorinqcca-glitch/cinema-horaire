@@ -15,6 +15,7 @@ TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
 SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
+SCREEN_API_URL = "https://api.veezi.com/v1/screen/"
 HEADERS = {
     "VeeziAccessToken": TOKEN,
     "Accept": "application/json",
@@ -54,6 +55,11 @@ def fetch_attribute_details(aid: str, cache: dict):
 def fetch_sessions():
     return fetch_json(SESSION_API_URL, headers=HEADERS) or []
 
+# 🎦 Détails des salles
+def fetch_all_screens():
+    url = SCREEN_API_URL
+    return fetch_json(url, headers=HEADERS)
+
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -65,6 +71,9 @@ def transform_data(sessions):
     now = datetime.now(tz)
     threshold = now + timedelta(minutes=0)
 
+    screens = fetch_all_screens()
+    screen_map = {screen["Id"]: screen for screen in screens}
+
     for session in sessions:
         session_id = session.get("Id")
         showtime_str = session.get("FeatureStartTime", "")
@@ -74,7 +83,8 @@ def transform_data(sessions):
         show_type = session.get("ShowType", "")
 
         screen_id = session.get("ScreenId", None)
-        salle = screen_id // 2 if isinstance(screen_id, int) else None
+        screen_details = screen_map.get(screen_id, {})
+        salle = screen_details.get("ScreenNumber", "Salle inconnue")
         
         seats_available = session.get("SeatsAvailable", None)
         
