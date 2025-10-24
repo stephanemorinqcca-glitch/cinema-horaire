@@ -506,7 +506,7 @@
 						
 						// ✅ Vérifier si le film n'est pas encore sorti et qu'aucun film n'est aussi avant la date de sortie
 						//if (aujourdHuiStr < film.OpeningDate && data._meta?.next_show_date < film.OpeningDate) {
-						if (data._meta?.next_show_date && data._meta.next_show_date < film.OpeningDate) {
+						if (data._meta?.next_show_date != null && data._meta.next_show_date < film.OpeningDate) {
     						const bande = document.createElement("div");
     						bande.className = "jour-label bientot-affiche-banner";
     						bande.innerHTML = `
