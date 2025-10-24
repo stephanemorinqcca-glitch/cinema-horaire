@@ -207,12 +207,12 @@ def transform_data(sessions):
     legend_list.sort(key=lambda attr: attr["ShortName"].lower())
 
     print(f"⚠️ Séances ignorées : {ignored_count}")
-
+    
     return {
         "cinema": "Cinéma Centre-Ville",
         "legende": legend_list,
         "_meta": {
-            "first_show_date": films_list[0].get("first_show_date") if films_list else None,
+            "first_show_date": datetime.fromtimestamp(films_list[0]["first_show"]).strftime("%Y-%m-%d") if films_list and films_list[0].get("first_show") else None,    
         },           
         "films": films_list
     }
