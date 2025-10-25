@@ -160,21 +160,14 @@ def transform_data(sessions):
 
         film_id = session.get("FilmId")
         attributes = session.get("Attributes", [])
-        
-        #title = session.get("Title")
-        #rating = session.get("Rating", "")
-        #duration = session.get("Duration", "")
-        #genres = session.get("Genres", [])
-        #poster = session.get("FilmImageUrl", "")
-        #posterthumbnail = session.get("FilmPosterThumbnailUrl", "")
-        
-        try:
-            dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
-            jour = dt.strftime("%Y-%m-%d")
-            heure = dt.strftime("%H:%M")
-        except Exception as e:
-            print(f"Erreur de format de date pour {showtime_str}: {e}")
-            continue
+                
+        #try:
+        #    dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
+        #    jour = dt.strftime("%Y-%m-%d")
+        #    heure = dt.strftime("%H:%M")
+        #except Exception as e:
+        #    print(f"Erreur de format de date pour {showtime_str}: {e}")
+        #    continue
 
         # Ajouter les détails du film si on ne l'a pas déjà
         if film_id not in films_dict:
