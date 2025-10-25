@@ -212,6 +212,7 @@ def transform_data(sessions):
             "placesDisponibles": seats_available
         })
 
+    # Maintenant on a toutes les séances, donc on va trier le tout pour l'horaire en ligne
     # Définition du fuseau horaire local (Toronto) pour convertir correctement les dates/heures des séances
     tz = pytz.timezone('America/Toronto')
 
@@ -243,7 +244,7 @@ def transform_data(sessions):
         )
     )
 
-    # Tri de la légende, Liste complète des attributs, sans filtrage
+    # Tri des attributs de la légende
     legend_list = sorted(
         used_attributes.values(),
         key=lambda attr: attr["ShortName"].lower()
