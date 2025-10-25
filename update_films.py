@@ -22,6 +22,27 @@ HEADERS = {
     "Content-Type": "application/json"
 }
 
+def enrich_film_dict(film_id, film_details, fallback_session):
+    raw_date_opening = film_details.get("OpeningDate", "")
+    opening_date = raw_date_opening.split("T")[0] if "T" in raw_date_opening else raw_date_opening
+
+    return {
+        "id": film_id,
+        "titre": film_details.get("Title", fallback_session.get("Title")),
+        "OpeningDate": opening_date,
+        "synopsis": film_details.get("Synopsis", ""),
+        "classification": film_details.get("Rating", fallback_session.get("Rating", "")),
+        "duree": film_details.get("Duration", fallback_session.get("Duration", "")),
+        "genre": film_details.get("Genre", fallback_session.get("Genres", [])),
+        "format": film_details.get("Format", fallback_session.get("FilmFormat", "")),
+        "affiche": film_details.get("FilmPosterUrl", fallback_session.get("FilmImageUrl", "")),
+        "thumbnail": film_details.get("FilmPosterThumbnailUrl", fallback_session.get("FilmPosterThumbnailUrl", "")),
+        "banniere": film_details.get("BackdropImageUrl", ""),
+        "bande_annonce": film_details.get("FilmTrailerUrl", ""),
+        "content": film_details.get("Content", ""),
+        "horaire": {}
+    }
+
 def update_used_attributes(enriched_attributes: list, used_attributes: dict) -> None:
     """Ajoute les attributs enrichis à used_attributes s'ils ne sont pas déjà présents."""
     for attr in enriched_attributes:
@@ -135,15 +156,15 @@ def transform_data(sessions):
             continue
 
         film_id = session.get("FilmId")
-        title = session.get("Title")
-        rating = session.get("Rating", "")
-        duration = session.get("Duration", "")
-        genres = session.get("Genres", [])
-        poster = session.get("FilmImageUrl", "")
-        posterthumbnail = session.get("FilmPosterThumbnailUrl", "")
-        
         attributes = session.get("Attributes", [])
-
+        
+        #title = session.get("Title")
+        #rating = session.get("Rating", "")
+        #duration = session.get("Duration", "")
+        #genres = session.get("Genres", [])
+        #poster = session.get("FilmImageUrl", "")
+        #posterthumbnail = session.get("FilmPosterThumbnailUrl", "")
+        
         try:
             dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
             jour = dt.strftime("%Y-%m-%d")
@@ -152,43 +173,29 @@ def transform_data(sessions):
             print(f"Erreur de format de date pour {showtime_str}: {e}")
             continue
 
+        # Ajouter les détails du film si on ne l'a pas déjà
         if film_id not in films_dict:
             film_details = fetch_film_details(film_id)
+            films_dict[film_id] = enrich_film_dict(film_id, film_details, session)
 
-            # Récupération et formatage de la date d'ouverture
-            raw_date_opening = film_details.get("OpeningDate", "")
-            opening_date = raw_date_opening.split("T")[0] if "T" in raw_date_opening else raw_date_opening
-            
-            films_dict[film_id] = {
-                "id": film_id,
-                "titre": film_details.get("Title", title),
-                "OpeningDate": opening_date,
-                "synopsis": film_details.get("Synopsis", ""),
-                "classification": film_details.get("Rating", rating),
-                "duree": film_details.get("Duration", duration),
-                "genre": film_details.get("Genre", genres),
-                "format": film_details.get("Format", ""),
-                "affiche": film_details.get("FilmPosterUrl", poster),
-                "thumbnail": film_details.get("FilmPosterThumbnailUrl", posterthumbnail),
-                "banniere": film_details.get("BackdropImageUrl", ""),
-                "bande_annonce": film_details.get("FilmTrailerUrl", ""),
-                "content": film_details.get("Content", ""),
-                "horaire": {}
-            }
-
-        # Enrichissement temporaire
-        enriched_attributes = [
-            attribute_cache.get(attr_id)
-            for attr_id in attributes
-            if attr_id in attribute_cache
-        ]
-        # Mise à jour de la légende globale
-        update_used_attributes(enriched_attributes, used_attributes)
+        # ✅ Ne rien faire si pas d'attributs
+        if attributes:
+            # Enrichissement temporaire
+            enriched_attributes = [
+                attribute_cache.get(attr_id)
+                for attr_id in attributes
+                if attr_id in attribute_cache
+            ]
 
         attributs = sorted(
             [attr.get("ShortName", "").strip() for attr in enriched_attributes if attr and attr.get("ShortName")],
             key=str.lower
         )
+
+        # ✅ Ne rien faire si aucun attribut utile
+        if attributs:
+            # Mise à jour de la légende globale
+            update_used_attributes(enriched_attributes, used_attributes)
 
         # Injecter "3D" si le format du film est "3D Digital"
         if films_dict[film_id].get("format", "").strip().lower() == "3d digital":
