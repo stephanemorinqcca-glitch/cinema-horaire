@@ -138,6 +138,8 @@ def transform_data(sessions):
         
         try:
             session_time = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
+            jour = session_time.strftime("%Y-%m-%d")
+            heure = session_time.strftime("%H:%M")
             session_time = tz.localize(session_time)
         except Exception as e:
             print(f"Erreur parsing heure: {showtime_str} → {e}")
@@ -198,13 +200,13 @@ def transform_data(sessions):
         if tickets_sold_out or (seats_available and seats_available < 11):
             attributs.insert(0, "COMPLET")
 
-        try:
-            dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
-            jour = dt.strftime("%Y-%m-%d")
-            heure = dt.strftime("%H:%M")
-        except Exception as e:
-            print(f"Erreur de format de date pour {showtime_str}: {e}")
-            continue
+        #try:
+        #    dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
+        #    jour = dt.strftime("%Y-%m-%d")
+        #    heure = dt.strftime("%H:%M")
+        #except Exception as e:
+        #    print(f"Erreur de format de date pour {showtime_str}: {e}")
+        #    continue
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
             "session_id": session_id,
