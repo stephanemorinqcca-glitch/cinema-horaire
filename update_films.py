@@ -103,6 +103,9 @@ def fetch_all_screens():
     url = SCREEN_API_URL
     return fetch_json(url, headers=HEADERS)
 
+def sans_accents(texte):
+    return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
+
 # 🧠 Transforme les données en JSON enrichi
 def transform_data(sessions):
     films_dict = {}
@@ -209,35 +212,36 @@ def transform_data(sessions):
             "placesDisponibles": seats_available
         })
 
-    # Tri des films à l'affiche par jours/heures
+    # Définition du fuseau horaire local (Toronto) pour convertir correctement les dates/heures des séances
+    tz = pytz.timezone('America/Toronto')
+
     for film in films_dict.values():
-        # Tri des jours (dates)
-        film["horaire"] = dict(sorted(film["horaire"].items(), key=lambda x: x[0]))
+        # Tri des jours et des séances
+        film["horaire"] = {
+            jour: sorted(seances, key=lambda s: s["heure"])
+            for jour, seances in sorted(film["horaire"].items())
+        }
 
-        # Tri des séances par heure pour chaque jour
-        for jour in film["horaire"]:
-            film["horaire"][jour].sort(key=lambda s: s["heure"])
+        # Calcul des premières/dernières séances
+        toutes_les_dates = [
+            tz.localize(datetime.strptime(f"{jour} {s['heure']}", "%Y-%m-%d %H:%M"))
+            for jour, seances in film["horaire"].items()
+            for s in seances
+        ]
+        if toutes_les_dates:
+            film["first_show"] = int(min(toutes_les_dates).timestamp())
+            film["last_show"] = int(max(toutes_les_dates).timestamp())
+        else:
+            film["first_show"] = film["last_show"] = None
 
-        # Calcul de la première et dernière séance
-        toutes_les_dates = []
-        for jour, seances in film["horaire"].items():
-            for s in seances:
-                dt = datetime.strptime(f"{jour} {s['heure']}", "%Y-%m-%d %H:%M")
-                tz = pytz.timezone('America/Toronto')
-                toutes_les_dates.append(tz.localize(dt))
-        film["first_show"] = int(min(toutes_les_dates).timestamp()) if toutes_les_dates else None
-        film["last_show"] = int(max(toutes_les_dates).timestamp()) if toutes_les_dates else None
-    
-    # Tri des films prochaine séance, puis par titre (sans accent)
-    def sans_accents(texte):
-        return unicodedata.normalize('NFKD', texte).encode('ASCII', 'ignore').decode('ASCII')
-
-    films_list = list(films_dict.values())
-    
-    films_list.sort(key=lambda film: (
-        film.get("first_show", 0),
-        sans_accents(film.get("titre", "").lower())
-    ))
+    # Tri final des films
+    films_list = sorted(
+        films_dict.values(),
+        key=lambda film: (
+            film.get("first_show", 0),
+            sans_accents(film.get("titre", "").lower())
+        )
+    )
 
     # Tri de la légende, Liste complète des attributs, sans filtrage
     legend_list = sorted(
