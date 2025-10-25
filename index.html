@@ -62,6 +62,35 @@
 </div>
 </main>
 <script>
+			// ✅ Définition unique des mots-clés
+			const motsCles = ["DAJE", "Déconseillé aux jeunes enfants", "Erostisme", "EDC", "Exempte de classement", "Violence", "Horreur", "Langage Vulgaire", "Pour Enfants", "Sexualité Explicite"];
+			const ratingDetails = {
+    			"13+": {
+        			description: "12 ans et moins doit être accompagné par un adulte",
+        			color: "#FFFBE0" // jaune très très pâle
+    			},
+    			"16+": {
+        			description: "Le film peut être vu uniquement par des personnes de 16 ans ou plus",
+        			color: "#EEF7FF" // bleu très très pâle
+    			},
+    			"18+": {
+        			description: "Le film peut être vu uniquement par des personnes de 18 ans ou plus",
+        			color: "#FFECEC" // rouge très très pâle
+    			},
+    			"Pour Enfants": {
+        			description: "Le film convient aux jeunes enfants, particulièrement à ceux d’âge préscolaire.",
+        			color: "#F4FFF0" // vert très très pâle
+    			},
+    			"DAJE": {
+        			description: "Le film peut être vu par des personnes de tout âge.\n  Des passages peuvent perturber les enfants de moins de 8 ans.",
+        			color: "#F4FFF0" // même vert très très pâle
+    			},
+    			"Déconseillé aux jeunes enfants": {
+        			description: "Le film peut être vu par des personnes de tout âge.\n  Des passages peuvent perturber les enfants de moins de 8 ans.",
+        			color: "#F4FFF0" // même vert très très pâle
+    			}
+			};
+	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film, motsCles) {
     			if (!film || typeof film !== "object") {
@@ -200,19 +229,6 @@
   				return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 			}
 			
-			// ✅ Définition unique des mots-clés
-			let ratingDetails = {};
-			let motsCles = [];
-			fetch('classification/classification.json')
-  				.then(response => response.json())
-  				.then(data => {
-    				ratingDetails = data.ratings;
-    				motsCles = data.keywords;
-  				})
-  				.catch(error => {
-    				console.error("Erreur lors du chargement du fichier classification.json :", error);
-  				});
-	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
 				.then((response) => response.json())
