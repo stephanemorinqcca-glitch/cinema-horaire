@@ -1,0 +1,40 @@
+{
+  "ratings": {
+    "13+": {
+      "description": "12 ans et moins doit être accompagné par un adulte",
+      "color": "#FFFBE0"
+    },
+    "16+": {
+      "description": "Le film peut être vu uniquement par des personnes de 16 ans ou plus",
+      "color": "#EEF7FF"
+    },
+    "18+": {
+      "description": "Le film peut être vu uniquement par des personnes de 18 ans ou plus",
+      "color": "#FFECEC"
+    },
+    "Pour Enfants": {
+      "description": "Le film convient aux jeunes enfants, particulièrement à ceux d’âge préscolaire.",
+      "color": "#F4FFF0"
+    },
+    "DAJE": {
+      "description": "Le film peut être vu par des personnes de tout âge. Des passages peuvent perturber les enfants de moins de 8 ans.",
+      "color": "#F4FFF0"
+    },
+    "Déconseillé aux jeunes enfants": {
+      "description": "Le film peut être vu par des personnes de tout âge. Des passages peuvent perturber les enfants de moins de 8 ans.",
+      "color": "#F4FFF0"
+    }
+  },
+  "keywords": [
+    "DAJE",
+    "Déconseillé aux jeunes enfants",
+    "Erostisme",
+    "EDC",
+    "Exempté de classement",
+    "Violence",
+    "Horreur",
+    "Langage Vulgaire",
+    "Pour Enfants",
+    "Sexualité Explicite"
+  ]
+}
