@@ -120,6 +120,9 @@ def transform_data(sessions):
     attribute_cache = fetch_all_attributes()
 
     for session in sessions:
+        # Toujours initialiser
+        attributs = []
+        
         session_id = session.get("Id")
         showtime_str = session.get("FeatureStartTime", "")
         sales_via = session.get("SalesVia", [])
