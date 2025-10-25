@@ -68,8 +68,8 @@
 			fetch('classification/classification.json')
   				.then(response => response.json())
   				.then(data => {
-    				const ratingDetails = data.ratings;
-    				const motsCles = data.keywords;
+    				ratingDetails = data.ratings;
+    				motsCles = data.keywords;
   				})
   				.catch(error => {
     				console.error("Erreur lors du chargement du fichier classification.json :", error);
