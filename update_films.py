@@ -161,14 +161,6 @@ def transform_data(sessions):
         film_id = session.get("FilmId")
         attributes = session.get("Attributes", [])
                 
-        #try:
-        #    dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
-        #    jour = dt.strftime("%Y-%m-%d")
-        #    heure = dt.strftime("%H:%M")
-        #except Exception as e:
-        #    print(f"Erreur de format de date pour {showtime_str}: {e}")
-        #    continue
-
         # Ajouter les détails du film si on ne l'a pas déjà
         if film_id not in films_dict:
             film_details = fetch_film_details(film_id)
@@ -205,6 +197,14 @@ def transform_data(sessions):
         # print(f"🎟️ Places disponibles pour la session {session_id} : {seats_available}")
         if tickets_sold_out or (seats_available and seats_available < 11):
             attributs.insert(0, "COMPLET")
+
+        try:
+            dt = datetime.strptime(showtime_str, "%Y-%m-%dT%H:%M:%S")
+            jour = dt.strftime("%Y-%m-%d")
+            heure = dt.strftime("%H:%M")
+        except Exception as e:
+            print(f"Erreur de format de date pour {showtime_str}: {e}")
+            continue
         
         films_dict[film_id]["horaire"].setdefault(jour, []).append({
             "session_id": session_id,
