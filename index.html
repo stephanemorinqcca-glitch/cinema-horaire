@@ -62,19 +62,6 @@
 </div>
 </main>
 <script>
-			// ✅ Définition unique des mots-clés
-			let ratingDetails = {};
-			let motsCles = [];
-			fetch('classification/classification.json')
-  				.then(response => response.json())
-  				.then(data => {
-    				ratingDetails = data.ratings;
-    				motsCles = data.keywords;
-  				})
-  				.catch(error => {
-    				console.error("Erreur lors du chargement du fichier classification.json :", error);
-  				});
-	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film, motsCles) {
     			if (!film || typeof film !== "object") {
@@ -212,6 +199,19 @@
 			function estMobile() {
   				return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 			}
+			
+			// ✅ Définition unique des mots-clés
+			let ratingDetails = {};
+			let motsCles = [];
+			fetch('classification/classification.json')
+  				.then(response => response.json())
+  				.then(data => {
+    				ratingDetails = data.ratings;
+    				motsCles = data.keywords;
+  				})
+  				.catch(error => {
+    				console.error("Erreur lors du chargement du fichier classification.json :", error);
+  				});
 	
 			// ✅ Chargement des données
 			fetch("films.json", { cache: "no-store" })
