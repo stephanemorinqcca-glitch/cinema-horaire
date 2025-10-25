@@ -212,30 +212,39 @@ def transform_data(sessions):
             "placesDisponibles": seats_available
         })
 
-    # Maintenant on a toutes les séances, donc on va trier le tout pour l'horaire en ligne
-    # Définition du fuseau horaire local (Toronto) pour convertir correctement les dates/heures des séances
+    # Maintenant que nous avons collecté toutes les séances,
+    # on va organiser l'horaire de manière cohérente pour l'affichage en ligne.
+
+    # Étape 1 : définir le fuseau horaire local (Toronto),
+    # afin que toutes les dates/heures soient interprétées correctement
+    # et que les calculs de timestamps soient cohérents.
     tz = pytz.timezone('America/Toronto')
 
     for film in films_dict.values():
-        # Tri des jours et des séances
+        # Étape 2 : trier les jours et, pour chaque jour, trier les séances par heure
         film["horaire"] = {
             jour: sorted(seances, key=lambda s: s["heure"])
             for jour, seances in sorted(film["horaire"].items())
         }
 
-        # Calcul des premières/dernières séances
+        # Étape 3 : construire la liste de toutes les séances (datetime localisées)
+        # pour pouvoir déterminer la toute première et la toute dernière projection
         toutes_les_dates = [
             tz.localize(datetime.strptime(f"{jour} {s['heure']}", "%Y-%m-%d %H:%M"))
             for jour, seances in film["horaire"].items()
             for s in seances
         ]
+
+        # Étape 4 : enregistrer timestanmp de la première et dernière séance
         if toutes_les_dates:
             film["first_show"] = int(min(toutes_les_dates).timestamp())
             film["last_show"] = int(max(toutes_les_dates).timestamp())
         else:
             film["first_show"] = film["last_show"] = None
 
-    # Tri final des films
+    # Étape 5 : trier la liste finale des films,
+    # d'abord par la date de leur première séance,
+    # puis par leur titre (sans accents)
     films_list = sorted(
         films_dict.values(),
         key=lambda film: (
