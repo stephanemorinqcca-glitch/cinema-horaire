@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-10-25",
+    "next_show_date": "2025-10-26",
     "next_show_time": "12:45"
   },
   "films": [
@@ -43,24 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
       "content": "DAJE | Chronique biographique",
       "horaire": {
-        "2025-10-25": [
-          {
-            "session_id": 30739,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30707,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-10-26": [
           {
             "session_id": 30741,
@@ -98,7 +80,7 @@
           }
         ]
       },
-      "first_show": 1761410700,
+      "first_show": 1761497100,
       "last_show": 1761864900
     },
     {
@@ -116,22 +98,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
       "content": "Drame biographique",
       "horaire": {
-        "2025-10-25": [
-          {
-            "session_id": 30820,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30803,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-10-26": [
           {
             "session_id": 30821,
@@ -228,7 +194,7 @@
           }
         ]
       },
-      "first_show": 1761411300,
+      "first_show": 1761497700,
       "last_show": 1762473300
     },
     {
@@ -246,36 +212,16 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-25": [
+        "2025-10-26": [
           {
-            "session_id": 30700,
+            "session_id": 30713,
             "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30708,
-            "heure": "18:55",
             "attributs": [
               "ATMOS®",
               "DLX"
             ],
             "salle": "4",
             "placesDisponibles": 75
-          }
-        ],
-        "2025-10-26": [
-          {
-            "session_id": 30712,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
           },
           {
             "session_id": 30720,
@@ -393,7 +339,7 @@
           }
         ]
       },
-      "first_show": 1761411300,
+      "first_show": 1761497700,
       "last_show": 1762473300
     },
     {
@@ -411,22 +357,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-10-25": [
-          {
-            "session_id": 30738,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 30808,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-10-26": [
           {
             "session_id": 30740,
@@ -460,10 +390,69 @@
             "salle": "2",
             "placesDisponibles": 91
           }
+        ],
+        "2025-10-31": [
+          {
+            "session_id": 30823,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-01": [
+          {
+            "session_id": 30824,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30825,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-02": [
+          {
+            "session_id": 30826,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30827,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-05": [
+          {
+            "session_id": 30829,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-06": [
+          {
+            "session_id": 30831,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
         ]
       },
-      "first_show": 1761411900,
-      "last_show": 1761866100
+      "first_show": 1761498300,
+      "last_show": 1762474500
     },
     {
       "id": "ST00001772",
@@ -480,33 +469,15 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-10-25": [
-          {
-            "session_id": 30701,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30709,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-10-26": [
           {
-            "session_id": 30713,
+            "session_id": 30712,
             "heure": "13:05",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
             "session_id": 30719,
@@ -614,7 +585,7 @@
           }
         ]
       },
-      "first_show": 1761411900,
+      "first_show": 1761498300,
       "last_show": 1762473900
     },
     {
@@ -632,22 +603,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
       "content": "Comédie fantaisiste",
       "horaire": {
-        "2025-10-25": [
-          {
-            "session_id": 30705,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30711,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-10-26": [
           {
             "session_id": 30717,
@@ -685,7 +640,7 @@
           }
         ]
       },
-      "first_show": 1761412500,
+      "first_show": 1761498900,
       "last_show": 1761866100
     }
   ]
