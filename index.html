@@ -517,6 +517,8 @@
 						seancesDiv.className = "seances";
 						const seancesParDate = {};
 						
+						let premiereDateStr = null;
+						
 						Object.entries(film.horaire).forEach(([dateStr, seances]) => {
   							// Ignorer les jours passés
  							if (dateStr < aujourdHuiStr) return;
@@ -531,9 +533,29 @@
 
   							if (seancesFiltrees.length > 0) {
     							seancesParDate[dateStr] = seancesFiltrees;
+								
+							    // Enregistrer la première date valide si elle n’est pas encore définie
+    							if (!premiereDateStr) {
+      								premiereDateStr = dateStr;
+    							}
   							}
 						});
-						
+
+						// Vérifier si la première date de séance n’est pas aujourd’hui
+						if (premiereDateStr && premiereDateStr !== aujourdHuiStr) {
+  							const premiereDate = new Date(premiereDateStr);
+  							const dateOuverture = new Date(film.OpeningDate);
+
+  							if (premiereDate > aujourdHui && premiereDate < dateOuverture) {
+    							const bandeProchaine = document.createElement("div");
+    							bandeProchaine.className = "jour-label prochaine-representation-banner";
+    							bandeProchaine.innerHTML = `
+      								<span class="banner-text">Prochaine représentation</span>
+    							`;
+    							details.appendChild(bandeProchaine);
+  							}
+						}
+
 						// --- Affichage ---
 						Object.entries(seancesParDate).forEach(([dateStr, seances]) => {
   							const dateObj = new Date(dateStr + "T00:00:00");
