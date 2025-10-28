@@ -380,6 +380,19 @@ h1 {
   max-width: max-content;  
 }
 
+.prochaine-representation-banner {
+  background-color: #d0e7ff; /* bleu pâle */	
+  border-left: 5px solid #004080;  /* bleu foncé */
+  border-right: 5px solid #004080; /* bleu foncé */
+  color: #000; /* texte bleu foncé */
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  white-space: nowrap;                /* empêche le retour à la ligne */
+  margin: 10px 0 0 0;                 /* top: 10px, bottom: 0, left/right: 0 */
+  max-width: max-content;  
+}
+
 .banner-text {
   display: inline-block;
   vertical-align: middle;
@@ -390,6 +403,7 @@ h1 {
   font-size: 0.9em;
   color: #666;
 }
+
 
 
 
