@@ -542,18 +542,19 @@
   							const jour = dateObj.toLocaleDateString("fr-CA", { weekday: "long" });
   							const jourNum = dateObj.toLocaleDateString("fr-CA", { day: "numeric" });
   							const mois = dateObj.toLocaleDateString("fr-CA", { month: "long" });
-
-							// Vérifier si la première date de séance n’est pas aujourd’hui
-							if (!nextshow && dateStr > aujourdHuiStr && dateStr > film.OpeningDate) {
+							
+  							// Vérifier si la bande "Prochaine représentation" doit être affichée une seule fois
+							if (!nextshow && dateStr > aujourdHuiStr && aujourdHuiStr > film.OpeningDate) {
     							const bandeProchaine = document.createElement("div");
     							bandeProchaine.className = "jour-label prochaine-representation-banner";
     							bandeProchaine.innerHTML = `
 	      							<span class="banner-text">Prochaine représentation</span>
     							`;
     							details.appendChild(bandeProchaine);
-								nextshow = true; // ✅ on empêche les affichages suivants
-							}
 
+							}
+							
+							nextshow = true; // ✅ on empêche les affichages suivants
   							const jourLabel = document.createElement("div");
   							jourLabel.className = "jour-label";
   							if (dateStr === aujourdHuiStr) {
