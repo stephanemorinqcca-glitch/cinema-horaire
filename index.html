@@ -36,7 +36,8 @@
 <!-- Manifest PWA -->
 <link rel="manifest" href="favicons/site.webmanifest.json">
 <!-- Couleurs pour l'intégration mobile -->
-<meta content="#000000" name="theme-color"/>
+<!-- <meta content="#000000" name="theme-color"/> -->
+<meta name="theme-color" content="#000000" />
 <meta content="#ffffff" name="background-color"/>
 <title>Horaire des films au Cinéma centre-ville | St-Georges</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
@@ -56,7 +57,14 @@
 	<div class="modal-content">
 	<span class="close" id="closeModal">×</span>
 	<div class="video-wrapper">
-		<iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" id="trailerFrame"></iframe>
+		<iframe
+		  allow="autoplay; encrypted-media"
+  		  allowfullscreen
+  		  frameborder="0"
+  		  id="trailerFrame"
+  		  title="Bande-annonce du film"
+		></iframe>
+		<!-- <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" id="trailerFrame">title="Bande-annonce du film"</iframe> -->
 		</div>
 	</div>
 </div>
