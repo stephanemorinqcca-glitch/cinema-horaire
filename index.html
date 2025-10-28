@@ -542,18 +542,13 @@
 						});
 
 						// Vérifier si la première date de séance n’est pas aujourd’hui
-						if (premiereDateStr && premiereDateStr !== aujourdHuiStr) {
-  							const premiereDate = new Date(premiereDateStr);
-  							const dateOuverture = new Date(film.OpeningDate);
-
-  							if (premiereDate > aujourdHui && premiereDate < dateOuverture) {
-    							const bandeProchaine = document.createElement("div");
-    							bandeProchaine.className = "jour-label prochaine-representation-banner";
-    							bandeProchaine.innerHTML = `
-      								<span class="banner-text">Prochaine représentation</span>
-    							`;
-    							details.appendChild(bandeProchaine);
-  							}
+						if (premiereDateStr && premiereDateStr > aujourdHuiStr && premiereDate < film.OpeningDate) {
+    						const bandeProchaine = document.createElement("div");
+    						bandeProchaine.className = "jour-label prochaine-representation-banner";
+    						bandeProchaine.innerHTML = `
+      							<span class="banner-text">Prochaine représentation</span>
+    						`;
+    						details.appendChild(bandeProchaine);
 						}
 
 						// --- Affichage ---
