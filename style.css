@@ -381,7 +381,7 @@ h1 {
 }
 
 .prochaine-representation-banner {
-  background-color: #d0e7ff; /* bleu pâle */	
+  background-color: #edf6ff; /* bleu pâle */	
   border-left: 5px solid #004080;  /* bleu foncé */
   border-right: 5px solid #004080; /* bleu foncé */
   color: #000; /* texte bleu foncé */
@@ -403,6 +403,7 @@ h1 {
   font-size: 0.9em;
   color: #666;
 }
+
 
 
 
