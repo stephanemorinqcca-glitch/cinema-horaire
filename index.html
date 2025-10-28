@@ -544,7 +544,7 @@
   							const mois = dateObj.toLocaleDateString("fr-CA", { month: "long" });
 
 							// Vérifier si la première date de séance n’est pas aujourd’hui
-							if (!nextshow && dateStr > aujourdHuiStr && dateStr < film.OpeningDate) {
+							if (!nextshow && dateStr > aujourdHuiStr && dateStr > film.OpeningDate) {
     							const bandeProchaine = document.createElement("div");
     							bandeProchaine.className = "jour-label prochaine-representation-banner";
     							bandeProchaine.innerHTML = `
