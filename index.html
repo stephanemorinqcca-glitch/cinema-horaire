@@ -545,14 +545,19 @@
 							
   							// Vérifier si la bande "Prochaine représentation" doit être affichée une seule fois
 							if (!nextshow) {
-								if (dateStr > aujourdHuiStr && aujourdHuiStr >= film.OpeningDate) {
+								if (dateStr > aujourdHuiStr && data._meta?.next_show_date >= film.OpeningDate) {
     								const bandeProchaine = document.createElement("div");
     								bandeProchaine.className = "jour-label prochaine-representation-banner";
-    								bandeProchaine.innerHTML = `
-	      								<span class="banner-text">Prochaine représentation</span>
-    								`;
-    								details.appendChild(bandeProchaine);
-								}
+
+								    let libelle = "Prochaine représentation";
+      								if (data._meta?.next_show_date === film.OpeningDate) {
+        								libelle = "Première représentation";
+      								}
+      								bandeProchaine.innerHTML = `
+        								<span class="banner-text">${libelle}</span>
+      								`;
+      								details.appendChild(bandeProchaine);
+    							}
 								nextshow = true; // ✅ on empêche les affichages suivants
 							}
 							
