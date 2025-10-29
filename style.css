@@ -180,7 +180,7 @@ h1 {
   text-align: justify;
   overflow: visible;
   max-height: none;
-  margin-bottom: 0px;
+  margin: 10px 0 0 0;
 }
 
 .synopsis-text strong {
@@ -405,6 +405,7 @@ h1 {
   font-size: 0.9em;
   color: #666;
 }
+
 
 
 
