@@ -102,25 +102,25 @@
 			function styliserTexte(texte) {
     			if (typeof texte !== "string") return "";
 
-    		// Appliquer les styles combinés
-    		texte = texte.replace(/\*\*(.*?)\*(.*?)\*\*/gs, (_, styles, contenu) => {
-        		const styleList = styles.trim().split(/\s+/);
-        		let html = contenu;
+    			// Appliquer les styles combinés
+    			texte = texte.replace(/\*\*(.*?)\*(.*?)\*\*/gs, (_, styles, contenu) => {
+        			const styleList = styles.trim().split(/\s+/);
+        			let html = contenu;
 
-        		for (let i = styleList.length - 1; i >= 0; i--) {
-            		const style = styleList[i];
+        			for (let i = styleList.length - 1; i >= 0; i--) {
+            			const style = styleList[i];
 
-            		if (style === "b") html = `<strong>${html}</strong>`;
-            		else if (style === "i") html = `<em>${html}</em>`;
-            		else if (style === "u") html = `<u>${html}</u>`;
-            		else if (style.startsWith("c:")) {
-                		const color = style.slice(2);
-                		html = `<span style="color:${color}">${html}</span>`;
-            		}
-        		}
-
-        		return html;
-    		});
+            			if (style === "b") html = `<strong>${html}</strong>`;
+            			else if (style === "i") html = `<em>${html}</em>`;
+            			else if (style === "u") html = `<u>${html}</u>`;
+            			else if (style.startsWith("c:")) {
+                			const color = style.slice(2);
+                			html = `<span style="color:${color}">${html}</span>`;
+            			}
+        			}
+        			return html;
+    			});
+			}
 	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film, motsCles) {
