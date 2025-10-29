@@ -102,18 +102,21 @@
 			function styliserTexte(texte) {
     			if (typeof texte !== "string") return "";
 
-    			// 1. Styles combinés : **b i c:red*Texte**
-    			texte = texte.replace(/\*\*(.*?)\*(.*?)\*\*/gs, (_, styles, contenu) => {
+    			return texte.replace(/\*\*(.*?)\*(.*?)\*\*/gs, (_, styles, contenu) => {
         			const styleList = styles.trim().split(/\s+/);
         			let html = contenu;
 
+        			// Appliquer les styles dans l'ordre inverse pour une bonne imbrication
         			for (let i = styleList.length - 1; i >= 0; i--) {
             			const style = styleList[i];
 
-            			if (style === "b") html = `<strong>${html}</strong>`;
-            			else if (style === "i") html = `<em>${html}</em>`;
-            			else if (style === "u") html = `<u>${html}</u>`;
-            			else if (style.startsWith("c:")) {
+            			if (style === "b") {
+                			html = `<strong>${html}</strong>`;
+            			} else if (style === "i") {
+                			html = `<em>${html}</em>`;
+            			} else if (style === "u") {
+                			html = `<u>${html}</u>`;
+            			} else if (style.startsWith("c:")) {
                 			const color = style.slice(2);
                 			html = `<span style="color:${color}">${html}</span>`;
             			}
@@ -123,13 +126,6 @@
             			.replace(/</g, "&lt;")
             			.replace(/>/g, "&gt;");
     			});
-
-    			// 2. Gras simple : **Texte**
-    			texte = texte.replace(/\*\*(?!.*\*)(.*?)\*\*/gs, (_, contenu) => {
-        			return `<strong>${contenu.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</strong>`;
-    			});
-
-    			return texte;
 			}
 	
 			// ✅ Nettoyage du contenu
