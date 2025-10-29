@@ -467,14 +467,14 @@
   							const highlightsBefore = [];
   							const highlightsAfter = [];
 
-  							highlightMatches.forEach(match => {
-								const text = match[1].replace(/\n/g, "<br>");
-    							// const text = match[1];
-    							const index = match.index;
+							highlightMatches.forEach(match => {
+    							if (!match || !match[0]) return; // sécurité
+    							const text = match[0].replace(/\n/g, "<br>");
+    							const index = match.index ?? 0;
 
     							const highlight = document.createElement("p");
     							highlight.className = "synopsis-highlight";
-    							highlight.innerHTML = `<strong>${text}</strong>`;
+    							highlight.innerHTML = text;
 
     							if (index < originalText.length / 2) {
 	      							highlightsBefore.push(highlight);
