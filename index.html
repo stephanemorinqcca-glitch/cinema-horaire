@@ -102,21 +102,34 @@
 			function styliserTexte(texte) {
     			if (typeof texte !== "string") return "";
 
-    			return texte
-        			// Gras + italique
-        			.replace(/\*bi\*(.*?)\*\*/gs, "<strong><em>$1</em></strong>")
-        			// Gras
-        			.replace(/\*b\*(.*?)\*\*/gs, "<strong>$1</strong>")
-        			// Italique
-        			.replace(/\*i\*(.*?)\*\*/gs, "<em>$1</em>")
-        			// Souligné
-        			.replace(/\*u\*(.*?)\*\*/gs, "<u>$1</u>")		
-			        // Couleur + gras (bred = bold red)
-        			.replace(/\*color:bred\*(.*?)\*\*/gs, "<strong><span style='color:red'>$1</span></strong>")
-        			// Couleur personnalisée
-        			.replace(/\*color:([a-zA-Z0-9#]+)\*(.*?)\*\*/gs, "<span style='color:$1'>$2</span>")
-        			// Compatibilité avec **texte**
-        			.replace(/\*\*(.*?)\*\*/gs, "<strong>$1</strong>");
+    			// 1. Styles combinés : **b i c:red*Texte**
+    			texte = texte.replace(/\*\*(.*?)\*(.*?)\*\*/gs, (_, styles, contenu) => {
+        			const styleList = styles.trim().split(/\s+/);
+        			let html = contenu;
+
+        			for (let i = styleList.length - 1; i >= 0; i--) {
+            			const style = styleList[i];
+
+            			if (style === "b") html = `<strong>${html}</strong>`;
+            			else if (style === "i") html = `<em>${html}</em>`;
+            			else if (style === "u") html = `<u>${html}</u>`;
+            			else if (style.startsWith("c:")) {
+                			const color = style.slice(2);
+                			html = `<span style="color:${color}">${html}</span>`;
+            			}
+        			}
+
+        			return html
+            			.replace(/</g, "&lt;")
+            			.replace(/>/g, "&gt;");
+    			});
+
+    			// 2. Gras simple : **Texte**
+    			texte = texte.replace(/\*\*(?!.*\*)(.*?)\*\*/gs, (_, contenu) => {
+        			return `<strong>${contenu.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</strong>`;
+    			});
+
+    			return texte;
 			}
 	
 			// ✅ Nettoyage du contenu
