@@ -110,8 +110,10 @@
         			// Italique
         			.replace(/\*i\*(.*?)\*\*/gs, "<em>$1</em>")
         			// Souligné
-        			.replace(/\*u\*(.*?)\*\*/gs, "<u>$1</u>")
-        			// Couleur personnalisée : *color:rouge*texte**
+        			.replace(/\*u\*(.*?)\*\*/gs, "<u>$1</u>")		
+			        // Couleur + gras (bred = bold red)
+        			.replace(/\*color:bred\*(.*?)\*\*/gs, "<strong><span style='color:red'>$1</span></strong>")
+        			// Couleur personnalisée
         			.replace(/\*color:([a-zA-Z0-9#]+)\*(.*?)\*\*/gs, "<span style='color:$1'>$2</span>")
         			// Compatibilité avec **texte**
         			.replace(/\*\*(.*?)\*\*/gs, "<strong>$1</strong>");
