@@ -123,14 +123,17 @@
     			if (contenu === "") {
         			return contentArray.join(" | ");
     			}
-	
-			    // Remplacement des balises *b*texte*b* par <strong>texte</strong>
-    			const contenuAvecGras = contenu.replace(/\*b\*(.*?)\*b\*/g, "<strong>$1</strong>");
+
+   				 // Remplacement des balises personnalisées
+    			let contenuAvecStyles = contenu
+        			.replace(/\*bi\*(.*?)\*\*/g, "<strong><em>$1</em></strong>") // gras + italique
+        			.replace(/\*b\*(.*?)\*\*/g, "<strong>$1</strong>")            // gras
+        			.replace(/\*i\*(.*?)\*\*/g, "<em>$1</em>");                   // italique
 				
     			// Découpage par "|", nettoyage et filtrage
 				// console.log("Titre du film :", film.titre);
     			// const contenuFiltre = contenu
-				const contenuFiltre = contenuAvecGras
+				const contenuFiltre = contenuAvecStyle
         			.split("|")
         			.map((champ) => champ.trim())
         			.filter((champ) => champ !== "" && !motsInterdits.includes(champ));
