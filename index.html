@@ -98,6 +98,25 @@
     			}
 			};
 	
+			// ✅ Styliser le contenu du texte
+			function styliserTexte(texte) {
+    			if (typeof texte !== "string") return "";
+
+    			return texte
+        			// Gras + italique
+        			.replace(/\*bi\*(.*?)\*\*/gs, "<strong><em>$1</em></strong>")
+        			// Gras
+        			.replace(/\*b\*(.*?)\*\*/gs, "<strong>$1</strong>")
+        			// Italique
+        			.replace(/\*i\*(.*?)\*\*/gs, "<em>$1</em>")
+        			// Souligné
+        			.replace(/\*u\*(.*?)\*\*/gs, "<u>$1</u>")
+        			// Couleur personnalisée : *color:rouge*texte**
+        			.replace(/\*color:([a-zA-Z0-9#]+)\*(.*?)\*\*/gs, "<span style='color:$1'>$2</span>")
+        			// Compatibilité avec **texte**
+        			.replace(/\*\*(.*?)\*\*/gs, "<strong>$1</strong>");
+			}
+	
 			// ✅ Nettoyage du contenu
 			function cleanFilmContent(film, motsCles) {
     			if (!film || typeof film !== "object") {
@@ -125,10 +144,7 @@
     			}
 
    				 // Remplacement des balises personnalisées
-    			let contenuAvecStyles = contenu
-        			.replace(/\*bi\*(.*?)\*\*/g, "<strong><em>$1</em></strong>") // gras + italique
-        			.replace(/\*b\*(.*?)\*\*/g, "<strong>$1</strong>")            // gras
-        			.replace(/\*i\*(.*?)\*\*/g, "<em>$1</em>");                   // italique
+    			let contenuAvecStyles = styliserTexte(contenu);
 				
     			// Découpage par "|", nettoyage et filtrage
 				// console.log("Titre du film :", film.titre);
@@ -444,18 +460,8 @@
 
   							const originalText = film.synopsis;
 
-  							// Trouver tous les passages entre **...**
-							//const highlightMatches = [...originalText.matchAll(/\*\*(.*?)\*\*/gs)];
-
-  							// Créer une copie du texte sans les **...**
-  							//let cleanedSynopsis = originalText;
-
 							// Appliquer les remplacements dans l'ordre du plus spécifique au plus général
-							let styledText = originalText
-    							.replace(/\*bi\*(.*?)\*\*/gs, "<strong><em>$1</em></strong>")
-    							.replace(/\*b\*(.*?)\*\*/gs, "<strong>$1</strong>")
-    							.replace(/\*i\*(.*?)\*\*/gs, "<em>$1</em>")
-    							.replace(/\*\*(.*?)\*\*/gs, "<strong>$1</strong>"); // pour compatibilité avec **texte**
+							let styledText = styliserTexte(originalText);
 
 							// Trouver tous les passages stylisés (optionnel si tu veux les isoler)
 							const highlightMatches = [...styledText.matchAll(/<strong[^>]*>.*?<\/strong>|<em[^>]*>.*?<\/em>/gs)];
