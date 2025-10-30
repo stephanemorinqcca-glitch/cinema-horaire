@@ -21,10 +21,17 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VF",
+      "Description": "Version en Français",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
-    "next_show_date": "2025-10-29",
+    "next_show_date": "2025-10-30",
     "next_show_time": "18:55"
   },
   "films": [
@@ -43,15 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
       "content": "Drame biographique",
       "horaire": {
-        "2025-10-29": [
-          {
-            "session_id": 30727,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-10-30": [
           {
             "session_id": 30733,
@@ -123,7 +121,7 @@
           }
         ]
       },
-      "first_show": 1761778500,
+      "first_show": 1761864900,
       "last_show": 1762473300
     },
     {
@@ -141,15 +139,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
       "content": "DAJE | Chronique biographique",
       "horaire": {
-        "2025-10-29": [
-          {
-            "session_id": 30805,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-10-30": [
           {
             "session_id": 30806,
@@ -219,7 +208,7 @@
           }
         ]
       },
-      "first_show": 1761778500,
+      "first_show": 1761864900,
       "last_show": 1762473300
     },
     {
@@ -237,17 +226,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-10-29": [
-          {
-            "session_id": 30725,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-10-30": [
           {
             "session_id": 30731,
@@ -333,7 +311,7 @@
           }
         ]
       },
-      "first_show": 1761779100,
+      "first_show": 1761865500,
       "last_show": 1762473900
     },
     {
@@ -351,18 +329,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-10-29": [
-          {
-            "session_id": 30726,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-10-30": [
           {
             "session_id": 30732,
@@ -456,7 +422,7 @@
           }
         ]
       },
-      "first_show": 1761779100,
+      "first_show": 1761865500,
       "last_show": 1762473900
     },
     {
@@ -474,15 +440,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=h6sEy4sekOU",
       "content": "Comédie fantaisiste",
       "horaire": {
-        "2025-10-29": [
-          {
-            "session_id": 30729,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-10-30": [
           {
             "session_id": 30735,
@@ -495,7 +452,7 @@
           }
         ]
       },
-      "first_show": 1761779700,
+      "first_show": 1761866100,
       "last_show": 1761866100
     },
     {
@@ -513,15 +470,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-10-29": [
-          {
-            "session_id": 30743,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-10-30": [
           {
             "session_id": 30745,
@@ -591,14 +539,14 @@
           }
         ]
       },
-      "first_show": 1761779700,
+      "first_show": 1761866100,
       "last_show": 1762474500
     },
     {
       "id": "ST00001804",
       "titre": "LA FABRIQUE DES MONSTRES",
       "OpeningDate": "2025-10-31",
-      "synopsis": "**b i*Bande-annonce non disponible en ce moment**Dans le vieux château de Grotteskew, un savant fou fabrique, rafistole, et invente sans cesse des monstres farfelus. P’tit Cousu, sa toute première création, petit être étrange composé de pièces détachées, et oublié avec le temps, sert de guide aux nouvelles créations de son maître. Jusqu’au jour où un cirque débarque en ville... À la recherche d'une nouvelle attraction, son propriétaire Fulbert Montremonstre tente par tous les moyens d'accéder à cette fabrique de monstres. P’tit Cousu pourrait bien être la future star de son spectacle...**b c:red*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "synopsis": "Dans le vieux château de Grotteskew, un savant fou fabrique, rafistole, et invente sans cesse des monstres farfelus. P’tit Cousu, sa toute première création, petit être étrange composé de pièces détachées, et oublié avec le temps, sert de guide aux nouvelles créations de son maître. Jusqu’au jour où un cirque débarque en ville... À la recherche d'une nouvelle attraction, son propriétaire Fulbert Montremonstre tente par tous les moyens d'accéder à cette fabrique de monstres. P’tit Cousu pourrait bien être la future star de son spectacle...**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
       "classification": "G",
       "duree": 91,
       "genre": "Animated ",
@@ -613,7 +561,9 @@
           {
             "session_id": 30793,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -622,14 +572,18 @@
           {
             "session_id": 30794,
             "heure": "13:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 30795,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -638,14 +592,18 @@
           {
             "session_id": 30796,
             "heure": "13:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 30797,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -654,7 +612,9 @@
           {
             "session_id": 30799,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -663,7 +623,9 @@
           {
             "session_id": 30801,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -672,7 +634,9 @@
           {
             "session_id": 30835,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -681,14 +645,18 @@
           {
             "session_id": 30850,
             "heure": "13:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 30855,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -697,14 +665,18 @@
           {
             "session_id": 30860,
             "heure": "13:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 30865,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -713,7 +685,9 @@
           {
             "session_id": 30840,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -722,7 +696,9 @@
           {
             "session_id": 30845,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "VF"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
