@@ -585,7 +585,7 @@
 							
   							// Vérifier si la bande "Prochaine représentation" doit être affichée une seule fois
 							if (!nextshow) {
-								if (dateStr > data._meta?.next_show_date && data._meta?.next_show_date >= film.OpeningDate) {
+								if (dateStr > aujourdHuiStr && data._meta?.next_show_date >= film.OpeningDate) {
     								const bandeProchaine = document.createElement("div");
     								bandeProchaine.className = "jour-label prochaine-representation-banner";
 
