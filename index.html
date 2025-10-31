@@ -102,6 +102,9 @@
 			function styliserTexte(texte) {
     			if (typeof texte !== "string") return "";
 
+			    // Ajouter & devant chaque #x (si non déjà présent)
+    			texte = texte.replace(/(?<!&)#x/g, '&#x');
+
     			// Appliquer les styles combinés
     			texte = texte.replace(/\*\*(.*?)\*(.*?)\*\*/gs, (_, styles, contenu) => {
         			const styleList = styles.trim().split(/\s+/);
