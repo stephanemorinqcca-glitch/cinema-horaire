@@ -481,7 +481,7 @@
       "id": "ST00001804",
       "titre": "LA FABRIQUE DES MONSTRES",
       "OpeningDate": "2025-10-31",
-      "synopsis": "**b*#x2605; Bande-annonce indisponible**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "synopsis": "La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
       "classification": "G",
       "duree": 91,
       "genre": "Animated ",
@@ -489,7 +489,7 @@
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
       "banniere": "",
-      "bande_annonce": null,
+      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
       "content": "Animation",
       "horaire": {
         "2025-11-01": [
