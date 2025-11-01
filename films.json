@@ -481,7 +481,7 @@
       "id": "ST00001804",
       "titre": "LA FABRIQUE DES MONSTRES",
       "OpeningDate": "2025-10-31",
-      "synopsis": "La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "synopsis": "**b*#x1F507; Son indisponible pour la bande-annonce**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
       "classification": "G",
       "duree": 91,
       "genre": "Animated ",
@@ -758,6 +758,105 @@
       },
       "first_show": 1762017300,
       "last_show": 1763079300
+    },
+    {
+      "id": "ST00001738",
+      "titre": "PRÉDATEUR: BADLANDS",
+      "OpeningDate": "2025-11-07",
+      "synopsis": "Dans le futur sur une planète lointaine, un jeune Predator, exclu de son clan, trouve une alliée improbable en la personne de Thia et entreprend un voyage en territoire hostile, à la recherche de l'adversaire ultime.",
+      "classification": "G",
+      "duree": 107,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005076",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005074",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
+      "content": "DAJE | Aventures de science-fiction",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30832,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30847,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30852,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30857,
+            "heure": "12:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30862,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30837,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30842,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1762559700,
+      "last_show": 1763078100
     }
   ]
 }
