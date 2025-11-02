@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-01",
+    "next_show_date": "2025-11-02",
     "next_show_time": "12:55"
   },
   "films": [
@@ -50,22 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
       "content": "Drame biographique",
       "horaire": {
-        "2025-11-01": [
-          {
-            "session_id": 30812,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30813,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-02": [
           {
             "session_id": 30814,
@@ -103,7 +87,7 @@
           }
         ]
       },
-      "first_show": 1762016100,
+      "first_show": 1762106100,
       "last_show": 1762473300
     },
     {
@@ -121,22 +105,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
       "content": "DAJE | Chronique biographique",
       "horaire": {
-        "2025-11-01": [
-          {
-            "session_id": 30925,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30926,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-11-02": [
           {
             "session_id": 30927,
@@ -174,7 +142,7 @@
           }
         ]
       },
-      "first_show": 1762016100,
+      "first_show": 1762106100,
       "last_show": 1762473300
     },
     {
@@ -192,26 +160,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-01": [
-          {
-            "session_id": 30756,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30762,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-02": [
           {
             "session_id": 30767,
@@ -252,152 +200,6 @@
             ],
             "salle": "6",
             "placesDisponibles": 49
-          }
-        ],
-        "2025-11-07": [
-          {
-            "session_id": 30833,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30848,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30853,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30858,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30863,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30838,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30843,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1762016700,
-      "last_show": 1763078700
-    },
-    {
-      "id": "ST00001734",
-      "titre": "TÉLÉPHONE NOIR  II",
-      "OpeningDate": "2025-10-17",
-      "synopsis": "À North Denver, quatre ans après les événements entourant l’enlèvement de Finney par un psychopathe surnommé The Grabber, l’adolescent maintenant âgé de 17 ans tente de mener une vie normale avec sa sœur cadette Gwen. Cette dernière est toutefois victime de rêves étranges dans lesquels elle reçoit des appels du téléphone noir qui sont accompagnés d’images d’enfants en détresse dans un mystérieux camp enneigé, dans les montagnes. Dans l’espoir de mettre fin à ces visions perturbantes, elle décide de se rendre sur le lieu de ses cauchemars et fait une découverte troublante qui concerne le passé de sa famille.",
-      "classification": "13+",
-      "duree": 114,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/laLj9STwfCM",
-      "content": "Violence | Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-11-01": [
-          {
-            "session_id": 30757,
-            "heure": "13:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30763,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-02": [
-          {
-            "session_id": 30768,
-            "heure": "13:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30774,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-05": [
-          {
-            "session_id": 30784,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-06": [
-          {
-            "session_id": 30789,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
           }
         ],
         "2025-11-07": [
@@ -474,7 +276,131 @@
           }
         ]
       },
-      "first_show": 1762016700,
+      "first_show": 1762106700,
+      "last_show": 1763078700
+    },
+    {
+      "id": "ST00001734",
+      "titre": "TÉLÉPHONE NOIR  II",
+      "OpeningDate": "2025-10-17",
+      "synopsis": "À North Denver, quatre ans après les événements entourant l’enlèvement de Finney par un psychopathe surnommé The Grabber, l’adolescent maintenant âgé de 17 ans tente de mener une vie normale avec sa sœur cadette Gwen. Cette dernière est toutefois victime de rêves étranges dans lesquels elle reçoit des appels du téléphone noir qui sont accompagnés d’images d’enfants en détresse dans un mystérieux camp enneigé, dans les montagnes. Dans l’espoir de mettre fin à ces visions perturbantes, elle décide de se rendre sur le lieu de ses cauchemars et fait une découverte troublante qui concerne le passé de sa famille.",
+      "classification": "13+",
+      "duree": 114,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/laLj9STwfCM",
+      "content": "Violence | Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-11-02": [
+          {
+            "session_id": 30768,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30774,
+            "heure": "19:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-05": [
+          {
+            "session_id": 30784,
+            "heure": "19:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-06": [
+          {
+            "session_id": 30789,
+            "heure": "19:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-07": [
+          {
+            "session_id": 30833,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30848,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30853,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30858,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30863,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30838,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30843,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1762106700,
       "last_show": 1763078700
     },
     {
@@ -492,26 +418,6 @@
       "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
       "content": "Animation",
       "horaire": {
-        "2025-11-01": [
-          {
-            "session_id": 30794,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30795,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-11-02": [
           {
             "session_id": 30796,
@@ -628,7 +534,7 @@
           }
         ]
       },
-      "first_show": 1762017300,
+      "first_show": 1762107300,
       "last_show": 1763079300
     },
     {
@@ -646,22 +552,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-01": [
-          {
-            "session_id": 30824,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 30825,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-11-02": [
           {
             "session_id": 30826,
@@ -756,7 +646,7 @@
           }
         ]
       },
-      "first_show": 1762017300,
+      "first_show": 1762107300,
       "last_show": 1763079300
     },
     {
