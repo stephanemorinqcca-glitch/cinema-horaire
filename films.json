@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-05",
+    "next_show_date": "2025-11-06",
     "next_show_time": "18:55"
   },
   "films": [
@@ -50,15 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
       "content": "Drame biographique",
       "horaire": {
-        "2025-11-05": [
-          {
-            "session_id": 30817,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-06": [
           {
             "session_id": 30819,
@@ -71,7 +62,7 @@
           }
         ]
       },
-      "first_show": 1762386900,
+      "first_show": 1762473300,
       "last_show": 1762473300
     },
     {
@@ -89,15 +80,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
       "content": "DAJE | Chronique biographique",
       "horaire": {
-        "2025-11-05": [
-          {
-            "session_id": 30930,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-11-06": [
           {
             "session_id": 30932,
@@ -110,7 +92,7 @@
           }
         ]
       },
-      "first_show": 1762386900,
+      "first_show": 1762473300,
       "last_show": 1762473300
     },
     {
@@ -128,17 +110,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-05": [
-          {
-            "session_id": 30782,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-06": [
           {
             "session_id": 30787,
@@ -224,7 +195,7 @@
           }
         ]
       },
-      "first_show": 1762387500,
+      "first_show": 1762473900,
       "last_show": 1763078700
     },
     {
@@ -242,18 +213,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-11-05": [
-          {
-            "session_id": 30784,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-06": [
           {
             "session_id": 30789,
@@ -326,7 +285,7 @@
           }
         ]
       },
-      "first_show": 1762387500,
+      "first_show": 1762473900,
       "last_show": 1763078700
     },
     {
@@ -344,17 +303,6 @@
       "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
       "content": "Animation",
       "horaire": {
-        "2025-11-05": [
-          {
-            "session_id": 30799,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-11-06": [
           {
             "session_id": 30801,
@@ -440,7 +388,7 @@
           }
         ]
       },
-      "first_show": 1762388100,
+      "first_show": 1762474500,
       "last_show": 1763079300
     },
     {
@@ -458,15 +406,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-05": [
-          {
-            "session_id": 30829,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-11-06": [
           {
             "session_id": 30831,
@@ -536,7 +475,7 @@
           }
         ]
       },
-      "first_show": 1762388100,
+      "first_show": 1762474500,
       "last_show": 1763079300
     },
     {
