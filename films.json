@@ -9,13 +9,6 @@
       "ShowOnSessionsWithNoComps": false
     },
     {
-      "ShortName": "DERNIÈRE",
-      "Description": "Représentation",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": true
-    },
-    {
       "ShortName": "DLX",
       "Description": "Salle avec sièges rocker et plus spacieux",
       "FontColor": "#666666",
@@ -31,453 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-06",
-    "next_show_time": "18:55"
+    "next_show_date": "2025-11-07",
+    "next_show_time": "18:45"
   },
   "films": [
-    {
-      "id": "ST00001770",
-      "titre": "SPRINGSTEEN:  DÉLIVREZ-MOI DE NULLE PART",
-      "OpeningDate": "2025-10-24",
-      "synopsis": "En 1981, après un concert au Cincinatti Coliseum, Bruce Springsteen décide de retourner dans le New Jersey de son enfance pour composer de nouvelles chansons afin de répondre à la demande de sa maison de disque. Il loue ainsi une résidence à Colts Neck où il achète un enregistreur et amorce un processus d’écriture en puisant son inspiration dans la lecture, le cinéma et son propre passé. Des pensées plutôt sombres en émergent alors que le chanteur traverse une période de profonde remise en question.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Biography",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005120",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005118",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4aYhqDRF5EE",
-      "content": "Drame biographique",
-      "horaire": {
-        "2025-11-06": [
-          {
-            "session_id": 30819,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1762473300,
-      "last_show": 1762473300
-    },
-    {
-      "id": "ST00001766",
-      "titre": "UN VOLEUR SUR LE TOIT",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Un ancien militaire ayant volé les coffres de dizaines de restaurants est condamné à 45 ans de prison. Il trouve un moyen de s’évader et se cache pendant des mois dans un magasin de jouets, le temps de se faire oublier des autorités et d’obtenir de faux papiers pour quitter le pays.",
-      "classification": "G",
-      "duree": 126,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004899",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004897",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Sl7ssFZl8YI",
-      "content": "DAJE | Chronique biographique",
-      "horaire": {
-        "2025-11-06": [
-          {
-            "session_id": 30932,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1762473300,
-      "last_show": 1762473300
-    },
-    {
-      "id": "ST00001772",
-      "titre": "ON TE REGRETTE",
-      "OpeningDate": "2025-10-24",
-      "synopsis": "Après un accident de la route mortel, Morgan Grant apprend une cruelle vérité sur son mari. Profondément bouleversée par la tragédie, elle essaie de protéger sa fille Clara, une adolescente fragile et vulnérable qui traverse une période difficile alors qu'elle fait ses premiers pas dans le monde des adultes. Les deux protagonistes sortent de leur marasme et reprennent le goût à la vie et aux joies du quotidien grâce à un soutien émotif mutuel et inconditionnel.",
-      "classification": "G",
-      "duree": 116,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004911",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004909",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
-      "content": "Drame sentimental",
-      "horaire": {
-        "2025-11-06": [
-          {
-            "session_id": 30787,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-11-07": [
-          {
-            "session_id": 30834,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30849,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30854,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30859,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30864,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30839,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30844,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1762473900,
-      "last_show": 1763078700
-    },
-    {
-      "id": "ST00001734",
-      "titre": "TÉLÉPHONE NOIR  II",
-      "OpeningDate": "2025-10-17",
-      "synopsis": "À North Denver, quatre ans après les événements entourant l’enlèvement de Finney par un psychopathe surnommé The Grabber, l’adolescent maintenant âgé de 17 ans tente de mener une vie normale avec sa sœur cadette Gwen. Cette dernière est toutefois victime de rêves étranges dans lesquels elle reçoit des appels du téléphone noir qui sont accompagnés d’images d’enfants en détresse dans un mystérieux camp enneigé, dans les montagnes. Dans l’espoir de mettre fin à ces visions perturbantes, elle décide de se rendre sur le lieu de ses cauchemars et fait une découverte troublante qui concerne le passé de sa famille.",
-      "classification": "13+",
-      "duree": 114,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/laLj9STwfCM",
-      "content": "Violence | Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-11-06": [
-          {
-            "session_id": 30789,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2025-11-07": [
-          {
-            "session_id": 30833,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30848,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30853,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30858,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30863,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30838,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30843,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1762473900,
-      "last_show": 1763078700
-    },
-    {
-      "id": "ST00001804",
-      "titre": "LA FABRIQUE DES MONSTRES",
-      "OpeningDate": "2025-10-31",
-      "synopsis": "**b*#x1F507; Bande-annonce muette**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 91,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
-      "banniere": "",
-      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
-      "content": "Animation",
-      "horaire": {
-        "2025-11-06": [
-          {
-            "session_id": 30801,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-07": [
-          {
-            "session_id": 30835,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30850,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30855,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30860,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30865,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30840,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30845,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1762474500,
-      "last_show": 1763079300
-    },
-    {
-      "id": "ST00001768",
-      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1099415314",
-      "content": "Aventures fantastiques",
-      "horaire": {
-        "2025-11-06": [
-          {
-            "session_id": 30831,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-11-07": [
-          {
-            "session_id": 30836,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30851,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30856,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30861,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30866,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30841,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30846,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1762474500,
-      "last_show": 1763079300
-    },
     {
       "id": "ST00001738",
       "titre": "PRÉDATEUR: BADLANDS",
@@ -646,6 +196,346 @@
       },
       "first_show": 1762559100,
       "last_show": 1763682900
+    },
+    {
+      "id": "ST00001772",
+      "titre": "ON TE REGRETTE",
+      "OpeningDate": "2025-10-24",
+      "synopsis": "Après un accident de la route mortel, Morgan Grant apprend une cruelle vérité sur son mari. Profondément bouleversée par la tragédie, elle essaie de protéger sa fille Clara, une adolescente fragile et vulnérable qui traverse une période difficile alors qu'elle fait ses premiers pas dans le monde des adultes. Les deux protagonistes sortent de leur marasme et reprennent le goût à la vie et aux joies du quotidien grâce à un soutien émotif mutuel et inconditionnel.",
+      "classification": "G",
+      "duree": 116,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004911",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004909",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
+      "content": "Drame sentimental",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30834,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30849,
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30854,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30859,
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30864,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30839,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30844,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1762560300,
+      "last_show": 1763078700
+    },
+    {
+      "id": "ST00001734",
+      "titre": "TÉLÉPHONE NOIR  II",
+      "OpeningDate": "2025-10-17",
+      "synopsis": "À North Denver, quatre ans après les événements entourant l’enlèvement de Finney par un psychopathe surnommé The Grabber, l’adolescent maintenant âgé de 17 ans tente de mener une vie normale avec sa sœur cadette Gwen. Cette dernière est toutefois victime de rêves étranges dans lesquels elle reçoit des appels du téléphone noir qui sont accompagnés d’images d’enfants en détresse dans un mystérieux camp enneigé, dans les montagnes. Dans l’espoir de mettre fin à ces visions perturbantes, elle décide de se rendre sur le lieu de ses cauchemars et fait une découverte troublante qui concerne le passé de sa famille.",
+      "classification": "13+",
+      "duree": 114,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004871",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004869",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/laLj9STwfCM",
+      "content": "Violence | Horreur | Suspense d'épouvante",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30833,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30848,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30853,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30858,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 30863,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30838,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30843,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1762560300,
+      "last_show": 1763078700
+    },
+    {
+      "id": "ST00001804",
+      "titre": "LA FABRIQUE DES MONSTRES",
+      "OpeningDate": "2025-10-31",
+      "synopsis": "**b*#x1F507; Bande-annonce muette**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 91,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
+      "banniere": "",
+      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
+      "content": "Animation",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30835,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30850,
+            "heure": "13:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30855,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30860,
+            "heure": "13:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30865,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30840,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30845,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1762560900,
+      "last_show": 1763079300
+    },
+    {
+      "id": "ST00001768",
+      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 80,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1099415314",
+      "content": "Aventures fantastiques",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30836,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30851,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30856,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30861,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30866,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30841,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30846,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1762560900,
+      "last_show": 1763079300
     }
   ]
 }
