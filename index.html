@@ -593,7 +593,7 @@
     								bandeProchaine.className = "jour-label prochaine-representation-banner";
 
 								    let libelle = "Prochaine séance";
-      								if (data._meta?.next_show_date === film.OpeningDate) {
+      								if (aujourdHuiStr < film.OpeningDate) {
         								libelle = "Première séance";
       								}
       								bandeProchaine.innerHTML = `
