@@ -25,9 +25,179 @@
   ],
   "_meta": {
     "next_show_date": "2025-11-07",
-    "next_show_time": "18:45"
+    "next_show_time": "19:15"
   },
   "films": [
+    {
+      "id": "ST00001804",
+      "titre": "LA FABRIQUE DES MONSTRES",
+      "OpeningDate": "2025-10-31",
+      "synopsis": "**b*#x1F507; Bande-annonce muette**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 91,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
+      "banniere": "",
+      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
+      "content": "Animation",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30835,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 62
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30850,
+            "heure": "13:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30855,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30860,
+            "heure": "13:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 30865,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30840,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30845,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1762560900,
+      "last_show": 1763079300
+    },
+    {
+      "id": "ST00001768",
+      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
+      "OpeningDate": "2025-10-10",
+      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 80,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1099415314",
+      "content": "Aventures fantastiques",
+      "horaire": {
+        "2025-11-07": [
+          {
+            "session_id": 30836,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 82
+          }
+        ],
+        "2025-11-08": [
+          {
+            "session_id": 30851,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30856,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-09": [
+          {
+            "session_id": 30861,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 30866,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-12": [
+          {
+            "session_id": 30841,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-13": [
+          {
+            "session_id": 30846,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1762560900,
+      "last_show": 1763079300
+    },
     {
       "id": "ST00001738",
       "titre": "PRÉDATEUR: BADLANDS",
@@ -43,18 +213,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-11-07": [
-          {
-            "session_id": 30832,
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-08": [
           {
             "session_id": 30847,
@@ -194,7 +352,7 @@
           }
         ]
       },
-      "first_show": 1762559100,
+      "first_show": 1762623900,
       "last_show": 1763682900
     },
     {
@@ -212,17 +370,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-07": [
-          {
-            "session_id": 30834,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-08": [
           {
             "session_id": 30849,
@@ -234,13 +381,11 @@
             "placesDisponibles": 49
           },
           {
-            "session_id": 30854,
+            "session_id": 30853,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-09": [
@@ -286,7 +431,7 @@
           }
         ]
       },
-      "first_show": 1762560300,
+      "first_show": 1762625100,
       "last_show": 1763078700
     },
     {
@@ -304,15 +449,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-11-07": [
-          {
-            "session_id": 30833,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-08": [
           {
             "session_id": 30848,
@@ -322,11 +458,13 @@
             "placesDisponibles": 85
           },
           {
-            "session_id": 30853,
+            "session_id": 30854,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2025-11-09": [
@@ -364,178 +502,8 @@
           }
         ]
       },
-      "first_show": 1762560300,
+      "first_show": 1762625100,
       "last_show": 1763078700
-    },
-    {
-      "id": "ST00001804",
-      "titre": "LA FABRIQUE DES MONSTRES",
-      "OpeningDate": "2025-10-31",
-      "synopsis": "**b*#x1F507; Bande-annonce muette**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 91,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
-      "banniere": "",
-      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
-      "content": "Animation",
-      "horaire": {
-        "2025-11-07": [
-          {
-            "session_id": 30835,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30850,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30855,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30860,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30865,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30840,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30845,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1762560900,
-      "last_show": 1763079300
-    },
-    {
-      "id": "ST00001768",
-      "titre": "MA BELLE-MÈRE EST UNE SORCIÈRE",
-      "OpeningDate": "2025-10-10",
-      "synopsis": "Depuis que sa mère a quitté la maison familiale, Margot, 12 ans, ne cesse d’espérer son retour. Un soir, en rentrant de l’école, elle trouve son père, Marcel, d’ordinaire taciturne, roucoulant auprès de Jeanne, une ancienne camarade de classe qu’il vient de retrouver. Puis, elle découvre que son petit frère s’exerce avec talent à la guitare, lui qui n’avait jamais touché à cet instrument auparavant. Le lendemain, dans son cours de science, la jeune fille parvient à disséquer une grenouille en un temps record, à la stupéfaction de son meilleur ami. Lorsque Marcel annonce que Jeanne emménage chez eux, Margot, alertée par les événements étranges entourant la présence de sa nouvelle belle-mère, décide de prendre les grands moyens pour prouver qu’il s’agit d’une sorcière.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 80,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004903",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004901",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1099415314",
-      "content": "Aventures fantastiques",
-      "horaire": {
-        "2025-11-07": [
-          {
-            "session_id": 30836,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-08": [
-          {
-            "session_id": 30851,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30856,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-09": [
-          {
-            "session_id": 30861,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30866,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-12": [
-          {
-            "session_id": 30841,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-13": [
-          {
-            "session_id": 30846,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1762560900,
-      "last_show": 1763079300
     }
   ]
 }
