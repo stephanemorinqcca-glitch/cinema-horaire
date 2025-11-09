@@ -467,6 +467,195 @@
       "last_show": 1763079300
     },
     {
+      "id": "ST00001740",
+      "titre": "LE JEU DU DÉFI",
+      "OpeningDate": "2025-11-14",
+      "synopsis": "Dans un futur proche, \"LE JEU DU DÉFI\" est l'émission numéro un à la télévision: un jeu de survie impitoyable où des candidats, appelés les Runners, doivent échapper pendant 30 jours à des tueurs professionnels, sous l'oeil avide d'un public captivé.",
+      "classification": "13+",
+      "duree": 133,
+      "genre": "Sci-Fi",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005140",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005138",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=BYAQgmWAcEc",
+      "content": "Violence | Action d'anticipation",
+      "horaire": {
+        "2025-11-14": [
+          {
+            "session_id": 30978,
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30868,
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-15": [
+          {
+            "session_id": 30869,
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30870,
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-16": [
+          {
+            "session_id": 30871,
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30872,
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-19": [
+          {
+            "session_id": 30874,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-20": [
+          {
+            "session_id": 30876,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-21": [
+          {
+            "session_id": 30957,
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-22": [
+          {
+            "session_id": 30933,
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30939,
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-23": [
+          {
+            "session_id": 30945,
+            "heure": "12:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 30951,
+            "heure": "18:45",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-26": [
+          {
+            "session_id": 30963,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-11-27": [
+          {
+            "session_id": 30969,
+            "heure": "18:55",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1763142300,
+      "last_show": 1764287700
+    },
+    {
       "id": "ST00001790",
       "titre": "LES COWBOYS FRINGANTS - QUÉBEC /14/01/23",
       "OpeningDate": "2025-11-14",
@@ -550,6 +739,172 @@
       },
       "first_show": 1763143200,
       "last_show": 1763683200
+    },
+    {
+      "id": "ST00001742",
+      "titre": "INSAISISSABLE III",
+      "OpeningDate": "2025-11-14",
+      "synopsis": "Les Cavaliers, ou « Horsemen », sont un groupe de magiciens illusionnistes qui utilisent leurs habiletés pour dénoncer la corruption et les abus des personnes en situation de pouvoir. Séparés depuis près de 10 ans, ils sont réunis avec de nouveaux partenaires afin de réaliser un grand coup : piéger la propriétaire et dirigeante d’une entreprise de diamants qui s'adonne à des activités criminelles. Ils doivent surmonter leurs différends et travailler en équipe pour réussir leurs plans.",
+      "classification": "G",
+      "duree": 112,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005036",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005034",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
+      "content": "Aventures",
+      "horaire": {
+        "2025-11-14": [
+          {
+            "session_id": 30979,
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30888,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-15": [
+          {
+            "session_id": 30879,
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30890,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-16": [
+          {
+            "session_id": 30881,
+            "heure": "13:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30882,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-19": [
+          {
+            "session_id": 30884,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-20": [
+          {
+            "session_id": 30886,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-21": [
+          {
+            "session_id": 30958,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-22": [
+          {
+            "session_id": 30937,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30942,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-11-23": [
+          {
+            "session_id": 30949,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 30952,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-26": [
+          {
+            "session_id": 30966,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2025-11-27": [
+          {
+            "session_id": 30972,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1763143500,
+      "last_show": 1764287700
     }
   ]
 }
