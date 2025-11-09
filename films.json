@@ -10,7 +10,7 @@
     },
     {
       "ShortName": "DERNIÈRE",
-      "Description": "Représentation",
+      "Description": "//",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": true
