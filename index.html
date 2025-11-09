@@ -199,7 +199,7 @@
 				}
 
     			// ✅ Ajout de la vérification pour éviter base vide
-    			if (!base) {
+				if (!base || base === "EADC") {
         			base = "EC";
     			}
 				
