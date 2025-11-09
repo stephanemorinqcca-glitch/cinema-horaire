@@ -190,16 +190,16 @@
 					});
 				}
 
-				if (base === "GDAJE") {
+				if (base === "GDAJE" || base === "DAJE" ) {
     				base = "GDeconseilleauxjeunesenfants";
 				}
 
-				if (base === "ECEDC") {
+				if (base === "ECEDC" || base === "EDC") {
     				base = "ECExemptedeclassement";
 				}
 
     			// ✅ Ajout de la vérification pour éviter base vide
-				if (!base || base === "EADC") {
+				if (!base || base === "ECEADC" || base === "EADC" ) {
         			base = "EC";
     			}
 				
