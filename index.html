@@ -286,7 +286,7 @@
     					};
 						
 					    // Affiche uniquement si ShowOnSessionsWithNoComps est false
-					    if (attr.ShowOnSessionsWithNoComps === false) {
+					    if (!attr.Description.includes("//")) {
 
     						const wrapper = document.createElement("span");
     						wrapper.className = "textlegende";
