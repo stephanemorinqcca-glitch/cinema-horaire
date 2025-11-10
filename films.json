@@ -13,7 +13,7 @@
       "Description": "//",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": true
+      "ShowOnSessionsWithNoComps": false
     },
     {
       "ShortName": "DLX",
@@ -31,8 +31,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-09",
-    "next_show_time": "12:45"
+    "next_show_date": "2025-11-12",
+    "next_show_time": "18:55"
   },
   "films": [
     {
@@ -42,7 +42,7 @@
       "synopsis": "Après la mort de son frère Kwei, Dek est exclu de son clan et se retrouve dans un endroit hostile, la planète Genna. Les lieux regorgent de créatures menaçantes, mais Dek est bien déterminé à combattre Kalisk, un monstre gigantesque, pour prouver aux siens qu’il mérite sa place parmi eux. Sur son chemin, il fait la rencontre de l’androïde Thia qui propose de l’accompagner dans sa quête remplie de dangers.",
       "classification": "G",
       "duree": 107,
-      "genre": "Horror",
+      "genre": "Sci-Fi",
       "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005076",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005074",
@@ -50,28 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-11-09": [
-          {
-            "session_id": 30857,
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30862,
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-12": [
           {
             "session_id": 30837,
@@ -163,7 +141,7 @@
           }
         ]
       },
-      "first_show": 1762710300,
+      "first_show": 1762991700,
       "last_show": 1763682900
     },
     {
@@ -181,26 +159,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-09": [
-          {
-            "session_id": 30859,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30864,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-12": [
           {
             "session_id": 30839,
@@ -294,7 +252,7 @@
           }
         ]
       },
-      "first_show": 1762711500,
+      "first_show": 1762992300,
       "last_show": 1763683500
     },
     {
@@ -312,22 +270,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-11-09": [
-          {
-            "session_id": 30858,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30863,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-12": [
           {
             "session_id": 30838,
@@ -349,7 +291,7 @@
           }
         ]
       },
-      "first_show": 1762711500,
+      "first_show": 1762992300,
       "last_show": 1763078700
     },
     {
@@ -367,26 +309,6 @@
       "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
       "content": "Animation",
       "horaire": {
-        "2025-11-09": [
-          {
-            "session_id": 30860,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30865,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-11-12": [
           {
             "session_id": 30840,
@@ -410,7 +332,7 @@
           }
         ]
       },
-      "first_show": 1762712100,
+      "first_show": 1762992900,
       "last_show": 1763079300
     },
     {
@@ -428,22 +350,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-09": [
-          {
-            "session_id": 30861,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30866,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-11-12": [
           {
             "session_id": 30841,
@@ -463,7 +369,7 @@
           }
         ]
       },
-      "first_show": 1762712100,
+      "first_show": 1762992900,
       "last_show": 1763079300
     },
     {
@@ -657,18 +563,18 @@
     },
     {
       "id": "ST00001790",
-      "titre": "LES COWBOYS FRINGANTS - QUÉBEC /14/01/23",
+      "titre": "COWBOYS FRINGANTS: QUÉBEC / 14/01/23",
       "OpeningDate": "2025-11-14",
       "synopsis": "**b*Billet 25$ | Aucun laissez-passer n'est accepté** Les  Cowboys  Fringants  comme  vous  ne  les avez  jamais  vus!  (Re)vivez  l’ambiance magique d’un spectacle du groupe, comme si vous étiez sur scène avec eux. Vingt ans  après  la  captation  historique  des  Cowboys  Fringants  au  Centre  Bell  en  2003,qui  mettait  ﬁn  à  la  tournée  exceptionnelle  de Break  syndical,  le  groupe  a  récidivé en  janvier  2023  avec  un  concert-événement  ﬁlmé  au  Centre  Vidéotron  pendant la  tournée Les  Antipodes qui  a  brisé  tous  les  records  d’assistance  et  de  vente  de billets.  Les  Cowboys  Fringants  ont  l’habitude  des  concerts  à  grand  déploiement,eux  qui  ont  rempli  à  pleine  capacité  et  à  maintes  reprises  le  Centre  Bell  et  le Centre Vidéotron, ainsi que des dizaines d’arénas en Europe francophone. Une foule festive,  une  communion  incomparable  avec  le  public,  des  fans  visiblement  émus,des images cinématographiques époustouﬂantes et les grands hymnes du groupe,cette nouvelle captation rappelle les ﬁlms de concerts rock historiques!\r\n**b*Vente de billets sur place seulement, pour la séance en cours, aux personnes présentes\r\nOuverture de la salle 45 minutes avant la représentation**",
-      "classification": "",
-      "duree": 108,
+      "classification": "G",
+      "duree": 109,
       "genre": "Musical",
       "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005096",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005094",
       "banniere": "",
       "bande_annonce": "https://www.youtube.com/watch?v=1PWsK8NgUO0",
-      "content": "EADC | Spectacle musical",
+      "content": "Spectacle musical",
       "horaire": {
         "2025-11-14": [
           {
