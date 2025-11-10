@@ -411,17 +411,18 @@
         						if (cleanedContent !== "") {
             						cleanedContent = ` | ${cleanedContent}`;
         						}
-
-								// Si pas de rating on met SC (Sans Classement)
-								if (!film.classification) {
-    								film.classification = "SC";
-								}
-
-        						if (ratingDetails[film.classification]) {
-            						classificationDetails = ratingDetails[film.classification].description + " ";
-            						classificationColor = ratingDetails[film.classification].color;
-        						}
     						}
+
+							// Si pas de rating on met SC (Sans Classement)
+							if (!film.classification) {
+    							film.classification = "SC";
+							}
+
+							// Si le classement existe dans ratingDetails, on récupère les détails
+        					if (ratingDetails[film.classification]) {
+            					classificationDetails = ratingDetails[film.classification].description + " ";
+            					classificationColor = ratingDetails[film.classification].color;
+        					}
 
 							// Vérifie les mots-clés si aucune classification trouvée
 							//if (classificationDetails === "" && typeof film.content === "string") {
@@ -481,7 +482,7 @@
 							// Appliquer les remplacements dans l'ordre du plus spécifique au plus général
 							let styledText = styliserTexte(originalText);
 
-							// Trouver tous les passages stylisés (optionnel si tu veux les isoler)
+							// Trouver tous les passages stylisés
 							const highlightMatches = [...styledText.matchAll(/<strong[^>]*>.*?<\/strong>|<em[^>]*>.*?<\/em>/gs)];
 
 							// Créer une copie du texte sans les balises stylisées
