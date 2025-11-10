@@ -412,8 +412,8 @@
             						cleanedContent = ` | ${cleanedContent}`;
         						}
 
-								
-								if (!ratingDetails[film.classification]) {
+								// Si pas de rating on met SC (Sans Classement)
+								if (!film.classification) {
     								film.classification = "SC";
 								}
 
