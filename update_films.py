@@ -12,7 +12,7 @@ from typing import Optional
 
 # 🔑 Configuration
 TOKEN = "shrfm72nvm2zmr7xpsteck6b64"
-SESSION_API_URL = "https://api.useast.veezi.com/v1/session"
+SESSION_API_URL = "https://api.useast.veezi.com/v1/websession"
 FILM_API_URL = "https://api.useast.veezi.com/v4/film/"
 ATTRIBUTE_API_URL = "https://api.useast.veezi.com/v1/attribute/"
 SCREEN_API_URL = "https://api.useast.veezi.com/v1/screen/"
