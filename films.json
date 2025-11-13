@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-12",
+    "next_show_date": "2025-11-13",
     "next_show_time": "18:55"
   },
   "films": [
@@ -50,18 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-11-12": [
-          {
-            "session_id": 30837,
-            "heure": "18:55",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-13": [
           {
             "session_id": 30842,
@@ -141,7 +129,7 @@
           }
         ]
       },
-      "first_show": 1762991700,
+      "first_show": 1763078100,
       "last_show": 1763682900
     },
     {
@@ -159,17 +147,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-12": [
-          {
-            "session_id": 30839,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-13": [
           {
             "session_id": 30844,
@@ -252,7 +229,7 @@
           }
         ]
       },
-      "first_show": 1762992300,
+      "first_show": 1763078700,
       "last_show": 1763683500
     },
     {
@@ -270,15 +247,6 @@
       "bande_annonce": "https://youtu.be/laLj9STwfCM",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-11-12": [
-          {
-            "session_id": 30838,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-13": [
           {
             "session_id": 30843,
@@ -291,7 +259,7 @@
           }
         ]
       },
-      "first_show": 1762992300,
+      "first_show": 1763078700,
       "last_show": 1763078700
     },
     {
@@ -309,17 +277,6 @@
       "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
       "content": "Animation",
       "horaire": {
-        "2025-11-12": [
-          {
-            "session_id": 30840,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-11-13": [
           {
             "session_id": 30845,
@@ -365,7 +322,7 @@
           }
         ]
       },
-      "first_show": 1762992900,
+      "first_show": 1763079300,
       "last_show": 1763316900
     },
     {
@@ -383,15 +340,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-12": [
-          {
-            "session_id": 30841,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-11-13": [
           {
             "session_id": 30846,
@@ -447,7 +395,7 @@
           }
         ]
       },
-      "first_show": 1762992900,
+      "first_show": 1763079300,
       "last_show": 1763684100
     },
     {
