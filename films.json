@@ -483,7 +483,7 @@
         "2025-11-21": [
           {
             "session_id": 30958,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
@@ -492,7 +492,7 @@
         "2025-11-22": [
           {
             "session_id": 30937,
-            "heure": "12:55",
+            "heure": "13:05",
             "attributs": [
               "DLX"
             ],
@@ -501,7 +501,7 @@
           },
           {
             "session_id": 30942,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
@@ -510,7 +510,7 @@
         "2025-11-23": [
           {
             "session_id": 30949,
-            "heure": "12:55",
+            "heure": "13:05",
             "attributs": [
               "DLX"
             ],
@@ -519,7 +519,7 @@
           },
           {
             "session_id": 30952,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -530,7 +530,7 @@
         "2025-11-26": [
           {
             "session_id": 30966,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -541,7 +541,7 @@
         "2025-11-27": [
           {
             "session_id": 30972,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -551,7 +551,7 @@
         ]
       },
       "first_show": 1763143500,
-      "last_show": 1764287700
+      "last_show": 1764288300
     },
     {
       "id": "ST00001772",
