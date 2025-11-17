@@ -31,8 +31,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-16",
-    "next_show_time": "12:45"
+    "next_show_date": "2025-11-19",
+    "next_show_time": "18:55"
   },
   "films": [
     {
@@ -50,28 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=BYAQgmWAcEc",
       "content": "Violence | Action d'anticipation",
       "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30871,
-            "heure": "12:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 30872,
-            "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-19": [
           {
             "session_id": 30874,
@@ -98,14 +76,11 @@
         ],
         "2025-11-21": [
           {
-            "session_id": 30957,
+            "session_id": 30958,
             "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-22": [
@@ -120,14 +95,11 @@
             "placesDisponibles": 75
           },
           {
-            "session_id": 30939,
+            "session_id": 30942,
             "heure": "18:45",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-23": [
@@ -177,7 +149,7 @@
           }
         ]
       },
-      "first_show": 1763315100,
+      "first_show": 1763596500,
       "last_show": 1764287700
     },
     {
@@ -195,22 +167,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30891,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30892,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-11-19": [
           {
             "session_id": 30894,
@@ -289,7 +245,7 @@
           }
         ]
       },
-      "first_show": 1763315700,
+      "first_show": 1763596500,
       "last_show": 1764288900
     },
     {
@@ -307,22 +263,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=1PWsK8NgUO0",
       "content": "Spectacle musical",
       "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30750,
-            "heure": "13:00",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 30751,
-            "heure": "19:00",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-11-19": [
           {
             "session_id": 30921,
@@ -344,7 +284,7 @@
           }
         ]
       },
-      "first_show": 1763316000,
+      "first_show": 1763596800,
       "last_show": 1763683200
     },
     {
@@ -362,26 +302,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30881,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 30882,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-19": [
           {
             "session_id": 30884,
@@ -406,11 +326,13 @@
         ],
         "2025-11-21": [
           {
-            "session_id": 30958,
+            "session_id": 30957,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2025-11-22": [
@@ -424,11 +346,13 @@
             "placesDisponibles": 49
           },
           {
-            "session_id": 30942,
+            "session_id": 30939,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2025-11-23": [
@@ -547,7 +471,7 @@
           }
         ]
       },
-      "first_show": 1763316300,
+      "first_show": 1763597100,
       "last_show": 1764893100
     },
     {
@@ -565,22 +489,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30911,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 30912,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-19": [
           {
             "session_id": 30914,
@@ -659,61 +567,8 @@
           }
         ]
       },
-      "first_show": 1763316300,
+      "first_show": 1763597100,
       "last_show": 1764288300
-    },
-    {
-      "id": "ST00001804",
-      "titre": "LA FABRIQUE DES MONSTRES",
-      "OpeningDate": "2025-10-31",
-      "synopsis": "**b*#x1F507; Bande-annonce muette**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
-      "classification": "G",
-      "duree": 91,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
-      "banniere": "",
-      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
-      "content": "Animation",
-      "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30901,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-11-22": [
-          {
-            "session_id": 30938,
-            "heure": "13:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2025-11-23": [
-          {
-            "session_id": 30950,
-            "heure": "13:15",
-            "attributs": [
-              "DERNIÈRE",
-              "VF"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1763316900,
-      "last_show": 1763921700
     },
     {
       "id": "ST00001768",
@@ -730,15 +585,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-16": [
-          {
-            "session_id": 30902,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-11-19": [
           {
             "session_id": 30904,
@@ -756,10 +602,39 @@
             "salle": "2",
             "placesDisponibles": 91
           }
+        ],
+        "2025-11-21": [
+          {
+            "session_id": 30962,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-22": [
+          {
+            "session_id": 30944,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-23": [
+          {
+            "session_id": 30956,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
         ]
       },
-      "first_show": 1763338500,
-      "last_show": 1763684100
+      "first_show": 1763597700,
+      "last_show": 1763943300
     },
     {
       "id": "ST00001744",
@@ -903,6 +778,48 @@
       },
       "first_show": 1763769300,
       "last_show": 1764892500
+    },
+    {
+      "id": "ST00001804",
+      "titre": "LA FABRIQUE DES MONSTRES",
+      "OpeningDate": "2025-10-31",
+      "synopsis": "**b*#x1F507; Bande-annonce muette**La population d’une petite communauté est terrifiée par les rumeurs qui circulent sur un château avoisinant, à savoir qu’il serait habité par des monstres dangereux. Or, dans le fameux château, des créatures apeurées vivent sous la crainte constante d'une attaque par une foule de villageois en colère. L’arrivée d’un cirque ambulant dans la région perturbe le statu quo, et pousse un jeune monstre à changer sa vie.**b*Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 91,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005072",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005070",
+      "banniere": "",
+      "bande_annonce": "https://player.vimeo.com/video/1124867216?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
+      "content": "Animation",
+      "horaire": {
+        "2025-11-22": [
+          {
+            "session_id": 30938,
+            "heure": "13:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-23": [
+          {
+            "session_id": 30950,
+            "heure": "13:15",
+            "attributs": [
+              "DERNIÈRE",
+              "VF"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1763835300,
+      "last_show": 1763921700
     }
   ]
 }
