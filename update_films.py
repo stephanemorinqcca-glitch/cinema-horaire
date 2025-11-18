@@ -171,6 +171,12 @@ def transform_data(sessions):
         # Ajouter les détails du film si on ne l'a pas déjà
         if film_id not in films_dict:
             film_details = fetch_film_details(film_id)
+
+            # Vérifier si le titre est présent, si non, on arrête tout, problème de connection avec API Veezi
+            if not film_details.get("title"):
+                print(f"⚠️ Film {film_id} sans titre, arrêt du processus.")
+                sys.exit(1)  # Arrête complètement le script
+            
             films_dict[film_id] = enrich_film_dict(film_id, film_details)
 
         # ✅ Ne rien faire si pas d'attributs
