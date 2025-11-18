@@ -311,7 +311,7 @@ def main():
     temp_file = "films_temp.json"
     
     if not sessions:
-        print("⚠️ Aucune séance récupérée, création d'un fichier vide.")
+        print("⚠️ Aucune séance récupérée, arrêt du processus.")
         return  # on sort proprement de main()
 
     data = transform_data(sessions)
