@@ -2,13 +2,6 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
-      "ShortName": "2 POUR 1",
-      "Description": "Un billet gratuit à l'achat d'un billet régulier",
-      "FontColor": "#ffffff",
-      "BackgroundColor": "#000000",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
       "ShortName": "DERNIÈRE",
       "Description": "//",
       "FontColor": "#666666",
@@ -615,9 +608,7 @@
           {
             "session_id": 30944,
             "heure": "19:15",
-            "attributs": [
-              "2 POUR 1"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -627,7 +618,6 @@
             "session_id": 30956,
             "heure": "19:15",
             "attributs": [
-              "2 POUR 1",
               "DERNIÈRE"
             ],
             "salle": "1",
