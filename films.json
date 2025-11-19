@@ -644,7 +644,7 @@
       "OpeningDate": "2025-11-21",
       "synopsis": "Dernière partie de l'adaptation du conte musical qui suit Elphaba et Glinda alors qu'elles doivent s'unir une dernière fois face à une foule en colère contre la \"Méchante Sorcière\". Leur amitié devient le pivot de leur avenir, les poussant à se comprendre honnêtement pour changer le destin d'Oz, de leur propre sort.",
       "classification": "G",
-      "duree": 128,
+      "duree": 137,
       "genre": "Fantasy",
       "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005144",
@@ -715,7 +715,7 @@
         "2025-11-28": [
           {
             "session_id": 31005,
-            "heure": "18:55",
+            "heure": "18:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -724,14 +724,14 @@
         "2025-11-29": [
           {
             "session_id": 30982,
-            "heure": "12:55",
+            "heure": "12:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           },
           {
             "session_id": 30988,
-            "heure": "18:55",
+            "heure": "18:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -740,14 +740,14 @@
         "2025-11-30": [
           {
             "session_id": 30994,
-            "heure": "12:55",
+            "heure": "12:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           },
           {
             "session_id": 31000,
-            "heure": "18:55",
+            "heure": "18:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -756,7 +756,7 @@
         "2025-12-03": [
           {
             "session_id": 31011,
-            "heure": "18:55",
+            "heure": "18:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -765,15 +765,17 @@
         "2025-12-04": [
           {
             "session_id": 31017,
-            "heure": "18:55",
-            "attributs": [],
+            "heure": "18:45",
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "3",
             "placesDisponibles": 72
           }
         ]
       },
       "first_show": 1763769300,
-      "last_show": 1764892500
+      "last_show": 1764891900
     },
     {
       "id": "ST00001804",
