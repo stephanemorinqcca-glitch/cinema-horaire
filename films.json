@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-19",
+    "next_show_date": "2025-11-20",
     "next_show_time": "18:55"
   },
   "films": [
@@ -50,15 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=BYAQgmWAcEc",
       "content": "Violence | Action d'anticipation",
       "horaire": {
-        "2025-11-19": [
-          {
-            "session_id": 30914,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-20": [
           {
             "session_id": 30916,
@@ -130,7 +121,7 @@
           }
         ]
       },
-      "first_show": 1763596500,
+      "first_show": 1763682900,
       "last_show": 1764287700
     },
     {
@@ -148,15 +139,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-11-19": [
-          {
-            "session_id": 30894,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-11-20": [
           {
             "session_id": 30896,
@@ -226,7 +208,7 @@
           }
         ]
       },
-      "first_show": 1763596500,
+      "first_show": 1763682900,
       "last_show": 1764288900
     },
     {
@@ -244,15 +226,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=1PWsK8NgUO0",
       "content": "Spectacle musical",
       "horaire": {
-        "2025-11-19": [
-          {
-            "session_id": 30921,
-            "heure": "19:00",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-11-20": [
           {
             "session_id": 30922,
@@ -265,7 +238,7 @@
           }
         ]
       },
-      "first_show": 1763596800,
+      "first_show": 1763683200,
       "last_show": 1763683200
     },
     {
@@ -283,17 +256,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-11-19": [
-          {
-            "session_id": 30874,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-20": [
           {
             "session_id": 30876,
@@ -452,7 +414,7 @@
           }
         ]
       },
-      "first_show": 1763597100,
+      "first_show": 1763683500,
       "last_show": 1764893100
     },
     {
@@ -470,17 +432,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-19": [
-          {
-            "session_id": 30884,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-20": [
           {
             "session_id": 30886,
@@ -566,7 +517,7 @@
           }
         ]
       },
-      "first_show": 1763597100,
+      "first_show": 1763683500,
       "last_show": 1764288300
     },
     {
@@ -584,15 +535,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-19": [
-          {
-            "session_id": 30904,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-11-20": [
           {
             "session_id": 30906,
@@ -635,7 +577,7 @@
           }
         ]
       },
-      "first_show": 1763597700,
+      "first_show": 1763684100,
       "last_show": 1763943300
     },
     {
