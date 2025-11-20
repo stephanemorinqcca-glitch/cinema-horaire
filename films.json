@@ -233,8 +233,8 @@
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
@@ -540,8 +540,8 @@
             "session_id": 30906,
             "heure": "19:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2025-11-21": [
