@@ -31,8 +31,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-11-20",
-    "next_show_time": "18:55"
+    "next_show_date": "2025-11-21",
+    "next_show_time": "18:45"
   },
   "films": [
     {
@@ -50,15 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=BYAQgmWAcEc",
       "content": "Violence | Action d'anticipation",
       "horaire": {
-        "2025-11-20": [
-          {
-            "session_id": 30916,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-11-21": [
           {
             "session_id": 31048,
@@ -121,125 +112,151 @@
           }
         ]
       },
-      "first_show": 1763682900,
+      "first_show": 1763768700,
       "last_show": 1764287700
     },
     {
-      "id": "ST00001738",
-      "titre": "PRÉDATEUR: BADLANDS",
-      "OpeningDate": "2025-11-07",
-      "synopsis": "Après la mort de son frère Kwei, Dek est exclu de son clan et se retrouve dans un endroit hostile, la planète Genna. Les lieux regorgent de créatures menaçantes, mais Dek est bien déterminé à combattre Kalisk, un monstre gigantesque, pour prouver aux siens qu’il mérite sa place parmi eux. Sur son chemin, il fait la rencontre de l’androïde Thia qui propose de l’accompagner dans sa quête remplie de dangers.",
+      "id": "ST00001744",
+      "titre": "WICKED: POUR DE BON",
+      "OpeningDate": "2025-11-21",
+      "synopsis": "Dernière partie de l'adaptation du conte musical qui suit Elphaba et Glinda alors qu'elles doivent s'unir une dernière fois face à une foule en colère contre la \"Méchante Sorcière\". Leur amitié devient le pivot de leur avenir, les poussant à se comprendre honnêtement pour changer le destin d'Oz, de leur propre sort.",
       "classification": "G",
-      "duree": 107,
-      "genre": "Sci-Fi",
+      "duree": 137,
+      "genre": "Fantasy",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005076",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005074",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005144",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005142",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
-      "content": "DAJE | Aventures de science-fiction",
+      "bande_annonce": "https://youtu.be/l-xXZhYJKbo",
+      "content": "Conte musical | **b*#x2605; DEUXIÈME PARTIE #x2605;**",
       "horaire": {
-        "2025-11-20": [
+        "2025-11-21": [
           {
-            "session_id": 30896,
+            "session_id": 31028,
             "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-22": [
+          {
+            "session_id": 31059,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31030,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-23": [
+          {
+            "session_id": 31061,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31032,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-26": [
+          {
+            "session_id": 31034,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-27": [
+          {
+            "session_id": 31036,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-11-28": [
+          {
+            "session_id": 31005,
+            "heure": "18:45",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           }
         ],
-        "2025-11-21": [
+        "2025-11-29": [
           {
-            "session_id": 30961,
-            "heure": "19:15",
+            "session_id": 30982,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-11-22": [
-          {
-            "session_id": 30936,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
-            "session_id": 30943,
-            "heure": "19:15",
+            "session_id": 30988,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
-        "2025-11-23": [
+        "2025-11-30": [
           {
-            "session_id": 30948,
-            "heure": "13:15",
+            "session_id": 30994,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
-            "session_id": 30955,
-            "heure": "19:15",
+            "session_id": 31000,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
-        "2025-11-26": [
+        "2025-12-03": [
           {
-            "session_id": 30967,
-            "heure": "19:15",
+            "session_id": 31011,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
-        "2025-11-27": [
+        "2025-12-04": [
           {
-            "session_id": 30973,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1763682900,
-      "last_show": 1764288900
-    },
-    {
-      "id": "ST00001790",
-      "titre": "COWBOYS FRINGANTS: QUÉBEC / 14/01/23",
-      "OpeningDate": "2025-11-14",
-      "synopsis": "Les  Cowboys  Fringants  comme  vous  ne  les avez  jamais  vus!  (Re)vivez  l’ambiance magique d’un spectacle du groupe, comme si vous étiez sur scène avec eux. Vingt ans  après  la  captation  historique  des  Cowboys  Fringants  au  Centre  Bell  en  2003,qui  mettait  ﬁn  à  la  tournée  exceptionnelle  de Break  syndical,  le  groupe  a  récidivé en  janvier  2023  avec  un  concert-événement  ﬁlmé  au  Centre  Vidéotron  pendant la  tournée Les  Antipodes qui  a  brisé  tous  les  records  d’assistance  et  de  vente  de billets.  Les  Cowboys  Fringants  ont  l’habitude  des  concerts  à  grand  déploiement,eux  qui  ont  rempli  à  pleine  capacité  et  à  maintes  reprises  le  Centre  Bell  et  le Centre Vidéotron, ainsi que des dizaines d’arénas en Europe francophone. Une foule festive,  une  communion  incomparable  avec  le  public,  des  fans  visiblement  émus,des images cinématographiques époustouﬂantes et les grands hymnes du groupe,cette nouvelle captation rappelle les ﬁlms de concerts rock historiques!\r\n**b*Billet 25$ | Aucun laissez-passer accepté\r\nVente de billets sur place seulement, pour la séance en cours, aux personnes présentes**",
-      "classification": "G",
-      "duree": 109,
-      "genre": "Musical",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005096",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005094",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=1PWsK8NgUO0",
-      "content": "Spectacle musical",
-      "horaire": {
-        "2025-11-20": [
-          {
-            "session_id": 30922,
-            "heure": "19:00",
+            "session_id": 31017,
+            "heure": "18:45",
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ]
       },
-      "first_show": 1763683200,
-      "last_show": 1763683200
+      "first_show": 1763769300,
+      "last_show": 1764891900
     },
     {
       "id": "ST00001742",
@@ -256,17 +273,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-11-20": [
-          {
-            "session_id": 30876,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-11-21": [
           {
             "session_id": 31038,
@@ -414,7 +420,7 @@
           }
         ]
       },
-      "first_show": 1763683500,
+      "first_show": 1763769900,
       "last_show": 1764893100
     },
     {
@@ -432,17 +438,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
       "content": "Drame sentimental",
       "horaire": {
-        "2025-11-20": [
-          {
-            "session_id": 30886,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-11-21": [
           {
             "session_id": 31058,
@@ -456,13 +451,11 @@
         ],
         "2025-11-22": [
           {
-            "session_id": 31059,
+            "session_id": 31029,
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
             "session_id": 31060,
@@ -476,13 +469,11 @@
         ],
         "2025-11-23": [
           {
-            "session_id": 31061,
+            "session_id": 31031,
             "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
             "session_id": 31062,
@@ -517,7 +508,7 @@
           }
         ]
       },
-      "first_show": 1763683500,
+      "first_show": 1763769900,
       "last_show": 1764288300
     },
     {
@@ -535,15 +526,6 @@
       "bande_annonce": "https://vimeo.com/1099415314",
       "content": "Aventures fantastiques",
       "horaire": {
-        "2025-11-20": [
-          {
-            "session_id": 30906,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-11-21": [
           {
             "session_id": 30962,
@@ -577,147 +559,86 @@
           }
         ]
       },
-      "first_show": 1763684100,
+      "first_show": 1763770500,
       "last_show": 1763943300
     },
     {
-      "id": "ST00001744",
-      "titre": "WICKED: POUR DE BON",
-      "OpeningDate": "2025-11-21",
-      "synopsis": "Dernière partie de l'adaptation du conte musical qui suit Elphaba et Glinda alors qu'elles doivent s'unir une dernière fois face à une foule en colère contre la \"Méchante Sorcière\". Leur amitié devient le pivot de leur avenir, les poussant à se comprendre honnêtement pour changer le destin d'Oz, de leur propre sort.",
+      "id": "ST00001738",
+      "titre": "PRÉDATEUR: BADLANDS",
+      "OpeningDate": "2025-11-07",
+      "synopsis": "Après la mort de son frère Kwei, Dek est exclu de son clan et se retrouve dans un endroit hostile, la planète Genna. Les lieux regorgent de créatures menaçantes, mais Dek est bien déterminé à combattre Kalisk, un monstre gigantesque, pour prouver aux siens qu’il mérite sa place parmi eux. Sur son chemin, il fait la rencontre de l’androïde Thia qui propose de l’accompagner dans sa quête remplie de dangers.",
       "classification": "G",
-      "duree": 137,
-      "genre": "Fantasy",
+      "duree": 107,
+      "genre": "Sci-Fi",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005144",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005142",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005076",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005074",
       "banniere": "",
-      "bande_annonce": "https://youtu.be/l-xXZhYJKbo",
-      "content": "Conte musical | **b*#x2605; DEUXIÈME PARTIE #x2605;**",
+      "bande_annonce": "https://www.youtube.com/watch?v=iQuqvUjC8k8",
+      "content": "DAJE | Aventures de science-fiction",
       "horaire": {
         "2025-11-21": [
           {
-            "session_id": 31028,
-            "heure": "18:55",
+            "session_id": 30961,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-22": [
           {
-            "session_id": 31029,
-            "heure": "12:55",
+            "session_id": 30936,
+            "heure": "13:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31030,
-            "heure": "18:55",
+            "session_id": 30943,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-23": [
           {
-            "session_id": 31031,
-            "heure": "12:55",
+            "session_id": 30948,
+            "heure": "13:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31032,
-            "heure": "18:55",
+            "session_id": 30955,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-26": [
           {
-            "session_id": 31034,
-            "heure": "18:55",
+            "session_id": 30967,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-11-27": [
           {
-            "session_id": 31036,
-            "heure": "18:55",
+            "session_id": 30973,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2025-11-28": [
-          {
-            "session_id": 31005,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-29": [
-          {
-            "session_id": 30982,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 30988,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-11-30": [
-          {
-            "session_id": 30994,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31000,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-12-03": [
-          {
-            "session_id": 31011,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2025-12-04": [
-          {
-            "session_id": 31017,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ]
       },
-      "first_show": 1763769300,
-      "last_show": 1764891900
+      "first_show": 1763770500,
+      "last_show": 1764288900
     },
     {
       "id": "ST00001804",
@@ -760,6 +681,102 @@
       },
       "first_show": 1763835300,
       "last_show": 1763921700
+    },
+    {
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Judy et Nick se retrouvent sur la piste sinueuse d'un grand mystère lorsque Gary De'Snake arrive à Zootopia et met la métropole animale sens dessus dessous. Pour résoudre l'affaire, ils doivent s'infiltrer dans de nouveaux quartiers imprévisibles de la ville, où leur coopération grandissante est mise à rude épreuve.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
+      "horaire": {
+        "2025-11-26": [
+          {
+            "session_id": 30968,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-27": [
+          {
+            "session_id": 30974,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-28": [
+          {
+            "session_id": 31010,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-29": [
+          {
+            "session_id": 30986,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 30992,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-11-30": [
+          {
+            "session_id": 30998,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31004,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-12-03": [
+          {
+            "session_id": 31016,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2025-12-04": [
+          {
+            "session_id": 31022,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1764200700,
+      "last_show": 1764891900
     }
   ]
 }
