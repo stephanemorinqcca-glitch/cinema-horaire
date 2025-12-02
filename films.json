@@ -21,6 +21,13 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VA",
+      "Description": "Version en Anglais",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
@@ -56,16 +63,43 @@
           {
             "session_id": 31017,
             "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-05": [
+          {
+            "session_id": 31289,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-12-06": [
+          {
+            "session_id": 31290,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2025-12-07": [
+          {
+            "session_id": 31291,
+            "heure": "12:45",
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
       "first_show": 1764805500,
-      "last_show": 1764891900
+      "last_show": 1765129500
     },
     {
       "id": "ST00001746",
@@ -821,6 +855,181 @@
       },
       "first_show": 1764957900,
       "last_show": 1766102700
+    },
+    {
+      "id": "ST00001842",
+      "titre": "JUJUTSU KAISEN: EXECUTION",
+      "OpeningDate": "2025-12-05",
+      "synopsis": "A veil abruptly descends over the busy Shibuya area amid the bustling Halloween crowds, trapping countless civilians inside. Satoru Gojo, the strongest jujutsu sorcerer, steps into the chaos. But lying in wait are curse users and spirits scheming to seal him away. Yuji Itadori, accompanied by his classmates and other top-tier jujutsu sorcerers, enters the fray in an unprecedented clash of curses — the Shibuya Incident. In the aftermath, ten colonies across Japan are transformed into dens of curses in a plan orchestrated by Noritoshi Kamo, the most wicked sorcerer in history. As the deadly Culling Game starts, Special Grade sorcerer Yuta Okkotsu is assigned to carry out Yuji’s execution for his perceived crimes. The desperate confrontation between Satoru Gojo’s two beloved students comes to the big screen with an early preview. Be the first to experience Yuji and Yuta’s fateful battle with the hotly anticipated kickoff to Season 3 in theatres nationwide.",
+      "classification": null,
+      "duree": 90,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005200",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005198",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=z_iZFGcwHss",
+      "content": "Animation fantastique",
+      "horaire": {
+        "2025-12-05": [
+          {
+            "session_id": 31117,
+            "heure": "13:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31118,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-06": [
+          {
+            "session_id": 31119,
+            "heure": "13:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31120,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-07": [
+          {
+            "session_id": 31121,
+            "heure": "13:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31122,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-10": [
+          {
+            "session_id": 31124,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-11": [
+          {
+            "session_id": 31126,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-12": [
+          {
+            "session_id": 31177,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-13": [
+          {
+            "session_id": 31157,
+            "heure": "13:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31162,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-14": [
+          {
+            "session_id": 31167,
+            "heure": "13:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31172,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-17": [
+          {
+            "session_id": 31182,
+            "heure": "19:15",
+            "attributs": [
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2025-12-18": [
+          {
+            "session_id": 31187,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE",
+              "VA"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1764958500,
+      "last_show": 1766103300
     }
   ]
 }
