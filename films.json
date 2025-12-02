@@ -28,6 +28,13 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VOJSTA",
+      "Description": "Version Originale Japonaise Sous-Titrée en Anglais",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
@@ -868,7 +875,7 @@
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005200",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005198",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=z_iZFGcwHss",
+      "bande_annonce": "https://www.youtube.com/watch?v=cYnZIDtaMT8",
       "content": "Animation fantastique",
       "horaire": {
         "2025-12-05": [
@@ -876,7 +883,7 @@
             "session_id": 31117,
             "heure": "13:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -885,7 +892,7 @@
             "session_id": 31118,
             "heure": "19:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -896,7 +903,7 @@
             "session_id": 31119,
             "heure": "13:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -905,7 +912,7 @@
             "session_id": 31120,
             "heure": "19:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -916,7 +923,7 @@
             "session_id": 31121,
             "heure": "13:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -925,7 +932,7 @@
             "session_id": 31122,
             "heure": "19:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -936,7 +943,7 @@
             "session_id": 31124,
             "heure": "19:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
@@ -947,7 +954,7 @@
             "session_id": 31126,
             "heure": "19:15",
             "attributs": [
-              "VA"
+              "VOJSTA"
             ],
             "salle": "3",
             "placesDisponibles": 72
