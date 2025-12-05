@@ -38,8 +38,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-04",
-    "next_show_time": "18:45"
+    "next_show_date": "2025-12-05",
+    "next_show_time": "12:45"
   },
   "films": [
     {
@@ -57,15 +57,6 @@
       "bande_annonce": "https://youtu.be/l-xXZhYJKbo",
       "content": "Conte musical | **b*#x2605; DEUXIÈME PARTIE #x2605;**",
       "horaire": {
-        "2025-12-04": [
-          {
-            "session_id": 31017,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-05": [
           {
             "session_id": 31289,
@@ -96,7 +87,7 @@
           }
         ]
       },
-      "first_show": 1764891900,
+      "first_show": 1764956700,
       "last_show": 1765129500
     },
     {
@@ -114,15 +105,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-04": [
-          {
-            "session_id": 31022,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-05": [
           {
             "session_id": 31078,
@@ -249,7 +231,7 @@
           }
         ]
       },
-      "first_show": 1764891900,
+      "first_show": 1764956700,
       "last_show": 1766101500
     },
     {
@@ -267,17 +249,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-12-04": [
-          {
-            "session_id": 31018,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-05": [
           {
             "session_id": 31079,
@@ -435,195 +406,8 @@
           }
         ]
       },
-      "first_show": 1764893100,
+      "first_show": 1764957300,
       "last_show": 1766102100
-    },
-    {
-      "id": "ST00001772",
-      "titre": "ON TE REGRETTE",
-      "OpeningDate": "2025-10-24",
-      "synopsis": "Après un accident de la route mortel, Morgan Grant apprend une cruelle vérité sur son mari. Profondément bouleversée par la tragédie, elle essaie de protéger sa fille Clara, une adolescente fragile et vulnérable qui traverse une période difficile alors qu'elle fait ses premiers pas dans le monde des adultes. Les deux protagonistes sortent de leur marasme et reprennent le goût à la vie et aux joies du quotidien grâce à un soutien émotif mutuel et inconditionnel.",
-      "classification": "G",
-      "duree": 116,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004911",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004909",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=CmPaBuohSJc",
-      "content": "Drame sentimental",
-      "horaire": {
-        "2025-12-04": [
-          {
-            "session_id": 31148,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1764893100,
-      "last_show": 1764893100
-    },
-    {
-      "id": "ST00001802",
-      "titre": "LES FURIES",
-      "OpeningDate": "2025-11-28",
-      "synopsis": "Après avoir appris que son demi-frère, gérant de l’aréna, a retiré toutes les plages horaires consacrées aux sports féminins pour favoriser l’équipe masculine de hockey locale, Mélissa, elle-même hockeyeuse, l’agresse. Condamnée à effectuer des travaux communautaires, l’entrepreneuse en construction, séparée et mère de jumeaux, est confiée aux bons soins du cercle de fermières, avec un plan d’intervention visant à canaliser sa colère. Éva, une jeune cheerleader, et Yvette, une aînée en perte d’autonomie, participent également aux ateliers. Lorsqu’Yvette, ancienne championne de roller derby, propose d’abandonner le tricot pour former une équipe dont elle serait l’entraîneuse, Mélissa, d’abord réticente, y voit l’occasion de renouer avec le sport, essentiel à son équilibre. Une fois que l’équipe a été formée avec des femmes de leur entourage aussi inexpérimentées les unes que les autres, l’entraînement peut enfin commencer.",
-      "classification": "G",
-      "duree": 107,
-      "genre": "Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005068",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005066",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/8aV7GRK-8Ck",
-      "content": "Comédie sportive",
-      "horaire": {
-        "2025-12-04": [
-          {
-            "session_id": 31076,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2025-12-05": [
-          {
-            "session_id": 31114,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31083,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-06": [
-          {
-            "session_id": 31115,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31092,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-07": [
-          {
-            "session_id": 31116,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31101,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-10": [
-          {
-            "session_id": 31106,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-11": [
-          {
-            "session_id": 31111,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-12": [
-          {
-            "session_id": 31176,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-13": [
-          {
-            "session_id": 31156,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31161,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-14": [
-          {
-            "session_id": 31166,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31171,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-17": [
-          {
-            "session_id": 31181,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2025-12-18": [
-          {
-            "session_id": 31186,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1764893700,
-      "last_show": 1766103300
     },
     {
       "id": "ST00001748",
@@ -977,6 +761,152 @@
       },
       "first_show": 1764958500,
       "last_show": 1766016900
+    },
+    {
+      "id": "ST00001802",
+      "titre": "LES FURIES",
+      "OpeningDate": "2025-11-28",
+      "synopsis": "Après avoir appris que son demi-frère, gérant de l’aréna, a retiré toutes les plages horaires consacrées aux sports féminins pour favoriser l’équipe masculine de hockey locale, Mélissa, elle-même hockeyeuse, l’agresse. Condamnée à effectuer des travaux communautaires, l’entrepreneuse en construction, séparée et mère de jumeaux, est confiée aux bons soins du cercle de fermières, avec un plan d’intervention visant à canaliser sa colère. Éva, une jeune cheerleader, et Yvette, une aînée en perte d’autonomie, participent également aux ateliers. Lorsqu’Yvette, ancienne championne de roller derby, propose d’abandonner le tricot pour former une équipe dont elle serait l’entraîneuse, Mélissa, d’abord réticente, y voit l’occasion de renouer avec le sport, essentiel à son équilibre. Une fois que l’équipe a été formée avec des femmes de leur entourage aussi inexpérimentées les unes que les autres, l’entraînement peut enfin commencer.",
+      "classification": "G",
+      "duree": 107,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005068",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005066",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/8aV7GRK-8Ck",
+      "content": "Comédie sportive",
+      "horaire": {
+        "2025-12-05": [
+          {
+            "session_id": 31114,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31083,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-06": [
+          {
+            "session_id": 31115,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31092,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-07": [
+          {
+            "session_id": 31116,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31101,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-10": [
+          {
+            "session_id": 31106,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-11": [
+          {
+            "session_id": 31111,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-12": [
+          {
+            "session_id": 31176,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-13": [
+          {
+            "session_id": 31156,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31161,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-14": [
+          {
+            "session_id": 31166,
+            "heure": "13:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31171,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-17": [
+          {
+            "session_id": 31181,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-18": [
+          {
+            "session_id": 31186,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1764958500,
+      "last_show": 1766103300
     }
   ]
 }
