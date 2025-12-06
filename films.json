@@ -38,7 +38,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-05",
+    "next_show_date": "2025-12-06",
     "next_show_time": "12:45"
   },
   "films": [
@@ -57,15 +57,6 @@
       "bande_annonce": "https://youtu.be/l-xXZhYJKbo",
       "content": "Conte musical | **b*#x2605; DEUXIÈME PARTIE #x2605;**",
       "horaire": {
-        "2025-12-05": [
-          {
-            "session_id": 31289,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-12-06": [
           {
             "session_id": 31290,
@@ -87,7 +78,7 @@
           }
         ]
       },
-      "first_show": 1764956700,
+      "first_show": 1765043100,
       "last_show": 1765129500
     },
     {
@@ -105,22 +96,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-05": [
-          {
-            "session_id": 31078,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31082,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-06": [
           {
             "session_id": 31087,
@@ -231,7 +206,7 @@
           }
         ]
       },
-      "first_show": 1764956700,
+      "first_show": 1765043100,
       "last_show": 1766101500
     },
     {
@@ -249,64 +224,36 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-12-05": [
-          {
-            "session_id": 31079,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31084,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-12-06": [
           {
-            "session_id": 31088,
+            "session_id": 31115,
             "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31093,
+            "session_id": 31092,
             "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-12-07": [
           {
-            "session_id": 31097,
+            "session_id": 31116,
             "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31102,
+            "session_id": 31101,
             "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-12-10": [
@@ -406,7 +353,7 @@
           }
         ]
       },
-      "first_show": 1764957300,
+      "first_show": 1765043700,
       "last_show": 1766102100
     },
     {
@@ -424,28 +371,6 @@
       "bande_annonce": "https://youtu.be/AWVMudZyNDE",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-12-05": [
-          {
-            "session_id": 31080,
-            "heure": "13:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31085,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-06": [
           {
             "session_id": 31089,
@@ -595,7 +520,7 @@
           }
         ]
       },
-      "first_show": 1764957900,
+      "first_show": 1765044300,
       "last_show": 1766102700
     },
     {
@@ -613,26 +538,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=cYnZIDtaMT8",
       "content": "Violence | Horreur | Animation",
       "horaire": {
-        "2025-12-05": [
-          {
-            "session_id": 31117,
-            "heure": "13:15",
-            "attributs": [
-              "VOSTA"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31118,
-            "heure": "19:15",
-            "attributs": [
-              "VOSTA"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-06": [
           {
             "session_id": 31119,
@@ -759,7 +664,7 @@
           }
         ]
       },
-      "first_show": 1764958500,
+      "first_show": 1765044900,
       "last_show": 1766016900
     },
     {
@@ -777,52 +682,44 @@
       "bande_annonce": "https://youtu.be/8aV7GRK-8Ck",
       "content": "Comédie sportive",
       "horaire": {
-        "2025-12-05": [
-          {
-            "session_id": 31114,
-            "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31083,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-12-06": [
           {
-            "session_id": 31115,
+            "session_id": 31088,
             "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 31092,
+            "session_id": 31093,
             "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2025-12-07": [
           {
-            "session_id": 31116,
+            "session_id": 31097,
             "heure": "13:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 31101,
+            "session_id": 31102,
             "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2025-12-10": [
@@ -905,7 +802,7 @@
           }
         ]
       },
-      "first_show": 1764958500,
+      "first_show": 1765044900,
       "last_show": 1766103300
     }
   ]
