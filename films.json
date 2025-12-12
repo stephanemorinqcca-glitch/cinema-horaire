@@ -35,17 +35,10 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VOSTA",
-      "Description": "Version Originale Sous-Titrée en Anglais",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-11",
+    "next_show_date": "2025-12-12",
     "next_show_time": "18:45"
   },
   "films": [
@@ -64,15 +57,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-11": [
-          {
-            "session_id": 31110,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-12": [
           {
             "session_id": 31173,
@@ -374,7 +358,7 @@
           }
         ]
       },
-      "first_show": 1765496700,
+      "first_show": 1765583100,
       "last_show": 1767203100
     },
     {
@@ -392,15 +376,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-12-11": [
-          {
-            "session_id": 31111,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-12-12": [
           {
             "session_id": 31176,
@@ -463,7 +438,7 @@
           }
         ]
       },
-      "first_show": 1765497300,
+      "first_show": 1765583700,
       "last_show": 1766102100
     },
     {
@@ -481,18 +456,6 @@
       "bande_annonce": "https://youtu.be/AWVMudZyNDE",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-12-11": [
-          {
-            "session_id": 31113,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-12": [
           {
             "session_id": 31175,
@@ -706,7 +669,7 @@
           }
         ]
       },
-      "first_show": 1765497900,
+      "first_show": 1765584300,
       "last_show": 1766599500
     },
     {
@@ -724,17 +687,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=cYnZIDtaMT8",
       "content": "Violence | Horreur | Animation",
       "horaire": {
-        "2025-12-11": [
-          {
-            "session_id": 31126,
-            "heure": "19:15",
-            "attributs": [
-              "VOSTA"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-12": [
           {
             "session_id": 31177,
@@ -799,7 +751,7 @@
           }
         ]
       },
-      "first_show": 1765498500,
+      "first_show": 1765584900,
       "last_show": 1766016900
     },
     {
@@ -817,17 +769,6 @@
       "bande_annonce": "https://youtu.be/8aV7GRK-8Ck",
       "content": "Comédie sportive",
       "horaire": {
-        "2025-12-11": [
-          {
-            "session_id": 31112,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-12-12": [
           {
             "session_id": 31174,
@@ -903,7 +844,7 @@
           }
         ]
       },
-      "first_show": 1765498500,
+      "first_show": 1765584900,
       "last_show": 1766103300
     },
     {
