@@ -38,8 +38,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-12",
-    "next_show_time": "18:45"
+    "next_show_date": "2025-12-13",
+    "next_show_time": "12:45"
   },
   "films": [
     {
@@ -57,15 +57,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-12": [
-          {
-            "session_id": 31173,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-13": [
           {
             "session_id": 31153,
@@ -358,7 +349,7 @@
           }
         ]
       },
-      "first_show": 1765583100,
+      "first_show": 1765647900,
       "last_show": 1767203100
     },
     {
@@ -376,15 +367,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-12-12": [
-          {
-            "session_id": 31176,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-12-13": [
           {
             "session_id": 31156,
@@ -438,7 +420,7 @@
           }
         ]
       },
-      "first_show": 1765583700,
+      "first_show": 1765648500,
       "last_show": 1766102100
     },
     {
@@ -456,18 +438,6 @@
       "bande_annonce": "https://youtu.be/AWVMudZyNDE",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-12-12": [
-          {
-            "session_id": 31175,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-13": [
           {
             "session_id": 31155,
@@ -669,7 +639,7 @@
           }
         ]
       },
-      "first_show": 1765584300,
+      "first_show": 1765649100,
       "last_show": 1766599500
     },
     {
@@ -684,20 +654,9 @@
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005200",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005198",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=cYnZIDtaMT8",
+      "bande_annonce": "https://www.youtube.com/watch?v=z_iZFGcwHss",
       "content": "Violence | Horreur | Animation",
       "horaire": {
-        "2025-12-12": [
-          {
-            "session_id": 31177,
-            "heure": "19:15",
-            "attributs": [
-              "VA"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-13": [
           {
             "session_id": 31157,
@@ -751,7 +710,7 @@
           }
         ]
       },
-      "first_show": 1765584900,
+      "first_show": 1765649700,
       "last_show": 1766016900
     },
     {
@@ -769,17 +728,6 @@
       "bande_annonce": "https://youtu.be/8aV7GRK-8Ck",
       "content": "Comédie sportive",
       "horaire": {
-        "2025-12-12": [
-          {
-            "session_id": 31174,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-12-13": [
           {
             "session_id": 31154,
@@ -844,7 +792,7 @@
           }
         ]
       },
-      "first_show": 1765584900,
+      "first_show": 1765649700,
       "last_show": 1766103300
     },
     {
