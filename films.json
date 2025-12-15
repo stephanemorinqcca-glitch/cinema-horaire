@@ -1836,6 +1836,351 @@
       },
       "first_show": 1766186700,
       "last_show": 1766532300
+    },
+    {
+      "id": "ST00001796",
+      "titre": "ANACONDA",
+      "OpeningDate": "2025-12-26",
+      "synopsis": "Doug et Griff, deux meilleurs amis d’enfance, ont toujours rêvé de faire un remake de leur film préféré : le « classique » du cinéma, Anaconda. En pleine crise de la cinquantaine, ils décident de se lancer et voyagent au cœur de l'Amazonie pour commencer le tournage. Mais les choses tournent mal lorsqu'un vrai anaconda géant fait son apparition, transformant leur plateau de tournage sympa et chaotique en un piège mortel. Le film qu'ils rêvent de réaliser ? Il pourrait bien leur coûter la vie...",
+      "classification": "13+",
+      "duree": 99,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
+      "content": "Comédie d'aventures",
+      "horaire": {
+        "2025-12-26": [
+          {
+            "session_id": 31310,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31313,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31318,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-12-27": [
+          {
+            "session_id": 31324,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31327,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31332,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-12-28": [
+          {
+            "session_id": 31338,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31341,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31346,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-12-29": [
+          {
+            "session_id": 31352,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31355,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31360,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-12-30": [
+          {
+            "session_id": 31366,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31369,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31374,
+            "heure": "19:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2025-12-31": [
+          {
+            "session_id": 31380,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-02": [
+          {
+            "session_id": 31402,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31405,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31411,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-03": [
+          {
+            "session_id": 31419,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31422,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31428,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-04": [
+          {
+            "session_id": 31436,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31439,
+            "heure": "15:35",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31445,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-05": [
+          {
+            "session_id": 31453,
+            "heure": "13:05",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31462,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-06": [
+          {
+            "session_id": 31479,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-07": [
+          {
+            "session_id": 31496,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-08": [
+          {
+            "session_id": 31513,
+            "heure": "19:15",
+            "attributs": [
+              "ATMOS®",
+              "DLX"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1766772300,
+      "last_show": 1767917700
     }
   ]
 }
