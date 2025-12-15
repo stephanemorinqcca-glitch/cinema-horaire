@@ -38,8 +38,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-14",
-    "next_show_time": "12:45"
+    "next_show_date": "2025-12-17",
+    "next_show_time": "18:45"
   },
   "films": [
     {
@@ -57,22 +57,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-14": [
-          {
-            "session_id": 31163,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31168,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-17": [
           {
             "session_id": 31178,
@@ -333,7 +317,7 @@
           }
         ]
       },
-      "first_show": 1765734300,
+      "first_show": 1766015100,
       "last_show": 1767203100
     },
     {
@@ -351,22 +335,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=f70iL7eZxMQ",
       "content": "Aventures",
       "horaire": {
-        "2025-12-14": [
-          {
-            "session_id": 31166,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31171,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-12-17": [
           {
             "session_id": 31181,
@@ -388,7 +356,7 @@
           }
         ]
       },
-      "first_show": 1765734900,
+      "first_show": 1766015700,
       "last_show": 1766102100
     },
     {
@@ -406,28 +374,6 @@
       "bande_annonce": "https://youtu.be/AWVMudZyNDE",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-12-14": [
-          {
-            "session_id": 31165,
-            "heure": "13:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31170,
-            "heure": "19:05",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-17": [
           {
             "session_id": 31180,
@@ -585,7 +531,7 @@
           }
         ]
       },
-      "first_show": 1765735500,
+      "first_show": 1766016300,
       "last_show": 1766599500
     },
     {
@@ -603,26 +549,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=z_iZFGcwHss",
       "content": "Violence | Horreur | Animation",
       "horaire": {
-        "2025-12-14": [
-          {
-            "session_id": 31167,
-            "heure": "13:15",
-            "attributs": [
-              "VA"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31172,
-            "heure": "19:15",
-            "attributs": [
-              "VA"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-17": [
           {
             "session_id": 31182,
@@ -636,7 +562,7 @@
           }
         ]
       },
-      "first_show": 1765736100,
+      "first_show": 1766016900,
       "last_show": 1766016900
     },
     {
@@ -654,26 +580,6 @@
       "bande_annonce": "https://youtu.be/8aV7GRK-8Ck",
       "content": "Comédie sportive",
       "horaire": {
-        "2025-12-14": [
-          {
-            "session_id": 31164,
-            "heure": "13:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31169,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-12-17": [
           {
             "session_id": 31179,
@@ -698,7 +604,7 @@
           }
         ]
       },
-      "first_show": 1765736100,
+      "first_show": 1766016900,
       "last_show": 1766103300
     },
     {
@@ -1075,8 +981,8 @@
       "duree": 89,
       "genre": "Animated ",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005148",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005146",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005254",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005252",
       "banniere": "",
       "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
       "content": "Animation",
