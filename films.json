@@ -21,17 +21,10 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VOA",
-      "Description": "Version Originale Anglaise",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-23",
+    "next_show_date": "2025-12-24",
     "next_show_time": "12:25"
   },
   "films": [
@@ -50,18 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QEYxedO-v3M",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31231,
-            "heure": "12:25",
-            "attributs": [
-              "ATMOS®",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-24": [
           {
             "session_id": 31241,
@@ -76,7 +57,7 @@
           }
         ]
       },
-      "first_show": 1766510700,
+      "first_show": 1766597100,
       "last_show": 1766597100
     },
     {
@@ -94,26 +75,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31256,
-            "heure": "12:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31257,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-24": [
           {
             "session_id": 31258,
@@ -350,7 +311,7 @@
           }
         ]
       },
-      "first_show": 1766510700,
+      "first_show": 1766597100,
       "last_show": 1767914700
     },
     {
@@ -368,35 +329,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31230,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31288,
-            "heure": "15:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31236,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-24": [
           {
             "session_id": 31240,
@@ -700,7 +632,7 @@
           }
         ]
       },
-      "first_show": 1766511300,
+      "first_show": 1766597700,
       "last_show": 1767916500
     },
     {
@@ -718,29 +650,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31229,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31279,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31234,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-12-24": [
           {
             "session_id": 31239,
@@ -987,7 +896,7 @@
           }
         ]
       },
-      "first_show": 1766511900,
+      "first_show": 1766598300,
       "last_show": 1767915900
     },
     {
@@ -1005,29 +914,6 @@
       "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
       "content": "Animation",
       "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31272,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31273,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31274,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-24": [
           {
             "session_id": 31275,
@@ -1276,7 +1162,7 @@
           }
         ]
       },
-      "first_show": 1766512500,
+      "first_show": 1766598900,
       "last_show": 1767917100
     },
     {
@@ -1294,29 +1180,6 @@
       "bande_annonce": "https://youtu.be/AWVMudZyNDE",
       "content": "Horreur | Suspense d'épouvante",
       "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31524,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31525,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31531,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2025-12-24": [
           {
             "session_id": 31526,
@@ -1329,40 +1192,8 @@
           }
         ]
       },
-      "first_show": 1766513100,
+      "first_show": 1766599500,
       "last_show": 1766599500
-    },
-    {
-      "id": "ST00001848",
-      "titre": "AVATAR: FIRE AND ASH",
-      "OpeningDate": "2025-12-19",
-      "synopsis": "On the planet Pandora, former soldier Jack Sully, a human who became a Na’vi, lives with his wife and children among a clan that thrives in harmony with water and marine creatures. The threat posed by Earth’s forces still looms over them, creating divisions within their community. When an old enemy of Jack allies with a hostile Na’vi clan that worships the power of fire, the Sully family must do everything in their power to protect their own.",
-      "classification": "G",
-      "duree": 197,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005234",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005232",
-      "banniere": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005230",
-      "bande_annonce": "https://www.youtube.com/watch?v=nb_fFj_0rq8",
-      "content": "DAJE | Aventures de science-fiction",
-      "horaire": {
-        "2025-12-23": [
-          {
-            "session_id": 31235,
-            "heure": "18:25",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX",
-              "VOA"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1766532300,
-      "last_show": 1766532300
     },
     {
       "id": "ST00001796",
