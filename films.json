@@ -2,13 +2,6 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
-      "ShortName": "ATMOS®",
-      "Description": "Son ambiophonique Dolby ATMOS®",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
       "ShortName": "DERNIÈRE",
       "Description": "//",
       "FontColor": "#666666",
@@ -24,42 +17,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-24",
+    "next_show_date": "2025-12-26",
     "next_show_time": "12:25"
   },
   "films": [
-    {
-      "id": "ST00001752",
-      "titre": "AVATAR: FEU ET CENDRE",
-      "OpeningDate": "2025-12-19",
-      "synopsis": "Sur la planète Pandora, l’ancien soldat Jack Sully, un humain devenu Na’vi, demeure avec sa femme et ses enfants au sein d’un clan vivant en harmonie avec l’eau et les créatures marines. La menace que représentent les troupes terriennes plane toujours sur eux, ce qui génère des divisions dans leur communauté. Lorsqu’un vieil ennemi de Jack entre en contact avec un clan Na’vi hostile qui vénère le pouvoir du feu, la famille Sully doit tout mettre en œuvre pour protéger les siens.",
-      "classification": "G",
-      "duree": 197,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005108",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005106",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=QEYxedO-v3M",
-      "content": "DAJE | Aventures de science-fiction",
-      "horaire": {
-        "2025-12-24": [
-          {
-            "session_id": 31241,
-            "heure": "12:25",
-            "attributs": [
-              "ATMOS®",
-              "DERNIÈRE",
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ]
-      },
-      "first_show": 1766597100,
-      "last_show": 1766597100
-    },
     {
       "id": "ST00001750",
       "titre": "AVATAR: FEU ET CENDRE (3D)",
@@ -75,17 +36,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-12-24": [
-          {
-            "session_id": 31258,
-            "heure": "12:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-26": [
           {
             "session_id": 31306,
@@ -311,7 +261,7 @@
           }
         ]
       },
-      "first_show": 1766597100,
+      "first_show": 1766769900,
       "last_show": 1767914700
     },
     {
@@ -329,17 +279,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2025-12-24": [
-          {
-            "session_id": 31240,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-12-26": [
           {
             "session_id": 31589,
@@ -580,15 +519,6 @@
             "placesDisponibles": 49
           },
           {
-            "session_id": 31573,
-            "heure": "15:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
             "session_id": 31574,
             "heure": "18:55",
             "attributs": [
@@ -632,7 +562,7 @@
           }
         ]
       },
-      "first_show": 1766597700,
+      "first_show": 1766770500,
       "last_show": 1767916500
     },
     {
@@ -650,15 +580,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-24": [
-          {
-            "session_id": 31239,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-12-26": [
           {
             "session_id": 31308,
@@ -896,7 +817,7 @@
           }
         ]
       },
-      "first_show": 1766598300,
+      "first_show": 1766771100,
       "last_show": 1767915900
     },
     {
@@ -914,15 +835,6 @@
       "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
       "content": "Animation",
       "horaire": {
-        "2025-12-24": [
-          {
-            "session_id": 31275,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-26": [
           {
             "session_id": 31309,
@@ -1162,38 +1074,8 @@
           }
         ]
       },
-      "first_show": 1766598900,
+      "first_show": 1766771700,
       "last_show": 1767917100
-    },
-    {
-      "id": "ST00001748",
-      "titre": "CINQ NUITS CHEZ FREDDY II",
-      "OpeningDate": "2025-12-05",
-      "synopsis": "En 1982, au restaurant Freddy Fazbear’s Pizza, une jeune fille est poignardée. Vingt ans plus tard, un groupe d’enquêteurs amateurs se rendent dans l’endroit en ruine à la recherche de réponses, mais leur visite tourne mal. Parallèlement, Vanessa et Mike tentent de reprendre une vie normale après les événements de l’année précédente. Ils n’ont toujours pas avoué à Abby, la sœur de 11 ans de Mike, le sort de ses amis animatroniques qui lui manquent. Mais lorsqu’Abby reçoit un message provenant de l’un d’eux, lui demandant de venir les retrouver à la pizzéria pour les aider, les choses commencent à s’envenimer.",
-      "classification": "13+",
-      "duree": 105,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005168",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005166",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/AWVMudZyNDE",
-      "content": "Horreur | Suspense d'épouvante",
-      "horaire": {
-        "2025-12-24": [
-          {
-            "session_id": 31526,
-            "heure": "13:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1766599500,
-      "last_show": 1766599500
     },
     {
       "id": "ST00001796",
