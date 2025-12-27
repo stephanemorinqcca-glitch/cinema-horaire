@@ -334,7 +334,7 @@
       "horaire": {
         "2025-12-27": [
           {
-            "session_id": 31692,
+            "session_id": 31703,
             "heure": "12:35",
             "attributs": [
               "DLX"
@@ -343,7 +343,7 @@
             "placesDisponibles": 75
           },
           {
-            "session_id": 31693,
+            "session_id": 31704,
             "heure": "15:25",
             "attributs": [
               "DLX"
@@ -352,13 +352,11 @@
             "placesDisponibles": 75
           },
           {
-            "session_id": 31691,
+            "session_id": 31707,
             "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2025-12-28": [
@@ -381,33 +379,31 @@
             "placesDisponibles": 75
           },
           {
-            "session_id": 31694,
+            "session_id": 31708,
             "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2025-12-29": [
+          {
+            "session_id": 31352,
+            "heure": "12:35",
             "attributs": [
               "DLX"
             ],
             "salle": "4",
             "placesDisponibles": 75
-          }
-        ],
-        "2025-12-29": [
-          {
-            "session_id": 31595,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
           },
           {
-            "session_id": 31596,
+            "session_id": 31355,
             "heure": "15:25",
             "attributs": [
               "DLX"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           },
           {
             "session_id": 31546,
@@ -419,22 +415,22 @@
         ],
         "2025-12-30": [
           {
-            "session_id": 31597,
+            "session_id": 31366,
             "heure": "12:35",
             "attributs": [
               "DLX"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           },
           {
-            "session_id": 31598,
+            "session_id": 31369,
             "heure": "15:25",
             "attributs": [
               "DLX"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           },
           {
             "session_id": 31549,
@@ -446,13 +442,13 @@
         ],
         "2025-12-31": [
           {
-            "session_id": 31588,
+            "session_id": 31380,
             "heure": "12:35",
             "attributs": [
               "DLX"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2026-01-02": [
@@ -1136,71 +1132,71 @@
         ],
         "2025-12-29": [
           {
-            "session_id": 31352,
+            "session_id": 31595,
             "heure": "13:05",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 31355,
+            "session_id": 31596,
             "heure": "15:35",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 31360,
+            "session_id": 31710,
             "heure": "19:15",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2025-12-30": [
           {
-            "session_id": 31366,
+            "session_id": 31597,
             "heure": "13:05",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 31369,
+            "session_id": 31598,
             "heure": "15:35",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 31374,
+            "session_id": 31712,
             "heure": "19:15",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2025-12-31": [
           {
-            "session_id": 31380,
+            "session_id": 31588,
             "heure": "13:05",
             "attributs": [
               "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-01-02": [
