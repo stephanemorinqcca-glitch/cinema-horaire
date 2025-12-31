@@ -17,7 +17,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2025-12-30",
+    "next_show_date": "2025-12-31",
     "next_show_time": "12:25"
   },
   "films": [
@@ -36,26 +36,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2025-12-30": [
-          {
-            "session_id": 31362,
-            "heure": "12:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31371,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2025-12-31": [
           {
             "session_id": 31376,
@@ -254,7 +234,7 @@
           }
         ]
       },
-      "first_show": 1767115500,
+      "first_show": 1767201900,
       "last_show": 1768519500
     },
     {
@@ -272,35 +252,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2025-12-30": [
-          {
-            "session_id": 31366,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31369,
-            "heure": "15:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31374,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2025-12-31": [
           {
             "session_id": 31380,
@@ -451,10 +402,83 @@
             "salle": "4",
             "placesDisponibles": 75
           }
+        ],
+        "2026-01-09": [
+          {
+            "session_id": 31675,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-10": [
+          {
+            "session_id": 31676,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31677,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-11": [
+          {
+            "session_id": 31678,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31679,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-14": [
+          {
+            "session_id": 31681,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-15": [
+          {
+            "session_id": 31683,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
         ]
       },
-      "first_show": 1767116100,
-      "last_show": 1767916500
+      "first_show": 1767202500,
+      "last_show": 1768521300
     },
     {
       "id": "ST00001746",
@@ -471,29 +495,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2025-12-30": [
-          {
-            "session_id": 31364,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31368,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31372,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2025-12-31": [
           {
             "session_id": 31378,
@@ -675,7 +676,7 @@
           }
         ]
       },
-      "first_show": 1767116700,
+      "first_show": 1767203100,
       "last_show": 1768520700
     },
     {
@@ -693,29 +694,6 @@
       "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
       "content": "Animation",
       "horaire": {
-        "2025-12-30": [
-          {
-            "session_id": 31365,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31367,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31375,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2025-12-31": [
           {
             "session_id": 31379,
@@ -899,7 +877,7 @@
           }
         ]
       },
-      "first_show": 1767117300,
+      "first_show": 1767203700,
       "last_show": 1768521300
     },
     {
@@ -917,35 +895,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
       "content": "Comédie d'aventures",
       "horaire": {
-        "2025-12-30": [
-          {
-            "session_id": 31597,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31598,
-            "heure": "15:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31712,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2025-12-31": [
           {
             "session_id": 31588,
@@ -1096,10 +1045,69 @@
             "salle": "6",
             "placesDisponibles": 49
           }
+        ],
+        "2026-01-09": [
+          {
+            "session_id": 31613,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-10": [
+          {
+            "session_id": 31672,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31627,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-11": [
+          {
+            "session_id": 31673,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31641,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-14": [
+          {
+            "session_id": 31655,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-15": [
+          {
+            "session_id": 31669,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
         ]
       },
-      "first_show": 1767117900,
-      "last_show": 1767917700
+      "first_show": 1767204300,
+      "last_show": 1768521900
     }
   ]
 }
