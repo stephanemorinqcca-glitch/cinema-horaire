@@ -2,6 +2,13 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
+      "ShortName": "+",
+      "Description": "Son amélioré",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
       "ShortName": "ATMOS®",
       "Description": "Son ambiophonique Dolby ATMOS®",
       "FontColor": "#666666",
@@ -576,7 +583,7 @@
       "id": "ST00001818",
       "titre": "PRIMATE",
       "OpeningDate": "2026-01-09",
-      "synopsis": "Des vacances sur une île tropicale tournent mal lorsque Ben, un chimpanzé adopté par une famille, devient soudainement violent après avoir été mordu par un animal enragé.",
+      "synopsis": "Le chimpanzé Ben a été entraîné pour communiquer avec Adam, son maître atteint de surdité. Ayant découvert une mangouste morte dans l’enclos de l’animal, Adam, qui doit s’absenter jusqu’au lendemain pour affaires, somme ses filles Lucy et Erin de ne pas laisser sortir Ben avant la visite du technicien en santé animale, car le singe doit être vacciné par mesure de précaution. Lorsque l’homme se présente pour traiter Ben, celui-ci l’attaque sauvagement, sans que les deux sœurs, qui font la fête avec des amis dans la maison, en aient connaissance. Désormais libre, la bête enragée cherche à s’en prendre à sa famille d’adoption qui trouve refuge dans la piscine de la propriété, seul lieu que le singe n’ose approcher.",
       "classification": "13+",
       "duree": 88,
       "genre": "Horror",
@@ -592,6 +599,7 @@
             "session_id": 31615,
             "heure": "19:15",
             "attributs": [
+              "+",
               "ATMOS®",
               "DLX"
             ],
