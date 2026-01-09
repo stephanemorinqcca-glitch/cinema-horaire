@@ -2,13 +2,6 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
-      "ShortName": "+",
-      "Description": "Son amélioré",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
       "ShortName": "ATMOS®",
       "Description": "Son ambiophonique Dolby ATMOS®",
       "FontColor": "#666666",
@@ -31,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-08",
+    "next_show_date": "2026-01-09",
     "next_show_time": "18:25"
   },
   "films": [
@@ -50,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-08": [
-          {
-            "session_id": 31510,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-09": [
           {
             "session_id": 31611,
@@ -208,7 +190,7 @@
           }
         ]
       },
-      "first_show": 1767914700,
+      "first_show": 1768001100,
       "last_show": 1769124300
     },
     {
@@ -226,15 +208,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-01-08": [
-          {
-            "session_id": 31511,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-01-09": [
           {
             "session_id": 31612,
@@ -295,8 +268,88 @@
           }
         ]
       },
-      "first_show": 1767915900,
+      "first_show": 1768002300,
       "last_show": 1768520700
+    },
+    {
+      "id": "ST00001754",
+      "titre": "BOB L'ÉPONGE LE FILM: À LA RECHERCHE DE BOB",
+      "OpeningDate": "2025-12-18",
+      "synopsis": "Bob l’éponge est persuadé qu’il est devenu un grand garçon en atteignant la hauteur de 36 palourdes. Une visite au parc d’attractions lui donne accès à de nouveaux manèges plus intenses. Bob l’éponge découvre alors qu’il a toujours la trouille. Il se confie à monsieur Krabs qui lui raconte des histoires de flibustiers intrépides. Avec son ami Patrick l’étoile de mer, Bob est envoyé dans le gouffre abyssal pour affronter ses peurs et ainsi prouver qu’il a l’étoffe d’un vrai flibustier.",
+      "classification": "G",
+      "duree": 89,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005254",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005252",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
+      "content": "Animation",
+      "horaire": {
+        "2026-01-09": [
+          {
+            "session_id": 31764,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-10": [
+          {
+            "session_id": 31765,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31766,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-11": [
+          {
+            "session_id": 31767,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31768,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-14": [
+          {
+            "session_id": 31770,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-15": [
+          {
+            "session_id": 31772,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1768002900,
+      "last_show": 1768521300
     },
     {
       "id": "ST00001794",
@@ -313,17 +366,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-08": [
-          {
-            "session_id": 31513,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-09": [
           {
             "session_id": 31675,
@@ -398,96 +440,7 @@
           }
         ]
       },
-      "first_show": 1767916500,
-      "last_show": 1768521300
-    },
-    {
-      "id": "ST00001754",
-      "titre": "BOB L'ÉPONGE LE FILM: À LA RECHERCHE DE BOB",
-      "OpeningDate": "2025-12-18",
-      "synopsis": "Bob l’éponge est persuadé qu’il est devenu un grand garçon en atteignant la hauteur de 36 palourdes. Une visite au parc d’attractions lui donne accès à de nouveaux manèges plus intenses. Bob l’éponge découvre alors qu’il a toujours la trouille. Il se confie à monsieur Krabs qui lui raconte des histoires de flibustiers intrépides. Avec son ami Patrick l’étoile de mer, Bob est envoyé dans le gouffre abyssal pour affronter ses peurs et ainsi prouver qu’il a l’étoffe d’un vrai flibustier.",
-      "classification": "G",
-      "duree": 89,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005254",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005252",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-08": [
-          {
-            "session_id": 31514,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-09": [
-          {
-            "session_id": 31764,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-10": [
-          {
-            "session_id": 31765,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31766,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-11": [
-          {
-            "session_id": 31767,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31768,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-14": [
-          {
-            "session_id": 31770,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-15": [
-          {
-            "session_id": 31772,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1767917100,
+      "first_show": 1768002900,
       "last_show": 1768521300
     },
     {
@@ -505,17 +458,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
       "content": "Comédie d'aventures",
       "horaire": {
-        "2026-01-08": [
-          {
-            "session_id": 31583,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-09": [
           {
             "session_id": 31613,
@@ -576,7 +518,7 @@
           }
         ]
       },
-      "first_show": 1767917700,
+      "first_show": 1768003500,
       "last_show": 1768521900
     },
     {
@@ -599,7 +541,6 @@
             "session_id": 31615,
             "heure": "19:15",
             "attributs": [
-              "+",
               "ATMOS®",
               "DLX"
             ],
