@@ -2,13 +2,6 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
-      "ShortName": "ATMOS®",
-      "Description": "Son ambiophonique Dolby ATMOS®",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
       "ShortName": "DERNIÈRE",
       "Description": "//",
       "FontColor": "#666666",
@@ -17,7 +10,14 @@
     },
     {
       "ShortName": "DLX",
-      "Description": "Salle avec sièges rocker et plus spacieux",
+      "Description": "Sièges spacieux",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "DLX+",
+      "Description": "Sièges spacieux + son immersif",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
@@ -319,7 +319,7 @@
             "session_id": 31741,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -337,7 +337,7 @@
             "session_id": 31726,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -355,7 +355,7 @@
             "session_id": 31736,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -366,7 +366,7 @@
             "session_id": 31746,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -377,7 +377,7 @@
             "session_id": 31751,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -446,8 +446,7 @@
             "session_id": 31657,
             "heure": "19:15",
             "attributs": [
-              "ATMOS®",
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -458,8 +457,7 @@
             "session_id": 31671,
             "heure": "19:15",
             "attributs": [
-              "ATMOS®",
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -479,8 +477,7 @@
             "session_id": 31721,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
@@ -498,8 +495,7 @@
             "session_id": 31731,
             "heure": "12:55",
             "attributs": [
-              "ATMOS®",
-              "DLX"
+              "DLX+"
             ],
             "salle": "4",
             "placesDisponibles": 75
