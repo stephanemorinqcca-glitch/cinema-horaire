@@ -17,7 +17,7 @@
     },
     {
       "ShortName": "DLX+",
-      "Description": "Sièges spacieux + son immersif",
+      "Description": "Sièges spacieux + Système Dolby ATMOS®",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
@@ -294,24 +294,24 @@
       "horaire": {
         "2026-01-14": [
           {
-            "session_id": 31681,
+            "session_id": 31657,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2026-01-15": [
           {
-            "session_id": 31683,
+            "session_id": 31671,
             "heure": "18:55",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2026-01-16": [
@@ -327,11 +327,13 @@
         ],
         "2026-01-17": [
           {
-            "session_id": 31815,
+            "session_id": 31721,
             "heure": "12:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           },
           {
             "session_id": 31726,
@@ -345,11 +347,13 @@
         ],
         "2026-01-18": [
           {
-            "session_id": 31817,
+            "session_id": 31731,
             "heure": "12:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           },
           {
             "session_id": 31736,
@@ -404,27 +408,74 @@
       "horaire": {
         "2026-01-14": [
           {
-            "session_id": 31655,
+            "session_id": 31681,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-01-15": [
           {
-            "session_id": 31669,
+            "session_id": 31683,
             "heure": "19:05",
             "attributs": [
-              "DERNIÈRE"
+              "DLX"
             ],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-16": [
+          {
+            "session_id": 31754,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-17": [
+          {
+            "session_id": 31756,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-18": [
+          {
+            "session_id": 31758,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-21": [
+          {
+            "session_id": 31760,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-22": [
+          {
+            "session_id": 31762,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
       "first_show": 1768435500,
-      "last_show": 1768521900
+      "last_show": 1769126700
     },
     {
       "id": "ST00001818",
@@ -443,24 +494,20 @@
       "horaire": {
         "2026-01-14": [
           {
-            "session_id": 31657,
+            "session_id": 31655,
             "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-01-15": [
           {
-            "session_id": 31671,
+            "session_id": 31669,
             "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-01-16": [
@@ -474,13 +521,11 @@
         ],
         "2026-01-17": [
           {
-            "session_id": 31721,
+            "session_id": 31815,
             "heure": "12:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 31816,
@@ -492,13 +537,11 @@
         ],
         "2026-01-18": [
           {
-            "session_id": 31731,
+            "session_id": 31817,
             "heure": "12:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 31818,
@@ -531,150 +574,6 @@
       },
       "first_show": 1768436100,
       "last_show": 1769126700
-    },
-    {
-      "id": "ST00001846",
-      "titre": "CHARLIE L'ULTRACHIEN",
-      "OpeningDate": "2026-01-16",
-      "synopsis": "Un chien acquiert des super-pouvoirs après avoir été enlevé par des extraterrestres. Ensemble, ils combattent un chat maléfique qui menace l'humanité, tandis que le chien devient un super-héros célèbre.",
-      "classification": "G",
-      "duree": 92,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005258",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005256",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=6aCWBIHahuM",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31754,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-17": [
-          {
-            "session_id": 31755,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31756,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-18": [
-          {
-            "session_id": 31757,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31758,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-21": [
-          {
-            "session_id": 31760,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-22": [
-          {
-            "session_id": 31762,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-23": [
-          {
-            "session_id": 31797,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31800,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-24": [
-          {
-            "session_id": 31777,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31780,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-25": [
-          {
-            "session_id": 31787,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31790,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-28": [
-          {
-            "session_id": 31805,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-29": [
-          {
-            "session_id": 31810,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1768607100,
-      "last_show": 1769730300
     },
     {
       "id": "ST00001782",
@@ -850,6 +749,70 @@
       },
       "first_show": 1768608900,
       "last_show": 1769730900
+    },
+    {
+      "id": "ST00001846",
+      "titre": "CHARLIE L'ULTRACHIEN",
+      "OpeningDate": "2026-01-17",
+      "synopsis": "Un chien acquiert des super-pouvoirs après avoir été enlevé par des extraterrestres. Ensemble, ils combattent un chat maléfique qui menace l'humanité, tandis que le chien devient un super-héros célèbre.",
+      "classification": "G",
+      "duree": 92,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005258",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005256",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=6aCWBIHahuM",
+      "content": "Animation",
+      "horaire": {
+        "2026-01-17": [
+          {
+            "session_id": 31755,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-18": [
+          {
+            "session_id": 31757,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-23": [
+          {
+            "session_id": 31797,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31777,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31787,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1768672500,
+      "last_show": 1769363700
     }
   ]
 }
