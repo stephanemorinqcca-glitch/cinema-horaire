@@ -17,7 +17,7 @@
     },
     {
       "ShortName": "DLX+",
-      "Description": "Sièges spacieux + Système Dolby ATMOS®",
+      "Description": "Sièges spacieux + Son Dolby ATMOS®",
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
@@ -468,7 +468,9 @@
           {
             "session_id": 31762,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -754,7 +756,7 @@
       "id": "ST00001846",
       "titre": "CHARLIE L'ULTRACHIEN",
       "OpeningDate": "2026-01-17",
-      "synopsis": "Un chien acquiert des super-pouvoirs après avoir été enlevé par des extraterrestres. Ensemble, ils combattent un chat maléfique qui menace l'humanité, tandis que le chien devient un super-héros célèbre.",
+      "synopsis": "Fils unique d’une scientifique, Danny a grandi avec son compagnon canin Charlie, reçu en cadeau lorsqu’il était encore tout petit. Des années plus tard, le garçon se dirige vers l’adolescence, tandis que le chien vieillissant n’affiche plus sa forme d’antan. Une nuit, Charlie et Puddy, le vilain chat négligé du voisin, sont happés par une force cosmique et capturés par un vaisseau extraterrestre. Rejetés sur Terre peu après, les deux animaux sont complètement transformés par cette expérience inusitée. Charlie, qui, à la grande joie de Danny, a retrouvé l’agilité de sa jeunesse et est désormais capable de voler en plus d’être doté du sens de la parole, met ses aptitudes au service de la population. Quant à Puddy, rendu énorme et plus méchant que jamais, il fait tout pour nuire à Charlie qui, en sa qualité de superhéros, bénéficie de la confiance de la présidente des États-Unis.",
       "classification": "G",
       "duree": 92,
       "genre": "Animated ",
