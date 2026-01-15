@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-14",
+    "next_show_date": "2026-01-15",
     "next_show_time": "18:25"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-14": [
-          {
-            "session_id": 31653,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-15": [
           {
             "session_id": 31667,
@@ -139,7 +128,7 @@
           }
         ]
       },
-      "first_show": 1768433100,
+      "first_show": 1768519500,
       "last_show": 1769124300
     },
     {
@@ -157,15 +146,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-01-14": [
-          {
-            "session_id": 31654,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-01-15": [
           {
             "session_id": 31668,
@@ -235,7 +215,7 @@
           }
         ]
       },
-      "first_show": 1768434300,
+      "first_show": 1768520700,
       "last_show": 1769124900
     },
     {
@@ -253,15 +233,6 @@
       "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
       "content": "Animation",
       "horaire": {
-        "2026-01-14": [
-          {
-            "session_id": 31770,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-01-15": [
           {
             "session_id": 31772,
@@ -274,7 +245,7 @@
           }
         ]
       },
-      "first_show": 1768434900,
+      "first_show": 1768521300,
       "last_show": 1768521300
     },
     {
@@ -292,17 +263,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-14": [
-          {
-            "session_id": 31657,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-15": [
           {
             "session_id": 31671,
@@ -388,7 +348,7 @@
           }
         ]
       },
-      "first_show": 1768434900,
+      "first_show": 1768521300,
       "last_show": 1769126100
     },
     {
@@ -406,17 +366,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
       "content": "Comédie d'aventures",
       "horaire": {
-        "2026-01-14": [
-          {
-            "session_id": 31681,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-15": [
           {
             "session_id": 31683,
@@ -476,7 +425,7 @@
           }
         ]
       },
-      "first_show": 1768435500,
+      "first_show": 1768521900,
       "last_show": 1769126700
     },
     {
@@ -494,15 +443,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
       "content": "Violence | Horreur | Épouvante",
       "horaire": {
-        "2026-01-14": [
-          {
-            "session_id": 31655,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-01-15": [
           {
             "session_id": 31669,
@@ -574,7 +514,7 @@
           }
         ]
       },
-      "first_show": 1768436100,
+      "first_show": 1768522500,
       "last_show": 1769126700
     },
     {
