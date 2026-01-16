@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-15",
+    "next_show_date": "2026-01-16",
     "next_show_time": "18:25"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-15": [
-          {
-            "session_id": 31667,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-16": [
           {
             "session_id": 31738,
@@ -210,7 +199,7 @@
           }
         ]
       },
-      "first_show": 1768519500,
+      "first_show": 1768605900,
       "last_show": 1769729100
     },
     {
@@ -228,15 +217,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-01-15": [
-          {
-            "session_id": 31668,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-01-16": [
           {
             "session_id": 31739,
@@ -363,38 +343,8 @@
           }
         ]
       },
-      "first_show": 1768520700,
+      "first_show": 1768607100,
       "last_show": 1769729700
-    },
-    {
-      "id": "ST00001754",
-      "titre": "BOB L'ÉPONGE LE FILM: À LA RECHERCHE DE BOB",
-      "OpeningDate": "2025-12-18",
-      "synopsis": "Bob l’éponge est persuadé qu’il est devenu un grand garçon en atteignant la hauteur de 36 palourdes. Une visite au parc d’attractions lui donne accès à de nouveaux manèges plus intenses. Bob l’éponge découvre alors qu’il a toujours la trouille. Il se confie à monsieur Krabs qui lui raconte des histoires de flibustiers intrépides. Avec son ami Patrick l’étoile de mer, Bob est envoyé dans le gouffre abyssal pour affronter ses peurs et ainsi prouver qu’il a l’étoffe d’un vrai flibustier.",
-      "classification": "G",
-      "duree": 89,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005254",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005252",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/dmtUQJMrp7c",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-15": [
-          {
-            "session_id": 31772,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1768521300,
-      "last_show": 1768521300
     },
     {
       "id": "ST00001794",
@@ -411,17 +361,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-15": [
-          {
-            "session_id": 31671,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-16": [
           {
             "session_id": 31741,
@@ -496,83 +435,8 @@
           }
         ]
       },
-      "first_show": 1768521300,
+      "first_show": 1768607700,
       "last_show": 1769126100
-    },
-    {
-      "id": "ST00001796",
-      "titre": "ANACONDA",
-      "OpeningDate": "2025-12-26",
-      "synopsis": "Doug et Griff, deux meilleurs amis d’enfance, ont toujours rêvé de faire un remake de leur film préféré : le « classique » du cinéma, Anaconda. En pleine crise de la cinquantaine, ils décident de se lancer et voyagent au cœur de l'Amazonie pour commencer le tournage. Mais les choses tournent mal lorsqu'un vrai anaconda géant fait son apparition, transformant leur plateau de tournage sympa et chaotique en un piège mortel. Le film qu'ils rêvent de réaliser ? Il pourrait bien leur coûter la vie...",
-      "classification": "13+",
-      "duree": 99,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
-      "content": "Comédie d'aventures",
-      "horaire": {
-        "2026-01-15": [
-          {
-            "session_id": 31683,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-01-16": [
-          {
-            "session_id": 31754,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-17": [
-          {
-            "session_id": 31756,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-18": [
-          {
-            "session_id": 31758,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-21": [
-          {
-            "session_id": 31760,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-22": [
-          {
-            "session_id": 31762,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1768521900,
-      "last_show": 1769126700
     },
     {
       "id": "ST00001818",
@@ -589,15 +453,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
       "content": "Violence | Horreur | Épouvante",
       "horaire": {
-        "2026-01-15": [
-          {
-            "session_id": 31669,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-01-16": [
           {
             "session_id": 31814,
@@ -660,7 +515,7 @@
           }
         ]
       },
-      "first_show": 1768522500,
+      "first_show": 1768608300,
       "last_show": 1769126700
     },
     {
@@ -837,6 +692,70 @@
       },
       "first_show": 1768608900,
       "last_show": 1769730900
+    },
+    {
+      "id": "ST00001796",
+      "titre": "ANACONDA",
+      "OpeningDate": "2025-12-26",
+      "synopsis": "Doug et Griff, deux meilleurs amis d’enfance, ont toujours rêvé de faire un remake de leur film préféré : le « classique » du cinéma, Anaconda. En pleine crise de la cinquantaine, ils décident de se lancer et voyagent au cœur de l'Amazonie pour commencer le tournage. Mais les choses tournent mal lorsqu'un vrai anaconda géant fait son apparition, transformant leur plateau de tournage sympa et chaotique en un piège mortel. Le film qu'ils rêvent de réaliser ? Il pourrait bien leur coûter la vie...",
+      "classification": "13+",
+      "duree": 99,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
+      "content": "Comédie d'aventures",
+      "horaire": {
+        "2026-01-16": [
+          {
+            "session_id": 31754,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-17": [
+          {
+            "session_id": 31756,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-18": [
+          {
+            "session_id": 31758,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-21": [
+          {
+            "session_id": 31760,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-22": [
+          {
+            "session_id": 31762,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1768608900,
+      "last_show": 1769126700
     },
     {
       "id": "ST00001846",
