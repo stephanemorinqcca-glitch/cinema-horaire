@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-16",
-    "next_show_time": "18:25"
+    "next_show_date": "2026-01-17",
+    "next_show_time": "12:25"
   },
   "films": [
     {
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31738,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-17": [
           {
             "session_id": 31718,
@@ -199,324 +188,8 @@
           }
         ]
       },
-      "first_show": 1768605900,
+      "first_show": 1768670700,
       "last_show": 1769729100
-    },
-    {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31739,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-17": [
-          {
-            "session_id": 31720,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31724,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-18": [
-          {
-            "session_id": 31730,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31734,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-21": [
-          {
-            "session_id": 31744,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-22": [
-          {
-            "session_id": 31749,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-23": [
-          {
-            "session_id": 31795,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31799,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-24": [
-          {
-            "session_id": 31775,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31779,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-25": [
-          {
-            "session_id": 31785,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31789,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-28": [
-          {
-            "session_id": 31804,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-29": [
-          {
-            "session_id": 31809,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1768607100,
-      "last_show": 1769729700
-    },
-    {
-      "id": "ST00001794",
-      "titre": "LA FEMME DE MÉNAGE",
-      "OpeningDate": "2025-12-19",
-      "synopsis": "Après avoir falsifié son curriculum vitæ pour tenter de camoufler son lourd passé, Millie se rend chez les Winchester, une famille bien nantie à la recherche d’une femme de ménage. Elle est accueillie par Nina, qui lui décrit les tâches qu’elle devra faire si elle est embauchée, et fait connaissance avec le mari de Nina, Andrew, ainsi que la fille du couple, Cecelia. Lorsque l’entretien se termine, Millie retourne à sa voiture devenue sa maison et se cherche un endroit où se garer pour la nuit. Le lendemain, elle reçoit un appel de Nina qui lui annonce qu’elle a obtenu l’emploi et qu’elle commence le jour même. Au moment où elle s’installe dans la somptueuse demeure, elle remarque que l’attitude de Nina a complètement changé. Millie réalise alors qu’elle n’est pas la seule à cacher quelque chose.",
-      "classification": "13+",
-      "duree": 131,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005212",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005210",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
-      "content": "Violence | Suspense",
-      "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31741,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-01-17": [
-          {
-            "session_id": 31721,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31726,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-01-18": [
-          {
-            "session_id": 31731,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31736,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-01-21": [
-          {
-            "session_id": 31746,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-01-22": [
-          {
-            "session_id": 31751,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ]
-      },
-      "first_show": 1768607700,
-      "last_show": 1769126100
-    },
-    {
-      "id": "ST00001818",
-      "titre": "PRIMATE",
-      "OpeningDate": "2026-01-09",
-      "synopsis": "Le chimpanzé Ben a été entraîné pour communiquer avec Adam, son maître atteint de surdité. Ayant découvert une mangouste morte dans l’enclos de l’animal, Adam, qui doit s’absenter jusqu’au lendemain pour affaires, somme ses filles Lucy et Erin de ne pas laisser sortir Ben avant la visite du technicien en santé animale, car le singe doit être vacciné par mesure de précaution. Lorsque l’homme se présente pour traiter Ben, celui-ci l’attaque sauvagement, sans que les deux sœurs, qui font la fête avec des amis dans la maison, en aient connaissance. Désormais libre, la bête enragée cherche à s’en prendre à sa famille d’adoption qui trouve refuge dans la piscine de la propriété, seul lieu que le singe n’ose approcher.",
-      "classification": "13+",
-      "duree": 88,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005124",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005122",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
-      "content": "Violence | Horreur | Épouvante",
-      "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31814,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-01-17": [
-          {
-            "session_id": 31815,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31816,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-01-18": [
-          {
-            "session_id": 31817,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31818,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-01-21": [
-          {
-            "session_id": 31820,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-01-22": [
-          {
-            "session_id": 31822,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1768608300,
-      "last_show": 1769126700
     },
     {
       "id": "ST00001782",
@@ -533,17 +206,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=nxNHaDEPVpU",
       "content": "Violence | Horreur | Épouvante",
       "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31742,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-17": [
           {
             "session_id": 31722,
@@ -689,72 +351,290 @@
           }
         ]
       },
-      "first_show": 1768608900,
+      "first_show": 1768671300,
       "last_show": 1769731500
     },
     {
-      "id": "ST00001796",
-      "titre": "ANACONDA",
-      "OpeningDate": "2025-12-26",
-      "synopsis": "Doug et Griff, deux meilleurs amis d’enfance, ont toujours rêvé de faire un remake de leur film préféré : le « classique » du cinéma, Anaconda. En pleine crise de la cinquantaine, ils décident de se lancer et voyagent au cœur de l'Amazonie pour commencer le tournage. Mais les choses tournent mal lorsqu'un vrai anaconda géant fait son apparition, transformant leur plateau de tournage sympa et chaotique en un piège mortel. Le film qu'ils rêvent de réaliser ? Il pourrait bien leur coûter la vie...",
+      "id": "ST00001794",
+      "titre": "LA FEMME DE MÉNAGE",
+      "OpeningDate": "2025-12-19",
+      "synopsis": "Après avoir falsifié son curriculum vitæ pour tenter de camoufler son lourd passé, Millie se rend chez les Winchester, une famille bien nantie à la recherche d’une femme de ménage. Elle est accueillie par Nina, qui lui décrit les tâches qu’elle devra faire si elle est embauchée, et fait connaissance avec le mari de Nina, Andrew, ainsi que la fille du couple, Cecelia. Lorsque l’entretien se termine, Millie retourne à sa voiture devenue sa maison et se cherche un endroit où se garer pour la nuit. Le lendemain, elle reçoit un appel de Nina qui lui annonce qu’elle a obtenu l’emploi et qu’elle commence le jour même. Au moment où elle s’installe dans la somptueuse demeure, elle remarque que l’attitude de Nina a complètement changé. Millie réalise alors qu’elle n’est pas la seule à cacher quelque chose.",
       "classification": "13+",
-      "duree": 99,
-      "genre": "Adventure",
+      "duree": 131,
+      "genre": "Horror",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005212",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005210",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
-      "content": "Comédie d'aventures",
+      "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
+      "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-16": [
-          {
-            "session_id": 31754,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-01-17": [
           {
-            "session_id": 31756,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "session_id": 31721,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31726,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2026-01-18": [
           {
-            "session_id": 31758,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "session_id": 31731,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31736,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2026-01-21": [
           {
-            "session_id": 31760,
-            "heure": "19:05",
+            "session_id": 31746,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-22": [
+          {
+            "session_id": 31751,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-23": [
+          {
+            "session_id": 31823,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31824,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31825,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31826,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31827,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31828,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-28": [
+          {
+            "session_id": 31830,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-29": [
+          {
+            "session_id": 31832,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1768671300,
+      "last_show": 1769730900
+    },
+    {
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
+      "horaire": {
+        "2026-01-17": [
+          {
+            "session_id": 31720,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31724,
+            "heure": "18:45",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
           }
         ],
+        "2026-01-18": [
+          {
+            "session_id": 31730,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31734,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-21": [
+          {
+            "session_id": 31744,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
         "2026-01-22": [
           {
-            "session_id": 31762,
-            "heure": "19:05",
+            "session_id": 31749,
+            "heure": "18:35",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-23": [
+          {
+            "session_id": 31795,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31799,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31775,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31779,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31785,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31789,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-28": [
+          {
+            "session_id": 31804,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-29": [
+          {
+            "session_id": 31809,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ]
       },
-      "first_show": 1768608900,
-      "last_show": 1769126700
+      "first_show": 1768671900,
+      "last_show": 1769729700
     },
     {
       "id": "ST00001846",
@@ -819,6 +699,132 @@
       },
       "first_show": 1768672500,
       "last_show": 1769363700
+    },
+    {
+      "id": "ST00001818",
+      "titre": "PRIMATE",
+      "OpeningDate": "2026-01-09",
+      "synopsis": "Le chimpanzé Ben a été entraîné pour communiquer avec Adam, son maître atteint de surdité. Ayant découvert une mangouste morte dans l’enclos de l’animal, Adam, qui doit s’absenter jusqu’au lendemain pour affaires, somme ses filles Lucy et Erin de ne pas laisser sortir Ben avant la visite du technicien en santé animale, car le singe doit être vacciné par mesure de précaution. Lorsque l’homme se présente pour traiter Ben, celui-ci l’attaque sauvagement, sans que les deux sœurs, qui font la fête avec des amis dans la maison, en aient connaissance. Désormais libre, la bête enragée cherche à s’en prendre à sa famille d’adoption qui trouve refuge dans la piscine de la propriété, seul lieu que le singe n’ose approcher.",
+      "classification": "13+",
+      "duree": 88,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005124",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005122",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
+      "content": "Violence | Horreur | Épouvante",
+      "horaire": {
+        "2026-01-17": [
+          {
+            "session_id": 31815,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31816,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-18": [
+          {
+            "session_id": 31817,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31818,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-21": [
+          {
+            "session_id": 31820,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-22": [
+          {
+            "session_id": 31822,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1768672500,
+      "last_show": 1769126700
+    },
+    {
+      "id": "ST00001796",
+      "titre": "ANACONDA",
+      "OpeningDate": "2025-12-26",
+      "synopsis": "Doug et Griff, deux meilleurs amis d’enfance, ont toujours rêvé de faire un remake de leur film préféré : le « classique » du cinéma, Anaconda. En pleine crise de la cinquantaine, ils décident de se lancer et voyagent au cœur de l'Amazonie pour commencer le tournage. Mais les choses tournent mal lorsqu'un vrai anaconda géant fait son apparition, transformant leur plateau de tournage sympa et chaotique en un piège mortel. Le film qu'ils rêvent de réaliser ? Il pourrait bien leur coûter la vie...",
+      "classification": "13+",
+      "duree": 99,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
+      "content": "Comédie d'aventures",
+      "horaire": {
+        "2026-01-17": [
+          {
+            "session_id": 31756,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-18": [
+          {
+            "session_id": 31758,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-21": [
+          {
+            "session_id": 31760,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-22": [
+          {
+            "session_id": 31762,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1768695300,
+      "last_show": 1769126700
     }
   ]
 }
