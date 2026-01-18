@@ -713,10 +713,229 @@
             "salle": "2",
             "placesDisponibles": 91
           }
+        ],
+        "2026-01-23": [
+          {
+            "session_id": 31870,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31871,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31872,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-28": [
+          {
+            "session_id": 31873,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-29": [
+          {
+            "session_id": 31874,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
         ]
       },
       "first_show": 1768781100,
-      "last_show": 1769126700
+      "last_show": 1769732100
+    },
+    {
+      "id": "ST00001806",
+      "titre": "RECONNU COUPABLE",
+      "OpeningDate": "2026-01-23",
+      "synopsis": "Dans un futur proche, un détective est accusé du meurtre de sa femme. Jugé par une intelligence artificielle ultra-performante, qu'il a lui-même contribué à mettre en place, il n'a que 90 minutes pour prouver son innocence.",
+      "classification": "G",
+      "duree": 100,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005298",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005296",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=jC5qbKG9qzo",
+      "content": "DAJE | Aventures de science-fiction",
+      "horaire": {
+        "2026-01-23": [
+          {
+            "session_id": 31796,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31802,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31776,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31782,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31786,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31792,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-28": [
+          {
+            "session_id": 31807,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-29": [
+          {
+            "session_id": 31812,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-30": [
+          {
+            "session_id": 31857,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-31": [
+          {
+            "session_id": 31834,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31841,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-01": [
+          {
+            "session_id": 31845,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31852,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-04": [
+          {
+            "session_id": 31862,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-05": [
+          {
+            "session_id": 31867,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1769190900,
+      "last_show": 1770336300
     }
   ]
 }
