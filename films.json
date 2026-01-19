@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-18",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-01-21",
+    "next_show_time": "18:25"
   },
   "films": [
     {
@@ -43,26 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31728,
-            "heure": "12:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31733,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-21": [
           {
             "session_id": 31743,
@@ -168,137 +148,111 @@
           }
         ]
       },
-      "first_show": 1768757100,
+      "first_show": 1769037900,
       "last_show": 1769729100
     },
     {
-      "id": "ST00001782",
-      "titre": "28 ANS PLUS TARD: LE TEMPLE DES MORTS",
-      "OpeningDate": "2026-01-16",
-      "synopsis": "Le docteur Kelson et le jeune Spike dans un Royaume-Uni post-virus où les infectés ne sont plus la menace principale ; un culte macabre, le « Temple des Morts », s'est formé autour des infectés sous la direction du charismatique Jimmy Crystal, transformant la survie en une lutte terrifiante contre l'inhumanité des survivants eux-mêmes, menaçant l'ordre social naissant.",
-      "classification": "13+",
-      "duree": 109,
-      "genre": "Horror",
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004992",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004990",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=nxNHaDEPVpU",
-      "content": "Violence | Horreur | Épouvante",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
       "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31732,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31737,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-21": [
           {
-            "session_id": 31747,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "session_id": 31744,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-22": [
           {
-            "session_id": 31752,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "session_id": 31749,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-23": [
           {
-            "session_id": 31823,
-            "heure": "12:55",
+            "session_id": 31795,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
-            "session_id": 31824,
-            "heure": "19:05",
+            "session_id": 31799,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-24": [
           {
-            "session_id": 31825,
-            "heure": "12:55",
+            "session_id": 31775,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
-            "session_id": 31826,
-            "heure": "19:05",
+            "session_id": 31779,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-25": [
           {
-            "session_id": 31827,
-            "heure": "12:55",
+            "session_id": 31785,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
-            "session_id": 31828,
-            "heure": "19:05",
+            "session_id": 31789,
+            "heure": "18:35",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-28": [
           {
-            "session_id": 31830,
-            "heure": "19:05",
+            "session_id": 31804,
+            "heure": "18:35",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-29": [
           {
-            "session_id": 31832,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
+            "session_id": 31809,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ]
       },
-      "first_show": 1768757700,
-      "last_show": 1769731500
+      "first_show": 1769038500,
+      "last_show": 1769729700
     },
     {
       "id": "ST00001794",
@@ -315,26 +269,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31731,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31736,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-21": [
           {
             "session_id": 31746,
@@ -440,226 +374,106 @@
           }
         ]
       },
-      "first_show": 1768757700,
+      "first_show": 1769039700,
       "last_show": 1769730900
     },
     {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
+      "id": "ST00001782",
+      "titre": "28 ANS PLUS TARD: LE TEMPLE DES MORTS",
+      "OpeningDate": "2026-01-16",
+      "synopsis": "Le docteur Kelson et le jeune Spike dans un Royaume-Uni post-virus où les infectés ne sont plus la menace principale ; un culte macabre, le « Temple des Morts », s'est formé autour des infectés sous la direction du charismatique Jimmy Crystal, transformant la survie en une lutte terrifiante contre l'inhumanité des survivants eux-mêmes, menaçant l'ordre social naissant.",
+      "classification": "13+",
+      "duree": 109,
+      "genre": "Horror",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004992",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004990",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
+      "bande_annonce": "https://www.youtube.com/watch?v=nxNHaDEPVpU",
+      "content": "Violence | Horreur | Épouvante",
       "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31730,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31734,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-01-21": [
           {
-            "session_id": 31744,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "session_id": 31747,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-01-22": [
           {
-            "session_id": 31749,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "session_id": 31752,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-01-23": [
           {
-            "session_id": 31795,
-            "heure": "12:45",
+            "session_id": 31823,
+            "heure": "12:55",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31799,
-            "heure": "18:45",
+            "session_id": 31824,
+            "heure": "19:05",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-01-24": [
           {
-            "session_id": 31775,
-            "heure": "12:45",
+            "session_id": 31825,
+            "heure": "12:55",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31779,
-            "heure": "18:45",
+            "session_id": 31826,
+            "heure": "19:05",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-01-25": [
           {
-            "session_id": 31785,
-            "heure": "12:45",
+            "session_id": 31827,
+            "heure": "12:55",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 31789,
-            "heure": "18:35",
+            "session_id": 31828,
+            "heure": "19:05",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-01-28": [
           {
-            "session_id": 31804,
-            "heure": "18:35",
+            "session_id": 31830,
+            "heure": "19:05",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-01-29": [
           {
-            "session_id": 31809,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1768758300,
-      "last_show": 1769729700
-    },
-    {
-      "id": "ST00001846",
-      "titre": "CHARLIE L'ULTRACHIEN",
-      "OpeningDate": "2026-01-17",
-      "synopsis": "Fils unique d’une scientifique, Danny a grandi avec son compagnon canin Charlie, reçu en cadeau lorsqu’il était encore tout petit. Des années plus tard, le garçon se dirige vers l’adolescence, tandis que le chien vieillissant n’affiche plus sa forme d’antan. Une nuit, Charlie et Puddy, le vilain chat négligé du voisin, sont happés par une force cosmique et capturés par un vaisseau extraterrestre. Rejetés sur Terre peu après, les deux animaux sont complètement transformés par cette expérience inusitée. Charlie, qui, à la grande joie de Danny, a retrouvé l’agilité de sa jeunesse et est désormais capable de voler en plus d’être doté du sens de la parole, met ses aptitudes au service de la population. Quant à Puddy, rendu énorme et plus méchant que jamais, il fait tout pour nuire à Charlie qui, en sa qualité de superhéros, bénéficie de la confiance de la présidente des États-Unis.",
-      "classification": "G",
-      "duree": 92,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005258",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005256",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=6aCWBIHahuM",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31757,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-23": [
-          {
-            "session_id": 31797,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-24": [
-          {
-            "session_id": 31777,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-25": [
-          {
-            "session_id": 31787,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1768758900,
-      "last_show": 1769363700
-    },
-    {
-      "id": "ST00001818",
-      "titre": "PRIMATE",
-      "OpeningDate": "2026-01-09",
-      "synopsis": "Le chimpanzé Ben a été entraîné pour communiquer avec Adam, son maître atteint de surdité. Ayant découvert une mangouste morte dans l’enclos de l’animal, Adam, qui doit s’absenter jusqu’au lendemain pour affaires, somme ses filles Lucy et Erin de ne pas laisser sortir Ben avant la visite du technicien en santé animale, car le singe doit être vacciné par mesure de précaution. Lorsque l’homme se présente pour traiter Ben, celui-ci l’attaque sauvagement, sans que les deux sœurs, qui font la fête avec des amis dans la maison, en aient connaissance. Désormais libre, la bête enragée cherche à s’en prendre à sa famille d’adoption qui trouve refuge dans la piscine de la propriété, seul lieu que le singe n’ose approcher.",
-      "classification": "13+",
-      "duree": 88,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005124",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005122",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
-      "content": "Violence | Horreur | Épouvante",
-      "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31817,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31818,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-01-21": [
-          {
-            "session_id": 31820,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-01-22": [
-          {
-            "session_id": 31822,
+            "session_id": 31832,
             "heure": "19:05",
             "attributs": [
               "DERNIÈRE"
@@ -669,8 +483,8 @@
           }
         ]
       },
-      "first_show": 1768758900,
-      "last_show": 1769126700
+      "first_show": 1769040300,
+      "last_show": 1769731500
     },
     {
       "id": "ST00001796",
@@ -687,15 +501,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
       "content": "Comédie d'aventures",
       "horaire": {
-        "2026-01-18": [
-          {
-            "session_id": 31758,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-01-21": [
           {
             "session_id": 31760,
@@ -760,8 +565,93 @@
           }
         ]
       },
-      "first_show": 1768781100,
+      "first_show": 1769040300,
       "last_show": 1769732100
+    },
+    {
+      "id": "ST00001818",
+      "titre": "PRIMATE",
+      "OpeningDate": "2026-01-09",
+      "synopsis": "Le chimpanzé Ben a été entraîné pour communiquer avec Adam, son maître atteint de surdité. Ayant découvert une mangouste morte dans l’enclos de l’animal, Adam, qui doit s’absenter jusqu’au lendemain pour affaires, somme ses filles Lucy et Erin de ne pas laisser sortir Ben avant la visite du technicien en santé animale, car le singe doit être vacciné par mesure de précaution. Lorsque l’homme se présente pour traiter Ben, celui-ci l’attaque sauvagement, sans que les deux sœurs, qui font la fête avec des amis dans la maison, en aient connaissance. Désormais libre, la bête enragée cherche à s’en prendre à sa famille d’adoption qui trouve refuge dans la piscine de la propriété, seul lieu que le singe n’ose approcher.",
+      "classification": "13+",
+      "duree": 88,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005124",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005122",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
+      "content": "Violence | Horreur | Épouvante",
+      "horaire": {
+        "2026-01-21": [
+          {
+            "session_id": 31820,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-22": [
+          {
+            "session_id": 31822,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1769040300,
+      "last_show": 1769126700
+    },
+    {
+      "id": "ST00001846",
+      "titre": "CHARLIE L'ULTRACHIEN",
+      "OpeningDate": "2026-01-17",
+      "synopsis": "Fils unique d’une scientifique, Danny a grandi avec son compagnon canin Charlie, reçu en cadeau lorsqu’il était encore tout petit. Des années plus tard, le garçon se dirige vers l’adolescence, tandis que le chien vieillissant n’affiche plus sa forme d’antan. Une nuit, Charlie et Puddy, le vilain chat négligé du voisin, sont happés par une force cosmique et capturés par un vaisseau extraterrestre. Rejetés sur Terre peu après, les deux animaux sont complètement transformés par cette expérience inusitée. Charlie, qui, à la grande joie de Danny, a retrouvé l’agilité de sa jeunesse et est désormais capable de voler en plus d’être doté du sens de la parole, met ses aptitudes au service de la population. Quant à Puddy, rendu énorme et plus méchant que jamais, il fait tout pour nuire à Charlie qui, en sa qualité de superhéros, bénéficie de la confiance de la présidente des États-Unis.",
+      "classification": "G",
+      "duree": 92,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005258",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005256",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=6aCWBIHahuM",
+      "content": "Animation",
+      "horaire": {
+        "2026-01-23": [
+          {
+            "session_id": 31797,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31777,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31787,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1769190900,
+      "last_show": 1769363700
     },
     {
       "id": "ST00001806",
