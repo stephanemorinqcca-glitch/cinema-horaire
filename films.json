@@ -475,9 +475,7 @@
           {
             "session_id": 31832,
             "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
+            "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
           }
@@ -559,7 +557,9 @@
           {
             "session_id": 31874,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
