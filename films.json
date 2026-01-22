@@ -692,76 +692,61 @@
         ],
         "2026-01-30": [
           {
-            "session_id": 31857,
+            "session_id": 31855,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-01-31": [
           {
-            "session_id": 31834,
+            "session_id": 31833,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           },
           {
-            "session_id": 31841,
+            "session_id": 31839,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-02-01": [
           {
-            "session_id": 31845,
+            "session_id": 31844,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           },
           {
-            "session_id": 31852,
+            "session_id": 31850,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-02-04": [
           {
-            "session_id": 31862,
+            "session_id": 31860,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-02-05": [
           {
-            "session_id": 31867,
+            "session_id": 31865,
             "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ]
       },
