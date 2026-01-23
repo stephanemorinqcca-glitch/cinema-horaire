@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-22",
-    "next_show_time": "18:25"
+    "next_show_date": "2026-01-23",
+    "next_show_time": "12:25"
   },
   "films": [
     {
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-22": [
-          {
-            "session_id": 31748,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-23": [
           {
             "session_id": 31793,
@@ -137,102 +126,8 @@
           }
         ]
       },
-      "first_show": 1769124300,
+      "first_show": 1769189100,
       "last_show": 1769729100
-    },
-    {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-22": [
-          {
-            "session_id": 31749,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-23": [
-          {
-            "session_id": 31795,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31799,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-24": [
-          {
-            "session_id": 31775,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31779,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-25": [
-          {
-            "session_id": 31785,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31789,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-28": [
-          {
-            "session_id": 31804,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-29": [
-          {
-            "session_id": 31809,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1769124900,
-      "last_show": 1769729700
     },
     {
       "id": "ST00001794",
@@ -249,17 +144,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-22": [
-          {
-            "session_id": 31751,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-23": [
           {
             "session_id": 31794,
@@ -343,14 +227,99 @@
           }
         ]
       },
-      "first_show": 1769126100,
+      "first_show": 1769189700,
       "last_show": 1769730900
+    },
+    {
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
+      "horaire": {
+        "2026-01-23": [
+          {
+            "session_id": 31795,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 31799,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31775,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 31779,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31785,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 31789,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-28": [
+          {
+            "session_id": 31804,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-01-29": [
+          {
+            "session_id": 31809,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1769190300,
+      "last_show": 1769729700
     },
     {
       "id": "ST00001782",
       "titre": "28 ANS PLUS TARD: LE TEMPLE DES MORTS",
       "OpeningDate": "2026-01-16",
-      "synopsis": "Le docteur Kelson et le jeune Spike dans un Royaume-Uni post-virus où les infectés ne sont plus la menace principale ; un culte macabre, le « Temple des Morts », s'est formé autour des infectés sous la direction du charismatique Jimmy Crystal, transformant la survie en une lutte terrifiante contre l'inhumanité des survivants eux-mêmes, menaçant l'ordre social naissant.",
+      "synopsis": "Dans une Grande-Bretagne dévastée par une épidémie qui transforme les humains en zombies, un petit groupe d’adeptes d’une secte satanique sème la terreur et la mort sur son passage. Les jeunes criminels croisent sur leur chemin le docteur Ian Kelson, un médecin expérimentant un traitement qui pourrait inverser les effets du virus.",
       "classification": "13+",
       "duree": 109,
       "genre": "Horror",
@@ -361,17 +330,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=nxNHaDEPVpU",
       "content": "Violence | Horreur | Épouvante",
       "horaire": {
-        "2026-01-22": [
-          {
-            "session_id": 31752,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-23": [
           {
             "session_id": 31823,
@@ -433,119 +391,16 @@
           {
             "session_id": 31832,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "5",
             "placesDisponibles": 85
           }
         ]
       },
-      "first_show": 1769126700,
+      "first_show": 1769190900,
       "last_show": 1769731500
-    },
-    {
-      "id": "ST00001796",
-      "titre": "ANACONDA",
-      "OpeningDate": "2025-12-26",
-      "synopsis": "Doug et Griff, avec le soutien de leurs amis d’enfance Kenny et Claire, se lancent dans la reprise de leur film culte Anaconda, sorti dans les salles de cinéma en 1997. Dans la jungle brésilienne, l’équipe croise des trafiquants et le tournage bien organisé et planifié se transforme en cauchemar mortel. Les malheurs du quatuor se multiplient lorsqu’un serpent géant découvre leur présence.",
-      "classification": "13+",
-      "duree": 99,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
-      "content": "Comédie d'aventures",
-      "horaire": {
-        "2026-01-22": [
-          {
-            "session_id": 31762,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-23": [
-          {
-            "session_id": 31870,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-24": [
-          {
-            "session_id": 31871,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-25": [
-          {
-            "session_id": 31872,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-28": [
-          {
-            "session_id": 31873,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-01-29": [
-          {
-            "session_id": 31874,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1769126700,
-      "last_show": 1769732100
-    },
-    {
-      "id": "ST00001818",
-      "titre": "PRIMATE",
-      "OpeningDate": "2026-01-09",
-      "synopsis": "Le chimpanzé Ben a été entraîné pour communiquer avec Adam, son maître atteint de surdité. Ayant découvert une mangouste morte dans l’enclos de l’animal, Adam, qui doit s’absenter jusqu’au lendemain pour affaires, somme ses filles Lucy et Erin de ne pas laisser sortir Ben avant la visite du technicien en santé animale, car le singe doit être vacciné par mesure de précaution. Lorsque l’homme se présente pour traiter Ben, celui-ci l’attaque sauvagement, sans que les deux sœurs, qui font la fête avec des amis dans la maison, en aient connaissance. Désormais libre, la bête enragée cherche à s’en prendre à sa famille d’adoption qui trouve refuge dans la piscine de la propriété, seul lieu que le singe n’ose approcher.",
-      "classification": "13+",
-      "duree": 88,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005124",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005122",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=xmV0wtdcQiE",
-      "content": "Violence | Horreur | Épouvante",
-      "horaire": {
-        "2026-01-22": [
-          {
-            "session_id": 31822,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1769126700,
-      "last_show": 1769126700
     },
     {
       "id": "ST00001846",
@@ -744,7 +599,9 @@
           {
             "session_id": 31865,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -752,6 +609,72 @@
       },
       "first_show": 1769190900,
       "last_show": 1770336300
+    },
+    {
+      "id": "ST00001796",
+      "titre": "ANACONDA",
+      "OpeningDate": "2025-12-26",
+      "synopsis": "Doug et Griff, avec le soutien de leurs amis d’enfance Kenny et Claire, se lancent dans la reprise de leur film culte Anaconda, sorti dans les salles de cinéma en 1997. Dans la jungle brésilienne, l’équipe croise des trafiquants et le tournage bien organisé et planifié se transforme en cauchemar mortel. Les malheurs du quatuor se multiplient lorsqu’un serpent géant découvre leur présence.",
+      "classification": "13+",
+      "duree": 99,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
+      "content": "Comédie d'aventures",
+      "horaire": {
+        "2026-01-23": [
+          {
+            "session_id": 31870,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-24": [
+          {
+            "session_id": 31871,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-25": [
+          {
+            "session_id": 31872,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-28": [
+          {
+            "session_id": 31873,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-01-29": [
+          {
+            "session_id": 31874,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1769213700,
+      "last_show": 1769732100
     }
   ]
 }
