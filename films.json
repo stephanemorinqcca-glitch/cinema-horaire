@@ -185,10 +185,83 @@
             "salle": "4",
             "placesDisponibles": 75
           }
+        ],
+        "2026-01-30": [
+          {
+            "session_id": 31857,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-01-31": [
+          {
+            "session_id": 31834,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31841,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-01": [
+          {
+            "session_id": 31845,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31852,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-04": [
+          {
+            "session_id": 31862,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-05": [
+          {
+            "session_id": 31867,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
         ]
       },
       "first_show": 1769276100,
-      "last_show": 1769730900
+      "last_show": 1770335700
     },
     {
       "id": "ST00001746",
@@ -358,7 +431,9 @@
           {
             "session_id": 31787,
             "heure": "12:55",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "3",
             "placesDisponibles": 72
           }
