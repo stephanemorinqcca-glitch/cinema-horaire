@@ -555,8 +555,8 @@
             "session_id": 31858,
             "heure": "19:05",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-01-31": [
@@ -564,15 +564,15 @@
             "session_id": 31835,
             "heure": "12:55",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
             "session_id": 31842,
             "heure": "19:05",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-02-01": [
@@ -580,15 +580,15 @@
             "session_id": 31846,
             "heure": "12:55",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           },
           {
             "session_id": 31853,
             "heure": "19:05",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-02-04": [
@@ -596,8 +596,8 @@
             "session_id": 31863,
             "heure": "19:05",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-02-05": [
@@ -607,8 +607,8 @@
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ]
       },
@@ -662,6 +662,308 @@
       },
       "first_show": 1769386500,
       "last_show": 1769732100
+    },
+    {
+      "id": "ST00001816",
+      "titre": "ENVOYEZ DE L'AIDE",
+      "OpeningDate": "2026-01-30",
+      "synopsis": "Deux collègues, Linda Liddle et Bradley Preston, se retrouvent bloqués sur une île déserte après avoir été les seuls survivants d'un accident d'avion. Sur l'île, ils doivent surmonter leurs différends passés et travailler ensemble pour survivre, mais au final, c'est une bataille troublante teintée d'humour noir, entre volonté et intelligence, qui les attend pour s'en sortir vivants.",
+      "classification": "13+",
+      "duree": 113,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005104",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005102",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=VWbFGATB72o",
+      "content": "Violence | Suspense",
+      "horaire": {
+        "2026-01-30": [
+          {
+            "session_id": 31875,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-01-31": [
+          {
+            "session_id": 31838,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31876,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-01": [
+          {
+            "session_id": 31849,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31877,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-04": [
+          {
+            "session_id": 31878,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-05": [
+          {
+            "session_id": 31879,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-06": [
+          {
+            "session_id": 31884,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-07": [
+          {
+            "session_id": 31903,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31908,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-08": [
+          {
+            "session_id": 31915,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31920,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-11": [
+          {
+            "session_id": 31890,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-12": [
+          {
+            "session_id": 31896,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1769818500,
+      "last_show": 1770940500
+    },
+    {
+      "id": "ST00001862",
+      "titre": "REFUGE FATAL",
+      "OpeningDate": "2026-01-30",
+      "synopsis": "Un reclus installé sur une île écossaise isolée sauve une jeune fille échouée sur la mer, déclenchant une série d’événements périlleux. Ces incidents culminent par une attaque contre sa maison et l’obligent à affronter un passé tumultueux.",
+      "classification": "13+",
+      "duree": 107,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005274",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005272",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
+      "content": "Violence | Action",
+      "horaire": {
+        "2026-01-30": [
+          {
+            "session_id": 31859,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-01-31": [
+          {
+            "session_id": 31837,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31843,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-01": [
+          {
+            "session_id": 31848,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31854,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-04": [
+          {
+            "session_id": 31864,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-05": [
+          {
+            "session_id": 31869,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-06": [
+          {
+            "session_id": 31885,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-07": [
+          {
+            "session_id": 31902,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31909,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-08": [
+          {
+            "session_id": 31914,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31921,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-11": [
+          {
+            "session_id": 31891,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-12": [
+          {
+            "session_id": 31897,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1769818500,
+      "last_show": 1770941100
     }
   ]
 }
