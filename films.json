@@ -434,7 +434,7 @@
       "id": "ST00001806",
       "titre": "RECONNU COUPABLE",
       "OpeningDate": "2026-01-23",
-      "synopsis": "Dans un futur proche, un détective se retrouve accusé du meurtre de sa femme et doit subir un procès. Traqué par le temps, il n’a que 90 minutes pour prouver son innocence avant qu’une juge dotée d’une intelligence artificielle de pointe, qu’il avait lui-même contribué à mettre en place, ne le condamne à une sentence irréversible.",
+      "synopsis": "Les efforts du policier Chris Raven ont été déterminants dans la création d’un nouveau tribunal dirigé par une intelligence artificielle. Le système est conçu pour être à la fois juge, jury et bourreau dans les affaires criminelles où la preuve semble accablante. Il analyse les probabilités de culpabilité à l’aide d’un accès illimité à toutes les données et archives des appareils électroniques connectés. Lorsque Chris se retrouve à son tour sur le banc des accusés, suspecté d’avoir tué sa femme, il n’a que 90 minutes pour prouver son innocence avant d’être exécuté.",
       "classification": "G",
       "duree": 100,
       "genre": "Drama",
@@ -641,7 +641,7 @@
           },
           {
             "session_id": 31920,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
@@ -650,7 +650,7 @@
         "2026-02-11": [
           {
             "session_id": 31890,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
@@ -659,7 +659,7 @@
         "2026-02-12": [
           {
             "session_id": 31896,
-            "heure": "18:55",
+            "heure": "19:05",
             "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
@@ -667,7 +667,7 @@
         ]
       },
       "first_show": 1769818500,
-      "last_show": 1770940500
+      "last_show": 1770941100
     },
     {
       "id": "ST00001862",
