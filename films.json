@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-29",
+    "next_show_date": "2026-01-30",
     "next_show_time": "18:25"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-29": [
-          {
-            "session_id": 31808,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-30": [
           {
             "session_id": 31855,
@@ -128,7 +117,7 @@
           }
         ]
       },
-      "first_show": 1769729100,
+      "first_show": 1769815500,
       "last_show": 1770333900
     },
     {
@@ -146,15 +135,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-01-29": [
-          {
-            "session_id": 31809,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-01-30": [
           {
             "session_id": 31858,
@@ -215,7 +195,7 @@
           }
         ]
       },
-      "first_show": 1769729700,
+      "first_show": 1769816700,
       "last_show": 1770333900
     },
     {
@@ -233,17 +213,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-29": [
-          {
-            "session_id": 31811,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-30": [
           {
             "session_id": 31857,
@@ -308,68 +277,8 @@
           }
         ]
       },
-      "first_show": 1769730900,
+      "first_show": 1769817300,
       "last_show": 1770335700
-    },
-    {
-      "id": "ST00001782",
-      "titre": "28 ANS PLUS TARD: LE TEMPLE DES MORTS",
-      "OpeningDate": "2026-01-16",
-      "synopsis": "Dans une Grande-Bretagne dévastée par une épidémie qui transforme les humains en zombies, un petit groupe d’adeptes d’une secte satanique sème la terreur et la mort sur son passage. Les jeunes criminels croisent sur leur chemin le docteur Ian Kelson, un médecin expérimentant un traitement qui pourrait inverser les effets du virus.",
-      "classification": "13+",
-      "duree": 109,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004992",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000004990",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=nxNHaDEPVpU",
-      "content": "Violence | Horreur | Épouvante",
-      "horaire": {
-        "2026-01-29": [
-          {
-            "session_id": 31832,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1769731500,
-      "last_show": 1769731500
-    },
-    {
-      "id": "ST00001796",
-      "titre": "ANACONDA",
-      "OpeningDate": "2025-12-26",
-      "synopsis": "Doug et Griff, avec le soutien de leurs amis d’enfance Kenny et Claire, se lancent dans la reprise de leur film culte Anaconda, sorti dans les salles de cinéma en 1997. Dans la jungle brésilienne, l’équipe croise des trafiquants et le tournage bien organisé et planifié se transforme en cauchemar mortel. Les malheurs du quatuor se multiplient lorsqu’un serpent géant découvre leur présence.",
-      "classification": "13+",
-      "duree": 99,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005032",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005030",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4g5gNGXG-1c",
-      "content": "Comédie d'aventures",
-      "horaire": {
-        "2026-01-29": [
-          {
-            "session_id": 31874,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1769732100,
-      "last_show": 1769732100
     },
     {
       "id": "ST00001806",
@@ -386,17 +295,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=jC5qbKG9qzo",
       "content": "DAJE | Suspense de science-fiction",
       "horaire": {
-        "2026-01-29": [
-          {
-            "session_id": 31812,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-30": [
           {
             "session_id": 31856,
@@ -459,7 +357,7 @@
           }
         ]
       },
-      "first_show": 1769732100,
+      "first_show": 1769817900,
       "last_show": 1770336300
     },
     {
