@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-01-30",
-    "next_show_time": "18:25"
+    "next_show_date": "2026-01-31",
+    "next_show_time": "12:25"
   },
   "films": [
     {
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-01-30": [
-          {
-            "session_id": 31855,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-01-31": [
           {
             "session_id": 31833,
@@ -110,92 +99,15 @@
             "session_id": 31865,
             "heure": "18:25",
             "attributs": [
-              "3D"
+              "3D",
+              "DERNIÈRE"
             ],
             "salle": "1",
             "placesDisponibles": 177
           }
         ]
       },
-      "first_show": 1769815500,
-      "last_show": 1770333900
-    },
-    {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
-      "horaire": {
-        "2026-01-30": [
-          {
-            "session_id": 31858,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-01-31": [
-          {
-            "session_id": 31836,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31842,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-02-01": [
-          {
-            "session_id": 31847,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31851,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-02-04": [
-          {
-            "session_id": 31861,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-02-05": [
-          {
-            "session_id": 31866,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1769816700,
+      "first_show": 1769880300,
       "last_show": 1770333900
     },
     {
@@ -213,17 +125,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-30": [
-          {
-            "session_id": 31857,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-01-31": [
           {
             "session_id": 31838,
@@ -277,88 +178,77 @@
           }
         ]
       },
-      "first_show": 1769817300,
+      "first_show": 1769880900,
       "last_show": 1770335700
     },
     {
-      "id": "ST00001806",
-      "titre": "RECONNU COUPABLE",
-      "OpeningDate": "2026-01-23",
-      "synopsis": "Les efforts du policier Chris Raven ont été déterminants dans la création d’un nouveau tribunal dirigé par une intelligence artificielle. Le système est conçu pour être à la fois juge, jury et bourreau dans les affaires criminelles où la preuve semble accablante. Il analyse les probabilités de culpabilité à l’aide d’un accès illimité à toutes les données et archives des appareils électroniques connectés. Lorsque Chris se retrouve à son tour sur le banc des accusés, suspecté d’avoir tué sa femme, il n’a que 90 minutes pour prouver son innocence avant d’être exécuté.",
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
       "classification": "G",
-      "duree": 100,
-      "genre": "Drama",
+      "duree": 108,
+      "genre": "Animated ",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005298",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005296",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=jC5qbKG9qzo",
-      "content": "DAJE | Suspense de science-fiction",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
       "horaire": {
-        "2026-01-30": [
-          {
-            "session_id": 31856,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-01-31": [
           {
-            "session_id": 31835,
-            "heure": "12:55",
+            "session_id": 31836,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
-            "session_id": 31840,
-            "heure": "19:05",
+            "session_id": 31842,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-02-01": [
           {
-            "session_id": 31846,
-            "heure": "12:55",
+            "session_id": 31847,
+            "heure": "12:45",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
-            "session_id": 31853,
-            "heure": "19:05",
+            "session_id": 31851,
+            "heure": "18:25",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-02-04": [
           {
-            "session_id": 31863,
-            "heure": "19:05",
+            "session_id": 31861,
+            "heure": "18:25",
             "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-02-05": [
           {
-            "session_id": 31868,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
+            "session_id": 31866,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
-      "first_show": 1769817900,
-      "last_show": 1770336300
+      "first_show": 1769881500,
+      "last_show": 1770333900
     },
     {
       "id": "ST00001816",
@@ -375,15 +265,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=VWbFGATB72o",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-01-30": [
-          {
-            "session_id": 31875,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-01-31": [
           {
             "session_id": 31834,
@@ -498,14 +379,87 @@
           {
             "session_id": 31896,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "5",
             "placesDisponibles": 85
           }
         ]
       },
-      "first_show": 1769818500,
+      "first_show": 1769882100,
       "last_show": 1770941100
+    },
+    {
+      "id": "ST00001806",
+      "titre": "RECONNU COUPABLE",
+      "OpeningDate": "2026-01-23",
+      "synopsis": "Les efforts du policier Chris Raven ont été déterminants dans la création d’un nouveau tribunal dirigé par une intelligence artificielle. Le système est conçu pour être à la fois juge, jury et bourreau dans les affaires criminelles où la preuve semble accablante. Il analyse les probabilités de culpabilité à l’aide d’un accès illimité à toutes les données et archives des appareils électroniques connectés. Lorsque Chris se retrouve à son tour sur le banc des accusés, suspecté d’avoir tué sa femme, il n’a que 90 minutes pour prouver son innocence avant d’être exécuté.",
+      "classification": "G",
+      "duree": 100,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005298",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005296",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=jC5qbKG9qzo",
+      "content": "DAJE | Suspense de science-fiction",
+      "horaire": {
+        "2026-01-31": [
+          {
+            "session_id": 31835,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31840,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-01": [
+          {
+            "session_id": 31846,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31853,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-04": [
+          {
+            "session_id": 31863,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-05": [
+          {
+            "session_id": 31868,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1769882100,
+      "last_show": 1770336300
     },
     {
       "id": "ST00001862",
@@ -522,17 +476,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
       "content": "Violence | Action",
       "horaire": {
-        "2026-01-30": [
-          {
-            "session_id": 31859,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-01-31": [
           {
             "session_id": 31837,
@@ -662,6 +605,7 @@
             "session_id": 31897,
             "heure": "19:05",
             "attributs": [
+              "DERNIÈRE",
               "DLX+"
             ],
             "salle": "4",
@@ -669,7 +613,7 @@
           }
         ]
       },
-      "first_show": 1769818500,
+      "first_show": 1769882100,
       "last_show": 1770941100
     }
   ]
