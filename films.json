@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-02-01",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-02-04",
+    "next_show_time": "18:25"
   },
   "films": [
     {
@@ -43,26 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-02-01": [
-          {
-            "session_id": 31844,
-            "heure": "12:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31850,
-            "heure": "18:25",
-            "attributs": [
-              "3D"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-02-04": [
           {
             "session_id": 31860,
@@ -87,65 +67,8 @@
           }
         ]
       },
-      "first_show": 1769966700,
+      "first_show": 1770247500,
       "last_show": 1770333900
-    },
-    {
-      "id": "ST00001794",
-      "titre": "LA FEMME DE MÉNAGE",
-      "OpeningDate": "2025-12-19",
-      "synopsis": "Après avoir falsifié son curriculum vitæ pour tenter de camoufler son lourd passé, Millie se rend chez les Winchester, une famille bien nantie à la recherche d’une femme de ménage. Elle est accueillie par Nina, qui lui décrit les tâches qu’elle devra faire si elle est embauchée, et fait connaissance avec le mari de Nina, Andrew, ainsi que la fille du couple, Cecelia. Lorsque l’entretien se termine, Millie retourne à sa voiture devenue sa maison et se cherche un endroit où se garer pour la nuit. Le lendemain, elle reçoit un appel de Nina qui lui annonce qu’elle a obtenu l’emploi et qu’elle commence le jour même. Au moment où elle s’installe dans la somptueuse demeure, elle remarque que l’attitude de Nina a complètement changé. Millie réalise alors qu’elle n’est pas la seule à cacher quelque chose.",
-      "classification": "13+",
-      "duree": 131,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005212",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005210",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
-      "content": "Violence | Suspense",
-      "horaire": {
-        "2026-02-01": [
-          {
-            "session_id": 31845,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31852,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-02-04": [
-          {
-            "session_id": 31878,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-02-05": [
-          {
-            "session_id": 31879,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1769967300,
-      "last_show": 1770335700
     },
     {
       "id": "ST00001746",
@@ -162,22 +85,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-02-01": [
-          {
-            "session_id": 31847,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31851,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-02-04": [
           {
             "session_id": 31861,
@@ -199,7 +106,7 @@
         "2026-02-06": [
           {
             "session_id": 31881,
-            "heure": "18:45",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -215,7 +122,7 @@
           },
           {
             "session_id": 31905,
-            "heure": "18:45",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -256,7 +163,7 @@
           }
         ]
       },
-      "first_show": 1769967900,
+      "first_show": 1770247500,
       "last_show": 1770938700
     },
     {
@@ -274,22 +181,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=VWbFGATB72o",
       "content": "Violence | Suspense",
       "horaire": {
-        "2026-02-01": [
-          {
-            "session_id": 31849,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31877,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-02-04": [
           {
             "session_id": 31862,
@@ -315,7 +206,7 @@
         "2026-02-06": [
           {
             "session_id": 31884,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -331,7 +222,7 @@
           },
           {
             "session_id": 31908,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -374,8 +265,45 @@
           }
         ]
       },
-      "first_show": 1769968500,
+      "first_show": 1770249300,
       "last_show": 1770941100
+    },
+    {
+      "id": "ST00001794",
+      "titre": "LA FEMME DE MÉNAGE",
+      "OpeningDate": "2025-12-19",
+      "synopsis": "Après avoir falsifié son curriculum vitæ pour tenter de camoufler son lourd passé, Millie se rend chez les Winchester, une famille bien nantie à la recherche d’une femme de ménage. Elle est accueillie par Nina, qui lui décrit les tâches qu’elle devra faire si elle est embauchée, et fait connaissance avec le mari de Nina, Andrew, ainsi que la fille du couple, Cecelia. Lorsque l’entretien se termine, Millie retourne à sa voiture devenue sa maison et se cherche un endroit où se garer pour la nuit. Le lendemain, elle reçoit un appel de Nina qui lui annonce qu’elle a obtenu l’emploi et qu’elle commence le jour même. Au moment où elle s’installe dans la somptueuse demeure, elle remarque que l’attitude de Nina a complètement changé. Millie réalise alors qu’elle n’est pas la seule à cacher quelque chose.",
+      "classification": "13+",
+      "duree": 131,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005212",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005210",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
+      "content": "Violence | Suspense",
+      "horaire": {
+        "2026-02-04": [
+          {
+            "session_id": 31878,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-05": [
+          {
+            "session_id": 31879,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1770249300,
+      "last_show": 1770335700
     },
     {
       "id": "ST00001806",
@@ -392,22 +320,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=jC5qbKG9qzo",
       "content": "DAJE | Suspense de science-fiction",
       "horaire": {
-        "2026-02-01": [
-          {
-            "session_id": 31846,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31853,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-02-04": [
           {
             "session_id": 31863,
@@ -429,7 +341,7 @@
           }
         ]
       },
-      "first_show": 1769968500,
+      "first_show": 1770249900,
       "last_show": 1770336300
     },
     {
@@ -447,26 +359,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
       "content": "Violence | Action",
       "horaire": {
-        "2026-02-01": [
-          {
-            "session_id": 31848,
-            "heure": "12:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31854,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-02-04": [
           {
             "session_id": 31864,
@@ -564,7 +456,7 @@
           }
         ]
       },
-      "first_show": 1769968500,
+      "first_show": 1770249900,
       "last_show": 1770941100
     },
     {
