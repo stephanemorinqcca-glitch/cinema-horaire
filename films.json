@@ -24,380 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-02-05",
+    "next_show_date": "2026-02-06",
     "next_show_time": "18:25"
   },
   "films": [
-    {
-      "id": "ST00001750",
-      "titre": "AVATAR: FEU ET CENDRE (3D)",
-      "OpeningDate": "2025-12-18",
-      "synopsis": "Sur la planète Pandora, l’ancien soldat Jack Sully, un humain devenu Na’vi, demeure avec sa femme et ses enfants au sein d’un clan vivant en harmonie avec l’eau et les créatures marines. La menace que représentent les troupes terriennes plane toujours sur eux, ce qui génère des divisions dans leur communauté. Lorsqu’un vieil ennemi de Jack entre en contact avec un clan Na’vi hostile qui vénère le pouvoir du feu, la famille Sully doit tout mettre en œuvre pour protéger les siens.",
-      "classification": "G",
-      "duree": 197,
-      "genre": "Adventure",
-      "format": "3D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005108",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005106",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=sUsZmNbEn8A",
-      "content": "DAJE | Aventures de science-fiction",
-      "horaire": {
-        "2026-02-05": [
-          {
-            "session_id": 31865,
-            "heure": "18:25",
-            "attributs": [
-              "3D",
-              "DERNIÈRE"
-            ],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1770333900,
-      "last_show": 1770333900
-    },
-    {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
-      "horaire": {
-        "2026-02-05": [
-          {
-            "session_id": 31866,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-02-06": [
-          {
-            "session_id": 31881,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-02-07": [
-          {
-            "session_id": 31901,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31905,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-02-08": [
-          {
-            "session_id": 31913,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31917,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-02-11": [
-          {
-            "session_id": 31887,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-02-12": [
-          {
-            "session_id": 31893,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1770333900,
-      "last_show": 1770938700
-    },
-    {
-      "id": "ST00001816",
-      "titre": "ENVOYEZ DE L'AIDE",
-      "OpeningDate": "2026-01-30",
-      "synopsis": "Deux collègues, Linda Liddle et Bradley Preston, se retrouvent bloqués sur une île déserte après avoir été les seuls survivants d'un accident d'avion. Sur l'île, ils doivent surmonter leurs différends passés et travailler ensemble pour survivre, mais au final, c'est une bataille troublante teintée d'humour noir, entre volonté et intelligence, qui les attend pour s'en sortir vivants.",
-      "classification": "13+",
-      "duree": 113,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005104",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005102",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=VWbFGATB72o",
-      "content": "Violence | Suspense",
-      "horaire": {
-        "2026-02-05": [
-          {
-            "session_id": 31867,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-02-06": [
-          {
-            "session_id": 31884,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-07": [
-          {
-            "session_id": 31903,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31908,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-08": [
-          {
-            "session_id": 31915,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31920,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-11": [
-          {
-            "session_id": 31890,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-12": [
-          {
-            "session_id": 31896,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1770335700,
-      "last_show": 1770941100
-    },
-    {
-      "id": "ST00001794",
-      "titre": "LA FEMME DE MÉNAGE",
-      "OpeningDate": "2025-12-19",
-      "synopsis": "Après avoir falsifié son curriculum vitæ pour tenter de camoufler son lourd passé, Millie se rend chez les Winchester, une famille bien nantie à la recherche d’une femme de ménage. Elle est accueillie par Nina, qui lui décrit les tâches qu’elle devra faire si elle est embauchée, et fait connaissance avec le mari de Nina, Andrew, ainsi que la fille du couple, Cecelia. Lorsque l’entretien se termine, Millie retourne à sa voiture devenue sa maison et se cherche un endroit où se garer pour la nuit. Le lendemain, elle reçoit un appel de Nina qui lui annonce qu’elle a obtenu l’emploi et qu’elle commence le jour même. Au moment où elle s’installe dans la somptueuse demeure, elle remarque que l’attitude de Nina a complètement changé. Millie réalise alors qu’elle n’est pas la seule à cacher quelque chose.",
-      "classification": "13+",
-      "duree": 131,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005212",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005210",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=orZCVMhb76Q",
-      "content": "Violence | Suspense",
-      "horaire": {
-        "2026-02-05": [
-          {
-            "session_id": 31879,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1770335700,
-      "last_show": 1770335700
-    },
-    {
-      "id": "ST00001806",
-      "titre": "RECONNU COUPABLE",
-      "OpeningDate": "2026-01-23",
-      "synopsis": "Les efforts du policier Chris Raven ont été déterminants dans la création d’un nouveau tribunal dirigé par une intelligence artificielle. Le système est conçu pour être à la fois juge, jury et bourreau dans les affaires criminelles où la preuve semble accablante. Il analyse les probabilités de culpabilité à l’aide d’un accès illimité à toutes les données et archives des appareils électroniques connectés. Lorsque Chris se retrouve à son tour sur le banc des accusés, suspecté d’avoir tué sa femme, il n’a que 90 minutes pour prouver son innocence avant d’être exécuté.",
-      "classification": "G",
-      "duree": 100,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005298",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005296",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=jC5qbKG9qzo",
-      "content": "DAJE | Suspense de science-fiction",
-      "horaire": {
-        "2026-02-05": [
-          {
-            "session_id": 31868,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1770336300,
-      "last_show": 1770336300
-    },
-    {
-      "id": "ST00001862",
-      "titre": "REFUGE FATAL",
-      "OpeningDate": "2026-01-30",
-      "synopsis": "Un homme taciturne vit seul sur une petite île isolée au large de la côte écossaise. Lors d’une tempête, il est témoin d’un naufrage et sauve une jeune fille de la noyade. La présence de l’adolescente, blessée, pousse l’homme à prendre certains risques inhabituels qui attirent l’attention d’un vieil ennemi.",
-      "classification": "13+",
-      "duree": 107,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005274",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005272",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
-      "content": "Violence | Action",
-      "horaire": {
-        "2026-02-05": [
-          {
-            "session_id": 31869,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-02-06": [
-          {
-            "session_id": 31885,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-02-07": [
-          {
-            "session_id": 31902,
-            "heure": "12:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31909,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-02-08": [
-          {
-            "session_id": 31914,
-            "heure": "12:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31921,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-02-11": [
-          {
-            "session_id": 31891,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-02-12": [
-          {
-            "session_id": 31897,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ]
-      },
-      "first_show": 1770336300,
-      "last_show": 1770941100
-    },
     {
       "id": "ST00001752",
       "titre": "AVATAR: FEU ET CENDRE",
@@ -488,6 +118,84 @@
         ]
       },
       "first_show": 1770420300,
+      "last_show": 1770938700
+    },
+    {
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
+      "horaire": {
+        "2026-02-06": [
+          {
+            "session_id": 31881,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-07": [
+          {
+            "session_id": 31901,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31905,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-08": [
+          {
+            "session_id": 31913,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31917,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-11": [
+          {
+            "session_id": 31887,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-12": [
+          {
+            "session_id": 31893,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1770420900,
       "last_show": 1770938700
     },
     {
@@ -637,10 +345,88 @@
       "last_show": 1771545300
     },
     {
+      "id": "ST00001816",
+      "titre": "ENVOYEZ DE L'AIDE",
+      "OpeningDate": "2026-01-30",
+      "synopsis": "Malgré ses qualités professionnelles, l’experte en marketing Linda Liddle est méprisée, sous-estimée et humiliée par ses supérieurs. Après un accident d’avion lors d’un voyage d’affaires, elle se retrouve seule, saine et sauve sur une île déserte. Sur la plage où elle a échoué, elle découvre le jeune président de sa compagnie, gravement blessé, et prend soin de lui. Riche de ses connaissances sur la vie dans la jungle, acquises d’une émission télévisée, elle savoure sa vengeance, goutte à goutte.",
+      "classification": "13+",
+      "duree": 113,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005104",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005102",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=VWbFGATB72o",
+      "content": "Violence | Suspense",
+      "horaire": {
+        "2026-02-06": [
+          {
+            "session_id": 31884,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-07": [
+          {
+            "session_id": 31903,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31908,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-08": [
+          {
+            "session_id": 31915,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31920,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-11": [
+          {
+            "session_id": 31890,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-12": [
+          {
+            "session_id": 31896,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1770422700,
+      "last_show": 1770941100
+    },
+    {
       "id": "ST00001880",
       "titre": "SIFFLET MAUDIT",
       "OpeningDate": "2026-02-06",
-      "synopsis": "Un groupe d'élèves marginaux tombe par hasard sur un objet maudit, un ancien sifflet de la mort aztèque. Ils découvrent qu'en soufflant dans ce sifflet, le son terrifiant qu'il émet invoque leur mort future qui vient les traquer.",
+      "synopsis": "Pour se remettre d’une récente surdose, Chrys est venue habiter chez son cousin Rel et s’apprête à fréquenter le même collège que lui. Souhaitant faciliter son intégration, Rel lui présente ses amis dès le premier jour de classe et Chrys a immédiatement le coup de foudre pour Ellie, la plus gentille de la bande. Lorsque Chrys, ayant hérité de l’ancien casier d’un élève décédé dans des circonstances inexpliquées, y découvre un sifflet mortuaire aztèque, elle déclenche sans le savoir une malédiction qui met sa vie et celle de ses nouveaux camarades en danger.",
       "classification": "13+",
       "duree": 100,
       "genre": "Horror",
@@ -779,6 +565,98 @@
       },
       "first_show": 1770422700,
       "last_show": 1771545300
+    },
+    {
+      "id": "ST00001862",
+      "titre": "REFUGE FATAL",
+      "OpeningDate": "2026-01-30",
+      "synopsis": "Un homme taciturne vit seul sur une petite île isolée au large de la côte écossaise. Lors d’une tempête, il est témoin d’un naufrage et sauve une jeune fille de la noyade. La présence de l’adolescente, blessée, pousse l’homme à prendre certains risques inhabituels qui attirent l’attention d’un vieil ennemi.",
+      "classification": "13+",
+      "duree": 107,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005274",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005272",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
+      "content": "Violence | Action",
+      "horaire": {
+        "2026-02-06": [
+          {
+            "session_id": 31885,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-07": [
+          {
+            "session_id": 31902,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31909,
+            "heure": "19:15",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-08": [
+          {
+            "session_id": 31914,
+            "heure": "12:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31921,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-11": [
+          {
+            "session_id": 31891,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-12": [
+          {
+            "session_id": 31897,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1770423300,
+      "last_show": 1770941100
     }
   ]
 }
