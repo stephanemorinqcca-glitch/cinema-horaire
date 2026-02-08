@@ -21,6 +21,13 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
+    },
+    {
+      "ShortName": "VFQ",
+      "Description": "Version en Français doublé au Québec",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
@@ -79,6 +86,7 @@
             "session_id": 31895,
             "heure": "18:25",
             "attributs": [
+              "DERNIÈRE",
               "DLX"
             ],
             "salle": "6",
@@ -148,7 +156,7 @@
           },
           {
             "session_id": 31942,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -164,7 +172,7 @@
           },
           {
             "session_id": 31954,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -180,7 +188,7 @@
           },
           {
             "session_id": 31966,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -189,7 +197,7 @@
         "2026-02-18": [
           {
             "session_id": 31973,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -198,7 +206,7 @@
         "2026-02-19": [
           {
             "session_id": 31979,
-            "heure": "19:15",
+            "heure": "19:05",
             "attributs": [
               "DERNIÈRE"
             ],
@@ -208,7 +216,7 @@
         ]
       },
       "first_show": 1770572100,
-      "last_show": 1771546500
+      "last_show": 1771545900
     },
     {
       "id": "ST00001880",
@@ -420,7 +428,7 @@
           },
           {
             "session_id": 31965,
-            "heure": "18:25",
+            "heure": "18:45",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -429,7 +437,7 @@
         "2026-02-18": [
           {
             "session_id": 31971,
-            "heure": "18:25",
+            "heure": "18:45",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -438,7 +446,7 @@
         "2026-02-19": [
           {
             "session_id": 31977,
-            "heure": "18:25",
+            "heure": "18:45",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -446,7 +454,7 @@
         ]
       },
       "first_show": 1770572700,
-      "last_show": 1771543500
+      "last_show": 1771544700
     },
     {
       "id": "ST00001816",
@@ -559,10 +567,440 @@
             "salle": "4",
             "placesDisponibles": 75
           }
+        ],
+        "2026-02-13": [
+          {
+            "session_id": 31934,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31940,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-14": [
+          {
+            "session_id": 31946,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31952,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-15": [
+          {
+            "session_id": 31958,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31964,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-18": [
+          {
+            "session_id": 31970,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-19": [
+          {
+            "session_id": 31976,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
         ]
       },
       "first_show": 1770573300,
-      "last_show": 1770941100
+      "last_show": 1771546500
+    },
+    {
+      "id": "ST00001824",
+      "titre": "CRIME 101",
+      "OpeningDate": "2026-02-13",
+      "synopsis": "Histoire d’un voleur insaisissable, dont les braquages spectaculaires le long de l’emblématique autoroute 101 mystifient la police. Lorsqu’il repère le coup du siècle, espérant qu’il s’agira de son dernier, son chemin croise celui d’une courtière en assurances désabusée, elle-même à un tournant de sa vie — une rencontre qui les forcera à collaborer. Déterminé à résoudre l’affaire, un détective tenace se rapproche dangereusement de l’opération, faisant monter la tension d’un cran. À l’approche de ce braquage à plusieurs millions de dollars, la ligne entre chasseur et proie devient de plus en plus floue, et les trois protagonistes devront affronter les conséquences de leurs choix — tout en réalisant qu’il est désormais trop tard pour faire marche arrière.",
+      "classification": "13+",
+      "duree": 140,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005326",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005324",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
+      "content": "Suspense",
+      "horaire": {
+        "2026-02-13": [
+          {
+            "session_id": 31938,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31945,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-14": [
+          {
+            "session_id": 31950,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31957,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-15": [
+          {
+            "session_id": 31962,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31969,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-18": [
+          {
+            "session_id": 31975,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-19": [
+          {
+            "session_id": 31981,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-20": [
+          {
+            "session_id": 32009,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-21": [
+          {
+            "session_id": 31982,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 31990,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31994,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32002,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32015,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32021,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1771004100,
+      "last_show": 1772150100
+    },
+    {
+      "id": "ST00001784",
+      "titre": "GOAT: RÊVER PLUS HAUT",
+      "OpeningDate": "2026-02-13",
+      "synopsis": "Will, une petite chèvre aux grands rêves, qui a la chance unique de rejoindre les pros et de jouer au grogneball, un sport de contact intense et mixte, dominé par les animaux les plus rapides et les plus féroces du monde. Les nouveaux coéquipiers de Will ne sont pas ravis d'avoir une petite chèvre dans leur équipe, mais Will est déterminé à révolutionner ce sport et à prouver une fois pour toutes que « les petits sont pas pourris! »",
+      "classification": "G",
+      "duree": 100,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
+      "content": "Animation",
+      "horaire": {
+        "2026-02-13": [
+          {
+            "session_id": 31939,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31944,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-14": [
+          {
+            "session_id": 31951,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31956,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-15": [
+          {
+            "session_id": 31963,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31968,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-18": [
+          {
+            "session_id": 31974,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-19": [
+          {
+            "session_id": 31980,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-20": [
+          {
+            "session_id": 32007,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-21": [
+          {
+            "session_id": 31987,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 31989,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31999,
+            "heure": "12:55",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32001,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32013,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32019,
+            "heure": "18:45",
+            "attributs": [
+              "VFQ"
+            ],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1771005300,
+      "last_show": 1772149500
     }
   ]
 }
