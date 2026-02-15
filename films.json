@@ -658,6 +658,162 @@
       },
       "first_show": 1771178100,
       "last_show": 1772151300
+    },
+    {
+      "id": "ST00001822",
+      "titre": "LYDIA ET LE VAISSEAU DES TEMPÊTES",
+      "OpeningDate": "2026-02-20",
+      "synopsis": "Lydia et Thaddeus vivent avec leur grand-mère depuis la disparition en mer de leurs parents. Lydia désire plus que tout suivre les traces de sa mère et devenir astromagicienne, mais son aïeule craint les dangers liés à ce métier. C’est alors qu’une tempête de brume s’abat sur leur petit village et met en péril son grand frère. Lydia part à sa recherche, aidé par l’équipage d’un navire qui lui porte secours.**b*#x1F3AB; Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "classification": "G",
+      "duree": 85,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005306",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005304",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=zoAFAhXaDyQ",
+      "content": "Animation",
+      "horaire": {
+        "2026-02-20": [
+          {
+            "session_id": 32010,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-02-21": [
+          {
+            "session_id": 31986,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 31991,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31998,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32003,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32016,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32022,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1771632300,
+      "last_show": 1772150700
+    },
+    {
+      "id": "ST00001872",
+      "titre": "LES INCONNUS: CHAPITRE III",
+      "OpeningDate": "2026-02-20",
+      "synopsis": "Pendant un séjour dans une petite communauté isolée, Maya est ciblée par des tueurs psychopathes. Elle tente de fuir pour rejoindre ses proches, qui sont à sa recherche, mais elle est capturée par ses attaquants qui ont d’autres plans pour elle.",
+      "classification": "13+",
+      "duree": 91,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005338",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005336",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
+      "content": "Violence | Suspense d'épouvante",
+      "horaire": {
+        "2026-02-20": [
+          {
+            "session_id": 32008,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-21": [
+          {
+            "session_id": 31983,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31993,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31995,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32005,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32014,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32020,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1771632900,
+      "last_show": 1772151300
     }
   ]
 }
