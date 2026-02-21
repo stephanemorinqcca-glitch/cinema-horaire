@@ -2,6 +2,13 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
+      "ShortName": "DERNIÈRE",
+      "Description": "//",
+      "FontColor": "#666666",
+      "BackgroundColor": "#eeeeee",
+      "ShowOnSessionsWithNoComps": false
+    },
+    {
       "ShortName": "DLX",
       "Description": "Sièges spacieux",
       "FontColor": "#666666",
@@ -24,184 +31,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-02-20",
-    "next_show_time": "18:35"
+    "next_show_date": "2026-02-21",
+    "next_show_time": "12:35"
   },
   "films": [
-    {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
-      "horaire": {
-        "2026-02-20": [
-          {
-            "session_id": 32006,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-21": [
-          {
-            "session_id": 31984,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31988,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-22": [
-          {
-            "session_id": 31996,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32000,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-25": [
-          {
-            "session_id": 32012,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-26": [
-          {
-            "session_id": 32018,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-28": [
-          {
-            "session_id": 32038,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32050,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-01": [
-          {
-            "session_id": 32056,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32068,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-02": [
-          {
-            "session_id": 32074,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32086,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-03": [
-          {
-            "session_id": 32092,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32104,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-04": [
-          {
-            "session_id": 32110,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32122,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-05": [
-          {
-            "session_id": 32128,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32140,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1771630500,
-      "last_show": 1772742900
-    },
     {
       "id": "ST00001824",
       "titre": "CRIME 101",
@@ -217,17 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
       "content": "Suspense",
       "horaire": {
-        "2026-02-20": [
-          {
-            "session_id": 32009,
-            "heure": "18:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-02-21": [
           {
             "session_id": 31982,
@@ -476,8 +298,325 @@
           }
         ]
       },
-      "first_show": 1771631100,
+      "first_show": 1771695300,
       "last_show": 1772754300
+    },
+    {
+      "id": "ST00001872",
+      "titre": "LES INCONNUS: CHAPITRE III",
+      "OpeningDate": "2026-02-20",
+      "synopsis": "Pendant un séjour dans une petite communauté isolée, Maya est ciblée par des tueurs psychopathes. Elle tente de fuir pour rejoindre ses proches, qui sont à sa recherche, mais elle est capturée par ses attaquants qui ont d’autres plans pour elle.",
+      "classification": "13+",
+      "duree": 91,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005338",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005336",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
+      "content": "Violence | Suspense d'épouvante",
+      "horaire": {
+        "2026-02-21": [
+          {
+            "session_id": 31983,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 31993,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31995,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32005,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32014,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32020,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1771695900,
+      "last_show": 1772151300
+    },
+    {
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
+      "horaire": {
+        "2026-02-21": [
+          {
+            "session_id": 31984,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 31988,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31996,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32000,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32012,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32018,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-28": [
+          {
+            "session_id": 32038,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32050,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-01": [
+          {
+            "session_id": 32056,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32068,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-02": [
+          {
+            "session_id": 32074,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32086,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-03": [
+          {
+            "session_id": 32092,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32104,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-04": [
+          {
+            "session_id": 32110,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32122,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-05": [
+          {
+            "session_id": 32128,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32140,
+            "heure": "15:35",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1771695900,
+      "last_show": 1772742900
+    },
+    {
+      "id": "ST00001862",
+      "titre": "REFUGE FATAL",
+      "OpeningDate": "2026-01-30",
+      "synopsis": "Un homme taciturne vit seul sur une petite île isolée au large de la côte écossaise. Lors d’une tempête, il est témoin d’un naufrage et sauve une jeune fille de la noyade. La présence de l’adolescente, blessée, pousse l’homme à prendre certains risques inhabituels qui attirent l’attention d’un vieil ennemi.",
+      "classification": "13+",
+      "duree": 107,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005274",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005272",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
+      "content": "Violence | Action",
+      "horaire": {
+        "2026-02-21": [
+          {
+            "session_id": 31985,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 31992,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-22": [
+          {
+            "session_id": 31997,
+            "heure": "12:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32004,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-25": [
+          {
+            "session_id": 32017,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-02-26": [
+          {
+            "session_id": 32023,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1771696500,
+      "last_show": 1772151300
     },
     {
       "id": "ST00001784",
@@ -494,17 +633,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
       "content": "Animation",
       "horaire": {
-        "2026-02-20": [
-          {
-            "session_id": 32007,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-02-21": [
           {
             "session_id": 31987,
@@ -753,7 +881,7 @@
           }
         ]
       },
-      "first_show": 1771631700,
+      "first_show": 1771697100,
       "last_show": 1772754900
     },
     {
@@ -771,15 +899,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=zoAFAhXaDyQ",
       "content": "Animation",
       "horaire": {
-        "2026-02-20": [
-          {
-            "session_id": 32010,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-02-21": [
           {
             "session_id": 31986,
@@ -978,178 +1097,8 @@
           }
         ]
       },
-      "first_show": 1771632300,
+      "first_show": 1771697100,
       "last_show": 1772755500
-    },
-    {
-      "id": "ST00001872",
-      "titre": "LES INCONNUS: CHAPITRE III",
-      "OpeningDate": "2026-02-20",
-      "synopsis": "Pendant un séjour dans une petite communauté isolée, Maya est ciblée par des tueurs psychopathes. Elle tente de fuir pour rejoindre ses proches, qui sont à sa recherche, mais elle est capturée par ses attaquants qui ont d’autres plans pour elle.",
-      "classification": "13+",
-      "duree": 91,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005338",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005336",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
-      "content": "Violence | Suspense d'épouvante",
-      "horaire": {
-        "2026-02-20": [
-          {
-            "session_id": 32008,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-02-21": [
-          {
-            "session_id": 31983,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31993,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-02-22": [
-          {
-            "session_id": 31995,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32005,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-02-25": [
-          {
-            "session_id": 32014,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-02-26": [
-          {
-            "session_id": 32020,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1771632900,
-      "last_show": 1772151300
-    },
-    {
-      "id": "ST00001862",
-      "titre": "REFUGE FATAL",
-      "OpeningDate": "2026-01-30",
-      "synopsis": "Un homme taciturne vit seul sur une petite île isolée au large de la côte écossaise. Lors d’une tempête, il est témoin d’un naufrage et sauve une jeune fille de la noyade. La présence de l’adolescente, blessée, pousse l’homme à prendre certains risques inhabituels qui attirent l’attention d’un vieil ennemi.",
-      "classification": "13+",
-      "duree": 107,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005274",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005272",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
-      "content": "Violence | Action",
-      "horaire": {
-        "2026-02-20": [
-          {
-            "session_id": 32011,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-02-21": [
-          {
-            "session_id": 31985,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31992,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-02-22": [
-          {
-            "session_id": 31997,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32004,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-02-25": [
-          {
-            "session_id": 32017,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-02-26": [
-          {
-            "session_id": 32023,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1771632900,
-      "last_show": 1772151300
     }
   ]
 }
