@@ -21,17 +21,10 @@
       "FontColor": "#666666",
       "BackgroundColor": "#eeeeee",
       "ShowOnSessionsWithNoComps": false
-    },
-    {
-      "ShortName": "VFQ",
-      "Description": "Version en Français doublé au Québec",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
     }
   ],
   "_meta": {
-    "next_show_date": "2026-02-21",
+    "next_show_date": "2026-02-22",
     "next_show_time": "12:35"
   },
   "films": [
@@ -50,26 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
       "content": "Suspense",
       "horaire": {
-        "2026-02-21": [
-          {
-            "session_id": 31982,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 31990,
-            "heure": "18:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-02-22": [
           {
             "session_id": 31994,
@@ -298,7 +271,7 @@
           }
         ]
       },
-      "first_show": 1771695300,
+      "first_show": 1771781700,
       "last_show": 1772754300
     },
     {
@@ -316,22 +289,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-02-21": [
-          {
-            "session_id": 31983,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 31993,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-02-22": [
           {
             "session_id": 31995,
@@ -367,7 +324,7 @@
           }
         ]
       },
-      "first_show": 1771695900,
+      "first_show": 1771782300,
       "last_show": 1772151300
     },
     {
@@ -385,22 +342,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-02-21": [
-          {
-            "session_id": 31984,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 31988,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-02-22": [
           {
             "session_id": 31996,
@@ -534,7 +475,7 @@
           }
         ]
       },
-      "first_show": 1771695900,
+      "first_show": 1771782300,
       "last_show": 1772742900
     },
     {
@@ -552,26 +493,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
       "content": "Violence | Action",
       "horaire": {
-        "2026-02-21": [
-          {
-            "session_id": 31985,
-            "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 31992,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-02-22": [
           {
             "session_id": 31997,
@@ -615,7 +536,7 @@
           }
         ]
       },
-      "first_show": 1771696500,
+      "first_show": 1771782900,
       "last_show": 1772151300
     },
     {
@@ -633,42 +554,18 @@
       "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
       "content": "Animation",
       "horaire": {
-        "2026-02-21": [
-          {
-            "session_id": 31987,
-            "heure": "13:05",
-            "attributs": [
-              "VFQ"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 31989,
-            "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-02-22": [
           {
             "session_id": 31999,
             "heure": "13:05",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 32001,
             "heure": "18:45",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -677,9 +574,7 @@
           {
             "session_id": 32013,
             "heure": "18:45",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -688,9 +583,7 @@
           {
             "session_id": 32019,
             "heure": "18:45",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
           }
@@ -699,9 +592,7 @@
           {
             "session_id": 32032,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -710,27 +601,21 @@
           {
             "session_id": 32041,
             "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32048,
             "heure": "15:35",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32044,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -739,27 +624,21 @@
           {
             "session_id": 32059,
             "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32066,
             "heure": "15:35",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32062,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -768,27 +647,21 @@
           {
             "session_id": 32077,
             "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32084,
             "heure": "15:35",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32080,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -797,27 +670,21 @@
           {
             "session_id": 32095,
             "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32102,
             "heure": "15:35",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32098,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -826,27 +693,21 @@
           {
             "session_id": 32113,
             "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32120,
             "heure": "15:35",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32116,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
@@ -855,40 +716,34 @@
           {
             "session_id": 32131,
             "heure": "12:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32138,
             "heure": "15:35",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 32134,
             "heure": "18:55",
-            "attributs": [
-              "VFQ"
-            ],
+            "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
           }
         ]
       },
-      "first_show": 1771697100,
+      "first_show": 1771783500,
       "last_show": 1772754900
     },
     {
       "id": "ST00001822",
       "titre": "LYDIA ET LE VAISSEAU DES TEMPÊTES",
       "OpeningDate": "2026-02-20",
-      "synopsis": "Lydia et Thaddeus vivent avec leur grand-mère depuis la disparition en mer de leurs parents. Lydia désire plus que tout suivre les traces de sa mère et devenir astromagicienne, mais son aïeule craint les dangers liés à ce métier. C’est alors qu’une tempête de brume s’abat sur leur petit village et met en péril son grand frère. Lydia part à sa recherche, aidé par l’équipage d’un navire qui lui porte secours.**b*#x1F39F; Seulement les laissez-passer émis par Cinéma centre-ville sont acceptés.**",
+      "synopsis": "Lydia et Thaddeus vivent avec leur grand-mère depuis la disparition en mer de leurs parents. Lydia désire plus que tout suivre les traces de sa mère et devenir astromagicienne, mais son aïeule craint les dangers liés à ce métier. C’est alors qu’une tempête de brume s’abat sur leur petit village et met en péril son grand frère. Lydia part à sa recherche, aidé par l’équipage d’un navire qui lui porte secours.",
       "classification": "G",
       "duree": 85,
       "genre": "Animated ",
@@ -899,22 +754,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=zoAFAhXaDyQ",
       "content": "Animation",
       "horaire": {
-        "2026-02-21": [
-          {
-            "session_id": 31986,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 31991,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-02-22": [
           {
             "session_id": 31998,
@@ -1091,13 +930,15 @@
           {
             "session_id": 32135,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
         ]
       },
-      "first_show": 1771697100,
+      "first_show": 1771783500,
       "last_show": 1772755500
     }
   ]
