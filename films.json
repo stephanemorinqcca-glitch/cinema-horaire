@@ -197,15 +197,15 @@
             "session_id": 32138,
             "heure": "15:35",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
             "session_id": 32134,
             "heure": "18:55",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
@@ -245,6 +245,15 @@
             "placesDisponibles": 91
           }
         ],
+        "2026-02-27": [
+          {
+            "session_id": 32030,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
         "2026-02-28": [
           {
             "session_id": 32038,
@@ -256,6 +265,13 @@
           {
             "session_id": 32050,
             "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32042,
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -275,6 +291,13 @@
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
+          },
+          {
+            "session_id": 32060,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-03-02": [
@@ -288,6 +311,13 @@
           {
             "session_id": 32086,
             "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32078,
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -307,6 +337,13 @@
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
+          },
+          {
+            "session_id": 32096,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-03-04": [
@@ -323,19 +360,19 @@
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
+          },
+          {
+            "session_id": 32114,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-03-05": [
           {
             "session_id": 32128,
             "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32140,
-            "heure": "15:35",
             "attributs": [
               "DERNIÈRE"
             ],
@@ -345,7 +382,7 @@
         ]
       },
       "first_show": 1772063100,
-      "last_show": 1772742900
+      "last_show": 1772732700
     },
     {
       "id": "ST00001824",
@@ -740,10 +777,75 @@
             "salle": "5",
             "placesDisponibles": 85
           }
+        ],
+        "2026-02-27": [
+          {
+            "session_id": 32033,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-02-28": [
+          {
+            "session_id": 32045,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-01": [
+          {
+            "session_id": 32063,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-02": [
+          {
+            "session_id": 32081,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-03": [
+          {
+            "session_id": 32099,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-04": [
+          {
+            "session_id": 32117,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-05": [
+          {
+            "session_id": 32135,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
         ]
       },
       "first_show": 1772064900,
-      "last_show": 1772151300
+      "last_show": 1772756100
     },
     {
       "id": "ST00001862",
@@ -1258,6 +1360,137 @@
       },
       "first_show": 1772237100,
       "last_show": 1773356700
+    },
+    {
+      "id": "ST00001786",
+      "titre": "SAUTEURS",
+      "OpeningDate": "2026-03-05",
+      "synopsis": "Dès l’enfance, Mabel a appris à apprécier le pouvoir apaisant de la nature auprès de sa grand-mère. Maintenant âgée de 19 ans, elle en a hérité la maison située à proximité d’un milieu humide. Mais voilà que Jerry, le maire de Beaverton, la ville voisine, a entrepris de faire construire une autoroute prolongée par un pont qui doit enjamber le lac au bord duquel Mabel a l’habitude de méditer. Dans l’espoir de faire dérailler le projet, elle multiplie les coups d’éclat, en vain. Aux protestations de la jeune activiste, Jerry rétorque qu’il n’y a plus une seule espèce vivante en ces lieux et qu’il peut donc mener le chantier à terme en toute légitimité. Ayant appris que seul le retour des castors sur le site pourrait en assurer la vitalité, Mabel met la main sur une découverte qui lui permet d’entrer dans la peau d’un castor afin de persuader le roi des mammifères de ramener les animaux qui avaient déserté les environs.",
+      "classification": "G",
+      "duree": 104,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005216",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005214",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
+      "content": "Animation",
+      "horaire": {
+        "2026-03-05": [
+          {
+            "session_id": 32140,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32132,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-06": [
+          {
+            "session_id": 32159,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32165,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32168,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-07": [
+          {
+            "session_id": 32177,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32183,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32186,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-08": [
+          {
+            "session_id": 32195,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32201,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32204,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-09": [
+          {
+            "session_id": 32213,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-11": [
+          {
+            "session_id": 32144,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-12": [
+          {
+            "session_id": 32150,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1772742900,
+      "last_show": 1773354900
     }
   ]
 }
