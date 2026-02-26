@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-02-25",
+    "next_show_date": "2026-02-26",
     "next_show_time": "18:45"
   },
   "films": [
@@ -43,15 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
       "content": "Animation",
       "horaire": {
-        "2026-02-25": [
-          {
-            "session_id": 32013,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-02-26": [
           {
             "session_id": 32019,
@@ -305,7 +296,7 @@
           }
         ]
       },
-      "first_show": 1772063100,
+      "first_show": 1772149500,
       "last_show": 1773356100
     },
     {
@@ -323,15 +314,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-02-25": [
-          {
-            "session_id": 32012,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-02-26": [
           {
             "session_id": 32018,
@@ -477,7 +459,7 @@
           }
         ]
       },
-      "first_show": 1772063100,
+      "first_show": 1772149500,
       "last_show": 1772732700
     },
     {
@@ -495,17 +477,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
       "content": "Suspense",
       "horaire": {
-        "2026-02-25": [
-          {
-            "session_id": 32015,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-02-26": [
           {
             "session_id": 32021,
@@ -703,7 +674,7 @@
           }
         ]
       },
-      "first_show": 1772063700,
+      "first_show": 1772150100,
       "last_show": 1772754300
     },
     {
@@ -721,15 +692,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=zoAFAhXaDyQ",
       "content": "Animation",
       "horaire": {
-        "2026-02-25": [
-          {
-            "session_id": 32016,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-02-26": [
           {
             "session_id": 32022,
@@ -838,7 +800,7 @@
           }
         ]
       },
-      "first_show": 1772064300,
+      "first_show": 1772150700,
       "last_show": 1772742900
     },
     {
@@ -856,15 +818,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-02-25": [
-          {
-            "session_id": 32014,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-02-26": [
           {
             "session_id": 32020,
@@ -940,7 +893,7 @@
           }
         ]
       },
-      "first_show": 1772064900,
+      "first_show": 1772151300,
       "last_show": 1772756100
     },
     {
@@ -958,17 +911,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
       "content": "Violence | Action",
       "horaire": {
-        "2026-02-25": [
-          {
-            "session_id": 32017,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-02-26": [
           {
             "session_id": 32023,
@@ -1130,7 +1072,7 @@
           }
         ]
       },
-      "first_show": 1772064900,
+      "first_show": 1772151300,
       "last_show": 1772756100
     },
     {
