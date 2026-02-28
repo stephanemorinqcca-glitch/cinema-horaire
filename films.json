@@ -24,164 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-02-27",
-    "next_show_time": "18:35"
+    "next_show_date": "2026-02-28",
+    "next_show_time": "12:25"
   },
   "films": [
-    {
-      "id": "ST00001746",
-      "titre": "ZOOTOPIA II",
-      "OpeningDate": "2025-11-26",
-      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
-      "classification": "G",
-      "duree": 108,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
-      "content": "Animation",
-      "horaire": {
-        "2026-02-27": [
-          {
-            "session_id": 32030,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-02-28": [
-          {
-            "session_id": 32038,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32050,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32042,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-01": [
-          {
-            "session_id": 32056,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32068,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32060,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-02": [
-          {
-            "session_id": 32074,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32086,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32078,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-03": [
-          {
-            "session_id": 32092,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32104,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32096,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-04": [
-          {
-            "session_id": 32110,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32122,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32114,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-05": [
-          {
-            "session_id": 32128,
-            "heure": "12:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1772235300,
-      "last_show": 1772732700
-    },
     {
       "id": "ST00001824",
       "titre": "CRIME 101",
@@ -197,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
       "content": "Suspense",
       "horaire": {
-        "2026-02-27": [
-          {
-            "session_id": 32034,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-02-28": [
           {
             "session_id": 32039,
@@ -383,272 +218,8 @@
           }
         ]
       },
-      "first_show": 1772235900,
+      "first_show": 1772299500,
       "last_show": 1772754300
-    },
-    {
-      "id": "ST00001784",
-      "titre": "GOAT: RÊVER PLUS HAUT",
-      "OpeningDate": "2026-02-13",
-      "synopsis": "Enfant, William Harris assiste à une partie de basketball avec sa mère. Imprégné par le spectacle sur le terrain et la prouesse sportive, il décide ce jour-là de devenir, lui aussi, un joueur professionnel. Dix ans plus tard, il parvient à être recruté dans son équipe favorite, aux côtés de son idole de toujours, Jett Fillmore.",
-      "classification": "G",
-      "duree": 100,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
-      "content": "Animation",
-      "horaire": {
-        "2026-02-27": [
-          {
-            "session_id": 32032,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-02-28": [
-          {
-            "session_id": 32041,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32048,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32044,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-01": [
-          {
-            "session_id": 32059,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32066,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32062,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-02": [
-          {
-            "session_id": 32077,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32084,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32080,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-03": [
-          {
-            "session_id": 32095,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32102,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32098,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-04": [
-          {
-            "session_id": 32113,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32120,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32116,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-05": [
-          {
-            "session_id": 32131,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32138,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32134,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-06": [
-          {
-            "session_id": 32160,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32163,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32170,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-07": [
-          {
-            "session_id": 32178,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32181,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32188,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-08": [
-          {
-            "session_id": 32196,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32199,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32206,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-09": [
-          {
-            "session_id": 32214,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-11": [
-          {
-            "session_id": 32146,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-12": [
-          {
-            "session_id": 32152,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1772236500,
-      "last_show": 1773356100
     },
     {
       "id": "ST00001830",
@@ -665,17 +236,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-02-27": [
-          {
-            "session_id": 32031,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-02-28": [
           {
             "session_id": 32036,
@@ -971,92 +531,8 @@
           }
         ]
       },
-      "first_show": 1772237100,
+      "first_show": 1772300100,
       "last_show": 1773356700
-    },
-    {
-      "id": "ST00001872",
-      "titre": "LES INCONNUS: CHAPITRE III",
-      "OpeningDate": "2026-02-20",
-      "synopsis": "Pendant un séjour dans une petite communauté isolée, Maya est ciblée par des tueurs psychopathes. Elle tente de fuir pour rejoindre ses proches, qui sont à sa recherche, mais elle est capturée par ses attaquants qui ont d’autres plans pour elle.",
-      "classification": "13+",
-      "duree": 91,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005338",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005336",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
-      "content": "Violence | Suspense d'épouvante",
-      "horaire": {
-        "2026-02-27": [
-          {
-            "session_id": 32033,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-02-28": [
-          {
-            "session_id": 32045,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-01": [
-          {
-            "session_id": 32063,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-02": [
-          {
-            "session_id": 32081,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-03": [
-          {
-            "session_id": 32099,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-04": [
-          {
-            "session_id": 32117,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-05": [
-          {
-            "session_id": 32135,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1772237700,
-      "last_show": 1772756100
     },
     {
       "id": "ST00001862",
@@ -1073,15 +549,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
       "content": "Violence | Action",
       "horaire": {
-        "2026-02-27": [
-          {
-            "session_id": 32035,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-02-28": [
           {
             "session_id": 32037,
@@ -1223,8 +690,408 @@
           }
         ]
       },
-      "first_show": 1772237700,
+      "first_show": 1772300700,
       "last_show": 1772756100
+    },
+    {
+      "id": "ST00001746",
+      "titre": "ZOOTOPIA II",
+      "OpeningDate": "2025-11-26",
+      "synopsis": "Après avoir mis au jour un complot qui a conduit l’adjointe du maire en prison, la lapine Judy Hopps et le renard Nick Wilde font désormais équipe au sein de la police de Zootopia. Au cours d’une enquête dans le port visant un inspecteur des douanes, ils remarquent les traces d’un reptile dans un conteneur. Malheureusement, l’opération tourne au vinaigre et les deux policiers sont suspendus, puis forcés de suivre une thérapie pour résoudre leurs différends. Armée des indices trouvés dans le port, la paire n’entend toutefois pas en rester là. Pour découvrir ce qui menace encore une fois l’équilibre de la ville, Judy et Nick entreprennent une mission secrète qui les mène dans des quartiers périphériques peuplés d’espèces leur étant méconnues.",
+      "classification": "G",
+      "duree": 108,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005064",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005062",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
+      "content": "Animation",
+      "horaire": {
+        "2026-02-28": [
+          {
+            "session_id": 32038,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32050,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32042,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-01": [
+          {
+            "session_id": 32056,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32068,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32060,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-02": [
+          {
+            "session_id": 32074,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32086,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32078,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-03": [
+          {
+            "session_id": 32092,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32104,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32096,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-04": [
+          {
+            "session_id": 32110,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32122,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32114,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-05": [
+          {
+            "session_id": 32128,
+            "heure": "12:45",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1772300700,
+      "last_show": 1772732700
+    },
+    {
+      "id": "ST00001784",
+      "titre": "GOAT: RÊVER PLUS HAUT",
+      "OpeningDate": "2026-02-13",
+      "synopsis": "Enfant, William Harris assiste à une partie de basketball avec sa mère. Imprégné par le spectacle sur le terrain et la prouesse sportive, il décide ce jour-là de devenir, lui aussi, un joueur professionnel. Dix ans plus tard, il parvient à être recruté dans son équipe favorite, aux côtés de son idole de toujours, Jett Fillmore.",
+      "classification": "G",
+      "duree": 100,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
+      "content": "Animation",
+      "horaire": {
+        "2026-02-28": [
+          {
+            "session_id": 32041,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32048,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32044,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-01": [
+          {
+            "session_id": 32059,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32066,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32062,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-02": [
+          {
+            "session_id": 32077,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32084,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32080,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-03": [
+          {
+            "session_id": 32095,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32102,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32098,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-04": [
+          {
+            "session_id": 32113,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32120,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32116,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-05": [
+          {
+            "session_id": 32131,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32138,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32134,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-06": [
+          {
+            "session_id": 32160,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32163,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32170,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-07": [
+          {
+            "session_id": 32178,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32181,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32188,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-08": [
+          {
+            "session_id": 32196,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32199,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32206,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-09": [
+          {
+            "session_id": 32214,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-11": [
+          {
+            "session_id": 32146,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-12": [
+          {
+            "session_id": 32152,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1772301300,
+      "last_show": 1773356100
     },
     {
       "id": "ST00001822",
@@ -1342,6 +1209,81 @@
       },
       "first_show": 1772301900,
       "last_show": 1772742900
+    },
+    {
+      "id": "ST00001872",
+      "titre": "LES INCONNUS: CHAPITRE III",
+      "OpeningDate": "2026-02-20",
+      "synopsis": "Pendant un séjour dans une petite communauté isolée, Maya est ciblée par des tueurs psychopathes. Elle tente de fuir pour rejoindre ses proches, qui sont à sa recherche, mais elle est capturée par ses attaquants qui ont d’autres plans pour elle.",
+      "classification": "13+",
+      "duree": 91,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005338",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005336",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
+      "content": "Violence | Suspense d'épouvante",
+      "horaire": {
+        "2026-02-28": [
+          {
+            "session_id": 32045,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-01": [
+          {
+            "session_id": 32063,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-02": [
+          {
+            "session_id": 32081,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-03": [
+          {
+            "session_id": 32099,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-04": [
+          {
+            "session_id": 32117,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-05": [
+          {
+            "session_id": 32135,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1772324100,
+      "last_show": 1772756100
     },
     {
       "id": "ST00001786",
