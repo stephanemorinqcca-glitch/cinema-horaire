@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-03-01",
+    "next_show_date": "2026-03-02",
     "next_show_time": "12:25"
   },
   "films": [
@@ -43,35 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
       "content": "Suspense",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32057,
-            "heure": "12:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32071,
-            "heure": "15:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32064,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32075,
@@ -291,7 +262,7 @@
           }
         ]
       },
-      "first_show": 1772385900,
+      "first_show": 1772472300,
       "last_show": 1773355500
     },
     {
@@ -309,35 +280,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32054,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32069,
-            "heure": "15:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32061,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32072,
@@ -630,7 +572,7 @@
           }
         ]
       },
-      "first_show": 1772386500,
+      "first_show": 1772472900,
       "last_show": 1773961500
     },
     {
@@ -648,29 +590,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=QCD5NK1z9hY",
       "content": "Violence | Action",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32055,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32070,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32065,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32073,
@@ -766,7 +685,7 @@
           }
         ]
       },
-      "first_show": 1772387100,
+      "first_show": 1772473500,
       "last_show": 1772756100
     },
     {
@@ -784,29 +703,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=dHtrB6E-vO0",
       "content": "Animation",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32056,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32068,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32060,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32074,
@@ -888,7 +784,7 @@
           }
         ]
       },
-      "first_show": 1772387100,
+      "first_show": 1772473500,
       "last_show": 1772732700
     },
     {
@@ -906,29 +802,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
       "content": "Animation",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32059,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32066,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32062,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32077,
@@ -1120,7 +993,7 @@
           }
         ]
       },
-      "first_show": 1772387700,
+      "first_show": 1772474100,
       "last_show": 1773356100
     },
     {
@@ -1138,22 +1011,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=zoAFAhXaDyQ",
       "content": "Animation",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32058,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32067,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32076,
@@ -1221,7 +1078,7 @@
           }
         ]
       },
-      "first_show": 1772388300,
+      "first_show": 1772474700,
       "last_show": 1772742900
     },
     {
@@ -1239,15 +1096,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=YIybAgKwk_Y",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-03-01": [
-          {
-            "session_id": 32063,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-03-02": [
           {
             "session_id": 32081,
@@ -1287,7 +1135,7 @@
           }
         ]
       },
-      "first_show": 1772410500,
+      "first_show": 1772496900,
       "last_show": 1772756100
     },
     {
