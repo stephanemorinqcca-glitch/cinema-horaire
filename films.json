@@ -192,7 +192,9 @@
           {
             "session_id": 32154,
             "heure": "18:45",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "3",
             "placesDisponibles": 72
           }
@@ -205,7 +207,7 @@
       "id": "ST00001830",
       "titre": "FRISSONS 7",
       "OpeningDate": "2026-02-27",
-      "synopsis": "Lorsqu'un nouveau tueur masqué, surnommé Ghostface, fait son apparition dans la petite ville où Sidney Prescott a refait sa vie, ses pires craintes se confirment lorsque sa fille devient la prochaine cible. Déterminée à protéger sa famille, Sidney doit affronter les horreurs de son passé pour mettre un terme à ce bain de sang une fois pour toutes.",
+      "synopsis": "Entourée de ses proches, la propriétaire d’un petit café, Sidney Prescott, mène une vie routinière à Pine Grove. L’appel téléphonique d’un psychopathe masqué qui menace d’assassiner sa fille adolescente réveille chez elle des souvenirs pénibles de son passé à Woodsboro. En faisant preuve d’un courage exceptionnel, la survivante de plusieurs attaques violentes se lance dans un affrontement ultime avec un tueur machiavélique.",
       "classification": "13+",
       "duree": 114,
       "genre": "Horror",
