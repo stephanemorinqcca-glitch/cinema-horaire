@@ -282,13 +282,11 @@
         ],
         "2026-03-13": [
           {
-            "session_id": 32253,
+            "session_id": 32254,
             "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-03-14": [
@@ -302,13 +300,11 @@
             "placesDisponibles": 49
           },
           {
-            "session_id": 32229,
+            "session_id": 32230,
             "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-03-15": [
@@ -322,35 +318,29 @@
             "placesDisponibles": 49
           },
           {
-            "session_id": 32247,
+            "session_id": 32248,
             "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-03-18": [
           {
-            "session_id": 32259,
+            "session_id": 32260,
             "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-03-19": [
           {
-            "session_id": 32265,
+            "session_id": 32266,
             "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ]
       },
@@ -494,11 +484,13 @@
         ],
         "2026-03-13": [
           {
-            "session_id": 32254,
+            "session_id": 32253,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-03-14": [
@@ -510,11 +502,13 @@
             "placesDisponibles": 85
           },
           {
-            "session_id": 32230,
+            "session_id": 32229,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-03-15": [
@@ -526,29 +520,35 @@
             "placesDisponibles": 85
           },
           {
-            "session_id": 32248,
+            "session_id": 32247,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-03-18": [
           {
-            "session_id": 32260,
+            "session_id": 32259,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-03-19": [
           {
-            "session_id": 32266,
+            "session_id": 32265,
             "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ]
       },
