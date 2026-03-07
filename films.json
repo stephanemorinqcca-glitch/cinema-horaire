@@ -928,6 +928,171 @@
       },
       "first_show": 1772906100,
       "last_show": 1773960300
+    },
+    {
+      "id": "ST00001836",
+      "titre": "SOUVENIRS DE LUI",
+      "OpeningDate": "2026-03-13",
+      "synopsis": "Après une sortie parfaite avec son petit ami, Kenna commet une erreur insupportable qui la conduit en prison. Sept ans plus tard, Kenna retourne dans sa ville natale du Wyoming, espérant reconstruire sa vie et retrouver sa jeune fille, Diem, qu'elle n'a jamais connue. Lorsque les grands-parents qui ont la garde de Diem refusent catégoriquement les tentatives de Kenna de voir sa fille, Kenna découvre une compassion inattendue, puis une relation plus profonde et sincère avec Ledger, ancien joueur de NFL et propriétaire d'un bar local. À mesure que leur histoire d'amour secrète se développe, les dangers pour tous deux grandissent, menant Kenna au chagrin et, finalement, à l'espoir d'une seconde chance.",
+      "classification": "G",
+      "duree": 114,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005172",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005170",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
+      "content": "Drame sentimental",
+      "horaire": {
+        "2026-03-13": [
+          {
+            "session_id": 32256,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-14": [
+          {
+            "session_id": 32218,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32232,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-15": [
+          {
+            "session_id": 32236,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32250,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-18": [
+          {
+            "session_id": 32262,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-19": [
+          {
+            "session_id": 32268,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-20": [
+          {
+            "session_id": 32284,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-21": [
+          {
+            "session_id": 32300,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32308,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-22": [
+          {
+            "session_id": 32312,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32320,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-25": [
+          {
+            "session_id": 32290,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-03-26": [
+          {
+            "session_id": 32296,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1773443100,
+      "last_show": 1774566300
     }
   ]
 }
