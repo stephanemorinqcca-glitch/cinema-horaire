@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-03-09",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-03-11",
+    "next_show_time": "18:45"
   },
   "films": [
     {
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
       "content": "Suspense",
       "horaire": {
-        "2026-03-09": [
-          {
-            "session_id": 32210,
-            "heure": "12:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-03-11": [
           {
             "session_id": 32145,
@@ -78,8 +67,200 @@
           }
         ]
       },
-      "first_show": 1773073500,
+      "first_show": 1773269100,
       "last_show": 1773355500
+    },
+    {
+      "id": "ST00001786",
+      "titre": "SAUTEURS",
+      "OpeningDate": "2026-03-05",
+      "synopsis": "Dès l’enfance, Mabel a appris à apprécier le pouvoir apaisant de la nature auprès de sa grand-mère. Maintenant âgée de 19 ans, elle en a hérité la maison située à proximité d’un milieu humide. Mais voilà que Jerry, le maire de Beaverton, la ville voisine, a entrepris de faire construire une autoroute prolongée par un pont qui doit enjamber le lac au bord duquel Mabel a l’habitude de méditer. Dans l’espoir de faire dérailler le projet, elle multiplie les coups d’éclat, en vain. Aux protestations de la jeune activiste, Jerry rétorque qu’il n’y a plus une seule espèce vivante en ces lieux et qu’il peut donc mener le chantier à terme en toute légitimité. Ayant appris que seul le retour des castors sur le site pourrait en assurer la vitalité, Mabel met la main sur une découverte qui lui permet d’entrer dans la peau d’un castor afin de persuader le roi des mammifères de ramener les animaux qui avaient déserté les environs.",
+      "classification": "G",
+      "duree": 104,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005216",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005214",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
+      "content": "Animation",
+      "horaire": {
+        "2026-03-11": [
+          {
+            "session_id": 32144,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-12": [
+          {
+            "session_id": 32150,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-13": [
+          {
+            "session_id": 32252,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-14": [
+          {
+            "session_id": 32220,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32228,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-15": [
+          {
+            "session_id": 32238,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32246,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-18": [
+          {
+            "session_id": 32258,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-03-19": [
+          {
+            "session_id": 32264,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1773269100,
+      "last_show": 1773960300
+    },
+    {
+      "id": "ST00001784",
+      "titre": "GOAT: RÊVER PLUS HAUT",
+      "OpeningDate": "2026-02-13",
+      "synopsis": "Enfant, William Harris assiste à une partie de basketball avec sa mère. Imprégné par le spectacle sur le terrain et la prouesse sportive, il décide ce jour-là de devenir, lui aussi, un joueur professionnel. Dix ans plus tard, il parvient à être recruté dans son équipe favorite, aux côtés de son idole de toujours, Jett Fillmore.",
+      "classification": "G",
+      "duree": 100,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
+      "content": "Animation",
+      "horaire": {
+        "2026-03-11": [
+          {
+            "session_id": 32146,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-12": [
+          {
+            "session_id": 32152,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-13": [
+          {
+            "session_id": 32271,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-14": [
+          {
+            "session_id": 32272,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32273,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-15": [
+          {
+            "session_id": 32274,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32275,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-18": [
+          {
+            "session_id": 32277,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-19": [
+          {
+            "session_id": 32279,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1773269700,
+      "last_show": 1773960300
     },
     {
       "id": "ST00001798",
@@ -96,15 +277,6 @@
       "bande_annonce": "https://youtu.be/fZw_zO0r-fY",
       "content": "Violence | Langage Vulgaire | Drame fantastique",
       "horaire": {
-        "2026-03-09": [
-          {
-            "session_id": 32215,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-03-11": [
           {
             "session_id": 32148,
@@ -168,15 +340,6 @@
           {
             "session_id": 32260,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-19": [
-          {
-            "session_id": 32266,
-            "heure": "18:55",
             "attributs": [
               "DERNIÈRE"
             ],
@@ -185,8 +348,8 @@
           }
         ]
       },
-      "first_show": 1773073500,
-      "last_show": 1773960900
+      "first_show": 1773269700,
+      "last_show": 1773874500
     },
     {
       "id": "ST00001830",
@@ -203,15 +366,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-03-09": [
-          {
-            "session_id": 32212,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-03-11": [
           {
             "session_id": 32147,
@@ -298,123 +452,16 @@
         ],
         "2026-03-19": [
           {
-            "session_id": 32265,
+            "session_id": 32266,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
-      "first_show": 1773074100,
+      "first_show": 1773270300,
       "last_show": 1773961500
-    },
-    {
-      "id": "ST00001786",
-      "titre": "SAUTEURS",
-      "OpeningDate": "2026-03-05",
-      "synopsis": "Dès l’enfance, Mabel a appris à apprécier le pouvoir apaisant de la nature auprès de sa grand-mère. Maintenant âgée de 19 ans, elle en a hérité la maison située à proximité d’un milieu humide. Mais voilà que Jerry, le maire de Beaverton, la ville voisine, a entrepris de faire construire une autoroute prolongée par un pont qui doit enjamber le lac au bord duquel Mabel a l’habitude de méditer. Dans l’espoir de faire dérailler le projet, elle multiplie les coups d’éclat, en vain. Aux protestations de la jeune activiste, Jerry rétorque qu’il n’y a plus une seule espèce vivante en ces lieux et qu’il peut donc mener le chantier à terme en toute légitimité. Ayant appris que seul le retour des castors sur le site pourrait en assurer la vitalité, Mabel met la main sur une découverte qui lui permet d’entrer dans la peau d’un castor afin de persuader le roi des mammifères de ramener les animaux qui avaient déserté les environs.",
-      "classification": "G",
-      "duree": 104,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005216",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005214",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
-      "content": "Animation",
-      "horaire": {
-        "2026-03-09": [
-          {
-            "session_id": 32213,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-11": [
-          {
-            "session_id": 32144,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-12": [
-          {
-            "session_id": 32150,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-13": [
-          {
-            "session_id": 32252,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-14": [
-          {
-            "session_id": 32220,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32228,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-15": [
-          {
-            "session_id": 32238,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32246,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-18": [
-          {
-            "session_id": 32258,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-03-19": [
-          {
-            "session_id": 32264,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1773074700,
-      "last_show": 1773960300
     },
     {
       "id": "ST00001874",
@@ -431,17 +478,6 @@
       "bande_annonce": "https://vimeo.com/1150113771?fl=pl&fe=vl",
       "content": "Drame sportif",
       "horaire": {
-        "2026-03-09": [
-          {
-            "session_id": 32211,
-            "heure": "12:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-03-11": [
           {
             "session_id": 32149,
@@ -524,113 +560,8 @@
           }
         ]
       },
-      "first_show": 1773074700,
+      "first_show": 1773270900,
       "last_show": 1773962100
-    },
-    {
-      "id": "ST00001784",
-      "titre": "GOAT: RÊVER PLUS HAUT",
-      "OpeningDate": "2026-02-13",
-      "synopsis": "Enfant, William Harris assiste à une partie de basketball avec sa mère. Imprégné par le spectacle sur le terrain et la prouesse sportive, il décide ce jour-là de devenir, lui aussi, un joueur professionnel. Dix ans plus tard, il parvient à être recruté dans son équipe favorite, aux côtés de son idole de toujours, Jett Fillmore.",
-      "classification": "G",
-      "duree": 100,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
-      "content": "Animation",
-      "horaire": {
-        "2026-03-09": [
-          {
-            "session_id": 32214,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-11": [
-          {
-            "session_id": 32146,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-12": [
-          {
-            "session_id": 32152,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-13": [
-          {
-            "session_id": 32271,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-14": [
-          {
-            "session_id": 32272,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32273,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-15": [
-          {
-            "session_id": 32274,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32275,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-18": [
-          {
-            "session_id": 32277,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-19": [
-          {
-            "session_id": 32279,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1773075300,
-      "last_show": 1773960300
     },
     {
       "id": "ST00001836",
@@ -792,6 +723,109 @@
       },
       "first_show": 1773443100,
       "last_show": 1774566300
+    },
+    {
+      "id": "ST00001808",
+      "titre": "PROJET DERNIÈRE CHANCE",
+      "OpeningDate": "2026-03-19",
+      "synopsis": "Ryland Grace, professeur de sciences, se réveille dans un vaisseau spatial à des années-lumière de chez lui, sans aucun souvenir de qui il est ni de comment il est arrivé là. À mesure que la mémoire lui revient, il découvre sa mission : résoudre l'énigme de la substance mystérieuse responsable de l'extinction du soleil. Il doit faire appel à ses connaissances scientifiques et à ses idées originales pour sauver toute la Terre de l'extinction… mais une amitié inattendue lui permettra peut-être de ne pas y parvenir seul.",
+      "classification": "G",
+      "duree": 156,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005084",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005082",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
+      "content": "Aventures de science-fiction",
+      "horaire": {
+        "2026-03-19": [
+          {
+            "session_id": 32265,
+            "heure": "18:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-20": [
+          {
+            "session_id": 32283,
+            "heure": "18:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-21": [
+          {
+            "session_id": 32299,
+            "heure": "12:25",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32307,
+            "heure": "18:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-22": [
+          {
+            "session_id": 32311,
+            "heure": "12:25",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32319,
+            "heure": "18:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-25": [
+          {
+            "session_id": 32289,
+            "heure": "18:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-26": [
+          {
+            "session_id": 32295,
+            "heure": "18:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1773959700,
+      "last_show": 1774564500
     }
   ]
 }
