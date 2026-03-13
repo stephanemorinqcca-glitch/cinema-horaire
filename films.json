@@ -24,41 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-03-12",
-    "next_show_time": "18:45"
+    "next_show_date": "2026-03-13",
+    "next_show_time": "18:35"
   },
   "films": [
-    {
-      "id": "ST00001824",
-      "titre": "CRIME 101",
-      "OpeningDate": "2026-02-13",
-      "synopsis": "Mike planifie méticuleusement des vols et des braquages lors desquels il ne fait pas de blessés ni ne laisse de traces de sa présence. Personne ne suspecte son existence, à l’exception d’un enquêteur de la police de Los Angeles qui a noté des similitudes entre plusieurs de ces crimes. Alors que l’étau semble se resserrer sur lui, Mike veut effectuer un dernier coup avec l’aide d’une femme qui a été flouée par son employeur, une compagnie d’assurance servant une clientèle très fortunée.",
-      "classification": "13+",
-      "duree": 140,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005326",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005324",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=UpNqh9P1VZU",
-      "content": "Suspense",
-      "horaire": {
-        "2026-03-12": [
-          {
-            "session_id": 32151,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1773355500,
-      "last_show": 1773355500
-    },
     {
       "id": "ST00001786",
       "titre": "SAUTEURS",
@@ -74,15 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
       "content": "Animation",
       "horaire": {
-        "2026-03-12": [
-          {
-            "session_id": 32150,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-03-13": [
           {
             "session_id": 32252,
@@ -202,8 +162,79 @@
           }
         ]
       },
-      "first_show": 1773355500,
+      "first_show": 1773441300,
       "last_show": 1774564500
+    },
+    {
+      "id": "ST00001798",
+      "titre": "LA FIANCÉE!",
+      "OpeningDate": "2026-03-06",
+      "synopsis": "La créature du docteur Frankenstein, un individu constitué à partir de cadavres humains, souffre de solitude et d’isolement depuis plus d’un siècle. L’être comprend que son apparence rebutante limite ses interactions avec les autres. Excédé, il se présente chez une scientifique de renom afin de lui réclamer une compagne comme lui. La scientifique accepte de raviver une jeune femme décédée à la suite d’une récente altercation, qui se réveille avec des souvenirs flous de son identité précédente.",
+      "classification": "13+",
+      "duree": 126,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005318",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005316",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/fZw_zO0r-fY",
+      "content": "Violence | Langage Vulgaire | Drame fantastique",
+      "horaire": {
+        "2026-03-13": [
+          {
+            "session_id": 32257,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-03-14": [
+          {
+            "session_id": 32217,
+            "heure": "12:25",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32233,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-03-15": [
+          {
+            "session_id": 32235,
+            "heure": "12:25",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 32248,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-18": [
+          {
+            "session_id": 32260,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1773441900,
+      "last_show": 1773874500
     },
     {
       "id": "ST00001784",
@@ -220,15 +251,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
       "content": "Animation",
       "horaire": {
-        "2026-03-12": [
-          {
-            "session_id": 32152,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-03-13": [
           {
             "session_id": 32271,
@@ -289,88 +311,8 @@
           }
         ]
       },
-      "first_show": 1773356100,
+      "first_show": 1773442500,
       "last_show": 1773960300
-    },
-    {
-      "id": "ST00001798",
-      "titre": "LA FIANCÉE!",
-      "OpeningDate": "2026-03-06",
-      "synopsis": "La créature du docteur Frankenstein, un individu constitué à partir de cadavres humains, souffre de solitude et d’isolement depuis plus d’un siècle. L’être comprend que son apparence rebutante limite ses interactions avec les autres. Excédé, il se présente chez une scientifique de renom afin de lui réclamer une compagne comme lui. La scientifique accepte de raviver une jeune femme décédée à la suite d’une récente altercation, qui se réveille avec des souvenirs flous de son identité précédente.",
-      "classification": "13+",
-      "duree": 126,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005318",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005316",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/fZw_zO0r-fY",
-      "content": "Violence | Langage Vulgaire | Drame fantastique",
-      "horaire": {
-        "2026-03-12": [
-          {
-            "session_id": 32154,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-13": [
-          {
-            "session_id": 32257,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-14": [
-          {
-            "session_id": 32217,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32233,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-15": [
-          {
-            "session_id": 32235,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32248,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-18": [
-          {
-            "session_id": 32260,
-            "heure": "18:55",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1773356100,
-      "last_show": 1773874500
     },
     {
       "id": "ST00001830",
@@ -387,17 +329,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-03-12": [
-          {
-            "session_id": 32153,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-03-13": [
           {
             "session_id": 32256,
@@ -470,99 +401,8 @@
           }
         ]
       },
-      "first_show": 1773356700,
+      "first_show": 1773443100,
       "last_show": 1773961500
-    },
-    {
-      "id": "ST00001874",
-      "titre": "YOUNGBLOOD: LE HOCKEY DANS LE SANG",
-      "OpeningDate": "2026-03-06",
-      "synopsis": "Ayant perdu sa mère quand il était enfant, Dean Youngblood a été élevé à la dure par son père qui était aussi son entraîneur au hockey. À force de persévérance, le garçon a progressé pour atteindre les rangs juniors. Malheureusement, son comportement sur la glace lui a valu une suspension et a miné ses rêves de faire carrière dans le sport. Le vent tourne lorsqu’il reçoit la visite d’un représentant des Mustangs de Hamilton qui cherchent à pourvoir un poste laissé vacant par un joueur blessé. Dean quitte donc Detroit pour se joindre aux Mustangs, mais se retrouve devant un entraîneur réticent à lui faire une place au sein de la formation. Et pour cause : malgré son indéniable talent, le jeune hockeyeur tend à réagir très fortement à la moindre provocation.",
-      "classification": "G",
-      "duree": 104,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005362",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005360",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1150113771?fl=pl&fe=vl",
-      "content": "Drame sportif",
-      "horaire": {
-        "2026-03-12": [
-          {
-            "session_id": 32155,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-13": [
-          {
-            "session_id": 32253,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-03-14": [
-          {
-            "session_id": 32219,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32229,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-03-15": [
-          {
-            "session_id": 32237,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32251,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-18": [
-          {
-            "session_id": 32263,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-19": [
-          {
-            "session_id": 32269,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1773357300,
-      "last_show": 1773962100
     },
     {
       "id": "ST00001836",
@@ -724,6 +564,88 @@
       },
       "first_show": 1773443100,
       "last_show": 1774566300
+    },
+    {
+      "id": "ST00001874",
+      "titre": "YOUNGBLOOD: LE HOCKEY DANS LE SANG",
+      "OpeningDate": "2026-03-06",
+      "synopsis": "Ayant perdu sa mère quand il était enfant, Dean Youngblood a été élevé à la dure par son père qui était aussi son entraîneur au hockey. À force de persévérance, le garçon a progressé pour atteindre les rangs juniors. Malheureusement, son comportement sur la glace lui a valu une suspension et a miné ses rêves de faire carrière dans le sport. Le vent tourne lorsqu’il reçoit la visite d’un représentant des Mustangs de Hamilton qui cherchent à pourvoir un poste laissé vacant par un joueur blessé. Dean quitte donc Detroit pour se joindre aux Mustangs, mais se retrouve devant un entraîneur réticent à lui faire une place au sein de la formation. Et pour cause : malgré son indéniable talent, le jeune hockeyeur tend à réagir très fortement à la moindre provocation.",
+      "classification": "G",
+      "duree": 104,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005362",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005360",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1150113771?fl=pl&fe=vl",
+      "content": "Drame sportif",
+      "horaire": {
+        "2026-03-13": [
+          {
+            "session_id": 32253,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-14": [
+          {
+            "session_id": 32219,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32229,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-15": [
+          {
+            "session_id": 32237,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32251,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-03-18": [
+          {
+            "session_id": 32263,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-03-19": [
+          {
+            "session_id": 32269,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1773443700,
+      "last_show": 1773962100
     },
     {
       "id": "ST00001808",
