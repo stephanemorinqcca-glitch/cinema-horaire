@@ -242,13 +242,13 @@
         ],
         "2026-03-19": [
           {
-            "session_id": 32268,
+            "session_id": 32265,
             "heure": "19:05",
             "attributs": [
-              "DLX+"
+              "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-03-20": [
@@ -553,21 +553,21 @@
       "duree": 156,
       "genre": "Drama",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005084",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005082",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005418",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005416",
       "banniere": "",
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
         "2026-03-19": [
           {
-            "session_id": 32265,
+            "session_id": 32268,
             "heure": "18:35",
             "attributs": [
-              "DLX"
+              "DLX+"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "4",
+            "placesDisponibles": 75
           }
         ],
         "2026-03-20": [
