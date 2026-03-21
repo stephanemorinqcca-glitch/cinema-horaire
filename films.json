@@ -45,11 +45,13 @@
       "horaire": {
         "2026-03-21": [
           {
-            "session_id": 32596,
+            "session_id": 32299,
             "heure": "12:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
             "session_id": 32308,
@@ -63,11 +65,13 @@
         ],
         "2026-03-22": [
           {
-            "session_id": 32598,
+            "session_id": 32311,
             "heure": "12:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
             "session_id": 32319,
@@ -155,9 +159,7 @@
           {
             "session_id": 32560,
             "heure": "18:35",
-            "attributs": [
-              "DERNIÈRE"
-            ],
+            "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
           }
@@ -632,13 +634,11 @@
       "horaire": {
         "2026-03-21": [
           {
-            "session_id": 32299,
+            "session_id": 32596,
             "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 32307,
@@ -652,13 +652,11 @@
         ],
         "2026-03-22": [
           {
-            "session_id": 32311,
+            "session_id": 32598,
             "heure": "12:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 32599,
