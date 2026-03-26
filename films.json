@@ -126,10 +126,103 @@
             "salle": "6",
             "placesDisponibles": 49
           }
+        ],
+        "2026-04-03": [
+          {
+            "session_id": 32427,
+            "heure": "12:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32605,
+            "heure": "18:25",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-04": [
+          {
+            "session_id": 32447,
+            "heure": "12:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32607,
+            "heure": "18:25",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-05": [
+          {
+            "session_id": 32467,
+            "heure": "12:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32482,
+            "heure": "18:25",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-04-06": [
+          {
+            "session_id": 32487,
+            "heure": "12:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-04-08": [
+          {
+            "session_id": 32522,
+            "heure": "18:25",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-04-09": [
+          {
+            "session_id": 32542,
+            "heure": "18:25",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
         ]
       },
       "first_show": 1774564500,
-      "last_show": 1775169300
+      "last_show": 1775773500
     },
     {
       "id": "ST00001786",
