@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-03-26",
+    "next_show_date": "2026-03-27",
     "next_show_time": "18:35"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
-        "2026-03-26": [
-          {
-            "session_id": 32295,
-            "heure": "18:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-03-27": [
           {
             "session_id": 32627,
@@ -221,7 +210,7 @@
           }
         ]
       },
-      "first_show": 1774564500,
+      "first_show": 1774650900,
       "last_show": 1775773500
     },
     {
@@ -239,15 +228,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
       "content": "Animation",
       "horaire": {
-        "2026-03-26": [
-          {
-            "session_id": 32292,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-03-27": [
           {
             "session_id": 32547,
@@ -308,7 +288,7 @@
           }
         ]
       },
-      "first_show": 1774565100,
+      "first_show": 1774650900,
       "last_show": 1775170500
     },
     {
@@ -326,15 +306,6 @@
       "bande_annonce": "https://vimeo.com/1150113771?fl=pl&fe=vl",
       "content": "Drame sportif",
       "horaire": {
-        "2026-03-26": [
-          {
-            "session_id": 32297,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-03-27": [
           {
             "session_id": 32548,
@@ -379,7 +350,7 @@
           }
         ]
       },
-      "first_show": 1774565700,
+      "first_show": 1774652100,
       "last_show": 1774824300
     },
     {
@@ -397,15 +368,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
       "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-03-26": [
-          {
-            "session_id": 32293,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-03-27": [
           {
             "session_id": 32591,
@@ -436,7 +398,7 @@
           }
         ]
       },
-      "first_show": 1774566300,
+      "first_show": 1774652700,
       "last_show": 1774825500
     },
     {
@@ -454,17 +416,6 @@
       "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
       "content": "Drame sentimental",
       "horaire": {
-        "2026-03-26": [
-          {
-            "session_id": 32296,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-03-27": [
           {
             "session_id": 32546,
@@ -535,7 +486,7 @@
           }
         ]
       },
-      "first_show": 1774566300,
+      "first_show": 1774652700,
       "last_show": 1775171100
     },
     {
@@ -553,15 +504,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=Y4ZQdp8nZkw",
       "content": "Violence | Langage Vulgaire | Suspense",
       "horaire": {
-        "2026-03-26": [
-          {
-            "session_id": 32603,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-03-27": [
           {
             "session_id": 32550,
@@ -626,7 +568,7 @@
           }
         ]
       },
-      "first_show": 1774566900,
+      "first_show": 1774653300,
       "last_show": 1775171700
     },
     {
