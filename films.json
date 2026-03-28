@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-03-27",
-    "next_show_time": "18:35"
+    "next_show_date": "2026-03-28",
+    "next_show_time": "12:25"
   },
   "films": [
     {
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
-        "2026-03-27": [
-          {
-            "session_id": 32627,
-            "heure": "18:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-03-28": [
           {
             "session_id": 32566,
@@ -210,8 +199,171 @@
           }
         ]
       },
-      "first_show": 1774650900,
+      "first_show": 1774715100,
       "last_show": 1775773500
+    },
+    {
+      "id": "ST00001784",
+      "titre": "GOAT: RÊVER PLUS HAUT",
+      "OpeningDate": "2026-02-13",
+      "synopsis": "Enfant, William Harris assiste à une partie de basketball avec sa mère. Imprégné par le spectacle sur le terrain et la prouesse sportive, il décide ce jour-là de devenir, lui aussi, un joueur professionnel. Dix ans plus tard, il parvient à être recruté dans son équipe favorite, aux côtés de son idole de toujours, Jett Fillmore.",
+      "classification": "G",
+      "duree": 100,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
+      "content": "Animation",
+      "horaire": {
+        "2026-03-28": [
+          {
+            "session_id": 32569,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-03-29": [
+          {
+            "session_id": 32581,
+            "heure": "12:35",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1774715700,
+      "last_show": 1774802100
+    },
+    {
+      "id": "ST00001852",
+      "titre": "PRÊT PAS PRÊT 2: J'ARRIVE",
+      "OpeningDate": "2026-03-20",
+      "synopsis": "Seule devant un manoir en flammes et couverte de sang, Grace MacCaulley vient d’échapper à un jeu macabre orchestré par sa belle-famille. Unique survivante d’une partie de cache-cache meurtrière, la jeune mariée, désormais veuve, est emmenée à l’hôpital où elle est interrogée par un enquêteur qui la soupçonne d’être responsable des assassinats. Au même moment, sa sœur Faith, avec qui elle est brouillée depuis de nombreuses années, se rend à son chevet. Lorsqu’un tueur surgit dans les couloirs de l’hôpital, les deux femmes doivent prendre la fuite. Elles sont bientôt rattrapées et emmenées dans un domaine où se sont donné rendez-vous les membres de richissimes familles, instigatrices d’un match revanche qui promet d’être tout aussi dangereux que le premier.",
+      "classification": "13+",
+      "duree": 108,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005422",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005420",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=Y4ZQdp8nZkw",
+      "content": "Violence | Langage Vulgaire | Suspense",
+      "horaire": {
+        "2026-03-28": [
+          {
+            "session_id": 32565,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32574,
+            "heure": "19:15",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-03-29": [
+          {
+            "session_id": 32577,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32585,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-01": [
+          {
+            "session_id": 32554,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-02": [
+          {
+            "session_id": 32560,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1774715700,
+      "last_show": 1775171700
+    },
+    {
+      "id": "ST00001874",
+      "titre": "YOUNGBLOOD: LE HOCKEY DANS LE SANG",
+      "OpeningDate": "2026-03-06",
+      "synopsis": "Ayant perdu sa mère quand il était enfant, Dean Youngblood a été élevé à la dure par son père qui était aussi son entraîneur au hockey. À force de persévérance, le garçon a progressé pour atteindre les rangs juniors. Malheureusement, son comportement sur la glace lui a valu une suspension et a miné ses rêves de faire carrière dans le sport. Le vent tourne lorsqu’il reçoit la visite d’un représentant des Mustangs de Hamilton qui cherchent à pourvoir un poste laissé vacant par un joueur blessé. Dean quitte donc Detroit pour se joindre aux Mustangs, mais se retrouve devant un entraîneur réticent à lui faire une place au sein de la formation. Et pour cause : malgré son indéniable talent, le jeune hockeyeur tend à réagir très fortement à la moindre provocation.",
+      "classification": "G",
+      "duree": 104,
+      "genre": "Action",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005362",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005360",
+      "banniere": "",
+      "bande_annonce": "https://vimeo.com/1150113771?fl=pl&fe=vl",
+      "content": "Drame sportif",
+      "horaire": {
+        "2026-03-28": [
+          {
+            "session_id": 32589,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32572,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-03-29": [
+          {
+            "session_id": 32590,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32584,
+            "heure": "18:45",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1774716300,
+      "last_show": 1774824300
     },
     {
       "id": "ST00001786",
@@ -228,15 +380,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
       "content": "Animation",
       "horaire": {
-        "2026-03-27": [
-          {
-            "session_id": 32547,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-03-28": [
           {
             "session_id": 32568,
@@ -288,118 +431,8 @@
           }
         ]
       },
-      "first_show": 1774650900,
+      "first_show": 1774716900,
       "last_show": 1775170500
-    },
-    {
-      "id": "ST00001874",
-      "titre": "YOUNGBLOOD: LE HOCKEY DANS LE SANG",
-      "OpeningDate": "2026-03-06",
-      "synopsis": "Ayant perdu sa mère quand il était enfant, Dean Youngblood a été élevé à la dure par son père qui était aussi son entraîneur au hockey. À force de persévérance, le garçon a progressé pour atteindre les rangs juniors. Malheureusement, son comportement sur la glace lui a valu une suspension et a miné ses rêves de faire carrière dans le sport. Le vent tourne lorsqu’il reçoit la visite d’un représentant des Mustangs de Hamilton qui cherchent à pourvoir un poste laissé vacant par un joueur blessé. Dean quitte donc Detroit pour se joindre aux Mustangs, mais se retrouve devant un entraîneur réticent à lui faire une place au sein de la formation. Et pour cause : malgré son indéniable talent, le jeune hockeyeur tend à réagir très fortement à la moindre provocation.",
-      "classification": "G",
-      "duree": 104,
-      "genre": "Action",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005362",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005360",
-      "banniere": "",
-      "bande_annonce": "https://vimeo.com/1150113771?fl=pl&fe=vl",
-      "content": "Drame sportif",
-      "horaire": {
-        "2026-03-27": [
-          {
-            "session_id": 32548,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-28": [
-          {
-            "session_id": 32589,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32572,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-03-29": [
-          {
-            "session_id": 32590,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32584,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1774652100,
-      "last_show": 1774824300
-    },
-    {
-      "id": "ST00001830",
-      "titre": "FRISSONS 7",
-      "OpeningDate": "2026-02-27",
-      "synopsis": "Entourée de ses proches, la propriétaire d’un petit café, Sidney Prescott, mène une vie routinière à Pine Grove. L’appel téléphonique d’un psychopathe masqué qui menace d’assassiner sa fille adolescente réveille chez elle des souvenirs pénibles de son passé à Woodsboro. En faisant preuve d’un courage exceptionnel, la survivante de plusieurs attaques violentes se lance dans un affrontement ultime avec un tueur machiavélique.",
-      "classification": "13+",
-      "duree": 114,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005314",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005312",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
-      "content": "Violence | Suspense d'épouvante",
-      "horaire": {
-        "2026-03-27": [
-          {
-            "session_id": 32591,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-28": [
-          {
-            "session_id": 32592,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-03-29": [
-          {
-            "session_id": 32593,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1774652700,
-      "last_show": 1774825500
     },
     {
       "id": "ST00001836",
@@ -416,15 +449,6 @@
       "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
       "content": "Drame sentimental",
       "horaire": {
-        "2026-03-27": [
-          {
-            "session_id": 32546,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-03-28": [
           {
             "session_id": 32564,
@@ -607,119 +631,37 @@
           }
         ]
       },
-      "first_show": 1774652700,
+      "first_show": 1774716900,
       "last_show": 1775775900
     },
     {
-      "id": "ST00001852",
-      "titre": "PRÊT PAS PRÊT 2: J'ARRIVE",
-      "OpeningDate": "2026-03-20",
-      "synopsis": "Seule devant un manoir en flammes et couverte de sang, Grace MacCaulley vient d’échapper à un jeu macabre orchestré par sa belle-famille. Unique survivante d’une partie de cache-cache meurtrière, la jeune mariée, désormais veuve, est emmenée à l’hôpital où elle est interrogée par un enquêteur qui la soupçonne d’être responsable des assassinats. Au même moment, sa sœur Faith, avec qui elle est brouillée depuis de nombreuses années, se rend à son chevet. Lorsqu’un tueur surgit dans les couloirs de l’hôpital, les deux femmes doivent prendre la fuite. Elles sont bientôt rattrapées et emmenées dans un domaine où se sont donné rendez-vous les membres de richissimes familles, instigatrices d’un match revanche qui promet d’être tout aussi dangereux que le premier.",
+      "id": "ST00001830",
+      "titre": "FRISSONS 7",
+      "OpeningDate": "2026-02-27",
+      "synopsis": "Entourée de ses proches, la propriétaire d’un petit café, Sidney Prescott, mène une vie routinière à Pine Grove. L’appel téléphonique d’un psychopathe masqué qui menace d’assassiner sa fille adolescente réveille chez elle des souvenirs pénibles de son passé à Woodsboro. En faisant preuve d’un courage exceptionnel, la survivante de plusieurs attaques violentes se lance dans un affrontement ultime avec un tueur machiavélique.",
       "classification": "13+",
-      "duree": 108,
-      "genre": "Suspense",
+      "duree": 114,
+      "genre": "Horror",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005422",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005420",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005314",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005312",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=Y4ZQdp8nZkw",
-      "content": "Violence | Langage Vulgaire | Suspense",
+      "bande_annonce": "https://www.youtube.com/watch?v=iwZ9s20X7OE",
+      "content": "Violence | Suspense d'épouvante",
       "horaire": {
-        "2026-03-27": [
-          {
-            "session_id": 32550,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-03-28": [
           {
-            "session_id": 32565,
-            "heure": "12:35",
+            "session_id": 32592,
+            "heure": "19:05",
             "attributs": [],
             "salle": "5",
             "placesDisponibles": 85
-          },
-          {
-            "session_id": 32574,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
           }
         ],
         "2026-03-29": [
           {
-            "session_id": 32577,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32585,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-04-01": [
-          {
-            "session_id": 32554,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-04-02": [
-          {
-            "session_id": 32560,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1774653300,
-      "last_show": 1775171700
-    },
-    {
-      "id": "ST00001784",
-      "titre": "GOAT: RÊVER PLUS HAUT",
-      "OpeningDate": "2026-02-13",
-      "synopsis": "Enfant, William Harris assiste à une partie de basketball avec sa mère. Imprégné par le spectacle sur le terrain et la prouesse sportive, il décide ce jour-là de devenir, lui aussi, un joueur professionnel. Dix ans plus tard, il parvient à être recruté dans son équipe favorite, aux côtés de son idole de toujours, Jett Fillmore.",
-      "classification": "G",
-      "duree": 100,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005228",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005226",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=285WBsXW6fY",
-      "content": "Animation",
-      "horaire": {
-        "2026-03-28": [
-          {
-            "session_id": 32569,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-03-29": [
-          {
-            "session_id": 32581,
-            "heure": "12:35",
+            "session_id": 32593,
+            "heure": "19:05",
             "attributs": [
               "DERNIÈRE"
             ],
@@ -728,8 +670,8 @@
           }
         ]
       },
-      "first_show": 1774715700,
-      "last_show": 1774802100
+      "first_show": 1774739100,
+      "last_show": 1774825500
     },
     {
       "id": "ST00001788",
