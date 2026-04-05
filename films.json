@@ -179,8 +179,8 @@
             "session_id": 32734,
             "heure": "18:25",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-04-15": [
@@ -188,8 +188,8 @@
             "session_id": 32693,
             "heure": "18:25",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-04-16": [
@@ -197,8 +197,8 @@
             "session_id": 32699,
             "heure": "18:25",
             "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ]
       },
@@ -222,11 +222,13 @@
       "horaire": {
         "2026-04-05": [
           {
-            "session_id": 32708,
+            "session_id": 32467,
             "heure": "12:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
             "session_id": 32482,
@@ -240,11 +242,13 @@
         ],
         "2026-04-06": [
           {
-            "session_id": 32709,
+            "session_id": 32487,
             "heure": "12:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-04-08": [
@@ -283,7 +287,7 @@
         "2026-04-11": [
           {
             "session_id": 32655,
-            "heure": "12:25",
+            "heure": "12:15",
             "attributs": [
               "DLX"
             ],
@@ -303,7 +307,7 @@
         "2026-04-12": [
           {
             "session_id": 32675,
-            "heure": "12:25",
+            "heure": "12:15",
             "attributs": [
               "DLX"
             ],
@@ -524,13 +528,11 @@
       "horaire": {
         "2026-04-05": [
           {
-            "session_id": 32467,
+            "session_id": 32708,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 32473,
@@ -553,13 +555,11 @@
         ],
         "2026-04-06": [
           {
-            "session_id": 32487,
+            "session_id": 32709,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
             "session_id": 32493,
