@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-05",
+    "next_show_date": "2026-04-06",
     "next_show_time": "11:35"
   },
   "films": [
@@ -43,43 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-04-05": [
-          {
-            "session_id": 32464,
-            "heure": "11:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32470,
-            "heure": "13:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32472,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32476,
-            "heure": "16:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32480,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-04-06": [
           {
             "session_id": 32484,
@@ -202,7 +165,7 @@
           }
         ]
       },
-      "first_show": 1775403300,
+      "first_show": 1775489700,
       "last_show": 1776378300
     },
     {
@@ -220,26 +183,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
-        "2026-04-05": [
-          {
-            "session_id": 32467,
-            "heure": "12:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32482,
-            "heure": "18:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-06": [
           {
             "session_id": 32487,
@@ -348,7 +291,7 @@
           }
         ]
       },
-      "first_show": 1775405100,
+      "first_show": 1775491500,
       "last_show": 1776378300
     },
     {
@@ -366,29 +309,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
       "content": "Animation",
       "horaire": {
-        "2026-04-05": [
-          {
-            "session_id": 32468,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32477,
-            "heure": "16:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32712,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-04-06": [
           {
             "session_id": 32488,
@@ -426,7 +346,7 @@
           }
         ]
       },
-      "first_show": 1775406300,
+      "first_show": 1775492700,
       "last_show": 1775774700
     },
     {
@@ -444,26 +364,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=4WVBkg00s64",
       "content": "Documentaire religieux",
       "horaire": {
-        "2026-04-05": [
-          {
-            "session_id": 32608,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32474,
-            "heure": "15:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-06": [
           {
             "session_id": 32610,
@@ -508,7 +408,7 @@
           }
         ]
       },
-      "first_show": 1775406900,
+      "first_show": 1775493300,
       "last_show": 1776022500
     },
     {
@@ -526,33 +426,6 @@
       "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
       "content": "Drame sentimental",
       "horaire": {
-        "2026-04-05": [
-          {
-            "session_id": 32708,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32473,
-            "heure": "15:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32609,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-06": [
           {
             "session_id": 32709,
@@ -685,7 +558,7 @@
           }
         ]
       },
-      "first_show": 1775406900,
+      "first_show": 1775493300,
       "last_show": 1776380700
     }
   ]
