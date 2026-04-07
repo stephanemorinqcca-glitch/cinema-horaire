@@ -24,150 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-06",
-    "next_show_time": "11:35"
+    "next_show_date": "2026-04-08",
+    "next_show_time": "18:25"
   },
   "films": [
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-04-06": [
-          {
-            "session_id": 32484,
-            "heure": "11:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32490,
-            "heure": "13:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32492,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32544,
-            "heure": "16:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-08": [
-          {
-            "session_id": 32520,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-09": [
-          {
-            "session_id": 32540,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-10": [
-          {
-            "session_id": 32649,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-11": [
-          {
-            "session_id": 32659,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32665,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32669,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-12": [
-          {
-            "session_id": 32679,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32685,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32734,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-15": [
-          {
-            "session_id": 32693,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-16": [
-          {
-            "session_id": 32699,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1775489700,
-      "last_show": 1776378300
-    },
     {
       "id": "ST00001808",
       "titre": "PROJET DERNIÈRE CHANCE",
@@ -183,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
-        "2026-04-06": [
-          {
-            "session_id": 32487,
-            "heure": "12:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-08": [
           {
             "session_id": 32522,
@@ -291,8 +140,177 @@
           }
         ]
       },
-      "first_show": 1775491500,
+      "first_show": 1775687100,
       "last_show": 1776378300
+    },
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-04-08": [
+          {
+            "session_id": 32520,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-09": [
+          {
+            "session_id": 32540,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-10": [
+          {
+            "session_id": 32649,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-11": [
+          {
+            "session_id": 32659,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32665,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32669,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-12": [
+          {
+            "session_id": 32679,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32685,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32734,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-15": [
+          {
+            "session_id": 32693,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-16": [
+          {
+            "session_id": 32699,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-17": [
+          {
+            "session_id": 32752,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-18": [
+          {
+            "session_id": 32759,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32768,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-19": [
+          {
+            "session_id": 32775,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32784,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-22": [
+          {
+            "session_id": 32740,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-23": [
+          {
+            "session_id": 32746,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1775687100,
+      "last_show": 1776983100
     },
     {
       "id": "ST00001786",
@@ -309,22 +327,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
       "content": "Animation",
       "horaire": {
-        "2026-04-06": [
-          {
-            "session_id": 32488,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32545,
-            "heure": "16:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-04-08": [
           {
             "session_id": 32523,
@@ -346,70 +348,8 @@
           }
         ]
       },
-      "first_show": 1775492700,
+      "first_show": 1775688300,
       "last_show": 1775774700
-    },
-    {
-      "id": "ST00001900",
-      "titre": "SACRÉ COEUR: SON RÈGNE N'A PAS DE FIN",
-      "OpeningDate": "2026-04-03",
-      "synopsis": "Ce documentaire donne la parole à plusieurs croyants dans un montage classique. Quelques brefs passages présentent des reconstitutions et montrent notamment la crucifixion du Christ. Bien connus, ces segments de l’iconographie religieuse contiennent quelques touches sanglantes. Leur présence n’altère pas le caractère sobre de la production.",
-      "classification": "G",
-      "duree": 96,
-      "genre": "Documentary",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005454",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005452",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=4WVBkg00s64",
-      "content": "Documentaire religieux",
-      "horaire": {
-        "2026-04-06": [
-          {
-            "session_id": 32610,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32629,
-            "heure": "15:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-04-11": [
-          {
-            "session_id": 32664,
-            "heure": "15:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-04-12": [
-          {
-            "session_id": 32684,
-            "heure": "15:35",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1775493300,
-      "last_show": 1776022500
     },
     {
       "id": "ST00001836",
@@ -426,24 +366,6 @@
       "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
       "content": "Drame sentimental",
       "horaire": {
-        "2026-04-06": [
-          {
-            "session_id": 32709,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32493,
-            "heure": "15:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-08": [
           {
             "session_id": 32613,
@@ -558,8 +480,227 @@
           }
         ]
       },
-      "first_show": 1775493300,
+      "first_show": 1775689500,
       "last_show": 1776380700
+    },
+    {
+      "id": "ST00001900",
+      "titre": "SACRÉ COEUR: SON RÈGNE N'A PAS DE FIN",
+      "OpeningDate": "2026-04-03",
+      "synopsis": "Ce documentaire donne la parole à plusieurs croyants dans un montage classique. Quelques brefs passages présentent des reconstitutions et montrent notamment la crucifixion du Christ. Bien connus, ces segments de l’iconographie religieuse contiennent quelques touches sanglantes. Leur présence n’altère pas le caractère sobre de la production.",
+      "classification": "G",
+      "duree": 96,
+      "genre": "Documentary",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005454",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005452",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=4WVBkg00s64",
+      "content": "Documentaire religieux",
+      "horaire": {
+        "2026-04-10": [
+          {
+            "session_id": 32735,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-04-11": [
+          {
+            "session_id": 32664,
+            "heure": "15:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32736,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-04-12": [
+          {
+            "session_id": 32684,
+            "heure": "15:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32737,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1775862300,
+      "last_show": 1776035100
+    },
+    {
+      "id": "ST00001864",
+      "titre": "ILS TE TUERONT",
+      "OpeningDate": "2026-04-10",
+      "synopsis": "Dix ans après avoir commis un crime qui l’a séparée de sa jeune sœur Maria, Asia Reaves sort de prison et se rend au manoir Virgil dans Manhattan. Sous une fausse identité, elle se fait passer pour la nouvelle femme de ménage de l’endroit, mais peu de temps après son arrivée, des individus masqués surgissent et tentent de s’en prendre à elle. Asia révèle alors ses véritables intentions, soit celles de retrouver sa sœur Maria.",
+      "classification": "13+",
+      "duree": 94,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005278",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005276",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/U7GQNZVtYtY",
+      "content": "Violence | Horreur | Comédie d'épouvante",
+      "horaire": {
+        "2026-04-10": [
+          {
+            "session_id": 32651,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-11": [
+          {
+            "session_id": 32656,
+            "heure": "12:25",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32661,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32671,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-12": [
+          {
+            "session_id": 32676,
+            "heure": "12:25",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32681,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32691,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-15": [
+          {
+            "session_id": 32696,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-16": [
+          {
+            "session_id": 32702,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-17": [
+          {
+            "session_id": 32755,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-18": [
+          {
+            "session_id": 32757,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32771,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-19": [
+          {
+            "session_id": 32773,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 32787,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-22": [
+          {
+            "session_id": 32743,
+            "heure": "19:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-04-23": [
+          {
+            "session_id": 32749,
+            "heure": "19:05",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1775862900,
+      "last_show": 1776985500
     }
   ]
 }
