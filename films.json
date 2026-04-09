@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-08",
+    "next_show_date": "2026-04-09",
     "next_show_time": "18:25"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
-        "2026-04-08": [
-          {
-            "session_id": 32522,
-            "heure": "18:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-09": [
           {
             "session_id": 32542,
@@ -140,7 +129,7 @@
           }
         ]
       },
-      "first_show": 1775687100,
+      "first_show": 1775773500,
       "last_show": 1776378300
     },
     {
@@ -158,15 +147,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-04-08": [
-          {
-            "session_id": 32520,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-04-09": [
           {
             "session_id": 32540,
@@ -309,7 +289,7 @@
           }
         ]
       },
-      "first_show": 1775687100,
+      "first_show": 1775773500,
       "last_show": 1776983100
     },
     {
@@ -327,15 +307,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=NXw1ZJtDTwo",
       "content": "Animation",
       "horaire": {
-        "2026-04-08": [
-          {
-            "session_id": 32523,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-04-09": [
           {
             "session_id": 32543,
@@ -348,7 +319,7 @@
           }
         ]
       },
-      "first_show": 1775688300,
+      "first_show": 1775774700,
       "last_show": 1775774700
     },
     {
@@ -366,17 +337,6 @@
       "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
       "content": "Drame sentimental",
       "horaire": {
-        "2026-04-08": [
-          {
-            "session_id": 32613,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-09": [
           {
             "session_id": 32615,
@@ -480,7 +440,7 @@
           }
         ]
       },
-      "first_show": 1775689500,
+      "first_show": 1775775900,
       "last_show": 1776380700
     },
     {
