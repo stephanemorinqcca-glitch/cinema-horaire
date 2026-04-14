@@ -467,7 +467,9 @@
           {
             "session_id": 32903,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
