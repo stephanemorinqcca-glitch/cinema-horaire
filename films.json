@@ -469,7 +469,7 @@
           },
           {
             "session_id": 32797,
-            "heure": "19:05",
+            "heure": "18:25",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -485,7 +485,7 @@
           },
           {
             "session_id": 32807,
-            "heure": "19:05",
+            "heure": "18:25",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -576,6 +576,180 @@
       },
       "first_show": 1776639900,
       "last_show": 1776985500
+    },
+    {
+      "id": "ST00001868",
+      "titre": "MICHAEL",
+      "OpeningDate": "2026-04-24",
+      "synopsis": "Au milieu des années 1960, Joseph Jackson, un ouvrier de Gary, en Indiana, entreprend de faire de ses 5 fils des vedettes de la musique. Reposant sur le talent de Michael, le plus jeune d’entre eux, le succès des Jackson 5 se concrétise au tournant des années 1970. Quelques années plus tard, la famille, qui s’est enrichie, s’est établie en Californie et Joseph consacre tout son temps à la gérance du groupe. L’ambition du patriarche n’a d’égale que sa poigne de fer et l’ascendant autoritaire qu’il exerce sur les siens, ce qui provoque des frictions avec Michael. Ce dernier, maintenant un jeune adulte, souhaite voler de ses propres ailes et proposer au public les chansons de son cru. La parution de l’album Off the Wall le propulse au rang de célébrité à travers les États-Unis et marque le début d’un phénomène de portée mondiale.",
+      "classification": "G",
+      "duree": 127,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005526",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005524",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
+      "content": "Drame biographique",
+      "horaire": {
+        "2026-04-24": [
+          {
+            "session_id": 32791,
+            "heure": "12:25",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32796,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-25": [
+          {
+            "session_id": 32801,
+            "heure": "12:25",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32806,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-26": [
+          {
+            "session_id": 32811,
+            "heure": "12:25",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32816,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-29": [
+          {
+            "session_id": 32821,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-30": [
+          {
+            "session_id": 32826,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-01": [
+          {
+            "session_id": 32836,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-02": [
+          {
+            "session_id": 32842,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32846,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-03": [
+          {
+            "session_id": 32852,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32856,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-06": [
+          {
+            "session_id": 32862,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32866,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1777047900,
+      "last_show": 1778194500
     }
   ]
 }
