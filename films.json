@@ -168,10 +168,69 @@
             "salle": "2",
             "placesDisponibles": 91
           }
+        ],
+        "2026-05-01": [
+          {
+            "session_id": 32838,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-02": [
+          {
+            "session_id": 32844,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32848,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-03": [
+          {
+            "session_id": 32854,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32859,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-06": [
+          {
+            "session_id": 32861,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32865,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
         ]
       },
       "first_show": 1776896700,
-      "last_show": 1777587900
+      "last_show": 1778192700
     },
     {
       "id": "ST00001876",
@@ -213,7 +272,7 @@
         "2026-04-24": [
           {
             "session_id": 32792,
-            "heure": "12:35",
+            "heure": "12:25",
             "attributs": [
               "DLX"
             ],
@@ -233,7 +292,7 @@
         "2026-04-25": [
           {
             "session_id": 32802,
-            "heure": "12:35",
+            "heure": "12:25",
             "attributs": [
               "DLX"
             ],
@@ -253,7 +312,7 @@
         "2026-04-26": [
           {
             "session_id": 32812,
-            "heure": "12:35",
+            "heure": "12:25",
             "attributs": [
               "DLX"
             ],
@@ -432,7 +491,7 @@
         "2026-04-24": [
           {
             "session_id": 32791,
-            "heure": "12:25",
+            "heure": "12:35",
             "attributs": [
               "DLX+"
             ],
@@ -452,7 +511,7 @@
         "2026-04-25": [
           {
             "session_id": 32801,
-            "heure": "12:25",
+            "heure": "12:35",
             "attributs": [
               "DLX+"
             ],
@@ -472,7 +531,7 @@
         "2026-04-26": [
           {
             "session_id": 32811,
-            "heure": "12:25",
+            "heure": "12:35",
             "attributs": [
               "DLX+"
             ],
@@ -585,7 +644,7 @@
           }
         ]
       },
-      "first_show": 1777047900,
+      "first_show": 1777048500,
       "last_show": 1778194500
     }
   ]
