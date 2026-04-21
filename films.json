@@ -113,7 +113,7 @@
           },
           {
             "session_id": 32797,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -129,7 +129,7 @@
           },
           {
             "session_id": 32807,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -145,7 +145,7 @@
           },
           {
             "session_id": 32817,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -154,7 +154,7 @@
         "2026-04-29": [
           {
             "session_id": 32822,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -163,7 +163,7 @@
         "2026-04-30": [
           {
             "session_id": 32827,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -172,7 +172,7 @@
         "2026-05-01": [
           {
             "session_id": 32838,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -188,7 +188,7 @@
           },
           {
             "session_id": 32848,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -204,7 +204,7 @@
           },
           {
             "session_id": 32859,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -213,7 +213,7 @@
         "2026-05-06": [
           {
             "session_id": 32861,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -222,7 +222,7 @@
         "2026-05-07": [
           {
             "session_id": 32865,
-            "heure": "18:25",
+            "heure": "18:35",
             "attributs": [],
             "salle": "2",
             "placesDisponibles": 91
@@ -230,7 +230,7 @@
         ]
       },
       "first_show": 1776896700,
-      "last_show": 1778192700
+      "last_show": 1778193300
     },
     {
       "id": "ST00001876",
@@ -342,14 +342,13 @@
         ],
         "2026-04-30": [
           {
-            "session_id": 32829,
+            "session_id": 32972,
             "heure": "18:45",
             "attributs": [
-              "DERNIÈRE",
-              "DLX"
+              "DERNIÈRE"
             ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ]
       },
@@ -561,13 +560,13 @@
         ],
         "2026-04-30": [
           {
-            "session_id": 32826,
+            "session_id": 32829,
             "heure": "18:55",
             "attributs": [
-              "DLX+"
+              "DLX"
             ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-01": [
@@ -646,6 +645,191 @@
       },
       "first_show": 1777048500,
       "last_show": 1778194500
+    },
+    {
+      "id": "ST00001810",
+      "titre": "LE DIABLE S'HABILLE EN PRADA II",
+      "OpeningDate": "2026-04-30",
+      "synopsis": "Miranda, Andy, Emily et Nigel replongent dans l'univers impitoyable et glamour du magazine Runway et des rues new-yorkaises où l'élégance est une arme redoutable.",
+      "classification": null,
+      "duree": 113,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005474",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005472",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
+      "content": "Comédie",
+      "horaire": {
+        "2026-04-30": [
+          {
+            "session_id": 32826,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-01": [
+          {
+            "session_id": 32837,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-02": [
+          {
+            "session_id": 32841,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32847,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-03": [
+          {
+            "session_id": 32851,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32857,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-06": [
+          {
+            "session_id": 32863,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32867,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-08": [
+          {
+            "session_id": 32920,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32926,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-09": [
+          {
+            "session_id": 32928,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32934,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-10": [
+          {
+            "session_id": 32936,
+            "heure": "12:35",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          },
+          {
+            "session_id": 32942,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-13": [
+          {
+            "session_id": 32946,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32950,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ]
+      },
+      "first_show": 1777590300,
+      "last_show": 1778799900
     }
   ]
 }
