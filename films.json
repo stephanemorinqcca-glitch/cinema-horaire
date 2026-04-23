@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-22",
+    "next_show_date": "2026-04-23",
     "next_show_time": "18:25"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
       "content": "Aventures de science-fiction",
       "horaire": {
-        "2026-04-22": [
-          {
-            "session_id": 32738,
-            "heure": "18:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-23": [
           {
             "session_id": 32744,
@@ -67,7 +56,7 @@
           }
         ]
       },
-      "first_show": 1776896700,
+      "first_show": 1776983100,
       "last_show": 1776983100
     },
     {
@@ -85,15 +74,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-04-22": [
-          {
-            "session_id": 32740,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-04-23": [
           {
             "session_id": 32746,
@@ -229,7 +209,7 @@
           }
         ]
       },
-      "first_show": 1776896700,
+      "first_show": 1776983100,
       "last_show": 1778193300
     },
     {
@@ -247,17 +227,6 @@
       "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
       "content": "Violence | Horreur | Épouvante occulte",
       "horaire": {
-        "2026-04-22": [
-          {
-            "session_id": 32741,
-            "heure": "18:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-23": [
           {
             "session_id": 32747,
@@ -352,7 +321,7 @@
           }
         ]
       },
-      "first_show": 1776897900,
+      "first_show": 1776984300,
       "last_show": 1777589100
     },
     {
@@ -370,15 +339,6 @@
       "bande_annonce": "https://youtu.be/U7GQNZVtYtY",
       "content": "Violence | Horreur | Comédie d'épouvante",
       "horaire": {
-        "2026-04-22": [
-          {
-            "session_id": 32743,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-04-23": [
           {
             "session_id": 32749,
@@ -391,7 +351,7 @@
           }
         ]
       },
-      "first_show": 1776899100,
+      "first_show": 1776985500,
       "last_show": 1776985500
     },
     {
@@ -409,15 +369,6 @@
       "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
       "content": "Drame sentimental",
       "horaire": {
-        "2026-04-22": [
-          {
-            "session_id": 32900,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-04-23": [
           {
             "session_id": 32903,
@@ -430,7 +381,7 @@
           }
         ]
       },
-      "first_show": 1776899100,
+      "first_show": 1776985500,
       "last_show": 1776985500
     },
     {
@@ -448,15 +399,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=J5e4h7PTKXY",
       "content": "Comédie noire",
       "horaire": {
-        "2026-04-22": [
-          {
-            "session_id": 32886,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-04-23": [
           {
             "session_id": 32888,
@@ -469,7 +411,7 @@
           }
         ]
       },
-      "first_show": 1776899700,
+      "first_show": 1776986100,
       "last_show": 1776986100
     },
     {
