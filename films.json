@@ -24,194 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-23",
-    "next_show_time": "18:25"
+    "next_show_date": "2026-04-24",
+    "next_show_time": "12:25"
   },
   "films": [
-    {
-      "id": "ST00001808",
-      "titre": "PROJET DERNIÈRE CHANCE",
-      "OpeningDate": "2026-03-19",
-      "synopsis": "Des chercheurs découvrent une substance inconnue qui menace le Soleil et la vie sur Terre. Une commission intergouvernementale confie à Ryland Grace la mission d’éliminer le danger. Il est envoyé à un endroit précis dans la galaxie où il pourra effectuer des expériences et trouver la solution au problème. Arrivé à son point de destination, il rencontre Rocky, un astronaute provenant d’une civilisation inconnue et ayant la mission de sauver sa planète du même fléau. Après un premier contact, les deux scientifiques se lient d’amitié et leur collaboration donne lieu à des résultats surprenants.",
-      "classification": "G",
-      "duree": 156,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005418",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005416",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=yVIfrAztm1c",
-      "content": "Aventures de science-fiction",
-      "horaire": {
-        "2026-04-23": [
-          {
-            "session_id": 32744,
-            "heure": "18:25",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1776983100,
-      "last_show": 1776983100
-    },
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-04-23": [
-          {
-            "session_id": 32746,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-24": [
-          {
-            "session_id": 32794,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32797,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-25": [
-          {
-            "session_id": 32804,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32807,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-04-26": [
-          {
-            "session_id": 32814,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32817,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-04-29": [
-          {
-            "session_id": 32822,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-04-30": [
-          {
-            "session_id": 32827,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-01": [
-          {
-            "session_id": 32838,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-02": [
-          {
-            "session_id": 32844,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32848,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-03": [
-          {
-            "session_id": 32854,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32859,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-06": [
-          {
-            "session_id": 32861,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-07": [
-          {
-            "session_id": 32865,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1776983100,
-      "last_show": 1778193300
-    },
     {
       "id": "ST00001876",
       "titre": "LA MOMIE: UN FILM DE LEE CRONIN",
@@ -227,17 +43,6 @@
       "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
       "content": "Violence | Horreur | Épouvante occulte",
       "horaire": {
-        "2026-04-23": [
-          {
-            "session_id": 32747,
-            "heure": "18:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-24": [
           {
             "session_id": 32792,
@@ -321,98 +126,8 @@
           }
         ]
       },
-      "first_show": 1776984300,
+      "first_show": 1777047900,
       "last_show": 1777589100
-    },
-    {
-      "id": "ST00001864",
-      "titre": "ILS TE TUERONT",
-      "OpeningDate": "2026-04-10",
-      "synopsis": "Dix ans après avoir commis un crime qui l’a séparée de sa jeune sœur Maria, Asia Reaves sort de prison et se rend au manoir Virgil dans Manhattan. Sous une fausse identité, elle se fait passer pour la nouvelle femme de ménage de l’endroit, mais peu de temps après son arrivée, des individus masqués surgissent et tentent de s’en prendre à elle. Asia révèle alors ses véritables intentions, soit celles de retrouver sa sœur Maria.",
-      "classification": "13+",
-      "duree": 94,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005278",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005276",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/U7GQNZVtYtY",
-      "content": "Violence | Horreur | Comédie d'épouvante",
-      "horaire": {
-        "2026-04-23": [
-          {
-            "session_id": 32749,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1776985500,
-      "last_show": 1776985500
-    },
-    {
-      "id": "ST00001836",
-      "titre": "SOUVENIRS DE LUI",
-      "OpeningDate": "2026-03-13",
-      "synopsis": "Après avoir purgé une peine de prison, Kenna retourne à Laramie dans le Wyoming avec l’espoir de retrouver sa fille Diem. Confiée à la famille de son amoureux décédé à sa naissance, l’enfant ignore l’existence de sa mère. Avec le soutien de Ledger, propriétaire d’un bar et ami proche des grands-parents de la fillette, la jeune femme entame une démarche délicate et difficile.",
-      "classification": "G",
-      "duree": 114,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005172",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005170",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/1sGLoOPRZWA",
-      "content": "Drame sentimental",
-      "horaire": {
-        "2026-04-23": [
-          {
-            "session_id": 32903,
-            "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1776985500,
-      "last_show": 1776985500
-    },
-    {
-      "id": "ST00001918",
-      "titre": "L'AVEU",
-      "OpeningDate": "2026-04-17",
-      "synopsis": "Emma et Charlie, un couple, traversent une crise de couple juste avant leur mariage lorsqu'Emma révèle qu'adolescente, elle avait planifié une fusillade dans son école, sans jamais passer à l'acte. Le film s'intéresse aux conséquences de cette confession, explorant les thèmes du pardon, de l'empathie et de la façon dont cette révélation modifie la perception que Charlie a de sa fiancée.",
-      "classification": "13+",
-      "duree": 105,
-      "genre": "Black Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005522",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005520",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=J5e4h7PTKXY",
-      "content": "Comédie noire",
-      "horaire": {
-        "2026-04-23": [
-          {
-            "session_id": 32888,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1776986100,
-      "last_show": 1776986100
     },
     {
       "id": "ST00001868",
@@ -587,6 +302,150 @@
       },
       "first_show": 1777048500,
       "last_show": 1778194500
+    },
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-04-24": [
+          {
+            "session_id": 32794,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32797,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-25": [
+          {
+            "session_id": 32804,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32807,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-04-26": [
+          {
+            "session_id": 32814,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32817,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-04-29": [
+          {
+            "session_id": 32822,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-04-30": [
+          {
+            "session_id": 32827,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-01": [
+          {
+            "session_id": 32838,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-02": [
+          {
+            "session_id": 32844,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32848,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-03": [
+          {
+            "session_id": 32854,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32859,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-06": [
+          {
+            "session_id": 32861,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32865,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1777049700,
+      "last_show": 1778193300
     },
     {
       "id": "ST00001810",
