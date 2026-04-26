@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-25",
+    "next_show_date": "2026-04-26",
     "next_show_time": "12:25"
   },
   "films": [
@@ -43,26 +43,6 @@
       "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
       "content": "Violence | Horreur | Épouvante occulte",
       "horaire": {
-        "2026-04-25": [
-          {
-            "session_id": 32802,
-            "heure": "12:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32809,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-26": [
           {
             "session_id": 32812,
@@ -106,7 +86,7 @@
           }
         ]
       },
-      "first_show": 1777134300,
+      "first_show": 1777220700,
       "last_show": 1777589100
     },
     {
@@ -124,26 +104,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-04-25": [
-          {
-            "session_id": 32801,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32806,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-26": [
           {
             "session_id": 32811,
@@ -256,7 +216,7 @@
           }
         ]
       },
-      "first_show": 1777134900,
+      "first_show": 1777221300,
       "last_show": 1778194500
     },
     {
@@ -274,22 +234,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-04-25": [
-          {
-            "session_id": 32804,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32807,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-04-26": [
           {
             "session_id": 32814,
@@ -384,7 +328,7 @@
           }
         ]
       },
-      "first_show": 1777136100,
+      "first_show": 1777222500,
       "last_show": 1778193300
     },
     {
