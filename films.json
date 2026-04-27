@@ -31,201 +31,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-26",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-04-29",
+    "next_show_time": "18:35"
   },
   "films": [
-    {
-      "id": "ST00001876",
-      "titre": "LA MOMIE: UN FILM DE LEE CRONIN",
-      "OpeningDate": "2026-04-17",
-      "synopsis": "Le journaliste américain Charlie Cannon s’est installé avec sa femme et ses deux enfants en âge scolaire au Caire où il fait carrière. À son insu, sa petite fille Katie a noué des liens d’amitié avec une voisine qu’elle rejoint dans le jardin. Un jour, l’enfant disparaît sans laisser de traces. Huit ans plus tard, le couple apprend que Katie est retrouvée. La petite réintègre alors son noyau familial, mais son comportement et son apparence physique ont profondément changé.",
-      "classification": "13+",
-      "duree": 134,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005398",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005396",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
-      "content": "Violence | Horreur | Épouvante occulte",
-      "horaire": {
-        "2026-04-26": [
-          {
-            "session_id": 32812,
-            "heure": "12:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32819,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-04-29": [
-          {
-            "session_id": 32824,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-04-30": [
-          {
-            "session_id": 32972,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1777220700,
-      "last_show": 1777589100
-    },
-    {
-      "id": "ST00001868",
-      "titre": "MICHAEL",
-      "OpeningDate": "2026-04-24",
-      "synopsis": "Au milieu des années 1960, Joseph Jackson, un ouvrier de Gary, en Indiana, entreprend de faire de ses 5 fils des vedettes de la musique. Reposant sur le talent de Michael, le plus jeune d’entre eux, le succès des Jackson 5 se concrétise au tournant des années 1970. Quelques années plus tard, la famille, qui s’est enrichie, s’est établie en Californie et Joseph consacre tout son temps à la gérance du groupe. L’ambition du patriarche n’a d’égale que sa poigne de fer et l’ascendant autoritaire qu’il exerce sur les siens, ce qui provoque des frictions avec Michael. Ce dernier, maintenant un jeune adulte, souhaite voler de ses propres ailes et proposer au public les chansons de son cru. La parution de l’album Off the Wall le propulse au rang de célébrité à travers les États-Unis et marque le début d’un phénomène de portée mondiale.",
-      "classification": "G",
-      "duree": 127,
-      "genre": "Biography",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005526",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005524",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
-      "content": "Drame biographique",
-      "horaire": {
-        "2026-04-26": [
-          {
-            "session_id": 32811,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32816,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-04-29": [
-          {
-            "session_id": 32821,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-04-30": [
-          {
-            "session_id": 32829,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-01": [
-          {
-            "session_id": 32911,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-02": [
-          {
-            "session_id": 32842,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32913,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-03": [
-          {
-            "session_id": 32852,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32856,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-06": [
-          {
-            "session_id": 32862,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-07": [
-          {
-            "session_id": 32866,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1777221300,
-      "last_show": 1778194500
-    },
     {
       "id": "ST00001788",
       "titre": "SUPER MARIO GALAXY: LE FILM",
@@ -241,22 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-04-26": [
-          {
-            "session_id": 32814,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32817,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-04-29": [
           {
             "session_id": 32822,
@@ -401,8 +194,218 @@
           }
         ]
       },
-      "first_show": 1777222500,
+      "first_show": 1777502100,
       "last_show": 1778798100
+    },
+    {
+      "id": "ST00001876",
+      "titre": "LA MOMIE: UN FILM DE LEE CRONIN",
+      "OpeningDate": "2026-04-17",
+      "synopsis": "Le journaliste américain Charlie Cannon s’est installé avec sa femme et ses deux enfants en âge scolaire au Caire où il fait carrière. À son insu, sa petite fille Katie a noué des liens d’amitié avec une voisine qu’elle rejoint dans le jardin. Un jour, l’enfant disparaît sans laisser de traces. Huit ans plus tard, le couple apprend que Katie est retrouvée. La petite réintègre alors son noyau familial, mais son comportement et son apparence physique ont profondément changé.",
+      "classification": "13+",
+      "duree": 134,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005398",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005396",
+      "banniere": "",
+      "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
+      "content": "Violence | Horreur | Épouvante occulte",
+      "horaire": {
+        "2026-04-29": [
+          {
+            "session_id": 32824,
+            "heure": "18:45",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-04-30": [
+          {
+            "session_id": 32972,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-05-01": [
+          {
+            "session_id": 32979,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-02": [
+          {
+            "session_id": 32980,
+            "heure": "12:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32981,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-03": [
+          {
+            "session_id": 32982,
+            "heure": "12:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32983,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-06": [
+          {
+            "session_id": 32985,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32987,
+            "heure": "18:45",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1777502700,
+      "last_show": 1778193900
+    },
+    {
+      "id": "ST00001868",
+      "titre": "MICHAEL",
+      "OpeningDate": "2026-04-24",
+      "synopsis": "Au milieu des années 1960, Joseph Jackson, un ouvrier de Gary, en Indiana, entreprend de faire de ses 5 fils des vedettes de la musique. Reposant sur le talent de Michael, le plus jeune d’entre eux, le succès des Jackson 5 se concrétise au tournant des années 1970. Quelques années plus tard, la famille, qui s’est enrichie, s’est établie en Californie et Joseph consacre tout son temps à la gérance du groupe. L’ambition du patriarche n’a d’égale que sa poigne de fer et l’ascendant autoritaire qu’il exerce sur les siens, ce qui provoque des frictions avec Michael. Ce dernier, maintenant un jeune adulte, souhaite voler de ses propres ailes et proposer au public les chansons de son cru. La parution de l’album Off the Wall le propulse au rang de célébrité à travers les États-Unis et marque le début d’un phénomène de portée mondiale.",
+      "classification": "G",
+      "duree": 127,
+      "genre": "Biography",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005526",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005524",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
+      "content": "Drame biographique",
+      "horaire": {
+        "2026-04-29": [
+          {
+            "session_id": 32821,
+            "heure": "18:55",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-04-30": [
+          {
+            "session_id": 32829,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-01": [
+          {
+            "session_id": 32911,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-02": [
+          {
+            "session_id": 32842,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32913,
+            "heure": "18:55",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-03": [
+          {
+            "session_id": 32852,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32856,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-06": [
+          {
+            "session_id": 32862,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32866,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1777503300,
+      "last_show": 1778194500
     },
     {
       "id": "ST00001810",
@@ -619,7 +622,7 @@
         "2026-05-02": [
           {
             "session_id": 32912,
-            "heure": "13:05",
+            "heure": "12:55",
             "attributs": [
               "VF"
             ],
@@ -640,7 +643,7 @@
         "2026-05-03": [
           {
             "session_id": 32914,
-            "heure": "13:05",
+            "heure": "12:55",
             "attributs": [
               "VF"
             ],
