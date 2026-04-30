@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-04-29",
+    "next_show_date": "2026-04-30",
     "next_show_time": "18:35"
   },
   "films": [
@@ -50,15 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-04-29": [
-          {
-            "session_id": 32822,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-04-30": [
           {
             "session_id": 32827,
@@ -194,7 +185,7 @@
           }
         ]
       },
-      "first_show": 1777502100,
+      "first_show": 1777588500,
       "last_show": 1778798100
     },
     {
@@ -212,17 +203,6 @@
       "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
       "content": "Violence | Horreur | Épouvante occulte",
       "horaire": {
-        "2026-04-29": [
-          {
-            "session_id": 32824,
-            "heure": "18:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-04-30": [
           {
             "session_id": 32972,
@@ -294,7 +274,7 @@
           }
         ]
       },
-      "first_show": 1777502700,
+      "first_show": 1777589100,
       "last_show": 1778193900
     },
     {
@@ -312,17 +292,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-04-29": [
-          {
-            "session_id": 32821,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-04-30": [
           {
             "session_id": 32829,
@@ -404,7 +373,7 @@
           }
         ]
       },
-      "first_show": 1777503300,
+      "first_show": 1777589700,
       "last_show": 1778194500
     },
     {
