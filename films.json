@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-02",
+    "next_show_date": "2026-05-03",
     "next_show_time": "12:25"
   },
   "films": [
@@ -50,22 +50,6 @@
       "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
       "content": "Violence | Horreur | Épouvante occulte",
       "horaire": {
-        "2026-05-02": [
-          {
-            "session_id": 32980,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32981,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-03": [
           {
             "session_id": 32982,
@@ -103,7 +87,7 @@
           }
         ]
       },
-      "first_show": 1777739100,
+      "first_show": 1777825500,
       "last_show": 1778193900
     },
     {
@@ -121,26 +105,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
       "content": "Comédie",
       "horaire": {
-        "2026-05-02": [
-          {
-            "session_id": 32841,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32847,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-03": [
           {
             "session_id": 32851,
@@ -266,7 +230,7 @@
           }
         ]
       },
-      "first_show": 1777739700,
+      "first_show": 1777826100,
       "last_show": 1778799900
     },
     {
@@ -284,26 +248,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-02": [
-          {
-            "session_id": 32842,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32846,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-03": [
           {
             "session_id": 32852,
@@ -431,7 +375,7 @@
           }
         ]
       },
-      "first_show": 1777739700,
+      "first_show": 1777826100,
       "last_show": 1779058500
     },
     {
@@ -449,26 +393,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
       "content": "Suspense",
       "horaire": {
-        "2026-05-02": [
-          {
-            "session_id": 32912,
-            "heure": "12:55",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32977,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-03": [
           {
             "session_id": 32914,
@@ -595,7 +519,7 @@
           }
         ]
       },
-      "first_show": 1777740900,
+      "first_show": 1777827300,
       "last_show": 1778800500
     },
     {
@@ -613,22 +537,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-05-02": [
-          {
-            "session_id": 32844,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32848,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-05-03": [
           {
             "session_id": 32854,
@@ -730,7 +638,7 @@
           }
         ]
       },
-      "first_show": 1777740900,
+      "first_show": 1777827300,
       "last_show": 1778798100
     },
     {
