@@ -31,10 +31,113 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-03",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-05-06",
+    "next_show_time": "18:35"
   },
   "films": [
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-05-06": [
+          {
+            "session_id": 32861,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32865,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-08": [
+          {
+            "session_id": 32922,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32924,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-09": [
+          {
+            "session_id": 32930,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32932,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-10": [
+          {
+            "session_id": 32938,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32940,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-13": [
+          {
+            "session_id": 32944,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32948,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1778106900,
+      "last_show": 1778798100
+    },
     {
       "id": "ST00001876",
       "titre": "LA MOMIE: UN FILM DE LEE CRONIN",
@@ -50,22 +153,6 @@
       "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
       "content": "Violence | Horreur | Épouvante occulte",
       "horaire": {
-        "2026-05-03": [
-          {
-            "session_id": 32982,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32983,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-06": [
           {
             "session_id": 32985,
@@ -87,151 +174,8 @@
           }
         ]
       },
-      "first_show": 1777825500,
+      "first_show": 1778107500,
       "last_show": 1778193900
-    },
-    {
-      "id": "ST00001810",
-      "titre": "LE DIABLE S'HABILLE EN PRADA II",
-      "OpeningDate": "2026-04-30",
-      "synopsis": "Frappée par le chômage, la journaliste réputée Andy Sachs réintègre l’équipe de création de la revue de mode Runway. Vingt ans après son court passage par la rédaction, peu de choses ont changé et elle y retrouve son complice d’autrefois, Nigel Kipling, ainsi que Miranda Priestly, la directrice autoritaire de l’édition. Mettant de côté leur ego, tous les trois unissent leurs efforts pour sauver la publication dont l’existence est menacée par les avancements technologiques et les intrigues d’une ancienne collaboratrice ambitieuse et sans scrupules.",
-      "classification": "G",
-      "duree": 119,
-      "genre": "Drama",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005474",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005472",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
-      "content": "Comédie",
-      "horaire": {
-        "2026-05-03": [
-          {
-            "session_id": 32851,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32857,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-05-06": [
-          {
-            "session_id": 32863,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-05-07": [
-          {
-            "session_id": 32867,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
-        "2026-05-08": [
-          {
-            "session_id": 32921,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32925,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-09": [
-          {
-            "session_id": 32929,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32933,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-10": [
-          {
-            "session_id": 32937,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32941,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32945,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32949,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1777826100,
-      "last_show": 1778799900
     },
     {
       "id": "ST00001868",
@@ -248,26 +192,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-03": [
-          {
-            "session_id": 32852,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32856,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-06": [
           {
             "session_id": 32862,
@@ -375,8 +299,131 @@
           }
         ]
       },
-      "first_show": 1777826100,
+      "first_show": 1778108100,
       "last_show": 1779058500
+    },
+    {
+      "id": "ST00001810",
+      "titre": "LE DIABLE S'HABILLE EN PRADA II",
+      "OpeningDate": "2026-04-30",
+      "synopsis": "Frappée par le chômage, la journaliste réputée Andy Sachs réintègre l’équipe de création de la revue de mode Runway. Vingt ans après son court passage par la rédaction, peu de choses ont changé et elle y retrouve son complice d’autrefois, Nigel Kipling, ainsi que Miranda Priestly, la directrice autoritaire de l’édition. Mettant de côté leur ego, tous les trois unissent leurs efforts pour sauver la publication dont l’existence est menacée par les avancements technologiques et les intrigues d’une ancienne collaboratrice ambitieuse et sans scrupules.",
+      "classification": "G",
+      "duree": 119,
+      "genre": "Drama",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005474",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005472",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
+      "content": "Comédie",
+      "horaire": {
+        "2026-05-06": [
+          {
+            "session_id": 32863,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-07": [
+          {
+            "session_id": 32867,
+            "heure": "19:05",
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
+          }
+        ],
+        "2026-05-08": [
+          {
+            "session_id": 32921,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32925,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-09": [
+          {
+            "session_id": 32929,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32933,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-10": [
+          {
+            "session_id": 32937,
+            "heure": "12:35",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 32941,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-13": [
+          {
+            "session_id": 32945,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32949,
+            "heure": "19:05",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1778108700,
+      "last_show": 1778799900
     },
     {
       "id": "ST00001932",
@@ -393,26 +440,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
       "content": "Suspense",
       "horaire": {
-        "2026-05-03": [
-          {
-            "session_id": 32914,
-            "heure": "12:55",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32915,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-06": [
           {
             "session_id": 32917,
@@ -519,127 +546,8 @@
           }
         ]
       },
-      "first_show": 1777827300,
+      "first_show": 1778109300,
       "last_show": 1778800500
-    },
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-05-03": [
-          {
-            "session_id": 32854,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32859,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-06": [
-          {
-            "session_id": 32861,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-07": [
-          {
-            "session_id": 32865,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-08": [
-          {
-            "session_id": 32922,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32924,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-09": [
-          {
-            "session_id": 32930,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32932,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-10": [
-          {
-            "session_id": 32938,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32940,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32944,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32948,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1777827300,
-      "last_show": 1778798100
     },
     {
       "id": "ST00001760",
