@@ -31,134 +31,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-07",
-    "next_show_time": "18:35"
+    "next_show_date": "2026-05-08",
+    "next_show_time": "12:25"
   },
   "films": [
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-05-07": [
-          {
-            "session_id": 32865,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-08": [
-          {
-            "session_id": 32922,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32924,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-09": [
-          {
-            "session_id": 32930,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32932,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-10": [
-          {
-            "session_id": 32938,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32940,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32944,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32948,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1778193300,
-      "last_show": 1778798100
-    },
-    {
-      "id": "ST00001876",
-      "titre": "LA MOMIE: UN FILM DE LEE CRONIN",
-      "OpeningDate": "2026-04-17",
-      "synopsis": "Le journaliste américain Charlie Cannon s’est installé avec sa femme et ses deux enfants en âge scolaire au Caire où il fait carrière. À son insu, sa petite fille Katie a noué des liens d’amitié avec une voisine qu’elle rejoint dans le jardin. Un jour, l’enfant disparaît sans laisser de traces. Huit ans plus tard, le couple apprend que Katie est retrouvée. La petite réintègre alors son noyau familial, mais son comportement et son apparence physique ont profondément changé.",
-      "classification": "13+",
-      "duree": 134,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005398",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005396",
-      "banniere": "",
-      "bande_annonce": "https://youtu.be/cg8YH-oeKSU",
-      "content": "Violence | Horreur | Épouvante occulte",
-      "horaire": {
-        "2026-05-07": [
-          {
-            "session_id": 32987,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1778193900,
-      "last_show": 1778193900
-    },
     {
       "id": "ST00001868",
       "titre": "MICHAEL",
@@ -174,17 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-07": [
-          {
-            "session_id": 32866,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-08": [
           {
             "session_id": 32962,
@@ -270,7 +135,7 @@
           }
         ]
       },
-      "first_show": 1778194500,
+      "first_show": 1778257500,
       "last_show": 1779058500
     },
     {
@@ -288,17 +153,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
       "content": "Comédie",
       "horaire": {
-        "2026-05-07": [
-          {
-            "session_id": 32867,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-08": [
           {
             "session_id": 32921,
@@ -382,121 +236,8 @@
           }
         ]
       },
-      "first_show": 1778195100,
+      "first_show": 1778258100,
       "last_show": 1778799900
-    },
-    {
-      "id": "ST00001932",
-      "titre": "EAU PROFONDE",
-      "OpeningDate": "2026-05-01",
-      "synopsis": "Un avion reliant Los Angeles à Shanghai s'écrase au milieu du Pacifique. Après avoir survécu au crash, les rescapés découvrent rapidement qu'ils ne sont pas seuls et qu'ils doivent survivre dans des eaux infestées de requins.",
-      "classification": "13+",
-      "duree": 107,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005566",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005564",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
-      "content": "Suspense",
-      "horaire": {
-        "2026-05-07": [
-          {
-            "session_id": 32919,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-05-08": [
-          {
-            "session_id": 32923,
-            "heure": "13:05",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32927,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-09": [
-          {
-            "session_id": 32931,
-            "heure": "13:05",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32935,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-10": [
-          {
-            "session_id": 32939,
-            "heure": "13:05",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32943,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32947,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32951,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE",
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1778195700,
-      "last_show": 1778800500
     },
     {
       "id": "ST00001760",
@@ -671,6 +412,193 @@
       },
       "first_show": 1778258700,
       "last_show": 1779405300
+    },
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-05-08": [
+          {
+            "session_id": 32922,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32924,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-09": [
+          {
+            "session_id": 32930,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32932,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-10": [
+          {
+            "session_id": 32938,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32940,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-13": [
+          {
+            "session_id": 32944,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32948,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1778259300,
+      "last_show": 1778798100
+    },
+    {
+      "id": "ST00001932",
+      "titre": "EAU PROFONDE",
+      "OpeningDate": "2026-05-01",
+      "synopsis": "Un avion reliant Los Angeles à Shanghai s'écrase au milieu du Pacifique. Après avoir survécu au crash, les rescapés découvrent rapidement qu'ils ne sont pas seuls et qu'ils doivent survivre dans des eaux infestées de requins.",
+      "classification": "13+",
+      "duree": 107,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005566",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005564",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
+      "content": "Suspense",
+      "horaire": {
+        "2026-05-08": [
+          {
+            "session_id": 32923,
+            "heure": "13:05",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32927,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-09": [
+          {
+            "session_id": 32931,
+            "heure": "13:05",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32935,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-10": [
+          {
+            "session_id": 32939,
+            "heure": "13:05",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32943,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-13": [
+          {
+            "session_id": 32947,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32951,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE",
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1778259900,
+      "last_show": 1778800500
     },
     {
       "id": "ST00001860",
