@@ -31,7 +31,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-08",
+    "next_show_date": "2026-05-09",
     "next_show_time": "12:25"
   },
   "films": [
@@ -50,22 +50,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-08": [
-          {
-            "session_id": 32962,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32963,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-09": [
           {
             "session_id": 32964,
@@ -176,7 +160,7 @@
           }
         ]
       },
-      "first_show": 1778257500,
+      "first_show": 1778343900,
       "last_show": 1779404100
     },
     {
@@ -194,26 +178,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
       "content": "Comédie",
       "horaire": {
-        "2026-05-08": [
-          {
-            "session_id": 32921,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32925,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-09": [
           {
             "session_id": 32929,
@@ -350,7 +314,7 @@
           }
         ]
       },
-      "first_show": 1778258100,
+      "first_show": 1778344500,
       "last_show": 1779404700
     },
     {
@@ -368,26 +332,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=C-LZh1LBEeo",
       "content": "Violence | Aventures fantastiques",
       "horaire": {
-        "2026-05-08": [
-          {
-            "session_id": 32920,
-            "heure": "12:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32926,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-09": [
           {
             "session_id": 32928,
@@ -524,7 +468,7 @@
           }
         ]
       },
-      "first_show": 1778258700,
+      "first_show": 1778345100,
       "last_show": 1779405300
     },
     {
@@ -542,22 +486,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-05-08": [
-          {
-            "session_id": 32922,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32924,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-05-09": [
           {
             "session_id": 32930,
@@ -668,7 +596,7 @@
           }
         ]
       },
-      "first_show": 1778259300,
+      "first_show": 1778345700,
       "last_show": 1779402900
     },
     {
@@ -686,26 +614,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
       "content": "Suspense",
       "horaire": {
-        "2026-05-08": [
-          {
-            "session_id": 32923,
-            "heure": "13:05",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32927,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-09": [
           {
             "session_id": 32931,
@@ -770,7 +678,7 @@
           }
         ]
       },
-      "first_show": 1778259900,
+      "first_show": 1778346300,
       "last_show": 1778800500
     },
     {
@@ -788,22 +696,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=E5BRO0tR5_Y",
       "content": "Comédie",
       "horaire": {
-        "2026-05-08": [
-          {
-            "session_id": 32952,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32953,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-05-09": [
           {
             "session_id": 32954,
@@ -914,7 +806,7 @@
           }
         ]
       },
-      "first_show": 1778259900,
+      "first_show": 1778346300,
       "last_show": 1779403500
     }
   ]
