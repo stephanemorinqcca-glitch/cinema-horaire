@@ -31,10 +31,222 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-10",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-05-13",
+    "next_show_time": "18:35"
   },
   "films": [
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-05-13": [
+          {
+            "session_id": 32944,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32948,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-15": [
+          {
+            "session_id": 33012,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-16": [
+          {
+            "session_id": 32991,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 32994,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-17": [
+          {
+            "session_id": 33003,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33006,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-18": [
+          {
+            "session_id": 33076,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-20": [
+          {
+            "session_id": 33018,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-21": [
+          {
+            "session_id": 33024,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1778711700,
+      "last_show": 1779402900
+    },
+    {
+      "id": "ST00001860",
+      "titre": "LES MOUTONS DÉTECTIVES",
+      "OpeningDate": "2026-05-08",
+      "synopsis": "Dans cette enquête aussi drôle qu’inhabituelle, George est un berger qui lit chaque soir des romans policiers à ses moutons, convaincu qu’ils n’y comprennent rien. Mais lorsqu’un événement mystérieux bouleverse la tranquillité de la ferme, le troupeau décide de mener l’enquête. En suivant les indices et en enquêtant sur les suspects humains, les moutons se révèlent être de malins détectives.",
+      "classification": "G",
+      "duree": 109,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005490",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005488",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=E5BRO0tR5_Y",
+      "content": "Comédie",
+      "horaire": {
+        "2026-05-13": [
+          {
+            "session_id": 32959,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32961,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-15": [
+          {
+            "session_id": 33013,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-16": [
+          {
+            "session_id": 32993,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 32995,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-17": [
+          {
+            "session_id": 33005,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33007,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-18": [
+          {
+            "session_id": 33078,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-20": [
+          {
+            "session_id": 33019,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-21": [
+          {
+            "session_id": 33025,
+            "heure": "18:45",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1778712300,
+      "last_show": 1779403500
+    },
     {
       "id": "ST00001868",
       "titre": "MICHAEL",
@@ -50,110 +262,114 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-10": [
-          {
-            "session_id": 32966,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 32967,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-13": [
           {
-            "session_id": 32969,
+            "session_id": 32945,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-14": [
           {
-            "session_id": 32971,
+            "session_id": 32949,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-15": [
           {
-            "session_id": 33014,
+            "session_id": 33016,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-16": [
           {
-            "session_id": 32988,
+            "session_id": 32989,
             "heure": "12:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 32999,
+            "session_id": 32996,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-17": [
           {
-            "session_id": 33000,
+            "session_id": 33001,
             "heure": "12:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           },
           {
-            "session_id": 33011,
+            "session_id": 33008,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-18": [
           {
-            "session_id": 33073,
+            "session_id": 33074,
             "heure": "12:25",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-20": [
           {
-            "session_id": 33020,
+            "session_id": 33022,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-21": [
           {
-            "session_id": 33026,
+            "session_id": 33028,
             "heure": "18:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ]
       },
-      "first_show": 1778430300,
+      "first_show": 1778712900,
       "last_show": 1779404100
     },
     {
@@ -171,135 +387,137 @@
       "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
       "content": "Comédie",
       "horaire": {
-        "2026-05-10": [
-          {
-            "session_id": 32937,
-            "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 32941,
-            "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-13": [
           {
-            "session_id": 32945,
+            "session_id": 32969,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-05-14": [
           {
-            "session_id": 32949,
+            "session_id": 32971,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-05-15": [
           {
-            "session_id": 33016,
+            "session_id": 33014,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-05-16": [
           {
-            "session_id": 32989,
+            "session_id": 32988,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
-            "session_id": 32996,
+            "session_id": 32999,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-05-17": [
           {
-            "session_id": 33001,
+            "session_id": 33000,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           },
           {
-            "session_id": 33008,
+            "session_id": 33011,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-05-18": [
           {
-            "session_id": 33074,
+            "session_id": 33073,
             "heure": "12:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-05-20": [
           {
-            "session_id": 33022,
+            "session_id": 33020,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ],
         "2026-05-21": [
           {
-            "session_id": 33028,
+            "session_id": 33026,
             "heure": "19:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
           }
         ]
       },
-      "first_show": 1778430900,
+      "first_show": 1778713500,
       "last_show": 1779404700
+    },
+    {
+      "id": "ST00001932",
+      "titre": "EAU PROFONDE",
+      "OpeningDate": "2026-05-01",
+      "synopsis": "Un avion reliant Los Angeles à Shanghai s'écrase au milieu du Pacifique. Après avoir survécu au crash, les rescapés découvrent rapidement qu'ils ne sont pas seuls et qu'ils doivent survivre dans des eaux infestées de requins.",
+      "classification": "13+",
+      "duree": 107,
+      "genre": "Suspense",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005566",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005564",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
+      "content": "Suspense",
+      "horaire": {
+        "2026-05-13": [
+          {
+            "session_id": 32947,
+            "heure": "19:15",
+            "attributs": [
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-05-14": [
+          {
+            "session_id": 32951,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE",
+              "VF"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1778714100,
+      "last_show": 1778800500
     },
     {
       "id": "ST00001760",
@@ -316,26 +534,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=C-LZh1LBEeo",
       "content": "Violence | Aventures fantastiques",
       "horaire": {
-        "2026-05-10": [
-          {
-            "session_id": 32936,
-            "heure": "12:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 32942,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-13": [
           {
             "session_id": 32946,
@@ -444,314 +642,8 @@
           }
         ]
       },
-      "first_show": 1778431500,
+      "first_show": 1778714100,
       "last_show": 1779405300
-    },
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-05-10": [
-          {
-            "session_id": 32938,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32940,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32944,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32948,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-15": [
-          {
-            "session_id": 33012,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-16": [
-          {
-            "session_id": 32991,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 32994,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-17": [
-          {
-            "session_id": 33003,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33006,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-18": [
-          {
-            "session_id": 33076,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-20": [
-          {
-            "session_id": 33018,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-21": [
-          {
-            "session_id": 33024,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1778432100,
-      "last_show": 1779402900
-    },
-    {
-      "id": "ST00001932",
-      "titre": "EAU PROFONDE",
-      "OpeningDate": "2026-05-01",
-      "synopsis": "Un avion reliant Los Angeles à Shanghai s'écrase au milieu du Pacifique. Après avoir survécu au crash, les rescapés découvrent rapidement qu'ils ne sont pas seuls et qu'ils doivent survivre dans des eaux infestées de requins.",
-      "classification": "13+",
-      "duree": 107,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005566",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005564",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=fqO7So-Nohg",
-      "content": "Suspense",
-      "horaire": {
-        "2026-05-10": [
-          {
-            "session_id": 32939,
-            "heure": "13:05",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32943,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32947,
-            "heure": "19:15",
-            "attributs": [
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32951,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE",
-              "VF"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1778432700,
-      "last_show": 1778800500
-    },
-    {
-      "id": "ST00001860",
-      "titre": "LES MOUTONS DÉTECTIVES",
-      "OpeningDate": "2026-05-08",
-      "synopsis": "Dans cette enquête aussi drôle qu’inhabituelle, George est un berger qui lit chaque soir des romans policiers à ses moutons, convaincu qu’ils n’y comprennent rien. Mais lorsqu’un événement mystérieux bouleverse la tranquillité de la ferme, le troupeau décide de mener l’enquête. En suivant les indices et en enquêtant sur les suspects humains, les moutons se révèlent être de malins détectives.",
-      "classification": "G",
-      "duree": 109,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005490",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005488",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=E5BRO0tR5_Y",
-      "content": "Comédie",
-      "horaire": {
-        "2026-05-10": [
-          {
-            "session_id": 32956,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 32957,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-13": [
-          {
-            "session_id": 32959,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-14": [
-          {
-            "session_id": 32961,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-15": [
-          {
-            "session_id": 33013,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-16": [
-          {
-            "session_id": 32993,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 32995,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-17": [
-          {
-            "session_id": 33005,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 33007,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-18": [
-          {
-            "session_id": 33078,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-20": [
-          {
-            "session_id": 33019,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
-        "2026-05-21": [
-          {
-            "session_id": 33025,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1778432700,
-      "last_show": 1779403500
     },
     {
       "id": "ST00001854",
