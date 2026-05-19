@@ -24,10 +24,145 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-18",
-    "next_show_time": "12:25"
+    "next_show_date": "2026-05-20",
+    "next_show_time": "18:35"
   },
   "films": [
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-05-20": [
+          {
+            "session_id": 33018,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-21": [
+          {
+            "session_id": 33024,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-22": [
+          {
+            "session_id": 33031,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-23": [
+          {
+            "session_id": 33052,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33055,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-24": [
+          {
+            "session_id": 33064,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33067,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-27": [
+          {
+            "session_id": 33037,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-28": [
+          {
+            "session_id": 33043,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1779316500,
+      "last_show": 1780007700
+    },
+    {
+      "id": "ST00001860",
+      "titre": "LES MOUTONS DÉTECTIVES",
+      "OpeningDate": "2026-05-08",
+      "synopsis": "George prend beaucoup soin du bien-être de ses moutons. Le soir, la lecture à voix haute des romans policiers devant le petit troupeau est devenue une routine quotidienne, qui lui offre des moments de plaisir intellectuel, et suscite de vives discussions entre les bêtes. Le meurtre de George bouleverse la vie idyllique des animaux domestiques. Parallèlement à l’enquête officielle menée par un gardien de la paix maladroit, les moutons commencent leur propre investigation et collaborent avec les autorités d’une façon inusitée.",
+      "classification": "G",
+      "duree": 109,
+      "genre": "Adventure",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005490",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005488",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=E5BRO0tR5_Y",
+      "content": "Comédie",
+      "horaire": {
+        "2026-05-20": [
+          {
+            "session_id": 33019,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-05-21": [
+          {
+            "session_id": 33025,
+            "heure": "18:45",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1779317100,
+      "last_show": 1779403500
+    },
     {
       "id": "ST00001868",
       "titre": "MICHAEL",
@@ -43,17 +178,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-18": [
-          {
-            "session_id": 33075,
-            "heure": "12:25",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-20": [
           {
             "session_id": 33021,
@@ -150,7 +274,7 @@
           }
         ]
       },
-      "first_show": 1779121500,
+      "first_show": 1779317700,
       "last_show": 1780008900
     },
     {
@@ -168,15 +292,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=IbZeuC7JWSg",
       "content": "Comédie",
       "horaire": {
-        "2026-05-18": [
-          {
-            "session_id": 33073,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-20": [
           {
             "session_id": 33020,
@@ -198,7 +313,7 @@
           }
         ]
       },
-      "first_show": 1779122100,
+      "first_show": 1779318300,
       "last_show": 1779404700
     },
     {
@@ -216,17 +331,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=C-LZh1LBEeo",
       "content": "Violence | Aventures fantastiques",
       "horaire": {
-        "2026-05-18": [
-          {
-            "session_id": 33074,
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-20": [
           {
             "session_id": 33022,
@@ -309,161 +413,8 @@
           }
         ]
       },
-      "first_show": 1779122700,
+      "first_show": 1779318900,
       "last_show": 1780008900
-    },
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-05-18": [
-          {
-            "session_id": 33076,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-20": [
-          {
-            "session_id": 33018,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-21": [
-          {
-            "session_id": 33024,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-22": [
-          {
-            "session_id": 33031,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-23": [
-          {
-            "session_id": 33052,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33055,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-24": [
-          {
-            "session_id": 33064,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33067,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-27": [
-          {
-            "session_id": 33037,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-28": [
-          {
-            "session_id": 33043,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1779123300,
-      "last_show": 1780007700
-    },
-    {
-      "id": "ST00001860",
-      "titre": "LES MOUTONS DÉTECTIVES",
-      "OpeningDate": "2026-05-08",
-      "synopsis": "George prend beaucoup soin du bien-être de ses moutons. Le soir, la lecture à voix haute des romans policiers devant le petit troupeau est devenue une routine quotidienne, qui lui offre des moments de plaisir intellectuel, et suscite de vives discussions entre les bêtes. Le meurtre de George bouleverse la vie idyllique des animaux domestiques. Parallèlement à l’enquête officielle menée par un gardien de la paix maladroit, les moutons commencent leur propre investigation et collaborent avec les autorités d’une façon inusitée.",
-      "classification": "G",
-      "duree": 109,
-      "genre": "Adventure",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005490",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005488",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=E5BRO0tR5_Y",
-      "content": "Comédie",
-      "horaire": {
-        "2026-05-18": [
-          {
-            "session_id": 33078,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-20": [
-          {
-            "session_id": 33019,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-05-21": [
-          {
-            "session_id": 33025,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1779123900,
-      "last_show": 1779403500
     },
     {
       "id": "ST00001854",
@@ -480,15 +431,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
       "content": "Violence | Horreur | Suspense psychopathologique",
       "horaire": {
-        "2026-05-18": [
-          {
-            "session_id": 33077,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-20": [
           {
             "session_id": 33023,
@@ -569,7 +511,7 @@
           }
         ]
       },
-      "first_show": 1779123900,
+      "first_show": 1779318900,
       "last_show": 1780010100
     },
     {
