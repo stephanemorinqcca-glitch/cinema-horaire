@@ -48,7 +48,7 @@
             "session_id": 33032,
             "heure": "18:25",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -57,14 +57,14 @@
             "session_id": 33052,
             "heure": "12:55",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 33055,
             "heure": "18:25",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           }
         ],
@@ -73,14 +73,14 @@
             "session_id": 33064,
             "heure": "12:55",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           },
           {
             "session_id": 33067,
             "heure": "18:35",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           }
         ],
@@ -89,7 +89,7 @@
             "session_id": 33037,
             "heure": "18:35",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           }
         ],
@@ -98,7 +98,7 @@
             "session_id": 33043,
             "heure": "18:35",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           }
         ]
@@ -128,7 +128,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -139,7 +139,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           },
           {
@@ -148,7 +148,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -159,7 +159,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           },
           {
@@ -168,7 +168,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -179,7 +179,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -190,7 +190,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ]
@@ -218,7 +218,7 @@
             "session_id": 33033,
             "heure": "18:45",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           }
         ],
@@ -227,14 +227,14 @@
             "session_id": 33049,
             "heure": "12:35",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 33057,
             "heure": "18:45",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           }
         ],
@@ -243,14 +243,14 @@
             "session_id": 33061,
             "heure": "12:35",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           },
           {
             "session_id": 33069,
             "heure": "18:55",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           }
         ],
@@ -259,7 +259,7 @@
             "session_id": 33039,
             "heure": "18:55",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           }
         ],
@@ -268,7 +268,7 @@
             "session_id": 33045,
             "heure": "18:55",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "2",
             "placesDisponibles": 91
           }
         ]
@@ -298,7 +298,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           }
         ],
@@ -309,7 +309,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           },
           {
@@ -318,7 +318,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           }
         ],
@@ -329,7 +329,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           },
           {
@@ -338,7 +338,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           }
         ],
@@ -349,7 +349,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           }
         ],
@@ -360,7 +360,7 @@
             "attributs": [
               "DLX+"
             ],
-            "salle": "Salle inconnue",
+            "salle": "4",
             "placesDisponibles": 75
           }
         ],
@@ -371,7 +371,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -382,7 +382,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           },
           {
@@ -391,7 +391,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -402,7 +402,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           },
           {
@@ -411,7 +411,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -422,7 +422,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ],
@@ -433,7 +433,7 @@
             "attributs": [
               "DLX"
             ],
-            "salle": "Salle inconnue",
+            "salle": "6",
             "placesDisponibles": 49
           }
         ]
@@ -461,7 +461,7 @@
             "session_id": 33031,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "1",
             "placesDisponibles": 177
           }
         ],
@@ -470,14 +470,14 @@
             "session_id": 33054,
             "heure": "13:05",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           },
           {
             "session_id": 33056,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -486,14 +486,14 @@
             "session_id": 33066,
             "heure": "13:05",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           },
           {
             "session_id": 33068,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -502,7 +502,7 @@
             "session_id": 33038,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -511,7 +511,7 @@
             "session_id": 33044,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -520,7 +520,7 @@
             "session_id": 33083,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -529,14 +529,14 @@
             "session_id": 33102,
             "heure": "13:05",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           },
           {
             "session_id": 33107,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -545,14 +545,14 @@
             "session_id": 33114,
             "heure": "13:05",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           },
           {
             "session_id": 33119,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -561,7 +561,7 @@
             "session_id": 33089,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ],
@@ -570,7 +570,7 @@
             "session_id": 33095,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "5",
             "placesDisponibles": 85
           }
         ]
@@ -598,7 +598,7 @@
             "session_id": 33036,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           }
         ],
@@ -607,14 +607,14 @@
             "session_id": 33053,
             "heure": "13:05",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           },
           {
             "session_id": 33060,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           }
         ],
@@ -623,14 +623,14 @@
             "session_id": 33065,
             "heure": "13:05",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           },
           {
             "session_id": 33072,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           }
         ],
@@ -639,7 +639,7 @@
             "session_id": 33042,
             "heure": "19:15",
             "attributs": [],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           }
         ],
@@ -650,7 +650,7 @@
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "Salle inconnue",
+            "salle": "3",
             "placesDisponibles": 72
           }
         ]
