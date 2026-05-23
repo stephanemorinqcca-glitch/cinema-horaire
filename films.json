@@ -24,88 +24,10 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-22",
-    "next_show_time": "18:25"
+    "next_show_date": "2026-05-23",
+    "next_show_time": "12:25"
   },
   "films": [
-    {
-      "id": "ST00001788",
-      "titre": "SUPER MARIO GALAXY: LE FILM",
-      "OpeningDate": "2026-04-01",
-      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
-      "classification": "G",
-      "duree": 98,
-      "genre": "Animated ",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
-      "content": "Animation",
-      "horaire": {
-        "2026-05-22": [
-          {
-            "session_id": 33032,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-05-23": [
-          {
-            "session_id": 33052,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33055,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-24": [
-          {
-            "session_id": 33064,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33067,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-27": [
-          {
-            "session_id": 33037,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-05-28": [
-          {
-            "session_id": 33043,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ]
-      },
-      "first_show": 1779488700,
-      "last_show": 1780007700
-    },
     {
       "id": "ST00001868",
       "titre": "MICHAEL",
@@ -121,17 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-22": [
-          {
-            "session_id": 33034,
-            "heure": "18:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-23": [
           {
             "session_id": 33050,
@@ -195,7 +106,7 @@
           }
         ]
       },
-      "first_show": 1779489300,
+      "first_show": 1779553500,
       "last_show": 1780008900
     },
     {
@@ -213,15 +124,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=C-LZh1LBEeo",
       "content": "Violence | Aventures fantastiques",
       "horaire": {
-        "2026-05-22": [
-          {
-            "session_id": 33033,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-05-23": [
           {
             "session_id": 33049,
@@ -273,7 +175,7 @@
           }
         ]
       },
-      "first_show": 1779489900,
+      "first_show": 1779554100,
       "last_show": 1780008900
     },
     {
@@ -291,17 +193,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-05-22": [
-          {
-            "session_id": 33035,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-23": [
           {
             "session_id": 33051,
@@ -438,8 +329,77 @@
           }
         ]
       },
-      "first_show": 1779490500,
+      "first_show": 1779554700,
       "last_show": 1780613700
+    },
+    {
+      "id": "ST00001788",
+      "titre": "SUPER MARIO GALAXY: LE FILM",
+      "OpeningDate": "2026-04-01",
+      "synopsis": "Alors qu’elle s’apprête à border ses bébés étoiles pour la nuit, la princesse Rosalina est enlevée par Bowser Junior, le fils du roi des Koopas désormais emprisonné. Pendant ce temps, Mario et Luigi interviennent pour débloquer un tuyau de téléportation obstrué et font la connaissance d’une sympathique créature, Yoshi. Les frères et leur nouvel ami se rendent ensuite à la soirée d’anniversaire de la princesse Peach, où une pluie d’étoiles filantes a lieu dans le ciel. Une de ces étoiles s’écrase sur terre et implore la princesse Peach de partir à la recherche de Rosalina, la mère des lumières. Sans tarder, Peach parvient au portail céleste et confie le royaume à Mario en son absence, mais voilà que Bowser Junior, armé de nouveaux pouvoirs, tente de libérer son père.",
+      "classification": "G",
+      "duree": 98,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005350",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005348",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
+      "content": "Animation",
+      "horaire": {
+        "2026-05-23": [
+          {
+            "session_id": 33052,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33055,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-24": [
+          {
+            "session_id": 33064,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33067,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-27": [
+          {
+            "session_id": 33037,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-28": [
+          {
+            "session_id": 33043,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1779555300,
+      "last_show": 1780007700
     },
     {
       "id": "ST00001930",
@@ -456,15 +416,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=nahCyGr-7kQ",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2026-05-22": [
-          {
-            "session_id": 33031,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-05-23": [
           {
             "session_id": 33054,
@@ -575,7 +526,7 @@
           }
         ]
       },
-      "first_show": 1779491700,
+      "first_show": 1779555900,
       "last_show": 1780614900
     },
     {
@@ -593,15 +544,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
       "content": "Violence | Horreur | Suspense psychopathologique",
       "horaire": {
-        "2026-05-22": [
-          {
-            "session_id": 33036,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-23": [
           {
             "session_id": 33053,
@@ -655,7 +597,7 @@
           }
         ]
       },
-      "first_show": 1779491700,
+      "first_show": 1779555900,
       "last_show": 1780010100
     }
   ]
