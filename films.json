@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-23",
+    "next_show_date": "2026-05-24",
     "next_show_time": "12:25"
   },
   "films": [
@@ -43,26 +43,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=35CQpK8OQRU",
       "content": "Drame biographique",
       "horaire": {
-        "2026-05-23": [
-          {
-            "session_id": 33050,
-            "heure": "12:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 33058,
-            "heure": "18:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-05-24": [
           {
             "session_id": 33062,
@@ -74,13 +54,11 @@
             "placesDisponibles": 49
           },
           {
-            "session_id": 33070,
+            "session_id": 33072,
             "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
           }
         ],
         "2026-05-27": [
@@ -106,7 +84,7 @@
           }
         ]
       },
-      "first_show": 1779553500,
+      "first_show": 1779639900,
       "last_show": 1780008900
     },
     {
@@ -124,22 +102,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=C-LZh1LBEeo",
       "content": "Violence | Aventures fantastiques",
       "horaire": {
-        "2026-05-23": [
-          {
-            "session_id": 33049,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33057,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-05-24": [
           {
             "session_id": 33061,
@@ -169,13 +131,15 @@
           {
             "session_id": 33045,
             "heure": "18:55",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "2",
             "placesDisponibles": 91
           }
         ]
       },
-      "first_show": 1779554100,
+      "first_show": 1779640500,
       "last_show": 1780008900
     },
     {
@@ -193,26 +157,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-05-23": [
-          {
-            "session_id": 33051,
-            "heure": "12:45",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 33059,
-            "heure": "18:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-24": [
           {
             "session_id": 33063,
@@ -329,7 +273,7 @@
           }
         ]
       },
-      "first_show": 1779554700,
+      "first_show": 1779641100,
       "last_show": 1780613700
     },
     {
@@ -347,22 +291,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=PUQNBplKmmA",
       "content": "Animation",
       "horaire": {
-        "2026-05-23": [
-          {
-            "session_id": 33052,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33055,
-            "heure": "18:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-05-24": [
           {
             "session_id": 33064,
@@ -392,13 +320,15 @@
           {
             "session_id": 33043,
             "heure": "18:35",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "1",
             "placesDisponibles": 177
           }
         ]
       },
-      "first_show": 1779555300,
+      "first_show": 1779641700,
       "last_show": 1780007700
     },
     {
@@ -416,22 +346,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=nahCyGr-7kQ",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2026-05-23": [
-          {
-            "session_id": 33054,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33056,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-24": [
           {
             "session_id": 33066,
@@ -520,13 +434,15 @@
           {
             "session_id": 33095,
             "heure": "19:15",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "5",
             "placesDisponibles": 85
           }
         ]
       },
-      "first_show": 1779555900,
+      "first_show": 1779642300,
       "last_show": 1780614900
     },
     {
@@ -544,22 +460,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
       "content": "Violence | Horreur | Suspense psychopathologique",
       "horaire": {
-        "2026-05-23": [
-          {
-            "session_id": 33053,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 33060,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-24": [
           {
             "session_id": 33065,
@@ -569,11 +469,13 @@
             "placesDisponibles": 72
           },
           {
-            "session_id": 33072,
+            "session_id": 33070,
             "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
           }
         ],
         "2026-05-27": [
@@ -597,8 +499,145 @@
           }
         ]
       },
-      "first_show": 1779555900,
+      "first_show": 1779642300,
       "last_show": 1780010100
+    },
+    {
+      "id": "ST00001890",
+      "titre": "LE SOUTIEN DE FAMILLE",
+      "OpeningDate": "2026-05-29",
+      "synopsis": "Nate Wilcox excelle dans son emploi de vendeur d’automobiles alors que son épouse, Katie, s'occupe avec soin de la maison et de leurs trois enfants. Elle gère aussi une petite entreprise qui commercialise une invention de son cru. Un jour, elle se voit offrir un partenariat qui permettra de faire croître sa compagnie de façon exponentielle, si elle accepte de partir à l’étranger pendant plusieurs semaines. Nate l’encourage à saisir l’occasion et lui promet de prendre tout en charge pendant son absence, ne réalisant pas l’ampleur de la tâche qui l’attend.",
+      "classification": "G",
+      "duree": 99,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005642",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005640",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=UGkDayulFJE",
+      "content": "Comédie",
+      "horaire": {
+        "2026-05-29": [
+          {
+            "session_id": 33084,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-30": [
+          {
+            "session_id": 33101,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33108,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-05-31": [
+          {
+            "session_id": 33113,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33120,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-03": [
+          {
+            "session_id": 33090,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-04": [
+          {
+            "session_id": 33096,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-05": [
+          {
+            "session_id": 33136,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-06": [
+          {
+            "session_id": 33153,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33160,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-07": [
+          {
+            "session_id": 33165,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33172,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-10": [
+          {
+            "session_id": 33142,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-11": [
+          {
+            "session_id": 33148,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1780096500,
+      "last_show": 1781219700
     }
   ]
 }
