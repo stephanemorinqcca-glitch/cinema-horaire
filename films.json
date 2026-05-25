@@ -48,8 +48,8 @@
             "session_id": 33037,
             "heure": "18:35",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-05-28": [
@@ -59,8 +59,8 @@
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ]
       },
@@ -71,7 +71,7 @@
       "id": "ST00001800",
       "titre": "LE MANDALORIAN ET GROGU",
       "OpeningDate": "2026-05-22",
-      "synopsis": "La chute du maléfique Empire Galactique a précipité la dispersion des seigneurs de guerre impériaux à travers la galaxie. Pour protéger tout ce pour quoi la Rébellion s'est battue, la jeune Nouvelle République décide de faire appel au légendaire chasseur de primes mandalorien Din Djarin et son jeune apprenti Grogu.",
+      "synopsis": "Le Mandalorian, un chasseur de primes agissant pour le compte de la Nouvelle République, pourchasse les seigneurs de guerre qui se sont dispersés dans la galaxie après la chute de l’Empire. Accompagné de Grogu, son jeune protégé qui maîtrise la Force, il accepte une nouvelle mission destinée à préserver les acquis de la Rébellion, mais qui recèle de nombreux dangers.",
       "classification": "G",
       "duree": 132,
       "genre": "Science Fiction",
@@ -281,8 +281,8 @@
             "session_id": 33038,
             "heure": "19:15",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-05-28": [
@@ -290,8 +290,8 @@
             "session_id": 33044,
             "heure": "19:15",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-05-29": [
@@ -387,9 +387,7 @@
           {
             "session_id": 33048,
             "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
+            "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           }
@@ -416,7 +414,7 @@
         "2026-05-29": [
           {
             "session_id": 33084,
-            "heure": "19:15",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -432,7 +430,7 @@
           },
           {
             "session_id": 33108,
-            "heure": "19:15",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -448,7 +446,7 @@
           },
           {
             "session_id": 33120,
-            "heure": "19:15",
+            "heure": "18:45",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -457,7 +455,7 @@
         "2026-06-03": [
           {
             "session_id": 33090,
-            "heure": "19:15",
+            "heure": "18:45",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -466,7 +464,7 @@
         "2026-06-04": [
           {
             "session_id": 33096,
-            "heure": "19:15",
+            "heure": "18:45",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -532,7 +530,7 @@
           }
         ]
       },
-      "first_show": 1780096500,
+      "first_show": 1780094100,
       "last_show": 1781219700
     }
   ]
