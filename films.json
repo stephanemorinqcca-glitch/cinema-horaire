@@ -536,7 +536,7 @@
         "2026-06-05": [
           {
             "session_id": 33136,
-            "heure": "19:15",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -552,7 +552,7 @@
           },
           {
             "session_id": 33160,
-            "heure": "19:15",
+            "heure": "18:35",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -568,7 +568,7 @@
           },
           {
             "session_id": 33172,
-            "heure": "19:15",
+            "heure": "18:45",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -577,7 +577,7 @@
         "2026-06-10": [
           {
             "session_id": 33142,
-            "heure": "19:15",
+            "heure": "18:45",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -586,7 +586,7 @@
         "2026-06-11": [
           {
             "session_id": 33148,
-            "heure": "19:15",
+            "heure": "18:45",
             "attributs": [],
             "salle": "1",
             "placesDisponibles": 177
@@ -594,13 +594,13 @@
         ]
       },
       "first_show": 1780094100,
-      "last_show": 1781219700
+      "last_show": 1781217900
     },
     {
       "id": "ST00001920",
       "titre": "BACKROOMS: LES ARRIÈRE-SALLES",
       "OpeningDate": "2026-05-29",
-      "synopsis": "Des personnages explorant une dimension labyrinthique infinie et vide, découverte derrière une porte étrange dans un magasin. La tension repose sur l'angoisse psychologique, la perte de repères et des entités mystérieuses",
+      "synopsis": "Propriétaire d’un magasin de meubles auquel il se consacre corps et âme, Clark surmonte difficilement sa récente rupture avec sa femme. Il consulte régulièrement une psychologue, Mary Kline, qui cherche à susciter chez lui des réflexes d’introspection. Une nuit, au hasard de ses tentatives pour faire fonctionner les disjoncteurs défectueux situés au sous-sol de son commerce, il est aspiré par le mur et se retrouve dans une arrière-salle souterraine dont il ne soupçonnait pas l’existence. Ce lieu, où sont empilés des meubles provenant de sa boutique, débouche sur une enfilade de pièces qui forment une sorte de labyrinthe d’où émanent des voix bizarres et surgissent des silhouettes inquiétantes. Affolé, Clark parvient à retraverser dans son magasin, puis confie sa découverte à Mary, qui demeure sceptique. Il décide donc d’y retourner avec deux employés armés d’une caméra, afin de lui fournir la preuve de ses affirmations.",
       "classification": "13+",
       "duree": 111,
       "genre": "Horror",
@@ -687,7 +687,7 @@
         "2026-06-05": [
           {
             "session_id": 33132,
-            "heure": "18:45",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -707,7 +707,7 @@
           },
           {
             "session_id": 33156,
-            "heure": "18:45",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -727,7 +727,7 @@
           },
           {
             "session_id": 33168,
-            "heure": "18:45",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -738,7 +738,7 @@
         "2026-06-10": [
           {
             "session_id": 33138,
-            "heure": "18:45",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -749,7 +749,7 @@
         "2026-06-11": [
           {
             "session_id": 33144,
-            "heure": "18:45",
+            "heure": "19:05",
             "attributs": [
               "DLX"
             ],
@@ -759,7 +759,7 @@
         ]
       },
       "first_show": 1780095900,
-      "last_show": 1781217900
+      "last_show": 1781219100
     },
     {
       "id": "ST00001922",
@@ -838,7 +838,7 @@
         "2026-06-05": [
           {
             "session_id": 33134,
-            "heure": "19:05",
+            "heure": "19:15",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -854,7 +854,7 @@
           },
           {
             "session_id": 33158,
-            "heure": "19:05",
+            "heure": "19:15",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -870,7 +870,7 @@
           },
           {
             "session_id": 33170,
-            "heure": "19:05",
+            "heure": "19:15",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -879,7 +879,7 @@
         "2026-06-10": [
           {
             "session_id": 33140,
-            "heure": "19:05",
+            "heure": "19:15",
             "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
@@ -888,7 +888,7 @@
         "2026-06-11": [
           {
             "session_id": 33146,
-            "heure": "19:05",
+            "heure": "19:15",
             "attributs": [
               "DERNIÈRE"
             ],
@@ -898,7 +898,7 @@
         ]
       },
       "first_show": 1780095900,
-      "last_show": 1781219100
+      "last_show": 1781219700
     }
   ]
 }
