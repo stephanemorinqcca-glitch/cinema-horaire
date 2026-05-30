@@ -24,238 +24,80 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-05-29",
-    "next_show_time": "18:35"
+    "next_show_date": "2026-05-30",
+    "next_show_time": "12:35"
   },
   "films": [
     {
-      "id": "ST00001890",
-      "titre": "LE SOUTIEN DE FAMILLE",
-      "OpeningDate": "2026-05-29",
-      "synopsis": "Nate Wilcox excelle dans son emploi de vendeur d’automobiles alors que son épouse, Katie, s'occupe avec soin de la maison et de leurs trois enfants. Elle gère aussi une petite entreprise qui commercialise une invention de son cru. Un jour, elle se voit offrir un partenariat qui permettra de faire croître sa compagnie de façon exponentielle, si elle accepte de partir à l’étranger pendant plusieurs semaines. Nate l’encourage à saisir l’occasion et lui promet de prendre tout en charge pendant son absence, ne réalisant pas l’ampleur de la tâche qui l’attend.",
-      "classification": "G",
-      "duree": 99,
-      "genre": "Comedy",
+      "id": "ST00001854",
+      "titre": "OBSESSION",
+      "OpeningDate": "2026-05-15",
+      "synopsis": "Timide et maladroit, Barron est attiré par sa charmante collègue Nikky. Pour augmenter ses chances de la séduire, il achète un jouet énigmatique et amusant qui promet d’exaucer des vœux. À sa grande surprise, Barron obtient le succès attendu. Après une courte période de bonheur idyllique, les événements dévoilent les côtés obscurs et imprévisibles de son amoureuse.",
+      "classification": "16+",
+      "duree": 108,
+      "genre": "Horror",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005642",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005640",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005426",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005424",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=UGkDayulFJE",
-      "content": "Comédie",
+      "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
+      "content": "Violence | Horreur | Suspense psychopathologique",
       "horaire": {
-        "2026-05-29": [
-          {
-            "session_id": 33084,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-05-30": [
           {
-            "session_id": 33101,
-            "heure": "13:05",
+            "session_id": 33100,
+            "heure": "12:35",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 33108,
-            "heure": "18:35",
+            "session_id": 33104,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-05-31": [
           {
-            "session_id": 33113,
-            "heure": "13:05",
+            "session_id": 33112,
+            "heure": "12:35",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           },
           {
-            "session_id": 33120,
-            "heure": "18:45",
+            "session_id": 33116,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-06-03": [
           {
-            "session_id": 33090,
-            "heure": "18:45",
+            "session_id": 33086,
+            "heure": "19:15",
             "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ],
         "2026-06-04": [
           {
-            "session_id": 33096,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-06-05": [
-          {
-            "session_id": 33136,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-06-06": [
-          {
-            "session_id": 33153,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33160,
-            "heure": "18:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-06-07": [
-          {
-            "session_id": 33165,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33172,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-06-10": [
-          {
-            "session_id": 33142,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
-        "2026-06-11": [
-          {
-            "session_id": 33148,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "session_id": 33092,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "5",
+            "placesDisponibles": 85
           }
         ]
       },
-      "first_show": 1780094100,
-      "last_show": 1781217900
-    },
-    {
-      "id": "ST00001800",
-      "titre": "LE MANDALORIAN ET GROGU",
-      "OpeningDate": "2026-05-22",
-      "synopsis": "Le Mandalorian, un chasseur de primes agissant pour le compte de la Nouvelle République, pourchasse les seigneurs de guerre qui se sont dispersés dans la galaxie après la chute de l’Empire. Accompagné de Grogu, son jeune protégé qui maîtrise la Force, il accepte une nouvelle mission destinée à préserver les acquis de la Rébellion, mais qui recèle de nombreux dangers.",
-      "classification": "G",
-      "duree": 132,
-      "genre": "Science Fiction",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005654",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005652",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
-      "content": "DAJE | Aventures de science-fiction",
-      "horaire": {
-        "2026-05-29": [
-          {
-            "session_id": 33082,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-30": [
-          {
-            "session_id": 33098,
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 33106,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-05-31": [
-          {
-            "session_id": 33110,
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 33118,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-06-03": [
-          {
-            "session_id": 33088,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
-        "2026-06-04": [
-          {
-            "session_id": 33094,
-            "heure": "18:55",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1780095300,
-      "last_show": 1780613700
+      "first_show": 1780158900,
+      "last_show": 1780614900
     },
     {
       "id": "ST00001920",
@@ -272,17 +114,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=GCzez8iev6E",
       "content": "Suspense fantastique",
       "horaire": {
-        "2026-05-29": [
-          {
-            "session_id": 33081,
-            "heure": "19:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-05-30": [
           {
             "session_id": 33099,
@@ -419,8 +250,90 @@
           }
         ]
       },
-      "first_show": 1780095900,
+      "first_show": 1780159500,
       "last_show": 1781219100
+    },
+    {
+      "id": "ST00001800",
+      "titre": "LE MANDALORIAN ET GROGU",
+      "OpeningDate": "2026-05-22",
+      "synopsis": "Le Mandalorian, un chasseur de primes agissant pour le compte de la Nouvelle République, pourchasse les seigneurs de guerre qui se sont dispersés dans la galaxie après la chute de l’Empire. Accompagné de Grogu, son jeune protégé qui maîtrise la Force, il accepte une nouvelle mission destinée à préserver les acquis de la Rébellion, mais qui recèle de nombreux dangers.",
+      "classification": "G",
+      "duree": 132,
+      "genre": "Science Fiction",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005654",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005652",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
+      "content": "DAJE | Aventures de science-fiction",
+      "horaire": {
+        "2026-05-30": [
+          {
+            "session_id": 33098,
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 33106,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-05-31": [
+          {
+            "session_id": 33110,
+            "heure": "12:45",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          },
+          {
+            "session_id": 33118,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-06-03": [
+          {
+            "session_id": 33088,
+            "heure": "18:55",
+            "attributs": [
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ],
+        "2026-06-04": [
+          {
+            "session_id": 33094,
+            "heure": "18:55",
+            "attributs": [
+              "DERNIÈRE",
+              "DLX"
+            ],
+            "salle": "6",
+            "placesDisponibles": 49
+          }
+        ]
+      },
+      "first_show": 1780159500,
+      "last_show": 1780613700
     },
     {
       "id": "ST00001922",
@@ -437,15 +350,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=ePQExHx9gHs",
       "content": "Chronique historique",
       "horaire": {
-        "2026-05-29": [
-          {
-            "session_id": 33122,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-05-30": [
           {
             "session_id": 33123,
@@ -558,7 +462,7 @@
           }
         ]
       },
-      "first_show": 1780095900,
+      "first_show": 1780160100,
       "last_show": 1781219700
     },
     {
@@ -576,15 +480,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=nahCyGr-7kQ",
       "content": "Violence | Horreur | Suspense d'épouvante",
       "horaire": {
-        "2026-05-29": [
-          {
-            "session_id": 33083,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-05-30": [
           {
             "session_id": 33102,
@@ -638,88 +533,138 @@
           }
         ]
       },
-      "first_show": 1780096500,
+      "first_show": 1780160700,
       "last_show": 1780614900
     },
     {
-      "id": "ST00001854",
-      "titre": "OBSESSION",
-      "OpeningDate": "2026-05-15",
-      "synopsis": "Timide et maladroit, Barron est attiré par sa charmante collègue Nikky. Pour augmenter ses chances de la séduire, il achète un jouet énigmatique et amusant qui promet d’exaucer des vœux. À sa grande surprise, Barron obtient le succès attendu. Après une courte période de bonheur idyllique, les événements dévoilent les côtés obscurs et imprévisibles de son amoureuse.",
-      "classification": "16+",
-      "duree": 108,
-      "genre": "Horror",
+      "id": "ST00001890",
+      "titre": "LE SOUTIEN DE FAMILLE",
+      "OpeningDate": "2026-05-29",
+      "synopsis": "Nate Wilcox excelle dans son emploi de vendeur d’automobiles alors que son épouse, Katie, s'occupe avec soin de la maison et de leurs trois enfants. Elle gère aussi une petite entreprise qui commercialise une invention de son cru. Un jour, elle se voit offrir un partenariat qui permettra de faire croître sa compagnie de façon exponentielle, si elle accepte de partir à l’étranger pendant plusieurs semaines. Nate l’encourage à saisir l’occasion et lui promet de prendre tout en charge pendant son absence, ne réalisant pas l’ampleur de la tâche qui l’attend.",
+      "classification": "G",
+      "duree": 99,
+      "genre": "Comedy",
       "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005426",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005424",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005642",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005640",
       "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
-      "content": "Violence | Horreur | Suspense psychopathologique",
+      "bande_annonce": "https://www.youtube.com/watch?v=UGkDayulFJE",
+      "content": "Comédie",
       "horaire": {
-        "2026-05-29": [
-          {
-            "session_id": 33080,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-05-30": [
           {
-            "session_id": 33100,
-            "heure": "12:35",
+            "session_id": 33101,
+            "heure": "13:05",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           },
           {
-            "session_id": 33104,
-            "heure": "19:15",
+            "session_id": 33108,
+            "heure": "18:35",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-05-31": [
           {
-            "session_id": 33112,
-            "heure": "12:35",
+            "session_id": 33113,
+            "heure": "13:05",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           },
           {
-            "session_id": 33116,
-            "heure": "19:15",
+            "session_id": 33120,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-06-03": [
           {
-            "session_id": 33086,
-            "heure": "19:15",
+            "session_id": 33090,
+            "heure": "18:45",
             "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ],
         "2026-06-04": [
           {
-            "session_id": 33092,
-            "heure": "19:15",
+            "session_id": 33096,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-05": [
+          {
+            "session_id": 33136,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-06": [
+          {
+            "session_id": 33153,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33160,
+            "heure": "18:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-07": [
+          {
+            "session_id": 33165,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33172,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-10": [
+          {
+            "session_id": 33142,
+            "heure": "18:45",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-06-11": [
+          {
+            "session_id": 33148,
+            "heure": "18:45",
             "attributs": [
               "DERNIÈRE"
             ],
-            "salle": "5",
-            "placesDisponibles": 85
+            "salle": "1",
+            "placesDisponibles": 177
           }
         ]
       },
-      "first_show": 1780096500,
-      "last_show": 1780614900
+      "first_show": 1780160700,
+      "last_show": 1781217900
     }
   ]
 }
