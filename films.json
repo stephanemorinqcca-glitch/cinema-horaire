@@ -662,7 +662,7 @@
       "titre": "FILM DE PEUR",
       "OpeningDate": "2026-06-05",
       "synopsis": "Vingt-six ans après avoir échappé à un tueur masqué étrangement familier, Ghostface, les héros emblématiques de la saga sont de nouveau dans la ligne de mire du meurtrier, et aucune franchise de film d'horreur n'est à l'abri.",
-      "classification": null,
+      "classification": "13+",
       "duree": 96,
       "genre": "Black Comedy",
       "format": "2D Digital",
@@ -670,7 +670,7 @@
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005492",
       "banniere": "",
       "bande_annonce": "https://www.youtube.com/watch?v=0udT3URx6PM",
-      "content": "Comédie parodique",
+      "content": "Violence | Langage Vulgaire | Comédie parodique",
       "horaire": {
         "2026-06-05": [
           {
