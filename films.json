@@ -92,7 +92,9 @@
           {
             "session_id": 33146,
             "heure": "19:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "3",
             "placesDisponibles": 72
           }
@@ -336,7 +338,9 @@
           {
             "session_id": 33164,
             "heure": "13:05",
-            "attributs": [],
+            "attributs": [
+              "DERNIÈRE"
+            ],
             "salle": "3",
             "placesDisponibles": 72
           }
@@ -466,10 +470,10 @@
       "id": "ST00001888",
       "titre": "LES MAÎTRES DE L'UNIVERS",
       "OpeningDate": "2026-06-05",
-      "synopsis": "Après en avoir été séparée pendant 15 ans, l’Épée de pouvoir guide le prince Adam de retour sur Eternia, où il découvre son monde brisé sous le règne maléfique de Skeletor. Pour sauver sa famille et son royaume, Adam doit unir ses forces à celles de ses plus proches alliés, Teela et Duncan, alias le Maître d’Armes, et accepter sa véritable destinée en devenant Musclor — l’homme le plus puissant de l’univers.",
+      "synopsis": "Les habitants de la planète Eternia sont envahis par des guerriers ennemis sous les ordres du sinistre Skeletor. La famille royale est en danger et, pour protéger le jeune prince Adam, une enchanteresse fait apparaître un portail vers la Terre où il pourra se cacher. Elle lui confie une épée magique, une arme d’une grande puissance, qui lui permettra de retrouver son chemin. Quinze ans plus tard, Adam vit toujours sur Terre et cherche incessamment l’épée perdue lors de son arrivée, pour enfin pouvoir retourner chez lui.",
       "classification": "G",
       "duree": 141,
-      "genre": "Sci-Fi",
+      "genre": "Adventure",
       "format": "2D Digital",
       "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005366",
       "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005364",
