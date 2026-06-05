@@ -2,13 +2,6 @@
   "cinema": "Cinéma Centre-Ville",
   "legende": [
     {
-      "ShortName": "DERNIÈRE",
-      "Description": "//",
-      "FontColor": "#666666",
-      "BackgroundColor": "#eeeeee",
-      "ShowOnSessionsWithNoComps": false
-    },
-    {
       "ShortName": "DLX",
       "Description": "Sièges spacieux",
       "FontColor": "#666666",
@@ -396,9 +389,7 @@
           {
             "session_id": 33146,
             "heure": "19:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
+            "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           }
@@ -672,9 +663,7 @@
           {
             "session_id": 33164,
             "heure": "13:05",
-            "attributs": [
-              "DERNIÈRE"
-            ],
+            "attributs": [],
             "salle": "3",
             "placesDisponibles": 72
           }
