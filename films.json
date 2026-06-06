@@ -166,11 +166,13 @@
       "horaire": {
         "2026-06-06": [
           {
-            "session_id": 33154,
+            "session_id": 33151,
             "heure": "12:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
+            "attributs": [
+              "DLX+"
+            ],
+            "salle": "4",
+            "placesDisponibles": 75
           },
           {
             "session_id": 33157,
@@ -389,13 +391,11 @@
       "horaire": {
         "2026-06-06": [
           {
-            "session_id": 33151,
+            "session_id": 33154,
             "heure": "13:05",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
           },
           {
             "session_id": 33159,
