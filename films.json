@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-06-13",
+    "next_show_date": "2026-06-14",
     "next_show_time": "12:35"
   },
   "films": [
@@ -43,26 +43,6 @@
       "bande_annonce": "https://youtu.be/omJq95pMXec",
       "content": "Science-fiction",
       "horaire": {
-        "2026-06-13": [
-          {
-            "session_id": 33193,
-            "heure": "12:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 33201,
-            "heure": "18:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-06-14": [
           {
             "session_id": 33205,
@@ -219,7 +199,7 @@
           }
         ]
       },
-      "first_show": 1781368500,
+      "first_show": 1781454900,
       "last_show": 1782426900
     },
     {
@@ -237,22 +217,6 @@
       "bande_annonce": "https://youtu.be/jzKm4T0fI3o",
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
-        "2026-06-13": [
-          {
-            "session_id": 33192,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 33198,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-06-14": [
           {
             "session_id": 33204,
@@ -288,7 +252,7 @@
           }
         ]
       },
-      "first_show": 1781368500,
+      "first_show": 1781454900,
       "last_show": 1781822700
     },
     {
@@ -306,22 +270,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-06-13": [
-          {
-            "session_id": 33196,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33197,
-            "heure": "18:55",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-06-14": [
           {
             "session_id": 33208,
@@ -350,7 +298,7 @@
           }
         ]
       },
-      "first_show": 1781369100,
+      "first_show": 1781455500,
       "last_show": 1781736900
     },
     {
@@ -368,22 +316,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=GCzez8iev6E",
       "content": "Suspense fantastique",
       "horaire": {
-        "2026-06-13": [
-          {
-            "session_id": 33194,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33200,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-06-14": [
           {
             "session_id": 33206,
@@ -419,7 +351,7 @@
           }
         ]
       },
-      "first_show": 1781369700,
+      "first_show": 1781456100,
       "last_show": 1781823900
     },
     {
@@ -437,22 +369,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=0udT3URx6PM",
       "content": "Violence | Langage Vulgaire | Comédie parodique",
       "horaire": {
-        "2026-06-13": [
-          {
-            "session_id": 33301,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33302,
-            "heure": "19:25",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-06-14": [
           {
             "session_id": 33303,
@@ -488,7 +404,7 @@
           }
         ]
       },
-      "first_show": 1781370300,
+      "first_show": 1781456700,
       "last_show": 1781824500
     },
     {
@@ -506,26 +422,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
       "content": "Violence | Horreur | Suspense psychopathologique",
       "horaire": {
-        "2026-06-13": [
-          {
-            "session_id": 33191,
-            "heure": "13:05",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 33199,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-06-14": [
           {
             "session_id": 33203,
@@ -569,7 +465,7 @@
           }
         ]
       },
-      "first_show": 1781370300,
+      "first_show": 1781456700,
       "last_show": 1781824500
     },
     {
