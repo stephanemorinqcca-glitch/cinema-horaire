@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-06-22",
+    "next_show_date": "2026-06-23",
     "next_show_time": "18:35"
   },
   "films": [
@@ -43,17 +43,6 @@
       "bande_annonce": "https://youtu.be/omJq95pMXec",
       "content": "Science-fiction",
       "horaire": {
-        "2026-06-22": [
-          {
-            "session_id": 33221,
-            "heure": "18:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-06-23": [
           {
             "session_id": 33227,
@@ -264,7 +253,7 @@
           }
         ]
       },
-      "first_show": 1782167700,
+      "first_show": 1782254100,
       "last_show": 1783031700
     },
     {
@@ -282,15 +271,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
       "content": "DAJE | Aventures de science-fiction",
       "horaire": {
-        "2026-06-22": [
-          {
-            "session_id": 33224,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-06-23": [
           {
             "session_id": 33230,
@@ -335,7 +315,7 @@
           }
         ]
       },
-      "first_show": 1782168300,
+      "first_show": 1782254700,
       "last_show": 1782427500
     },
     {
@@ -353,15 +333,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=_Luchz8-TcU",
       "content": "Animation",
       "horaire": {
-        "2026-06-22": [
-          {
-            "session_id": 33223,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-06-23": [
           {
             "session_id": 33229,
@@ -530,7 +501,7 @@
           }
         ]
       },
-      "first_show": 1782169500,
+      "first_show": 1782255900,
       "last_show": 1783032300
     },
     {
@@ -548,15 +519,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=GCzez8iev6E",
       "content": "Suspense fantastique",
       "horaire": {
-        "2026-06-22": [
-          {
-            "session_id": 33222,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-06-23": [
           {
             "session_id": 33228,
@@ -597,10 +559,106 @@
             "salle": "5",
             "placesDisponibles": 85
           }
+        ],
+        "2026-06-26": [
+          {
+            "session_id": 33314,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33319,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-27": [
+          {
+            "session_id": 33326,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33388,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33331,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-28": [
+          {
+            "session_id": 33394,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33406,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33399,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-29": [
+          {
+            "session_id": 33338,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33343,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-30": [
+          {
+            "session_id": 33350,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33355,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
         ]
       },
-      "first_show": 1782170100,
-      "last_show": 1782429300
+      "first_show": 1782256500,
+      "last_show": 1782861300
     },
     {
       "id": "ST00001854",
@@ -617,17 +675,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
       "content": "Violence | Horreur | Suspense psychopathologique",
       "horaire": {
-        "2026-06-22": [
-          {
-            "session_id": 33226,
-            "heure": "19:15",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-06-23": [
           {
             "session_id": 33232,
@@ -673,6 +720,7 @@
             "session_id": 33279,
             "heure": "19:15",
             "attributs": [
+              "DERNIÈRE",
               "DLX"
             ],
             "salle": "6",
@@ -680,7 +728,7 @@
           }
         ]
       },
-      "first_show": 1782170100,
+      "first_show": 1782256500,
       "last_show": 1782429300
     },
     {
@@ -698,15 +746,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=0udT3URx6PM",
       "content": "Violence | Langage Vulgaire | Comédie parodique",
       "horaire": {
-        "2026-06-22": [
-          {
-            "session_id": 33225,
-            "heure": "19:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-06-23": [
           {
             "session_id": 33231,
@@ -845,7 +884,7 @@
           }
         ]
       },
-      "first_show": 1782171300,
+      "first_show": 1782257100,
       "last_show": 1782861300
     },
     {
@@ -1182,6 +1221,279 @@
       },
       "first_show": 1782492900,
       "last_show": 1783638300
+    },
+    {
+      "id": "ST00001940",
+      "titre": "JACKASS: LE MEILLEUR POUR LA FIN",
+      "OpeningDate": "2026-06-26",
+      "synopsis": "Célébration nostalgique et un adieu joyeusement chaotique. Il combine de nouvelles cascades inédites et extrêmes avec les meilleurs moments et les plus grands éclats de rire des précédents films.Les acteurs originaux, devenus cinquantenaires pour la plupart, se lancent dans une dernière série de défis absurdes et douloureux, toujours accompagnés de quelques nouveaux visages.",
+      "classification": "16+",
+      "duree": 92,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005666",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005664",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=3DTyL1i9qNU",
+      "content": "Langage Vulgaire | Sketches comique",
+      "horaire": {
+        "2026-06-26": [
+          {
+            "session_id": 33311,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33317,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-06-27": [
+          {
+            "session_id": 33323,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33383,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33329,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-06-28": [
+          {
+            "session_id": 33391,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33402,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33397,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-06-29": [
+          {
+            "session_id": 33335,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33341,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-06-30": [
+          {
+            "session_id": 33347,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33353,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-01": [
+          {
+            "session_id": 33359,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33365,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-02": [
+          {
+            "session_id": 33410,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33416,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-03": [
+          {
+            "session_id": 33457,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33465,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-04": [
+          {
+            "session_id": 33421,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33428,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33434,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-05": [
+          {
+            "session_id": 33439,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33446,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33452,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-06": [
+          {
+            "session_id": 33469,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33477,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-07": [
+          {
+            "session_id": 33481,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33489,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-08": [
+          {
+            "session_id": 33493,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33501,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ],
+        "2026-07-09": [
+          {
+            "session_id": 33505,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "3",
+            "placesDisponibles": 72
+          },
+          {
+            "session_id": 33513,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "3",
+            "placesDisponibles": 72
+          }
+        ]
+      },
+      "first_show": 1782493500,
+      "last_show": 1783638900
     }
   ]
 }
