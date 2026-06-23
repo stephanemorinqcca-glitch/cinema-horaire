@@ -1494,6 +1494,360 @@
       },
       "first_show": 1782493500,
       "last_show": 1783638900
+    },
+    {
+      "id": "ST00001814",
+      "titre": "LES MINIONS ET LES MONSTRES",
+      "OpeningDate": "2026-07-01",
+      "synopsis": "James et Henry, deux nouveaux minions, plonges dans le Hollywood des années 1920. Cherchant à servir un maître maléfique, ils se lancent dans le cinéma avant de tout perdre et de libérer accidentellement des créatures terrifiantes sur Terre. Ils doivent alors s'unir pour sauver la planète.",
+      "classification": "G",
+      "duree": 90,
+      "genre": "Animated ",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005646",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005644",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=9iLgsjeFq6s",
+      "content": "Animation",
+      "horaire": {
+        "2026-07-01": [
+          {
+            "session_id": 33362,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33407,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-02": [
+          {
+            "session_id": 33411,
+            "heure": "12:55",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33419,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-03": [
+          {
+            "session_id": 33459,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33467,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-04": [
+          {
+            "session_id": 33516,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33517,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33518,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-05": [
+          {
+            "session_id": 33519,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33520,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33521,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-06": [
+          {
+            "session_id": 33471,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33479,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-07": [
+          {
+            "session_id": 33483,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33491,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-08": [
+          {
+            "session_id": 33495,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33503,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ],
+        "2026-07-09": [
+          {
+            "session_id": 33507,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          },
+          {
+            "session_id": 33515,
+            "heure": "18:25",
+            "attributs": [],
+            "salle": "1",
+            "placesDisponibles": 177
+          }
+        ]
+      },
+      "first_show": 1782924900,
+      "last_show": 1783635900
+    },
+    {
+      "id": "ST00001896",
+      "titre": "FRANÇOIS.E",
+      "OpeningDate": "2026-07-01",
+      "synopsis": "François, scénariste de 50 ans en déclin professionnel, coche cyniquement la case «transgenre» pour favoriser le financement de son dernier projet de série télé. Quand, contre toute attente, son plan fonctionne et son projet est accepté, il se retrouve à devoir incarner… Françoise, une autrice qui amorce sa transition. Incapable de remplir le mandat demandé, il devra s’allier à Sarah, une vraie écrivaine trans. Dans la peau de Françoise, François accède enfin au succès. Il remplit son compte en banque et renoue avec sa fille adolescente… mais à mesure que son imposture se prolonge, le prix à payer s'avère plus lourd que prévu : ses liens les plus vrais se tissent autour de sa nouvelle identité. Françoise le libère autant qu'elle l'emprisonne.",
+      "classification": "13+",
+      "duree": 91,
+      "genre": "Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005610",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005608",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=1m80coypSrg",
+      "content": "Comédie dramatique",
+      "horaire": {
+        "2026-07-01": [
+          {
+            "session_id": 33358,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33364,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-02": [
+          {
+            "session_id": 33409,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33415,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-03": [
+          {
+            "session_id": 33461,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33464,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-04": [
+          {
+            "session_id": 33425,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33430,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33436,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-05": [
+          {
+            "session_id": 33443,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33448,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33454,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-06": [
+          {
+            "session_id": 33473,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33476,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-07": [
+          {
+            "session_id": 33485,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33488,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-08": [
+          {
+            "session_id": 33497,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33500,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-07-09": [
+          {
+            "session_id": 33509,
+            "heure": "12:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33512,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1782925500,
+      "last_show": 1783638900
     }
   ]
 }
