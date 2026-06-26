@@ -24,8 +24,8 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-06-25",
-    "next_show_time": "12:15"
+    "next_show_date": "2026-06-26",
+    "next_show_time": "12:25"
   },
   "films": [
     {
@@ -43,26 +43,6 @@
       "bande_annonce": "https://youtu.be/omJq95pMXec",
       "content": "Science-fiction",
       "horaire": {
-        "2026-06-25": [
-          {
-            "session_id": 33269,
-            "heure": "12:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 33275,
-            "heure": "18:35",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-06-26": [
           {
             "session_id": 33313,
@@ -222,347 +202,8 @@
           }
         ]
       },
-      "first_show": 1782404100,
+      "first_show": 1782491100,
       "last_show": 1783031700
-    },
-    {
-      "id": "ST00001800",
-      "titre": "LE MANDALORIAN ET GROGU",
-      "OpeningDate": "2026-05-22",
-      "synopsis": "Le Mandalorian, un chasseur de primes agissant pour le compte de la Nouvelle République, pourchasse les seigneurs de guerre qui se sont dispersés dans la galaxie après la chute de l’Empire. Accompagné de Grogu, son jeune protégé qui maîtrise la Force, il accepte une nouvelle mission destinée à préserver les acquis de la Rébellion, mais qui recèle de nombreux dangers.",
-      "classification": "G",
-      "duree": 132,
-      "genre": "Science Fiction",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005654",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005652",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=ItE2EmrfIvo",
-      "content": "DAJE | Aventures de science-fiction",
-      "horaire": {
-        "2026-06-25": [
-          {
-            "session_id": 33291,
-            "heure": "12:25",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 33294,
-            "heure": "18:45",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ]
-      },
-      "first_show": 1782404700,
-      "last_show": 1782427500
-    },
-    {
-      "id": "ST00001920",
-      "titre": "BACKROOMS: LES ARRIÈRE-SALLES",
-      "OpeningDate": "2026-05-29",
-      "synopsis": "Propriétaire d’un magasin de meubles auquel il se consacre corps et âme, Clark surmonte difficilement sa récente rupture avec sa femme. Il consulte régulièrement une psychologue, Mary Kline, qui cherche à susciter chez lui des réflexes d’introspection. Une nuit, au hasard de ses tentatives pour faire fonctionner les disjoncteurs défectueux situés au sous-sol de son commerce, il est aspiré par le mur et se retrouve dans une arrière-salle souterraine dont il ne soupçonnait pas l’existence. Ce lieu, où sont empilés des meubles provenant de sa boutique, débouche sur une enfilade de pièces qui forment une sorte de labyrinthe d’où émanent des voix bizarres et surgissent des silhouettes inquiétantes. Affolé, Clark parvient à retraverser dans son magasin, puis confie sa découverte à Mary, qui demeure sceptique. Il décide donc d’y retourner avec deux employés armés d’une caméra, afin de lui fournir la preuve de ses affirmations.",
-      "classification": "13+",
-      "duree": 111,
-      "genre": "Horror",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005530",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005528",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=GCzez8iev6E",
-      "content": "Suspense fantastique",
-      "horaire": {
-        "2026-06-25": [
-          {
-            "session_id": 33272,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33276,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-06-26": [
-          {
-            "session_id": 33314,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33319,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-06-27": [
-          {
-            "session_id": 33326,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33388,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33331,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-06-28": [
-          {
-            "session_id": 33394,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33406,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33399,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-06-29": [
-          {
-            "session_id": 33338,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33343,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-06-30": [
-          {
-            "session_id": 33350,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33355,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ]
-      },
-      "first_show": 1782405900,
-      "last_show": 1782861300
-    },
-    {
-      "id": "ST00001854",
-      "titre": "OBSESSION",
-      "OpeningDate": "2026-05-15",
-      "synopsis": "Timide et maladroit, Barron est attiré par sa charmante collègue Nikky. Pour augmenter ses chances de la séduire, il achète un jouet énigmatique et amusant qui promet d’exaucer des vœux. À sa grande surprise, Barron obtient le succès attendu. Après une courte période de bonheur idyllique, les événements dévoilent les côtés obscurs et imprévisibles de son amoureuse.",
-      "classification": "16+",
-      "duree": 108,
-      "genre": "Suspense",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005426",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005424",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=3EaQKad8_1g",
-      "content": "Violence | Horreur | Suspense psychopathologique",
-      "horaire": {
-        "2026-06-25": [
-          {
-            "session_id": 33271,
-            "heure": "12:45",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 33279,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE",
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ]
-      },
-      "first_show": 1782405900,
-      "last_show": 1782429300
-    },
-    {
-      "id": "ST00001892",
-      "titre": "FILM DE PEUR",
-      "OpeningDate": "2026-06-05",
-      "synopsis": "Plus de 25 ans après avoir semé la panique dans une petite ville, un mystérieux tueur masqué, Ghostface, refait surface et menace des adolescents qu’il hameçonne par des appels téléphoniques dans lesquels il les invite à dévoiler leur film de peur préféré. À la suite de l’hospitalisation de Tuesday, qui a échappé de peu à la mort, sa sœur Sara se tourne vers Cindy, leur mère qui a jadis eu maille à partir avec l’assassin. Dans l’espoir de mettre fin au cauchemar, Cindy renoue avec ses amis Brenda, Shorty et Ray, mais la chasse au meurtrier ne sera pas de tout repos.",
-      "classification": "13+",
-      "duree": 96,
-      "genre": "Black Comedy",
-      "format": "2D Digital",
-      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005494",
-      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005492",
-      "banniere": "",
-      "bande_annonce": "https://www.youtube.com/watch?v=0udT3URx6PM",
-      "content": "Violence | Langage Vulgaire | Comédie parodique",
-      "horaire": {
-        "2026-06-25": [
-          {
-            "session_id": 33288,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33295,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
-        "2026-06-26": [
-          {
-            "session_id": 33310,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33316,
-            "heure": "19:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-06-27": [
-          {
-            "session_id": 33322,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33386,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33328,
-            "heure": "19:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-06-28": [
-          {
-            "session_id": 33390,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33404,
-            "heure": "15:35",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33396,
-            "heure": "19:25",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-06-29": [
-          {
-            "session_id": 33334,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33340,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
-        "2026-06-30": [
-          {
-            "session_id": 33346,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33352,
-            "heure": "19:15",
-            "attributs": [
-              "DERNIÈRE"
-            ],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ]
-      },
-      "first_show": 1782406500,
-      "last_show": 1782861300
     },
     {
       "id": "ST00001812",
@@ -579,22 +220,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=_Luchz8-TcU",
       "content": "Animation",
       "horaire": {
-        "2026-06-25": [
-          {
-            "session_id": 33297,
-            "heure": "12:55",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33298,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-06-26": [
           {
             "session_id": 33312,
@@ -722,8 +347,123 @@
           }
         ]
       },
-      "first_show": 1782406500,
+      "first_show": 1782491700,
       "last_show": 1783032300
+    },
+    {
+      "id": "ST00001920",
+      "titre": "BACKROOMS: LES ARRIÈRE-SALLES",
+      "OpeningDate": "2026-05-29",
+      "synopsis": "Propriétaire d’un magasin de meubles auquel il se consacre corps et âme, Clark surmonte difficilement sa récente rupture avec sa femme. Il consulte régulièrement une psychologue, Mary Kline, qui cherche à susciter chez lui des réflexes d’introspection. Une nuit, au hasard de ses tentatives pour faire fonctionner les disjoncteurs défectueux situés au sous-sol de son commerce, il est aspiré par le mur et se retrouve dans une arrière-salle souterraine dont il ne soupçonnait pas l’existence. Ce lieu, où sont empilés des meubles provenant de sa boutique, débouche sur une enfilade de pièces qui forment une sorte de labyrinthe d’où émanent des voix bizarres et surgissent des silhouettes inquiétantes. Affolé, Clark parvient à retraverser dans son magasin, puis confie sa découverte à Mary, qui demeure sceptique. Il décide donc d’y retourner avec deux employés armés d’une caméra, afin de lui fournir la preuve de ses affirmations.",
+      "classification": "13+",
+      "duree": 111,
+      "genre": "Horror",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005530",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005528",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=GCzez8iev6E",
+      "content": "Suspense fantastique",
+      "horaire": {
+        "2026-06-26": [
+          {
+            "session_id": 33314,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33319,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-27": [
+          {
+            "session_id": 33326,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33388,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33331,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-28": [
+          {
+            "session_id": 33394,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33406,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33399,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-29": [
+          {
+            "session_id": 33338,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33343,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ],
+        "2026-06-30": [
+          {
+            "session_id": 33350,
+            "heure": "12:45",
+            "attributs": [],
+            "salle": "2",
+            "placesDisponibles": 91
+          },
+          {
+            "session_id": 33355,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "2",
+            "placesDisponibles": 91
+          }
+        ]
+      },
+      "first_show": 1782492300,
+      "last_show": 1782861300
     },
     {
       "id": "ST00001834",
@@ -1059,6 +799,121 @@
       },
       "first_show": 1782492900,
       "last_show": 1783638300
+    },
+    {
+      "id": "ST00001892",
+      "titre": "FILM DE PEUR",
+      "OpeningDate": "2026-06-05",
+      "synopsis": "Plus de 25 ans après avoir semé la panique dans une petite ville, un mystérieux tueur masqué, Ghostface, refait surface et menace des adolescents qu’il hameçonne par des appels téléphoniques dans lesquels il les invite à dévoiler leur film de peur préféré. À la suite de l’hospitalisation de Tuesday, qui a échappé de peu à la mort, sa sœur Sara se tourne vers Cindy, leur mère qui a jadis eu maille à partir avec l’assassin. Dans l’espoir de mettre fin au cauchemar, Cindy renoue avec ses amis Brenda, Shorty et Ray, mais la chasse au meurtrier ne sera pas de tout repos.",
+      "classification": "13+",
+      "duree": 96,
+      "genre": "Black Comedy",
+      "format": "2D Digital",
+      "affiche": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005494",
+      "thumbnail": "https://cdn.useast.veezi.com/Media/data/v2/get/bhxnyk826jyn2z6wtzwch7mp2g/0000005492",
+      "banniere": "",
+      "bande_annonce": "https://www.youtube.com/watch?v=0udT3URx6PM",
+      "content": "Violence | Langage Vulgaire | Comédie parodique",
+      "horaire": {
+        "2026-06-26": [
+          {
+            "session_id": 33310,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33316,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-06-27": [
+          {
+            "session_id": 33322,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33386,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33328,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-06-28": [
+          {
+            "session_id": 33390,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33404,
+            "heure": "15:35",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33396,
+            "heure": "19:25",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-06-29": [
+          {
+            "session_id": 33334,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33340,
+            "heure": "19:15",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ],
+        "2026-06-30": [
+          {
+            "session_id": 33346,
+            "heure": "13:05",
+            "attributs": [],
+            "salle": "5",
+            "placesDisponibles": 85
+          },
+          {
+            "session_id": 33352,
+            "heure": "19:15",
+            "attributs": [
+              "DERNIÈRE"
+            ],
+            "salle": "5",
+            "placesDisponibles": 85
+          }
+        ]
+      },
+      "first_show": 1782493500,
+      "last_show": 1782861300
     },
     {
       "id": "ST00001940",
