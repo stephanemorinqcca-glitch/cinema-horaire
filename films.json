@@ -24,7 +24,7 @@
     }
   ],
   "_meta": {
-    "next_show_date": "2026-06-29",
+    "next_show_date": "2026-06-30",
     "next_show_time": "12:25"
   },
   "films": [
@@ -43,26 +43,6 @@
       "bande_annonce": "https://youtu.be/omJq95pMXec",
       "content": "Science-fiction",
       "horaire": {
-        "2026-06-29": [
-          {
-            "session_id": 33337,
-            "heure": "12:25",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          },
-          {
-            "session_id": 33344,
-            "heure": "18:35",
-            "attributs": [
-              "DLX"
-            ],
-            "salle": "6",
-            "placesDisponibles": 49
-          }
-        ],
         "2026-06-30": [
           {
             "session_id": 33349,
@@ -244,7 +224,7 @@
           }
         ]
       },
-      "first_show": 1782750300,
+      "first_show": 1782836700,
       "last_show": 1783636500
     },
     {
@@ -262,22 +242,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=_Luchz8-TcU",
       "content": "Animation",
       "horaire": {
-        "2026-06-29": [
-          {
-            "session_id": 33336,
-            "heure": "12:35",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          },
-          {
-            "session_id": 33342,
-            "heure": "18:45",
-            "attributs": [],
-            "salle": "1",
-            "placesDisponibles": 177
-          }
-        ],
         "2026-06-30": [
           {
             "session_id": 33348,
@@ -453,7 +417,7 @@
           }
         ]
       },
-      "first_show": 1782750900,
+      "first_show": 1782837300,
       "last_show": 1783637100
     },
     {
@@ -471,22 +435,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=GCzez8iev6E",
       "content": "Suspense fantastique",
       "horaire": {
-        "2026-06-29": [
-          {
-            "session_id": 33338,
-            "heure": "12:45",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          },
-          {
-            "session_id": 33343,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "2",
-            "placesDisponibles": 91
-          }
-        ],
         "2026-06-30": [
           {
             "session_id": 33350,
@@ -506,7 +454,7 @@
           }
         ]
       },
-      "first_show": 1782751500,
+      "first_show": 1782837900,
       "last_show": 1782861300
     },
     {
@@ -524,24 +472,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=r0VGuShYTT0",
       "content": "DAJE | Aventures fantastiques",
       "horaire": {
-        "2026-06-29": [
-          {
-            "session_id": 33333,
-            "heure": "12:55",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          },
-          {
-            "session_id": 33341,
-            "heure": "19:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          }
-        ],
         "2026-06-30": [
           {
             "session_id": 33345,
@@ -747,7 +677,7 @@
           }
         ]
       },
-      "first_show": 1782752100,
+      "first_show": 1782838500,
       "last_show": 1783638300
     },
     {
@@ -765,22 +695,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=0udT3URx6PM",
       "content": "Violence | Langage Vulgaire | Comédie parodique",
       "horaire": {
-        "2026-06-29": [
-          {
-            "session_id": 33334,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          },
-          {
-            "session_id": 33340,
-            "heure": "19:15",
-            "attributs": [],
-            "salle": "5",
-            "placesDisponibles": 85
-          }
-        ],
         "2026-06-30": [
           {
             "session_id": 33346,
@@ -800,7 +714,7 @@
           }
         ]
       },
-      "first_show": 1782752700,
+      "first_show": 1782839100,
       "last_show": 1782861300
     },
     {
@@ -818,24 +732,6 @@
       "bande_annonce": "https://www.youtube.com/watch?v=3DTyL1i9qNU",
       "content": "Langage Vulgaire | Sketches comique",
       "horaire": {
-        "2026-06-29": [
-          {
-            "session_id": 33335,
-            "heure": "13:05",
-            "attributs": [],
-            "salle": "3",
-            "placesDisponibles": 72
-          },
-          {
-            "session_id": 33339,
-            "heure": "19:15",
-            "attributs": [
-              "DLX+"
-            ],
-            "salle": "4",
-            "placesDisponibles": 75
-          }
-        ],
         "2026-06-30": [
           {
             "session_id": 33347,
@@ -964,7 +860,7 @@
           },
           {
             "session_id": 33474,
-            "heure": "19:25",
+            "heure": "19:15",
             "attributs": [
               "DLX"
             ],
@@ -982,7 +878,7 @@
           },
           {
             "session_id": 33486,
-            "heure": "19:25",
+            "heure": "19:15",
             "attributs": [
               "DLX"
             ],
@@ -1000,7 +896,7 @@
           },
           {
             "session_id": 33498,
-            "heure": "19:25",
+            "heure": "19:15",
             "attributs": [
               "DLX"
             ],
@@ -1018,7 +914,7 @@
           },
           {
             "session_id": 33510,
-            "heure": "19:25",
+            "heure": "19:15",
             "attributs": [
               "DERNIÈRE",
               "DLX"
@@ -1028,8 +924,8 @@
           }
         ]
       },
-      "first_show": 1782752700,
-      "last_show": 1783639500
+      "first_show": 1782839100,
+      "last_show": 1783638900
     },
     {
       "id": "ST00001814",
